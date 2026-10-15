@@ -1,0 +1,31 @@
+[project]
+name = "telaah"
+version = "0.1.0"
+description = "Indonesian multimodal document research agent"
+requires-python = ">=3.10"
+dependencies = [
+  "docling",
+  "sentence-transformers",
+  "qdrant-client",
+  "openai",
+  "python-dotenv",
+  "mcp>=1.2,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+colpali = ["colpali-engine", "pymupdf"]
+
+[project.scripts]
+telaah = "telaah.cli:main"
+telaah-mcp = "telaah.mcp_server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
