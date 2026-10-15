@@ -453,3 +453,20 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 ## Next
 - Finish Gemini run when quota resets (~07:00 on 2026-10-16): `.venv/Scripts/python eval/run_agent_tasks.py --mode router --resume eval/runs/tasks-router-20261015-101935-gemini.partial.jsonl` with the Gemini env (LLM_BASE_URL/LLM_API_KEY/LLM_MODEL, LLM_MIN_INTERVAL=4.5, MAX_ANSWER_TOKENS=2500).
 - Then step 2 decision, then step 3.
+
+# Update — 2026-10-15 (afternoon): decisions on LLM cost; next = router fix (local, free)
+
+## Done
+- Power: idle sleep + hibernate = Never on AC and DC (`powercfg /change ... 0`, verified). Lid action not settable by powercfg on this Acer: keep lid open or set "Do nothing" manually. Undo: `powercfg /change standby-timeout-ac 10` / `-dc 10`.
+- Correction to the 13:00 entry: the Gemini quota resets ~07:00 on 2026-10-16 (429 said "retry in 18h6m" at 12:53).
+
+## Decisions
+- Paid Gemini: user leaned to "Gemini paid tier" but then chose to continue TODAY free and local only (7B, no API). Gemini key stays reserved so tomorrow's 500 free requests finish the Gemini run.
+- Gemini paid facts (checked 2026-10-15): no trial credit usable for AI Studio Gemini API ($300 GCP credit excluded for accounts after 2026-03-02; it only covers Vertex AI). `gemini-3.5-flash-lite` paid = $0.30 in / $2.50 out per 1M tokens (Batch -50%). Tier 1 = link billing, $250/month cap. Estimate (unmeasured): ~$1.5 per full 60-task agent run, ~$0.2 per seed eval, ~$70-130 for the whole roadmap (most in Phase 4 synthetic data + 600-question evals). If enabled: budget alert ~$20/month.
+- Today's direction: work that does not need a strong LLM. Router fix first, then facts table (step 3), both on the 7B.
+
+## Next
+1. Router fix (`src/telaah/router.py`, maybe `agent.DERIVE_RE`): send `regulation` and single-bank `trend` tasks to plain RAG (7B router: regulation 0.13 vs RAG 0.63, trend 0.00 vs 0.50; see `eval/runs/tasks-router-20261015-101830.json` failures, e.g. t051 PADG threshold). Keep compute/ranking/multi_trend on the agent. Add router tests, pytest, commit. Test: `.venv/Scripts/python eval/run_agent_tasks.py --mode router --cats regulation trend` (7B, ~18 tasks, background), compare with `--compare` against the rag and router-7B runs. Also check the 50 seed questions' routing does not change (router unit tests / `telaah eval --router` only if routing changed for seed questions).
+2. Facts table (SQLite: bank, year, indicator, value, unit, doc, page) parsed by code from the summary pages (reuse `eval/build_agent_tasks.py` parsing), `lookup_facts` agent tool, fallback to RAG when not covered. Subset of 10 tasks, then full 60 on 7B in background. Then one seed eval to confirm no regression. Model: Opus 5.5 for the design.
+3. 2026-10-16 after 07:00: finish Gemini run with `--resume eval/runs/tasks-router-20261015-101935-gemini.partial.jsonl` (Gemini env vars, `LLM_MIN_INTERVAL=4.5`); do not use Gemini for anything else before it.
+- Rules: commit before each change; one eval process at a time (Qdrant lock); keep Ollama running.
