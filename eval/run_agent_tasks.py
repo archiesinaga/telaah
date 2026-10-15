@@ -78,7 +78,10 @@ def pages_hit(task: dict, out: dict) -> float | None:
     return round(sum(g in seen for g in gold) / len(gold), 3)
 
 
-def run(mode: str, ids: list[str] | None, cats: list[str] | None) -> Path:
+def run(mode: str, ids: list[str] | None, cats: list[str] | None, resume: str | None = None) -> Path:
+    """Each finished task is appended to a `.partial.jsonl` file, so a crash (e.g. a daily API quota) loses
+    nothing: rerun with `--resume <that file>` and only the missing tasks are run."""
+    from telaah import config
     from telaah.agent import run_agent
     from telaah.answer import ask
     from telaah.router import run_routed
@@ -89,28 +92,42 @@ def run(mode: str, ids: list[str] | None, cats: list[str] | None) -> Path:
         rows = [r for r in rows if r["id"] in ids]
     if cats:
         rows = [r for r in rows if r["category"] in cats]
-    results = []
-    for n, t in enumerate(rows, 1):
-        print(f"[{n}/{len(rows)}] {t['id']} {t['category']}", flush=True)
+    out_dir = HERE / "runs"
+    out_dir.mkdir(exist_ok=True)
+    partial = Path(resume) if resume else out_dir / f"tasks-{mode}-{time.strftime('%Y%m%d-%H%M%S')}.partial.jsonl"
+    results = [json.loads(l) for l in partial.read_text(encoding="utf-8").splitlines() if l.strip()] if resume else []
+    done = {r["id"] for r in results}
+    todo = [t for t in rows if t["id"] not in done]
+    print(f"{len(done)} tasks already done, {len(todo)} to run; progress file {partial}", flush=True)
+    error = None
+    for n, t in enumerate(todo, 1):
+        print(f"[{n}/{len(todo)}] {t['id']} {t['category']}", flush=True)
         t0 = time.time()
-        out = fn(t["question"])
+        try:
+            out = fn(t["question"])
+        except Exception as e:  # quota/network: stop cleanly, keep what is done
+            error = f"{type(e).__name__}: {str(e)[:300]}"
+            print("STOPPED:", error, flush=True)
+            break
         sec = round(time.time() - t0, 1)
         s = score(t, out)
         r = {"id": t["id"], "category": t["category"], "seconds": sec, "steps": len(out.get("steps") or []) or 1,
              "min_steps": t["min_steps"], "route": out.get("route", mode), "verified": out.get("verified"),
              "pages_hit": pages_hit(t, out), "answer": out["answer"], **s}
         results.append(r)
+        with partial.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
         print(f"    {sec}s success={s['success']} partial={s['partial']} failure={s['failure']}", flush=True)
-    from telaah import config
 
+    missing = [t["id"] for t in rows if t["id"] not in {r["id"] for r in results}]
     log = {"config": {"mode": mode, "llm": config.LLM_MODEL, "base_url": config.LLM_BASE_URL},
-           "summary": summarize(results), "results": results}
-    out_dir = HERE / "runs"
-    out_dir.mkdir(exist_ok=True)
-    path = out_dir / f"tasks-{mode}-{time.strftime('%Y%m%d-%H%M%S')}.json"
+           "incomplete": missing, "error": error, "summary": summarize(results), "results": results}
+    path = partial.with_name(partial.name.replace(".partial.jsonl", ".json"))
     path.write_text(json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(log["summary"]["overall"], indent=2))
     print("saved", path)
+    if missing:
+        print(f"INCOMPLETE ({len(missing)} tasks). Resume: python eval/run_agent_tasks.py --mode {mode} --resume {partial}")
     return path
 
 
@@ -152,9 +169,10 @@ if __name__ == "__main__":
     ap.add_argument("--ids", nargs="*")
     ap.add_argument("--cats", nargs="*")
     ap.add_argument("--compare", nargs="*", help="run JSONs to compare (no model calls)")
+    ap.add_argument("--resume", help="a .partial.jsonl progress file; only its missing tasks are run")
     a = ap.parse_args()
     if a.compare:
         compare(a.compare)
     else:
         sys.path.insert(0, str(HERE.parent / "src"))
-        run(a.mode, a.ids, a.cats)
+        run(a.mode, a.ids, a.cats, a.resume)

@@ -431,3 +431,25 @@ By type: table_lookup recall 0.00; text_fact 0.42; chart 0.20; cross_doc 0.12; u
 1. When both files exist: `.venv/Scripts/python eval/run_agent_tasks.py --compare eval/runs/tasks-rag-20261015-093405.json eval/runs/tasks-router-<7B>.json eval/runs/tasks-router-<gemini>.json` and report per category (success, partial, steps, s/task, failures). Honest framing: the 8 dev tasks inflate router numbers slightly; 52 tasks are unseen.
 2. Look at failure types of the router runs (refused / partial_numbers / no_gold_number) and fix the most frequent; model: Sonnet 5.5 (Opus 5.5 only for a verifier redesign).
 3. Then: benchmark growth to 450 questions with a held-out split (Opus 5.5 for the design), Gradio demo on HF Spaces. Housekeeping: Ollama env permanent, lid action = Sleep, no git repo, delete `agent_*.log` in project root.
+
+# Update - 2026-10-15 (13:00): run 3 crashed on Gemini daily quota; new plan; git + resumable task runs
+
+## Results
+- Run 2 router 7B (`eval/runs/tasks-router-20261015-101830.json`): success 0.267 (RAG 0.383). compute 0.43 (RAG 0.21) but trend 0.00 (0.50), regulation 0.13 (0.63). All 19 refusals were agent route, pages_hit 0.93: right pages found, 7B fails to read/synthesize.
+- Run 3 router Gemini stopped at task 41: free tier = 500 requests/day/model (429 GenerateRequestsPerDay). Rebuilt t001-t040 from the log into `eval/runs/tasks-router-20261015-101935-gemini.partial.jsonl` (scores only, answers empty, `reconstructed_from_log`). Same 40 tasks: Gemini router 0.70, RAG 7B 0.275, router 7B 0.175. Conclusion: agent design works; the 7B is the bottleneck.
+
+## Done
+- `git init`, baseline commit `61a8f85` (.gitignore + bm25.pkl, agent_traces, *.log, .bak_pre_colpali). `.env` not committed; staged files scanned for keys.
+- `eval/run_agent_tasks.py`: appends each task to `<run>.partial.jsonl`; on any exception (quota/network) it stops cleanly and still writes `<run>.json` with `incomplete` + `error`; `--resume <partial>` runs only missing tasks. Tested with a fake model (crash at task 3, resume completes). pytest 42 passed.
+
+## Plan (agreed direction: keep what works, minimum risk, compact steps)
+Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier idea.
+1. DONE: safety net (git, resumable runs).
+2. Generator: API model as main LLM (paid tier, or another provider); 7B only offline fallback. Needs user decision on provider/cost.
+3. Structured facts table (SQLite: bank, year, indicator, value, unit, doc, page) built at ingest, reusing the parsing in `eval/build_agent_tasks.py`; trend/ranking/compute = lookup + Python arithmetic. Design with Opus 5.5.
+4. Replace regex routing with one LLM query-parser call returning JSON (banks, years, indicator, operation, chart, regulation).
+5. Freeze a held-out test split before more tuning.
+
+## Next
+- Finish Gemini run when quota resets (~07:00 on 2026-10-16): `.venv/Scripts/python eval/run_agent_tasks.py --mode router --resume eval/runs/tasks-router-20261015-101935-gemini.partial.jsonl` with the Gemini env (LLM_BASE_URL/LLM_API_KEY/LLM_MODEL, LLM_MIN_INTERVAL=4.5, MAX_ANSWER_TOKENS=2500).
+- Then step 2 decision, then step 3.
