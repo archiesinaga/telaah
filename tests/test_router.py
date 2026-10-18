@@ -34,8 +34,9 @@ def test_named_source_report_limits_the_years():
 def test_single_bank_trend_and_regulation_go_to_rag(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
     monkeypatch.setattr(router.facts, "sheet", lambda q: None)
+    monkeypatch.setattr(router.regulation, "applies", lambda q: False)
     assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "rag"
-    # a regulation threshold, even next to a bank figure, stays on plain RAG (7B: 0.63 vs 0.13)
+    # a regulation threshold next to a bank figure the table lacks stays on plain RAG (7B: 0.63 vs 0.13 via agent)
     monkeypatch.setattr(router, "entity_groups", lambda q: [["bri_2025"]])
     assert router.route("Berapa selisih CAR Tier 1 BRI 2025 terhadap batas modal inti POJK 11/POJK.03/2016?") == "rag"
     assert router.route("Berapa ambang NPL gross dalam PADG 23 Tahun 2025?") == "rag"
@@ -45,7 +46,8 @@ def test_questions_covered_by_the_facts_table_go_to_agent(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
     monkeypatch.setattr(router.facts, "sheet", lambda q: {"hits": {}})
     assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "agent"
-    # regulation questions stay on RAG even when the bank figure is in the table
+    # regulation questions never take the sheet path
+    monkeypatch.setattr(router.regulation, "applies", lambda q: False)
     assert router.route("Apakah KPMM BTN 2025 di atas batas POJK 11/POJK.03/2016?") == "rag"
 
 
@@ -54,4 +56,11 @@ def test_single_figure_in_the_table_goes_to_facts(monkeypatch):
     monkeypatch.setattr(router.facts, "sheet", lambda q: None)
     monkeypatch.setattr(router.facts, "answer_step", lambda q: {"answer": "x"})
     assert router.route("Berapa laba bersih konsolidasian BRI tahun 2025?") == "facts"
+    assert router.route("Berapa KPMM minimum menurut POJK 11/POJK.03/2016?") == "rag"
+
+
+def test_regulation_threshold_with_a_bank_figure_goes_to_regulation(monkeypatch):
+    monkeypatch.setattr(router.regulation, "applies", lambda q: True)
+    assert router.route("Berapa selisih KPMM BRI 2025 terhadap batas POJK 11/POJK.03/2016?") == "regulation"
+    monkeypatch.setattr(router.regulation, "applies", lambda q: False)
     assert router.route("Berapa KPMM minimum menurut POJK 11/POJK.03/2016?") == "rag"

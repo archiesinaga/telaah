@@ -518,3 +518,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - success 0.90 (54/60), 11.5 s/task: ranking/trend/multi_trend 1.00, unanswerable 1.00 (t060 fix holds), compute 0.86, regulation 0.50 (t050 new miss vs 13:01 run; regulation is the RAG path, unchanged code -> 7B noise).
 - Remaining misses: t039 (7B rewrote 4.249,99 as "4.25"), t046 (two-indicator ratio, not in derive), t048/t050/t051/t053 regulation on RAG.
 - Next: regulation is now the weakest category (all RAG on the 7B); then held-out task set before quoting 0.90.
+
+## Regulation path (2026-10-18 16:30)
+- `src/telaah/regulation.py`, route "regulation": regulation threshold vs ONE bank ratio in the facts table. Bank figure from the table; threshold = percentage in a sentence of the full-question RAG answer that cites/names the regulation and is written AS A PERCENT on a regulation page (`states_pct`; a bare "14" on POJK 11/2016 p.43 is an item number), else one stated in the question, else regulation-only RAG (only when the first refused). Difference + above/below in Python, template answer. No threshold typed by hand. No threshold -> plain RAG answer unchanged.
+- Regulation tasks 7B: 0.50-0.63 -> 7/8 (`tasks-router-20261018-163007.json`), all threshold citations = gold page. t053 still misses (RAG wrote only 22,6 and no threshold sentence). No seed question changes route (q036 RIM not in the table). pytest 60 passed.
+- Projected 60-task total: 0.90 -> ~0.93 (56/60), not measured in one run.
