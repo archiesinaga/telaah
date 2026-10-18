@@ -513,3 +513,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - `router.route` returns "facts" for one bank + one indicator + one year in the table (`facts.answer_step`); falls back to RAG on no hit. No report named -> that year's own report (q010/q011 cite bni_2024 like the gold), sheets keep the latest report.
 - 10 seed questions take it (q001 q002 q003 q006 q007 q010 q011 q012 q014 q015): all metrics 1.0 (before: q002 wrong, q003/q011 citation 0), ~5 s/q incl. judge (was ~17 s). No agent task changes route. pytest 54 passed.
 - Not yet re-measured: full seed run with all changes (expected: q002/q003/q011 fixed, rest = RAG noise).
+
+## 60 tasks after the q039 step fix (2026-10-18 16:05, `eval/runs/tasks-router-20261018-160536.json`)
+- success 0.90 (54/60), 11.5 s/task: ranking/trend/multi_trend 1.00, unanswerable 1.00 (t060 fix holds), compute 0.86, regulation 0.50 (t050 new miss vs 13:01 run; regulation is the RAG path, unchanged code -> 7B noise).
+- Remaining misses: t039 (7B rewrote 4.249,99 as "4.25"), t046 (two-indicator ratio, not in derive), t048/t050/t051/t053 regulation on RAG.
+- Next: regulation is now the weakest category (all RAG on the 7B); then held-out task set before quoting 0.90.
