@@ -139,3 +139,12 @@ def test_requirement_and_component_rows_are_not_the_ratio():
     for label in ["CET 1 untuk Buffer", "Dari CET 1", "Rasio KPMM Sesuai Profil Risiko", "Capital Adequacy Ratio (CAR)-Tier II"]:
         assert facts.indicator_of(label) is None, label
     assert facts.indicator_of("Rasio Kewajiban Penyediaan Modal Minimum (KPMM)") == "car"
+
+
+def test_ratio_sheet_laba_over_aset():
+    q = ("Di antara BRI, Bank Mandiri, dan BCA, bank mana yang memiliki laba tahun berjalan konsolidasian 2025 (total) "
+         "dibagi total aset akhir 2025 tertinggi? Gunakan data dari Laporan Tahunan 2025.")
+    rs = facts.ratio_sheet(q)
+    assert rs and (rs["num"], rs["den"]) == ("laba", "total_aset")
+    lines = facts.derive_ratio(q, rs)
+    assert "2,68%" in lines[0] and "3,63%" in lines[2] and "BCA (3,63%)" in lines[3]

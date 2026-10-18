@@ -595,6 +595,47 @@ def derive(q: str, sh: dict) -> list[str]:
     return lines
 
 
+RATIO_RE = re.compile(r"dibagi|\bterhadap total aset\b", re.I)
+MONEY_INDS = ("laba", "total_aset", "ekuitas")
+
+
+def ratio_sheet(q: str) -> dict | None:
+    """"laba / total aset" over banks (and years): two money indicators joined by "dibagi", both figures in the
+    table for every (bank, year). The numerator is the indicator named first. None -> the normal path."""
+    p = parse_question(q)
+    if not p or not RATIO_RE.search(q):
+        return None
+    banks, inds, years, report_year = p
+    if not banks or len(inds) != 2 or not set(inds) <= set(MONEY_INDS) or not years or len(banks) * len(years) > MAX_SHEET:
+        return None
+    ql = q.lower()
+    num, den = sorted(inds, key=lambda i: re.search(Q_INDICATORS[i], ql).start())
+    hits = {}
+    for b in banks:
+        for y in years:
+            a, z = lookup(b, num, y, report_year), lookup(b, den, y, report_year)
+            if not (a and z):
+                return None
+            hits[(b, y)] = (a, z)
+    return {"num": num, "den": den, "banks": banks, "years": years, "report_year": report_year, "hits": hits}
+
+
+def derive_ratio(q: str, rs: dict) -> list[str]:
+    """num / den in percent per bank and year (units converted to the same scale), plus highest/lowest if asked."""
+    lines = []
+    for y in rs["years"]:
+        vals = {b: rs["hits"][(b, y)][0]["value"] * PER_JT[rs["hits"][(b, y)][0]["unit"]]
+                / (rs["hits"][(b, y)][1]["value"] * PER_JT[rs["hits"][(b, y)][1]["unit"]]) * 100 for b in rs["banks"]}
+        for b in rs["banks"]:
+            a, z = rs["hits"][(b, y)]
+            lines.append(f"{BANK_NAME[b]} {y}: {rs['num']} {shown(a)} / {rs['den']} {shown(z)} = {fmt(vals[b])}%")
+        if len(vals) >= 2 and ORDER_RE.search(q):
+            order = sorted(vals, key=vals.get)
+            lines.append(f"Tertinggi {y}: {BANK_NAME[order[-1]]} ({fmt(vals[order[-1]])}%); "
+                         f"terendah: {BANK_NAME[order[0]]} ({fmt(vals[order[0]])}%)")
+    return lines
+
+
 SPAN = 5  # an annual report's summary tables cover its year and the four before
 
 

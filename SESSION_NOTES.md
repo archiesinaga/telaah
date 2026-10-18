@@ -580,3 +580,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 2. t039: template the final answer for sheet questions (7B rewrites numbers); t046: two-indicator ratios in `facts.derive`.
 3. q030 chart flakiness (Gemini vision path); fill parse gaps (mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021) from another report.
 4. ROADMAP Phase 4 (benchmark growth) + Gradio demo.
+
+## Ratio route + total guard (2026-10-18 night)
+- `facts.ratio_sheet`/`derive_ratio`: two money indicators joined by "dibagi" (laba / total aset), per bank in Python; `agent.plan` uses it, `compose` keeps the calculator's "Total gabungan" figure (t039), appends per-bank ratios, and replaces a 7B refusal with the computed lines (t044).
+- Dev 60: 0.95 -> 0.967 before the t044 fix (`tasks-router-20261018-224430.json`); t039/t044/t046 all 1.0 after (`...-225615.json`); remaining miss t053 (regulation threshold). Seed not rerun (no seed question uses the ratio route). pytest 68.
+- Next: set #3 by someone else; parse gaps (mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021); q030 chart flakiness; Phase 4 + Gradio.

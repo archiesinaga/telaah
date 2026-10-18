@@ -155,6 +155,17 @@ def plan(state: State) -> dict:
         return {"steps": steps, "calc": calc, "derived": derived,
                 "trace": _log(state, "plan", t0, sheet=sh["indicator"], steps=[s["q"] for s in steps], derived=derived,
                               missing=sh["missing"])}
+    rs = facts.ratio_sheet(q) if USE_FACTS else None
+    if rs:  # two money indicators divided (laba / total aset): both figures per bank from the table, ratio in Python
+        steps = []
+        for (b, y), pair in rs["hits"].items():
+            for h in pair:
+                r = facts.as_answer(b, y, h)
+                steps.append({"q": f"{facts.BANK_NAME[b]} {h['label']} {y}", "status": "ok", "attempts": 1, "issues": [],
+                              "fact": r["fact"], **{k: r[k] for k in ("answer", "citations", "retrieved", "context", "refused")}})
+        derived = facts.derive_ratio(q, rs)
+        return {"steps": steps, "calc": False, "derived": derived,
+                "trace": _log(state, "plan", t0, ratio=f"{rs['num']}/{rs['den']}", steps=[s["q"] for s in steps], derived=derived)}
     groups = entity_groups(q)
     if groups:  # comparison across documents: the tuned one-question-per-entity split, each read from its own docs
         steps = [{"q": s, "docs": g, "status": "pending", "attempts": 0}
@@ -277,6 +288,18 @@ def compose(state: State) -> dict:
         "Pakai hasil kalkulator apa adanya bila ada.",
     )
     text = split_cites(text)
+    # the 7B rewrites a computed total ("4.249,99" -> "4.25", t039): keep the calculator's line when the figure is gone
+    for line in state.get("derived") or []:
+        m = re.match(r"Total gabungan[^:]*: ([\d.,]+) ", line)
+        if m and m.group(1) not in text:
+            text += f"\n{line}."
+    # a ratio ranking: the 7B names the winner only; the per-bank ratios are the comparison the user needs
+    cut = [ln for ln in state.get("derived") or [] if re.search(r" = [\d.,]+%$", ln)]
+    if cut and REFUSAL in text:  # figures were computed from table rows, so a refusal is the 7B misreading the question (t044)
+        steps_cites = " ".join(f"[{c[0]} p.{c[1]}]" for s in state["steps"] for c in s.get("citations", []))
+        text = " ".join(f"{ln}." for ln in cut) + " " + steps_cites
+    elif len(cut) >= 2 and any(re.search(r" = ([\d.,]+)%$", ln).group(1) not in text for ln in cut):
+        text += "\nRasio per bank: " + "; ".join(f"{ln.split(':')[0]} {ln.rsplit(' = ', 1)[1]}" for ln in cut) + "."
     return {"answer": text, "trace": _log(state, "compose", t0, answer=text[:300])}
 
 
