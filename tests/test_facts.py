@@ -33,7 +33,9 @@ def test_parse_step():
     assert facts.parse_step("Berapa NPL gross BRI tahun 2023 menurut Laporan Tahunan 2025?") == ("bri", "npl_gross", 2023, 2025)
     assert facts.parse_step("Berapa NPL net BNI 2024?") == ("bni", "npl_net", 2024, None)
     assert facts.parse_step("Berapa CAR Tier 1 BCA 2025?") == ("bca", "tier1", 2025, None)
-    assert facts.parse_step("Berapa total aset BCA menurut Laporan Tahunan 2025?") == ("bca", "total_aset", 2025, 2025)
+    assert facts.parse_step("Berapa total aset BCA 2024 menurut Laporan Tahunan 2025?") == ("bca", "total_aset", 2024, 2025)
+    # the report year alone does not say which year's figure is meant (q039 asked for a restated 2024 figure)
+    assert facts.parse_step("Berapa laba bersih BRI setelah penyajian kembali di laporan tahunan 2025?") is None
     # more than one figure, a chart reading, or the attributable share: left to RAG
     assert facts.parse_step("Berapa selisih NPL BRI dan BCA 2025?") is None
     assert facts.parse_step("Berapa NPL BRI 2024 dan 2025?") is None
@@ -80,3 +82,13 @@ def test_scope_below_the_bank_is_not_answered_from_the_table():
     # an unanswerable district-level question must not get the bank-wide figure
     assert facts.parse_step("Berapa NPL gross BRI di Kecamatan Pulau Tiga per 2025?") is None
     assert facts.parse_question("Total aset BTN cabang Natuna 2025") is None
+
+
+def test_step_year_must_be_asked_by_the_question():
+    q = "Berapa laba bersih BRI tahun 2024 menurut laporan tahunan 2024, dan berapa angka 2024 setelah penyajian kembali di laporan tahunan 2025?"
+    # the slipped step is corrected to the one asked year, read from the step's own report
+    r = facts.answer_step("Berapa laba bersih BRI tahun 2025 setelah disajikan kembali?", q, ["bri_2025"])
+    assert r["fact"]["year"] == 2024 and r["fact"]["doc"] == "bri_2025"
+    assert facts.answer_step("Berapa laba bersih BRI tahun 2024?", q, ["bri_2024"])["fact"]["doc"] == "bri_2024"
+    # several asked years: a step year outside them is left to RAG
+    assert facts.answer_step("Berapa NPL BRI tahun 2023?", "NPL BRI 2021 dan 2025") is None

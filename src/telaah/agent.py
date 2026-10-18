@@ -175,7 +175,7 @@ def execute(state: State) -> dict:
     for st in state["steps"]:
         if st["status"] == "pending":
             retry = bool(st["attempts"])
-            hit = None if retry or not USE_FACTS else facts.answer_step(st["q"])
+            hit = None if retry or not USE_FACTS else facts.answer_step(st["q"], state["question"], st.get("docs"))
             if hit:
                 r = hit
                 st = {**st, "fact": hit["fact"]}

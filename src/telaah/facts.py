@@ -269,8 +269,8 @@ def parse_question(q: str) -> tuple[list[str], set[str], list[int], int | None] 
     years = set(map(int, re.findall(r"\b(20\d\d)\b", rest)))
     for a, b in RANGE_RE.findall(rest):
         years |= set(range(int(a), int(b) + 1))
-    if not years and report_year:
-        years = {report_year}
+    # no year outside "Laporan Tahunan YYYY": the figure's year is unknown, do not guess it from the report
+    # (q039: a planner step "laba BRI setelah penyajian kembali di laporan tahunan 2025" meant the 2024 figure)
     return [b for _, b in banks], inds, sorted(years), report_year
 
 
@@ -295,13 +295,26 @@ def shown(hit: dict) -> str:
     return f"Rp{raw} {UNIT_TXT.get(hit['unit'], '')}".strip()
 
 
-def answer_step(q: str) -> dict | None:
+def answer_step(q: str, question: str | None = None, docs: list[str] | None = None) -> dict | None:
     """One plan step answered from the table, in the shape of `answer.ask` (cited sentence + the cited page as
-    context, so the agent's citation check reads the same page); None -> the caller uses RAG."""
+    context, so the agent's citation check reads the same page); None -> the caller uses RAG.
+
+    `question`: the user question the step was planned from. A step year that question does not ask about is a
+    planner slip (q039 asked for the 2024 figure restated in the 2025 report, the 7B's step said "tahun 2025"):
+    with exactly one asked year it is corrected to that year, otherwise the step is left to RAG.
+    `docs`: the one report an entity step must read (its year becomes the report year)."""
     parsed = parse_step(q)
     if not parsed:
         return None
     bank, ind, year, report_year = parsed
+    if docs and len(docs) == 1 and (m := REPORT_RE.match(docs[0])) and m.group(1) == bank:
+        report_year = int(m.group(2))
+    if question is not None:
+        asked = parse_question(question)
+        if asked and asked[2] and year not in asked[2]:
+            if len(asked[2]) != 1:
+                return None
+            year = asked[2][0]
     # one figure, no report named: that year's own report (restated figures can differ: BRI 2024 total assets);
     # `lookup` falls back to the latest report when that year has none
     hit = lookup(bank, ind, year, report_year or year)
