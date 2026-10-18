@@ -1,5 +1,9 @@
 # Held-out agent tasks (frozen 2026-10-18)
 
+> **Set #1 is SPENT (2026-10-18 16:45).** Its run-1 failures motivated two fixes (unknown-bank refusal, mean over
+> years). Its run-1 score (0.925) stays the honest held-out number for commit b61f6e4; any later run on this set is
+> contaminated. Build held-out set #2 before quoting held-out numbers again.
+
 `eval/heldout_tasks.jsonl`: 40 tasks (ranking 6, trend 6, multi_trend 6, compute 10, regulation 6,
 unanswerable 6), built by `eval/build_heldout_tasks.py` BEFORE any system run on them.
 

@@ -92,3 +92,18 @@ def test_step_year_must_be_asked_by_the_question():
     assert facts.answer_step("Berapa laba bersih BRI tahun 2024?", q, ["bri_2024"])["fact"]["doc"] == "bri_2024"
     # several asked years: a step year outside them is left to RAG
     assert facts.answer_step("Berapa NPL BRI tahun 2023?", "NPL BRI 2021 dan 2025") is None
+
+
+def test_unknown_banks():
+    assert facts.unknown_banks("Berapa NPL gross Allo Bank tahun 2025 dan bandingkan dengan BRI.") == ["Allo Bank"]
+    assert facts.unknown_banks("Berapa rasio NPL gross PT Bank Danamon Indonesia Tbk pada 2025?") == ["Bank Danamon Indonesia Tbk"]
+    # known banks, the regulator and generic phrases are not unknown banks
+    assert facts.unknown_banks("Berapa KPMM Bank Mandiri dan ROE Bank Mandiri 2025?") == []
+    assert facts.unknown_banks("Menurut Peraturan Bank Indonesia, bank mana yang wajib ...") == []
+    assert facts.parse_question("NPL Allo Bank dan BRI 2025") is None
+
+
+def test_derive_mean_over_years():
+    sh = {"indicator": "nim", "banks": ["bri"], "years": [2021, 2022],
+          "hits": {("bri", 2021): _hit(6.89, "pct", "6,89%"), ("bri", 2022): _hit(6.75, "pct", "6,75%")}}
+    assert facts.derive("Berapa rata-rata NIM BRI 2021-2022?", sh) == ["Rata-rata BRI 2021-2022: 6,82%"]

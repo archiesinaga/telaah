@@ -249,6 +249,24 @@ UNIT_TXT = {"jt": "juta Rupiah", "mi": "miliar Rupiah", "tn": "triliun Rupiah"}
 BANK_NAME = {"bri": "BRI", "mandiri": "Bank Mandiri", "btn": "BTN", "bca": "BCA", "bni": "BNI"}
 
 
+BANK_X_RE = re.compile(r"\bBank\s+([A-Z][\w-]*(?:\s+[A-Z][\w-]*)*)")  # "Bank Danamon Indonesia Tbk"
+X_BANK_RE = re.compile(r"\b([A-Z][a-z][\w-]*)\s+Bank\b(?!\s+[A-Z])")  # "Allo Bank" (not "ROE Bank Mandiri")
+NOT_A_BANK = {"indonesia", "umum", "only", "lain", "sentral"}  # Bank Indonesia is the regulator
+
+
+def unknown_banks(q: str) -> list[str]:
+    """Banks the question names that the corpus does not cover. Answering the known half of "NPL Allo Bank vs
+    BRI" with BRI's NPL alone is a confident answer to an unanswerable question."""
+    from telaah.filters import BANKS
+
+    out = []
+    for m in BANK_X_RE.finditer(q):
+        if m.group(1).split()[0].lower() in NOT_A_BANK or any(re.search(p, m.group(0).lower()) for p in BANKS.values()):
+            continue
+        out.append(m.group(0))
+    return out + [m.group(0) for m in X_BANK_RE.finditer(q)]
+
+
 RANGE_RE = re.compile(r"\b(20\d\d)\s*(?:-|–|sampai|hingga|s\.d\.?)\s*(20\d\d)\b")
 
 
@@ -257,7 +275,7 @@ def parse_question(q: str) -> tuple[list[str], set[str], list[int], int | None] 
     cannot answer. '2021 sampai 2025' expands to every year in between."""
     from telaah.filters import BANKS, SOURCE_RE
 
-    if Q_SKIP.search(q):
+    if Q_SKIP.search(q) or unknown_banks(q):
         return None
     ql = q.lower()
     banks = sorted((m.start(), b) for b, pat in BANKS.items() if (m := re.search(pat, ql)))
@@ -421,6 +439,11 @@ def derive(q: str, sh: dict) -> list[str]:
             top = max(years, key=lambda y: hits[(b, y)]["value"])
             low = min(years, key=lambda y: hits[(b, y)]["value"])
             lines.append(f"{name(b)}: tertinggi tahun {top} ({shown(hits[(b, top)])}), terendah tahun {low} ({shown(hits[(b, low)])})")
+    if len(years) >= 2 and MEAN_RE.search(q):  # average over the years of each bank ("rata-rata NIM 2021-2025")
+        for b in banks:
+            vals = [hits[(b, y)]["value"] if pct else to_unit(hits[(b, y)], tgt) for y in years]
+            lines.append(f"Rata-rata {name(b)} {years[0]}-{years[-1]}: {fmt(sum(vals) / len(vals), 2 if pct else dec)}"
+                         f"{'%' if pct else ' ' + money}")
     if len(banks) >= 2:
         unit = " poin persen" if pct else f" {money}"
         val = (lambda h: h["value"]) if pct else (lambda h: to_unit(h, tgt))

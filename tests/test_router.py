@@ -64,3 +64,9 @@ def test_regulation_threshold_with_a_bank_figure_goes_to_regulation(monkeypatch)
     assert router.route("Berapa selisih KPMM BRI 2025 terhadap batas POJK 11/POJK.03/2016?") == "regulation"
     monkeypatch.setattr(router.regulation, "applies", lambda q: False)
     assert router.route("Berapa KPMM minimum menurut POJK 11/POJK.03/2016?") == "rag"
+
+
+def test_unknown_bank_is_refused():
+    assert router.route("Berapa NPL gross Allo Bank tahun 2025 dan bandingkan dengan BRI.") == "refuse"
+    r = router.run_routed("Berapa total aset PT Bank Jago Tbk per 31 Desember 2025?")
+    assert r["refused"] and r["route"] == "refuse" and "Bank Jago Tbk" in r["answer"]
