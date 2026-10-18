@@ -78,7 +78,8 @@ def pages_hit(task: dict, out: dict) -> float | None:
     return round(sum(g in seen for g in gold) / len(gold), 3)
 
 
-def run(mode: str, ids: list[str] | None, cats: list[str] | None, resume: str | None = None) -> Path:
+def run(mode: str, ids: list[str] | None, cats: list[str] | None, resume: str | None = None,
+        tasks: str = "agent_tasks.jsonl") -> Path:
     """Each finished task is appended to a `.partial.jsonl` file, so a crash (e.g. a daily API quota) loses
     nothing: rerun with `--resume <that file>` and only the missing tasks are run."""
     from telaah import config
@@ -87,14 +88,15 @@ def run(mode: str, ids: list[str] | None, cats: list[str] | None, resume: str | 
     from telaah.router import run_routed
 
     fn = {"rag": ask, "agent": run_agent, "router": run_routed}[mode]
-    rows = [json.loads(l) for l in (HERE / "agent_tasks.jsonl").read_text(encoding="utf-8").splitlines() if l.strip()]
+    rows = [json.loads(l) for l in (HERE / tasks).read_text(encoding="utf-8").splitlines() if l.strip()]
+    prefix = "tasks-heldout" if "heldout" in tasks else "tasks"  # held-out runs never mix with dev runs
     if ids:
         rows = [r for r in rows if r["id"] in ids]
     if cats:
         rows = [r for r in rows if r["category"] in cats]
     out_dir = HERE / "runs"
     out_dir.mkdir(exist_ok=True)
-    partial = Path(resume) if resume else out_dir / f"tasks-{mode}-{time.strftime('%Y%m%d-%H%M%S')}.partial.jsonl"
+    partial = Path(resume) if resume else out_dir / f"{prefix}-{mode}-{time.strftime('%Y%m%d-%H%M%S')}.partial.jsonl"
     results = [json.loads(l) for l in partial.read_text(encoding="utf-8").splitlines() if l.strip()] if resume else []
     done = {r["id"] for r in results}
     todo = [t for t in rows if t["id"] not in done]
@@ -127,7 +129,7 @@ def run(mode: str, ids: list[str] | None, cats: list[str] | None, resume: str | 
     print(json.dumps(log["summary"]["overall"], indent=2))
     print("saved", path)
     if missing:
-        print(f"INCOMPLETE ({len(missing)} tasks). Resume: python eval/run_agent_tasks.py --mode {mode} --resume {partial}")
+        print(f"INCOMPLETE ({len(missing)} tasks). Resume: python eval/run_agent_tasks.py --mode {mode} --tasks {tasks} --resume {partial}")
     return path
 
 
@@ -170,9 +172,10 @@ if __name__ == "__main__":
     ap.add_argument("--cats", nargs="*")
     ap.add_argument("--compare", nargs="*", help="run JSONs to compare (no model calls)")
     ap.add_argument("--resume", help="a .partial.jsonl progress file; only its missing tasks are run")
+    ap.add_argument("--tasks", default="agent_tasks.jsonl", help="task file in eval/ (heldout_tasks.jsonl: see HELDOUT.md)")
     a = ap.parse_args()
     if a.compare:
         compare(a.compare)
     else:
         sys.path.insert(0, str(HERE.parent / "src"))
-        run(a.mode, a.ids, a.cats, a.resume)
+        run(a.mode, a.ids, a.cats, a.resume, a.tasks)
