@@ -548,3 +548,35 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - It found more silent misses, now fixed: merged header cells ("Uraian 2024 2023", "2025 331.743.367", "2023 Pertumbuhan Rp %") -> years in order, row mapped by position; budget tables (Target/Realisasi, mandiri_2025 p362, mandiri_2024 p438) had inherited the previous page's year header (now: inherit only when the table opens with a data row; target/realisasi/RKAP columns skipped); capital components/requirements read as ratios (buffer, "sesuai profil risiko", "Dari CET 1", Tier II).
 - 887 facts, check_facts 102/102 value AND page (was 100/102 page). Lookups vs previous commit: 0 changed, 0 lost, 12 added (BTN assets 2021-23 and profit/equity 2023-24 from the 2024/2025 reports, BCA CET1, BNI NPL net). Routing identical, offline dev coverage 41/41 -> dev/seed evals not rerun (same lookups). pytest 67.
 - Remaining gaps (14): mostly real (CET1/Tier 1/NPL net/CASA not published for all years), two empty parsed cells (mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021).
+
+# Update — 2026-10-18 (evening): handoff summary of today
+
+## Done (all committed, last commit 01e60ea + this note)
+- Router fix (regulation/single-bank trend), facts table `src/telaah/facts.py` (generic extractor, lookup, sheets, derive, restatement, unknown-bank refusal, coverage report), regulation path `src/telaah/regulation.py`, router routes: refuse / facts / restatement / regulation / agent / rag.
+- Held-out sets: `eval/heldout_tasks.jsonl` (#1) and `eval/heldout2_tasks.jsonl` (#2), builders `eval/build_heldout*_tasks.py`, rules + runs in `eval/HELDOUT.md`. BOTH SPENT.
+- README rewritten for Phase 3 results; `eval/run_agent_tasks.py --tasks`.
+
+## Results (7B qwen2.5:7b-gpu)
+- Dev 60 tasks: RAG 0.38 -> 0.95 (`eval/runs/tasks-router-20261018-173251.json`). Gemini router was 0.73.
+- Held-out #1 0.925 (b61f6e4), held-out #2 0.625 (ea0e29a; quoted in README as the honest number). Fixes from both since.
+- Seed 50 (`eval/runs/20261018-175554.json`): recall 0.94, citation 0.70, refusal 0.92, numeric 0.857, judge 0.917, faithful 0.941, 13.2 s/q.
+- Facts: 887 rows, 14 indicators, check_facts 102/102 value+page; coverage report: 14 gaps, mostly real.
+
+## Decisions
+- No hand-typed thresholds or gold-spec reuse in the system; gold only via builders.
+- Held-out sets spent once a result motivates a fix; next honest number needs set #3 written by someone else.
+- Last extractor changes (merged headers, budget tables, capital rows) not re-evaluated end-to-end: lookups vs previous commit 0 changed / 12 added, routing identical.
+
+## Lessons
+- Bash heredocs with python containing `\b`, `\n` or `)` broke edits several times: use Edit/Write or a script file in the scratchpad.
+- Silent extractor gaps are the main risk (header formats); always run `python -m telaah.facts` and read the coverage list after changes.
+- Never run two evals at once (embedded Qdrant lock). Evals use 4-7 GB RAM.
+
+## Running/pending
+- Nothing running. Power settings still "never sleep" (restore: `powercfg /change standby-timeout-ac 10` and `-dc 10`). NVIDIA Overlay restarts until disabled in the NVIDIA App.
+
+## Next
+1. Held-out set #3 written by someone other than Claude (or real user questions); run once, report.
+2. t039: template the final answer for sheet questions (7B rewrites numbers); t046: two-indicator ratios in `facts.derive`.
+3. q030 chart flakiness (Gemini vision path); fill parse gaps (mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021) from another report.
+4. ROADMAP Phase 4 (benchmark growth) + Gradio demo.
