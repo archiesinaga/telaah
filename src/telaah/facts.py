@@ -51,7 +51,13 @@ STOCKS = {"total_aset", "ekuitas"}  # balances: a negative cell is a cash-flow c
 SEGMENT_RE = re.compile(r"segmen|segment|entitas anak|anak perusahaan|subsidiar", re.I)
 # ratios built on an indicator ("LLR/NPL Bruto (Coverage Ratio)") are not the indicator
 DERIVED_RE = re.compile(r"coverage|\bllr\b|cadangan|/\s*npl|terhadap npl|to npl", re.I)
-YEAR_CELL = re.compile(r"^(?:fy\s*)?((?:19|20)\d\d)" + FOOT, re.I)
+# "2024", "2024 *", "2020 *)", "2021 **)", "2024 (*)": footnote marks after the year (BRI 2024 writes "2020 *)")
+YEAR_CELL = re.compile(r"^(?:fy\s*)?((?:19|20)\d\d)\s*(?:\*{1,3}\s*\)?|\(\s*\*+\s*\)|[¹²³\d])?\s*$", re.I)
+# a header with month or quarter columns ("November 2024", "Triwulan IV-2024") is a macro or industry table,
+# not the bank's annual figures (bri_2024 p198: national banking NPL/ROA next to yearly columns)
+PERIOD_RE = re.compile(r"januari|februari|maret|april|\bmei\b|juni|juli|agustus|september|oktober|november|desember"
+                       r"|january|february|march|\bmay\b|june|july|august|october|december|triwulan|kuartal"
+                       r"|semester|\bq[1-4]\b", re.I)
 NUM_CELL = re.compile(r"^\(?-?\d[\d.,]*\)?\s*%?$")
 UNIT_RE = re.compile(r"\b(?:dalam|in)\s+(jutaan|juta|miliar|milyar|triliun|millions?|billions?|trillions?)\b", re.I)
 UNIT = {"jutaan": "jt", "juta": "jt", "million": "jt", "millions": "jt", "miliar": "mi", "milyar": "mi",
@@ -103,9 +109,13 @@ def _cells(line: str) -> list[str]:
 
 
 def _header_years(cells: list[str]) -> dict[int, int]:
-    """Column index -> year for a header row with at least two year cells (other columns, e.g. YoY, are skipped)."""
-    cols = {i: int(m.group(1)) for i, c in enumerate(cells) if i > 0 and (m := YEAR_CELL.match(c))}
-    return cols if len(cols) >= 2 and len(set(cols.values())) == len(cols) else {}
+    """Column index -> year for a header row with at least two year cells (other columns, e.g. YoY, are skipped).
+    A year twice ("2024 *)" restated, then "2024" as first published, BNI 2025): the first column wins."""
+    cols: dict[int, int] = {}
+    for i, c in enumerate(cells):
+        if i > 0 and (m := YEAR_CELL.match(c)) and int(m.group(1)) not in cols.values():
+            cols[i] = int(m.group(1))
+    return cols if len(cols) >= 2 else {}
 
 
 def _unit(kind: str, header_first: str, context: str, page_text: str, doc_unit: str) -> str:
@@ -128,22 +138,27 @@ def extract_doc(doc: str) -> list[dict]:
     doc_unit = units.most_common(1)[0][0] if units else ""
     out = []
     carry: tuple[dict[int, int], str, int] | None = None  # last header of the previous page: cols, first cell, width
+    carry_segment = False  # the previous page's last table was a segment table
     for p in pages:
         header, inherited, first_table = None, 0, True
-        prev_table_line, context, segment = False, [], False
+        prev_table_line, context, segment, period = False, [], False, False
         for line in p["text"].split("\n"):
             if not line.lstrip().startswith("|"):
                 if prev_table_line:
                     header, first_table, context = None, False, []
                 prev_table_line = False
-                if line.strip():
+                if line.strip() and not line.strip().startswith("<!--"):
                     context = (context + [line.strip()])[-3:]  # heading and unit line just above the next table
                 continue
             cells = _cells(line)
             new_table = not prev_table_line
             prev_table_line = True
             if new_table:
-                segment = bool(SEGMENT_RE.search(" ".join(context)))
+                period = False
+                # a page that opens with a table and no heading continues the previous page's table
+                # (bri_2024 p30: subsidiary results under the "Segmen Entitas Anak" heading of p29)
+                segment = carry_segment if first_table and not context else bool(SEGMENT_RE.search(" ".join(context)))
+                carry_segment = segment
             if segment:
                 continue
             if set("".join(cells)) <= set("-: "):
@@ -151,6 +166,9 @@ def extract_doc(doc: str) -> list[dict]:
             cols = _header_years(cells)
             if cols:
                 header, inherited = (cols, cells[0], len(cells)), 0
+                period = any(PERIOD_RE.search(c) for c in cells[1:])
+                continue
+            if period:
                 continue
             if new_table and first_table and header is None and carry and carry[2] == len(cells):
                 header, inherited = carry, 1
@@ -186,6 +204,7 @@ def build(path=DB_PATH) -> int:
     con.commit()
     con.close()
     lookup_rows.cache_clear()
+    latest_report_year.cache_clear()
     return len(rows)
 
 
@@ -367,9 +386,22 @@ def as_answer(bank: str, year: int, hit: dict) -> dict:
 MAX_SHEET = 15  # bank x year lookups in one sheet
 
 
-def sheet(q: str) -> dict | None:
+@lru_cache
+def latest_report_year() -> int:
+    if not DB_PATH.exists():
+        return 0
+    con = sqlite3.connect(DB_PATH)
+    y = con.execute("SELECT MAX(report_year) FROM facts").fetchone()[0] or 0
+    con.close()
+    return y
+
+
+def sheet(q: str, partial: bool = False) -> dict | None:
     """A question over ONE indicator for several banks and/or years (ranking, trend, comparison, sum, average)
-    whose every (bank, year) figure is in the table; None -> the normal agent/RAG path."""
+    whose (bank, year) figures are in the table; None -> the normal agent/RAG path.
+
+    `partial`: also when up to half of the figures are missing (`missing`); the agent then plans those as RAG
+    steps instead of letting the 7B plan the whole question (it dropped banks: held-out #2 k012)."""
     p = parse_question(q)
     if not p:
         return None
@@ -377,13 +409,73 @@ def sheet(q: str) -> dict | None:
     if not banks or len(inds) != 1 or not years or len(banks) * len(years) < 2 or len(banks) * len(years) > MAX_SHEET:
         return None
     ind = next(iter(inds))
-    hits = {}
+    hits, missing = {}, []
     for b in banks:
         for y in years:
-            if not (h := lookup(b, ind, y, report_year)):
-                return None
-            hits[(b, y)] = h
-    return {"indicator": ind, "banks": banks, "years": years, "report_year": report_year, "hits": hits}
+            if h := lookup(b, ind, y, report_year):
+                hits[(b, y)] = h
+            else:
+                missing.append((b, y))
+    if missing and (not partial or len(missing) * 2 > len(banks) * len(years)):
+        return None
+    # a missing year after every report (a 2030 "target") cannot be read anywhere: no sheet, RAG refuses (t059)
+    if missing and max(y for _, y in missing) > latest_report_year():
+        return None
+    return {"indicator": ind, "banks": banks, "years": years, "report_year": report_year, "hits": hits,
+            "missing": missing}
+
+
+# indicator -> how a one-figure step asks for it (a missing sheet figure becomes this RAG step)
+Q_LABEL = {"npl_gross": "rasio NPL gross", "npl_net": "rasio NPL net", "car": "rasio KPMM (CAR)", "tier1": "CAR Tier 1",
+           "cet1": "rasio CET1", "ldr": "LDR", "nim": "NIM", "bopo": "rasio BOPO", "casa": "rasio CASA", "roa": "ROA",
+           "roe": "ROE", "total_aset": "total aset", "laba": "laba bersih (laba tahun berjalan)", "ekuitas": "total ekuitas"}
+
+
+def step_question(bank: str, ind: str, year: int, report_year: int | None) -> str:
+    src = f" menurut Laporan Tahunan {report_year}" if report_year else ""
+    return f"Berapa {Q_LABEL[ind]} {BANK_NAME[bank]} tahun {year}{src}?"
+
+
+def restatement(q: str) -> dict | None:
+    """One figure (bank, indicator, year) asked from two named reports ("menurut Laporan Tahunan 2024 ... setelah
+    disajikan kembali di Laporan Tahunan 2025"): both lookups, each strictly from its own report."""
+    from telaah.filters import SOURCE_RE
+
+    if Q_SKIP.search(q) or unknown_banks(q):
+        return None
+    reports = sorted({int(y) for y in SOURCE_RE.findall(q.lower())})
+    p = parse_question(q)
+    if len(reports) != 2 or not p:
+        return None
+    banks, inds, years, _ = p
+    if len(banks) != 1 or len(inds) != 1 or len(years) != 1:
+        return None
+    ind, y = next(iter(inds)), years[0]
+    hits = [lookup(banks[0], ind, y, r) for r in reports]
+    if not all(h and h["report_year"] == r for h, r in zip(hits, reports)):
+        return None
+    return {"bank": banks[0], "indicator": ind, "year": y, "reports": reports, "hits": hits}
+
+
+def answer_restatement(q: str) -> dict | None:
+    """Template answer (no LLM): both reports' figures with citations and the difference computed in Python."""
+    rs = restatement(q)
+    if not rs:
+        return None
+    (a, z), (r0, r1) = rs["hits"], rs["reports"]
+    pct = INDICATORS[rs["indicator"]][0] == "pct"
+    name, y = BANK_NAME[rs["bank"]], rs["year"]
+    d = z["value"] - a["value"]
+    unit = "poin persen" if pct else UNIT_TXT.get(z["unit"], "")
+    tail = (f"Selisihnya {fmt(abs(d), 2 if pct else 0)} {unit} (Laporan Tahunan {r1} "
+            f"{'lebih tinggi' if d > 0 else 'lebih rendah'})." if abs(d) > 1e-9 else "Kedua laporan mencantumkan angka yang sama.")
+    text = (f"{a['label']} {name} tahun {y} menurut Laporan Tahunan {r0}: {shown(a)} [{a['doc']} p.{a['page']}]. "
+            f"Menurut Laporan Tahunan {r1}: {shown(z)} [{z['doc']} p.{z['page']}]. {tail}")
+    ctx = "\n\n".join(f"[{h['doc']} p.{h['page']}]\n{row_excerpt(h['doc'], h['page'], h['label'])}" for h in (a, z))
+    return {"answer": text, "citations": [(a["doc"], a["page"]), (z["doc"], z["page"])],
+            "retrieved": [(a["doc"], a["page"]), (z["doc"], z["page"])],
+            "context": f"{ctx}\n\nHasil hitung (kalkulator): {shown(z)} - {shown(a)} = {fmt(d, 2 if pct else 0)}",
+            "refused": False}
 
 
 def fmt(x: float, dec: int = 2) -> str:

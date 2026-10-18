@@ -139,16 +139,22 @@ def check_text(text: str, allowed: set[str] = frozenset()) -> list[dict]:
 def plan(state: State) -> dict:
     t0 = time.time()
     q = state["question"]
-    sh = facts.sheet(q) if USE_FACTS else None
-    if sh:  # one indicator over banks x years, all in the facts table: no LLM plan, lookups are the steps
+    sh = facts.sheet(q, partial=True) if USE_FACTS else None
+    if sh:  # one indicator over banks x years: no LLM plan; lookups are the steps, missing figures RAG steps
         steps = []
         for (b, y), h in sh["hits"].items():
             r = facts.as_answer(b, y, h)
             steps.append({"q": f"{facts.BANK_NAME[b]} {sh['indicator']} {y}", "status": "ok", "attempts": 1,
                           "issues": [], "fact": r["fact"], **{k: r[k] for k in ("answer", "citations", "retrieved", "context", "refused")}})
-        derived = facts.derive(q, sh)
-        return {"steps": steps, "calc": False, "derived": derived,
-                "trace": _log(state, "plan", t0, sheet=sh["indicator"], steps=[s["q"] for s in steps], derived=derived)}
+        for b, y in sh["missing"]:
+            steps.append({"q": facts.step_question(b, sh["indicator"], y, sh["report_year"]), "status": "pending", "attempts": 0})
+        # all figures in the table: arithmetic in Python; some read by RAG: the calculator step does it
+        derived = [] if sh["missing"] else facts.derive(q, sh)
+        calc = bool(sh["missing"]) and bool(CALC_RE.search(q) or DERIVE_RE.search(q) or facts.CHANGE_RE.search(q)
+                                             or facts.GAP_RE.search(q) or facts.MEAN_RE.search(q))
+        return {"steps": steps, "calc": calc, "derived": derived,
+                "trace": _log(state, "plan", t0, sheet=sh["indicator"], steps=[s["q"] for s in steps], derived=derived,
+                              missing=sh["missing"])}
     groups = entity_groups(q)
     if groups:  # comparison across documents: the tuned one-question-per-entity split, each read from its own docs
         steps = [{"q": s, "docs": g, "status": "pending", "attempts": 0}

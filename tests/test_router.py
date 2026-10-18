@@ -33,7 +33,7 @@ def test_named_source_report_limits_the_years():
 
 def test_single_bank_trend_and_regulation_go_to_rag(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
-    monkeypatch.setattr(router.facts, "sheet", lambda q: None)
+    monkeypatch.setattr(router.facts, "sheet", lambda q, **k: None)
     monkeypatch.setattr(router.regulation, "applies", lambda q: False)
     assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "rag"
     # a regulation threshold next to a bank figure the table lacks stays on plain RAG (7B: 0.63 vs 0.13 via agent)
@@ -44,7 +44,7 @@ def test_single_bank_trend_and_regulation_go_to_rag(monkeypatch):
 
 def test_questions_covered_by_the_facts_table_go_to_agent(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
-    monkeypatch.setattr(router.facts, "sheet", lambda q: {"hits": {}})
+    monkeypatch.setattr(router.facts, "sheet", lambda q, **k: {"hits": {}})
     assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "agent"
     # regulation questions never take the sheet path
     monkeypatch.setattr(router.regulation, "applies", lambda q: False)
@@ -53,7 +53,7 @@ def test_questions_covered_by_the_facts_table_go_to_agent(monkeypatch):
 
 def test_single_figure_in_the_table_goes_to_facts(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
-    monkeypatch.setattr(router.facts, "sheet", lambda q: None)
+    monkeypatch.setattr(router.facts, "sheet", lambda q, **k: None)
     monkeypatch.setattr(router.facts, "answer_step", lambda q: {"answer": "x"})
     assert router.route("Berapa laba bersih konsolidasian BRI tahun 2025?") == "facts"
     assert router.route("Berapa KPMM minimum menurut POJK 11/POJK.03/2016?") == "rag"

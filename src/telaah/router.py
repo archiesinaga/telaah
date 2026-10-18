@@ -24,7 +24,9 @@ def route(question: str) -> str:
     if REGULATION_RE.search(question):
         # threshold vs one bank figure in the table: split (`regulation.answer`); other regulation questions: RAG
         return "regulation" if USE_FACTS and regulation.applies(question) else "rag"
-    if USE_FACTS and facts.sheet(question):  # every figure is in the facts table: lookups + Python arithmetic
+    if USE_FACTS and facts.restatement(question):  # one figure from two named reports: both lookups + difference
+        return "restatement"
+    if USE_FACTS and facts.sheet(question, partial=True):  # figures in the facts table: lookups + Python arithmetic
         return "agent"
     if entity_groups(question) or CALC_RE.search(question) or DERIVE_RE.search(question):
         return "agent"
@@ -43,7 +45,8 @@ def run_routed(question: str) -> dict:
                 "calc_result": None, "steps": [], "trace": []}
     if path == "agent":
         return {**run_agent(question), "route": "agent"}
-    r = facts.answer_step(question) if path == "facts" else regulation.answer(question) if path == "regulation" else None
+    r = {"facts": facts.answer_step, "regulation": regulation.answer,
+         "restatement": facts.answer_restatement}.get(path, lambda q: None)(question)
     if r is None:
         path, r = "rag", ask(question)
     return {**r, "route": path, "verified": None, "unsupported": [], "calc_result": None, "steps": [], "trace": []}

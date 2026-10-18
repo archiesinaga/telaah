@@ -107,3 +107,16 @@ def test_derive_mean_over_years():
     sh = {"indicator": "nim", "banks": ["bri"], "years": [2021, 2022],
           "hits": {("bri", 2021): _hit(6.89, "pct", "6,89%"), ("bri", 2022): _hit(6.75, "pct", "6,75%")}}
     assert facts.derive("Berapa rata-rata NIM BRI 2021-2022?", sh) == ["Rata-rata BRI 2021-2022: 6,82%"]
+
+
+def test_year_headers_with_footnote_marks():
+    assert facts._header_years(["Uraian", "2024", "2023", "2022", "2021", "2020 *)"]) == {1: 2024, 2: 2023, 3: 2022, 4: 2021, 5: 2020}
+    # restated column first, the first-published one later: the first wins
+    assert facts._header_years(["x", "2025", "2024 *)", "YoY (%)", "2024", "2023"]) == {1: 2025, 2: 2024, 5: 2023}
+
+
+def test_restatement_needs_two_named_reports():
+    q = "Total aset BRI akhir 2024 menurut Laporan Tahunan 2024 dan setelah disajikan kembali di Laporan Tahunan 2025?"
+    rs = facts.restatement(q)
+    assert rs and rs["reports"] == [2024, 2025] and [h["report_year"] for h in rs["hits"]] == [2024, 2025]
+    assert facts.restatement("Total aset BRI akhir 2024 menurut Laporan Tahunan 2025?") is None

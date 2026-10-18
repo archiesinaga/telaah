@@ -43,6 +43,10 @@ unanswerable 6), built by `eval/build_heldout_tasks.py` BEFORE any system run on
 
 # Held-out set #2 (frozen 2026-10-18)
 
+> **Set #2 is SPENT (2026-10-18 17:35).** Its run-1 failures motivated fixes (year headers with "*)", industry
+> tables with month/quarter columns, segment tables continued across a page, partial sheets, restatement route).
+> Its run-1 score (0.625) stays the honest held-out number for commit ea0e29a.
+
 `eval/heldout2_tasks.jsonl`: 40 tasks (restatement 6, trend 4, multi_trend 4, ranking 4, compute 10, regulation 6,
 unanswerable 6), built by `eval/build_heldout2_tasks.py` before any system run on them. Same rules as set #1.
 
