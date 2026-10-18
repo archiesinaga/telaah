@@ -81,7 +81,7 @@ def num(s: str, style: str) -> float:
     s = s.strip().rstrip("%").strip()
     neg = s.startswith("(") and s.endswith(")")
     s = s.strip("()")
-    v = float(s) if style == "en" else float(s.replace(".", "").replace(",", "."))
+    v = float(s.replace(",", "")) if style == "en" else float(s.replace(".", "").replace(",", "."))
     return -v if neg else v
 
 

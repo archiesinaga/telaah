@@ -38,3 +38,32 @@ unanswerable 6), built by `eval/build_heldout_tasks.py` BEFORE any system run on
   - h025 compute: mean over YEARS of one bank; `facts.derive` only averages across banks, the 7B averaged and
     rounded wrong (6,74 vs 6,76).
   - h033 regulation: KPMM Insentif threshold not found by any fallback, refused (dev t050, same threshold, passed).
+
+---
+
+# Held-out set #2 (frozen 2026-10-18)
+
+`eval/heldout2_tasks.jsonl`: 40 tasks (restatement 6, trend 4, multi_trend 4, ranking 4, compute 10, regulation 6,
+unanswerable 6), built by `eval/build_heldout2_tasks.py` before any system run on them. Same rules as set #1.
+
+- sha256 heldout2_tasks.jsonl: `ece6ae58bf2eb271d30604757b798a1878389c4108a4f4e0ed816ece0844fcec`
+- sha256 build_heldout2_tasks.py: `4afa40b4225d6b5899208a95c2bc17feef4ac71388526381801eba9ef3869d8b`
+
+## What is new
+- Source: the **2024 reports** (every task except restatement names "Laporan Tahunan 2024"). They carry 2020
+  figures, which the 2025 reports do not have, so a 2020 question can only be answered from the 2024 report.
+- **Restatement** tasks: the same figure in the 2024 and the 2025 report. Four real restatements (BRI total assets
+  2023 and 2024, BRI NIM 2024: 6,47% vs 6,75%, BTN KPMM 2023: 20,07 vs 20,16) and two unchanged figures (their gold
+  has no "0", so a stray zero cannot pass). BRI profit 2024 is left out: it is seed question q039.
+- New operations: CAGR, a two-indicator ratio from one report (profit / assets 2020), "berapa kali lipat" over 2020-2024.
+- Gold numbers all in Indonesian notation (the scorer would misread "1,086,664").
+- Left out: BCA 2024 (its parsed file has no summary tables). Kept: BTN 2024 profit, whose table header merges
+  "2024 2023" into one cell (the gold parser reads the row by position).
+
+## Known bias
+Written by the same author (Claude) who built the system, knowing its routing rules and its known misses
+(t046 two-indicator ratios; restated figures). Questions were written as an analyst would ask them, not to pass or
+to break those rules, but that knowledge cannot be unlearned.
+
+## Runs (set #2)
+(none yet)
