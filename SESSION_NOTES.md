@@ -470,3 +470,16 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 2. Facts table (SQLite: bank, year, indicator, value, unit, doc, page) parsed by code from the summary pages (reuse `eval/build_agent_tasks.py` parsing), `lookup_facts` agent tool, fallback to RAG when not covered. Subset of 10 tasks, then full 60 on 7B in background. Then one seed eval to confirm no regression. Model: Opus 5.5 for the design.
 3. 2026-10-16 after 07:00: finish Gemini run with `--resume eval/runs/tasks-router-20261015-101935-gemini.partial.jsonl` (Gemini env vars, `LLM_MIN_INTERVAL=4.5`); do not use Gemini for anything else before it.
 - Rules: commit before each change; one eval process at a time (Qdrant lock); keep Ollama running.
+
+# Update - 2026-10-18: router fix + Gemini 60-task run complete
+
+## Done
+- Router (`c7b09c1`): questions naming POJK/PADG/PBI/SEOJK and single-bank trends go to plain RAG; `TREND_RE` removed. Changes 18 tasks (t013-t022, t047-t054) and 1 seed question (q036). pytest 43 passed.
+- 7B check, regulation+trend (`eval/runs/tasks-router-20261018-115642.json`, 18 tasks): success 0.50 (regulation 0.50, trend 0.50; old router 0.125/0.00, RAG 0.625/0.50), 17 s/task.
+- Gemini router run finished via `--resume` (`eval/runs/tasks-router-20261015-101935-gemini.json`, 60/60): success 0.733, partial 0.80, pages_hit 0.90. By category: compute 0.64, multi_trend 0.80, ranking 0.58, regulation 0.75, trend 0.80, unanswerable 1.00. Failures: refused 9, partial_numbers 5, no_gold_number 2. Caveats: t001-t040 used the OLD router and were rebuilt from the log (answers empty); t041-t060 used the new router (regulation on RAG). s/task 160.9 is inflated by the old throttled/retry tasks; new tasks were ~20 s.
+- Comparison (60 tasks): RAG 7B 0.383, router 7B (old) 0.267, router Gemini 0.733.
+
+## Next
+1. Facts table (SQLite: bank, year, indicator, value, unit, doc, page) + `lookup_facts` agent tool, reusing `eval/build_agent_tasks.py` parsing; design with Opus 5.5. Subset of 10 tasks on 7B, then full 60.
+2. Optional: full 60-task router run on 7B with the new router (projected ~0.38-0.40, unmeasured).
+3. Housekeeping: restore power settings (`powercfg /change standby-timeout-ac 10` / `-dc 10`), lid action manually; delete `eval/runs/*.partial.jsonl.bak` once happy.
