@@ -533,3 +533,6 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - Dev 60 (`tasks-router-20261018-164809.json`): 0.95 (57/60). Misses t039 (7B rewrote 4.249,99), t046 (two-indicator ratio), t053 (no threshold).
 - Seed 50 (`20261018-171128.json`): recall 0.94, citation 0.70, refusal 0.92, numeric 0.857, judge 0.917, faithful 0.912, 13.5 s/q. q039 fixed; q041/q042 refuse by route "refuse"; q030 (chart, RAG + Gemini vision) refused again: flaky (wrong 15:37, right 16:01), the only cause of numeric/refusal dropping vs 16:01.
 - Held-out #1 spent (0.925 on b61f6e4). Next: held-out set #2 (written before running; new wordings + ideally 2024-report sources), then README/results write-up; optional fixes: q030 chart flakiness, t046 two-indicator ratios, t039 final-number rewriting (template the sheet answer).
+
+## Held-out set #2 (2026-10-18 17:20)
+- Built + frozen (ea0e29a): 40 tasks, 2024-report sources (2020 figures), restatements, CAGR. First run 0.625 (25/40). Main cause: BRI 2024 header "2020 *)" not parsed (YEAR_CELL) -> BRI 2020 missing -> 7B fallback cites wrong rows (subsidiary table p30, other-basis p197/198). Details in eval/HELDOUT.md. Not fixed yet (would spend set #2).

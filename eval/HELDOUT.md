@@ -66,4 +66,13 @@ Written by the same author (Claude) who built the system, knowing its routing ru
 to break those rules, but that knowledge cannot be unlearned.
 
 ## Runs (set #2)
-(none yet)
+- 2026-10-18 17:20, commit ea0e29a, 7B router (`eval/runs/tasks-heldout-router-20261018-172027.json`):
+  **0.625 (25/40)**, 12.5 s/task. unanswerable 6/6, regulation 5/6, trend 3/4, restatement 4/6, ranking 2/4,
+  compute 4/10, multi_trend 1/4. Failures (classified, NOT fixed under rule 1):
+  - ~12 of 15: BRI 2024 report labels its 2020 column "2020 *)"; `facts.YEAR_CELL` rejects the ")", so every BRI
+    2020 figure is missing from the table. Those tasks fall back to the 7B-planned agent, which cites wrong rows:
+    BRI 2020 profit "(27,47)" from a subsidiary table on bri_2024 p30 (not caught by the segment filter: no
+    "entitas anak" heading), ROA 1,59% / NPL 2,19% (p198) and KPMM 23,89% (p197), likely another basis.
+  - k001: both report figures right, difference not computed (two named reports -> no sheet). k002 refused.
+  - k012: one missing (bank, year) fact disables the whole sheet, so the 7B plans and misses BTN/BNI 2020.
+  Conclusion: set #1 (0.925) overstated generalization; it stayed inside the 2025 reports.
