@@ -323,7 +323,9 @@ def run_agent(question: str) -> dict:
         "answer": s["answer"],
         "citations": parse_citations(s["answer"]),
         "retrieved": [r for st in steps for r in st.get("retrieved", [])],
-        "context": "\n\n".join(st.get("context", "") for st in steps if st["status"] == "ok"),
+        # figures computed in Python from a facts sheet are tool output: the faithfulness judge must see them
+        "context": "\n\n".join([st.get("context", "") for st in steps if st["status"] == "ok"]
+                               + (["Hasil hitung (kalkulator):\n" + "\n".join(s["derived"])] if s.get("derived") else [])),
         "refused": REFUSAL in s["answer"],
         "verified": not s["unsupported"] and not s["answer"].startswith(REFUSAL),
         "unsupported": s["unsupported"],

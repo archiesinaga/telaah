@@ -501,3 +501,10 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 2. Freeze a held-out task set (new banks/years/indicators combos, written before looking at results) before quoting final numbers; Opus 5.5 for the design.
 3. Optional: final answer template for sheet questions (avoid 7B number rewriting, t039); two-indicator ratios (t046) in `derive`.
 4. Housekeeping: restore power settings, delete `eval/runs/*.bak`.
+
+## Seed check with facts path (2026-10-18 15:37, `eval/runs/20261018-153747.json`)
+- vs router 20261015-080930: recall 0.92 -> 0.94, citation 0.62 -> 0.64, judge 0.82 -> 0.89, numeric 0.89 -> 0.82, refusal 0.96 -> 0.92, faithful 0.93 -> 0.88, 16.9 s/q.
+- Facts-path seed questions q033 q034 q035 q037 q039: judge 5/5, citation 5/5 (q035/q037/q039 were wrong before).
+- Drops are RAG path (code unchanged): q002 read p42 (60,64 T) instead of p28 (known flaky), q009 and q030 refused (q030 chart + Gemini vision; rerun: q030 answered but wrong figure). Not caused by the facts change.
+- Faithful 0 on sheet questions was the context: full report pages overflowed the 7B context window. Fix: `facts.row_excerpt` (header + fact row, <600 chars) + derived lines in the agent context. Faithful on the 5 sheet questions 1/5 -> 3/5; rest is the 7B judge (q035, q039). These 5 were unscored (None) before, so the faithful average is not comparable.
+- Idea: route single-figure questions covered by the table (q002 laba BRI 2025) to `facts.answer_step` too -> fixes the flaky q002 class. Measure on seed + tasks.

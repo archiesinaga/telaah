@@ -306,12 +306,28 @@ def answer_step(q: str) -> dict | None:
     return as_answer(bank, year, hit) if hit else None
 
 
-def as_answer(bank: str, year: int, hit: dict) -> dict:
+def row_excerpt(doc: str, page: int, label: str) -> str:
+    """The year header and the fact's own row: a whole report page (10-20k chars) overflows the 7B's context
+    window when a sheet holds several pages, and the judge then loses the end of its prompt."""
     from telaah.tools import read_page_text
 
+    header, rows = None, []
+    for line in read_page_text(doc, page).split("\n"):
+        if not line.lstrip().startswith("|"):
+            continue
+        cells = _cells(line)
+        if _header_years(cells):
+            header = line.strip()
+        elif cells and cells[0] == label:
+            rows += [header, line.strip()] if header and header not in rows else [line.strip()]
+    return "\n".join(re.sub(r" {2,}", " ", r) for r in rows if r)
+
+
+def as_answer(bank: str, year: int, hit: dict) -> dict:
     sentence = f"{hit['label']} {BANK_NAME[bank]} tahun {year}: {shown(hit)} [{hit['doc']} p.{hit['page']}]."
+    excerpt = row_excerpt(hit["doc"], hit["page"], hit["label"])
     return {"answer": sentence, "citations": [(hit["doc"], hit["page"])], "retrieved": [(hit["doc"], hit["page"])],
-            "context": f"[{hit['doc']} p.{hit['page']}]\n{read_page_text(hit['doc'], hit['page'])}", "refused": False,
+            "context": f"[{hit['doc']} p.{hit['page']}]\n{excerpt}", "refused": False,
             "fact": {k: hit[k] for k in ("doc", "page", "label", "year", "value", "raw", "unit", "support")}}
 
 
