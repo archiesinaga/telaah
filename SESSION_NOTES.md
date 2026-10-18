@@ -483,3 +483,21 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 1. Facts table (SQLite: bank, year, indicator, value, unit, doc, page) + `lookup_facts` agent tool, reusing `eval/build_agent_tasks.py` parsing; design with Opus 5.5. Subset of 10 tasks on 7B, then full 60.
 2. Optional: full 60-task router run on 7B with the new router (projected ~0.38-0.40, unmeasured).
 3. Housekeeping: restore power settings (`powercfg /change standby-timeout-ac 10` / `-dc 10`), lid action manually; delete `eval/runs/*.partial.jsonl.bak` once happy.
+
+# Update - 2026-10-18 (13:15): facts table + facts sheet -> 7B 0.90 on the 60 agent tasks
+
+## Done
+- `src/telaah/facts.py`: generic extractor over every markdown table of the bank reports (year header row, label aliases per indicator, no per-page spec), skips segment/subsidiary tables, coverage ratios (LLR/NPL), negative balance cells, nominal rows named like a ratio. 997 facts in `data/facts.sqlite` (gitignored; `python -m telaah.facts`). 14 indicators: npl_gross/net, car, tier1, cet1, ldr, nim, bopo, casa, roa, roe, total_aset, laba, ekuitas. DPK and total loans left out on purpose (rows spread over segment/sub-total tables, lookups were wrong).
+- Lookup: named report else latest; value printed on most pages wins, tie -> earliest page. `eval/check_facts.py`: 102/102 gold values, 100/102 gold page. Caveat: aliases written after seeing these reports, not held-out.
+- Agent: `answer_step` answers one-figure steps from the table; `sheet` + `derive`: one indicator over banks x years, all in the table -> plan by code, change/growth/order/gap/mean/sum computed in Python in the asked unit; the 7B only writes. Router sends sheet questions to the agent (regulation still RAG). `TELAAH_FACTS=0` disables. Q_SKIP: grafik, kuartal, atribusi, industri, and any scope below the bank (kecamatan, kabupaten, cabang, ...) after t060 hallucinated.
+- pytest 53 passed. Commits a834a79 and later.
+
+## Results (7B, 60 tasks; the 60 tasks are now a DEV set: tuned on them)
+- `eval/runs/tasks-router-20261018-130101.json`: success 0.90, 11.1 s/task (RAG 0.383, old router 0.267, Gemini router 0.733). ranking 1.00, trend 1.00, multi_trend 1.00, compute 0.86, regulation 0.63, unanswerable 0.83 -> after Q_SKIP fix rerun 6/6 (`tasks-router-20261018-131305.json`), so ~0.917 combined.
+- Remaining misses: t039 (7B rewrote 4.249,99 as 4.25), t046 (ratio of two indicators, not a sheet, refused), t048/t051/t053 regulation on RAG.
+
+## Next
+1. Seed 50-question regression check with the facts path: `telaah eval --router` (q033/q034/q035/q037 now use the sheet; q038 skipped on purpose). ~16 min, background.
+2. Freeze a held-out task set (new banks/years/indicators combos, written before looking at results) before quoting final numbers; Opus 5.5 for the design.
+3. Optional: final answer template for sheet questions (avoid 7B number rewriting, t039); two-indicator ratios (t046) in `derive`.
+4. Housekeeping: restore power settings, delete `eval/runs/*.bak`.

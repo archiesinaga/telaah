@@ -74,3 +74,9 @@ def test_derive_change_per_bank():
 def test_question_years_and_skips():
     assert facts.parse_question("NPL BRI 2021 sampai 2025")[2] == [2021, 2022, 2023, 2024, 2025]
     assert facts.parse_question("NPL Mandiri 2025 dan NPL industri perbankan") is None
+
+
+def test_scope_below_the_bank_is_not_answered_from_the_table():
+    # an unanswerable district-level question must not get the bank-wide figure
+    assert facts.parse_step("Berapa NPL gross BRI di Kecamatan Pulau Tiga per 2025?") is None
+    assert facts.parse_question("Total aset BTN cabang Natuna 2025") is None

@@ -241,7 +241,10 @@ Q_INDICATORS: dict[str, str] = {
 Q_SHADOWS = {"npl_net": "npl_gross", "cet1": "tier1", "tier1": "car"}
 # wordings the table cannot answer: chart readings, quarters, the parent-attributable share of profit, figures of
 # the banking industry (quoted in a report but not a bank of the table)
-Q_SKIP = re.compile(r"grafik|kuartal|triwulan|semester|atribusi|diatribusikan|segmen|anak perusahaan|industri", re.I)
+# Any scope below the whole bank (a region, branch, district) must not get the bank-wide figure: the table would
+# turn an unanswerable question into a confident wrong answer (t060: NPL of BRI "di Kecamatan Pulau Tiga").
+Q_SKIP = re.compile(r"grafik|kuartal|triwulan|semester|atribusi|diatribusikan|segmen|anak perusahaan|industri"
+                    r"|kecamatan|kabupaten|\bkota\b|provinsi|wilayah|regional|kanwil|cabang|kantor|\bdi\s+(?:pulau|daerah)", re.I)
 UNIT_TXT = {"jt": "juta Rupiah", "mi": "miliar Rupiah", "tn": "triliun Rupiah"}
 BANK_NAME = {"bri": "BRI", "mandiri": "Bank Mandiri", "btn": "BTN", "bca": "BCA", "bni": "BNI"}
 
