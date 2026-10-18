@@ -585,3 +585,26 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - `facts.ratio_sheet`/`derive_ratio`: two money indicators joined by "dibagi" (laba / total aset), per bank in Python; `agent.plan` uses it, `compose` keeps the calculator's "Total gabungan" figure (t039), appends per-bank ratios, and replaces a 7B refusal with the computed lines (t044).
 - Dev 60: 0.95 -> 0.967 before the t044 fix (`tasks-router-20261018-224430.json`); t039/t044/t046 all 1.0 after (`...-225615.json`); remaining miss t053 (regulation threshold). Seed not rerun (no seed question uses the ratio route). pytest 68.
 - Next: set #3 by someone else; parse gaps (mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021); q030 chart flakiness; Phase 4 + Gradio.
+
+# Update — 2026-10-18 (night): ratio route, handoff
+
+## Done
+- Commit 3f951e0: `facts.ratio_sheet`/`derive_ratio` (laba / total aset in Python), `agent.plan` ratio branch, `agent.compose` guards (keep "Total gabungan" figure, append per-bank ratios, replace 7B refusal with computed lines), test in `tests/test_facts.py`.
+
+## Results
+- Dev 60: 0.95 -> 0.967 (`eval/runs/tasks-router-20261018-224430.json`); t039/t044/t046 = 1.0 after the t044 fix (`...-225615.json`, not a full rerun, est. ~0.98). Miss left: t053. pytest 68. Seed not rerun.
+
+## Decisions
+- Ratio answers use the calculator lines as the answer when the 7B refuses (figures come from table rows).
+- Held-out sets #1/#2 spent; set #3 must be written by the user or real questions.
+
+## Lessons
+- Run Python via `.venv/Scripts/python.exe` (bare `python` lacks telaah). Pyright "not required key"/import warnings are noise.
+
+## Running/pending
+- Nothing running. Power settings still "never sleep".
+
+## Next
+1. Parse gaps: mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021 (check `python -m telaah.facts`).
+2. Phase 4 benchmark design (~450 questions, held-out split; use Opus 5.5), held-out #3 by the user.
+3. Gradio demo on HF Spaces. Optional: q030 chart flakiness.
