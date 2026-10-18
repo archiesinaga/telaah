@@ -7,12 +7,17 @@ from telaah.retrieve import entity_groups
 
 # narrower than agent.CALC_RE: "jumlah" and "rata-rata" also appear in plain single-fact questions
 CALC_RE = re.compile(r"selisih|perbedaan|beda\b|berapa kali|total gabungan", re.I)  # "dibandingkan 2024" is a plain growth question
-TREND_RE = re.compile(r"tren|selama|dari tahun|antara tahun|20[0-9]{2}\s*(?:-|–|sampai|hingga|s\.d\.?)\s*20[0-9]{2}", re.I)
+# a regulation threshold (with or without a bank figure) reads better through plain RAG on the 7B (0.63 vs 0.13 on the regulation tasks)
+REGULATION_RE = re.compile(r"\b(?:POJK|PADG|PBI|SEOJK)\b", re.I)
 
 
 def route(question: str) -> str:
-    """'agent' for comparisons across documents, arithmetic over several facts, or multi-year trends; else 'rag'."""
-    if entity_groups(question) or CALC_RE.search(question) or DERIVE_RE.search(question) or TREND_RE.search(question):
+    """'agent' for comparisons across documents or arithmetic over several facts; else 'rag'.
+
+    A multi-year trend of one bank is also 'rag' (7B: 0.50 vs 0.00 through the agent); trends across banks match `entity_groups`."""
+    if REGULATION_RE.search(question):
+        return "rag"
+    if entity_groups(question) or CALC_RE.search(question) or DERIVE_RE.search(question):
         return "agent"
     return "rag"
 

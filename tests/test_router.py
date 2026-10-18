@@ -13,7 +13,6 @@ def test_single_fact_goes_to_rag(monkeypatch):
 def test_comparison_and_trend_go_to_agent(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
     assert router.route("Berapa selisih NPL BRI dan BCA?") == "agent"
-    assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "agent"
     monkeypatch.setattr(router, "entity_groups", lambda q: [["bri_2025"], ["bca_2025"]])
     assert router.route("Bank mana yang aset totalnya lebih besar?") == "agent"
 
@@ -29,3 +28,12 @@ def test_named_source_report_limits_the_years():
     q = "Sebutkan NPL gross BRI 2021 sampai 2025. Gunakan data dari Laporan Tahunan 2025 masing-masing bank."
     assert detect_groups(q) == [["bri_2025"]]
     assert detect_groups("Sebutkan NPL gross BRI 2021 sampai 2025.") == [["bri_2024", "bri_2025"]]
+
+
+def test_single_bank_trend_and_regulation_go_to_rag(monkeypatch):
+    monkeypatch.setattr(router, "entity_groups", lambda q: [])
+    assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "rag"
+    # a regulation threshold, even next to a bank figure, stays on plain RAG (7B: 0.63 vs 0.13)
+    monkeypatch.setattr(router, "entity_groups", lambda q: [["bri_2025"]])
+    assert router.route("Berapa selisih CAR Tier 1 BRI 2025 terhadap batas modal inti POJK 11/POJK.03/2016?") == "rag"
+    assert router.route("Berapa ambang NPL gross dalam PADG 23 Tahun 2025?") == "rag"
