@@ -13,3 +13,4 @@ data/agent_traces/
 *.log
 .bak_pre_colpali/
 .pytest_cache/
+data/facts.sqlite

@@ -9,6 +9,7 @@ compose  : final answer from verified facts (+ calculator result)
 final    : the final answer is checked the same way; results of the calculator are allowed
 """
 import json
+import os
 import re
 import time
 from typing import TypedDict
@@ -16,12 +17,14 @@ from typing import TypedDict
 from langgraph.graph import END, START, StateGraph
 from openai import OpenAI
 
-from telaah import tools, vision
+from telaah import facts, tools, vision
 from telaah.answer import CITE_RE, REFUSAL, SYSTEM, _chat, answer_entity, ask, parse_citations, refine_step, split_question
 from telaah.config import LLM_API_KEY, LLM_BASE_URL, LLM_MAX_RETRIES, ROOT
 from telaah.retrieve import entity_groups
 
 MAX_STEPS = 5
+# one-figure steps (bank, indicator, year) are read from the facts table instead of RAG; TELAAH_FACTS=0 disables
+USE_FACTS = os.environ.get("TELAAH_FACTS", "1") == "1"
 RETRY_K = 8
 RETRY_ENTITY_PAGES = 8
 CALC_RE = re.compile(r"selisih|perbedaan|beda\b|berapa kali|rata-rata|total gabungan|jumlah", re.I)
@@ -161,7 +164,11 @@ def execute(state: State) -> dict:
     for st in state["steps"]:
         if st["status"] == "pending":
             retry = bool(st["attempts"])
-            if st.get("docs"):
+            hit = None if retry or not USE_FACTS else facts.answer_step(st["q"])
+            if hit:
+                r = hit
+                st = {**st, "fact": hit["fact"]}
+            elif st.get("docs"):
                 got, chunks, vp, ctx = answer_entity(_llm(), st["q"], st["docs"], RETRY_ENTITY_PAGES if retry else None)
                 r = {"answer": got, "citations": parse_citations(got), "context": ctx, "refused": REFUSAL in got,
                      "retrieved": [(c["doc_id"], c["page"]) for c in chunks], "vision": vp}
