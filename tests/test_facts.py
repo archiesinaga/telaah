@@ -120,3 +120,22 @@ def test_restatement_needs_two_named_reports():
     rs = facts.restatement(q)
     assert rs and rs["reports"] == [2024, 2025] and [h["report_year"] for h in rs["hits"]] == [2024, 2025]
     assert facts.restatement("Total aset BRI akhir 2024 menurut Laporan Tahunan 2025?") is None
+
+
+def test_merged_header_cells():
+    # "Uraian 2024 2023" in one cell: years in order, the row mapped by position
+    hdr = ["", "", "Uraian 2024 2023", "2022", "2021", "2020"]
+    assert facts._header_order(hdr) == [2024, 2023, 2022, 2021, 2020]
+    header = (facts._header_years(hdr), hdr[0], len(hdr), facts._header_order(hdr), hdr)
+    assert facts._row_years(header, ["TOTAL EKUITAS", "1", "2", "3", "4", "5"]) == {1: 2024, 2: 2023, 3: 2022, 4: 2021, 5: 2020}
+    # a year glued to growth columns: header cells that start with a year
+    hdr = ["Uraian", "2024", "2023 Pertumbuhan Rp %", "2023 Pertumbuhan Rp %"]
+    header = (facts._header_years(hdr), hdr[0], len(hdr), facts._header_order(hdr), hdr)
+    assert facts._row_years(header, ["TOTAL EKUITAS", "32.571.889", "30.479.152", "2.092.737", "6,87%"]) == {1: 2024, 2: 2023}
+    assert facts._header_order(["x", "YoY 2024-2025 (%)"]) == []
+
+
+def test_requirement_and_component_rows_are_not_the_ratio():
+    for label in ["CET 1 untuk Buffer", "Dari CET 1", "Rasio KPMM Sesuai Profil Risiko", "Capital Adequacy Ratio (CAR)-Tier II"]:
+        assert facts.indicator_of(label) is None, label
+    assert facts.indicator_of("Rasio Kewajiban Penyediaan Modal Minimum (KPMM)") == "car"

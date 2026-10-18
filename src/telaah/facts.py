@@ -50,14 +50,19 @@ STOCKS = {"total_aset", "ekuitas"}  # balances: a negative cell is a cash-flow c
 # these: the regulatory ratios are reported bank only)
 SEGMENT_RE = re.compile(r"segmen|segment|entitas anak|anak perusahaan|subsidiar", re.I)
 # ratios built on an indicator ("LLR/NPL Bruto (Coverage Ratio)") are not the indicator
-DERIVED_RE = re.compile(r"coverage|\bllr\b|cadangan|/\s*npl|terhadap npl|to npl", re.I)
+DERIVED_RE = re.compile(r"coverage|\bllr\b|cadangan|/\s*npl|terhadap npl|to npl"
+                        # capital components and requirements, not the bank's ratio (bca_2025 p594: "CET 1 untuk
+                        # Buffer", "Dari CET 1", "Rasio KPMM Sesuai Profil Risiko" 9,99%; bni_2024 p341 "CAR-Tier II")
+                        r"|buffer|sesuai profil risiko|^dari\b|tier\s*(?:2|ii)\b", re.I)
 # "2024", "2024 *", "2020 *)", "2021 **)", "2024 (*)": footnote marks after the year (BRI 2024 writes "2020 *)")
 YEAR_CELL = re.compile(r"^(?:fy\s*)?((?:19|20)\d\d)\s*(?:\*{1,3}\s*\)?|\(\s*\*+\s*\)|[¹²³\d])?\s*$", re.I)
 # a header with month or quarter columns ("November 2024", "Triwulan IV-2024") is a macro or industry table,
 # not the bank's annual figures (bri_2024 p198: national banking NPL/ROA next to yearly columns)
 PERIOD_RE = re.compile(r"januari|februari|maret|april|\bmei\b|juni|juli|agustus|september|oktober|november|desember"
                        r"|january|february|march|\bmay\b|june|july|august|october|december|triwulan|kuartal"
-                       r"|semester|\bq[1-4]\b", re.I)
+                       r"|semester|\bq[1-4]\b"
+                       # budget tables: "Desember 2025 - Target | Desember 2025 - Realisasi" (mandiri_2025 p362)
+                       r"|\btarget\b|realisasi|\brkap\b|anggaran", re.I)
 NUM_CELL = re.compile(r"^\(?-?\d[\d.,]*\)?\s*%?$")
 UNIT_RE = re.compile(r"\b(?:dalam|in)\s+(jutaan|juta|miliar|milyar|triliun|millions?|billions?|trillions?)\b", re.I)
 UNIT = {"jutaan": "jt", "juta": "jt", "million": "jt", "millions": "jt", "miliar": "mi", "milyar": "mi",
@@ -118,6 +123,38 @@ def _header_years(cells: list[str]) -> dict[int, int]:
     return cols if len(cols) >= 2 else {}
 
 
+YEAR_TOKEN = re.compile(r"^(?:19|20)\d\d$")
+
+
+def _header_order(cells: list[str]) -> list[int]:
+    """The years a header names, in column order, also when the parser merged cells: "2024 2023" in one cell
+    (btn_2024 p24), "Uraian 2024 2023" (btn_2024 p23), a year glued to the first data row "2025 331.743.367"
+    (btn_2025 p21). Only standalone year tokens count, so "YoY 2024-2025 (%)" names no year."""
+    order: list[int] = []
+    for c in cells[1:]:
+        for tok in c.split():
+            if YEAR_TOKEN.match(tok) and int(tok) not in order:
+                order.append(int(tok))
+    return order
+
+
+def _row_years(header: tuple, cells: list[str]) -> dict[int, int]:
+    """Column -> year for one data row: the header's year columns; when merged header cells hide columns, by
+    position if the row has one value per named year, else the header cells that start with a year
+    ("2023 Pertumbuhan Rp %", btn_2024 p308)."""
+    cols, order, hcells = header[0], header[3], header[4]
+    if len(order) <= len(cols):
+        return cols
+    if len(cells) - 1 == len(order):
+        return {i + 1: y for i, y in enumerate(order)}
+    lead: dict[int, int] = {}
+    for i, c in enumerate(hcells):
+        tok = c.split()[0] if i > 0 and c.split() else ""
+        if YEAR_TOKEN.match(tok) and int(tok) not in lead.values():
+            lead[i] = int(tok)
+    return lead if len(lead) >= 2 else cols
+
+
 def _unit(kind: str, header_first: str, context: str, page_text: str, doc_unit: str) -> str:
     """Nearest statement first: header cell, text just above the table, the page, the report's usual unit."""
     if kind == "pct":
@@ -137,7 +174,7 @@ def extract_doc(doc: str) -> list[dict]:
     units = Counter(UNIT[m.group(1).lower()] for p in pages for m in UNIT_RE.finditer(p["text"]))
     doc_unit = units.most_common(1)[0][0] if units else ""
     out = []
-    carry: tuple[dict[int, int], str, int] | None = None  # last header of the previous page: cols, first cell, width
+    carry: tuple | None = None  # last header of the previous page: cols, first cell, width, year order
     carry_segment = False  # the previous page's last table was a segment table
     for p in pages:
         header, inherited, first_table = None, 0, True
@@ -163,14 +200,17 @@ def extract_doc(doc: str) -> list[dict]:
                 continue
             if set("".join(cells)) <= set("-: "):
                 continue
-            cols = _header_years(cells)
-            if cols:
-                header, inherited = (cols, cells[0], len(cells)), 0
+            cols, order = _header_years(cells), _header_order(cells)
+            if cols or len(order) >= 2:
+                header, inherited = (cols, cells[0], len(cells), order, cells), 0
                 period = any(PERIOD_RE.search(c) for c in cells[1:])
                 continue
             if period:
                 continue
-            if new_table and first_table and header is None and carry and carry[2] == len(cells):
+            # a table continued from the previous page opens with a data row; a row of text cells is its own
+            # header (a budget table under a five-year table must not take that table's years)
+            numeric = sum(parse_num(c, style) is not None for c in cells[1:])
+            if new_table and first_table and header is None and carry and carry[2] == len(cells) and numeric * 2 >= len(cells) - 1:
                 header, inherited = carry, 1
             if header is None:
                 continue
@@ -179,7 +219,7 @@ def extract_doc(doc: str) -> list[dict]:
                 continue
             kind = INDICATORS[ind][0]
             unit = _unit(kind, header[1], " ".join(context), p["text"], doc_unit)
-            for i, y in header[0].items():
+            for i, y in _row_years(header, cells).items():
                 if i < len(cells) and (v := parse_num(cells[i], style)) is not None:
                     if kind == "pct" and abs(v) > 1000:  # a nominal row with a ratio's name ("CASA" in Rp)
                         continue
@@ -555,5 +595,47 @@ def derive(q: str, sh: dict) -> list[str]:
     return lines
 
 
+SPAN = 5  # an annual report's summary tables cover its year and the four before
+
+
+def coverage(path=DB_PATH) -> list[dict]:
+    """Per bank report and indicator: the years of the expected five-year span the table lacks. An indicator
+    found in another report of the same bank but absent here is listed with every year missing. A table format the
+    extractor does not know drops facts without an error (held-out #2: BRI 2024's "2020 *)" header lost all BRI
+    2020 figures); this makes such gaps visible at build time."""
+    con = sqlite3.connect(path)
+    rows = con.execute("SELECT DISTINCT bank, report_year, indicator, year FROM facts").fetchall()
+    con.close()
+    have: dict[tuple[str, int, str], set[int]] = {}
+    for bank, ry, ind, y in rows:
+        have.setdefault((bank, ry, ind), set()).add(y)
+    reports = sorted({(b, ry) for b, ry, _ in have})
+    out = []
+    for bank, ry in reports:
+        expected = set(range(ry - SPAN + 1, ry + 1))
+        for ind in INDICATORS:
+            if not any(b == bank and i == ind for b, _, i in have):
+                continue  # this bank never reports the indicator in a table the extractor reads
+            missing = sorted(expected - have.get((bank, ry, ind), set()))
+            if missing:
+                out.append({"bank": bank, "report_year": ry, "indicator": ind, "missing": missing,
+                            "absent": len(missing) == SPAN})
+    return out
+
+
+def print_coverage(gaps: list[dict]) -> None:
+    if not gaps:
+        print("coverage: every indicator has all five years in every report")
+        return
+    print(f"coverage: {len(gaps)} gaps (bank report, indicator: missing years); absent = not found in that report")
+    for g in gaps:
+        years = "absent" if g["absent"] else ", ".join(map(str, g["missing"]))
+        print(f"  {g['bank']}_{g['report_year']:<6} {g['indicator']:<11} {years}")
+
+
 if __name__ == "__main__":
-    print(build(), "facts ->", DB_PATH)
+    import sys
+
+    if "--coverage" not in sys.argv:
+        print(build(), "facts ->", DB_PATH)
+    print_coverage(coverage())

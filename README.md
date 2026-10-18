@@ -112,7 +112,7 @@ flowchart LR
 - **Corpus:** 44 documents (annual reports 2024 and 2025 of BCA, BRI, BNI, BTN, Mandiri; OJK and BI regulations), 13,784 pages, one chunk per page, parsed with Docling.
 - **Retrieval:** BGE-M3 dense + own BM25, fused by reciprocal rank fusion; extra rankings limited to the front summary pages and to pages with a multi-year table. Questions are filtered to the banks, years and regulations they name. Ratio abbreviations (NPL, CAR, KPMM, LDR, NIM, BOPO, CASA) are expanded for BM25.
 - **Charts:** ColPali (`colqwen2-v1.0`) page-image index, built on a free Kaggle GPU, covers 3 reports (4,396 pages). For chart questions the top retrieved pages are rendered and transcribed by Gemini (`gemini-3.5-flash-lite`, free key); the transcript is put in front of that page's text.
-- **Facts table** (`src/telaah/facts.py`, `data/facts.sqlite`): built at ingest time by code, without a per-page spec. Every markdown table of a bank report whose header row holds years is read row by row; rows whose label matches an indicator alias become facts (bank, report, page, indicator, year, value, unit). 795 facts, 14 indicators (NPL gross/net, CAR/KPMM, Tier 1, CET1, LDR, NIM, BOPO, CASA, ROA, ROE, total assets, profit, equity), 9 reports. Segment and subsidiary tables, coverage ratios and cash-flow rows are skipped. Year headers may carry footnote marks (`2020 *)`); when a year appears twice (restated and first-published), the first column wins. Tables with month or quarter columns (macro and banking-industry tables) are skipped, and a table continuing at the top of a page keeps the previous page's segment flag. A lookup prefers the named report, then the report of that year; within a report the value printed on the most pages wins. DPK and total loans are left out on purpose: their rows are spread over segment and sub-total tables, so a lookup returned wrong figures.
+- **Facts table** (`src/telaah/facts.py`, `data/facts.sqlite`): built at ingest time by code, without a per-page spec. Every markdown table of a bank report whose header row holds years is read row by row; rows whose label matches an indicator alias become facts (bank, report, page, indicator, year, value, unit). 887 facts, 14 indicators (NPL gross/net, CAR/KPMM, Tier 1, CET1, LDR, NIM, BOPO, CASA, ROA, ROE, total assets, profit, equity), 9 reports. Segment and subsidiary tables, coverage ratios and cash-flow rows are skipped. Year headers may carry footnote marks (`2020 *)`) or be merged by the PDF parser (`Uraian 2024 2023` in one cell, a year glued to the first data row); the row is then mapped by position. When a year appears twice (restated and first-published), the first column wins. Tables with month, quarter or target/realization columns (macro, banking-industry and budget tables) are skipped; a table continuing at the top of a page keeps the previous page's segment flag and header, but only if it opens with a data row. Capital components and requirements ("CET 1 untuk Buffer", "KPMM sesuai profil risiko", Tier II) are not read as the ratio. A lookup prefers the named report, then the report of that year; within a report the value printed on the most pages wins. DPK and total loans are left out on purpose: their rows are spread over segment and sub-total tables, so a lookup returned wrong figures.
 - **Router** (`src/telaah/router.py`): rules, no extra LLM call. It refuses a question that names a bank outside the corpus, sends one-figure questions the table holds to a lookup, one figure asked from two named reports to a restatement lookup (both figures + difference), sheet questions (also when up to half of the figures must be read by RAG) and other multi-step questions to the agent, regulation-vs-bank questions to the regulation path, and the rest to RAG. Anything the table cannot answer (charts, quarters, attributable profit, industry figures, scopes below the bank) falls back to RAG.
 - **Agent** (`src/telaah/agent.py`, LangGraph): plan -> execute -> verify -> compute -> compose -> verify. Each step is a lookup when the table holds it, else RAG; a step whose year the question does not ask about is corrected or left to RAG. Every cited sentence is checked against the cited page; a failing step is retried with more pages, then dropped.
 - **Answering:** the prompt demands `[doc_id p.N]` after every claim and the exact reply `TIDAK DITEMUKAN` when the context has no answer. Output is capped (`MAX_ANSWER_TOKENS`) because the 7B can loop at temperature 0.
@@ -136,7 +136,7 @@ Put the PDFs in `data/raw/` (not included), then:
 telaah ingest --no-en --workers 2   # Docling -> data/processed/*.jsonl (needs time and RAM)
 telaah inventory                    # data/inventory.csv
 telaah index                        # BGE-M3 -> embedded Qdrant (data/qdrant)
-python -m telaah.facts              # facts table -> data/facts.sqlite (seconds)
+python -m telaah.facts              # facts table -> data/facts.sqlite (seconds) + missing-years report
 telaah ask "Berapa NPL gross BRI pada tahun 2025?"     # routed; --rag forces plain RAG
 $env:LLM_MODEL = "qwen2.5:7b-gpu"
 telaah eval --router                                  # seed questions -> eval/runs/<timestamp>.json
@@ -145,6 +145,7 @@ python eval/check_facts.py                            # facts table vs the gold 
 pytest
 ```
 
+- **Facts coverage:** `python -m telaah.facts --coverage` lists, per bank report and indicator, the years of the report's five-year span that the table lacks (the build prints it too). Most remaining gaps are real (a bank does not publish CET1 for every year); others are cells the PDF parser left empty (Mandiri 2025 total assets 2022, BTN 2025 NIM 2021).
 - **Held-out tasks:** `python eval/run_agent_tasks.py --mode router --tasks heldout_tasks.jsonl`. Read `eval/HELDOUT.md` first: set #1 is spent.
 - **Resumable runs:** each agent task is appended to a `.partial.jsonl`; after a crash or an API quota error, rerun with `--resume <that file>`.
 - **Other LLMs:** any OpenAI-compatible endpoint via `LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL`; `LLM_MIN_INTERVAL` throttles requests (Gemini free tier: 15/min, 500/day).
@@ -176,6 +177,5 @@ pytest
 ## Next
 
 1. Held-out set #3, written by someone other than the author.
-2. Flag silent extractor gaps: report, per report and indicator, which years are missing from the table.
-3. Template the final answer for sheet questions (t039) and compute two-indicator ratios in code (t046).
-4. Grow the benchmark (ROADMAP Phase 4) and a Gradio demo.
+2. Template the final answer for sheet questions (t039) and compute two-indicator ratios in code (t046).
+3. Grow the benchmark (ROADMAP Phase 4) and a Gradio demo.

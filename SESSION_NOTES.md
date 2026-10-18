@@ -542,3 +542,9 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - Router: restatement route (one figure, two named reports, template + difference); partial sheets (<= half missing -> RAG steps; no sheet when a missing year is after every report).
 - Dev 60: 0.95 (`tasks-router-20261018-173251.json`). Seed (`20261018-175554.json`): only q039 changed (restatement route, faithful 0 -> 1); faithful 0.94.
 - README updated: set #2 0.63 quoted as the more honest held-out number; both sets spent.
+
+## Missing-years report + extractor fixes it surfaced (2026-10-18 18:20)
+- `facts.coverage()` / `python -m telaah.facts [--coverage]`: per bank report x indicator, years of the 5-year span missing (also printed by every build).
+- It found more silent misses, now fixed: merged header cells ("Uraian 2024 2023", "2025 331.743.367", "2023 Pertumbuhan Rp %") -> years in order, row mapped by position; budget tables (Target/Realisasi, mandiri_2025 p362, mandiri_2024 p438) had inherited the previous page's year header (now: inherit only when the table opens with a data row; target/realisasi/RKAP columns skipped); capital components/requirements read as ratios (buffer, "sesuai profil risiko", "Dari CET 1", Tier II).
+- 887 facts, check_facts 102/102 value AND page (was 100/102 page). Lookups vs previous commit: 0 changed, 0 lost, 12 added (BTN assets 2021-23 and profit/equity 2023-24 from the 2024/2025 reports, BCA CET1, BNI NPL net). Routing identical, offline dev coverage 41/41 -> dev/seed evals not rerun (same lookups). pytest 67.
+- Remaining gaps (14): mostly real (CET1/Tier 1/NPL net/CASA not published for all years), two empty parsed cells (mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021).
