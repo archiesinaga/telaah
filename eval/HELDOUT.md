@@ -25,4 +25,12 @@ unanswerable 6), built by `eval/build_heldout_tasks.py` BEFORE any system run on
    easier than truly external questions.
 
 ## Runs
-(none yet)
+- 2026-10-18 16:37, commit b61f6e4+bfe0fa9, 7B router (`eval/runs/tasks-heldout-router-20261018-163737.json`):
+  **0.925 (37/40)**, 10.7 s/task. ranking 6/6, trend 6/6, multi_trend 6/6, compute 9/10, regulation 5/6,
+  unanswerable 5/6. Failures (classified, NOT fixed under rule 1):
+  - h035 unanswerable: "NPL gross Allo Bank 2025 vs BRI" answered with BRI's NPL only. The facts parser ignores
+    an entity it does not know (same family as the t060 sub-scope bug). Serious: a confident answer to an
+    unanswerable question.
+  - h025 compute: mean over YEARS of one bank; `facts.derive` only averages across banks, the 7B averaged and
+    rounded wrong (6,74 vs 6,76).
+  - h033 regulation: KPMM Insentif threshold not found by any fallback, refused (dev t050, same threshold, passed).

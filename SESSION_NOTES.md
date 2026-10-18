@@ -523,3 +523,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - `src/telaah/regulation.py`, route "regulation": regulation threshold vs ONE bank ratio in the facts table. Bank figure from the table; threshold = percentage in a sentence of the full-question RAG answer that cites/names the regulation and is written AS A PERCENT on a regulation page (`states_pct`; a bare "14" on POJK 11/2016 p.43 is an item number), else one stated in the question, else regulation-only RAG (only when the first refused). Difference + above/below in Python, template answer. No threshold typed by hand. No threshold -> plain RAG answer unchanged.
 - Regulation tasks 7B: 0.50-0.63 -> 7/8 (`tasks-router-20261018-163007.json`), all threshold citations = gold page. t053 still misses (RAG wrote only 22,6 and no threshold sentence). No seed question changes route (q036 RIM not in the table). pytest 60 passed.
 - Projected 60-task total: 0.90 -> ~0.93 (56/60), not measured in one run.
+
+## Held-out set frozen + first run (2026-10-18 16:37)
+- `eval/heldout_tasks.jsonl` (40, built by `eval/build_heldout_tasks.py`, rules + hashes in `eval/HELDOUT.md`, commit bfe0fa9).
+- First run, 7B router: 0.925 (37/40); dev 0.90. Failures h035 (unknown bank -> answered the known half: serious), h025 (mean over years), h033 (threshold not found). Not fixed: fixing them from this run spends the set (rule 3).
+- Decision pending: fix these gaps (then build held-out set #2 before quoting held-out numbers again), or keep the set clean and look for the same gaps in dev/seed first.
