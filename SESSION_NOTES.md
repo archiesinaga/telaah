@@ -508,3 +508,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - Drops are RAG path (code unchanged): q002 read p42 (60,64 T) instead of p28 (known flaky), q009 and q030 refused (q030 chart + Gemini vision; rerun: q030 answered but wrong figure). Not caused by the facts change.
 - Faithful 0 on sheet questions was the context: full report pages overflowed the 7B context window. Fix: `facts.row_excerpt` (header + fact row, <600 chars) + derived lines in the agent context. Faithful on the 5 sheet questions 1/5 -> 3/5; rest is the 7B judge (q035, q039). These 5 were unscored (None) before, so the faithful average is not comparable.
 - Idea: route single-figure questions covered by the table (q002 laba BRI 2025) to `facts.answer_step` too -> fixes the flaky q002 class. Measure on seed + tasks.
+
+## Single-figure questions -> facts table (2026-10-18)
+- `router.route` returns "facts" for one bank + one indicator + one year in the table (`facts.answer_step`); falls back to RAG on no hit. No report named -> that year's own report (q010/q011 cite bni_2024 like the gold), sheets keep the latest report.
+- 10 seed questions take it (q001 q002 q003 q006 q007 q010 q011 q012 q014 q015): all metrics 1.0 (before: q002 wrong, q003/q011 citation 0), ~5 s/q incl. judge (was ~17 s). No agent task changes route. pytest 54 passed.
+- Not yet re-measured: full seed run with all changes (expected: q002/q003/q011 fixed, rest = RAG noise).

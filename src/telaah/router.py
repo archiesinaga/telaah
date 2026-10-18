@@ -1,4 +1,5 @@
-"""Send multi-step questions to the agent and single-fact questions to plain RAG (no extra LLM call)."""
+"""Send multi-step questions to the agent, single figures in the facts table to a table lookup, and other
+single-fact questions to plain RAG (no extra LLM call)."""
 import re
 
 from telaah import facts
@@ -13,21 +14,27 @@ REGULATION_RE = re.compile(r"\b(?:POJK|PADG|PBI|SEOJK)\b", re.I)
 
 
 def route(question: str) -> str:
-    """'agent' for comparisons across documents or arithmetic over several facts; else 'rag'.
+    """'agent' for comparisons across documents or arithmetic over several facts, 'facts' for one figure the
+    facts table holds (RAG sometimes reads a neighbouring page: q002 took 60,64 T from p42), else 'rag'.
 
-    A multi-year trend of one bank is also 'rag' (7B: 0.50 vs 0.00 through the agent); trends across banks match `entity_groups`."""
+    A multi-year trend of one bank is 'rag' unless the table covers it (7B: 0.50 vs 0.00 through the LLM-planned agent)."""
     if REGULATION_RE.search(question):
         return "rag"
     if USE_FACTS and facts.sheet(question):  # every figure is in the facts table: lookups + Python arithmetic
         return "agent"
     if entity_groups(question) or CALC_RE.search(question) or DERIVE_RE.search(question):
         return "agent"
+    if USE_FACTS and facts.answer_step(question):
+        return "facts"
     return "rag"
 
 
 def run_routed(question: str) -> dict:
     """Same result keys as `agent.run_agent`; `route` says which path answered."""
-    if route(question) == "agent":
+    path = route(question)
+    if path == "agent":
         return {**run_agent(question), "route": "agent"}
-    r = ask(question)
-    return {**r, "route": "rag", "verified": None, "unsupported": [], "calc_result": None, "steps": [], "trace": []}
+    r = facts.answer_step(question) if path == "facts" else None
+    if r is None:
+        path, r = "rag", ask(question)
+    return {**r, "route": path, "verified": None, "unsupported": [], "calc_result": None, "steps": [], "trace": []}

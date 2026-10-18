@@ -302,7 +302,9 @@ def answer_step(q: str) -> dict | None:
     if not parsed:
         return None
     bank, ind, year, report_year = parsed
-    hit = lookup(bank, ind, year, report_year)
+    # one figure, no report named: that year's own report (restated figures can differ: BRI 2024 total assets);
+    # `lookup` falls back to the latest report when that year has none
+    hit = lookup(bank, ind, year, report_year or year)
     return as_answer(bank, year, hit) if hit else None
 
 

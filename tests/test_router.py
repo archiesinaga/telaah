@@ -4,6 +4,7 @@ from telaah.filters import detect_groups
 
 def test_single_fact_goes_to_rag(monkeypatch):
     monkeypatch.setattr(router, "entity_groups", lambda q: [])
+    monkeypatch.setattr(router.facts, "answer_step", lambda q: None)
     assert router.route("Berapa total aset BRI pada tahun 2025?") == "rag"
     assert router.route("Berapa jumlah minimum anggota Dewan Komisaris bank umum?") == "rag"
     # a chart question that only asks for a unit is still one fact
@@ -46,3 +47,11 @@ def test_questions_covered_by_the_facts_table_go_to_agent(monkeypatch):
     assert router.route("Bagaimana tren NPL BRI dari 2021-2025?") == "agent"
     # regulation questions stay on RAG even when the bank figure is in the table
     assert router.route("Apakah KPMM BTN 2025 di atas batas POJK 11/POJK.03/2016?") == "rag"
+
+
+def test_single_figure_in_the_table_goes_to_facts(monkeypatch):
+    monkeypatch.setattr(router, "entity_groups", lambda q: [])
+    monkeypatch.setattr(router.facts, "sheet", lambda q: None)
+    monkeypatch.setattr(router.facts, "answer_step", lambda q: {"answer": "x"})
+    assert router.route("Berapa laba bersih konsolidasian BRI tahun 2025?") == "facts"
+    assert router.route("Berapa KPMM minimum menurut POJK 11/POJK.03/2016?") == "rag"
