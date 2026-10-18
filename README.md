@@ -9,7 +9,7 @@ Indonesian document research agent. It answers questions over IDX bank annual re
 Two benchmarks, both scored automatically against gold answers and gold pages:
 
 - **Seed questions** (`eval/seed_questions.jsonl`, 50): one-hop questions: 15 table lookups, 12 text facts, 5 charts, 8 cross-document, 10 unanswerable.
-- **Agent tasks**: multi-step questions (rankings, trends, comparisons across banks, arithmetic, regulation thresholds vs bank figures, unanswerable). `eval/agent_tasks.jsonl` (60) is the development set; `eval/heldout_tasks.jsonl` (40) was frozen before any run on it (`eval/HELDOUT.md`). Every gold figure is parsed from its page by a builder script, and derived numbers are computed there.
+- **Agent tasks**: multi-step questions (rankings, trends, comparisons across banks, arithmetic, regulation thresholds vs bank figures, restatements, unanswerable). `eval/agent_tasks.jsonl` (60) is the development set; `eval/heldout_tasks.jsonl` (40, set #1) and `eval/heldout2_tasks.jsonl` (40, set #2: 2024 reports as the source, 2020 figures, restatements) were each frozen before any run on them (`eval/HELDOUT.md`). Every gold figure is parsed from its page by a builder script, and derived numbers are computed there.
 
 ### Agent tasks
 
@@ -21,17 +21,18 @@ A task counts as solved when every gold number is in the answer (unanswerable: w
 | LLM-planned agent + router, 7B | dev 60 | 0.27 | 0.25 | 0.00 | 0.00 | 0.43 | 0.13 | 1.00 | 44 |
 | same, Gemini 3.5 Flash-Lite | dev 60 | 0.73 | 0.58 | 0.80 | 0.80 | 0.64 | 0.75 | 1.00 | - |
 | **Telaah now, 7B** | dev 60 | **0.95** | 1.00 | 1.00 | 1.00 | 0.86 | 0.88 | 1.00 | 12 |
-| **Telaah, 7B, held-out** | held-out 40 | **0.93** | 1.00 | 1.00 | 1.00 | 0.90 | 0.83 | 0.83 | 11 |
+| Telaah, 7B, held-out set #1 | 40 | 0.93 | 1.00 | 1.00 | 1.00 | 0.90 | 0.83 | 0.83 | 11 |
+| **Telaah, 7B, held-out set #2** | 40 | **0.63** | 0.50 | 0.75 | 0.25 | 0.40 | 0.83 | 1.00 | 12 |
 
-The held-out number (37/40) was measured once, on commit `b61f6e4`, before two of its failures were fixed. Those fixes spent the set (see Limitations). The dev numbers are optimistic: every fix in this phase was developed on those 60 tasks.
+Each held-out number was measured once, before any fix it motivated (set #1 on commit `b61f6e4`, set #2 on `ea0e29a`); the fixes spent both sets. **Set #2 is the more honest number.** Set #1 stayed inside the 2025 reports, like the dev set. Set #2 asked about the 2024 reports and 2020 figures, and one header format (`2020 *)`) the extractor did not know dropped every BRI 2020 figure; the 7B fallback then cited wrong tables (a subsidiary's profit, national-industry ratios). Restatement questions (set #2 only, 4/6) are not in the category columns. Those bugs are fixed now (dev unchanged at 0.95), but no fresh held-out set has measured the fix. The dev numbers are optimistic: every fix in this phase was developed on those 60 tasks.
 
 The main lesson: with a 7B model, the agent design was never the bottleneck. A strong model got 0.73 through the same agent; the 7B failed at reading the right row of a table and at arithmetic. Moving both into code (facts table + Python) took the 7B from 0.38 to 0.95 and made it 2x faster.
 
-Runs: `eval/runs/tasks-rag-20261015-093405.json`, `tasks-router-20261015-101830.json`, `tasks-router-20261015-101935-gemini.json`, `tasks-router-20261018-164809.json`, `tasks-heldout-router-20261018-163737.json`. Compare any of them with `python eval/run_agent_tasks.py --compare <runs...>`.
+Runs: `eval/runs/tasks-rag-20261015-093405.json`, `tasks-router-20261015-101830.json`, `tasks-router-20261015-101935-gemini.json`, `tasks-router-20261018-173251.json`, `tasks-heldout-router-20261018-163737.json` (set #1), `tasks-heldout-router-20261018-172027.json` (set #2). Compare any of them with `python eval/run_agent_tasks.py --compare <runs...>`.
 
 ### Seed questions
 
-Same 50 questions and metrics, from the first baseline to now (`eval/runs/20261018-171128.json`):
+Same 50 questions and metrics, from the first baseline to now (`eval/runs/20261018-175554.json`):
 
 | metric | baseline (dense RAG) | Phase 2 (15 Oct) | **now** |
 |---|---|---|---|
@@ -39,9 +40,9 @@ Same 50 questions and metrics, from the first baseline to now (`eval/runs/202610
 | numeric answers correct | 0.32 | 0.86 | **0.86** |
 | LLM-judge correctness | 0.27 | 0.82 | **0.92** |
 | refusal accuracy (refuse iff unanswerable) | 0.72 | 0.96 | **0.92** |
-| faithfulness (claims supported by context) | 0.60 | 0.93 | **0.91** |
+| faithfulness (claims supported by context) | 0.60 | 0.93 | **0.94** |
 | citation accuracy (every cited page is a gold page) | 0.22 | 0.56 | **0.70** |
-| latency per question | 138 s | 18 s | **13.5 s** |
+| latency per question | 138 s | 18 s | **13.2 s** |
 
 By question type (now):
 
@@ -79,6 +80,8 @@ Phase 3, agent tasks (dev 60, 7B):
 | **facts sheet**: plan and arithmetic in code | 0.90 | one indicator over banks x years: lookups are the plan, change/order/gap/mean/sum computed in Python, the 7B only writes |
 | refuse scopes below the bank (district, branch) | 0.92 | t060 had answered a district-level question with the bank-wide figure |
 | **regulation path** | 0.95 | threshold from RAG (checked as a percentage on the regulation page), bank figure from the table, comparison in Python |
+| unknown-bank refusal, mean over years (from held-out #1) | 0.95 | a question naming a bank outside the corpus is refused instead of answered for the known bank |
+| footnoted year headers, industry/segment tables, partial sheets, restatement route (from held-out #2) | 0.95 | BRI 2020 figures from the 2024 report; no industry or subsidiary rows in the table |
 
 Retrieval-only ablation (recall@5 on the 40 answerable seed questions, `eval/retrieval_eval.py`):
 
@@ -99,6 +102,7 @@ flowchart LR
     Q[Question] --> RT{Router}
     RT -- names a bank outside the corpus --> X[Refuse]
     RT -- one figure in the facts table --> FT[Facts lookup + citation]
+    RT -- one figure from two named reports --> RS[Restatement: both lookups + difference] --> TP
     RT -- one indicator over banks x years --> SH[Facts sheet: lookups + Python arithmetic] --> W[7B writes the answer]
     RT -- regulation threshold vs bank ratio --> RG[Threshold via RAG, checked on page + bank figure from table + Python] --> TP[Template answer]
     RT -- other multi-step --> AG[Agent: plan, per-step RAG or lookup, verify citations, calculator, compose]
@@ -108,8 +112,8 @@ flowchart LR
 - **Corpus:** 44 documents (annual reports 2024 and 2025 of BCA, BRI, BNI, BTN, Mandiri; OJK and BI regulations), 13,784 pages, one chunk per page, parsed with Docling.
 - **Retrieval:** BGE-M3 dense + own BM25, fused by reciprocal rank fusion; extra rankings limited to the front summary pages and to pages with a multi-year table. Questions are filtered to the banks, years and regulations they name. Ratio abbreviations (NPL, CAR, KPMM, LDR, NIM, BOPO, CASA) are expanded for BM25.
 - **Charts:** ColPali (`colqwen2-v1.0`) page-image index, built on a free Kaggle GPU, covers 3 reports (4,396 pages). For chart questions the top retrieved pages are rendered and transcribed by Gemini (`gemini-3.5-flash-lite`, free key); the transcript is put in front of that page's text.
-- **Facts table** (`src/telaah/facts.py`, `data/facts.sqlite`): built at ingest time by code, without a per-page spec. Every markdown table of a bank report whose header row holds years is read row by row; rows whose label matches an indicator alias become facts (bank, report, page, indicator, year, value, unit). 821 facts, 14 indicators (NPL gross/net, CAR/KPMM, Tier 1, CET1, LDR, NIM, BOPO, CASA, ROA, ROE, total assets, profit, equity), 9 reports. Segment and subsidiary tables, coverage ratios and cash-flow rows are skipped. A lookup prefers the named report, then the report of that year; within a report the value printed on the most pages wins. DPK and total loans are left out on purpose: their rows are spread over segment and sub-total tables, so a lookup returned wrong figures.
-- **Router** (`src/telaah/router.py`): rules, no extra LLM call. It refuses a question that names a bank outside the corpus, sends one-figure questions the table holds to a lookup, sheet questions and other multi-step questions to the agent, regulation-vs-bank questions to the regulation path, and the rest to RAG. Anything the table cannot answer (charts, quarters, attributable profit, industry figures, scopes below the bank) falls back to RAG.
+- **Facts table** (`src/telaah/facts.py`, `data/facts.sqlite`): built at ingest time by code, without a per-page spec. Every markdown table of a bank report whose header row holds years is read row by row; rows whose label matches an indicator alias become facts (bank, report, page, indicator, year, value, unit). 795 facts, 14 indicators (NPL gross/net, CAR/KPMM, Tier 1, CET1, LDR, NIM, BOPO, CASA, ROA, ROE, total assets, profit, equity), 9 reports. Segment and subsidiary tables, coverage ratios and cash-flow rows are skipped. Year headers may carry footnote marks (`2020 *)`); when a year appears twice (restated and first-published), the first column wins. Tables with month or quarter columns (macro and banking-industry tables) are skipped, and a table continuing at the top of a page keeps the previous page's segment flag. A lookup prefers the named report, then the report of that year; within a report the value printed on the most pages wins. DPK and total loans are left out on purpose: their rows are spread over segment and sub-total tables, so a lookup returned wrong figures.
+- **Router** (`src/telaah/router.py`): rules, no extra LLM call. It refuses a question that names a bank outside the corpus, sends one-figure questions the table holds to a lookup, one figure asked from two named reports to a restatement lookup (both figures + difference), sheet questions (also when up to half of the figures must be read by RAG) and other multi-step questions to the agent, regulation-vs-bank questions to the regulation path, and the rest to RAG. Anything the table cannot answer (charts, quarters, attributable profit, industry figures, scopes below the bank) falls back to RAG.
 - **Agent** (`src/telaah/agent.py`, LangGraph): plan -> execute -> verify -> compute -> compose -> verify. Each step is a lookup when the table holds it, else RAG; a step whose year the question does not ask about is corrected or left to RAG. Every cited sentence is checked against the cited page; a failing step is retried with more pages, then dropped.
 - **Answering:** the prompt demands `[doc_id p.N]` after every claim and the exact reply `TIDAK DITEMUKAN` when the context has no answer. Output is capped (`MAX_ANSWER_TOKENS`) because the 7B can loop at temperature 0.
 - **MCP server** (`src/telaah/mcp_server.py`): `list_documents`, `search_documents`, `read_page_text`, `read_page_image`, `calculate`.
@@ -160,8 +164,9 @@ pytest
 
 ## Limitations
 
-- **Small, self-written benchmarks.** 50 seed questions and 100 agent tasks, all written by the author (the held-out set by the same author, after seeing the dev failures). Real users will phrase questions in ways neither set covers.
-- **Held-out set #1 is spent.** Its run found two gaps (a bank outside the corpus answered with the known bank's figure; a mean over years computed by the 7B), and both were fixed from that run. Its 0.93 stays the honest number for the code before those fixes; a new held-out set is needed before quoting another.
+- **Small, self-written benchmarks.** 50 seed questions and 140 agent tasks, all written by the author (both held-out sets by the same author, who knew the system's rules). Real users will phrase questions in ways no set covers.
+- **Both held-out sets are spent.** Set #1 (0.93) found an unknown-bank hallucination and a missing operation; set #2 (0.63) found that the extractor dropped a whole year of one bank and that the 7B fallback then cites wrong tables. All were fixed from those runs, so the current code has no unspent held-out number. The next one should come from questions written by someone else.
+- **Silent extractor gaps are the main risk.** A table format the extractor does not know removes facts without an error; the fallback then answers from RAG, where the 7B can pick a plausible wrong row. Set #2 showed this costs about 30 points of accuracy on unfamiliar reports.
 - **The facts-table aliases were written after reading these reports.** 102/102 gold values (`eval/check_facts.py`) shows the extractor is right on this corpus, not that it generalizes to other banks' table layouts.
 - **The LLM judge** is the same 7B model it grades and has not been checked against human grades. On facts-table answers it sometimes marks a computed difference as unsupported.
 - **Open misses:** t039 (the 7B rewrites a computed 4.249,99 as "4.25"; sheet answers are still written by the LLM), t046 (ratio of two indicators, e.g. profit / assets, is not computed in code), t053 (no threshold sentence found), q030 (chart reading via Gemini is unstable).
@@ -170,6 +175,7 @@ pytest
 
 ## Next
 
-1. Held-out set #2 (written before running; include questions that use the 2024 reports as their source).
-2. Template the final answer for sheet questions (t039) and compute two-indicator ratios in code (t046).
-3. Grow the benchmark (ROADMAP Phase 4) and a Gradio demo.
+1. Held-out set #3, written by someone other than the author.
+2. Flag silent extractor gaps: report, per report and indicator, which years are missing from the table.
+3. Template the final answer for sheet questions (t039) and compute two-indicator ratios in code (t046).
+4. Grow the benchmark (ROADMAP Phase 4) and a Gradio demo.

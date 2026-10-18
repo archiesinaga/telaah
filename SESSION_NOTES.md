@@ -536,3 +536,9 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 
 ## Held-out set #2 (2026-10-18 17:20)
 - Built + frozen (ea0e29a): 40 tasks, 2024-report sources (2020 figures), restatements, CAGR. First run 0.625 (25/40). Main cause: BRI 2024 header "2020 *)" not parsed (YEAR_CELL) -> BRI 2020 missing -> 7B fallback cites wrong rows (subsidiary table p30, other-basis p197/198). Details in eval/HELDOUT.md. Not fixed yet (would spend set #2).
+
+## Fixes from held-out #2 (2026-10-18 17:55, commit c9c75a5)
+- Extractor: footnoted year headers ("2020 *)"), first column wins on duplicate years, skip month/quarter (industry) tables, segment flag carried across page breaks. 795 facts; check_facts 102/102; BRI 2020 figures correct.
+- Router: restatement route (one figure, two named reports, template + difference); partial sheets (<= half missing -> RAG steps; no sheet when a missing year is after every report).
+- Dev 60: 0.95 (`tasks-router-20261018-173251.json`). Seed (`20261018-175554.json`): only q039 changed (restatement route, faithful 0 -> 1); faithful 0.94.
+- README updated: set #2 0.63 quoted as the more honest held-out number; both sets spent.
