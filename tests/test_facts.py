@@ -46,3 +46,31 @@ def test_shown_uses_indonesian_notation():
     assert facts.shown({"raw": "2.1", "unit": "pct"}) == "2,1%"
     assert facts.shown({"raw": "3,12%", "unit": "pct"}) == "3,12%"
     assert facts.shown({"raw": "2.135.371.105", "unit": "jt"}) == "Rp2.135.371.105 juta Rupiah"
+
+
+def _hit(value, unit, raw):
+    return {"value": value, "unit": unit, "raw": raw}
+
+
+def test_derive_computes_only_what_is_asked():
+    sh = {"indicator": "total_aset", "banks": ["bri", "bca"], "years": [2025],
+          "hits": {("bri", 2025): _hit(2135371105, "jt", "2.135.371.105"), ("bca", 2025): _hit(1586829, "mi", "1.586.829")}}
+    lines = facts.derive("Berapa total aset gabungan BRI dan BCA 2025 dalam triliun Rupiah?", sh)
+    assert lines == ["Total gabungan 2025: 3.722,20 triliun Rupiah"]
+    lines = facts.derive("Berapa selisih total aset BRI dan BCA 2025 (dalam miliar Rupiah)?", sh)
+    assert lines == ["Selisih tertinggi (BRI) dan terendah (BCA) 2025: 548.542 miliar Rupiah"]
+
+
+def test_derive_change_per_bank():
+    sh = {"indicator": "npl_gross", "banks": ["bri", "btn"], "years": [2021, 2025],
+          "hits": {("bri", 2021): _hit(3.08, "pct", "3,08%"), ("bri", 2025): _hit(3.29, "pct", "3,29%"),
+                   ("btn", 2021): _hit(3.70, "pct", "3,70%"), ("btn", 2025): _hit(3.17, "pct", "3,17%")}}
+    lines = facts.derive("Bandingkan NPL gross BRI dan BTN 2021 dan 2025, perubahan dan bank dengan perubahan terbesar", sh)
+    assert "Perubahan BRI 2021 ke 2025: 0,21 poin persen" in lines
+    assert "Perubahan BTN 2021 ke 2025: -0,53 poin persen" in lines
+    assert "Perubahan terbesar (nilai absolut): BTN (-0,53 poin persen)" in lines
+
+
+def test_question_years_and_skips():
+    assert facts.parse_question("NPL BRI 2021 sampai 2025")[2] == [2021, 2022, 2023, 2024, 2025]
+    assert facts.parse_question("NPL Mandiri 2025 dan NPL industri perbankan") is None

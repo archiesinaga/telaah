@@ -239,30 +239,47 @@ Q_INDICATORS: dict[str, str] = {
 }
 # more specific indicators that also match a broader pattern ("NPL net" also matches npl_gross, "CAR Tier 1" car)
 Q_SHADOWS = {"npl_net": "npl_gross", "cet1": "tier1", "tier1": "car"}
-# wordings the table cannot answer: chart readings, quarters, the parent-attributable share of profit
-Q_SKIP = re.compile(r"grafik|kuartal|triwulan|semester|atribusi|diatribusikan|segmen|anak perusahaan", re.I)
+# wordings the table cannot answer: chart readings, quarters, the parent-attributable share of profit, figures of
+# the banking industry (quoted in a report but not a bank of the table)
+Q_SKIP = re.compile(r"grafik|kuartal|triwulan|semester|atribusi|diatribusikan|segmen|anak perusahaan|industri", re.I)
 UNIT_TXT = {"jt": "juta Rupiah", "mi": "miliar Rupiah", "tn": "triliun Rupiah"}
 BANK_NAME = {"bri": "BRI", "mandiri": "Bank Mandiri", "btn": "BTN", "bca": "BCA", "bni": "BNI"}
 
 
-def parse_step(q: str) -> tuple[str, str, int, int | None] | None:
-    """(bank, indicator, year, report_year) when a one-figure question names exactly one of each; else None."""
+RANGE_RE = re.compile(r"\b(20\d\d)\s*(?:-|–|sampai|hingga|s\.d\.?)\s*(20\d\d)\b")
+
+
+def parse_question(q: str) -> tuple[list[str], set[str], list[int], int | None] | None:
+    """(banks in question order, indicators, years ascending, named report year); None for wordings the table
+    cannot answer. '2021 sampai 2025' expands to every year in between."""
     from telaah.filters import BANKS, SOURCE_RE
 
     if Q_SKIP.search(q):
         return None
     ql = q.lower()
-    banks = [b for b, pat in BANKS.items() if re.search(pat, ql)]
+    banks = sorted((m.start(), b) for b, pat in BANKS.items() if (m := re.search(pat, ql)))
     inds = {i for i, pat in Q_INDICATORS.items() if re.search(pat, ql)}
     inds -= {Q_SHADOWS[i] for i in inds if i in Q_SHADOWS}
     src = SOURCE_RE.search(ql)
     report_year = int(src.group(1)) if src else None
-    years = set(map(int, re.findall(r"\b(20\d\d)\b", SOURCE_RE.sub(" ", ql))))
+    rest = SOURCE_RE.sub(" ", ql)
+    years = set(map(int, re.findall(r"\b(20\d\d)\b", rest)))
+    for a, b in RANGE_RE.findall(rest):
+        years |= set(range(int(a), int(b) + 1))
     if not years and report_year:
         years = {report_year}
+    return [b for _, b in banks], inds, sorted(years), report_year
+
+
+def parse_step(q: str) -> tuple[str, str, int, int | None] | None:
+    """(bank, indicator, year, report_year) when a one-figure question names exactly one of each; else None."""
+    p = parse_question(q)
+    if not p:
+        return None
+    banks, inds, years, report_year = p
     if len(banks) != 1 or len(inds) != 1 or len(years) != 1:
         return None
-    return banks[0], inds.pop(), years.pop(), report_year
+    return banks[0], next(iter(inds)), years[0], report_year
 
 
 def shown(hit: dict) -> str:
@@ -283,14 +300,110 @@ def answer_step(q: str) -> dict | None:
         return None
     bank, ind, year, report_year = parsed
     hit = lookup(bank, ind, year, report_year)
-    if not hit:
-        return None
+    return as_answer(bank, year, hit) if hit else None
+
+
+def as_answer(bank: str, year: int, hit: dict) -> dict:
     from telaah.tools import read_page_text
 
     sentence = f"{hit['label']} {BANK_NAME[bank]} tahun {year}: {shown(hit)} [{hit['doc']} p.{hit['page']}]."
     return {"answer": sentence, "citations": [(hit["doc"], hit["page"])], "retrieved": [(hit["doc"], hit["page"])],
             "context": f"[{hit['doc']} p.{hit['page']}]\n{read_page_text(hit['doc'], hit['page'])}", "refused": False,
             "fact": {k: hit[k] for k in ("doc", "page", "label", "year", "value", "raw", "unit", "support")}}
+
+
+MAX_SHEET = 15  # bank x year lookups in one sheet
+
+
+def sheet(q: str) -> dict | None:
+    """A question over ONE indicator for several banks and/or years (ranking, trend, comparison, sum, average)
+    whose every (bank, year) figure is in the table; None -> the normal agent/RAG path."""
+    p = parse_question(q)
+    if not p:
+        return None
+    banks, inds, years, report_year = p
+    if not banks or len(inds) != 1 or not years or len(banks) * len(years) < 2 or len(banks) * len(years) > MAX_SHEET:
+        return None
+    ind = next(iter(inds))
+    hits = {}
+    for b in banks:
+        for y in years:
+            if not (h := lookup(b, ind, y, report_year)):
+                return None
+            hits[(b, y)] = h
+    return {"indicator": ind, "banks": banks, "years": years, "report_year": report_year, "hits": hits}
+
+
+def fmt(x: float, dec: int = 2) -> str:
+    """Indonesian notation: 4249.99 -> '4.249,99', -0.5 -> '-0,50'."""
+    s = f"{x:,.{dec}f}".replace(",", "_").replace(".", ",").replace("_", ".")
+    return "0," + "0" * dec if re.fullmatch(r"-0,0+", s) else s
+
+
+PER_JT = {"jt": 1, "mi": 1e3, "tn": 1e6}
+ASK_UNIT_RE = re.compile(r"dalam\s+(jutaan|juta|miliar|milyar|triliun)", re.I)
+
+
+def to_unit(h: dict, unit: str = "tn") -> float:
+    """A money fact in juta/miliar/triliun Rupiah (the reports print juta or miliar)."""
+    return h["value"] * PER_JT.get(h["unit"], 1) / PER_JT[unit]
+
+
+CHANGE_RE = re.compile(r"perubahan|pertumbuhan|kenaikan|penurunan|\bnaik\b|\bturun\b|\btren\b", re.I)
+ORDER_RE = re.compile(r"urut|peringkat|tertinggi|terendah|terbesar|terkecil|paling|lebih (besar|tinggi|rendah|kecil)", re.I)
+GAP_RE = re.compile(r"selisih|perbedaan|\bbeda\b", re.I)
+MEAN_RE = re.compile(r"rata-rata", re.I)
+SUM_RE = re.compile(r"gabungan|dijumlahkan|jumlahkan|\bjumlah\b", re.I)
+
+
+def derive(q: str, sh: dict) -> list[str]:
+    """Only the derived figures the question asks for, computed in Python (the 7B gets arithmetic and unit
+    conversions wrong): change/growth per bank, order/gap/average/sum per year."""
+    ind, banks, years, hits = sh["indicator"], sh["banks"], sh["years"], sh["hits"]
+    pct = INDICATORS[ind][0] == "pct"
+    m = ASK_UNIT_RE.search(q)
+    tgt = UNIT[m.group(1).lower()] if m else "tn"
+    money = f"{UNIT_TXT[tgt]}"
+    dec = 2 if tgt == "tn" else 0
+    name = lambda b: BANK_NAME[b]  # noqa: E731
+    lines = []
+    if len(years) >= 2 and CHANGE_RE.search(q):
+        y0, y1 = years[0], years[-1]
+        moves = {}
+        for b in banks:
+            a, z = hits[(b, y0)], hits[(b, y1)]
+            if pct:
+                moves[b] = z["value"] - a["value"]
+                lines.append(f"Perubahan {name(b)} {y0} ke {y1}: {fmt(moves[b])} poin persen")
+            else:
+                moves[b] = (z["value"] / a["value"] - 1) * 100
+                lines.append(f"Pertumbuhan {name(b)} {y0} ke {y1}: {fmt(moves[b])}% "
+                             f"(dari {fmt(to_unit(a, tgt), dec)} ke {fmt(to_unit(z, tgt), dec)} {money})")
+        if len(banks) >= 2:
+            big = max(banks, key=lambda b: abs(moves[b]))
+            lines.append(f"Perubahan terbesar (nilai absolut): {name(big)} ({fmt(moves[big])}{' poin persen' if pct else '%'})")
+    if len(years) >= 2 and ORDER_RE.search(q):
+        for b in banks:
+            top = max(years, key=lambda y: hits[(b, y)]["value"])
+            low = min(years, key=lambda y: hits[(b, y)]["value"])
+            lines.append(f"{name(b)}: tertinggi tahun {top} ({shown(hits[(b, top)])}), terendah tahun {low} ({shown(hits[(b, low)])})")
+    if len(banks) >= 2:
+        unit = " poin persen" if pct else f" {money}"
+        val = (lambda h: h["value"]) if pct else (lambda h: to_unit(h, tgt))
+        d = 2 if pct else dec
+        for y in years:
+            vs = {b: val(hits[(b, y)]) for b in banks}
+            order = sorted(banks, key=lambda b: vs[b])
+            if ORDER_RE.search(q):
+                lines.append(f"Urutan {y} dari terendah ke tertinggi: " + ", ".join(f"{name(b)} {shown(hits[(b, y)])}" for b in order))
+            if GAP_RE.search(q):
+                lines.append(f"Selisih tertinggi ({name(order[-1])}) dan terendah ({name(order[0])}) {y}: "
+                             f"{fmt(vs[order[-1]] - vs[order[0]], d)}{unit}")
+            if MEAN_RE.search(q):
+                lines.append(f"Rata-rata sederhana {y}: {fmt(sum(vs.values()) / len(vs), d)}{'%' if pct else unit}")
+            if SUM_RE.search(q) and not pct:
+                lines.append(f"Total gabungan {y}: {fmt(sum(vs.values()), d)} {money}")
+    return lines
 
 
 if __name__ == "__main__":

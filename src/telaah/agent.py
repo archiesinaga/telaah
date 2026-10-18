@@ -62,6 +62,7 @@ class State(TypedDict, total=False):
     steps: list[dict]  # {q, answer, citations, retrieved, context, status: pending|ok|failed, attempts, issues}
     calc: bool
     calc_result: dict | None
+    derived: list[str]  # figures computed in Python from a facts sheet (facts.derive)
     answer: str
     unsupported: list[dict]
     trace: list[dict]
@@ -138,6 +139,16 @@ def check_text(text: str, allowed: set[str] = frozenset()) -> list[dict]:
 def plan(state: State) -> dict:
     t0 = time.time()
     q = state["question"]
+    sh = facts.sheet(q) if USE_FACTS else None
+    if sh:  # one indicator over banks x years, all in the facts table: no LLM plan, lookups are the steps
+        steps = []
+        for (b, y), h in sh["hits"].items():
+            r = facts.as_answer(b, y, h)
+            steps.append({"q": f"{facts.BANK_NAME[b]} {sh['indicator']} {y}", "status": "ok", "attempts": 1,
+                          "issues": [], "fact": r["fact"], **{k: r[k] for k in ("answer", "citations", "retrieved", "context", "refused")}})
+        derived = facts.derive(q, sh)
+        return {"steps": steps, "calc": False, "derived": derived,
+                "trace": _log(state, "plan", t0, sheet=sh["indicator"], steps=[s["q"] for s in steps], derived=derived)}
     groups = entity_groups(q)
     if groups:  # comparison across documents: the tuned one-question-per-entity split, each read from its own docs
         steps = [{"q": s, "docs": g, "status": "pending", "attempts": 0}
@@ -251,6 +262,8 @@ def compose(state: State) -> dict:
     extra = ""
     if calc and "value" in calc:
         extra = f"\n\nHasil hitung (kalkulator): {calc['expression']} = {fmt_id(calc['value'])} {calc['unit']}"
+    if state.get("derived"):
+        extra += "\n\nHasil hitung (kalkulator):\n" + "\n".join(f"- {line}" for line in state["derived"])
     text = _chat(
         _llm(), SYSTEM,
         f"Konteks:\n{_facts(state)}{extra}\n\nPertanyaan: {state['question']}\n"
@@ -276,7 +289,8 @@ def _allowed(calc: dict | None) -> set[str]:
 
 def verify_final(state: State) -> dict:
     t0 = time.time()
-    bad = check_text(state["answer"], _allowed(state.get("calc_result")))
+    allowed = _allowed(state.get("calc_result")) | tools.numbers_in(YEAR_RE.sub("", "\n".join(state.get("derived") or [])))
+    bad = check_text(state["answer"], allowed)
     return {"unsupported": bad, "trace": _log(state, "verify_final", t0, unsupported=len(bad))}
 
 

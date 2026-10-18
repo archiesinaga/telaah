@@ -1,7 +1,8 @@
 """Send multi-step questions to the agent and single-fact questions to plain RAG (no extra LLM call)."""
 import re
 
-from telaah.agent import DERIVE_RE, run_agent
+from telaah import facts
+from telaah.agent import DERIVE_RE, USE_FACTS, run_agent
 from telaah.answer import ask
 from telaah.retrieve import entity_groups
 
@@ -17,6 +18,8 @@ def route(question: str) -> str:
     A multi-year trend of one bank is also 'rag' (7B: 0.50 vs 0.00 through the agent); trends across banks match `entity_groups`."""
     if REGULATION_RE.search(question):
         return "rag"
+    if USE_FACTS and facts.sheet(question):  # every figure is in the facts table: lookups + Python arithmetic
+        return "agent"
     if entity_groups(question) or CALC_RE.search(question) or DERIVE_RE.search(question):
         return "agent"
     return "rag"
