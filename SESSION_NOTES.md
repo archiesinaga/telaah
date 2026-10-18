@@ -528,3 +528,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - `eval/heldout_tasks.jsonl` (40, built by `eval/build_heldout_tasks.py`, rules + hashes in `eval/HELDOUT.md`, commit bfe0fa9).
 - First run, 7B router: 0.925 (37/40); dev 0.90. Failures h035 (unknown bank -> answered the known half: serious), h025 (mean over years), h033 (threshold not found). Not fixed: fixing them from this run spends the set (rule 3).
 - Decision pending: fix these gaps (then build held-out set #2 before quoting held-out numbers again), or keep the set clean and look for the same gaps in dev/seed first.
+
+## After unknown-bank refusal + mean over years (2026-10-18 17:11, commit 871a3d6)
+- Dev 60 (`tasks-router-20261018-164809.json`): 0.95 (57/60). Misses t039 (7B rewrote 4.249,99), t046 (two-indicator ratio), t053 (no threshold).
+- Seed 50 (`20261018-171128.json`): recall 0.94, citation 0.70, refusal 0.92, numeric 0.857, judge 0.917, faithful 0.912, 13.5 s/q. q039 fixed; q041/q042 refuse by route "refuse"; q030 (chart, RAG + Gemini vision) refused again: flaky (wrong 15:37, right 16:01), the only cause of numeric/refusal dropping vs 16:01.
+- Held-out #1 spent (0.925 on b61f6e4). Next: held-out set #2 (written before running; new wordings + ideally 2024-report sources), then README/results write-up; optional fixes: q030 chart flakiness, t046 two-indicator ratios, t039 final-number rewriting (template the sheet answer).
