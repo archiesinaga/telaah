@@ -64,8 +64,9 @@ tanpa pemisah ribuan), "unit"}}], "op": salah satu {ops} ("growth_pct" dan "diff
 jangka waktu, sanksi, definisi, atau tanggal berlaku. Sebut nomor dan tahun peraturannya di soal.
 Objek: {{"question", "answer", "evidence", "numeric": bool}}""",
     "cross_doc": """Ada DUA halaman: A = {ref_a} dan B = {ref_b}, dari dua bank berbeda. Jika keduanya memuat angka yang
-sebanding untuk "{term}" (atau indikator lain yang sama di kedua halaman, periode sama), buat 1 soal yang
-membandingkan kedua bank (mana lebih tinggi dan selisihnya, atau keduanya). Jika tidak sebanding, kembalikan
+sebanding untuk "{term}" (atau indikator lain yang sama di kedua halaman), buat 1 soal yang membandingkan kedua
+bank (mana lebih tinggi dan selisihnya). SYARAT KERAS: periode/tanggal sama, satuan sama (jika beda, hitung ke satu
+satuan di "value_float"), cakupan sama (konsolidasi dengan konsolidasi), dan tulis periode serta cakupan di soal. Jika tidak sebanding, kembalikan
 daftar kosong. Objek: {{"question", "figures": [{{"bank", "label", "value", "value_float", "unit", "page": "A"|"B"}}],
 "op": "difference", "answer" (kalimat jawaban), "evidence": [kutipan A, kutipan B]}}""",
 }
@@ -130,13 +131,14 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=0, help="draft at most this many pages")
     ap.add_argument("--kinds", nargs="*", help="only these kinds")
+    ap.add_argument("--pages", default="pages.jsonl", help="page list in eval/bench (pages2.jsonl = round 2)")
     args = ap.parse_args()
     key = os.getenv("GEMINI_API_KEY")
     if not key:
         sys.exit("GEMINI_API_KEY missing in .env")
     client = OpenAI(api_key=key, base_url=BASE_URL, max_retries=3)
     done = {r["id"] for r in read_jsonl(DONE)}
-    todo = [r for r in read_jsonl(PAGES) if r["id"] not in done and (not args.kinds or r["kind"] in args.kinds)]
+    todo = [r for r in read_jsonl(HERE / args.pages) if r["id"] not in done and (not args.kinds or r["kind"] in args.kinds)]
     if args.limit:
         todo = todo[: args.limit]
     stats = Counter()

@@ -643,3 +643,7 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 ## Dev unanswerables + cross_doc from facts (2026-10-21)
 - `user_dev.jsonl`: 12 unanswerables drafted by Claude (absence regex-checked). `eval/bench/crossdoc_from_facts.py`: facts-table pairs -> candidates (dev reviewed by Claude: 68 accepted, 8 rejected for wrong row labels). Dev = 329/450. No test pairs possible this way (pages tuned or dev): test cross_doc needs round-2 Gemini drafts on test pages or the user.
 - Next: round 2 drafting (table 34, chart 36, calc 41, regulation 10 short on dev; test shortfalls cross_doc 22, chart ~9) after the Gemini daily reset; then user reviews the test candidates.
+
+## Round 2 drafting (2026-10-21 evening)
+- `sample_pages.py --round 2` -> `pages2.jsonl` (430 pages, ids q0001..q0430; cross_doc pairs test-only). `draft.py --pages pages2.jsonl` stopped after 12 pages: Gemini flash-lite daily quota (500/day) already used by round 1 + tests. Resume after the reset (earlier note: ~07:00 local): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (418 pages left, ~35 min).
+- Reviewed the 16 new dev table drafts: 5 accepted (stage/composite tables are ambiguous). Table yield is low; consider fewer table pages / more text-heavy tables.

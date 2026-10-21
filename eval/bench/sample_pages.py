@@ -8,9 +8,10 @@ draft exists. Deterministic (seed in common.SEED); rerunning rewrites the same f
 import json
 import random
 import re
+import sys
 from collections import Counter
 
-from common import BANK, HERE, SEED, docs, is_regulation, is_report, page_split, pages, split_of
+from common import BANK, HERE, SEED, docs, read_jsonl, is_regulation, is_report, page_split, pages, split_of
 
 OUT = HERE / "pages.jsonl"
 # pages (pairs for cross_doc) per kind: about 1.4x the new questions needed, 2 drafts per page
@@ -77,13 +78,13 @@ def term_pages(term: str) -> dict[str, list[int]]:
     return out
 
 
-def pairs(n: int, used: set, rng: random.Random) -> list[dict]:
+def pairs(n: int, used: set, rng: random.Random, test_only: bool = False) -> list[dict]:
     """Two banks, same report year, same term; the split is chosen first, then both pages come from it."""
     by_term = {t: term_pages(t) for t in TERMS}
     out, tries = [], 0
     while len(out) < n and tries < 20000:
         tries += 1
-        split = "test" if len(out) % round(1 / TEST_SHARE_PAIRS) == 0 else "dev"
+        split = "test" if test_only or len(out) % round(1 / TEST_SHARE_PAIRS) == 0 else "dev"
         term = rng.choice(TERMS)
         year = rng.choice(["2024", "2025"])
         cands = {d: [p for p in ps if page_split(d, p) == split and (d, p) not in used]
@@ -98,22 +99,32 @@ def pairs(n: int, used: set, rng: random.Random) -> list[dict]:
     return out
 
 
+COUNT2 = {"text_fact": 0, "table_lookup": 60, "calculation": 100, "chart": 180, "regulation": 30, "cross_doc": 60}
+
+
 def main() -> None:
-    rng = random.Random(SEED)
+    """Round 1 (default) or `--round 2`: new pages for the types still short, never reusing a page of round 1.
+    Round 2 cross_doc pairs are test-only (dev cross_doc comes from the facts table, crossdoc_from_facts.py)."""
+    rnd = 2 if "--round" in sys.argv and sys.argv[sys.argv.index("--round") + 1] == "2" else 1
+    rng = random.Random(SEED + (rnd - 1) * 2)
     used: set = set()
+    out_path, prefix, count = OUT, "p", COUNT
+    if rnd == 2:
+        used = {tuple(dp) for r in read_jsonl(OUT) for dp in r["pages"]}
+        out_path, prefix, count = HERE / "pages2.jsonl", "q", COUNT2
     pools = kind_pools()
     rows = []
     for kind, pool in pools.items():
-        rows += [{"kind": kind, "pages": [dp], "split": split_of(dp)} for dp in round_robin(pool, COUNT[kind], used, rng)]
-    rows += pairs(COUNT["cross_doc"], used, rng)
-    with open(OUT, "w", encoding="utf-8") as f:
+        rows += [{"kind": kind, "pages": [dp], "split": split_of(dp)} for dp in round_robin(pool, count[kind], used, rng)]
+    rows += pairs(count["cross_doc"], used, rng, test_only=rnd == 2)
+    with open(out_path, "w", encoding="utf-8") as f:
         for i, r in enumerate(rows, 1):
-            f.write(json.dumps({"id": f"p{i:04d}", **r}, ensure_ascii=False) + "\n")
+            f.write(json.dumps({"id": f"{prefix}{i:04d}", **r}, ensure_ascii=False) + "\n")
     print("pool sizes:", {k: len(v) for k, v in pools.items()})
     print("sampled:", dict(Counter((r["kind"], r["split"]) for r in rows)))
     print("docs:", dict(Counter(dp[0] for r in rows for dp in r["pages"])))
     print("banks in pairs:", dict(Counter(BANK[d.split("_")[0]] for r in rows if r["kind"] == "cross_doc" for d, _ in r["pages"])))
-    print(f"-> {OUT}")
+    print(f"-> {out_path}")
 
 
 if __name__ == "__main__":
