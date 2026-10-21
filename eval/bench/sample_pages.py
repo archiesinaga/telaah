@@ -1,0 +1,120 @@
+"""Sample the pages the drafter writes questions from -> eval/bench/pages.jsonl (see eval/BENCHMARK.md).
+
+Each sampled page (or page pair) is used once, by one question kind, and its split is fixed here, before any
+draft exists. Deterministic (seed in common.SEED); rerunning rewrites the same file.
+
+    .venv/Scripts/python eval/bench/sample_pages.py
+"""
+import json
+import random
+import re
+from collections import Counter
+
+from common import BANK, HERE, SEED, docs, is_regulation, is_report, page_split, pages, split_of
+
+OUT = HERE / "pages.jsonl"
+# pages (pairs for cross_doc) per kind: about 1.4x the new questions needed, 2 drafts per page
+COUNT = {"text_fact": 75, "table_lookup": 75, "calculation": 63, "chart": 120, "regulation": 42, "cross_doc": 115}
+TEST_SHARE_PAIRS = 0.25
+NUM_LINE = re.compile(r"^\|.*\d", re.M)
+YEAR = re.compile(r"\b20[12]\d\b")
+CHARTISH = re.compile(r"grafik|chart|diagram|pertumbuhan|triliun|miliar|%", re.I)
+TOC = re.compile(r"daftar isi|table of contents", re.I)
+# figures that most banks publish, to pair pages across banks
+TERMS = ["Kredit yang Diberikan", "Dana Pihak Ketiga", "Giro", "Tabungan", "Deposito", "Jumlah Karyawan",
+         "Jaringan Kantor", "ATM", "CASA", "Liquidity Coverage Ratio", "Net Stable Funding Ratio", "Laba Bersih",
+         "Total Aset", "Ekuitas", "Cost to Income", "Pendapatan Bunga Bersih", "Kredit UMKM", "Pembiayaan Berkelanjutan",
+         "Agen", "Pendapatan Non Bunga", "Beban Operasional", "Dividen", "Kredit Konsumer", "Kredit Korporasi"]
+
+
+def kind_pools() -> dict[str, list[tuple[str, int]]]:
+    pools = {k: [] for k in COUNT if k != "cross_doc"}
+    for doc in docs():
+        for page, text in pages(doc).items():
+            if page <= 4 or TOC.search(text):
+                continue
+            nums = len(NUM_LINE.findall(text))
+            if is_regulation(doc):
+                if len(text) >= 800:
+                    pools["regulation"].append((doc, page))
+            elif is_report(doc):
+                if nums == 0 and len(text) >= 1200 and "<!-- image -->" not in text[:200]:
+                    pools["text_fact"].append((doc, page))
+                elif nums >= 4:
+                    years = len(set(YEAR.findall("\n".join(l for l in text.splitlines() if l.startswith("|")))))
+                    pools["calculation" if years >= 2 else "table_lookup"].append((doc, page))
+                if "<!-- image -->" in text and nums < 3 and CHARTISH.search(text) and re.search(r"\d", text):
+                    pools["chart"].append((doc, page))
+    return pools
+
+
+def round_robin(pool: list[tuple[str, int]], n: int, used: set, rng: random.Random) -> list[tuple[str, int]]:
+    """n pages spread evenly over documents, none used before."""
+    by_doc: dict[str, list] = {}
+    for dp in pool:
+        by_doc.setdefault(dp[0], []).append(dp)
+    for v in by_doc.values():
+        rng.shuffle(v)
+    out, order = [], sorted(by_doc)
+    while len(out) < n and any(by_doc.values()):
+        for d in order:
+            while by_doc[d] and by_doc[d][-1] in used:
+                by_doc[d].pop()
+            if by_doc[d] and len(out) < n:
+                out.append(by_doc[d].pop())
+                used.add(out[-1])
+    return out
+
+
+def term_pages(term: str) -> dict[str, list[int]]:
+    """Report -> pages with the term in a table row."""
+    pat = re.compile(r"^\|[^|\n]*" + re.escape(term), re.I | re.M)
+    out = {}
+    for doc in filter(is_report, docs()):
+        hits = [p for p, t in pages(doc).items() if p > 4 and pat.search(t)]
+        if hits:
+            out[doc] = hits
+    return out
+
+
+def pairs(n: int, used: set, rng: random.Random) -> list[dict]:
+    """Two banks, same report year, same term; the split is chosen first, then both pages come from it."""
+    by_term = {t: term_pages(t) for t in TERMS}
+    out, tries = [], 0
+    while len(out) < n and tries < 20000:
+        tries += 1
+        split = "test" if len(out) % round(1 / TEST_SHARE_PAIRS) == 0 else "dev"
+        term = rng.choice(TERMS)
+        year = rng.choice(["2024", "2025"])
+        cands = {d: [p for p in ps if page_split(d, p) == split and (d, p) not in used]
+                 for d, ps in by_term[term].items() if d.endswith(year)}
+        cands = {d: ps for d, ps in cands.items() if ps}
+        if len(cands) < 2:
+            continue
+        a, b = rng.sample(sorted(cands), 2)
+        dp = [(a, rng.choice(cands[a])), (b, rng.choice(cands[b]))]
+        used.update(dp)
+        out.append({"kind": "cross_doc", "pages": dp, "split": split, "term": term})
+    return out
+
+
+def main() -> None:
+    rng = random.Random(SEED)
+    used: set = set()
+    pools = kind_pools()
+    rows = []
+    for kind, pool in pools.items():
+        rows += [{"kind": kind, "pages": [dp], "split": split_of(dp)} for dp in round_robin(pool, COUNT[kind], used, rng)]
+    rows += pairs(COUNT["cross_doc"], used, rng)
+    with open(OUT, "w", encoding="utf-8") as f:
+        for i, r in enumerate(rows, 1):
+            f.write(json.dumps({"id": f"p{i:04d}", **r}, ensure_ascii=False) + "\n")
+    print("pool sizes:", {k: len(v) for k, v in pools.items()})
+    print("sampled:", dict(Counter((r["kind"], r["split"]) for r in rows)))
+    print("docs:", dict(Counter(dp[0] for r in rows for dp in r["pages"])))
+    print("banks in pairs:", dict(Counter(BANK[d.split("_")[0]] for r in rows if r["kind"] == "cross_doc" for d, _ in r["pages"])))
+    print(f"-> {OUT}")
+
+
+if __name__ == "__main__":
+    main()

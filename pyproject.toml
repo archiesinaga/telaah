@@ -15,6 +15,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest"]
 colpali = ["colpali-engine", "pymupdf"]
+bench = ["gradio", "pymupdf"]  # eval/bench review app
 
 [project.scripts]
 telaah = "telaah.cli:main"

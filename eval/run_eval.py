@@ -62,14 +62,24 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         return round(sum(v) / len(v), 3) if v else None
 
     summary = {k: mean(k) for k in KEYS}
+    by_type = {}
+    for t in sorted({r["type"] for r in results}):
+        of_type = [r for r in results if r["type"] == t]
+        by_type[t] = {"n": len(of_type)}
+        for k in KEYS:
+            v = [r[k] for r in of_type if r[k] is not None]
+            by_type[t][k] = round(sum(v) / len(v), 3) if v else None
     log = {
-        "config": {"agent": agent, "router": router, "llm": config.LLM_MODEL, "embed": config.EMBED_MODEL, "k": config.TOP_K},
+        "config": {"agent": agent, "router": router, "llm": config.LLM_MODEL, "embed": config.EMBED_MODEL, "k": config.TOP_K,
+                   "questions": path.name},
         "summary": summary,
+        "by_type": by_type,
         "results": results,
     }
     out_dir = HERE / "runs"
     out_dir.mkdir(exist_ok=True)
-    (out_dir / f"{time.strftime('%Y%m%d-%H%M%S')}.json").write_text(
+    prefix = "" if path.name == "seed_questions.jsonl" else f"bench-{path.stem}-"  # bench-test-*: never read per question
+    (out_dir / f"{prefix}{time.strftime('%Y%m%d-%H%M%S')}.json").write_text(
         json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(json.dumps(summary, indent=2))

@@ -613,3 +613,18 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - mandiri_2025 total_aset 2022: source cell is empty (p36). btn_2025 nim/bopo 2021: source row misaligned (BOPO cell reads "3,99 89,28", NIM 2021 blank, p28). Both are defects in the PDFs, not extractor bugs.
 - `facts.lookup` already answers all three from the 2024 reports (mandiri_2024 p30 1.992.544.687; btn_2024 p27 NIM 3,99, BOPO 89,28), so no answer is affected. No code change; the 14 coverage gaps are accepted as real/harmless.
 - Next: Phase 4 benchmark design (Opus 5.5), held-out #3 by the user, Gradio demo.
+
+# Update — 2026-10-21: Phase 4 started (benchmark v1 tools)
+
+## Done
+- Design `eval/BENCHMARK.md`: 600 = 450 dev (incl. 50 seed) + 150 test; per-type quotas; split fixed per PAGE by hash before drafting; tuned pages (seed/agent/held-out golds) never test; Claude never reads the test split (memory saved).
+- Tools in `eval/bench/`: `common.py`, `sample_pages.py` (490 pages/pairs -> `pages.jsonl`, 125 test), `draft.py` (Gemini, image + text, JSON, auto-filter, resumable, throttled), `review_app.py` (Gradio 6.30, port 7861, accept/fix/reject + unanswerable tab), `gold.py` (calc golds in Python), `build.py` (quotas -> dev.jsonl/test.jsonl + sha256).
+- `telaah eval --file eval/bench/dev.jsonl`; run logs now have `by_type`; bench runs saved as `eval/runs/bench-<split>-*.json`. gradio installed (`[bench]` extra). pytest 68.
+
+## Blocker
+- Gemini key in `.env` is INVALID (400 API_KEY_INVALID, even on gemini-3.5-flash-lite). The user must create a new key at aistudio.google.com/apikey and put it in `.env` as GEMINI_API_KEY themselves (not in chat). The chart path of the system (vision) is also off until then.
+
+## Next
+1. New key -> `.venv/Scripts/python eval/bench/draft.py --limit 10 --kinds table_lookup` (dev pages come first? no: order is pages.jsonl order) and check DRAFT_MODEL exists; read a few DEV candidates for quality, tune prompts; then full draft (~490 requests, ~37 min, 1 day of quota).
+2. User reviews in the app (~25 h total), writes 20 unanswerables. Then build.py, freeze hashes in BENCHMARK.md.
+3. Dev eval per type; test only at milestones. Then SFT data (roadmap week 10).
