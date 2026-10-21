@@ -608,3 +608,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 1. Parse gaps: mandiri_2025 total_aset 2022, btn_2025 nim/bopo 2021 (check `python -m telaah.facts`).
 2. Phase 4 benchmark design (~450 questions, held-out split; use Opus 5.5), held-out #3 by the user.
 3. Gradio demo on HF Spaces. Optional: q030 chart flakiness.
+
+## Parse gaps checked (2026-10-21)
+- mandiri_2025 total_aset 2022: source cell is empty (p36). btn_2025 nim/bopo 2021: source row misaligned (BOPO cell reads "3,99 89,28", NIM 2021 blank, p28). Both are defects in the PDFs, not extractor bugs.
+- `facts.lookup` already answers all three from the 2024 reports (mandiri_2024 p30 1.992.544.687; btn_2024 p27 NIM 3,99, BOPO 89,28), so no answer is affected. No code change; the 14 coverage gaps are accepted as real/harmless.
+- Next: Phase 4 benchmark design (Opus 5.5), held-out #3 by the user, Gradio demo.
