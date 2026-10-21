@@ -12,7 +12,7 @@ def compute(figures: list[dict], op: str) -> tuple[float, str]:
     if op == "growth_pct":
         x = (v[1] - v[0]) / abs(v[0]) * 100
     elif op == "difference":
-        x = v[1] - v[0]
+        x = abs(v[1] - v[0])  # "selisih" has no sign: a decrease and an increase of the same size are the same answer
     elif op == "sum":
         x = sum(v)
     elif op == "ratio_pct":

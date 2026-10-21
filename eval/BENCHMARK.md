@@ -47,7 +47,10 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
 
 ## Rules (keep the numbers honest)
 
-1. Every gold answer and page is checked by the user. Claude writes the tools, never verifies golds.
+1. Every gold answer and page is checked by a human or, for DEV only, by Claude when the user delegates it (decided
+   2026-10-21: `reviewer: claude` in `reviewed_dev.jsonl`, via `bulk_review.py`; chart golds checked against the page
+   image, text golds against the parsed page, ambiguous/positional/unit-unclear questions rejected). The TEST split
+   is reviewed by the user only.
 2. **Claude never reads the test split** (`candidates_test.jsonl`, `reviewed_test.jsonl`, `test.jsonl`): scripts
    print counts only. Sessions see test scores, not questions or failures.
 3. Test runs only at milestones, every run reported. If a test result motivates a change, the split is spent:
@@ -57,3 +60,8 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
 
 ## Status
 - 2026-10-21: design + tools. Gemini key in `.env` is invalid (400 API_KEY_INVALID): new key needed to draft.
+- 2026-10-21: round 1 drafted (490 pages). Claude reviewed the dev candidates: 260/450 dev questions so far (seed 50 +
+  210 accepted of 337 drafts; common rejects: positional or unit-unclear table questions, long answers, evidence
+  missing from the parsed text, chart answer read from the wrong series). Short: table_lookup 34, chart 36,
+  calculation 41, cross_doc 57, regulation 10, unanswerable 12 (user). Difference golds are absolute values.
+  cross_doc drafts were mostly rejected (units/periods not comparable): round 2 needs a different method.

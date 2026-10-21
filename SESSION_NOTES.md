@@ -633,3 +633,9 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - 490 pages drafted with gemini-3.5-flash-lite (flash is 20 req/day free): 336 dev + 136 test candidates (counts only for test), ~90% pass the auto-filter. Draft quality on dev trial OK.
 - Shortfall vs quotas even if every draft is accepted: chart (dev 27/62, test 14/23), cross_doc (dev 28/60, test 9/22), calculation dev 54/68. Need round 2: more chart/cross_doc/calc pages (rerun sample_pages with larger COUNT, new ids) after seeing the user's accept rate.
 - Next: user reviews in `.venv/Scripts/python eval/bench/review_app.py`; then round 2; unanswerables (user writes).
+
+## Dev review by Claude (2026-10-21)
+- The user delegated the DEV review to Claude (test stays with the user, unread). `bulk_review.py` records decisions (`reviewer: claude`); `dev.jsonl` now 260/450. Shortfalls: table_lookup 34, chart 36, calculation 41, cross_doc 57, regulation 10, unanswerable 12.
+- Findings: Gemini flash-lite drafts need heavy rejection for table questions (positional "baris pertama", unit unclear), cross_doc (units/periods differ), calc (year columns unclear). One chart gold was wrong (series mix-up), caught by viewing the image.
+- Round 2 (next, needs fresh Gemini quota): more table/chart/calc/regulation pages; cross_doc better built from two same-indicator table rows of two banks (maybe via the facts table + page check) instead of free drafting. Unanswerables: user (12 dev + 8 test), or Claude drafts the dev ones if delegated.
+- Test split: 136 candidates unread; the user reviews them in `review_app.py` (Test radio).
