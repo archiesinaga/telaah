@@ -16,7 +16,7 @@ RRF_K = 60
 PER_ENTITY = 3  # pages kept per entity on the single-prompt multi-entity path
 ENTITY_PAGES = 5  # pages per entity when each entity is read on its own (gold pages sit at rank 1-6)
 SUMMARY_MAX_PAGE = 45  # front 'highlights' pages of annual reports hold the headline figures
-SUMMARY_N = 8
+SUMMARY_N = 0  # front-page rankings off: dev recall@5 0.57 -> 0.72, seed 0.90 -> 0.85 (was 8)
 REPORT_RE = re.compile(r"^(bri|bni|bca|btn|mandiri)_\d{4}$")
 REPLACE_RE = re.compile(r"dicabut|menggantikan|pengganti|digantikan", re.I)
 # the named regulation is the revoker ('dicabut oleh PBI X'): its own pages hold the answer
@@ -162,9 +162,9 @@ def _one_group(query, doc_ids, hybrid, rerank, n, summary=True, colpali=True, co
     if hybrid:
         rankings = [ranked, _sparse(query, CANDIDATES, doc_ids)]
         if summary and doc_ids and all(REPORT_RE.match(d) for d in doc_ids):
-            # extra rankings limited to the front pages, so headline-figure pages surface
-            rankings.append(_dense(query, SUMMARY_N, doc_ids, SUMMARY_MAX_PAGE))
-            rankings.append(_sparse(query, SUMMARY_N, doc_ids, SUMMARY_MAX_PAGE))
+            if SUMMARY_N:  # extra rankings limited to the front pages, so headline-figure pages surface
+                rankings.append(_dense(query, SUMMARY_N, doc_ids, SUMMARY_MAX_PAGE))
+                rankings.append(_sparse(query, SUMMARY_N, doc_ids, SUMMARY_MAX_PAGE))
             tp = sorted({p for d in doc_ids for p in table_pages(d)})
             if tp:
                 rankings.append(_dense(query, TABLE_N, doc_ids, pages=tp))

@@ -13,7 +13,11 @@ KEYS = ["recall@5", "citation_acc", "refusal_acc", "correct_numeric", "correct_j
 
 
 def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: list[str] | None = None,
-        router: bool = False, ids: list[str] | None = None) -> dict:
+        router: bool = False, ids: list[str] | None = None, resume: str | None = None, judge_on_fail: bool = False) -> dict:
+    """Each finished question is appended to a `.partial.jsonl` file, so a crash (memory, API quota) loses
+    one question: rerun with `--resume <that file>` and only the missing ones are run.
+    `judge_on_fail`: skip the LLM judges (correct_judge, faithful -> None) when the cheap checks already pass
+    (numeric match, gold page retrieved and cited); non-numeric questions are always judged."""
     rows = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
     if types:
         rows = [q for q in rows if q["type"] in types]
@@ -26,16 +30,28 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         from telaah.agent import run_agent as answer_fn
     else:
         answer_fn = ask
-    results = []
+    out_dir = HERE / "runs"
+    out_dir.mkdir(exist_ok=True)
+    prefix = "" if path.name == "seed_questions.jsonl" else f"bench-{path.stem}-"  # bench-test-*: never read per question
+    partial = Path(resume) if resume else out_dir / f"{prefix}{time.strftime('%Y%m%d-%H%M%S')}.partial.jsonl"
+    results = [json.loads(l) for l in partial.read_text(encoding="utf-8").splitlines() if l.strip()] if resume else []
+    extra_path = path.with_name(f"extra_gold_{path.stem}.json")  # duplicated-fact pages, see bench/extra_gold.py
+    extra_gold = json.loads(extra_path.read_text(encoding="utf-8")) if extra_path.exists() else {}
+    finished = {r["id"] for r in results}
+    print(f"{len(finished)} questions already done, {len(rows) - len(finished)} to run; progress file {partial}", flush=True)
     for n, q in enumerate(rows, 1):
+        if q["id"] in finished:
+            continue
         print(f"[{n}/{len(rows)}] {q['id']} {q['type']}", flush=True)
-        gold = [tuple(g) for g in q["gold_pages"]]
+        gold = [tuple(g) for g in q["gold_pages"] + extra_gold.get(q["id"], [])]
         t0 = time.time()
         out = answer_fn(q["question"])
         correct = None
         if q["answerable"] and q.get("numeric"):
             correct = float(numeric_match(out["answer"], q["gold_answer"]))
-        judged = q["answerable"] and not out["refused"]
+        recall, cite = recall_at_k(out["retrieved"], gold), citation_accuracy(out["citations"], gold)
+        passed = correct == 1.0 and recall == 1 and cite == 1
+        judged = q["answerable"] and not out["refused"] and not (judge_on_fail and passed)
         correct_judge = (
             judge_correctness(q["question"], q["gold_answer"], out["answer"]) if judged else None
         )
@@ -44,8 +60,8 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
             "id": q["id"],
             "type": q["type"],
             "latency_s": round(time.time() - t0, 2),
-            "recall@5": recall_at_k(out["retrieved"], gold),
-            "citation_acc": citation_accuracy(out["citations"], gold),
+            "recall@5": recall,
+            "citation_acc": cite,
             "refusal_acc": refusal_correct(out["refused"], q["answerable"]),
             "correct_numeric": correct,
             "correct_judge": correct_judge,
@@ -55,6 +71,8 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
             **({"route": out["route"]} if router else {}),
         })
         r = results[-1]
+        with partial.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
         print(f"    {r['latency_s']}s recall={r['recall@5']} refused={out['refused']}", flush=True)
 
     def mean(k: str):
@@ -76,10 +94,7 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         "by_type": by_type,
         "results": results,
     }
-    out_dir = HERE / "runs"
-    out_dir.mkdir(exist_ok=True)
-    prefix = "" if path.name == "seed_questions.jsonl" else f"bench-{path.stem}-"  # bench-test-*: never read per question
-    (out_dir / f"{prefix}{time.strftime('%Y%m%d-%H%M%S')}.json").write_text(
+    partial.with_name(partial.name.replace(".partial.jsonl", ".json")).write_text(
         json.dumps(log, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(json.dumps(summary, indent=2))

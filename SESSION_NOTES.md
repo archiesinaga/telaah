@@ -648,16 +648,33 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - `sample_pages.py --round 2` -> `pages2.jsonl` (430 pages, ids q0001..q0430; cross_doc pairs test-only). `draft.py --pages pages2.jsonl` stopped after 12 pages: Gemini flash-lite daily quota (500/day) already used by round 1 + tests. Resume after the reset (earlier note: ~07:00 local): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (418 pages left, ~35 min).
 - Reviewed the 16 new dev table drafts: 5 accepted (stage/composite tables are ambiguous). Table yield is low; consider fewer table pages / more text-heavy tables.
 
-# STATUS (2026-10-21, keep this block current; read it first)
+# Update — 2026-10-22 (night): dev eval, gold pages, retrieval boost
+
+## Dev eval of the new non-seed, non-chart questions (258, router, 7B; `eval/runs/bench-dev-20261021-180735.json`)
+- recall@5 0.61, citation 0.51, refusal 0.78, numeric 0.37, judge 0.87, faithful 0.84. Weak: calculation (recall 0.15, 35 s/q), table_lookup 0.41, text_fact 0.45. Strong: cross_doc 0.98, regulation 0.80, unanswerable 1.0.
+- Run was resumed after a crash (`--resume <partial.jsonl>`; use `.venv/Scripts/telaah.exe eval ...`, `python -m telaah` does not work). New flag `--judge-on-fail`: skips the LLM judges when numeric match + gold page retrieved + cited already pass (judge averages then cover harder questions only; not comparable with older runs).
+
+## Extra gold pages (duplicated facts)
+- ~20 of the 70 table/text recall failures were correct answers citing another page with the same fact. `eval/bench/extra_gold.py` finds those pages (gold text + >=50% of question words; >5 matches = generic, dropped) -> `eval/bench/extra_gold_dev.json` (56 questions, 98 pages). `run_eval.py` reads `extra_gold_<stem>.json` beside the question file (dev only). Rebuilding dev.jsonl -> rerun extra_gold.py. `--rescore <run.json>`: citation_acc with extras (table 0.35->0.46, text 0.30->0.36).
+- Old runs (before this) are not comparable on recall/citation.
+
+## Retrieval: the front-page summary boost hurts detail questions
+- Retrieval-only recall@5 on 186 dev questions (extra gold): current default 0.570; no summary boost (+quota) 0.763. Grid SUMMARY_N,TABLE_N (seed / dev): 8,4 0.90/0.57 · 4,4 0.85/0.66 · 2,4 0.85/0.68 · 0,4 0.85/0.72 · 2,2 0.78/0.71 · 0,0 0.43/0.76. TABLE_N is what the seed needs (0,0: seed table_lookup 1.0 -> 0.13).
+- APPLIED: `retrieve.SUMMARY_N = 0` (0 skips the ranking), TABLE_N stays 4. pytest 68.
+- Seed eval after (`eval/runs/20261021-234733.json`): recall 0.94 (same), citation 0.70->0.74, refusal 0.92->0.94, numeric 0.857->0.821, judge 0.917->0.865, faithful 0.941->0.971. Changed: q004/q036/q050/q030 better; q018 was noise (fine on rerun); q005 (BRI EPS, gold 376 p.29) now WRONG: p.29 still rank 1 but pp.334/1389 replace the front pages and the 7B answers 398 from p.334. Seed latency 13 -> 21 s only from chart questions q028-q032 (60-121 s; probably the invalid Gemini key, not checked).
+- Fix idea for q005: put EPS in the facts table. Not done.
+
+# STATUS (2026-10-22, keep this block current; read it first)
 ## Done — do NOT redo
-- Seed 50 eval: `eval/runs/20261018-175554.json` (reuse; do not rerun unless answer code changes).
-- Agent tasks 60 ("dev 60"): `tasks-router-20261018-224430/225615.json` ~0.97. Held-out #1/#2 spent.
-- Parse gaps: checked, PDF defects, covered by other reports.
+- Seed 50 eval with the NEW retrieval: `eval/runs/20261021-234733.json` (reuse; baseline before the change: `20261018-175554.json`).
+- Agent tasks 60 ("dev 60") ~0.97 on the OLD retrieval (`tasks-router-20261018-224430/225615.json`); NOT re-run after SUMMARY_N=0. Held-out #1/#2 spent.
 - Benchmark tools (`eval/bench/`), round 1 drafting (490 pages), Claude dev review, dev unanswerables (12), cross_doc from facts (68).
+- Dev eval of 258 new dev questions (old retrieval) `bench-dev-20261021-180735.json`; extra gold pages; summary-boost ablation and fix (above).
 - Round 2 drafting: 12/430 pages done (q0001-q0012), reviewed.
-- Dev set `eval/bench/dev.jsonl`: ~334/450. Test split: candidates only, unread (user reviews).
+- Dev set `eval/bench/dev.jsonl`: 334/450. Test split: candidates only, unread (user reviews).
 ## Next (in order)
-1. Eval ONLY the new non-seed, non-chart dev questions (~230, ~50 min, 7B, background): `telaah eval --router --file eval/bench/dev.jsonl --ids <new ids>`; combine with seed results. (Rebuild dev.jsonl first.)
+1. Re-run the 258 dev questions with the new retrieval (`--router --judge-on-fail`, ~35 min, background, `--resume` if it crashes); compare by type with the old run (rescored with extra gold). Re-run the 60 agent tasks once to confirm ~0.97 holds.
 2. After Gemini reset (~07:00): `draft.py --pages pages2.jsonl` (418 pages left), then Claude reviews new dev drafts.
-3. User: review test candidates in `review_app.py` (Test), write 8 test unanswerables.
-4. Gradio demo; then SFT data (roadmap week 10).
+3. Investigate the refused-but-answerable questions (39 in table/text) that still miss retrieval; EPS to facts table (q005).
+4. User: review test candidates in `review_app.py` (Test), write 8 test unanswerables.
+5. Gradio demo; then SFT data (roadmap week 10).

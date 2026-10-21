@@ -22,6 +22,8 @@ def main() -> None:
     e.add_argument("--types", nargs="*", help="only these question types")
     e.add_argument("--router", action="store_true", help="route each question to RAG or the agent")
     e.add_argument("--ids", nargs="*", help="only these question ids (fast subset runs)")
+    e.add_argument("--resume", help="a eval/runs/*.partial.jsonl file: run only the questions missing from it")
+    e.add_argument("--judge-on-fail", action="store_true", help="skip the LLM judges when numeric/recall/citation checks already pass")
     e.add_argument("--file", type=Path, help="question file (default eval/seed_questions.jsonl; eval/bench/dev.jsonl)")
     args = ap.parse_args()
 
@@ -64,4 +66,4 @@ def main() -> None:
         from run_eval import run
 
         kw = {"path": args.file.resolve()} if args.file else {}
-        run(agent=args.agent, types=args.types, router=args.router, ids=args.ids, **kw)
+        run(agent=args.agent, types=args.types, router=args.router, ids=args.ids, resume=args.resume, judge_on_fail=args.judge_on_fail, **kw)
