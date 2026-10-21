@@ -647,3 +647,17 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 ## Round 2 drafting (2026-10-21 evening)
 - `sample_pages.py --round 2` -> `pages2.jsonl` (430 pages, ids q0001..q0430; cross_doc pairs test-only). `draft.py --pages pages2.jsonl` stopped after 12 pages: Gemini flash-lite daily quota (500/day) already used by round 1 + tests. Resume after the reset (earlier note: ~07:00 local): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (418 pages left, ~35 min).
 - Reviewed the 16 new dev table drafts: 5 accepted (stage/composite tables are ambiguous). Table yield is low; consider fewer table pages / more text-heavy tables.
+
+# STATUS (2026-10-21, keep this block current; read it first)
+## Done — do NOT redo
+- Seed 50 eval: `eval/runs/20261018-175554.json` (reuse; do not rerun unless answer code changes).
+- Agent tasks 60 ("dev 60"): `tasks-router-20261018-224430/225615.json` ~0.97. Held-out #1/#2 spent.
+- Parse gaps: checked, PDF defects, covered by other reports.
+- Benchmark tools (`eval/bench/`), round 1 drafting (490 pages), Claude dev review, dev unanswerables (12), cross_doc from facts (68).
+- Round 2 drafting: 12/430 pages done (q0001-q0012), reviewed.
+- Dev set `eval/bench/dev.jsonl`: ~334/450. Test split: candidates only, unread (user reviews).
+## Next (in order)
+1. Eval ONLY the new non-seed, non-chart dev questions (~230, ~50 min, 7B, background): `telaah eval --router --file eval/bench/dev.jsonl --ids <new ids>`; combine with seed results. (Rebuild dev.jsonl first.)
+2. After Gemini reset (~07:00): `draft.py --pages pages2.jsonl` (418 pages left), then Claude reviews new dev drafts.
+3. User: review test candidates in `review_app.py` (Test), write 8 test unanswerables.
+4. Gradio demo; then SFT data (roadmap week 10).
