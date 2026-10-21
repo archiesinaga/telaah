@@ -2,13 +2,13 @@
 
 The drafter sees each page as an image plus its parsed text and returns JSON. Calculation golds are NOT taken
 from the drafter: build.py computes them from the figures the user checked. Resumable (pages already drafted
-are skipped), throttled for the free tier. Prints counts only (the test split is not shown, BENCHMARK.md rule 2).
+are skipped), throttled for the free tier (15 requests/min, 500/day on flash-lite; gemini-3.5-flash is only 5/min, 20/day). Prints counts only (the test split is not shown, BENCHMARK.md rule 2).
 
     .venv/Scripts/python eval/bench/draft.py --limit 20          # first pages, to check quality on dev
     .venv/Scripts/python eval/bench/draft.py                     # everything left (stops on the daily quota)
 
-Env: GEMINI_API_KEY, DRAFT_MODEL (default gemini-3.5-flash; never the model under test or VISION_MODEL),
-DRAFT_MIN_INTERVAL (seconds between requests, default 4.5).
+Env: GEMINI_API_KEY, DRAFT_MODEL (default gemini-3.5-flash-lite; never the model under test),
+DRAFT_MIN_INTERVAL (seconds between requests, default 4.5: flash-lite free tier = 15 requests/min, 500/day).
 """
 import argparse
 import base64
@@ -28,7 +28,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from telaah.vision import render_page  # noqa: E402
 
 load_dotenv(ROOT / ".env")
-MODEL = os.getenv("DRAFT_MODEL", "gemini-3.5-flash")
+MODEL = os.getenv("DRAFT_MODEL", "gemini-3.5-flash-lite")
 INTERVAL = float(os.getenv("DRAFT_MIN_INTERVAL", "4.5"))
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 PAGES = HERE / "pages.jsonl"
@@ -40,7 +40,7 @@ COMMON = """Kamu menyusun soal benchmark untuk menguji sistem tanya-jawab dokume
 Sistem itu mencari di SELURUH korpus (laporan tahunan BRI, Bank Mandiri, BNI, BTN, BCA 2024 dan 2025, serta
 peraturan OJK dan BI), jadi setiap soal harus berdiri sendiri: sebut nama bank atau nomor peraturan, dan tahun
 laporan atau periode datanya. Soal dalam Bahasa Indonesia baku, satu jawaban yang jelas dan tunggal.
-Jangan membuat soal yang jawabannya ambigu, bergantung pada tata letak ("tabel di atas"), atau sepele (judul bab).
+Jangan membuat soal yang jawabannya ambigu, bergantung pada tata letak ("tabel di atas"), menyebut nomor halaman, atau sepele (judul bab). Hindari soal yang meminta daftar panjang.
 Jawaban harus tertulis di halaman ini. "evidence" = kutipan PERSIS dari teks halaman (salin apa adanya, maks 200
 karakter) yang memuat jawabannya. Angka ditulis seperti tercetak di halaman, beserta satuannya.
 Jika halaman tidak cocok untuk soal jenis ini, kembalikan {"questions": []}.
@@ -119,7 +119,8 @@ def check(row: dict, q: dict) -> list[str]:
         text = norm(" ".join(pages(d)[p] for d, p in row["pages"]).replace("|", " "))
         if any(norm(e.replace("|", " "))[:80] not in text for e in (ev if isinstance(ev, list) else [ev])):
             problems.append("evidence not found verbatim")
-    names = ["bri", "mandiri", "bni", "btn", "bca", "pojk", "seojk", "pbi", "padg", "ojk", "bank indonesia"]
+    names = ["bri", "mandiri", "bni", "btn", "bca", "pojk", "seojk", "pbi", "padg", "ojk", "bank indonesia",
+             "central asia", "rakyat indonesia", "negara indonesia", "tabungan negara"]
     if not any(n in q["question"].lower() for n in names) or not re.search(r"20\d\d", q["question"]):
         problems.append("not self-contained (bank/regulation or year missing)")
     return problems
@@ -141,14 +142,24 @@ def main() -> None:
     stats = Counter()
     for n, row in enumerate(todo, 1):
         t0 = time.time()
-        try:
-            qs = call(client, row)
-        except Exception as e:  # quota or a bad reply: stop on quota, skip a bad reply
-            msg = str(e)
-            if "429" in msg or "quota" in msg.lower():
-                print(f"quota reached after {n - 1} pages: {msg[:200]}")
+        qs = None
+        for attempt in range(4):
+            try:
+                qs = call(client, row)
                 break
-            print(f"[{n}/{len(todo)}] {row['id']} error: {msg[:160]}")
+            except Exception as e:
+                msg = str(e)
+                if "PerDay" in msg:
+                    print(f"daily quota reached after {n - 1} pages")
+                    print(dict(stats))
+                    return
+                if "429" in msg or "503" in msg:  # per-minute limit or a demand spike: wait and retry the page
+                    m = re.search(r"retry in ([\d.]+)s", msg)
+                    time.sleep(float(m.group(1)) + 2 if m else 30)
+                    continue
+                print(f"[{n}/{len(todo)}] {row['id']} error: {msg[:160]}")
+                break
+        if qs is None:
             stats["errors"] += 1
             continue
         for i, q in enumerate(qs[:2], 1):

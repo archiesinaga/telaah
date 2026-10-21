@@ -31,11 +31,11 @@ New questions to check: 550. Drafts are over-produced (~1.4x) because rejects ar
    `sha256(seed:doc:page) < 25%` -> test. A cross_doc pair goes to test only if both pages do. Pages that are gold
    pages of the seed questions, the agent tasks or held-out sets #1/#2 are never test pages (the system was tuned
    on them).
-2. **Draft** (`draft.py`): `DRAFT_MODEL` (default `gemini-3.5-flash`), never the model under test (7B qwen) nor the
-   chart reader (`VISION_MODEL`, gemini-3.5-flash-lite). The drafter gets the page image and its parsed text and
+2. **Draft** (`draft.py`): `DRAFT_MODEL` (default `gemini-3.5-flash-lite`: gemini-3.5-flash is 20 requests/day on the free
+   tier), never the model under test (7B qwen). It shares a model with the chart reader (transcribing only); every draft is checked by the user. The drafter gets the page image and its parsed text and
    returns JSON: question, answer, verbatim evidence, figures for calculations. Automatic filter: the evidence must
    occur in the page text (charts: skipped, image only), questions must name the bank/regulation and year.
-   Resumable; throttled to the free tier (15 req/min, 500 req/day).
+   Resumable; throttled to the free tier (15 req/min, 500 req/day on flash-lite).
 3. **Review** (`review_app.py`, the user only): page image(s) beside the draft; fix wording, answer, pages;
    calculation golds are recomputed from the checked figures. Reject ambiguous, trivial or not self-contained
    questions. Other pages that print the same answer are suggested as extra gold pages.

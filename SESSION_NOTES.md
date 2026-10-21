@@ -628,3 +628,8 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 1. New key -> `.venv/Scripts/python eval/bench/draft.py --limit 10 --kinds table_lookup` and check DRAFT_MODEL exists; read only candidates_dev.jsonl for quality, tune prompts; then full draft (~490 requests, ~37 min, 1 day of quota).
 2. User reviews in the app (~25 h total), writes 20 unanswerables. Then build.py, freeze hashes in BENCHMARK.md.
 3. Dev eval per type; test only at milestones. Then SFT data (roadmap week 10).
+
+## Drafting round 1 done (2026-10-21)
+- 490 pages drafted with gemini-3.5-flash-lite (flash is 20 req/day free): 336 dev + 136 test candidates (counts only for test), ~90% pass the auto-filter. Draft quality on dev trial OK.
+- Shortfall vs quotas even if every draft is accepted: chart (dev 27/62, test 14/23), cross_doc (dev 28/60, test 9/22), calculation dev 54/68. Need round 2: more chart/cross_doc/calc pages (rerun sample_pages with larger COUNT, new ids) after seeing the user's accept rate.
+- Next: user reviews in `.venv/Scripts/python eval/bench/review_app.py`; then round 2; unanswerables (user writes).
