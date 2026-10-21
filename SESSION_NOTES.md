@@ -625,6 +625,6 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - Gemini key in `.env` is INVALID (400 API_KEY_INVALID, even on gemini-3.5-flash-lite). The user must create a new key at aistudio.google.com/apikey and put it in `.env` as GEMINI_API_KEY themselves (not in chat). The chart path of the system (vision) is also off until then.
 
 ## Next
-1. New key -> `.venv/Scripts/python eval/bench/draft.py --limit 10 --kinds table_lookup` (dev pages come first? no: order is pages.jsonl order) and check DRAFT_MODEL exists; read a few DEV candidates for quality, tune prompts; then full draft (~490 requests, ~37 min, 1 day of quota).
+1. New key -> `.venv/Scripts/python eval/bench/draft.py --limit 10 --kinds table_lookup` and check DRAFT_MODEL exists; read only candidates_dev.jsonl for quality, tune prompts; then full draft (~490 requests, ~37 min, 1 day of quota).
 2. User reviews in the app (~25 h total), writes 20 unanswerables. Then build.py, freeze hashes in BENCHMARK.md.
 3. Dev eval per type; test only at milestones. Then SFT data (roadmap week 10).
