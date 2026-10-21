@@ -61,7 +61,8 @@ def main(path: str) -> None:
             if c["type"] == "cross_doc":
                 gold = fmt_id(round(abs(x), 2))
             row.update({"figures": d["figures"], "op": d["op"], "computed": gold, "numeric": True,
-                        "gold_answer": gold if c["type"] == "calculation" else f"{d['answer'].strip()} (selisih {gold})"})
+                        "gold_answer": gold if c["type"] == "calculation" else (
+                            d["answer"].strip() if "selisih" in d["answer"] else f"{d['answer'].strip()} (selisih {gold})")})
         else:
             row.update({"gold_answer": d["answer"].strip(), "numeric": bool(d.get("numeric", True))})
         append_jsonl(out, row)

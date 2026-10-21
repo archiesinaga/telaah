@@ -639,3 +639,7 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - Findings: Gemini flash-lite drafts need heavy rejection for table questions (positional "baris pertama", unit unclear), cross_doc (units/periods differ), calc (year columns unclear). One chart gold was wrong (series mix-up), caught by viewing the image.
 - Round 2 (next, needs fresh Gemini quota): more table/chart/calc/regulation pages; cross_doc better built from two same-indicator table rows of two banks (maybe via the facts table + page check) instead of free drafting. Unanswerables: user (12 dev + 8 test), or Claude drafts the dev ones if delegated.
 - Test split: 136 candidates unread; the user reviews them in `review_app.py` (Test radio).
+
+## Dev unanswerables + cross_doc from facts (2026-10-21)
+- `user_dev.jsonl`: 12 unanswerables drafted by Claude (absence regex-checked). `eval/bench/crossdoc_from_facts.py`: facts-table pairs -> candidates (dev reviewed by Claude: 68 accepted, 8 rejected for wrong row labels). Dev = 329/450. No test pairs possible this way (pages tuned or dev): test cross_doc needs round-2 Gemini drafts on test pages or the user.
+- Next: round 2 drafting (table 34, chart 36, calc 41, regulation 10 short on dev; test shortfalls cross_doc 22, chart ~9) after the Gemini daily reset; then user reviews the test candidates.

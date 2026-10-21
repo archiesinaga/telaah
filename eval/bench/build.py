@@ -23,7 +23,7 @@ def collect(split: str) -> list[dict]:
         rows += [{**q, "split": "dev", "source": "seed"} for q in read_jsonl(EVAL / "seed_questions.jsonl")]
     acc = [r for r in read_jsonl(HERE / f"reviewed_{split}.jsonl") if r["decision"] == "accept"]
     rows += [{**r, "source": "draft+review"} for r in acc]
-    rows += [{**r, "source": "user"} for r in read_jsonl(HERE / f"user_{split}.jsonl")]
+    rows += [{"source": "user", **r} for r in read_jsonl(HERE / f"user_{split}.jsonl")]
     return rows
 
 

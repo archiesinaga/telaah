@@ -65,3 +65,12 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   missing from the parsed text, chart answer read from the wrong series). Short: table_lookup 34, chart 36,
   calculation 41, cross_doc 57, regulation 10, unanswerable 12 (user). Difference golds are absolute values.
   cross_doc drafts were mostly rejected (units/periods not comparable): round 2 needs a different method.
+- 2026-10-21 (later): dev unanswerables drafted by Claude (12, `source: claude`; absence checked by regex over the
+  corpus: future periods, non-existent POJK/PADG numbers, banks and provinces/districts the reports do not cover).
+  cross_doc dev built from the facts table (`crossdoc_from_facts.py`): two banks, one indicator, one year, one report
+  year, gold computed in Python, row label checked on the page; 76 candidates, 68 accepted. Caveat: these use the
+  same table the facts route reads, on pages the extractor was tuned on, so dev cross_doc is optimistic. The test
+  split got NO such pairs (their pages are dev or tuned by the page-hash rule): test cross_doc (22) must come from
+  Gemini drafts on test pages (round 2) and/or the user.
+  Dev now 329/450: text_fact 90/90, cross_doc 68/68, unanswerable 22/22; short: table_lookup 34, chart 36,
+  calculation 41, regulation 10.
