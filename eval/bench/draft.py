@@ -18,6 +18,8 @@ import re
 import sys
 import time
 from collections import Counter
+from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -127,12 +129,32 @@ def check(row: dict, q: dict) -> list[str]:
     return problems
 
 
+QUOTA_FILE = HERE / ".quota_hit"  # when the daily quota was last refused; a rerun before the reset exits without a request
+
+
+def next_reset(after: datetime) -> datetime:
+    """The free-tier daily quota resets at midnight Pacific time (expected; shown in local time)."""
+    t = after.astimezone(ZoneInfo("America/Los_Angeles"))
+    return (t + timedelta(days=1)).replace(hour=0, minute=0, second=0, microsecond=0).astimezone()
+
+
+def blocked_until() -> datetime | None:
+    """Reset time after the last refusal, if it is still in the future."""
+    if not QUOTA_FILE.exists():
+        return None
+    reset = next_reset(datetime.fromisoformat(QUOTA_FILE.read_text().strip()))
+    return reset if reset > datetime.now().astimezone() else None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--force", action="store_true", help="try even though the last refusal says the quota has not reset")
     ap.add_argument("--limit", type=int, default=0, help="draft at most this many pages")
     ap.add_argument("--kinds", nargs="*", help="only these kinds")
     ap.add_argument("--pages", default="pages.jsonl", help="page list in eval/bench (pages2.jsonl = round 2)")
     args = ap.parse_args()
+    if (until := blocked_until()) and not args.force:
+        sys.exit(f"daily quota refused earlier; expected reset {until:%Y-%m-%d %H:%M} local (midnight Pacific). --force to try anyway")
     key = os.getenv("GEMINI_API_KEY")
     if not key:
         sys.exit("GEMINI_API_KEY missing in .env")
@@ -152,7 +174,9 @@ def main() -> None:
             except Exception as e:
                 msg = str(e)
                 if "PerDay" in msg:
-                    print(f"daily quota reached after {n - 1} pages")
+                    now = datetime.now().astimezone()
+                    QUOTA_FILE.write_text(now.isoformat())
+                    print(f"daily quota reached after {n - 1} pages; expected reset {next_reset(now):%Y-%m-%d %H:%M} local")
                     print(dict(stats))
                     return
                 if "429" in msg or "503" in msg:  # per-minute limit or a demand spike: wait and retry the page

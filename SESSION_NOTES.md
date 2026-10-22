@@ -736,7 +736,7 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 - Round 2 drafting: 14/430 pages (q0001-q0014); q0013/q0014 drafts not reviewed.
 - Dev set `eval/bench/dev.jsonl`: 334/450. Test split: candidates only, unread (user reviews).
 ## Next (in order)
-1. Gemini round 2 drafting retry (quota was still exhausted at 11:54 local on 2026-10-22; try later or tomorrow, one try): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (416 pages, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
+1. Gemini round 2 drafting retry. `draft.py` now remembers the last quota refusal (`eval/bench/.quota_hit`, git-ignored) and a rerun before the expected reset (midnight Pacific = 14:00 local, UTC+7) exits without a request and prints the time; `--force` overrides. Quota was refused at 12:33 on 2026-10-22: `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (416 pages, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
 2. User: review test candidates in `review_app.py` (Test); write 8 test unanswerables.
 3. Gradio demo: PLAN WRITTEN above (not started); begin with its step 1 when the Gemini quota allows. Then SFT data (roadmap week 10).
 4. Calculation only if a new lever is chosen (see above); EPS into the facts table (seed q005).
