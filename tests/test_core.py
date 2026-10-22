@@ -26,6 +26,15 @@ def test_numeric_match_id_format():
     assert not numeric_match("Totalnya 999", "123.456")
 
 
+def test_numeric_match_formats_are_read_per_number():
+    # a comma decimal next to a dot-thousands figure in the same answer was read as 1476 (the "14,76" bug)
+    assert numeric_match("Pertumbuhan 14,76% (nilai 6.139.468 dan 7.045.749)", "14,76%")
+    assert numeric_match("naik 4.87%", "4,87%")  # English decimal vs Indonesian decimal
+    assert numeric_match("Rp2,416,792 juta", "2.416.792")  # English thousands vs Indonesian thousands
+    assert numeric_match("laba 1.234,56 miliar", "1.234,56")
+    assert not numeric_match("pertumbuhan 14,76%", "1.476")  # decimal is not thousands
+
+
 def test_parse_score():
     from telaah.judge import parse_score
 

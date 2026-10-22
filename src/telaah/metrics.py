@@ -11,13 +11,26 @@ def citation_accuracy(cited: list[tuple[str, int]], gold: list[tuple[str, int]])
     return float(bool(cited) and all(c in gold for c in cited))
 
 
+_TOKEN = re.compile(r"-?\d[\d.,]*\d|-?\d")
+
+
+def _norm(tok: str) -> str:
+    """One number token, Indonesian or English: '1.234,56' -> '1234.56', '2,416,792' -> '2416792', '14,76' -> '14.76',
+    '1.227' -> '1227' (a group of exactly three digits after a separator is thousands)."""
+    if "." in tok and "," in tok:
+        dec = "," if tok.rfind(",") > tok.rfind(".") else "."
+        thou = "." if dec == "," else ","
+        return tok.replace(thou, "").replace(dec, ".")
+    sep = "." if "." in tok else "," if "," in tok else None
+    if sep is None:
+        return tok
+    if re.fullmatch(rf"-?\d{{1,3}}(?:\{sep}\d{{3}})+", tok):
+        return tok.replace(sep, "")
+    return tok.replace(sep, ".") if tok.count(sep) == 1 else tok.replace(sep, "")
+
+
 def _nums(s: str) -> list[str]:
-    # Indonesian format uses "." for thousands and "," for decimals.
-    if re.search(r"\d\.\d{3}", s):
-        s = s.replace(".", "").replace(",", ".")
-    else:
-        s = s.replace(",", "")
-    return re.findall(r"-?\d+(?:\.\d+)?", s)
+    return [_norm(t) for t in _TOKEN.findall(s)]
 
 
 def numeric_match(pred: str, gold: str) -> bool:

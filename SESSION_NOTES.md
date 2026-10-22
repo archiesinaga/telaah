@@ -690,17 +690,29 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 
 ## Drafting round 2: still blocked by the Gemini daily quota at 10:04 (one try after ~15:00 local).
 
-# STATUS (2026-10-22 afternoon, keep this block current; read it first)
+# Update — 2026-10-22 (noon): two-year read (kept, OFF) and numeric_match fix
+
+## Two-year read (`src/telaah/twoyear.py`, switch `TELAAH_TWOYEAR=1`, default OFF; router hook only for rag/agent paths)
+- Idea: one bank, two years, growth or difference -> ONE retrieval + ONE JSON read of both numbers + Python arithmetic, fall back to the normal path if any check fails (page retrieved, both numbers on the cited page).
+- Upper limit (retrieval-only, 27 dev calc): both gold figures in the prompt for 16/27 (gold page in top 5: 13/27).
+- Run with the switch on (`bench-dev-20261022-115925.json`) was invalid: the 7B writes doc as "btn_2024 p.25", the parser rejected it (fixed, test added). After the fix, direct check on the 23 questions of this shape: 2 right (+1 right but mis-scored, see below), 1 real wrong (bd0167 read two other rows on a non-gold page), 19 fall back (figures not in the top-5 pages / 7B says null). Verdict: no meaningful gain (<= +3/27, within noise) -> kept OFF, tests in `tests/test_twoyear.py`.
+- Conclusion for calculation: 7B + top-5 retrieval cannot reach the figures for ~11/27; remaining levers are a stronger model for the steps (Gemini, quota-bound) or facts-table line items. Not planned yet.
+
+## `metrics.numeric_match` fix
+- Old `_nums` chose the number format once per STRING (any "d.ddd" -> all commas are decimals, else all commas dropped), so "14,76% (nilai 6.139.468)" read 14,76 as 1476 and missed the gold. Now each number token is read on its own (mixed "1.234,56"; "2,416,792"; "14,76" decimal; "1.227" thousands). Tests added (74 pass).
+- Effect on saved runs (re-scored, non-cross_doc numeric questions): seed runs 0 changes; dev runs +1 each (bd0038 / bd0152). Old run JSONs keep their old stored scores.
+
+# STATUS (2026-10-22 noon, keep this block current; read it first)
 ## Done — do NOT redo
 - Seed 50 eval with the NEW retrieval (SUMMARY_N=0): `eval/runs/20261021-234733.json` (baseline before: `20261018-175554.json`).
 - Agent tasks 60 with new retrieval: `tasks-router-20261022-094842.json` (0.983). Held-out #1/#2 spent.
-- Dev 258 new questions with new retrieval: `bench-dev-20261022-001829.json` (old retrieval: `bench-dev-20261021-180735.json`).
-- Reranker variants (rejected), calculation diagnosis, step-pages and growth-route experiments (reverted). Do not repeat.
-- Benchmark tools, round 1 drafting (490 pages), Claude dev review, dev unanswerables (12), cross_doc from facts (68), extra gold pages, summary-boost fix.
-- Round 2 drafting: 13/430 pages (q0001-q0013); q0013's 2 drafts not reviewed.
+- Dev 258 new questions with new retrieval: `bench-dev-20261022-001829.json`.
+- Reranker variants (rejected); calculation diagnosis; step-pages, growth-route (reverted) and two-year read (kept OFF): all with no gain. Do not repeat.
+- Benchmark tools, round 1 drafting (490 pages), Claude dev review, dev unanswerables (12), cross_doc from facts (68), extra gold pages, summary-boost fix, numeric_match fix.
+- Round 2 drafting: 14/430 pages (q0001-q0014); q0013/q0014 drafts not reviewed.
 - Dev set `eval/bench/dev.jsonl`: 334/450. Test split: candidates only, unread (user reviews).
 ## Next (in order)
-1. Gemini round 2 drafting retry (after ~15:00 local; one try): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (417 pages, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
-2. Calculation: ideas above (7B reading); EPS into the facts table (seed q005). Plan with the user before running.
-3. User: review test candidates in `review_app.py` (Test); write 8 test unanswerables.
-4. Gradio demo; then SFT data (roadmap week 10).
+1. Gemini round 2 drafting retry (quota was still exhausted at 11:54 local on 2026-10-22; try later or tomorrow, one try): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (416 pages, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
+2. User: review test candidates in `review_app.py` (Test); write 8 test unanswerables.
+3. Gradio demo (no benchmark dependency); then SFT data (roadmap week 10).
+4. Calculation only if a new lever is chosen (see above); EPS into the facts table (seed q005).

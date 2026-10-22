@@ -2,7 +2,7 @@
 single-fact questions to plain RAG (no extra LLM call)."""
 import re
 
-from telaah import facts, regulation
+from telaah import facts, regulation, twoyear
 from telaah.agent import DERIVE_RE, USE_FACTS, run_agent
 from telaah.answer import REFUSAL, ask
 from telaah.retrieve import entity_groups
@@ -43,6 +43,8 @@ def run_routed(question: str) -> dict:
         return {"answer": f"{REFUSAL}. Dokumen yang tersedia tidak memuat data {names}.", "citations": [],
                 "retrieved": [], "context": "", "refused": True, "route": path, "verified": None, "unsupported": [],
                 "calc_result": None, "steps": [], "trace": []}
+    if twoyear.USE_TWOYEAR and path in ("rag", "agent") and (r := twoyear.answer(question)):
+        return {**r, "route": "twoyear", "verified": None, "unsupported": [], "calc_result": None, "steps": [], "trace": []}
     if path == "agent":
         return {**run_agent(question), "route": "agent"}
     r = {"facts": facts.answer_step, "regulation": regulation.answer,
