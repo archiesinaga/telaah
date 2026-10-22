@@ -671,16 +671,36 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 ## Drafting round 2 blocked by Gemini quota (2026-10-22 10:04)
 - `draft.py --pages pages2.jsonl` drafted 1 page (q0013) then "daily quota reached" at 10:04 local. The earlier "reset ~07:00" note was wrong: it has not reset by 10:04. Free-tier daily quotas usually reset at midnight Pacific time (likely mid-afternoon here, unverified). Retry once after ~15:00 local; do not loop on it.
 
-# STATUS (2026-10-22, keep this block current; read it first)
+# Update — 2026-10-22 (afternoon): reranker and calculation experiments (both closed, nothing kept)
+
+## Reranker (retrieval-only, GPU: `TELAAH_DEVICE=cuda`, Ollama stopped)
+- Recall@5 with SUMMARY_N=0 (seed 40 answerable / dev 186 non-seed with extra gold): current 0.850 / 0.720 · full rerank 0.375 / 0.855 · A (rerank only if route=="rag") 0.675 / 0.823 · B (RRF blend of fused + rerank order) 0.550 / 0.844 · C (B only on rag route) 0.775 / 0.833. 23 of 40 seed questions are on the rag route, so limiting to RAG does not protect the headline questions. Pass rule (seed >= 0.85 AND dev >= 0.80) failed by all -> reranker stays OFF.
+- Gold page is usually in the top 25 (dev @10 0.74-0.89, @25 0.89-0.96): the order is the problem, but the reranker also moves summary-table pages out. A future try: rerank only after the facts table says no.
+
+## Calculation diagnosis (27 dev questions, `eval/bench/_calc_diag.py`, uncommitted scratch)
+- 6 correct, 14 a step misses the gold page, 4 page found but the 7B misread/refused, 2 steps right but final wrong (RAG did the arithmetic), 1 plan problem. Gold wrong: 0 (all figures are on the gold page).
+- Agent route: full question finds gold in top 5 for 12/19, but every step hits it for only 4/19. Both years are usually on ONE page (later report prints the prior year), so the per-year step queries lose it.
+
+## Tried and REVERTED (all 27 calc questions, router, judge-on-fail; numeric original 0.222)
+- A: each step also reads the whole question's pages (interleaved, 6 pages): 0.185, refusal 0.70->0.59. Retrieval-only said all-steps-hit 4->11 of 19, but it did not become answers.
+- B: growth questions (pertumbuhan/kenaikan + 2 years) -> agent: 0.111 (26 on the agent, 3 right). The 7B does growth arithmetic better on plain RAG than through the agent steps. It also moved agent tasks t058/t059 (unanswerable) to the agent.
+- A+B: 0.185. Runs differ by 1-2 questions without code change (bd0154/bd0156 flip): noise on n=27, so only large effects count.
+- Conclusion: for calculation the bottleneck is the 7B reading figures, not retrieval. `git checkout` restored the code; pytest 68.
+- Ideas not tried: give the 7B the table row only (excerpt) for steps; put line items from notes into the facts table; Gemini for the calculation steps.
+
+## Drafting round 2: still blocked by the Gemini daily quota at 10:04 (one try after ~15:00 local).
+
+# STATUS (2026-10-22 afternoon, keep this block current; read it first)
 ## Done — do NOT redo
-- Seed 50 eval with the NEW retrieval: `eval/runs/20261021-234733.json` (baseline before: `20261018-175554.json`).
+- Seed 50 eval with the NEW retrieval (SUMMARY_N=0): `eval/runs/20261021-234733.json` (baseline before: `20261018-175554.json`).
 - Agent tasks 60 with new retrieval: `tasks-router-20261022-094842.json` (0.983). Held-out #1/#2 spent.
 - Dev 258 new questions with new retrieval: `bench-dev-20261022-001829.json` (old retrieval: `bench-dev-20261021-180735.json`).
-- Benchmark tools (`eval/bench/`), round 1 drafting (490 pages), Claude dev review, dev unanswerables (12), cross_doc from facts (68), extra gold pages, summary-boost fix (SUMMARY_N=0).
-- Round 2 drafting: 13/430 pages done (q0001-q0013); q0013's 2 drafts not reviewed yet.
+- Reranker variants (rejected), calculation diagnosis, step-pages and growth-route experiments (reverted). Do not repeat.
+- Benchmark tools, round 1 drafting (490 pages), Claude dev review, dev unanswerables (12), cross_doc from facts (68), extra gold pages, summary-boost fix.
+- Round 2 drafting: 13/430 pages (q0001-q0013); q0013's 2 drafts not reviewed.
 - Dev set `eval/bench/dev.jsonl`: 334/450. Test split: candidates only, unread (user reviews).
 ## Next (in order)
-1. Retry `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` after ~15:00 local (417 pages left, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
-2. Meanwhile (no Gemini): refused-but-answerable questions in table/text that still miss retrieval; calculation (recall 0.30); EPS into the facts table (seed q005).
-3. User: review test candidates in `review_app.py` (Test), write 8 test unanswerables.
+1. Gemini round 2 drafting retry (after ~15:00 local; one try): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (417 pages, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
+2. Calculation: ideas above (7B reading); EPS into the facts table (seed q005). Plan with the user before running.
+3. User: review test candidates in `review_app.py` (Test); write 8 test unanswerables.
 4. Gradio demo; then SFT data (roadmap week 10).
