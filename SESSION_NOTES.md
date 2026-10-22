@@ -702,6 +702,30 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 - Old `_nums` chose the number format once per STRING (any "d.ddd" -> all commas are decimals, else all commas dropped), so "14,76% (nilai 6.139.468)" read 14,76 as 1476 and missed the gold. Now each number token is read on its own (mixed "1.234,56"; "2,416,792"; "14,76" decimal; "1.227" thousands). Tests added (74 pass).
 - Effect on saved runs (re-scored, non-cross_doc numeric questions): seed runs 0 changes; dev runs +1 each (bd0038 / bd0152). Old run JSONs keep their old stored scores.
 
+# Plan — Gradio demo on Hugging Face Spaces (2026-10-22, planned, NOT started; user continues later)
+
+Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publish) is outward-facing, ask explicitly first.
+
+## Constraint and decisions
+- Free Spaces = CPU only (2 vCPU, 16 GB RAM, no GPU). Cannot run the local 7B (Ollama), ColPali (803 MB) or ship `data/raw` PDFs (588 MB, size/copyright).
+- Fits: `data/qdrant` 210 MB + `bm25.pkl` 92 MB + `processed` 75 MB + `facts.sqlite` 104 KB (~380 MB, Git LFS).
+- LLM on the Space: Gemini through the existing OpenAI-compatible env (`LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL`), key as a Space secret (never in the repo). Free quota 500 req/day is shared by all visitors -> daily-limit message + per-session rate limit. Use a SEPARATE key from the drafting key.
+- Same retrieval code (bge-m3 on CPU `TELAAH_DEVICE=cpu`, BM25, facts table, SUMMARY_N=0). ColPali/chart path OFF with a graceful "not available" message. No page images: show the cited page TEXT next to the answer.
+- UI: question box, answer with clickable citations, expandable agent-steps panel (route, steps, verified), 6-8 seed examples, short "what this is / tuned on a small set / refuses when unsure" note, loading state (bge-m3 cold start 1-2 min).
+
+## Steps
+1. Feasibility, local (~20 min, ~30 Gemini calls): 10 seed questions on CPU with Gemini, ColPali off. Pass: retrieval < 5 s, peak RAM < 12 GB, answers match the 7B on >= 8/10.
+2. Build `app.py` (~1.5 h, Opus 5.5): question, answer, citations + page text, steps panel, examples, limit messages. Pass: runs at 127.0.0.1:7860.
+3. Local test pass (~30 min): 10 examples, 1 unanswerable, 1 chart question, empty input, Gemini-quota failure. Pass: no crash, clear messages.
+4. Package for Spaces (~1 h): `requirements.txt` (no docling/colpali), README/model-card text, LFS data, secret names. Stop and ask before upload.
+5. Publish to the user's Hugging Face account (~30 min; needs HF login/token). Pass: Space builds and answers 3 test questions.
+6. Notes + commit.
+
+## Risks
+- Gemini quota is the same one that blocks round 2 drafting: run step 1/3 only when the quota allows; demo needs its own key.
+- Cold start of bge-m3 on a free Space; show a loading state.
+- Be honest on the page about quality (tuned on a small set; refusals).
+
 # STATUS (2026-10-22 noon, keep this block current; read it first)
 ## Done — do NOT redo
 - Seed 50 eval with the NEW retrieval (SUMMARY_N=0): `eval/runs/20261021-234733.json` (baseline before: `20261018-175554.json`).
@@ -714,5 +738,5 @@ Keep: hybrid retrieval, filters, ColPali + Gemini vision, eval harness, verifier
 ## Next (in order)
 1. Gemini round 2 drafting retry (quota was still exhausted at 11:54 local on 2026-10-22; try later or tomorrow, one try): `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (416 pages, ~35 min, resumable). Then Claude reviews the new dev drafts (Opus 5.5).
 2. User: review test candidates in `review_app.py` (Test); write 8 test unanswerables.
-3. Gradio demo (no benchmark dependency); then SFT data (roadmap week 10).
+3. Gradio demo: PLAN WRITTEN above (not started); begin with its step 1 when the Gemini quota allows. Then SFT data (roadmap week 10).
 4. Calculation only if a new lever is chosen (see above); EPS into the facts table (seed q005).
