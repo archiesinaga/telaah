@@ -740,3 +740,29 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 2. User: review test candidates in `review_app.py` (Test); write 8 test unanswerables.
 3. Gradio demo: PLAN WRITTEN above (not started); begin with its step 1 when the Gemini quota allows. Then SFT data (roadmap week 10).
 4. Calculation only if a new lever is chosen (see above); EPS into the facts table (seed q005).
+
+# Update — 2026-10-22 (12:45): handoff after retrieval, calculation and demo-planning day
+
+## Done (all committed; last commit 195a4f3)
+- Summary boost off (`retrieve.SUMMARY_N=0`), extra gold pages, `--resume` / `--judge-on-fail`, `numeric_match` per-token fix, `twoyear.py` (OFF), `draft.py` quota memory. Details and numbers are in the sections above; the STATUS block ("2026-10-22 noon") is the one to trust.
+
+## Running/pending
+- Nothing is running (no Python job, GPU empty, Ollama unloaded).
+- Gemini quota refused at 12:33 local; expected reset 14:00 local (midnight Pacific, UTC+7). `draft.py` refuses to run before then unless `--force`.
+- Uncommitted: `eval/bench/candidates_dev.jsonl`, `drafted_pages.jsonl` (2 morning drafts, q0013/q0014, not reviewed) and scratch scripts `eval/bench/_*.py` (ablation helpers: `_boost.py`, `_rerank*.py`, `_calc_diag.py`, `_twoyear_check.py`, `_miss.py`, `_retr_dev.py`) — delete or commit as the user prefers. `test.jsonl` / `candidates_test.jsonl` are the blind test split: never read them.
+
+## Working rules the user set (also in memory)
+- Plan first, ask consent before EACH step (`plan-then-consent` memory). Models: Opus 5.5 for design/diagnosis/review, Sonnet 5.5 for routine runs.
+- One GPU job at a time (6 GB card: the 7B needs ~5 GB, retrieval models ~3.6 GB). `TELAAH_DEVICE=cuda` only for retrieval-only tests with `ollama stop qwen2.5:7b-gpu` first; RAM is tight (15.7 GB, a retrieval test took 7 GB).
+- Run long jobs once and check once at the end; `--resume <partial.jsonl>` after any crash. Entry point is `.venv/Scripts/telaah.exe` (`python -m telaah` does not work).
+
+## Lessons
+- A retrieval-only gain does not guarantee an end-to-end gain (merged step pages: 4/19 -> 11/19 step hits, answers got worse). Always confirm end-to-end before keeping.
+- Seed set is tuned (optimistic); dev set (non-seed) is the honest signal. Runs on 27 calc questions differ by 1-2 questions without code changes: only large effects count.
+- When a background run finishes in seconds, read its log; a typo in the command (or an undefined name) can fail silently.
+
+## Next
+1. After 14:00 local: `.venv/Scripts/python eval/bench/draft.py --pages pages2.jsonl` (416 pages left, ~35 min), then Claude reviews the new dev drafts (Opus 5.5).
+2. User: review test candidates in `review_app.py` (Test), write 8 test unanswerables.
+3. Gradio demo: follow the plan above, step 1 when the Gemini quota allows (needs a separate demo key).
+4. Calculation: only with a new lever (stronger model for steps, or line items in the facts table); EPS into the facts table fixes seed q005.
