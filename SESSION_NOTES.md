@@ -777,3 +777,25 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. Decide: commit (dev review + dev.jsonl), then dev eval on the new questions only (delta), router + judge-on-fail.
 2. User: review test candidates (Test radio in review_app.py), write 8 test unanswerables.
 3. Gradio demo plan step 1 (needs a separate Gemini key); calculation levers as before.
+
+# Update — 2026-10-23 (afternoon): dev delta eval in progress, chart run pending
+## Done (committed 8a0bd60)
+- Round 2 drafting finished (416 pages, one run). Claude reviewed 237 dev drafts: 164 accepted; chart golds checked on rendered images (q0213-2 edited to 2021, q0261-2 rejected, draft gold was wrong). `dev.jsonl` 439/450, sha256 69e220ec...5af5f85. Test split untouched/unread.
+- IMPORTANT: `build.py` renumbers `bdNNNN` ids when dev grows (the 50 seed ids are stable). The old run `bench-dev-20261022-001829.json` has OLD ids and stores no question text: map via `git show HEAD~1:eval/bench/dev.jsonl` (id -> question) and compare by question text.
+- `build.py` has no --help: running it rewrites dev.jsonl/test.jsonl.
+
+## Delta eval (156 dev questions never evaluated: chart 57, calculation 53, table 23, regulation 23)
+- ids saved: `eval/bench/_new_ids.txt`, `_new_ids_nochart.txt` (99), `_new_ids_chart.txt` (57), all uncommitted scratch.
+- Non-chart run (router + judge-on-fail, 7B): log `eval/bench/eval_dev_delta.log`, progress `eval/runs/bench-dev-20261023-090544.partial.jsonl`. First attempt was killed at 51/99 by the low-memory reaper (not a bug); resumed with `--resume`. At 15:31 the log showed 62/99 (calculation) and a telaah process was still alive; check whether it is really progressing. If it died: rerun the same command with `--resume eval/runs/bench-dev-20261023-090544.partial.jsonl --ids $(cat eval/bench/_new_ids_nochart.txt)`. Check free RAM first (>= 7 GB).
+- Partial results on the first 50 (23 table, 27 calc): table numeric 0.43, recall 0.52, citation 0.39, refusal 0.78; calculation numeric 0.19, recall 0.33, citation 0.26, refusal 0.70 (same level as the earlier 27-question calc set: 0.22). Regulation (23) not run yet.
+- Chart run (57, Gemini vision, ~60 flash-lite requests) NOT started. A one-shot cron (14:07) fired but the user interrupted it; cron is session-only and gone after /clear. Run it only when no other GPU job is running and the quota has reset (it did at 14:00): `.venv/Scripts/telaah.exe eval --file eval/bench/dev.jsonl --router --judge-on-fail --ids $(cat eval/bench/_new_ids_chart.txt) > eval/bench/eval_dev_chart.log 2>&1` (background).
+
+## Lessons
+- One telaah eval at a time; the eval plus other apps can exhaust 15.7 GB RAM and the harness kills background jobs. Close heavy apps first.
+- Do not write temp files to `/` (`/tmp_x` triggers the rm safety check); use the scratchpad.
+
+## Next
+1. Confirm the non-chart eval finished (final json in `eval/runs/bench-dev-*.json`), then show the 99-question table by type (and combine with the first 50). Then run the chart set (ask first), then report per type vs the older dev run.
+2. Commit scratch ids only if wanted (otherwise delete `_new_ids*.txt`).
+3. User: review test candidates (review_app.py, Test) and write 8 test unanswerables.
+4. Gradio demo plan step 1 (needs a separate Gemini key); calculation levers (stronger model for steps; EPS into facts table).
