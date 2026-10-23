@@ -97,3 +97,16 @@ def test_query_cache_and_cache_only(monkeypatch):
     with pytest.raises(cp.QueryNotCached):
         cp.encode_query("grafik aset")  # miss in cache-only mode: no model load either
     cp.encode_query.cache_clear()
+
+
+def test_page_images_for_any_report_with_a_pdf(monkeypatch):
+    from telaah import answer, vision
+
+    read = []
+    monkeypatch.setattr(vision, "enabled", lambda: True)
+    monkeypatch.setattr(vision, "has_pdf", lambda d: d != "no_pdf")
+    monkeypatch.setattr(vision, "read_page", lambda q, d, p: read.append((d, p)) or "Laba 2025: 10")
+    chunks = [{"doc_id": d, "page": 1, "text": "t"} for d in ("mandiri_2025", "no_pdf", "bca_2025")]
+    out, done = answer.add_page_images("Menurut grafik, berapa laba?", chunks)
+    assert done == [("mandiri_2025", 1), ("bca_2025", 1)] == read  # not in the ColPali index, still read
+    assert out[0]["vision"] == "Laba 2025: 10" and "vision" not in out[1]

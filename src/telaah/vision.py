@@ -50,6 +50,10 @@ def wants_image(question: str) -> bool:
     return bool(CHART_RE.search(question))
 
 
+def has_pdf(doc_id: str) -> bool:
+    return (RAW_DIR / f"{doc_id}.pdf").exists()
+
+
 def render_page(doc_id: str, page: int, dpi: int = VISION_DPI) -> bytes:
     """PNG bytes of one PDF page (1-based, same numbering as the text index)."""
     import pymupdf

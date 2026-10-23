@@ -150,15 +150,16 @@ def build_context(chunks: list[dict], question: str = "") -> str:
 
 
 def add_page_images(question: str, chunks: list[dict]) -> tuple[list[dict], list[tuple[str, int]]]:
-    """Chart questions: transcribe the top retrieved pages that have a page-image index; the
-    transcription goes FIRST in that page's context (see build_context)."""
-    from telaah import colpali, vision
+    """Chart questions: transcribe the top retrieved pages, rendered from the source PDF; the
+    transcription goes FIRST in that page's context (see build_context). Any report with a PDF qualifies,
+    not only the few in the ColPali index (gating on that index refused 20 of 28 dev chart questions)."""
+    from telaah import vision
 
     if not (vision.enabled() and vision.wants_image(question)):
         return chunks, []
     out, done = [], []
     for c in chunks:
-        if len(done) < VISION_PAGES and colpali.has_page(c["doc_id"], c["page"]):
+        if len(done) < VISION_PAGES and vision.has_pdf(c["doc_id"]):
             try:
                 reading = vision.read_page(question, c["doc_id"], c["page"])
             except Exception as e:  # noqa: BLE001 - fall back to the text-only context
