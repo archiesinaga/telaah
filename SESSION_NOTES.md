@@ -799,3 +799,16 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 2. Commit scratch ids only if wanted (otherwise delete `_new_ids*.txt`).
 3. User: review test candidates (review_app.py, Test) and write 8 test unanswerables.
 4. Gradio demo plan step 1 (needs a separate Gemini key); calculation levers (stronger model for steps; EPS into facts table).
+
+# Update — 2026-10-23 (late afternoon): non-chart delta eval done
+## Done
+- Non-chart delta eval finished (99 questions, router + judge-on-fail, 7B): `eval/runs/bench-dev-20261023-090544.json` (resumed twice; final shutdown ImportError from qdrant is harmless). Needed `llama-server` killed first (5 GB, Ollama restarts it) to get >= 7 GB free; during the run free RAM was ~0.4 GB (eval python 5.6 GB + llama-server 2.4 GB; GPU 4.9/6.1 GB).
+- `extra_gold_dev.json` was keyed by OLD ids (built 10-21, before build.py renumbered): 12 of the 99 ids collided. Rebuilt it (260 checked, 70 gained, 112 pages). Recall rechecked for the 13 affected questions: rag route re-retrieved exactly (bd0123 0->1), agent route checked via citations (no inflation).
+- Final by type (recall@5 / citation / numeric): calculation n=53 0.38 / 0.30 / 0.17; table_lookup n=23 0.57 / 0.39 / 0.43; regulation n=23 0.65 / 0.39 / 0.67. Older dev run (001829): calc 0.30/0.30/0.22, table 0.67/0.52/0.57, regulation 0.83/0.54/1.00. Judge scores not comparable (judge-on-fail). Calc latency average (394 s) is distorted by the crash/resume.
+## Findings
+- ColPali loads (on CPU) for ANY question whose wording trips `wants_image`, even calculation (bd0264: 150 s, failed with os error 1450, then disabled for the run). Probably what pushed the first attempt over the RAM limit.
+- Agent recall understates: `recall_at_k` looks at the first 5 of all steps' retrieved pages combined (mostly step 1). bd0128 and bd0206 cite a gold page but score recall 0.
+## Next
+1. Chart run (57, `_new_ids_chart.txt`): needs ColPali + eval + llama-server in RAM. Check free RAM first; if short, two-pass idea: ColPali rankings alone with Ollama stopped (GPU), cache them, then eval reads the cache (code change, ask first).
+2. Optional: agent recall = top-5 per step (changes calc recall measurement; ask first).
+3. User: review test candidates (review_app.py, Test), write 8 test unanswerables. Gradio demo plan step 1.
