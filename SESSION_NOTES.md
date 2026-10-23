@@ -822,3 +822,19 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. The 18 chart questions without a chart word (recall 0.22, vision never triggers): look at their wording; widen `wants_image` only if ordinary questions stay fast (Opus 5.5).
 2. Remaining 7 wrong refusals in the 28: 6 are retrieval misses (gold page not in top 5).
 3. Optional: agent recall = top-5 per step. User: review test candidates, write 8 test unanswerables. Gradio demo plan step 1.
+
+# Update — 2026-10-23 (night): chart-page transcription pilot (handoff)
+## Done (commits 07a2a08, 3e5858d, 37783cf, 5d3aac9)
+- Chart-heavy pages are transcribed once by Gemini and added as page text. Switch `TELAAH_TRANSCRIPTS=1` (default OFF). Code: `src/telaah/transcripts.py` (rule: >= 2 images or < 1000 chars text; side BM25 `data/bm25_tx.pkl`; transcription vectors `data/page_transcripts/embeddings.pt`; dense score = max(page, transcription); context shows the transcription first), `vision.transcribe_page` / `DailyQuota`, CLI `telaah transcribe --docs ...` and `telaah transcripts-index`. pytest 82.
+- Measurement basis: 13,011 bank pages; image count is the best chart signal (chart gold pages median 3 images, text/table gold pages 90% <= 1). Rule flags 2,207 pages (17%) of all 10 reports; pilot = bca_2025 + mandiri_2025 = 332 pages.
+- Pilot transcription: 288/332 done (125 with chart text, 163 "no chart", 10 junk page-number strings, harmless), stopped on the Gemini daily quota. Pending 44 pages are all mandiri_2025 p.700-1467 (no dev chart gold page among them). Gold pages spot-checked from text only (bca p.8/12/13, mandiri p.22/35/293 correct); not yet compared against page images.
+- Retrieval-only recall@5, switch OFF -> ON, 87 dev questions with gold in the two pilot reports: chart 0.27 -> 0.50 (22, +5, lost 0), text_fact 0.55 -> 0.60, table_lookup 0.81 = 0.81, calculation 0.89 = 0.89. Passes the bar (chart +0.15, others >= -0.02). Script: scratchpad `tx_compare.py` (not saved in repo).
+- Earlier today: chart run 57 -> vision fix (any report with a PDF) lifted the 28 non-ColPali chart questions numeric 0.14 -> 0.68; ColPali query cache for the 11 indexed-report questions (`TELAAH_COLPALI_CACHE_ONLY=1`, `eval/bench/colpali_cache.py`).
+## Next
+1. Full eval on the 22 chart questions of the two pilot reports with `TELAAH_TRANSCRIPTS=1` (+ `TELAAH_COLPALI_CACHE_ONLY=1`), router + judge-on-fail; compare with runs 155954/162414 (numeric ~0.5-0.68 with run-time vision). Kill `llama-server` first (Ollama restarts it); need >= 7 GB free RAM.
+2. After the Gemini reset (14:00 local on 10-24): `telaah transcribe --docs bca_2025 mandiri_2025` finishes the 44 pages, then `telaah transcripts-index`.
+3. Only if step 1 confirms: scale to the other 8 reports (~1,900 pages, several days of free quota, resumable), then a full dev re-eval (all retrieval numbers shift) before turning the switch on by default. Spot-check some transcriptions against the page images first.
+4. Still open: agent recall = top-5 per step; calculation levers; user reviews test candidates (review_app.py) and writes 8 test unanswerables; Gradio demo plan step 1.
+## Notes
+- Uncommitted scratch: `eval/bench/_*.py`, `_new_ids*.txt`, `eval/bench/transcribe_pilot.log`, `eval_dev_*.log`; `data/page_transcripts/` is data (check .gitignore before committing it).
+- Working rules unchanged (see memory): numbered plan first, ask before each step, model recommendation per step (also in global CLAUDE.md).
