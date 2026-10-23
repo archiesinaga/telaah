@@ -1,0 +1,14 @@
+1. Judul atau keterangan:
+- Indonesia Investment Authority (INA): 8%
+- Publik: 40%
+- Layanan (Remittance): 100%
+- Asuransi Jiwa: 51%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: % (persen)
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Indonesia Investment Authority (INA): 8%
+- Publik: 40%
+- Layanan (Remittance): 100%
+- Asuransi Jiwa: 51%

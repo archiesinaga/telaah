@@ -1,0 +1,24 @@
+PERTUMBUHAN LABA BERSIH
+Legenda: Industri, Bank Mandiri
+Periode 2023: Industri 20,6%, Bank Mandiri 33,7%
+Periode 2024: Industri 4,88%, Bank Mandiri 1,31%
+Periode 2025*: Industri 2,74%, Bank Mandiri 0,92%
+
+PANGSA PASAR LABA BERSIH
+Periode 2023: 22,6%
+Periode 2024: 21,9%
+Periode 2025*: 21,5%
+
+Sumber: OJK per Desember 2025, Laporan Publikasi Bank Mandiri per Desember 2025
+
+PERBANDINGAN RASIO KEUANGAN BANK MANDIRI (BANK ONLY) DIBANDINGKAN INDUSTRI PERBANKAN
+Kinerja | Industri Perbankan (Bank Umum) | Bank Mandiri
+Kewajiban Penyediaan Modal Minimum (KPMM): Industri Perbankan (Bank Umum) 25,89%, Bank Mandiri 19,36%
+Non-Performing Loan Gross (NPL Gross): Industri Perbankan (Bank Umum) 2,05%, Bank Mandiri 0,96%
+Non-Performing Loan Net (NPL Net): Industri Perbankan (Bank Umum) 0,79%, Bank Mandiri 0,40%
+Return on Assets (ROA): Industri Perbankan (Bank Umum) 2,53%, Bank Mandiri 3,19%
+Net Interest Margin (NIM): Industri Perbankan (Bank Umum) 4,56%, Bank Mandiri 4,59%
+Beban Operasional terhadap Pendapatan Operasional (BOPO): Industri Perbankan (Bank Umum) 72,96%, Bank Mandiri 60,23%
+Loan to Deposit Ratio (LDR): Industri Perbankan (Bank Umum) 85,35%, Bank Mandiri 88,92%
+
+Sumber: Portal Data & Metadata Sektor Jasa Keuangan Terintegrasi dan Siaran Pers per Desember 2025, Laporan Publikasi Bank Mandiri per Desember 2025.

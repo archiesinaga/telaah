@@ -1,0 +1,13 @@
+1. Judul atau keterangan:
+e. Alur Proses Penilaian
+- Kotak 1: Presiden Komisaris dan masing-masing anggota Dewan Komisaris mengisi Formulir Self-Assessment
+- Kotak 2: Hasil self-assessment Dewan Komisaris baik terhadap kolegial maupun individu dievaluasi oleh Dewan Komisaris melalui rapat berdasarkan rekomendasi KRN
+- Kotak 3: Hasil evaluasi:
+  - Penilaian Kinerja Kolegial
+  - Penilaian Kinerja Individu
+
+2. Label sumbu, legenda, satuan, dan periode:
+Tidak ada.
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+306

@@ -1,0 +1,81 @@
+(dalam jutaan Rupiah)
+
+Kolom e, 45%:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+
+Kolom f, 50%:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: 603.720
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: 603.720
+
+Kolom g, 75%:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+
+Kolom h, 85%:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: 250.508
+- Baris 8: 250.508
+
+Kolom i, 100%:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+
+Kolom j, 150%:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+
+Kolom k, Lainnya:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+
+Kolom l, Total Tagihan Bersih:
+- Baris 1: 3.822.008
+- Baris 2: -
+- Baris 3: -
+- Baris 4: 1.213.933
+- Baris 5: -
+- Baris 6: -
+- Baris 7: 250.508
+- Baris 8: 5.286.449

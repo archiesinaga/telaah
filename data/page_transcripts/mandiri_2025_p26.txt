@@ -1,0 +1,13 @@
+1. ATM & CRM Mandiri
+Jaringan ATM setor tarik dan layanan transaksi tunai,
+Unit: 13.000
+
+2. QRIS Mandiri
+Metode pembayaran digital nasional dan lintas platform.
+
+3. Kartu Debit dan Kredit Mandiri
+Instrumen pembayaran non-tunai untuk transaksi domestik dan internasional,
+
+4. Agen Mandiri
+Layanan perbankan bagi masyarakat melalui agen,
+Agen: 111.035

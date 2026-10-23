@@ -1,0 +1,23 @@
+1. Judul atau keterangan:
+- RASIO CASA
+- PERTUMBUHAN CASA
+- PANGSA PASAR CASA
+- Sumber: OJK per Desember 2025, Laporan Publikasi Bank Mandiri per Desember 2025
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda: Industri, Bank Mandiri
+- Periode: 2023, 2024, 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Grafik PERTUMBUHAN CASA:
+  - 2023 - Industri: 3,30%
+  - 2023 - Bank Mandiri: 7,05%
+  - 2024 - Industri: 5,06%
+  - 2024 - Bank Mandiri: 8,49%
+  - 2025 - Industri: 13,6%
+  - 2025 - Bank Mandiri: 12,6%
+
+- Grafik PANGSA PASAR CASA:
+  - 2023: 22,0%
+  - 2024: 22,7%
+  - 2025: 22,5%

@@ -1,0 +1,13 @@
+SIAPA SAJA YANG BERPERAN DALAM PENILAIAN INDIVIDU ?
+
+1. Employee
+Pegawai melakukan assessment.
+
+2. Employee Manager
+Atasan langsung memberi final score dan initial performance level.
+
+3. Employee Manager's Manager
+Atasan dari Atasan langsung memberikan final performance level (PL) dengan memperhatikan distribusi normal.
+
+4. Matrix Manager
+Kepala unit kerja yang menjadi pembina sistem atau segmen dari pegawai yang ditempatkan di region untuk beberapa posisi tertentu. Employee Manager akan menerima input/review/komentar dari Matrix Manager dalam menentukan penilaian kinerja employee.

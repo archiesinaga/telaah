@@ -1,0 +1,36 @@
+1. Judul: NILAI TRANSAKSI LIVIN' (RP TRILIUN)
+- Periode 2023: 3.264
+- Periode 2024: 4.027
+- Periode 2025: 4.448
+
+2. Judul: TOTAL LIVIN' FEE BASED INCOME (RP MILIAR)
+- Periode 2023: 2.174
+- Periode 2024: 2.624
+- Periode 2025: 3.133
+
+3. Tabel: IKHTISAR KINERJA DIGITAL BANKING SEGMEN WHOLESALE
+- Kolom Uraian, 2023, 2024, 2025
+- Baris Pengguna Aktif Kopra: 2023: 107.687, 2024: 117.586, 2025: 131.882
+- Baris Jumlah Transaksi Kopra (Rp Juta): 2023: 1.084, 2024: 1.312, 2025: 1.498
+- Baris Nilai Transaksi Kopra (Rp Triliun): 2023: 19.100, 2024: 22.703, 2025: 27.675
+- Baris Total Fee Based Income (Rp Miliar): 2023: 1.937, 2024: 2.053, 2025: 2.316
+
+4. Judul: PENGGUNA AKTIF KOPRA
+- Periode 2023: 107.687
+- Periode 2024: 117.586
+- Periode 2025: 131.882
+
+5. Judul: JUMLAH TRANSAKSI KOPRA (RP JUTA)
+- Periode 2023: 1.084
+- Periode 2024: 1.312
+- Periode 2025: 1.498
+
+6. Judul: NILAI TRANSAKSI KOPRA (RP TRILIUN)
+- Periode 2023: 19.100
+- Periode 2024: 22.703
+- Periode 2025: 27.675
+
+7. Judul: TOTAL FEE BASED INCOME (RP MILIAR)
+- Periode 2023: 1.937
+- Periode 2024: 2.053
+- Periode 2025: 2.316

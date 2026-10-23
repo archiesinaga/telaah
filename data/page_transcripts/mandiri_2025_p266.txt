@@ -1,0 +1,24 @@
+Grafik 1:
+1. Judul atau keterangan: RASIO NPL BANK MANDIRI VS INDUSTRI
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda: Industri Perbankan (%), Bank Mandiri (%)
+- Satuan: %
+- Periode: 2023, 2024, 2025*
+3. Angka tertera:
+- 2023 Industri Perbankan (%): 2,19
+- 2024 Industri Perbankan (%): 2,08
+- 2025* Industri Perbankan (%): 2,05
+- 2023 Bank Mandiri (%): 1,02
+- 2024 Bank Mandiri (%): 0,97
+- 2025* Bank Mandiri (%): 0,96
+
+Grafik 2:
+1. Judul atau keterangan: NPL COVERAGE BANK MANDIRI (BANK ONLY)
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda: Bank Only NPL Coverage (%)
+- Satuan: %
+- Periode: 2023, 2024, 2025*
+3. Angka tertera:
+- 2023 Bank Only NPL Coverage (%): 385
+- 2024 Bank Only NPL Coverage (%): 304
+- 2025* Bank Only NPL Coverage (%): 252,60

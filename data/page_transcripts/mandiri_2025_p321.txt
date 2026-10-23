@@ -1,0 +1,151 @@
+Tabel 1: Entitas Anak, Jenis Usaha, Tahun Beroperasi Komersial, Kedudukan, Total Aset (Rp Juta)**, dan Persentase Kepemilikan.
+Periode Total Aset dan Persentase Kepemilikan: 31 Des 2024 dan 31 Des 2025.
+
+Baris 1:
+- No.: 1
+- Entitas Anak: PT Bank Syariah Indonesia Tbk
+- Jenis Usaha: Perbankan Syariah
+- Tahun Beroperasi Komersial: 1955
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 408.613.432
+- Total Aset (Rp Juta)** 31 Des 2025: 456.192.606
+- Persentase Kepemilikan 31 Des 2024: 51,47
+- Persentase Kepemilikan 31 Des 2025: 51,47
+
+Baris 2:
+- No.: 2
+- Entitas Anak: PT Bank Mandiri Taspen (Bank Mantap)
+- Jenis Usaha: Perbankan
+- Tahun Beroperasi Komersial: 1970
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 66.232.344
+- Total Aset (Rp Juta)** 31 Des 2025: 73.025.174
+- Persentase Kepemilikan 31 Des 2024: 51,10
+- Persentase Kepemilikan 31 Des 2025: 51,10
+
+Baris 3:
+- No.: 3
+- Entitas Anak: Bank Mandiri (Europe) Limited (BMEL)*
+- Jenis Usaha: Perbankan
+- Tahun Beroperasi Komersial: 1999
+- Kedudukan: London
+- Total Aset (Rp Juta)** 31 Des 2024: 4.213.200
+- Total Aset (Rp Juta)** 31 Des 2025: 4.974.960
+- Persentase Kepemilikan 31 Des 2024: 100,00
+- Persentase Kepemilikan 31 Des 2025: 100,00
+
+Baris 4:
+- No.: 4
+- Entitas Anak: PT Mandiri Tunas Finance (MTF)
+- Jenis Usaha: Pembiayaan Konsumen
+- Tahun Beroperasi Komersial: 1989
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 34.425.455
+- Total Aset (Rp Juta)** 31 Des 2025: 28.008.732
+- Persentase Kepemilikan 31 Des 2024: 51,00
+- Persentase Kepemilikan 31 Des 2025: 51,00
+
+Baris 5:
+- No.: 5
+- Entitas Anak: PT Mandiri Utama Finance (MUF)
+- Jenis Usaha: Pembiayaan Konsumen
+- Tahun Beroperasi Komersial: 2015
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 15.191.908
+- Total Aset (Rp Juta)** 31 Des 2025: 18.784.576
+- Persentase Kepemilikan 31 Des 2024: 99,99
+- Persentase Kepemilikan 31 Des 2025: 99,99
+
+Baris 6:
+- No.: 6
+- Entitas Anak: PT AXA Mandiri Financial Services
+- Jenis Usaha: Asuransi Jiwa
+- Tahun Beroperasi Komersial: 1991
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 41.914.379
+- Total Aset (Rp Juta)** 31 Des 2025: 43.813.450
+- Persentase Kepemilikan 31 Des 2024: 51,00
+- Persentase Kepemilikan 31 Des 2025: 51,00
+
+Baris 7:
+- No.: 7
+- Entitas Anak: PT Mandiri Sekuritas
+- Jenis Usaha: Sekuritas
+- Tahun Beroperasi Komersial: 1992
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 5.161.354
+- Total Aset (Rp Juta)** 31 Des 2025: 6.068.239
+- Persentase Kepemilikan 31 Des 2024: 99,99
+- Persentase Kepemilikan 31 Des 2025: 99,99
+
+Baris 8:
+- No.: 8
+- Entitas Anak: PT Mandiri Capital Indonesia*
+- Jenis Usaha: Modal Ventura
+- Tahun Beroperasi Komersial: 2015
+- Kedudukan: Jakarta
+- Total Aset (Rp Juta)** 31 Des 2024: 5.967.873
+- Total Aset (Rp Juta)** 31 Des 2025: 6.406.076
+- Persentase Kepemilikan 31 Des 2024: 99,99
+- Persentase Kepemilikan 31 Des 2025: 99,99
+
+Baris 9:
+- No.: 9
+- Entitas Anak: Mandiri International Remittance Sendirian Berhad (MIR)*
+- Jenis Usaha: Layanan Remittance
+- Tahun Beroperasi Komersial: 2009
+- Kedudukan: Kuala Lumpur
+- Total Aset (Rp Juta)** 31 Des 2024: 33.157
+- Total Aset (Rp Juta)** 31 Des 2025: 37.556
+- Persentase Kepemilikan 31 Des 2024: 100,00
+- Persentase Kepemilikan 31 Des 2025: 100,00
+
+---
+
+Tabel 2: PRODUKTIVITAS DAN PENDAPATAN ENTITAS ANAK TAHUN 2025
+Satuan: Dalam Rp miliar
+Periode Volume Bisnis**: 2024 dan 2025
+Periode Pertumbuhan: Rp dan %
+
+Baris 1:
+- No.: 1
+- Entitas Anak: Bank Syariah Indonesia (BSI)
+- Total Funding 2024: 327.454
+- Total Funding 2025: 380.488
+- Pertumbuhan Rp: 53.034
+- Pertumbuhan %: 16,20
+- Total Lending 2024: 278.481
+- Total Lending 2025: 318.844
+- Pertumbuhan Rp: 40.363
+- Pertumbuhan %: 14,49
+- Net Income 2024: 7.006
+- Net Income 2025: 7.568
+- Pertumbuhan Rp: 562
+- Pertumbuhan %: 8,02
+
+Baris 2:
+- No.: 2
+- Entitas Anak: Bank Mandiri Taspen
+- Total Funding 2024: 48.825
+- Total Funding 2025: 55.031
+- Pertumbuhan Rp: 6.206
+- Pertumbuhan %: 12,71
+- Total Lending 2024: 46.261
+- Total Lending 2025: 50.531
+- Pertumbuhan Rp: 4.269
+- Pertumbuhan %: 9,23
+- Net Interest Income 2024: 3.442
+- Net Interest Income 2025: 3.666
+- Pertumbuhan Rp: 224
+- Pertumbuhan %: 6,51
+- Fee Based Income 2024: 421
+- Fee Based Income 2025: 420
+- Pertumbuhan Rp: (1)
+- Pertumbuhan %: -0,31
+- Net Income 2024: 1.578
+- Net Income 2025: 1.581
+- Pertumbuhan Rp: 4
+- Pertumbuhan %: 0,22
+
+---
+Halaman: 319

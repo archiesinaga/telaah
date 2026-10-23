@@ -1,0 +1,15 @@
+1. STRUKTUR GRUP PERUSAHAAN
+2. Label dan persentase kepemilikan:
+- PT Danantara Asset Management (Persero): 52%
+- Badan Pengaturan BUMN (BP BUMN): 1 Lembar Saham Seri A
+- Bank Syariah (BSI BANK SYARIAH INDONESIA): 51,47%
+- Bank (mandiri taspen): 51,098%
+- Bank (mandiri europe): 100%
+- Pasar Modal (mandiri sekuritas): 99,99%
+- Pasar Modal (mandiri capital): 99,99%
+- Pembiayaan (mandiri tunas finance): 51%
+- Pembiayaan (mandiri utama finance): 99,99%
+- mandiri investasi (di bawah mandiri sekuritas): 99,93%
+- mandiri securities (di bawah mandiri sekuritas): 100%
+- yokke! (di bawah mandiri sekuritas): 99,99%
+- mandiri investment (di bawah mandiri investasi): 100%

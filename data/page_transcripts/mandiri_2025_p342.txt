@@ -1,0 +1,22 @@
+1. Judul atau keterangan:
+- Grafik pertama: Diagram lingkaran menunjukkan komposisi tahun 2024 (dengan legenda Mata Uang Asing berwarna kuning dan Rupiah berwarna biru).
+- Grafik kedua: Diagram lingkaran menunjukkan komposisi tahun 2025 (dengan legenda Mata Uang Asing berwarna kuning dan Rupiah berwarna biru).
+- Tabel: Efek-efek yang diterbitkan oleh Bank Mandiri baik dalam mata uang Rupiah maupun mata uang asing (Denominasi Rupiah).
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda diagram lingkaran: Mata Uang Asing, Rupiah.
+- Periode diagram lingkaran: 2024, 2025.
+- Satuan nominal pada tabel: Rp juta.
+- Kolom tabel: Nama Efek, Seri, Nominal (Rp juta), Suku Bunga, Peringkat (2024), Peringkat (2025), Jatuh Tempo.
+
+3. Angka yang tertera:
+- Diagram lingkaran 2024:
+  - 2024: 42,88% (Mata Uang Asing)
+  - 2024: 57,12% (Rupiah)
+- Diagram lingkaran 2025:
+  - 2025: 37,36% (Mata Uang Asing)
+  - 2025: 62,64% (Rupiah)
+- Tabel (Denominasi Rupiah - Obligasi Berkelanjutan I Bank Mandiri Tahap I Tahun 2016):
+  - Seri A: Nominal (Rp juta): 1.100.000, Suku Bunga: 7,95%, Peringkat 2024: -, Peringkat 2025: -, Jatuh Tempo: 30 September 2021
+  - Seri B: Nominal (Rp juta): 1.500.000, Suku Bunga: 8,50%, Peringkat 2024: -, Peringkat 2025: -, Jatuh Tempo: 30 September 2023
+  - Seri C: Nominal (Rp juta): 2.400.000, Suku Bunga: 8,65%, Peringkat 2024: idAAA (Pefindo), Peringkat 2025: idAAA (Pefindo), Jatuh Tempo: 30 September 2026

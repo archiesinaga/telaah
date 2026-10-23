@@ -1,0 +1,62 @@
+1. Judul: ASET BANK UMUM
+   - Legenda: Aset (Rp T), ASET YoY (%)
+   - Periode: 2021, 2022, 2023, 2024, 2025*
+   - Angka:
+     - 2021: 10,16 dan 10.281
+     - 2022: 9,87 dan 11.296
+     - 2023: 5,89 dan 11.961
+     - 2024: 5,89 dan 12.666
+     - 2025*: 8,61 dan 13.220
+   - Catatan: *) per Oktober 2025. Sumber: SPI-OJK Oktober 2025
+
+2. Judul: KREDIT BANK UMUM
+   - Legenda: Kredit (Rp T), Kredit YoY (%)
+   - Periode: 2021, 2022, 2023, 2024, 2025*
+   - Angka:
+     - 2021: 5,24 dan 5.769
+     - 2022: 11,35 dan 6.424
+     - 2023: 10,38 dan 7.090
+     - 2024: 10,46 dan 7.832
+     - 2025*: 7,74 dan 8.315
+   - Catatan: *) per November 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+3. Judul: LDR (%)
+   - Periode: 2021, 2022, 2023, 2024, 2025*
+   - Angka:
+     - 2021: 77,13
+     - 2022: 78,78
+     - 2023: 83,83
+     - 2024: 88,62
+     - 2025*: 84,00
+   - Catatan: *) per November 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+4. Judul: NPL (%)
+   - Periode: 2021, 2022, 2023, 2024, 2025*
+   - Angka:
+     - 2021: 3,00
+     - 2022: 2,44
+     - 2023: 2,19
+     - 2024: 2,08
+     - 2025*: 2,21
+   - Catatan: *) per November 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+5. Judul: LAR (%)
+   - Periode: 2021, 2022, 2023, 2024, 2025*
+   - Angka:
+     - 2021: 19,48
+     - 2022: 14,05
+     - 2023: 10,94
+     - 2024: 9,28
+     - 2025*: 9,22
+   - Catatan: *) per November 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+6. Judul: DPK BANK UMUM
+   - Legenda: DPK (Rp T), DPK YoY (%)
+   - Periode: 2021, 2022, 2023, 2024, 2025*
+   - Angka:
+     - 2021: 12,21 dan 7.479
+     - 2022: 9,02 dan 8.154
+     - 2023: 3,73 dan 8.458
+     - 2024: 4,48 dan 8.837
+     - 2025*: 12,03 dan 9.899
+   - Catatan: *) per November 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK

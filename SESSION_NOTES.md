@@ -838,3 +838,15 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 ## Notes
 - Uncommitted scratch: `eval/bench/_*.py`, `_new_ids*.txt`, `eval/bench/transcribe_pilot.log`, `eval_dev_*.log`; `data/page_transcripts/` is data (check .gitignore before committing it).
 - Working rules unchanged (see memory): numbered plan first, ask before each step, model recommendation per step (also in global CLAUDE.md).
+
+# Update — 2026-10-23 (22:10): transcription pilot confirmed end to end
+## Done
+- Eval of the 22 chart questions in bca_2025 / mandiri_2025 with `TELAAH_TRANSCRIPTS=1` + `TELAAH_COLPALI_CACHE_ONLY=1`, router + judge-on-fail: `eval/runs/bench-dev-20261023-215353.json` (ids in scratchpad `pilot_ids.txt`: dev chart, answerable, gold in those two reports).
+- Numeric 0.36 -> 0.50 (8 -> 11 of 22) vs runs 155954/162414 (run-time vision); 3 wrong -> right (bd0163, bd0181, bd0195), 0 right -> wrong. Recall@5 0.41. Summary: recall 0.409, citation 0.227, refusal 0.773, judge 0.75, faithful 0.9.
+- CAVEAT: the Gemini daily quota (500/day) ran out at about question 7, so run-time vision was skipped for most of the run (429 in the log). The 0.50 is transcripts with little or no vision = likely a floor. Small sample (22), direction only.
+- 11 questions are wrong in both runs, mostly recall 0 (gold page not retrieved): more transcription will not fix those.
+- Committed `data/page_transcripts/` (1.2 MB, cost quota to make); `data/bm25_tx.pkl` (92 MB) is now git-ignored (rebuild with `telaah transcripts-index`).
+## Next
+1. After the Gemini reset (14:00 local on 10-24): `telaah transcribe --docs bca_2025 mandiri_2025` (44 pages), then `telaah transcripts-index`. Optionally rerun the 22 with working vision.
+2. Spot-check some transcriptions against page images, then scale to the other 8 reports (~1,900 pages, several days of quota, resumable); full dev re-eval before the switch goes default-on.
+3. Still open: agent recall = top-5 per step; calculation levers; user reviews test candidates (review_app.py) and writes 8 test unanswerables; Gradio demo plan step 1 (separate Gemini key).

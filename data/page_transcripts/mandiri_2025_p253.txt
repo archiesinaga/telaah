@@ -1,0 +1,57 @@
+CAR (%)
+Periode: 2021, 2022, 2023, 2024, 2025*
+Angka:
+- 2021: 25,67
+- 2022: 25,66
+- 2023: 27,65
+- 2024: 26,68
+- 2025*: 26,15
+Keterangan: *) per November 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+LABA SETELAH PAJAK BANK UMUM
+Legenda: Laba Setelah Pajak (Rp T), DPK YoY (%)
+Periode: 2021, 2022, 2023, 2024, 2025*
+Angka (Laba Setelah Pajak (Rp T)):
+- 2021: 140
+- 2022: 202
+- 2023: 243
+- 2024: 255
+- 2025*: 131
+Angka (DPK YoY (%)):
+- 2021: 33,89
+- 2022: 43,94
+- 2023: 20,57
+- 2024: 4,48
+- 2025*: 3,84
+Keterangan: *) per Juni 2025. Sumber: SPI-OJK Juni 2025
+
+ROA (%)
+Periode: 2021, 2022, 2023, 2024, 2025*
+Angka:
+- 2021: 1,84
+- 2022: 2,43
+- 2023: 2,74
+- 2024: 2,69
+- 2025*: 2,53
+Keterangan: *) per September 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+NIM (%)
+Periode: 2021, 2022, 2023, 2024, 2025*
+Angka:
+- 2021: 4,51
+- 2022: 4,71
+- 2023: 4,81
+- 2024: 4,62
+- 2025*: 4,58
+Keterangan: *) per September 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK
+
+BOPO (%)
+Periode: 2021, 2022, 2023, 2024, 2025*
+Angka:
+- 2022: 83,58
+- 2023: 78,65
+- 2024: 78,92
+- (tidak terbaca untuk 2021, diletakkan tanpa angka)
+- 2024 (posisi sebelum 2025): 81,34
+- 2025*: 85,65
+Keterangan: *) per Juni 2025. Sumber: Siaran Pers November 2025 – OJK, BI, dan KSSK

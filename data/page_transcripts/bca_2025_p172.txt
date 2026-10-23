@@ -1,0 +1,62 @@
+(dalam jutaan Rupiah)
+
+Posisi Tanggal Laporan (Desember 2025)
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu
+Tanpa Jangka Waktu: 
+- Baris 1: 283.913.331
+- Baris 2: -
+- Baris 3: 582.671.305
+- Baris 4: 180.859.021
+- Baris 5: 271.206.831
+- Baris 6: 446.474
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 80.334
+
+< 6 Bulan:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: 157.996.863
+- Baris 4: 3.536.240
+- Baris 5: -
+- Baris 6: 26.890.564
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 38.663.809
+
+≥ 6 Bulan - < 1 Tahun:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 260.941
+
+≥ 1 Tahun:
+- Baris 1: 59.583
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 168.669
+
+Total Nilai Tertimbang:
+- Baris 1: 283.972.915
+- Baris 2: -
+- Baris 3: 703.634.760
+- Baris 4: 165.955.735
+- Baris 5: 135.603.416
+- Baris 6: 12.883.541
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 299.140
+
+Total Keseluruhan (Bawah): 1.302.349.506
+
+Laporan Tahunan 2025 | PT Bank Central Asia Tbk 171

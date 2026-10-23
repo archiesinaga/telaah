@@ -1,0 +1,12 @@
+1. Judul atau keterangan:
+KOMPOSISI OBLIGASI PEMERINTAH
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda: Mata Uang Asing, Rupiah
+- Periode: 2024, 2025
+
+3. Angka yang tertera:
+- 2024 (Mata Uang Asing): 17,96%
+- 2024 (Rupiah): 82,04%
+- 2025 (Mata Uang Asing): 17,51%
+- 2025 (Rupiah): 82,49%

@@ -1,0 +1,46 @@
+1. Judul: Pertumbuhan Kredit yang Solid
+
+2. Label, satuan, dan periode:
+- Pertumbuhan Kredit:
+  - Portofolio Kredit: 7,7% YoY (Rp992,9 triliun)
+  - RPIM (Rasio Pembiayaan Inklusif Makroprudensial): 22,8% 1,3%
+
+- Kualitas Kredit yang Terjaga:
+  - Loan at Risk (LAR): 4,8% 0,5%
+  - Non-Performing Loan (NPL): 1,7% 0,1%
+
+- Permodalan dan Likuiditas yang Kuat:
+  - Loan to Deposit Ratio (LDR): 76,8%
+  - Rasio Kecukupan Modal (CAR): 29,8%
+
+- Sektor yang terdiversifikasi dengan baik:
+  - Kontribusi terhadap total kredit*:
+    - Layanan Keuangan: 9%
+    - Transportasi: 6%
+    - Properti & Konstruksi: 6%
+    - Infrastruktur: 5%
+    - Telekomunikasi: 4%
+    - Minyak Nabati: 4%
+    - Energi Listrik: 4%
+    - Bahan Bangunan: 4%
+    - Distributor & Retailer: 4%
+    - Otomotif: 4%
+
+3. Angka-angka:
+- Portofolio Kredit: 7,7% (YoY), Rp992,9 triliun
+- RPIM: 22,8%, 1,3%
+- Loan at Risk (LAR): 4,8%, 0,5%
+- Non-Performing Loan (NPL): 1,7%, 0,1%
+- Loan to Deposit Ratio (LDR): 76,8%
+- Rasio Kecukupan Modal (CAR): 29,8%
+- Layanan Keuangan: 9%
+- Transportasi: 6%
+- Properti & Konstruksi: 6%
+- Infrastruktur: 5%
+- Telekomunikasi: 4%
+- Minyak Nabati: 4%
+- Energi Listrik: 4%
+- Bahan Bangunan: 4%
+- Distributor & Retailer: 4%
+- Otomotif: 4%
+- Sebanyak 50% sisanya memiliki proporsi di bawah 4%

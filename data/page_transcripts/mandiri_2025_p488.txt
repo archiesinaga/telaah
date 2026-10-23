@@ -1,0 +1,16 @@
+1. Judul atau keterangan:
+   - Pemegang Saham
+
+2. Label sumbu, legenda, satuan, dan periode:
+   - Satuan: %
+   - Legenda:
+     - Pemerintah Republik Indonesia - Saham Seri A Dwiwarna
+     - PT Danantara Asset Management (Persero) - Saham Seri B
+     - Indonesia Investment Authority
+     - Publik
+
+3. Angka yang tertera:
+   - Pemerintah Republik Indonesia - Saham Seri A Dwiwarna: 0,00%
+   - PT Danantara Asset Management (Persero) - Saham Seri B: 52,00%
+   - Indonesia Investment Authority: 8,00%
+   - Publik: 40,00%

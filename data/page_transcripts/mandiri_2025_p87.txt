@@ -1,0 +1,22 @@
+1. Judul atau keterangan:
+Kepemilikan
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Saham Seri A Dwiwarna
+  Negara Republik Indonesia: 0,00%
+- Saham Seri B
+  PT Danantara Asset Management (Persero): 52%
+  Indonesia Investment Authority: 8%
+  Publik: 40%
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Negara Republik Indonesia: 0,00%
+- PT Danantara Asset Management (Persero): 52%
+- Indonesia Investment Authority: 8%
+- Publik: 40%
+- Tanggal Pendirian: 02 Oktober 1998
+- Modal Dasar: Rp16.000.000.000.000
+- Modal Disetor dan Ditempatkan: Rp11.666.666.666.500 dan 93.333.333.332 dan 93.333.333.331 serta Rp125,-
+- Pencatatan di Bursa Efek Indonesia: 14 Juli 2003
+- Jumlah Pegawai: Per Desember 2025 sebanyak 38.732 Orang
+- Halaman: 85

@@ -1,0 +1,26 @@
+1. Judul atau keterangan:
+- Struktur Konglomerasi Keuangan BCA per 31 Desember 2025
+- 3. Struktur Kepemilikan Saham pada Konglomerasi Keuangan BCA
+- Struktur Kepemilikan Saham PT Bank Central Asia Tbk
+- Keterangan: Pengendali, Jalur Pengendalian
+- 1) Pada komposisi saham yang dimiliki masyarakat per 31 Desember 2025, sebesar 2,49% dimiliki oleh pihak yang terafiliasi dengan PT Dwimuria Investama Andalan. Komisaris (tidak termasuk Komisaris Independen) dan Direksi memiliki 0,062% saham BCA.
+- Struktur Kepemilikan Saham BCA Finance Limited
+
+2. Label, satuan, dan periode:
+- Periode: Per 31 Desember 2025
+
+3. Angka yang tertera:
+- PT BCA Sekuritas: 90%
+- PT BCA Finance: 99,999999% dan 100%
+- PT Bank BCA Syariah: 99,99995% dan 100%
+- PT Asuransi Umum BCA: 75% dan 100%
+- PT Central Capital Ventura: 99,99975% dan 100%
+- BCA Finance Limited: 100% dan 100%
+- PT Asuransi Jiwa BCA: 90%
+- PT Bank Digital BCA: 99,9999975% dan 100%
+- Angka di luar/panah: 0,000001%, 0,00005%, 25%, 0,00025%, 0,0000025%
+- Robert Budi Hartono (Pemegang Saham Pengendali Terakhir): 51,00%
+- Bambang Hartono (Pemegang Saham Pengendali Terakhir): 49,00%
+- PT Dwimuria Investama Andalan: 54,94%
+- Masyarakat: 45,06%1)
+- PT Bank Central Asia Tbk ke BCA Finance Limited: 100%

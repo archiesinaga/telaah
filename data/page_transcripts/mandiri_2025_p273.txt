@@ -1,0 +1,14 @@
+1. Judul atau keterangan:
+- Kinerja Saham BMRI versus JCI – Tren Hingga Desember 2025
+- Berdasarkan harga penutupan terakhir pada periode 30 Desember 2024-30 Desember 2025
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X (Periode): Des-24, Jan-25, Feb-25, Mar-25, Apr-25, Mei-25, Jun-25, Jul-25, Agu-25, Sep-25, Okt-25, Nov-25, Des-25
+- Legenda: 
+  - BMRI (warna oranye)
+  - JCI (warna biru)
+
+3. Angka yang tertera:
+- Kotak Informasi Kiri:
+  - JCI: 22,1%
+  - BMRI: -10,5%

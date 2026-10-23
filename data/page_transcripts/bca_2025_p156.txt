@@ -1,0 +1,87 @@
+20.b. Risiko Kredit - Pengungkapan Eksposur berdasarkan Kelas Aset dan Bobot Risiko (CR5) - Bank secara Konsolidasi dengan Entitas Anak
+(dalam jutaan Rupiah)
+
+Tabel:
+No: 1
+Bobot Risiko: <40%
+Tagihan Bersih Laporan Posisi Keuangan: 687.860.783
+Tagihan Bersih TRA (sebelum pengenaan FKK): 69.217.589
+Rata-Rata FKK: 26%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 704.995.778
+
+No: 2
+Bobot Risiko: 40%-70%
+Tagihan Bersih Laporan Posisi Keuangan: 149.534.324
+Tagihan Bersih TRA (sebelum pengenaan FKK): 73.543.355
+Rata-Rata FKK: 30%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 170.610.746
+
+No: 3
+Bobot Risiko: 75%
+Tagihan Bersih Laporan Posisi Keuangan: 145.611.700
+Tagihan Bersih TRA (sebelum pengenaan FKK): 49.260.052
+Rata-Rata FKK: 23%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 150.695.852
+
+No: 4
+Bobot Risiko: 80%
+Tagihan Bersih Laporan Posisi Keuangan: -
+Tagihan Bersih TRA (sebelum pengenaan FKK): -
+Rata-Rata FKK: -
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): -
+
+No: 5
+Bobot Risiko: 85%
+Tagihan Bersih Laporan Posisi Keuangan: 175.016.134
+Tagihan Bersih TRA (sebelum pengenaan FKK): 101.786.925
+Rata-Rata FKK: 41%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 200.003.671
+
+No: 6
+Bobot Risiko: 90%-100%
+Tagihan Bersih Laporan Posisi Keuangan: 341.794.031
+Tagihan Bersih TRA (sebelum pengenaan FKK): 189.309.137
+Rata-Rata FKK: 33%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 392.546.230
+
+No: 7
+Bobot Risiko: 105%-130%
+Tagihan Bersih Laporan Posisi Keuangan: 17.152.286
+Tagihan Bersih TRA (sebelum pengenaan FKK): 6.416.147
+Rata-Rata FKK: 40%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 19.665.073
+
+No: 8
+Bobot Risiko: 150%
+Tagihan Bersih Laporan Posisi Keuangan: 10.025.474
+Tagihan Bersih TRA (sebelum pengenaan FKK): 2.005.726
+Rata-Rata FKK: 38%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 7.081.356
+
+No: 9
+Bobot Risiko: 250%
+Tagihan Bersih Laporan Posisi Keuangan: 664.704
+Tagihan Bersih TRA (sebelum pengenaan FKK): -
+Rata-Rata FKK: -
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 664.704
+
+No: 10
+Bobot Risiko: 400%
+Tagihan Bersih Laporan Posisi Keuangan: -
+Tagihan Bersih TRA (sebelum pengenaan FKK): -
+Rata-Rata FKK: -
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): -
+
+No: 11
+Bobot Risiko: 1250%
+Tagihan Bersih Laporan Posisi Keuangan: -
+Tagihan Bersih TRA (sebelum pengenaan FKK): -
+Rata-Rata FKK: -
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): -
+
+No: 12
+Bobot Risiko: Total Tagihan Bersih
+Tagihan Bersih Laporan Posisi Keuangan: 1.527.659.436
+Tagihan Bersih TRA (sebelum pengenaan FKK): 491.538.931
+Rata-Rata FKK: 32%
+Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 1.646.263.410

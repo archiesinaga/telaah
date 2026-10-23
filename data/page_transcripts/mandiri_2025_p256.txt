@@ -1,0 +1,39 @@
+1. Judul atau keterangan:
+- PERTUMBUHAN KREDIT
+- PANGSA PASAR KREDIT
+- Sumber: OJK per Desember 2025, Laporan Publikasi Bank Mandiri per Desember 2025
+- PERTUMBUHAN DPK
+- PANGSA PASAR DPK
+- Source: OJK as of December 2025, Bank Mandiri Publication Report as of December 2025
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda Pertumbuhan Kredit: Industri, Bank Mandiri
+- Periode Pertumbuhan Kredit: 2023, 2024, 2025
+- Periode Pangsa Pasar Kredit: 2023, 2024, 2025
+- Legenda Pertumbuhan DPK: Industri, Bank Mandiri
+- Periode Pertumbuhan DPK: 2023, 2024, 2025
+- Periode Pangsa Pasar DPK: 2023, 2024, 2025*
+
+3. Angka yang tertera:
+- Pertumbuhan Kredit:
+  - 2023 Industri: 10,4%
+  - 2023 Bank Mandiri: 16,3%
+  - 2024 Industri: 10,5%
+  - 2024 Bank Mandiri: 19,5%
+  - 2025 Industri: 9,63%
+  - 2025 Bank Mandiri: 13,4%
+- Pangsa Pasar Kredit:
+  - 2023: 19,7%
+  - 2024: 21,3%
+  - 2025: 22,1%
+- Pertumbuhan DPK:
+  - 2023 Industri: 3,73%
+  - 2023 Bank Mandiri: 5,78%
+  - 2024 Industri: 4,48%
+  - 2024 Bank Mandiri: 7,73%
+  - 2025 Industri: 13,8%
+  - 2025 Bank Mandiri: 23,9%
+- Pangsa Pasar DPK:
+  - 2023: 18,6%
+  - 2024: 19,2%
+  - 2025*: 20,9%

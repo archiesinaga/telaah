@@ -1,0 +1,74 @@
+1. Judul atau keterangan:
+Tidak ada judul diagram yang eksplisit, namun pada layar monitor dan gambar stok terdapat kode/label teks serta angka.
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Terdapat diagram batang dengan sumbu Y (menampilkan angka skala ribuan seperti 2000, 3000, 4000, 5000) dan sumbu X (menampilkan singkatan bulan seperti Jan, Feb, Mar, Apr, May, Jun, Jul).
+- Terdapat label "WORLD WIDE STOCK LISTINGS" dan "STOCK ANALYZER".
+
+3. Semua angka yang tertera:
+- SOR 4.1548%
+- RMQ 5.8230%
+- LMT 3.2950%
+- KML 2.6579%
+- OPT (angka tidak terbaca jelas atau terpotong)
+- 25:1
+- Angka pada grafik batang sumbu Y: 2000, 3000, 4000, 5000
+- Angka persentase kecil di latar belakang stock listing:
+  - BFE 2.05%
+  - CGE 2.45%
+  - JUR 2.85%
+  - ZGL 4.40%
+  - FEY 1.85%
+  - VOO 4.75%
+  - JVP 2.75%
+  - PET 1.65%
+  - XOV 3.85%
+  - SUN 1.40%
+  - SEV 2.15%
+  - ARU 2.15%
+  - DOL 4.05%
+  - UNP 2.75%
+  - UEW 3.10%
+  - PIL 1.55%
+  - BGU 2.15%
+  - MNO 3.05%
+  - AUT 1.15%
+  - DOS 3.25%
+  - LEE 3.15%
+  - KTN 5.05%
+  - FGI 2.95%
+  - GPW 2.55%
+  - ARN 5.55%
+  - UVD 4.10%
+  - SEN 3.10%
+  - RUR 1.35%
+  - PAO 2.75%
+  - FLO 2.15%
+  - STP 5.05%
+  - GWD 4.15%
+  - CLT 3.05%
+  - SWL 4.90%
+  - VKY 1.75%
+  - PQR 1.95%
+  - VOR 3.35%
+  - AJT 2.35%
+  - LSY 1.55%
+  - HUV 2.05%
+  - TRG 5.05%
+  - ARK 4.75%
+  - CBZ 4.75%
+  - PYV 1.45%
+  - PWT 2.15%
+  - SAM 2.15%
+  - THB 3.05%
+  - OVN 2.15%
+  - PAL 3.75%
+  - TGS 5.05%
+  - ABN 3.20%
+  - FRE 5.15%
+  - PGR 7.05%
+  - OUC 5.15%
+  - VER 3.15%
+  - LOG 2.05%
+  - KAL 3.10%
+  - ... (data lainnya menggunakan format serupa).

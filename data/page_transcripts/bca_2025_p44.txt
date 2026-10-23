@@ -1,0 +1,15 @@
+Kantor Wilayah XI: 43
+Kantor Wilayah I: Kantor Cabang Utama: 11, Kantor Cabang Pembantu: 70, KCP Kas: 13
+Kantor Wilayah II: Kantor Cabang Utama: 13, Kantor Cabang Pembantu: 86, KCP Kas: 29
+Kantor Wilayah III: Kantor Cabang Utama: 14, Kantor Cabang Pembantu: 93, KCP Kas: 27
+Kantor Wilayah IV: Kantor Cabang Utama: 13, Kantor Cabang Pembantu: 76, KCP Kas: 18
+Kantor Wilayah V: Kantor Cabang Utama: 11, Kantor Cabang Pembantu: 58, KCP Kas: 20
+Kantor Wilayah VI: Kantor Cabang Utama: 10, Kantor Cabang Pembantu: 43, KCP Kas: 28
+Kantor Wilayah VII: Kantor Cabang Utama: 11, Kantor Cabang Pembantu: 52, KCP Kas: 10
+Kantor Wilayah VIII: Kantor Cabang Utama: 11, Kantor Cabang Pembantu: 96, KCP Kas: 20
+Kantor Wilayah IX: Kantor Cabang Utama: 14, Kantor Cabang Pembantu: 110, KCP Kas: 16
+Kantor Wilayah X: Kantor Cabang Utama: 10, Kantor Cabang Pembantu: 91, KCP Kas: 1
+Kantor Wilayah XI: Kantor Cabang Utama: 8, Kantor Cabang Pembantu: 41, KCP Kas: 6
+Kantor Wilayah XII: Kantor Cabang Utama: 12, Kantor Cabang Pembantu: 97, KCP Kas: 30
+Non Kantor Wilayah: Kantor Cabang Utama: 1, Kantor Cabang Pembantu: -, KCP Kas: -
+Laporan Tahunan 2025 | PT Bank Central Asia Tbk: 43

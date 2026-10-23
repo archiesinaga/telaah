@@ -1,0 +1,6 @@
+1. Judul atau keterangan: Tidak ada judul grafik yang jelas, namun terdapat infografik dengan elemen-elemen berikut di dalam gambar ilustrasi:
+- Angka persentase: 13%, 25%, 40%, 55%
+- Angka pada sumbu grafik garis kiri: 10, 15, 20
+- Angka pada sumbu grafik garis kanan: 100,000, 200,000, 300,000, 400,000 (serta angka kecil di atas 400,000)
+- Angka tambahan: +25, +50
+- Angka pada sumbu bawah grafik garis kiri bawah: 300, 400, 80%

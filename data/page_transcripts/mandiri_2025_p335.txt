@@ -1,0 +1,53 @@
+PORSI JENIS KREDIT YANG DIBERIKAN DAN PIUTANG/PEMBIAYAAN SYARIAH
+Legenda:
+- Investasi
+- Modal Kerja
+- Konsumen
+- Sindikasi
+- Program Pemerintah
+- Karyawan
+- Ekspor
+
+Periode 2024:
+- 30,93%
+- 28,69%
+- 21,14%
+- 9,35%
+- 5,72%
+- 3,01%
+- 1,17%
+
+Periode 2025:
+- 36,44%
+- 23,98%
+- 20,19%
+- 10,03%
+- 5,33%
+- 2,80%
+- 1,23%
+
+Tabel 1: Kredit yang Diberikan dan Piutang/Pembiayaan Syariah Berdasarkan Jenis
+Kolom: Kredit yang Diberikan dan Piutang/Pembiayaan Syariah Berdasarkan Jenis, 2024, 2025
+- Investasi: 2024: 30,93%, 2025: 36,44%
+- Modal Kerja: 2024: 28,69%, 2025: 23,98%
+- Konsumen: 2024: 21,14%, 2025: 20,19%
+- Sindikasi: 2024: 9,35%, 2025: 10,03%
+- Program Pemerintah: 2024: 5,72%, 2025: 5,33%
+- Karyawan: 2024: 3,01%, 2025: 2,80%
+- Ekspor: 2024: 1,17%, 2025: 1,23%
+
+Tabel 2: KREDIT YANG DIBERIKAN DAN PIUTANG/PEMBIAYAAN SYARIAH BERDASARKAN SEKTOR EKONOMI (DALAM RP JUTA)
+Kolom: Sektor Ekonomi, 2024, 2025, Pertumbuhan Nominal, Pertumbuhan %
+- Industri: 2024: 198.299.361, 2025: 217.086.468, Pertumbuhan Nominal: 18.787.107, Pertumbuhan %: 9,47
+- Perdagangan, Restoran dan Hotel: 2024: 180.565.431, 2025: 203.653.075, Pertumbuhan Nominal: 23.087.644, Pertumbuhan %: 12,79
+- Pertanian: 2024: 156.305.561, 2025: 203.989.473, Pertumbuhan Nominal: 47.683.912, Pertumbuhan %: 30,51
+- Jasa Dunia Usaha: 2024: 146.987.732, 2025: 139.875.667, Pertumbuhan Nominal: (7.112.065), Pertumbuhan %: -4,84
+- Tambang: 2024: 145.571.176, 2025: 157.186.029, Pertumbuhan Nominal: 11.614.853, Pertumbuhan %: 7,98
+- Pengangkutan, Pergudangan dan Komunikasi: 2024: 126.768.881, 2025: 153.068.816, Pertumbuhan Nominal: 26.299.935, Pertumbuhan %: 20,75
+- Konstruksi: 2024: 99.883.788, 2025: 108.148.636, Pertumbuhan Nominal: 8.264.848, Pertumbuhan %: 8,27
+- Jasa Sosial: 2024: 106.464.061, 2025: 138.540.617, Pertumbuhan Nominal: 32.076.556, Pertumbuhan %: 30,13
+- Listrik, Gas dan Air: 2024: 62.035.505, 2025: 97.973.432, Pertumbuhan Nominal: 35.937.927, Pertumbuhan %: 57,93
+- Lain-lain: 2024: 400.335.116, 2025: 430.445.743, Pertumbuhan Nominal: 30.110.627, Pertumbuhan %: 7,52
+- Jumlah: 2024: 1.623.216.612, 2025: 1.849.967.956, Pertumbuhan Nominal: 226.751.344, Pertumbuhan %: 13,97
+- Cadangan Kerugian Penurunan Nilai: 2024: (49.354.645), 2025: (48.033.747), Pertumbuhan Nominal: 1.320.898, Pertumbuhan %: -2,68%
+- Neto: 2024: 1.573.861.967, 2025: 1.801.934.209, Pertumbuhan Nominal: 228.072.242, Pertumbuhan %: 14,49

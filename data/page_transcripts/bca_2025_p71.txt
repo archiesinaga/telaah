@@ -1,0 +1,26 @@
+1. Judul atau keterangan diagram/bagan: Struktur Grup Perusahaan, Kepemilikan, dan Informasi Entitas Anak
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan kepemilikan: Persentase (%)
+- Periode: Per 31 Desember 2025
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- BCA Finance Limited*: 100%
+- PT BCA Sekuritas: 90%
+- PT BCA Finance: 99,99999%
+- PT Bank BCA Syariah: 99,99995%
+- PT Asuransi Umum BCA: 75%
+- PT Central Capital Ventura: 99,9997%
+- PT Asuransi Jiwa BCA: 90%
+- PT Bank Digital BCA: 99,99997%
+- BCA Finance Limited* (panah bawah/lainnya): 0,000001%
+- PT BCA Finance (panah bawah/lainnya): 0,000005%
+- PT Asuransi Umum BCA (panah bawah/lainnya): 25%
+- PT Central Capital Ventura (panah bawah/lainnya): 0,0003%
+- PT Asuransi Jiwa BCA (panah bawah/lainnya): 0,000003%
+- Total Aset PT BCA Finance: 10.371
+- Total Aset PT Bank BCA Syariah: 19.207
+- Total Aset PT Bank Digital BCA: 18.924
+- Total Aset PT Asuransi Umum BCA: 3.454
+- Total Aset PT Asuransi Jiwa BCA: 4.676
+- Total Aset PT BCA Sekuritas: 2.519
+- Total Aset PT Central Capital Ventura: 469
+- Total Aset PT BCA Finance Limited: N.A.

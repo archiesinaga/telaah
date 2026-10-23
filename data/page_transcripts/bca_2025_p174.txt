@@ -1,0 +1,108 @@
+(dalam jutaan Rupiah)
+
+Posisi Tanggal Laporan (Desember 2025)
+
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu:
+- Tanpa Jangka Waktu
+- < 6 Bulan
+- ≥ 6 Bulan - < 1 Tahun
+- ≥ 1 Tahun
+
+Total Nilai Tertimbang
+
+Baris 1:
+- Total Nilai Tertimbang: 23.563.612
+
+Baris 2:
+- Tanpa Jangka Waktu: 5.093.401
+- < 6 Bulan: -
+- ≥ 6 Bulan - < 1 Tahun: -
+- ≥ 1 Tahun: -
+- Total Nilai Tertimbang: 2.546.701
+
+Baris 3:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 608.609
+- ≥ 6 Bulan - < 1 Tahun: -
+- ≥ 1 Tahun: -
+- Total Nilai Tertimbang: 60.861
+
+Baris 4:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 33.806.561
+- ≥ 6 Bulan - < 1 Tahun: 24.467.241
+- ≥ 1 Tahun: 30.663.664
+- Total Nilai Tertimbang: 47.968.269
+
+Baris 5:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 198.667.639
+- ≥ 6 Bulan - < 1 Tahun: 123.000.585
+- ≥ 1 Tahun: 437.115.351
+- Total Nilai Tertimbang: 532.382.160
+
+Baris 6:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 520.000
+- ≥ 6 Bulan - < 1 Tahun: 1.740.000
+- ≥ 1 Tahun: 19.363.578
+- Total Nilai Tertimbang: 13.716.326
+
+Baris 7:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 8.513
+- ≥ 6 Bulan - < 1 Tahun: 18.502
+- ≥ 1 Tahun: 1.373.245
+- Total Nilai Tertimbang: 1.180.766
+
+Baris 8:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 372.992
+- ≥ 6 Bulan - < 1 Tahun: 1.095.906
+- ≥ 1 Tahun: 78.334.349
+- Total Nilai Tertimbang: 51.651.776
+
+Baris 9:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: 30.202.832
+- ≥ 6 Bulan - < 1 Tahun: 1.592.235
+- ≥ 1 Tahun: 8.155.315
+- Total Nilai Tertimbang: 22.829.551
+
+Baris 10:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: -
+- ≥ 6 Bulan - < 1 Tahun: -
+- ≥ 1 Tahun: -
+- Total Nilai Tertimbang: -
+
+Baris 11:
+- Tanpa Jangka Waktu: -
+- Total Nilai Tertimbang: -
+
+Baris 12:
+- Total Nilai Tertimbang: -
+
+Baris 13:
+- ≥ 1 Tahun: 18.473
+- Total Nilai Tertimbang: 18.473
+
+Baris 14:
+- Total Nilai Tertimbang: -
+
+Baris 15:
+- Tanpa Jangka Waktu: 11.024
+- < 6 Bulan: 48.292.520
+- ≥ 6 Bulan - < 1 Tahun: 790.568
+- ≥ 1 Tahun: 55.939.894
+- Total Nilai Tertimbang: 105.031.817
+
+Baris 16:
+- ≥ 1 Tahun: 489.501.093
+- Total Nilai Tertimbang: 19.314.984
+
+Baris 17:
+- Total Nilai Tertimbang: 820.265.295
+
+Baris 18:
+- Total Nilai Tertimbang: 158,77%

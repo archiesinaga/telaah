@@ -1,0 +1,28 @@
+SUKU BUNGA RATA-RATA SIMPANAN NASABAH
+Simpanan Nasabah: Giro dan Giro Wadiah | Mata Uang: Rupiah | 2024: 2,71% | 2025: 2,65%
+Simpanan Nasabah: Giro dan Giro Wadiah | Mata Uang: Asing | 2024: 2,71% | 2025: 2,82%
+Simpanan Nasabah: Tabungan & Wadiah | Mata Uang: Rupiah | 2024: 0,48% | 2025: 0,48%
+Simpanan Nasabah: Tabungan & Wadiah | Mata Uang: Asing | 2024: 0,17% | 2025: 0,17%
+Simpanan Nasabah: Deposito Berjangka | Mata Uang: Rupiah | 2024: 4,06% | 2025: 4,36%
+Simpanan Nasabah: Deposito Berjangka | Mata Uang: Asing | 2024: 3,48% | 2025: 3,68%
+
+SIMPANAN DARI BANK LAIN
+Legenda: Giro, Giro Wadiah dan Tabungan, Inter-Bank Call Money, Deposito Berjangka
+2024:
+- 33,61%
+- 36,84%
+- 29,55%
+2025:
+- 29,02%
+- 38,61%
+- 32,37%
+
+SUKU BUNGA RATA-RATA SIMPANAN DARI BANK LAIN
+Simpanan dari bank lain: Giro dan Giro Wadiah | Mata Uang: Rupiah | 2024: 2,71% | 2025: 2,65%
+Simpanan dari bank lain: Giro dan Giro Wadiah | Mata Uang: Asing | 2024: 2,71% | 2025: 2,82%
+Simpanan dari bank lain: Tabungan | Mata Uang: Rupiah | 2024: 0,47% | 2025: 0,47%
+Simpanan dari bank lain: Tabungan | Mata Uang: Asing | 2024: 0,17% | 2025: 0,17%
+Simpanan dari bank lain: Inter-Bank Call Money | Mata Uang: Rupiah | 2024: 6,22% | 2025: 5,22%
+Simpanan dari bank lain: Inter-Bank Call Money | Mata Uang: Asing | 2024: 5,15% | 2025: 4,29%
+Simpanan dari bank lain: Deposito Berjangka | Mata Uang: Rupiah | 2024: 3,77% | 2025: 4,24%
+Simpanan dari bank lain: Deposito Berjangka | Mata Uang: Asing | 2024: 3,81% | 2025: 3,68%

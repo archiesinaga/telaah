@@ -1,0 +1,10 @@
+1. Judul atau keterangan: Tidak ada
+2. Label sumbu, legenda, satuan, dan periode: 
+- Periode: Maret 2025, tahun 2025, 25 Maret 2025, Tahun II Tahun 2025
+- Satuan: % (persen), triliun, rupiah
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2025: 52%
+- Tahun 2025: Rp2.839 triliun
+- Tahun 2025: 16,5%
+- 25 Maret 2025: Rp5.000.000
+- 2 (dua): 2

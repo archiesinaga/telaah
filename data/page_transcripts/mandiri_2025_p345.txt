@@ -1,0 +1,50 @@
+1. Judul atau keterangan:
+- DANA SYIRKAH TEMPORER- SIMPANAN NASABAH
+- Tabel: Dana Syirkah Temporer - Simpanan Nasabah
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda diagram lingkaran:
+  - Giro - Investasi terikat, giro mudharabah - investasi tidak terikat dan giro mudharabah musytarakah
+  - Tabungan Investasi terikat dan investasi tidak terikat - mudharabah
+  - Deposito mudharabah - investasi tidak terikat
+- Periode/Tahun: 2024, 2025
+- Kolom Tabel: Dana Syirkah Temporer - Simpanan Nasabah, 2024, 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Diagram lingkaran 2024:
+  - 51,54%
+  - 33,74%
+  - 14,72%
+- Diagram lingkaran 2025:
+  - 50,37%
+  - 34,38%
+  - 15,24%
+- Tabel:
+  - Giro - Investasi terikat, giro mudharabah - investasi tidak terikat dan giro mudharabah musytarakah, 2024: 14,72%
+  - Giro - Investasi terikat, giro mudharabah - investasi tidak terikat dan giro mudharabah musytarakah, 2025: 15,24%
+  - Tabungan Investasi terikat dan investasi tidak terikat - mudharabah, 2024: 33,74%
+  - Tabungan Investasi terikat dan investasi tidak terikat - mudharabah, 2025: 34,38%
+  - Deposito mudharabah - investasi tidak terikat, 2024: 51,54%
+  - Deposito mudharabah - investasi tidak terikat, 2025: 50,37%
+
+---
+
+1. Judul atau keterangan:
+- DANA SYIRKAH TEMPORER- SIMPANAN DARI BANK LAIN
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda diagram lingkaran:
+  - Giro mudharabah - investasi tidak terikat
+  - Tabungan mudharabah - Investasi tidak terikat -
+  - Deposito mudharabah - investasi tidak terikat
+- Periode/Tahun: 2024, 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Diagram lingkaran 2024:
+  - 79,10%
+  - 13,93%
+  - 6,97%
+- Diagram lingkaran 2025:
+  - 81,82%
+  - 11,24%
+  - 6,94%

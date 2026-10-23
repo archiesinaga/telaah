@@ -1,0 +1,19 @@
+1. Judul atau keterangan:
+- Kepemilikan Saham: 99,99%
+- Tanggal & Tahun Pendirian: 2015
+- Status Operasi: Beroperasi
+- Jumlah Aset: Rp18.682 (miliar)*
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada sumbu grafik, namun terdapat satuan dalam bentuk persen (%), tahun (2015), dan mata uang (Rp miliar).
+
+3. Angka yang tertera dan dipasangkan dengan label:
+- Kepemilikan Saham: 99,99%
+- Tanggal & Tahun Pendirian: 2015
+- Jumlah Aset: Rp18.682 (miliar)*
+- Persentase kepemilikan lain yang disebutkan dalam teks profil perusahaan (di luar kotak ringkasan):
+  - PT Asco Investindo sebesar 37,00%
+  - PT Tunas Ridean Tbk sebesar 12,00%
+  - PT Bank Mandiri (Persero) Tbk sebesar 51,00%
+  - Jumlah saham PT Bank Mandiri (Persero) Tbk sejumlah 4.999.999.999 saham
+  - Jumlah saham PT Mandiri Sekuritas sejumlah 1 saham

@@ -14,3 +14,4 @@ data/agent_traces/
 .bak_pre_colpali/
 .pytest_cache/
 data/facts.sqlite
+data/bm25_tx.pkl

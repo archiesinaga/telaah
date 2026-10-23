@@ -1,0 +1,22 @@
+IKHTISAR KINERJA DIGITAL BANKING SEGMEN RETAIL
+
+Tabel:
+Uraian | 2023 | 2024 | 2025
+Pengguna Terdaftar ('000) | 22.500 | 29.300 | 37.246
+Jumlah Transaksi Livin' (Juta) | 2.819 | 3.880 | 4.705
+Nilai Transaksi Livin' (Rp Triliun) | 3.264 | 4.027 | 4.448
+Total Livin' Fee Based Income (Rp Miliar) | 2.174 | 2.624 | 3.133
+
+Grafik 1:
+Judul: PENGGUNA TERDAFTAR ('000)
+Periode dan Angka:
+- 2023: 22.500
+- 2024: 29.300
+- 2025: 37.246
+
+Grafik 2:
+Judul: JUMLAH TRANSAKSI LIVIN' (JUTA)
+Periode dan Angka:
+- 2023: 2.819
+- 2024: 3.880
+- 2025: 4.705

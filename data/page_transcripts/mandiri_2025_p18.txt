@@ -1,0 +1,28 @@
+1. Judul atau keterangan:
+- PERTUMBUHAN BERKELANJUTAN
+- Total Kredit
+- Total DPK
+- CASA
+- Pendapatan Bunga Bersih
+- Pendapatan Non-Bunga
+- Total Pendapatan
+- Kualitas Aset yang Terjaga
+- NPL*
+- ROE*
+- CAR
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Periode: 2025, YoY
+- Legenda: * Bank-only
+
+3. Angka yang tertera:
+- Total Kredit: 1.895 triliun, 13,4% YoY
+- Total DPK: 2.106 triliun, 23,9% YoY
+- CASA: 1.431 triliun, 12,6% YoY
+- Pendapatan Bunga Bersih: 106 triliun
+- Pendapatan Non-Bunga: 48,5 triliun
+- Total Pendapatan: 155 triliun
+- NPL*: 0,96%
+- ROE*: 23,2%
+- CAR: 20,4%

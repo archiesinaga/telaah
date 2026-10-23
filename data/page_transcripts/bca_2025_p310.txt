@@ -1,0 +1,41 @@
+1. Judul atau keterangan:
+e. Alur Proses Penilaian
+- Presiden Direktur mengisi formulir self-assessment
+- Hasil self-assessment disampaikan untuk kemudian dievaluasi dan divalidasi oleh KRN
+- Dewan Komisaris membahas self-assessment Presiden Direktur dengan mempertimbangkan hasil evaluasi dan validasi dari KRN
+- Hasil evaluasi: Penilaian kinerja Presiden Direktur
+
+f. Komponen Penilaian Presiden Direktur
+Komponen Penilaian Presiden Direktur Periode 1 Januari - 31 Mei 2025
+- Kolom: Keuangan, Nasabah, Proses Bisnis Internal, Pembelajaran dan Pengembangan
+- Baris Presiden Direktur (Jahja Setiaatmadja):
+  - Keuangan: 40%
+  - Nasabah: 20%
+  - Proses Bisnis Internal: 25%
+  - Pembelajaran dan Pengembangan: 15%
+
+Komponen Penilaian Direksi Periode 1 Juni - 31 Desember 2025
+- Kolom: Keuangan, Nasabah, Proses Bisnis Internal, Pembelajaran dan Pengembangan
+- Baris Presiden Direktur (Hendra Lembong):
+  - Keuangan: 40%
+  - Nasabah: 20%
+  - Proses Bisnis Internal: 25%
+  - Pembelajaran dan Pengembangan: 15%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode 1 Januari - 31 Mei 2025
+- Periode 1 Juni - 31 Desember 2025
+- Satuan: Persentase (%)
+
+3. Angka yang tertera:
+- Periode 1 Januari - 31 Mei 2025 (Jahja Setiaatmadja):
+  - Keuangan: 40%
+  - Nasabah: 20%
+  - Proses Bisnis Internal: 25%
+  - Pembelajaran dan Pengembangan: 15%
+- Periode 1 Juni - 31 Desember 2025 (Hendra Lembong):
+  - Keuangan: 40%
+  - Nasabah: 20%
+  - Proses Bisnis Internal: 25%
+  - Pembelajaran dan Pengembangan: 15%
+- Nomor halaman bawah: 309

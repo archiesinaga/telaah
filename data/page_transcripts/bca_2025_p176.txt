@@ -1,0 +1,69 @@
+(dalam jutaan Rupiah)
+
+Posisi Tanggal Laporan (Desember 2025)
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu
+Tanpa Jangka Waktu:
+- Tanpa Jangka Waktu: 293.010.153
+- < 6 Bulan: -
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: 59.583
+- Total Nilai Tertimbang: 293.069.736
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: -
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: -
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: 585.669.995
+- < 6 Bulan: 158.055.147
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: 706.538.885
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: 181.069.527
+- < 6 Bulan: 7.531.382
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: 169.740.818
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: 281.509.127
+- < 6 Bulan: -
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: 140.754.564
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: 460.287
+- < 6 Bulan: 40.845.454
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: 17.847.769
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: -
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: -
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: -
+- < 6 Bulan: -
+- >= 6 Bulan - < 1 Tahun: -
+- >= 1 Tahun: -
+- Total Nilai Tertimbang: -
+
+Baris berikutnya:
+- Tanpa Jangka Waktu: 210.763
+- < 6 Bulan: 28.526.164
+- >= 6 Bulan - < 1 Tahun: 260.941
+- >= 1 Tahun: 168.669
+- Total Nilai Tertimbang: 429.569
+
+Baris Total Keseluruhan:
+- Total Nilai Tertimbang: 1.328.381.341

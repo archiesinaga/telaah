@@ -1,0 +1,5 @@
+KUALITAS ASET*
+Rasio Loans at Risk (LAR): 6,05%
+Rasio NPL: 0,96%
+NPL Coverage: 253%
+Cost of Credit (CoC): 0,34%

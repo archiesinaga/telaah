@@ -1,0 +1,94 @@
+(dalam jutaan Rupiah)
+
+Konsolidasi
+a: Aset Terikat (Encumbered)
+b: Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas
+c: Aset tidak terikat (unencumbered)
+d: Total
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 25.304.972
+- Total: 25.304.972
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 47.768.278
+- Total: 47.768.278
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 3.918.625
+- Total: 3.918.625
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 391.751
+- Total: 391.751
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 114.329.656
+- Total: 114.329.656
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): -
+- Total: -
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): -
+- Total: -
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 601.055
+- Total: 601.055
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 5.887.547
+- Total: 5.887.547
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): -
+- Total: -
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 5.035.941
+- Total: 5.035.941
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: 46.750.335
+- Aset tidak terikat (unencumbered): 208.594.916
+- Total: 255.345.251
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 8.472.823
+- Total: 8.472.823
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): -
+- Total: -
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 12.564.368
+- Total: 12.564.368
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: -
+- Aset tidak terikat (unencumbered): 9.837.182
+- Total: 9.837.182
+
+- Aset Terikat (Encumbered): -
+- Aset yang disimpan atau diperjanjikan dengan bank sentral namun belum digunakan untuk menghasilkan likuiditas: 46.750.335
+- Aset tidak terikat (unencumbered): 442.707.113
+- Total: 489.457.449
+
+Laporan Tahunan 2025 | PT Bank Central Asia Tbk 181

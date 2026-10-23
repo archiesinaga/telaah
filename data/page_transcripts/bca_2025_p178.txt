@@ -1,0 +1,75 @@
+(dalam jutaan Rupiah)
+
+Posisi Tanggal Laporan (Desember 2025)
+
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu
+Tanpa Jangka Waktu: 
+- Baris 1: 5.330.109, Total Nilai Tertimbang: 2.499.835
+- Baris 2: 2.665.055
+- Baris 3: - , Total Nilai Tertimbang: 122.043
+- Baris 4: - , Total Nilai Tertimbang: 49.748.277
+- Baris 5: - , Total Nilai Tertimbang: 551.193.618
+- Baris 6: - , Total Nilai Tertimbang: 13.716.326
+- Baris 7: - , Total Nilai Tertimbang: 2.630.330
+- Baris 8: - , Total Nilai Tertimbang: 51.651.776
+- Baris 9: - , Total Nilai Tertimbang: 25.302.701
+- Baris 10: - , Total Nilai Tertimbang: -
+- Baris 11: - , Total Nilai Tertimbang: -
+- Baris 12: - , Total Nilai Tertimbang: -
+- Baris 13: - , Total Nilai Tertimbang: 18.473
+- Baris 14: - , Total Nilai Tertimbang: -
+- Baris 15: 11.024, Total Nilai Tertimbang: 89.629.945
+- Baris 16: Total Nilai Tertimbang: 19.354.654
+- Total Nilai Tertimbang Keseluruhan: 831.031.561
+- Persentase Total: 159,85%
+
+< 6 Bulan:
+- Baris 1: -
+- Baris 2: 1.220.430
+- Baris 3: 37.295.659
+- Baris 4: 200.265.884
+- Baris 5: 520.000
+- Baris 6: 37.486
+- Baris 7: 372.992
+- Baris 8: 31.157.342
+- Baris 9: -
+- Baris 10: -
+- Baris 11: -
+- Baris 12: -
+- Baris 13: -
+- Baris 14: 38.547.054
+- Baris 15: -
+
+≥ 6 Bulan - < 1 Tahun:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: 24.569.040
+- Baris 4: 126.092.133
+- Baris 5: 1.740.000
+- Baris 6: 23.143
+- Baris 7: 1.095.906
+- Baris 8: 1.945.068
+- Baris 9: -
+- Baris 10: -
+- Baris 11: -
+- Baris 12: -
+- Baris 13: -
+- Baris 14: 808.739
+- Baris 15: -
+
+≥ 1 Tahun:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: 31.869.408
+- Baris 4: 456.487.776
+- Baris 5: 19.363.578
+- Baris 6: 3.058.842
+- Baris 7: 78.334.349
+- Baris 8: 10.295.878
+- Baris 9: -
+- Baris 10: -
+- Baris 11: -
+- Baris 12: 18.473
+- Baris 13: -
+- Baris 14: 50.265.316
+- Baris 15: 491.663.332

@@ -1,0 +1,26 @@
+1. Judul atau keterangan:
+- Kopra by Mandiri: Platform digital terintegrasi bagi nasabah korporasi untuk pengelolaan transaksi dan cash management.
+- Pengguna Aktif: 320.000
+- Frekuensi Transaksi: 1,50 miliar kali
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Pengguna Aktif: tidak ada satuan/periode eksplisit
+- Frekuensi Transaksi: satuan "miliar kali"
+
+3. Angka yang tertera:
+- Pengguna Aktif: 320.000
+- Frekuensi Transaksi: 1,50 miliar kali
+
+1. Judul atau keterangan:
+- Livin' Merchant: Aplikasi merchant untuk menerima pembayaran digital, memantau transaksi, dan mengelola operasional usaha secara efisien.
+- Pengguna Aktif: 3,1 juta
+- Tampilan layar ponsel Livin' Merchant: Today's Income: 01 Apr 2024, Rp2.900.000, 1.024 Points
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Pengguna Aktif: satuan "juta"
+- Today's Income: periode "01 Apr 2024", satuan "Rp"
+
+3. Angka yang tertera:
+- Pengguna Aktif: 3,1 juta
+- Today's Income: Rp2.900.000
+- Points: 1.024

@@ -1,0 +1,61 @@
+1. Judul atau keterangan:
+Biaya Pengembangan Kompetensi Pegawai
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: Rp Juta
+Periode/Kolom:
+- Anggaran 2025
+- Realisasi 2022
+- Realisasi 2023
+- Realisasi 2024
+- Realisasi 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+Baris 1: Executive Development Program
+- Anggaran 2025: 4.100
+- Realisasi 2022: 3.681
+- Realisasi 2023: 5.800
+- Realisasi 2024: 2.015
+- Realisasi 2025: 30
+
+Baris 2: Leadership Development Program
+- Anggaran 2025: 195.700
+- Realisasi 2022: 88.702
+- Realisasi 2023: 176.135
+- Realisasi 2024: 212.065
+- Realisasi 2025: 215.323
+
+Baris 3: Culture Development Program
+- Anggaran 2025: 1.660
+- Realisasi 2022: 3.695
+- Realisasi 2023: 1.342
+- Realisasi 2024: 398
+- Realisasi 2025: -
+
+Baris 4: Pre-Retirement
+- Anggaran 2025: 10.881
+- Realisasi 2022: 8.896
+- Realisasi 2023: 1.882
+- Realisasi 2024: 6.878
+- Realisasi 2025: 1.301
+
+Baris 5: Strategic & Technical Skill Program
+- Anggaran 2025: 232.759
+- Realisasi 2022: 241.305
+- Realisasi 2023: 151.436
+- Realisasi 2024: 163.660
+- Realisasi 2025: 102.708
+
+Baris 6: Elearning
+- Anggaran 2025: 15.300
+- Realisasi 2022: 17.467
+- Realisasi 2023: 15.343
+- Realisasi 2024: 12.108
+- Realisasi 2025: 7.023
+
+Total
+- Anggaran 2025: 460.400
+- Realisasi 2022: 363.746
+- Realisasi 2023: 351.938
+- Realisasi 2024: 397.124
+- Realisasi 2025: 326.385

@@ -1,0 +1,32 @@
+1. Tabel Skor Penilaian:
+- Judul/Keterangan: Skor Penilaian
+- Kolom/Label: Tahapan, Nilai 2021, Nilai 2022, Nilai 2023, Nilai 2024, Nilai 2025
+- Angka:
+  - Governance Structure: Nilai 2021: 33,76, Nilai 2022: 26,65, Nilai 2023: 31,53, Nilai 2024: 31,85, Nilai 2025: 25,77
+  - Governance Process: Nilai 2021: 34,26, Nilai 2022: 36,24, Nilai 2023: 31,24, Nilai 2024: 31,61, Nilai 2025: 34,85
+  - Governance Outcome: Nilai 2021: 26,99, Nilai 2022: 32,22, Nilai 2023: 32,45, Nilai 2024: 31,84, Nilai 2025: 34,74
+  - Nilai: Nilai 2021: 95,01, Nilai 2022: 95,11, Nilai 2023: 95,22, Nilai 2024: 95,30, Nilai 2025: 95,36
+
+2. Grafik Hasil Penilaian CGPI selama 19 tahun berturut-turut:
+- Judul/Keterangan: Hasil penilaian CGPI selama 19 (sembilan belas) tahun berturut-turut adalah sebagai berikut:
+- Periode (Sumbu X): 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025
+- Angka (Data pada Grafik):
+  - 2007: 89,86
+  - 2008: 89,96
+  - 2009: 90,55
+  - 2010: 91,55
+  - 2011: 91,55
+  - 2012: 91,55
+  - 2013: 91,33
+  - 2014: 92,15
+  - 2015: 92,55
+  - 2016: 93,29
+  - 2017: 93,32
+  - 2018: 93,55
+  - 2019: 94,86
+  - 2020: 94,94
+  - 2021: 95,01
+  - 2022: 95,11
+  - 2023: 95,22
+  - 2024: 95,30
+  - 2025: 95,36

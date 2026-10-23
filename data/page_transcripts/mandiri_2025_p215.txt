@@ -1,0 +1,17 @@
+1. Judul atau keterangan:
+Jajan Bareng Bestie atau Family, Pake QR Bayar Buat Transaksi Ada Cashback s.d. Rp100 rb!*
+Periode hingga 31 Januari 2026 | Setiap Jumat - Minggu
+*Info: bmri.id/LivininPIK
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: rb
+Periode: hingga 31 Januari 2026, Setiap Jumat - Minggu
+
+3. Semua angka yang tertera, apa adanya:
+- Rp100 rb
+- 31 Januari 2026
+- > 26.000.000 (pada layar ponsel di gambar)
+- 08118414000
+- 14000
+- 2025
+- 213

@@ -1,0 +1,25 @@
+RATING PERUSAHAAN 2025
+
+Lembaga Pemeringkat, Peringkat, Masa Berlaku
+
+Moody's (23 Oktober 2025):
+Outlook: STABLE, 1 tahun
+LT Counterparty Risk Rating: Baa1, 1 tahun
+LT Debt: Baa2, 1 tahun
+LT Deposit: Baa2, 1 tahun
+
+Pefindo (22 September 2025):
+Corporate Rating: STABLE, 1 tahun
+LT General Obligation: idAAA, 1 tahun
+
+Fitch Rating (20 November 2025):
+Outlook: STABLE, 1 tahun
+International LT Rating: BBB, 1 tahun
+International ST Rating: F2, 1 tahun
+National LT Rating: AAA(idn), 1 tahun
+National ST Rating: F1+(idn), 1 tahun
+Viability Rating: bbb-, 1 tahun
+Government Support Rating: bbb, 1 tahun
+
+Standard & Poor (8 Januari 2025):
+Issuer Credit Rating: BBB/STABLE/A-2, 1 tahun

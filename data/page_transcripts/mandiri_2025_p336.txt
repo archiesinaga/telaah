@@ -1,0 +1,21 @@
+1. Judul atau keterangan:
+KOMPOSISI RESTRUKTURISASI KREDIT DAN KOLEKTIBILITAS
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda:
+  - Perpanjangan Jangka Waktu Kredit
+  - Perpanjangan Jangka Waktu dan Penurunan Suku Bunga Kredit
+  - Perpanjangan jangka waktu kredit dan skema restrukturisasi lain-lain
+- Periode:
+  - 2024
+  - 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2024:
+  - 24,10%
+  - 3,04%
+  - 72,87%
+- 2025:
+  - 20,51%
+  - 4,98%
+  - 74,51%

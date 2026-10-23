@@ -1,0 +1,24 @@
+VOLUME TRANSAKSI & HARGA PER SAHAM PENUTUPAN TAHUN 2024-2025
+Volume (Juta Lembar)
+Penutupan (Rp)
+Sumbu Y Kiri (Volume): 0, 2.000, 4.000, 6.000, 8.000, 10.000, 12.000
+Sumbu Y Kanan (Penutupan): 0, 1.000, 2.000, 3.000, 4.000, 5.000, 6.000, 7.000, 8.000
+Sumbu X (Periode): Q1 2024, Q2 2024, Q3 2024, Q4 2024, Q1 2025, Q2 2025, Q3 2025, Q4 2025
+Legenda: Volume (Juta Lembar), Penutupan
+Angka/Data:
+- Q1 2024: 7.250
+- Q4 2025: 5.100
+
+KAPITALISASI PASAR BANK MANDIRI TAHUN 2024 - 2025
+Kapitalisasi Pasar (Rp Triliun)
+Sumbu Y: 0, 1000, 2000, 300, 400, 500, 600, 700, 800
+Sumbu X (Periode): Q1 2024, Q2 2024, Q3 2024, Q4 2024, Q1 2025, Q2 2025, Q3 2025, Q4 2025
+Angka/Data:
+- Q1 2024: 676,67
+- Q2 2024: 574,00
+- Q3 2024: 646,33
+- Q4 2024: 532,00
+- Q1 2025: 485,33
+- Q2 2025: 455,47
+- Q3 2025: 410,67
+- Q4 2025: 476,00

@@ -1,0 +1,21 @@
+Tabel 1:
+1. Judul atau keterangan: Daftar Siaran Pers 2025
+2. Label sumbu, legenda, satuan, dan periode: Kolom "No.", "Tema Siaran Pers", "Jumlah Siaran Pers"
+3. Angka yang tertera:
+- No. 1, Tema Siaran Pers: Product & Business Activity, Jumlah Siaran Pers: 88
+- No. 2, Tema Siaran Pers: Financial Performance, Jumlah Siaran Pers: 7
+- No. 3, Tema Siaran Pers: Sustainability, Jumlah Siaran Pers: 84
+
+Tabel 2:
+1. Judul atau keterangan: Otoritas Jasa Keuangan
+2. Label sumbu, legenda, satuan, dan periode: Kolom "No", "Tanggal", "No. Dokumen", "Kepada", "Perihal"
+3. Angka yang tertera:
+- No. 1, Tanggal: 23 Januari 2025, No. Dokumen: 0002/ESG/2025, Kepada: OJK Pasar Modal
+- No. 2, Tanggal: 24 Januari 2025, No. Dokumen: 0003/ESG/2025, Kepada: OJK Pasar Modal
+- No. 3, Tanggal: 24 Januari 2025, No. Dokumen: 0004/ESG/2025, Kepada: OJK DPBS2
+- No. 4, Tanggal: 24 Januari 2025, No. Dokumen: 0005/ESG/2025, Kepada: OJK Pasar Modal
+- No. 5, Tanggal: 24 Januari 2025, No. Dokumen: 0006/ESG/2025, Kepada: OJK DPBS2
+- No. 6, Tanggal: 24 Januari 2025, No. Dokumen: 0007/ESG/2025, Kepada: OJK DPBS2
+
+Nomor Halaman:
+- 404

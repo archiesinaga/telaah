@@ -1,0 +1,16 @@
+JARINGAN KANTOR PER WILAYAH TAHUN 2025
+
+Wilayah | Kantor Cabang | Kantor Cabang Pembantu | Jaringan Kantor Lainnya ATM dan CRM
+Region I/Sumatera 1: 15 (Kantor Cabang), 189 (Kantor Cabang Pembantu), 1.104 (Jaringan Kantor Lainnya ATM dan CRM)
+Region II/Sumatera 2: 14 (Kantor Cabang), 203 (Kantor Cabang Pembantu), 856 (Jaringan Kantor Lainnya ATM dan CRM)
+Region III/Kalimantan 1: 12 (Kantor Cabang), 200 (Kantor Cabang Pembantu), 1.714 (Jaringan Kantor Lainnya ATM dan CRM)
+Region IV/Kalimantan 2: 11 (Kantor Cabang), 189 (Kantor Cabang Pembantu), 1.548 (Jaringan Kantor Lainnya ATM dan CRM)
+Region V/Kalimantan 3: 8 (Kantor Cabang), 162 (Kantor Cabang Pembantu), 1.470 (Jaringan Kantor Lainnya ATM dan CRM)
+Region VI/Jawa 1: 9 (Kantor Cabang), 190 (Kantor Cabang Pembantu), 1.203 (Jaringan Kantor Lainnya ATM dan CRM)
+Region VII/Jawa 2: 11 (Kantor Cabang), 224 (Kantor Cabang Pembantu), 1.202 (Jaringan Kantor Lainnya ATM dan CRM)
+Region VIII/Jawa 3: 13 (Kantor Cabang), 238 (Kantor Cabang Pembantu), 1.632 (Jaringan Kantor Lainnya ATM dan CRM)
+Region IX/Kalimantan: 12 (Kantor Cabang), 117 (Kantor Cabang Pembantu), 771 (Jaringan Kantor Lainnya ATM dan CRM)
+Region X/Sulawesi dan Maluku: 19 (Kantor Cabang), 163 (Kantor Cabang Pembantu), 692 (Jaringan Kantor Lainnya ATM dan CRM)
+Region XI/Bali dan Nusa Tenggara: 5 (Kantor Cabang), 104 (Kantor Cabang Pembantu), 525 (Jaringan Kantor Lainnya ATM dan CRM)
+Region XII/Papua: 10 (Kantor Cabang), 35 (Kantor Cabang Pembantu), 255 (Jaringan Kantor Lainnya ATM dan CRM)
+TOTAL: 139 (Kantor Cabang), 2.014 (Kantor Cabang Pembantu), 12.972 (Jaringan Kantor Lainnya ATM dan CRM)

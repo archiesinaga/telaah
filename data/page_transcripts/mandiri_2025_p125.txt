@@ -1,0 +1,11 @@
+JARINGAN KANTOR SELAMA 5 TAHUN TERAKHIR
+Jenis Kantor, 2021, 2022, 2023, 2024, 2025
+Kantor Pusat, 1, 1, 1, 1, 1
+Kantor Cabang, 137, 138, 139, 139, 139
+Kantor Luar Negeri, 7, 7, 7, 7, 7
+Kantor Cabang Pembantu*), 2.465, 2.225, 2.104, 2.053, 2.014
+Jenis Kantor Lainnya:
+Payment Point, -, 42, 36, 25, 18
+Kas Mobile, -, 77, 77, 77, 98
+Kas Mobile Mikro, -, 22, 21, 21, -
+ATM, 13.087, 13.027, 12.906, 12.892, 12.972
