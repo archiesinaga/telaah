@@ -766,3 +766,14 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 2. User: review test candidates in `review_app.py` (Test), write 8 test unanswerables.
 3. Gradio demo: follow the plan above, step 1 when the Gemini quota allows (needs a separate demo key).
 4. Calculation: only with a new lever (stronger model for steps, or line items in the facts table); EPS into the facts table fixes seed q005.
+
+# Update — 2026-10-23: round 2 drafting done, dev review done
+- Gemini quota was open (reset 14:00 local the day before). `draft.py --pages pages2.jsonl` drafted all 416 remaining pages in one run (no quota stop); drafted_pages.jsonl now covers pages.jsonl + pages2.jsonl (920 rows).
+- Claude reviewed all 237 unreviewed dev drafts (`bulk_review.py`): 164 accepted, 73 rejected. Chart golds were checked against the rendered page images: 2 draft golds were wrong (q0213-2 BOPO value was 2021 not 2022 -> question edited to 2021; q0261-2 draft said 7.932, chart shows 7.832 -> rejected). Calc figures all verified present on the page and same table row; rejected stage tables, negative growth, nonsense sums (equity + profit, rates added), garbled questions.
+- `dev.jsonl` = 439/450, sha256 69e220ec7c5950a03bf0b096f3f46bac090ea1814490d49d68ab824e75af5f85. Quotas full: text_fact 90, calculation 68 (101 accepted, extras unused), cross_doc 68, regulation 45, unanswerable 22. Short: table_lookup 84/90, chart 62/67.
+- Test split untouched and unread (`test.jsonl` is empty until the user reviews `candidates_test.jsonl` in review_app.py). Note: running `build.py` rewrites dev.jsonl/test.jsonl (it has no --help flag).
+- Not committed yet. Not run yet: dev eval on the 105 new questions (the 258-question run `bench-dev-20261022-001829.json` covered the older ones).
+## Next
+1. Decide: commit (dev review + dev.jsonl), then dev eval on the new questions only (delta), router + judge-on-fail.
+2. User: review test candidates (Test radio in review_app.py), write 8 test unanswerables.
+3. Gradio demo plan step 1 (needs a separate Gemini key); calculation levers as before.
