@@ -812,3 +812,13 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. Chart run (57, `_new_ids_chart.txt`): needs ColPali + eval + llama-server in RAM. Check free RAM first; if short, two-pass idea: ColPali rankings alone with Ollama stopped (GPU), cache them, then eval reads the cache (code change, ask first).
 2. Optional: agent recall = top-5 per step (changes calc recall measurement; ask first).
 3. User: review test candidates (review_app.py, Test), write 8 test unanswerables. Gradio demo plan step 1.
+
+# Update — 2026-10-23 (evening): chart delta eval + vision fix
+## Done
+- ColPali query cache (commit 07a2a08): `eval/bench/colpali_cache.py` encodes the `wants_image` questions on the GPU (Ollama idle) into `data/colpali/query_cache.pt` (gitignored); `TELAAH_COLPALI_CACHE_ONLY=1` never loads ColQwen2 (a miss logs and skips ColPali). Avoids the ~4.4 GB CPU load that does not fit beside the eval. Re-run colpali_cache.py whenever chart questions change.
+- Chart run, 57 questions (`eval/runs/bench-dev-20261023-155954.json`, 0 cache misses): recall 0.56, citation 0.25, refusal 0.49, numeric 0.32. Split: chart wording + report in the ColPali index (11): recall 1.0, numeric 1.0; chart wording + other report (28): numeric 0.14, 20 wrong refusals; no chart word (18): recall 0.22, numeric 0.17.
+- Cause: `answer.add_page_images` only sent pages in the ColPali index (3 reports) to Gemini vision. Fix (commit 3e5858d): any report with a PDF (`vision.has_pdf`). Rerun of the 28 (`bench-dev-20261023-162414.json`, ids `eval/bench/_ids_chart_vision.txt`): citation 0.14 -> 0.54, refusal 0.29 -> 0.75, numeric 0.14 -> 0.68, wrong refusals 20 -> 7, 15 questions wrong -> right, none the other way; latency 12 -> 39 s (up to VISION_PAGES=5 Gemini calls). All 57 together: numeric ~0.58 (was 0.32).
+## Next
+1. The 18 chart questions without a chart word (recall 0.22, vision never triggers): look at their wording; widen `wants_image` only if ordinary questions stay fast (Opus 5.5).
+2. Remaining 7 wrong refusals in the 28: 6 are retrieval misses (gold page not in top 5).
+3. Optional: agent recall = top-5 per step. User: review test candidates, write 8 test unanswerables. Gradio demo plan step 1.
