@@ -12,6 +12,10 @@ def main() -> None:
     i.add_argument("--workers", type=int, default=1, help="files parsed in parallel")
     sub.add_parser("inventory", help="write data/inventory.csv")
     sub.add_parser("index", help="embed pages into Qdrant")
+    t = sub.add_parser("transcribe", help="transcribe chart-heavy pages with the vision model (data/page_transcripts)")
+    t.add_argument("--docs", nargs="+", required=True, help="report doc_ids, e.g. bca_2025 mandiri_2025")
+    t.add_argument("--limit", type=int, default=0, help="transcribe at most this many pages")
+    sub.add_parser("transcripts-index", help="embed the page transcriptions (used with TELAAH_TRANSCRIPTS=1)")
     a = sub.add_parser("ask", help="ask one question")
     a.add_argument("question")
     a.add_argument("--rag", action="store_true", help="skip the router and use single-shot RAG")
@@ -39,6 +43,14 @@ def main() -> None:
         from telaah.index import build_index
 
         build_index()
+    elif args.cmd == "transcribe":
+        from telaah.transcripts import transcribe
+
+        transcribe(args.docs, args.limit)
+    elif args.cmd == "transcripts-index":
+        from telaah.transcripts import build_embeddings
+
+        build_embeddings()
     elif args.cmd == "ask":
         if args.rag:
             from telaah.answer import ask

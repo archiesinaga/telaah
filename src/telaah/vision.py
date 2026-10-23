@@ -68,10 +68,11 @@ def _cache_path(doc_id: str, page: int, question: str) -> Path:
     return CACHE_DIR / f"{doc_id}_p{page}_{key}.txt"
 
 
-def read_page(question: str, doc_id: str, page: int) -> str:
-    cache = _cache_path(doc_id, page, question)
-    if cache.exists():
-        return cache.read_text(encoding="utf-8")
+class DailyQuota(RuntimeError):
+    """The provider refused for the day (free tier); retrying before the reset only wastes time."""
+
+
+def _call(prompt: str, doc_id: str, page: int) -> str:
     png = base64.b64encode(render_page(doc_id, page)).decode()
     client = OpenAI(base_url=VISION_BASE_URL, api_key=VISION_API_KEY)
     last = None
@@ -84,17 +85,51 @@ def read_page(question: str, doc_id: str, page: int) -> str:
                     {
                         "role": "user",
                         "content": [
-                            {"type": "text", "text": PROMPT.format(question=question, irrelevant=IRRELEVANT)},
+                            {"type": "text", "text": prompt},
                             {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{png}"}},
                         ],
                     }
                 ],
             )
-            text = (resp.choices[0].message.content or "").strip()
-            CACHE_DIR.mkdir(parents=True, exist_ok=True)
-            cache.write_text(text, encoding="utf-8")
-            return text
+            return (resp.choices[0].message.content or "").strip()
         except Exception as e:  # noqa: BLE001 - any API error: wait and retry, then give up
+            if "PerDay" in str(e):
+                raise DailyQuota(str(e)) from e
             last = e
             time.sleep(5 * 2**attempt)
     raise RuntimeError(f"vision read failed for {doc_id} p.{page}: {last}")
+
+
+def read_page(question: str, doc_id: str, page: int) -> str:
+    cache = _cache_path(doc_id, page, question)
+    if cache.exists():
+        return cache.read_text(encoding="utf-8")
+    text = _call(PROMPT.format(question=question, irrelevant=IRRELEVANT), doc_id, page)
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache.write_text(text, encoding="utf-8")
+    return text
+
+
+TRANSCRIPT_DIR = ROOT / "data" / "page_transcripts"  # delete it after changing TRANSCRIBE_PROMPT or the model
+NO_CHART = "TIDAK ADA GRAFIK"
+TRANSCRIBE_PROMPT = """Ini adalah gambar satu halaman laporan tahunan bank di Indonesia.
+
+Tugasmu HANYA mentranskripsi, bukan menjawab. Tulis sebagai teks biasa, untuk SETIAP grafik, diagram,
+infografik, atau angka yang tercetak di dalam gambar:
+1. Judul atau keterangannya.
+2. Label sumbu, legenda, satuan, dan periode.
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya, misalnya "Des 2025: 85,35%".
+Aturan: jangan menghitung, jangan menebak, jangan menambahkan angka yang tidak tercetak. Abaikan paragraf
+teks biasa (sudah terbaca dari PDF). Jika sebuah angka tidak terbaca jelas, tulis "tidak terbaca".
+Jika halaman ini tidak memuat grafik, diagram, infografik, atau angka di dalam gambar, jawab hanya: {no_chart}"""
+
+
+def transcribe_page(doc_id: str, page: int) -> str:
+    """Question-independent transcription of the charts on one page, cached; NO_CHART when there are none."""
+    cache = TRANSCRIPT_DIR / f"{doc_id}_p{page}.txt"
+    if cache.exists():
+        return cache.read_text(encoding="utf-8")
+    text = _call(TRANSCRIBE_PROMPT.format(no_chart=NO_CHART), doc_id, page)
+    TRANSCRIPT_DIR.mkdir(parents=True, exist_ok=True)
+    cache.write_text(text, encoding="utf-8")
+    return text

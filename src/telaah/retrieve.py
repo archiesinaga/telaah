@@ -6,6 +6,7 @@ import torch
 from qdrant_client import models
 
 from telaah import colpali as colpali_index
+from telaah import transcripts
 from telaah.bm25 import bm25
 from telaah.config import COLLECTION, RERANK_MODEL, TOP_K
 from telaah.filters import detect_groups, doc_ids
@@ -43,10 +44,26 @@ def _dense(
     if pages:
         must.append(models.FieldCondition(key="page", match=models.MatchAny(any=pages)))
     flt = models.Filter(must=must) if must else None
-    hits = client().query_points(
-        COLLECTION, query=embed([query])[0], limit=n, query_filter=flt
-    ).points
-    return [{**h.payload, "score": h.score} for h in hits]
+    qvec = embed([query])[0]
+    hits = client().query_points(COLLECTION, query=qvec, limit=n, query_filter=flt).points
+    out = [{**h.payload, "score": h.score} for h in hits]
+    if transcripts.USE:  # a transcribed page scores max(page vector, transcription vector)
+        tx = transcripts.dense(qvec, n, doc_ids, max_page, pages)
+        if tx:
+            by_key = {(c["doc_id"], c["page"]): c for c in out}
+            pages_by_key = _page_lookup()
+            for key, s in tx:
+                if key in by_key:
+                    by_key[key] = {**by_key[key], "score": max(by_key[key]["score"], s)}
+                elif key in pages_by_key:
+                    by_key[key] = {**pages_by_key[key], "score": s}
+            out = sorted(by_key.values(), key=lambda c: -c["score"])[:n]
+    return out
+
+
+@lru_cache
+def _page_lookup() -> dict[tuple[str, int], dict]:
+    return {(p["doc_id"], p["page"]): p for p in bm25().pages}
 
 
 # Reports spell ratios out ("Non Performing Loan (NPL) Gross"), questions use the abbreviation: BM25 sees them as
@@ -77,7 +94,7 @@ def _sparse(
     pages: list[int] | None = None,
 ) -> list[dict]:
     query = expand_aliases(query)
-    idx = bm25()
+    idx = transcripts.bm25_tx() if transcripts.USE else bm25()
     if pages:
         keep = set(pages)
         hits = idx.search(query, 400, doc_ids, max_page)
@@ -179,7 +196,7 @@ def _one_group(query, doc_ids, hybrid, rerank, n, summary=True, colpali=True, co
             ranked = ranked[:CANDIDATES]
     if rerank:
         ranked = _rerank(query, ranked)
-    return ranked[:n]
+    return transcripts.annotate(ranked[:n]) if transcripts.USE else ranked[:n]
 
 
 def _with_replacements(groups: list[list[str]]) -> list[list[str]]:

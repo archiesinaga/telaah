@@ -97,6 +97,7 @@ VISION_HINT = (
     "halaman itu. Angka tersebut adalah bukti yang sah; cocokkan label dan periodenya dengan pertanyaan.\n\n"
 )
 VISION_TEXT_CAP = 800  # page text kept next to a full image transcription (keeps the prompt in 8192 tokens)
+TRANSCRIPT_CAP = 1500  # index-time chart transcription kept per page
 
 
 PAGE_CAP = 3000  # chars per page
@@ -143,6 +144,9 @@ def build_context(chunks: list[dict], question: str = "") -> str:
         if c.get("vision"):
             body = "[Transkripsi gambar halaman oleh model visi]\n" + c["vision"].strip()
             body += "\n\n[Teks halaman]\n" + compact(c["text"])[:VISION_TEXT_CAP]
+        elif c.get("transcript"):  # chart values transcribed at index time (telaah.transcripts)
+            body = "[Transkripsi grafik halaman oleh model visi]\n" + c["transcript"].strip()[:TRANSCRIPT_CAP]
+            body += "\n\n[Teks halaman]\n" + excerpt(compact(c["text"]), question, max(VISION_TEXT_CAP, cap - TRANSCRIPT_CAP))
         else:
             body = excerpt(compact(c["text"]), question, cap)
         parts.append(f"[{c['doc_id']} p.{c['page']}]\n{body}")
