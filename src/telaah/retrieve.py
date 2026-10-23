@@ -112,6 +112,9 @@ def _colpali_ranking(query: str, doc_ids: list[str]) -> list[dict]:
         if not colpali_index.covers(doc_ids):
             return []
         return colpali_index.search(query, COLPALI_N, doc_ids)
+    except colpali_index.QueryNotCached:  # cache-only mode: skip this query, keep ColPali for the cached ones
+        print(f"[telaah] ColPali query not cached, skipped: {query[:80]}")
+        return []
     except Exception as e:  # noqa: BLE001 - never let the optional visual path break retrieval
         if not _colpali_warned:
             print(f"[telaah] ColPali retrieval disabled: {type(e).__name__}: {e}")

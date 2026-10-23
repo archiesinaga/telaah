@@ -81,3 +81,19 @@ def test_auto_weight_only_for_chart_questions(monkeypatch):
     assert len(calls) == 1 and 328 in chart  # chart question: weight 2 lets the page in
     R.retrieve("Menurut grafik, berapa laba?", colpali_weight=0)
     assert len(calls) == 1  # explicit 0 disables it
+
+
+def test_query_cache_and_cache_only(monkeypatch):
+    from telaah import colpali as cp
+
+    cached = torch.ones(3, 16)
+    monkeypatch.setattr(cp, "_query_cache", lambda: {"grafik laba": cached})
+    monkeypatch.setattr(cp, "_encoder", lambda: (_ for _ in ()).throw(AssertionError("model loaded")))
+    monkeypatch.setattr(cp, "CACHE_ONLY", True)
+    cp.encode_query.cache_clear()
+    assert cp.encode_query("grafik laba") is cached  # hit: no model load
+    import pytest
+
+    with pytest.raises(cp.QueryNotCached):
+        cp.encode_query("grafik aset")  # miss in cache-only mode: no model load either
+    cp.encode_query.cache_clear()

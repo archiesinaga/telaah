@@ -19,6 +19,14 @@ import torch
 
 from telaah.config import COLPALI_DIR, COLPALI_MODEL
 
+QUERY_CACHE = Path(COLPALI_DIR) / "query_cache.pt"  # query embeddings encoded ahead on the GPU, see eval/bench/colpali_cache.py
+# 1 = never load ColQwen2: a query missing from QUERY_CACHE raises QueryNotCached and the caller skips ColPali
+CACHE_ONLY = os.environ.get("TELAAH_COLPALI_CACHE_ONLY", "0") == "1"
+
+
+class QueryNotCached(Exception):
+    pass
+
 
 class PageIndex:
     """All page embeddings in RAM (fp16), searched shard by shard."""
@@ -88,8 +96,17 @@ def _encoder():
     return model, ColQwen2Processor.from_pretrained(COLPALI_MODEL)
 
 
+@lru_cache
+def _query_cache() -> dict[str, torch.Tensor]:
+    return torch.load(QUERY_CACHE) if QUERY_CACHE.exists() else {}
+
+
 @lru_cache(maxsize=1024)
 def encode_query(query: str) -> torch.Tensor:
+    if (hit := _query_cache().get(query)) is not None:
+        return hit
+    if CACHE_ONLY:
+        raise QueryNotCached(query)
     model, processor = _encoder()
     with torch.inference_mode():
         batch = processor.process_queries([query]).to(model.device)
