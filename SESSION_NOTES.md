@@ -850,3 +850,31 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. After the Gemini reset (14:00 local on 10-24): `telaah transcribe --docs bca_2025 mandiri_2025` (44 pages), then `telaah transcripts-index`. Optionally rerun the 22 with working vision.
 2. Spot-check some transcriptions against page images, then scale to the other 8 reports (~1,900 pages, several days of quota, resumable); full dev re-eval before the switch goes default-on.
 3. Still open: agent recall = top-5 per step; calculation levers; user reviews test candidates (review_app.py) and writes 8 test unanswerables; Gradio demo plan step 1 (separate Gemini key).
+
+# Update — 2026-10-24 (~10:00): quota check, transcription spot-check, scaling plan
+## Done
+- `telaah transcribe --docs bca_2025 mandiri_2025` ran once: 1 of 44 pending pages done (mandiri_2025 p.700, "no chart"), then the Gemini daily quota refused. Reset is 14:00 local (midnight Pacific, UTC+7), NOT already passed at 09:46 (I misread the earlier note). Log: `eval/bench/transcribe_pilot2.log` (untracked). 43 pages left (mandiri_2025 p.701-1467, no dev chart gold page among them).
+- Spot-check of 10 transcriptions vs rendered page images (bca p3/46/155/307/422/604, mandiri p99/196/350/441): 9 correct (real chart p350, table p155, profile p196, covers p3, flow p307, and 4 "no chart" pages all right). One flaw: bca p422 ownership diagram loses which company each % applies to (numbers right, targets dropped). PNGs in the old scratchpad `.../scratchpad/spot/` (temp, not needed).
+- Pending pages for the other 8 reports (`chart_heavy_pages`, none transcribed yet): btn_2024 396, mandiri_2024 358, bni_2024 239, btn_2025 208, bri_2024 205, bri_2025 198, bni_2025 190, bca_2024 81 = 1,875 pages (~500 requests/day, est. 4-6 days).
+## Decisions
+- Transcription prompt stays AS IS (user declined adding a "who -> whom" line for ownership diagrams).
+- User wants to RE-CONFIRM EACH DAY before running transcription (no auto-runs).
+- Do not run evals or drafting on the same Gemini key while transcribing (run-time vision and transcription share the 500/day quota; this ended the 22-question eval early on 10-23).
+- Build the index only once, after all reports are done (a partial index makes reports uneven in the re-eval).
+## Next
+1. After 14:00 local (a session-only reminder was set for 14:03, lost on /clear): ask OK, then `.venv/Scripts/telaah.exe transcribe --docs bca_2025 mandiri_2025` (43 pages). Model: Sonnet 5.5.
+2. Ask OK each day: `telaah transcribe --docs bca_2024 bni_2025 bni_2024 bri_2025 bri_2024 btn_2025 mandiri_2024 btn_2024` (smallest first, resumable, stops itself at quota).
+3. When all done: `telaah transcripts-index`, then full dev re-eval (all retrieval numbers shift) before turning `TELAAH_TRANSCRIPTS` on by default. Model: Sonnet 5.5 (Opus 5.5 to read results).
+4. Still open: 18 chart questions without a chart word (`wants_image`, Opus 5.5); agent recall = top-5 per step; calculation levers; user reviews test candidates (review_app.py) and writes 8 test unanswerables; Gradio demo plan step 1 (separate Gemini key); decide keep/delete of untracked scratch (`eval/bench/_*.py`, `_new_ids*.txt`, logs).
+
+# Update — 2026-10-24 (16:10): transcription scaling day 1
+## Done
+- Pilot finished: `telaah transcribe --docs bca_2025 mandiri_2025` completed the 43 pending pages (log `eval/bench/transcribe_pilot3.log`).
+- Scale run on the 8 other reports started after the 14:00 reset: 457 of 1,875 pages, then daily quota refused (log `eval/bench/transcribe_scale1.log`, untracked). bca_2024 and bni_2025 complete; bni_2024 stopped at p.553. 1,418 pages left.
+- Committed `data/page_transcripts/` as fee9fee (only that folder; scratch files still untracked).
+## Decisions
+- Index NOT built yet (build once after all reports are done). User still wants to re-confirm each day before transcribing.
+## Next
+1. After 14:00 local on 10-25: ask OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 bri_2025 bri_2024 btn_2025 mandiri_2024 btn_2024` (resumable, stops at quota; ~3 more days). No evals/drafting on the same key meanwhile. Commit `data/page_transcripts/` after each run. Model: Sonnet 5.5.
+2. When all done: `telaah transcripts-index`, then full dev re-eval before `TELAAH_TRANSCRIPTS` goes default-on (Sonnet 5.5 run, Opus 5.5 to read results).
+3. Still open: 18 chart questions without chart word (`wants_image`); agent recall top-5 per step; calculation levers; user reviews test candidates and writes 8 test unanswerables; Gradio demo step 1; decide keep/delete of untracked scratch.
