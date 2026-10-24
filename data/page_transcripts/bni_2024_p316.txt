@@ -1,0 +1,33 @@
+Jumlah Simpanan Nasabah
+(Rp miliar)
+- 2022: 769.269
+- 2023: 810.730
+- 2024: 805.511
+
+Simpanan Berdasarkan Jenis
+2024 Jumlah (Rp-miliar): Giro 305.734, Rupiah 192.231, Mata Uang Asing 113.503, Tabungan 257.544, Rupiah 247.370, Mata Uang Asing 10.174, Total Giro dan Tabungan 563.278, Deposito 242.233, Rupiah 201.908, Mata Uang Asing 40.325, Negotiable Certificate of Deposit (NCD) yang Diterbitkan 0, Rupiah 0, Mata Uang Asing 0, Total Simpanan Nasabah 805.511, Rupiah 641.509, Mata Uang Asing 164.002
+2024 Komposisi (%): Giro 37,9, Rupiah 23,8, Mata Uang Asing 14,1, Tabungan 32,0, Rupiah 30,7, Mata Uang Asing 1,3, Total Giro dan Tabungan 69,9, Deposito 30,1, Rupiah 25,1, Mata Uang Asing 5,0, Negotiable Certificate of Deposit (NCD) yang Diterbitkan 0, Rupiah 0, Mata Uang Asing 0, Total Simpanan Nasabah 100,0, Rupiah 79,6, Mata Uang Asing 20,4
+2023 Jumlah (Rp-miliar): Giro 345.496, Rupiah 203.157, Mata Uang Asing 142.339, Tabungan 231.982, Rupiah 222.513, Mata Uang Asing 9.469, Total Giro dan Tabungan 577.478, Deposito 232.664, Rupiah 208.275, Mata Uang Asing 24.389, Negotiable Certificate of Deposit (NCD) yang Diterbitkan 588, Rupiah 0, Mata Uang Asing 588, Total Simpanan Nasabah 810.730, Rupiah 633.945, Mata Uang Asing 176.785
+2023 Komposisi (%): Giro 42,6, Rupiah 25,1, Mata Uang Asing 17,6, Tabungan 28,6, Rupiah 27,4, Mata Uang Asing 1,2, Total Giro dan Tabungan 71,2, Deposito 28,7, Rupiah 25,7, Mata Uang Asing 3,0, Negotiable Certificate of Deposit (NCD) yang Diterbitkan 0,1, Rupiah 0, Mata Uang Asing 0,1, Total Simpanan Nasabah 100,0, Rupiah 78,2, Mata Uang Asing 21,8
+2022 Jumlah (Rp-miliar): Giro 314.625, Rupiah 211.972, Mata Uang Asing 102.653, Tabungan 242.695, Rupiah 230.379, Mata Uang Asing 12.316, Total Giro dan Tabungan 557.320, Deposito 208.798, Rupiah 185.146, Mata Uang Asing 23.652, Negotiable Certificate of Deposit (NCD) yang Diterbitkan 3.151, Rupiah 1.920, Mata Uang Asing 1.231, Total Simpanan Nasabah 769.269, Rupiah 629.417, Mata Uang Asing 139.852
+2022 Komposisi (%): Giro 40,9, Rupiah 27,6, Mata Uang Asing 13,3, Tabungan 31,5, Rupiah 29,9, Mata Uang Asing 1,6, Total Giro dan Tabungan 72,4, Deposito 27,1, Rupiah 24,1, Mata Uang Asing 3,1, Negotiable Certificate of Deposit (NCD) yang Diterbitkan 0,4, Rupiah 0,2, Mata Uang Asing 0,2, Total Simpanan Nasabah 100,0, Rupiah 81,8, Mata Uang Asing 18,2
+Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): Giro (39.762), Rupiah (10.926), Mata Uang Asing (28.836), Tabungan 25.562, Rupiah 24.857, Mata Uang Asing 705, Total Giro dan Tabungan (14.200), Deposito 9.569, Rupiah (6.367), Mata Uang Asing 15.936, Negotiable Certificate of Deposit (NCD) yang Diterbitkan (588), Rupiah 0, Mata Uang Asing (588), Total Simpanan Nasabah (5.219), Rupiah 7.564, Mata Uang Asing (12.783)
+Kenaikan (Penurunan) 2023-2024 Persentase (%): Giro (11,5), Rupiah (5,4), Mata Uang Asing (20,3), Tabungan 11,0, Rupiah 11,2, Mata Uang Asing 7,4, Total Giro dan Tabungan (2,5), Deposito 4,1, Rupiah (3,1), Mata Uang Asing 65,3, Negotiable Certificate of Deposit (NCD) yang Diterbitkan (100,0), Rupiah 0, Mata Uang Asing (100,0), Total Simpanan Nasabah (0,6), Rupiah 1,2, Mata Uang Asing (7,2)
+Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): Giro 30.871, Rupiah (8.815), Mata Uang Asing 39.686, Tabungan (10.713), Rupiah (7.866), Mata Uang Asing (2.847), Total Giro dan Tabungan 20.158, Deposito 23.866, Rupiah 23.129, Mata Uang Asing 737, Negotiable Certificate of Deposit (NCD) yang Diterbitkan (2.563), Rupiah (1.920), Mata Uang Asing (643), Total Simpanan Nasabah 41.461, Rupiah 4.529, Mata Uang Asing 36.932
+Kenaikan (Penurunan) 2022-2023 Persentase (%): Giro 9,8, Rupiah (4,2), Mata Uang Asing 38,7, Tabungan (4,4), Rupiah (3,4), Mata Uang Asing (23,1), Total Giro dan Tabungan 3,6, Deposito 11,4, Rupiah 12,5, Mata Uang Asing 3,1, Negotiable Certificate of Deposit (NCD) yang Diterbitkan (81,3), Rupiah (100,0), Mata Uang Asing (52,2), Total Simpanan Nasabah 5,4, Rupiah 0,7, Mata Uang Asing 26,4
+
+Komposisi Simpanan Nasabah
+Persentase (%)
+Legenda: Giro, Tabungan, Deposit
+Periode 2024:
+- Giro: 37,9
+- Tabungan: 32,0
+- Deposit: 30,1
+Periode 2023:
+- Giro: 42,6
+- Tabungan: 28,6
+- Deposit: 28,7
+Periode 2022:
+- Giro: 40,9
+- Tabungan: 31,5
+- Deposit: 27,1

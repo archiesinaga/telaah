@@ -1,0 +1,102 @@
+1. Judul Grafik: Laba Bersih (Laba yang Diatribusikan kepada Pemilik Entitas Induk - sebagai acuan pembagian dividen)
+Satuan: (Rp miliar)
+Periode dan Angka:
+- 2022: 18.312
+- 2023: 20.909
+- 2024: 21.464
+
+2. Judul Tabel: Laporan Laba Rugi dan Penghasilan Komprehensif Lainnya
+Kolom:
+- Pos Akun
+- 2024 (Rp-miliar)
+- 2023 (Rp-miliar)
+- 2022 (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024: Persentase (%)
+- Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar)
+- Kenaikan (Penurunan) 2022-2023: Persentase (%)
+
+Baris dan Angka:
+- Pendapatan bunga dan pendapatan syariah
+  - 2024: 66.583
+  - 2023: 61.472
+  - 2022: 54.659
+  - Nominal (2023-2024): 5.111
+  - Persentase (2023-2024): 8,3
+  - Nominal (2022-2023): 6.813
+  - Persentase (2022-2023): 12,5
+
+- Beban bunga dan pendapatan syariah
+  - 2024: (26.103)
+  - 2023: (20.196)
+  - 2022: (13.338)
+  - Nominal (2023-2024): (5.907)
+  - Persentase (2023-2024): 29,2
+  - Nominal (2022-2023): (6.858)
+  - Persentase (2022-2023): 51,4
+
+- Pendapatan bunga dan pendapatan syariah – neto
+  - 2024: 40.480
+  - 2023: 41.276
+  - 2022: 41.321
+  - Nominal (2023-2024): (796)
+  - Persentase (2023-2024): (1,9)
+  - Nominal (2022-2023): (45)
+  - Persentase (2022-2023): (0,1)
+
+- Pendapatan premi-neto
+  - 2024: 1.724
+  - 2023: 1.659
+  - 2022: 1.551
+  - Nominal (2023-2024): 65
+  - Persentase (2023-2024): 3,9
+  - Nominal (2022-2023): 108
+  - Persentase (2022-2023): 7,0
+
+- Pendapatan operasional lainnya
+  - 2024: 22.311
+  - 2023: 19.812
+  - 2022: 18.600
+  - Nominal (2023-2024): 2.499
+  - Persentase (2023-2024): 12,6
+  - Nominal (2022-2023): 1.212
+  - Persentase (2022-2023): 6,5
+
+- Total pendapatan operasional
+  - 2024: 64.515
+  - 2023: 62.747
+  - 2022: 61.472
+  - Nominal (2023-2024): 1.768
+  - Persentase (2023-2024): 2,8
+  - Nominal (2022-2023): 1.275
+  - Persentase (2022-2023): 2,1
+
+- Beban operasional lainnya
+  - 2024: (29.688)
+  - 2023: (27.778)
+  - 2022: (27.059)
+  - Nominal (2023-2024): (1.910)
+  - Persentase (2023-2024): 6,9
+  - Nominal (2022-2023): (719)
+  - Persentase (2022-2023): 2,7
+
+- Pembentukan cadangan kerugian penurunan nilai
+  - 2024: (8.211)
+  - 2023: (9.196)
+  - 2022: (11.514)
+  - Nominal (2023-2024): 985
+  - Persentase (2023-2024): (10,7)
+  - Nominal (2022-2023): 2.318
+  - Persentase (2022-2023): (20,1)
+
+- Laba operasional
+  - 2024: 26.616
+  - 2023: 25.773
+  - 2022: 22.899
+  - Nominal (2023-2024): 843
+  - Persentase (2023-2024): 3,3
+  - Nominal (2022-2023): 2.874
+  - Persentase (2022-2023): 12,6
+
+3. Nomor halaman:
+- 320

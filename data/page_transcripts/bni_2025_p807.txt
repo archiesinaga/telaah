@@ -1,0 +1,22 @@
+1. Judul atau keterangan: 2025 Committee Performance Assessment Results [ACGS D.5.7]
+Label tabel / kolom: No., Supporting Committees under the Board of Directors, Score
+Angka yang tertera dan dipasangkan dengan label/nomornya:
+- 1, Integrated Risk Management Committee (KMRT): Good
+- 2, Risk Management & Anti-Fraud Committee (KRA): Good
+- 3, Asset & Liability Committee (ALCO): Good
+- 4, Business Committee (KBI): Good
+- 5, Credit Policy Committee (KRB): Good
+- 6, Human Capital Committee (KHC): Good
+- 7, Subsidiary Company Committee (KPA): Good
+- 8, Performance Management Committee (PMC): Good
+- 9, Technology Management Committee (KMT): Good
+- 10, Credit Committee: Good
+
+2. Judul atau keterangan: Score Range Table
+Label tabel / kolom: Value Range, Description
+Angka yang tertera dan dipasangkan dengan labelnya:
+- 80-100: Excellent
+- 60-79: Good
+- <60: Adequate
+
+Nomor halaman terbaca: 805

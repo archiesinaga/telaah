@@ -1,0 +1,54 @@
+1. Judul: Satisfaction Score
+Label/Periode/Angka: 8,6 dari 10
+
+2. Judul: Resolution Rate Keluhan Nasabah
+Label/Periode/Angka: 100%
+
+3. Judul: (Infografik Livin')
+Label/Periode/Angka:
+- Lebih dari 37,2 juta pengguna per Desember 2025
+
+4. Judul: (Infografik Livin' Merchant)
+Label/Periode/Angka:
+- 3,1 juta pengguna
+- dengan lebih dari 1,96 juta pengguna di area Non-Urban
+
+5. Judul: (Infografik Livin' Sukha)
+Label/Periode/Angka:
+- Meluncurkan aplikasi baru: Livin' Planet x Mandiri Looping for Life
+
+6. Judul: (Infografik Untuk Masyarakat 1)
+Label/Periode/Angka:
+- 3,48 juta (Akun Bank Mandiri berhasil dibuka melalui Mandiri Agen)
+
+7. Judul: (Infografik Untuk Masyarakat 2)
+Label/Periode/Angka:
+- 1.515 peserta (Pekerja Migran Indonesia melalui Mandiri Sahabatku)
+
+8. Judul: (Infografik Untuk Masyarakat 3)
+Label/Periode/Angka:
+- 111.035 Agen Mandiri
+- 3 juta akun Bank Mandiri dibuka melalui Agen Mandiri
+
+9. Judul: (Infografik Untuk Masyarakat 4)
+Label/Periode/Angka:
+- 1,6 juta (orang Penerima manfaat program TJSL dan inklusi keuangan)
+
+10. Judul: (Infografik Untuk Masyarakat 5)
+Label/Periode/Angka:
+- 17,6 ribu UMKM (Telah mendapatkan pelatihan melalui program Rumah BUMN)
+
+11. Judul: (Infografik Untuk Mandirian 1)
+Label/Periode/Angka:
+- 38.732 (Jumlah Pegawai (Mandirian))
+
+12. Judul: KEBERAGAMAN GENDER
+Label/Periode/Angka:
+- Dewan Komisaris & Direksi: 84%, 16%
+- Tingkat Manajemen: 64%, 36%
+- Total Pegawai: 48%, 52%
+
+13. Judul: (Infografik Untuk Mandirian 3)
+Label/Periode/Angka:
+- 3.535.976 Jam pelatihan
+- 90,48% Indeks survei keterikatan pegawai

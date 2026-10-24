@@ -1,0 +1,14 @@
+1. Judul atau keterangan: Kinerja TapCash
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2024, 2023
+- Kenaikan (Penurunan): Nominal, Persentase (%)
+- Satuan: Juta (untuk Jumlah Transaksi), Rp-miliar (untuk Volume Transaksi)
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Jumlah Transaksi (juta), 2024: 116,0
+- Jumlah Transaksi (juta), 2023: 93,0
+- Jumlah Transaksi (juta), Kenaikan (Penurunan) Nominal: 23
+- Jumlah Transaksi (juta), Kenaikan (Penurunan) Persentase (%): 24,7
+- Volume Transaksi (Rp-miliar), 2024: 2.779,0
+- Volume Transaksi (Rp-miliar), 2023: 2.259,0
+- Volume Transaksi (Rp-miliar), Kenaikan (Penurunan) Nominal: 520
+- Volume Transaksi (Rp-miliar), Kenaikan (Penurunan) Persentase (%): 23,0

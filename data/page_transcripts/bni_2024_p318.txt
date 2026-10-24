@@ -1,0 +1,135 @@
+Tabel 1: Beban yang Masih Harus Dibayar
+Judul: Beban yang Masih Harus Dibayar
+Satuan: Rp-miliar, Persentase (%)
+Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+
+Kewajiban sebagai Bank Penerbit:
+- 2024: 245
+- 2023: 461
+- 2022: 308
+- Kenaikan (Penurunan) 2023-2024 Nominal: (216)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (46,9)
+- Kenaikan (Penurunan) 2022-2023 Nominal: 153
+- Kenaikan (Penurunan) 2022-2023 Persentase: 49,7
+
+Biaya Kantor:
+- 2024: 413
+- 2023: 467
+- 2022: 474
+- Kenaikan (Penurunan) 2023-2024 Nominal: (54)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (11,6)
+- Kenaikan (Penurunan) 2022-2023 Nominal: (7)
+- Kenaikan (Penurunan) 2022-2023 Persentase: (1,5)
+
+Biaya Teknologi dan Telekomunikasi:
+- 2024: 615
+- 2023: 559
+- 2022: 510
+- Kenaikan (Penurunan) 2023-2024 Nominal: 56
+- Kenaikan (Penurunan) 2023-2024 Persentase: 10,0
+- Kenaikan (Penurunan) 2022-2023 Nominal: 49
+- Kenaikan (Penurunan) 2022-2023 Persentase: 9,6
+
+Biaya Loyalty:
+- 2024: 49
+- 2023: 50
+- 2022: 48
+- Kenaikan (Penurunan) 2023-2024 Nominal: (1)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (2,0)
+- Kenaikan (Penurunan) 2022-2023 Nominal: 2
+- Kenaikan (Penurunan) 2022-2023 Persentase: 4,2
+
+Biaya Promosi:
+- 2024: 5
+- 2023: 5
+- 2022: 6
+- Kenaikan (Penurunan) 2023-2024 Nominal: 0
+- Kenaikan (Penurunan) 2023-2024 Persentase: 0,0
+- Kenaikan (Penurunan) 2022-2023 Nominal: (1)
+- Kenaikan (Penurunan) 2022-2023 Persentase: (16,7)
+
+Lain-Lain:
+- 2024: 202
+- 2023: 122
+- 2022: 95
+- Kenaikan (Penurunan) 2023-2024 Nominal: 80
+- Kenaikan (Penurunan) 2023-2024 Persentase: 65,6
+- Kenaikan (Penurunan) 2022-2023 Nominal: 27
+- Kenaikan (Penurunan) 2022-2023 Persentase: 28,4
+
+Jumlah:
+- 2024: 1.529
+- 2023: 1.664
+- 2022: 1.441
+- Kenaikan (Penurunan) 2023-2024 Nominal: (135)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (8,1)
+- Kenaikan (Penurunan) 2022-2023 Nominal: 223
+- Kenaikan (Penurunan) 2022-2023 Persentase: 15,5
+
+---
+
+Tabel 2: Utang Pajak
+Judul: Utang Pajak
+Satuan: Rp-miliar, Persentase (%)
+Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+
+Pajak penghasilan badan:
+- 2024: 223
+- 2023: 702
+- 2022: 1.392
+- Kenaikan (Penurunan) 2023-2024 Nominal: (479)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (68,2)
+- Kenaikan (Penurunan) 2022-2023 Nominal: (690)
+- Kenaikan (Penurunan) 2022-2023 Persentase: (49,6)
+
+Pajak lainnya:
+- 2024: 95
+- 2023: 121
+- 2022: 159
+- Kenaikan (Penurunan) 2023-2024 Nominal: (26)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (21,5)
+- Kenaikan (Penurunan) 2022-2023 Nominal: (38)
+- Kenaikan (Penurunan) 2022-2023 Persentase: (35,9)
+
+Jumlah - neto:
+- 2024: 318
+- 2023: 823
+- 2022: 1.551
+- Kenaikan (Penurunan) 2023-2024 Nominal: (505)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (61,4)
+- Kenaikan (Penurunan) 2022-2023 Nominal: (728)
+- Kenaikan (Penurunan) 2022-2023 Persentase: (46,9)
+
+---
+
+Tabel 3: Imbalan Kerja
+Judul: Imbalan Kerja
+Satuan: Rp-miliar, Persentase (%)
+Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+
+Imbalan kerja jangka pendek:
+- 2024: 3.230
+- 2023: 2.525
+- 2022: 3.157
+- Kenaikan (Penurunan) 2023-2024 Nominal: 705
+- Kenaikan (Penurunan) 2023-2024 Persentase: 27,9
+- Kenaikan (Penurunan) 2022-2023 Nominal: (632)
+- Kenaikan (Penurunan) 2022-2023 Persentase: (20,0)
+
+Imbalan pasca kerja jangka panjang:
+- 2024: 3.917
+- 2023: 4.481
+- 2022: 3.723
+- Kenaikan (Penurunan) 2023-2024 Nominal: (564)
+- Kenaikan (Penurunan) 2023-2024 Persentase: (12,6)
+- Kenaikan (Penurunan) 2022-2023 Nominal: 758
+- Kenaikan (Penurunan) 2022-2023 Persentase: 20,4
+
+Jumlah:
+- 2024: 7.147
+- 2023: 7.006
+- 2022: 6.880
+- Kenaikan (Penurunan) 2023-2024 Nominal: 141
+- Kenaikan (Penurunan) 2023-2024 Persentase: 2,0
+- Kenaikan (Penurunan) 2022-2023 Nominal: 126
+- Kenaikan (Penurunan) 2022-2023 Persentase: 1,8

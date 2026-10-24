@@ -1,0 +1,128 @@
+1. Judul atau keterangan:
+- Loans Disbursed in the Business Banking Segment
+- In IDR billion, unless otherwise stated
+- Loans Disbursed in the Consumer Segment
+- In IDR billion, unless otherwise stated
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: IDR billion
+- Periode: 2021, 2022, 2023, 2024, 2025
+- Legenda (Business Banking): Overseas, Small, Medium, Corporation
+- Legenda (Consumer Segment): Mortgage, Payroll, Credit Card, Others
+
+3. Angka yang tertera:
+Tabel Loans Disbursed in the Business Banking Segment:
+- Corporation, 2025: 445,202
+- Corporation, 2024: 356,384
+- Corporation, YoY 2024-2025 (%): 24.9
+- Corporation, 2023: 317,592
+- Corporation, 2022: 255,639
+- Corporation, 2021: 229,027
+
+- Medium, 2025: 131,797
+- Medium, 2024: 109,929
+- Medium, YoY 2024-2025 (%): 19.9
+- Medium, 2023: 102,460
+- Medium, 2022: 112,462
+- Medium, 2021: 99,132
+
+- Small, 2025: 75,071
+- Small, 2024: 75,782
+- Small, YoY 2024-2025 (%): (0.9)
+- Small, 2023: 84,892
+- Small, 2022: 97,210
+- Small, 2021: 95,752
+
+- Overseas, 2025: 72,981
+- Overseas, 2024: 75,014
+- Overseas, YoY 2024-2025 (%): (2.7)
+- Overseas, 2023: 56,611
+- Overseas, 2022: 67,405
+- Overseas, 2021: 58,446
+
+- Total, 2025: 725,051
+- Total, 2024: 617,109
+- Total, YoY 2024-2025 (%): 17.5
+- Total, 2023: 561,555
+- Total, 2022: 532,716
+- Total, 2021: 482,357
+
+Grafik Business Banking Segment:
+- 2021, Overseas: 58,446
+- 2021, Small: 95,752
+- 2021, Medium: 99,132
+- 2021, Corporation: 229,027
+- 2022, Overseas: 67,405
+- 2022, Small: 97,210
+- 2022, Medium: 112,462
+- 2022, Corporation: 255,639
+- 2023, Overseas: 56,611
+- 2023, Small: 84,892
+- 2023, Medium: 102,460
+- 2023, Corporation: 317,592
+- 2024, Overseas: 75,014
+- 2024, Small: 75,782
+- 2024, Medium: 109,929
+- 2024, Corporation: 356,384
+- 2025, Overseas: 72,981
+- 2025, Small: 75,071
+- 2025, Medium: 131,797
+- 2025, Corporation: 445,202
+
+Tabel Loans Disbursed in the Consumer Segment:
+- Mortgage, 2025: 72,689
+- Mortgage, 2024: 66,506
+- Mortgage, YoY 2024-2025 (%): 9.3
+- Mortgage, 2023: 58,456
+- Mortgage, 2022: 53,502
+- Mortgage, 2021: 49,573
+
+- Payroll, 2025: 63,510
+- Payroll, 2024: 57,952
+- Payroll, YoY 2024-2025 (%): 9.6
+- Payroll, 2023: 50,575
+- Payroll, 2022: 43,064
+- Payroll, 2021: 35,799
+
+- Credit Card, 2025: 16,330
+- Credit Card, 2024: 15,000
+- Credit Card, YoY 2024-2025 (%): 8.9
+- Credit Card, 2023: 13,986
+- Credit Card, 2022: 12,341
+- Credit Card, 2021: 11,868
+
+- Others, 2025: 3,646
+- Others, 2024: 3,058
+- Others, YoY 2024-2025 (%): 19.2
+- Others, 2023: 1,471
+- Others, 2022: 695
+- Others, 2021: 1,749
+
+- Total, 2025: 156,175
+- Total, 2024: 142,516
+- Total, YoY 2024-2025 (%): 9.6
+- Total, 2023: 124,488
+- Total, 2022: 109,602
+- Total, 2021: 98,989
+
+Grafik Consumer Segment:
+- 2021, Mortgage: 49,573
+- 2021, Payroll: 35,799
+- 2021, Credit Card: 11,868
+- 2021, Others: 1,749
+- 2022, Mortgage: 53,502
+- 2022, Payroll: 43,064
+- 2022, Credit Card: 12,341
+- 2022, Others: 695
+- 2023, Mortgage: 58,456
+- 2023, Payroll: 50,575
+- 2023, Credit Card: 13,986
+- 2023, Others: 1,471
+- 2024, Mortgage: 66,506
+- 2024, Payroll: 57,952
+- 2024, Credit Card: 15,000
+- 2024, Others: 3,058
+- 2025, Mortgage: 72,689
+- 2025, Payroll: 63,510
+- 2025, Credit Card: 16,330
+- 2025, Others: 3,646

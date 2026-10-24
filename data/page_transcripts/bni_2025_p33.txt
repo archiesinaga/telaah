@@ -1,0 +1,113 @@
+Loans Disbursed in the Corporate Segments Including Overseas Based on Sector
+In IDR billion, unless otherwise stated
+
+Description, 2025 Total Loan, 2025 Composition, 2024, 2023, 2023, 2021
+Industry, 108,806, 21.0, 116,819, 105,030, 94,346, 85,361
+Agriculture, 29,219, 5.6, 29,561, 33,662, 30,334, 34,241
+Business World Services, 42,928, 8.3, 37,751, 35,473, 30,892, 26,056
+Electricity, Gas and Water, 41,598, 8.0, 29,025, 25,038, 19,871, 18,454
+Transportation, Warehousing, and Communication, 51,694, 10.0, 48,225, 39,399, 36,248, 31,785
+Construction, 108,710, 21.0, 45,405, 45,764, 44,112, 43,470
+Trade, Restaurants and Hotels, 38,116, 7.4, 37,143, 34,139, 20,313, 23,094
+Mining, 53,514, 10.3, 45,933, 38,233, 31,912, 12,524
+Social Services, 42,538, 8.2, 39,172, 15,866, 13,274, 10,127
+Others, 1,072, 0.2, 2,538, 2,325, 1,742, 2,361
+Total, 518,195, 100.0, 431,572, 374,930, 323,044, 287,473
+
+Grafik Batang Bertumpuk (Stacked Bar Chart): Loans Disbursed in the Corporate Segments Including Overseas Based on Sector
+Legenda: Industry, Agriculture, Business World Services, Electricity, Gas and Water, Transportation, Warehousing, and Communication, Construction, Trade, Restaurants and Hotels, Mining, Social Services, Others
+Periode 2021:
+- Industry: 29.7%
+- Agriculture: 11.9%
+- Business World Services: 9.1%
+- Electricity, Gas and Water: 6.4%
+- Transportation, Warehousing, and Communication: 11.1%
+- Construction: 15.1%
+- Trade, Restaurants and Hotels: 8.0%
+- Mining: 4.4%
+- Social Services: 3.5%
+- Others: 0.8%
+Periode 2022:
+- Industry: 29.2%
+- Agriculture: 9.4%
+- Business World Services: 9.6%
+- Electricity, Gas and Water: 6.2%
+- Transportation, Warehousing, and Communication: 11.2%
+- Construction: 13.7%
+- Trade, Restaurants and Hotels: 6.3%
+- Mining: 9.9%
+- Social Services: 4.1%
+- Others: 0.5%
+Periode 2023:
+- Industry: 28.9%
+- Agriculture: 9.0%
+- Business World Services: 9.5%
+- Electricity, Gas and Water: 6.7%
+- Transportation, Warehousing, and Communication: 10.5%
+- Construction: 12.2%
+- Trade, Restaurants and Hotels: 9.1%
+- Mining: 10.2%
+- Social Services: 4.2%
+- Others: 0.6%
+Periode 2024:
+- Industry: 27.1%
+- Agriculture: 6.8%
+- Business World Services: 8.7%
+- Electricity, Gas and Water: 6.7%
+- Transportation, Warehousing, and Communication: 11.2%
+- Construction: 10.5%
+- Trade, Restaurants and Hotels: 8.6%
+- Mining: 10.4%
+- Social Services: 9.1%
+- Others: 0.6%
+Periode 2025:
+- Industry: 21.0%
+- Agriculture: 5.6%
+- Business World Services: 8.3%
+- Electricity, Gas and Water: 8.0%
+- Transportation, Warehousing, and Communication: 10.0%
+- Construction: 21.0%
+- Trade, Restaurants and Hotels: 7.4%
+- Mining: 10.3%
+- Social Services: 8.2%
+- Others: 0.2%
+
+---
+
+Loans Disbursed in the Small Business Banking Segment
+In IDR billion, unless otherwise stated
+
+Description, 2025, 2024, YoY 2024-2025 (%), 2023, 2022, 2021
+Branch Credit Management (BCM), 32,634, 32,141, 1.5, 34,088, 37,870, 44,230
+People's Business Loans (KUR), 26,258, 33,166, (20.8), 44,101, 52,708, 44,008
+Loans for Financial Institutions (KKLK), 1,226, 878, 39.6, 192, 128, 50
+BNI Entrepreneurs (BWU), 14,953, 9,597, 55.8, 6,546, 6,504, 7,464
+Total, 75,071, 75,782, (0.9), 84,927, 97,210, 95,752
+
+Grafik Batang (Bar Chart): Loans Disbursed in the Small Business Banking Segment
+Legenda: BCM, KUR, KKLK, BWU
+Periode 2021:
+- BCM: 44,230
+- KUR: 44,008
+- KKLK: 50
+- BWU: 7,464
+Periode 2022:
+- BCM: 37,870
+- KUR: 52,708
+- KKLK: 128
+- BWU: 6,504
+Periode 2023:
+- BCM: 34,088
+- KUR: 44,101
+- KKLK: 192
+- BWU: 6,546
+Periode 2024:
+- BCM: 32,141
+- KUR: 33,166
+- KKLK: 878
+- BWU: 9,597
+Periode 2025:
+- BCM: 32,634
+- KUR: 26,258
+- KKLK: 1,226
+- BWU: 14,953

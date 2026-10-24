@@ -1,0 +1,85 @@
+Tabel: Pinjaman yang Diberikan Kantor Luar Negeri
+
+Header Utama:
+- Pinjaman yang Diberikan Kantor Luar Negeri
+- 2024
+- 2023
+- 2022
+- Kenaikan (Penurunan) 2023-2024
+- Kenaikan (Penurunan) 2022-2023
+
+Header Kolom (di bawah 2024, 2023, 2022, dll):
+- Jumlah (Rp-miliar)
+- Komposisi (%)
+- Jumlah (Rp-miliar)
+- Komposisi (%)
+- Jumlah (Rp-miliar)
+- Komposisi (%)
+- Nominal (Rp-miliar)
+- Persentase (%)
+- Nominal (Rp-miliar)
+- Persentase (%)
+
+Baris Data:
+- BNI Tokyo | 2024 Jumlah: 7.524 | 2024 Komposisi: 10,0 | 2023 Jumlah: 6.510 | 2023 Komposisi: 11,5 | 2022 Jumlah: 7.659 | 2022 Komposisi: 11,4 | Kenaikan 23-24 Nominal: 1.014 | Kenaikan 23-24 Persentase: 15,6 ↑ | Kenaikan 22-23 Nominal: (1.149) | Kenaikan 22-23 Persentase: (15,0) ↓
+- BNI Hong Kong | 2024 Jumlah: 18.967 | 2024 Komposisi: 25,3 | 2023 Jumlah: 8.618 | 2023 Komposisi: 15,2 | 2022 Jumlah: 9.281 | 2022 Komposisi: 13,8 | Kenaikan 23-24 Nominal: 10.349 | Kenaikan 23-24 Persentase: 120,1 ↑ | Kenaikan 22-23 Nominal: (663) | Kenaikan 22-23 Persentase: (7,1) ↓
+- BNI Singapura | 2024 Jumlah: 18.215 | 2024 Komposisi: 24,3 | 2023 Jumlah: 18.900 | 2023 Komposisi: 33,4 | 2022 Jumlah: 17.278 | 2022 Komposisi: 25,6 | Kenaikan 23-24 Nominal: (685) | Kenaikan 23-24 Persentase: (3,6) ↓ | Kenaikan 22-23 Nominal: 1.622 | Kenaikan 22-23 Persentase: 9,4 ↑
+- BNI New York | 2024 Jumlah: 14.039 | 2024 Komposisi: 18,7 | 2023 Jumlah: 12.621 | 2023 Komposisi: 22,3 | 2022 Jumlah: 17.467 | 2022 Komposisi: 25,9 | Kenaikan 23-24 Nominal: 1.418 | Kenaikan 23-24 Persentase: 11,2 ↑ | Kenaikan 22-23 Nominal: (4.846) | Kenaikan 22-23 Persentase: (27,7) ↓
+- BNI London | 2024 Jumlah: 13.137 | 2024 Komposisi: 17,5 | 2023 Jumlah: 7.531 | 2023 Komposisi: 13,3 | 2022 Jumlah: 13.161 | 2022 Komposisi: 19,5 | Kenaikan 23-24 Nominal: 5.606 | Kenaikan 23-24 Persentase: 74,4 ↑ | Kenaikan 22-23 Nominal: (5.630) | Kenaikan 22-23 Persentase: (42,8) ↓
+- BNI Seoul | 2024 Jumlah: 3.132 | 2024 Komposisi: 4,2 | 2023 Jumlah: 2.431 | 2023 Komposisi: 4,3 | 2022 Jumlah: 2.559 | 2022 Komposisi: 3,8 | Kenaikan 23-24 Nominal: 701 | Kenaikan 23-24 Persentase: 28,8 ↓ | Kenaikan 22-23 Nominal: (128) | Kenaikan 22-23 Persentase: (5,0) ↓
+- Jumlah | 2024 Jumlah: 75.014 | 2024 Komposisi: 100,0 | 2023 Jumlah: 56.611 | 2023 Komposisi: 100,0 | 2022 Jumlah: 67.405 | 2022 Komposisi: 100,0 | Kenaikan 23-24 Nominal: 18.403 | Kenaikan 23-24 Persentase: 32,5 ↑ | Kenaikan 22-23 Nominal: (10.794) | Kenaikan 22-23 Persentase: (16,0) ↓
+
+---
+
+Grafik 1:
+- Judul: BNI Tokyo
+- Satuan: (Rp miliar)
+- Periode dan Angka:
+  - 2022: 7.659
+  - 2023: 6.510
+  - 2024: 7.524
+
+Grafik 2:
+- Judul: BNI Hong Kong
+- Satuan: (Rp miliar)
+- Periode dan Angka:
+  - 2022: 9.281
+  - 2023: 8.618
+  - 2024: 18.967
+
+Grafik 3:
+- Judul: BNI Singapura
+- Satuan: (Rp miliar)
+- Periode dan Angka:
+  - 2022: 17.278
+  - 2023: 18.900
+  - 2024: 18.215
+
+Grafik 4:
+- Judul: BNI New York
+- Satuan: (Rp miliar)
+- Periode dan Angka:
+  - 2022: 17.467
+  - 2023: 12.621
+  - 2024: 14.039
+
+Grafik 5:
+- Judul: BNI London
+- Satuan: (Rp miliar)
+- Periode dan Angka:
+  - 2022: 13.161
+  - 2023: 7.531
+  - 2024: 13.137
+
+Grafik 6:
+- Judul: BNI Seoul
+- Satuan: (Rp miliar)
+- Periode dan Angka:
+  - 2022: 2.559
+  - 2023: 2.431
+  - 2024: 3.132
+
+---
+Nomor Halaman dan Penomoran Lainnya yang Tercetak:
+- 309
+- Laporan Tahunan 2024 PT Bank Negara Indonesia (Persero) Tbk

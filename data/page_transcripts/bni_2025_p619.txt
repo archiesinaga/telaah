@@ -1,0 +1,44 @@
+(IDR billion)
+December 31, 2025
+Net Receivables After Taking into Account the Impact of Credit Risk Mitigation
+75%: -
+80%: -
+85%: -
+90%: -
+100%: 224,967
+105%: -
+110%: -
+112,5%: -
+130%: -
+150%: -
+250%: -
+400%: -
+1250%: -
+Others: -
+Net Receivables After FKK and MRK Techniques: 224,967
+
+100%: 2,574,828
+150%: 274,777
+Others: -
+Net Receivables After FKK and MRK Techniques: 6,161,142
+
+100%: 47,688,728
+150%: 864,637
+1250%5): -
+Others: 50,157
+Net Receivables After FKK and MRK Techniques: 62,025,901
+
+(IDR billion)
+December 31, 2025
+FKK Average | Net Receivables (After imposition of FKK and MRK Techniques)
+42.21%: 474,587,642
+29.73%: 206,057,954
+43.23%: 181,117,219
+0.00%: 35,908,765
+18.92%: 53,967,605
+37.23%: 386,334,851
+0.00%: 3,839,422
+23.20%: 15,758,486
+0.00%: 744,814
+0.00%: -
+0.00%: -

@@ -1,0 +1,58 @@
+1. Infografik 1 (Pilar Pencegahan Anti Fraud):
+- Judul: PILAR PENCEGAHAN ANTI FRAUD
+- Keterangan/Sub-judul: 
+  - AFA (Anti Fraud Awareness)
+  - 1. Anti Fraud Assessment
+  - 2. Manajemen Risiko untuk mengidentifikasi, mengendalikan serta memitigasi risiko terjadinya Tindak Pidana Fraud setiap unit kerja
+  - 3. Kebijakan Anti Fraud
+- Angka/Label: 
+  - BAF - OPP
+
+2. Infografik 2 (Pilar Deteksi):
+- Judul: PILAR DETEKSI
+- Keterangan/Sub-judul:
+  - Senada
+  - WHISTLEBLOWING SYSTEM: Sarana komunikasi untuk melaporkan temuan fraud atau pelanggaran yang dilakukan pelaku di internal perusahaan
+  - SUPRISE AUDIT: Tindakan pemeriksaan mendadak dalam rangka untuk meningkatkan kewaspadaan karyawan dalam melaksanakan tugasnya
+  - SURVEILLANCE SYSTEM: Tindakan pengujian yang dilakukan tanpa diketahui dalam rangka memantau & menguji efektifitas sistem & prosedur yang ditetapkan
+  - Yuk, Kita Kenali Kembali dan Terapkan Pilar-Pilar Deteksi Dalam Bekerja
+- Angka/Label:
+  - BAF - OPP
+
+3. Infografik 3 (Pilar Investigasi Pelaporan & Sanksi):
+- Judul: PILAR INVESTIGASI PELAPORAN & SANKSI
+- Keterangan/Sub-judul:
+  - Senada
+  - INVESTIGASI: Kegiatan mengumpulkan bukti yang diduga tindakan fraud
+  - PELAPORAN: Melaporkan hasil investigasi ke pada pihak manajemen baru
+  - SANKSI: Diberikan kepada pelaku fraud dan disesuaikan dengan ketentuan yang berlaku
+  - Yuk, Kita Kenali Kembali dan Terapkan Pilar-Pilar Investigasi, Pelaporan & Sanksi Dalam Bekerja
+- Angka/Label:
+  - BAF - OPP
+
+4. Infografik 4 (Pilar Pemantauan Evaluasi & Tindak Lanjut):
+- Judul: PILAR PEMANTAUAN EVALUASI & TINDAK LANJUT
+- Keterangan/Sub-judul:
+  - Senada
+  - PEMANTAUAN: Memastikan kejadian fraud ditindaklanjuti sesuai dengan ketentuan yang berlaku
+  - EVALUASI: Review atas kejadian fraud untuk diidentifikasi penyebabnya & menentukan langkah perbaikannya
+  - TINDAK LANJUT: Memperbaiki & memperkuat sistem pengendalian internal untuk mencegah kejadian fraud
+  - Yuk, Kita Kenali Kembali dan Terapkan Pilar-Pilar Pemantauan, Evaluasi & Tindak Lanjut Dalam Bekerja
+- Angka/Label:
+  - BAF - OPP
+
+5. Gambar Poster Sosialisasi:
+- Judul/Teks:
+  - Pagi-pagi masak makaroni Jangan lupa direbus pakai air panas Di tahun yang baru ini Yuk, segera isi Pakta Integritas
+  - Pengisian wajib dilakukan setiap tahun
+
+6. Tabel Data Pelatihan Anti-fraud pada Tahun 2024 dan 2023:
+- Judul: Data Pelatihan Anti-fraud pada Tahun 2024 dan 2023
+- Label Kolom:
+  - Media
+  - 2024
+  - 2023
+- Angka/Label Baris:
+  - Media: e-learning
+  - 2024: 35.299 orang
+  - 2023: 35.172 orang

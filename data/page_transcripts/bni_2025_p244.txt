@@ -1,0 +1,75 @@
+Capital Market Performance and Exchange Rate Weakened as a Result of Market Dynamics Throughout 2025
+
+Capital Market Performance YTD 2025
+(%)
+South Korea: 75.6
+Czech Republic: 52.6
+South Africa: 37.7
+Brazil: 34.0
+Mexico: 29.9
+Hang Seng: 27.8
+Japan: 26.2
+Indonesia: 22.1
+UK FTSE: 21.5
+Tiongkok: 18.4
+S&P 500: 16.4
+Turki: 14.6
+Dow Jones: 13.0
+India: 10.5
+Malaysia: 2.3
+Philippines: -7.3
+Thailand: -10.0
+Legenda: YTD 2025 Per 31 December 2025
+
+Bond Yield Change YTD 2025
+Japan: 97
+South Korea: 51
+Czech Republic: 44
+Tiongkok: 18
+India: -17
+Malaysia: -31
+Amerika Serikat: -40
+Thailand: -61
+Philippines: -83
+Indonesia: -93
+South Africa: -212
+Legenda: YTD 2025 Per 31 December 2025
+
+Exchange Rate Changes in 2025
+(%)
+Sweden: 16.8
+Czech Republic: 15.5
+Mexico: 13.5
+Swiss: 12.7
+South Africa: 12.1
+EU: 11.9
+Brazil: 11.4
+Malaysia: 9.2
+Thailand: 7.6
+UK: 7.1
+Singapore: 5.9
+Average EX Arg & Tur: 5.7
+ASEAN Avg: 5.2
+Canada: 4.6
+EM Average - EX Arg & Tur: 4.4
+China: 4.3
+South Korea: 2.2
+Japan: 0.3
+Russia: 0.0
+Philippines: -1.7
+Indonesia: -3.7
+India: -5.0
+DXY*: -9.4
+Legenda: Data as of: December 31, 2025, DXY positive indicates appreciation
+
+Foreign Capital Flows (in billions of USD)
+data as of Dec. 31, 2025
+Legenda: Shares, Government Bonds, SRBI, Total
+Sumbu Y (rentang dari -12 hingga 4 dengan jeda 2)
+Sumbu X (Periode):
+W1-Jan-25, W2-Jan-25, W3-Jan-25, W4-Jan-25, W1-Feb-25, W2-Feb-25, W3-Feb-25, W4-Feb-25, W1-Mar-25, W2-Mar-25, W3-Mar-25, W4-Mar-25, W2-Apr-25, W3-Apr-25, W4-Apr-25, W1-May-25, W2-May-25, W3-May-25, W4-May-25, W1-June-25, W2-June-25, W3-June-25, W4-June-25, W1-Jul-25, W2-Jul-25, W3-Jul-25, W4-Jul-25, W1-Aug-25, W2-Aug-25, W3-Aug-25, W4-Aug-25, W5Aug-25, W1-Sep-25, W2-Sep-25, W3-Sep-25, W4-Sep-25, W1-Oct-25, W2-Oct-25, W3-Oct-25, W4-Oct-25, W5-Oct-25, W1-Nov-25, W2-Nov-25, W3-Nov-25, W4-Nov-25, W1-Dec-25, W2-Dec-25, W3-Dec-25, W4-Dec-25, W5-Dec-25
+Angka Total pada titik terakhir (W5-Dec-25):
+Shares: -0.98
+Government Bonds: 0.27
+SRBI: -6.69
+Total: -7.40

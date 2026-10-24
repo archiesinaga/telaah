@@ -1,0 +1,121 @@
+1. Total Liabilities (IDR billion)
+2. Sumbu Y: IDR billion; Sumbu X: 2023, 2024, 2024*), 2025
+3. 
+- 2023: 931,931
+- 2024: 962,619
+- 2024*): 963,581
+- 2025: 1,185,716
+
+Tabel: Financial Liabilities
+
+- Obligations due immediately:
+  - 2025 (IDR-billion): 5,761
+  - 2024*) (IDR-billion): 5,515
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 246
+  - Increase (Decrease) 2024-2025 Percentage (%): 4.5
+  - 2024 (IDR-billion): 5,515
+  - 2023 (IDR-billion): 5,295
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 220
+  - Increase (Decrease) 2023-2024 Percentage (%): 4.2
+
+- Deposits from customers:
+  - 2025 (IDR-billion): 1,040,834
+  - 2024*) (IDR-billion): 805,511
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 235,323
+  - Increase (Decrease) 2024-2025 Percentage (%): 29.2
+  - 2024 (IDR-billion): 805,511
+  - 2023 (IDR-billion): 810,730
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): (5,219)
+  - Increase (Decrease) 2023-2024 Percentage (%): (0.6)
+
+- Deposits from other banks:
+  - 2025 (IDR-billion): 11,563
+  - 2024*) (IDR-billion): 18,548
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (6,985)
+  - Increase (Decrease) 2024-2025 Percentage (%): (37.7)
+  - 2024 (IDR-billion): 18,548
+  - 2023 (IDR-billion): 11,894
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 6,654
+  - Increase (Decrease) 2023-2024 Percentage (%): 55.9
+
+- Derivative payables:
+  - 2025 (IDR-billion): 5,399
+  - 2024*) (IDR-billion): 1,479
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 3,920
+  - Increase (Decrease) 2024-2025 Percentage (%): 265.0
+  - 2024 (IDR-billion): 1,479
+  - 2023 (IDR-billion): 810
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 669
+  - Increase (Decrease) 2023-2024 Percentage (%): 82.6
+
+- Securities sold under agreements to repurchase:
+  - 2025 (IDR-billion): 7,251
+  - 2024*) (IDR-billion): 15,891
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (8,640)
+  - Increase (Decrease) 2024-2025 Percentage (%): (54.4)
+  - 2024 (IDR-billion): 15,891
+  - 2023 (IDR-billion): 6,891
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 9,000
+  - Increase (Decrease) 2023-2024 Percentage (%): 130.6
+
+- Acceptance payables:
+  - 2025 (IDR-billion): 2,325
+  - 2024*) (IDR-billion): 4,229
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (1,904)
+  - Increase (Decrease) 2024-2025 Percentage (%): (45.0)
+  - 2024 (IDR-billion): 4,229
+  - 2023 (IDR-billion): 5,748
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): (1,519)
+  - Increase (Decrease) 2023-2024 Percentage (%): (26.4)
+
+- Accrued expenses:
+  - 2025 (IDR-billion): 942
+  - 2024*) (IDR-billion): 1,529
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (587)
+  - Increase (Decrease) 2024-2025 Percentage (%): (38.4)
+  - 2024 (IDR-billion): 1,529
+  - 2023 (IDR-billion): 1,664
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): (135)
+  - Increase (Decrease) 2023-2024 Percentage (%): (8.1)
+
+- Other liabilities:
+  - 2025 (IDR-billion): 6,899
+  - 2024*) (IDR-billion): 8,317
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (1,418)
+  - Increase (Decrease) 2024-2025 Percentage (%): (17.0)
+  - 2024 (IDR-billion): 26,564
+  - 2023 (IDR-billion): 26,125
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 439
+  - Increase (Decrease) 2023-2024 Percentage (%): 1.7
+
+- Debt Securities:
+  - 2025 (IDR-billion): 14,253
+  - 2024*) (IDR-billion): 12,974
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 1,279
+  - Increase (Decrease) 2024-2025 Percentage (%): 9.9
+  - 2024 (IDR-billion): 12,975
+  - 2023 (IDR-billion): 4,893
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 8,082
+  - Increase (Decrease) 2023-2024 Percentage (%): 165.2
+
+- Borrowings:
+  - 2025 (IDR-billion): 39,040
+  - 2024*) (IDR-billion): 42,931
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (3,891)
+  - Increase (Decrease) 2024-2025 Percentage (%): (9.1)
+  - 2024 (IDR-billion): 42,931
+  - 2023 (IDR-billion): 30,950
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 11,981
+  - Increase (Decrease) 2023-2024 Percentage (%): 38.7
+
+- Subordinated Securities:
+  - 2025 (IDR-billion): 18,340
+  - 2024*) (IDR-billion): 17,699
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 641
+  - Increase (Decrease) 2024-2025 Percentage (%): 3.6
+  - 2024 (IDR-billion): 17,699
+  - 2023 (IDR-billion): 16,929
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 770
+  - Increase (Decrease) 2023-2024 Percentage (%): 4.5
+
+334

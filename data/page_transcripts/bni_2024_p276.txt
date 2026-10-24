@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+- Kinerja Rasio Keuangan BNI Ventures
+- Profitabilitas Segmen Perusahaan Anak
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tabel 1: Pos Akun, 2024* (%), 2023 (%), Kenaikan (Penurunan) %
+- Tabel 2: Pos Akun, 2024 (Rp-miliar), 2023 (Rp-miliar), Kenaikan (Penurunan) Nominal (Rp-miliar), Kenaikan (Penurunan) Persentase (%)
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Return On Asset (ROA), 2024* (%): 1,4
+- Return On Asset (ROA), 2023 (%): 0,8
+- Return On Asset (ROA), Kenaikan (Penurunan) %: 0,6
+- Return On Equity (ROE), 2024* (%): 1,4
+- Return On Equity (ROE), 2023 (%): 0,8
+- Return On Equity (ROE), Kenaikan (Penurunan) %: 0,6
+
+- Pendapatan bunga - bersih, 2024 (Rp-miliar): 990
+- Pendapatan bunga - bersih, 2023 (Rp-miliar): 632
+- Pendapatan bunga - bersih, Kenaikan (Penurunan) Nominal (Rp-miliar): 358
+- Pendapatan bunga - bersih, Kenaikan (Penurunan) Persentase (%): 56,6
+
+- Pendapatan premi - bersih, 2024 (Rp-miliar): 1.724
+- Pendapatan premi - bersih, 2023 (Rp-miliar): 1.659
+- Pendapatan premi - bersih, Kenaikan (Penurunan) Nominal (Rp-miliar): 65
+- Pendapatan premi - bersih, Kenaikan (Penurunan) Persentase (%): 3,9
+
+- Pendapatan operasional lainnya, 2024 (Rp-miliar): 989
+- Pendapatan operasional lainnya, 2023 (Rp-miliar): 872
+- Pendapatan operasional lainnya, Kenaikan (Penurunan) Nominal (Rp-miliar): 117
+- Pendapatan operasional lainnya, Kenaikan (Penurunan) Persentase (%): 13,4
+
+- Pembentukan cadangan penurunan nilai, 2024 (Rp-miliar): (230)
+- Pembentukan cadangan penurunan nilai, 2023 (Rp-miliar): (125)
+- Pembentukan cadangan penurunan nilai, Kenaikan (Penurunan) Nominal (Rp-miliar): (105)
+- Pembentukan cadangan penurunan nilai, Kenaikan (Penurunan) Persentase (%): 84,0
+
+- Beban operasional lainnya, 2024 (Rp-miliar): (2.792)
+- Beban operasional lainnya, 2023 (Rp-miliar): (2.444)
+- Beban operasional lainnya, Kenaikan (Penurunan) Nominal (Rp-miliar): (348)
+- Beban operasional lainnya, Kenaikan (Penurunan) Persentase (%): 14,2

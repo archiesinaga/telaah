@@ -1,0 +1,15 @@
+1. Judul atau keterangan:
+Struktur dan Komposisi Pemegang Saham [ACGS C.1.2]
+
+2. Label, legenda, satuan, dan periode:
+- Pemerintah Republik Indonesia
+- Masyarakat
+- BNI Melayani Negeri, Kebanggaan Bangsa
+- Legenda: 
+  - Jalur Pengendali
+  - Jalur Non Pengendali
+
+3. Angka yang tertera:
+- Pemerintah Republik Indonesia: 60%
+- Masyarakat: 40%
+- 168

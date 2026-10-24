@@ -1,0 +1,67 @@
+Judul: Consolidated IRRBB Calculation Report with Subsidiaries
+
+Satuan: IDR billion
+
+Tabel:
+Kolom:
+- Period
+- Δ EVE (dengan sub-kolom T dan T-1)
+- Δ NII (dengan sub-kolom T dan T-1)
+
+Baris 1 (Parallel Up):
+- T (Δ EVE): -2,857,653
+- T-1 (Δ EVE): -3,355,014
+- T (Δ NII): -5,028,298
+- T-1 (Δ NII): -4,696,511
+
+Baris 2 (Parallel Down):
+- T (Δ EVE): 4,747,109
+- T-1 (Δ EVE): 7,516,912
+- T (Δ NII): 5,558,784
+- T-1 (Δ NII): 5,812,344
+
+Baris 3 (Steepener):
+- T (Δ EVE): -10,164,100
+- T-1 (Δ EVE): -6,649,508
+- T (Δ NII): (tidak terbaca/kosong)
+- T-1 (Δ NII): (tidak terbaca/kosong)
+
+Baris 4 (Flattener):
+- T (Δ EVE): 7,829,836
+- T-1 (Δ EVE): 6,231,892
+- T (Δ NII): (tidak terbaca/kosong)
+- T-1 (Δ NII): (tidak terbaca/kosong)
+
+Baris 5 (Short Rate Up):
+- T (Δ EVE): 4,512,424
+- T-1 (Δ EVE): 3,187,295
+- T (Δ NII): (tidak terbaca/kosong)
+- T-1 (Δ NII): (tidak terbaca/kosong)
+
+Baris 6 (Short Rate Down):
+- T (Δ EVE): -7,232,449
+- T-1 (Δ EVE): -2,252,049
+- T (Δ NII): (tidak terbaca/kosong)
+- T-1 (Δ NII): (tidak terbaca/kosong)
+
+Baris 7 (Absolute Negative Maximum Value):
+- T (Δ EVE): 10,164,100
+- T-1 (Δ EVE): 6,649,508
+- T (Δ NII): 5,028,298
+- T-1 (Δ NII): 4,696,511
+
+Baris 8 (Tier 1 Capital (for Δ EVE) or Projected Income (for Δ NII)):
+- T (Δ EVE): 160,884,905
+- T-1 (Δ EVE): 152,509,195
+- T (Δ NII): 41,253,129
+- T-1 (Δ NII): 40,398,816
+
+Baris 9 (Maximum amount divided by Tier 1 capital (for Δ EVE) or Projected Income (for Δ NII)):
+- T (Δ EVE): 6.32%
+- T-1 (Δ EVE): 4.36%
+- T (Δ NII): 12.19%
+- T-1 (Δ NII): 11.63%
+
+Keterangan:
+- T = Reporting Period December 2025
+- T - 1 = Reporting Period September 2025

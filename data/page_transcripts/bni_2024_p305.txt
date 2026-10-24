@@ -1,0 +1,23 @@
+Giro pada Bank Lain
+Pos Akun, 2024 Jumlah (Rp-miliar): Rupiah 192, Valuta Asing 21.882, Cadangan kerugian penurunan nilai -, Jumlah – neto 22.074
+Pos Akun, 2024 Komposisi (%): Rupiah 0,9, Valuta Asing 99,1, Cadangan kerugian penurunan nilai -, Jumlah – neto 100,0
+Pos Akun, 2023 Jumlah (Rp-miliar): Rupiah 602, Valuta Asing 34.421, Cadangan kerugian penurunan nilai -, Jumlah – neto 35.023
+Pos Akun, 2023 Komposisi (%): Rupiah 1,7, Valuta Asing 98,3, Cadangan kerugian penurunan nilai -, Jumlah – neto 100,0
+Pos Akun, 2022 Jumlah (Rp-miliar): Rupiah 385, Valuta Asing 15.537, Cadangan kerugian penurunan nilai -, Jumlah – neto 15.922
+Pos Akun, 2022 Komposisi (%): Rupiah 2,4, Valuta Asing 97,6, Cadangan kerugian penurunan nilai -, Jumlah – neto 100,0
+Pos Akun, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): Rupiah (410), Valuta Asing (12.539), Cadangan kerugian penurunan nilai -, Jumlah – neto (12.949)
+Pos Akun, Kenaikan (Penurunan) 2023-2024 Persentase (%): Rupiah (68,1), Valuta Asing (36,4), Cadangan kerugian penurunan nilai -, Jumlah – neto (37,0)
+Pos Akun, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): Rupiah 217, Valuta Asing 18.884, Cadangan kerugian penurunan nilai -, Jumlah – neto 19.101
+Pos Akun, Kenaikan (Penurunan) 2022-2023 Persentase (%): Rupiah 56,4, Valuta Asing 121,5, Cadangan kerugian penurunan nilai -, Jumlah – neto 120,0
+
+Penempatan pada Bank Lain dan Bank Indonesia
+Pos Akun, 2024 Jumlah (Rp-miliar): Deposit 10.125, Call money 3.142, Deposito berjangka 3.809, Negotiable Certificate Deposits -, Cadangan kerugian penurunan nilai -, Jumlah – neto 17.076
+Pos Akun, 2024 Komposisi (%): Deposit 59,3, Call money 18,4, Deposito berjangka 22,3, Negotiable Certificate Deposits -, Cadangan kerugian penurunan nilai -, Jumlah – neto 100,0
+Pos Akun, 2023 Jumlah (Rp-miliar): Deposit 39.429, Call money 1.364, Deposito berjangka 2.963, Negotiable Certificate Deposits 38, Cadangan kerugian penurunan nilai -, Jumlah – neto 43.794
+Pos Akun, 2023 Komposisi (%): Deposit 90,0, Call money 3,1, Deposito berjangka 6,8, Negotiable Certificate Deposits 0,1, Cadangan kerugian penurunan nilai -, Jumlah – neto 100,0
+Pos Akun, 2022 Jumlah (Rp-miliar): Deposit 49.389, Call money 911, Deposito berjangka 1.269, Negotiable Certificate Deposits -, Cadangan kerugian penurunan nilai -, Jumlah – neto 51.569
+Pos Akun, 2022 Komposisi (%): Deposit 95,8, Call money 1,8, Deposito berjangka 2,5, Negotiable Certificate Deposits -, Cadangan kerugian penurunan nilai -, Jumlah – neto 100,0
+Pos Akun, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): Deposit (29.304), Call money 1.778, Deposito berjangka 846, Negotiable Certificate Deposits (38), Cadangan kerugian penurunan nilai -, Jumlah – neto (26.718)
+Pos Akun, Kenaikan (Penurunan) 2023-2024 Persentase (%): Deposit (74,3), Call money 130,4, Deposito berjangka 28,6, Negotiable Certificate Deposits (100), Cadangan kerugian penurunan nilai -, Jumlah – neto (61,0)
+Pos Akun, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): Deposit (9.960), Call money 453, Deposito berjangka 1.694, Negotiable Certificate Deposits 38, Cadangan kerugian penurunan nilai -, Jumlah – neto (7.775)
+Pos Akun, Kenaikan (Penurunan) 2022-2023 Persentase (%): Deposit (20,2), Call money 49,7, Deposito berjangka 133,5, Negotiable Certificate Deposits 100,0, Cadangan kerugian penurunan nilai -, Jumlah – neto (15,1)

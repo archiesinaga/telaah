@@ -1,0 +1,45 @@
+(ID billion)
+December 31, 2024
+Receivables by Past Due Days
+> 90 days until 120 days: g
+> 120 days until 180 days: h
+> 180 days: i
+Total: j
+
+1,135,521
+2,401,620
+7,840,994
+11,378,135
+
+316,989
+-
+-
+316,989
+
+1,452,510
+2,401,620
+7,840,994
+11,695,124
+
+(ID billion)
+December 31, 2024
+Receivables by Past Due Days
+> 90 days until 120 days: g
+> 120 days until 180 days: h
+> 180 days: i
+Total: j
+
+1,138,807
+2,401,784
+7,922,186
+11,462,777
+
+316,989
+-
+-
+316,989
+
+1,455,796
+2,401,784
+7,922,186
+11,779,766

@@ -1,0 +1,85 @@
+Tabel 1:
+Judul: Pos Akun
+Label sumbu, legenda, satuan, dan periode:
+- 2024* (Rp-miliar)
+- 2023 (Rp-miliar)
+- Kenaikan (Penurunan) Nominal (Rp-miliar)
+- Kenaikan (Penurunan) Persentase (%)
+
+Semua angka:
+Pendapatan Operasional lainnya:
+- 2024*: 66
+- 2023: 27
+- Kenaikan Nominal: 39
+- Kenaikan Persentase: 144,4
+
+Total Pendapatan Operasional:
+- 2024*: 445
+- 2023: 199
+- Kenaikan Nominal: 246
+- Kenaikan Persentase: 123,6
+
+Total Beban Operasional:
+- 2024*: (306)
+- 2023: (220)
+- Kenaikan Nominal: (86)
+- Kenaikan Persentase: 39,1
+
+PPOP:
+- 2024*: 139
+- 2023: (21)
+- Kenaikan Nominal: 160
+- Kenaikan Persentase: 761,9
+
+Provisi:
+- 2024*: (194)
+- 2023: (90)
+- Kenaikan Nominal: (104)
+- Kenaikan Persentase: 115,6
+
+Pendapatan (Beban) Lain:
+- 2024*: 11
+- 2023: 5
+- Kenaikan Nominal: 6
+- Kenaikan Persentase: 120,0
+
+Laba/(Rugi) Bersih Setelah Pajak:
+- 2024*: 1,7
+- 2023: (102)
+- Kenaikan Nominal: 104
+- Kenaikan Persentase: 101,7
+
+
+Tabel 2:
+Judul: Kinerja Rasio Keuangan BNI Finance
+Label sumbu, legenda, satuan, dan periode:
+- Pos Akun
+- 2024* (%)
+- 2023 (%)
+- Kenaikan (Penurunan) %
+
+Semua angka:
+Non Performing Financing (NPF) (%):
+- 2024*: 3,2
+- 2023: 1,8
+- Kenaikan (Penurunan) %: 1,4
+
+Return on Asset (ROA) (%):
+- 2024*: (0,8)
+- 2023: (5,4)
+- Kenaikan (Penurunan) %: 4,6
+
+Return on Equity (ROE) (%):
+- 2024*: 0,2
+- 2023: (31,6)
+- Kenaikan (Penurunan) %: 31,8
+
+Beban Operasional Terhadap Pendapatan Operasional (BOPO) (%):
+- 2024*: 107,5
+- 2023: 137,7
+- Kenaikan (Penurunan) %: (30,2)
+
+Debt Equity Ratio (DER) (kali):
+- 2024*: 6
+- 2023: 3,2
+- Kenaikan (Penurunan) %: 2,8

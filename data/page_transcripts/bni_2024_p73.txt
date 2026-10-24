@@ -1,0 +1,18 @@
+1. Judul atau keterangan:
+- PILAR KEBERLANJUTAN
+- BNI UNTUK INDONESIA Menjalankan bisnis perusahaan dengan mengintegrasikan kepentingan ekonomi, sosial, dan lingkungan hidup serta tata kelola.
+- BNI UNTUK PEGAWAI Menciptakan kondisi terbaik bagi pegawai sebagai tempat kebanggaan untuk berkarya dan berprestasi.
+- BNI UNTUK MASYARAKAT Meningkatkan kepedulian dan tanggung jawab kepada segenap lapisan masyarakat yang sejalan dengan pengembangan bisnis.
+- BNI UNTUK LINGKUNGAN Meningkatkan kualitas lingkungan hidup yang sejalan dengan pengembangan bisnis.
+- BNI UNTUK NASABAH Memberikan layanan prima, solusi digital, dan perlindungan keamanan seluruh nasabah.
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada sumbu, legenda, satuan, atau periode yang tercetak.
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Angka pada ikon SDGs (pilar BNI UNTukan Indonesia): 7, 8, 9, 11, 12, 13, 14, 15
+- Angka pada ikon SDGs (pilar BNI Untuk Pegawai): 3, 4, 5
+- Angka pada ikon SDGs (pilar BNI Untuk Masyarakat): 1, 2, 3, 4, 5, 6, 11
+- Angka pada ikon SDGs (pilar BNI Untuk Lingkungan): 11, 12, 13, 14, 15
+- Angka pada ikon SDGs (pilar BNI Untuk Nasabah): 9, 10
+- Angka pada footer: 2024, 71

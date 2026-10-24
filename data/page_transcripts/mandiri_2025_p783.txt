@@ -1,0 +1,11 @@
+1. Judul atau keterangan:
+Identifikasi Risiko Operasional, Penilaian Risiko Operasional, Pemantuan Risiko Operasional, Pengendalian/Mitigasi Risiko Operasional.
+
+2. Label sumbu, legenda, satuan, dan periode:
+Tidak ada
+
+3. Angka yang tertera:
+1: Identifikasi Risiko Operasional
+2: Penilaian Risiko Operasional
+3: Pemantauan Risiko Operasional
+4: Pengendalian/Mitigasi Risiko Operasional

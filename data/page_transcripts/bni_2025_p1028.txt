@@ -1,0 +1,29 @@
+1. Judul atau keterangan: BNI Financial Conglomerate Structure
+2. Label sumbu, legenda, satuan, dan periode: Tidak ada sumbu atau legenda; terdapat tahun pendirian dan persentase kepemilikan untuk masing-masing entitas.
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- BNI finance: 1983 | 99,99%
+- BNI Sekuritas: 1995 | 75,00%
+- BNI Life: 1996 | 60,00%
+- BNI Remittance: 1996 | 100%
+- hibank: 2022 | 63,92%
+- BNI Ventures: 2022 | 99,98%
+- Pension Fund: 1960
+- Pension Fund: 1993
+- BNI Asset Management: 2011 | 99,90%
+- BNI Securities: 2021 | 100,00%
+- General Insurance (TRIPA): 2017 | 62,86%
+
+Judul tabel: Risk Classification Quadrant of State-Owned Enterprises (SOEs) and SOE Subsidiaries
+Kolom: Risk Management Organs, Systemic A, Systemic B, Significant, Neutral
+Isi tabel:
+- Board of Commissioners (Supervisory Board): Systemic A: √, Systemic B: √, Significant: √, Neutral: √
+- Board of Directors: Systemic A: √, Systemic B: √, Significant: √, Neutral: √
+- Audit Committee: Systemic A: √, Systemic B: √, Significant: √, Neutral: √
+- Risk Monitoring Committee (KPR): Systemic A: √, Systemic B: √, Significant: √, Neutral: Served concurrently by the Audit Committee
+- Integrated Governance Committee: Systemic A: √, Systemic B: Served concurrently by KPR, Significant: Served concurrently by KPR, Neutral: (kosong)
+- Board of Directors in Charge of Management: Systemic A: √, Systemic B: √, Significant: Concurrently held by the Director in charge of Financial Management, Neutral: Concurrently held by the Director in charge of Financial Management
+- Board of Directors in Charge of Financial Management: Systemic A: √, Systemic B: √, Significant: √, Neutral: √
+- SPI (Internal Audit Function): Systemic A: √, Systemic B: √, Significant: √, Neutral: √
+
+Nomor halaman:
+1026

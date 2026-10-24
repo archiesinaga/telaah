@@ -1,0 +1,32 @@
+1. Judul: CASA
+- Keterangan: IDR726.0 trillion, up 28.9% from IDR563.3 trillion in the previous year.
+
+2. Judul: LOANS
+- Keterangan: IDR899.5 trillion, up 15.9% from IDR775.9 trillion in the previous year.
+
+3. Judul: Wholesale Segment Transaction Banking
+- Sub-judul: Number of BNIDirect Users (in thousands)
+  - Angka: 24.8% yoy
+  - 2024: 210
+  - 2025: 262
+- Sub-judul: Number of BNIDirect Transactions (in millions)
+  - Angka: 14.0% yoy
+  - 2024: 1,272
+  - 2025: 1,451
+
+4. Judul: Retail Segment Transaction Banking
+- Legenda:
+  - BNI Mobile Banking
+  - wondr by BNI
+- Sub-judul: Number of Users (in millions)
+  - Angka: 27% yoy
+  - 2024 (BNI Mobile Banking): 18.1
+  - 2024 (wondr by BNI): 5.3
+  - 2025 (BNI Mobile Banking): 17.6
+  - 2025 (wondr by BNI): 12.1
+- Sub-judul: Number of Transactions (in millions)
+  - Angka: 35% yoy
+  - 2024 (BNI Mobile Banking): 1,464.4
+  - 2024 (wondr by BNI): 206.1
+  - 2025 (BNI Mobile Banking): 928.0
+  - 2025 (wondr by BNI): 1,344.7

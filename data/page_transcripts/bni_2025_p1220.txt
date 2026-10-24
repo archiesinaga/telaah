@@ -1,0 +1,50 @@
+1. Judul atau keterangan:
+- Portion of Allocation (%)
+- 2025
+- Environmental and Social Impacts
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan (%)
+- Legenda diagram lingkaran:
+  - Renewable Energy
+  - Green Transportation
+  - Green Building
+  - Waste to Energy and Waste Management
+  - Use of Natural Resources and Sustainable Use of Land
+- Kategori dan Satuan Dampak:
+  - Renewable Energy:
+    - Avoided GHG Emission per year ((tCO_eq/year))
+    - Energy produced per year ((MWh/year))
+  - Sustainable Transportation:
+    - Avoided GHG Emission per year ((tCO_eq/year))
+    - Energy saving per year (GJ)
+  - Green Buildings:
+    - Avoided GHG Emission per year ((tCO_eq/year))
+  - Waste to Energy and Waste Management:
+    - Avoided GHG Emission per year ((tCO_eq/year))
+    - Total waste recycled ((Tonne/year))
+  - Sustainable Natural Resources & Land Use:
+    - Avoided GHG Emission per year ((tCO_eq/year))
+    - Total trees planted in reforestation projects (Trees)
+    - Total hectares protected and/or certified (Ha)
+- Periode: 2025
+
+3. Semua angka yang tertera, apa adanya:
+- Portion of Allocation (%):
+  - Renewable Energy: 40.16
+  - Use of Natural Resources and Sustainable Use of Land: 5.60
+  - Waste to Energy and Waste Management: 1.66
+  - Green Building: 6.10
+  - Green Transportation: 46.48
+- Environmental and Social Impacts:
+  - Renewable Energy - Avoided GHG Emission per year: 1,626,666
+  - Renewable Energy - Energy produced per year: 1,771,833
+  - Sustainable Transportation - Avoided GHG Emission per year: 23,741
+  - Sustainable Transportation - Energy saving per year: 341,019
+  - Green Buildings - Avoided GHG Emission per year: 7,869
+  - Waste to Energy and Waste Management - Avoided GHG Emission per year: 249,976
+  - Waste to Energy and Waste Management - Total waste recycled: 1,543,090
+  - Sustainable Natural Resources & Land Use - Avoided GHG Emission per year: 626,342
+  - Sustainable Natural Resources & Land Use - Total trees planted in reforestation projects: 55,899
+  - Sustainable Natural Resources & Land Use - Total hectares protected and/or certified: 314,387
+  - Nomor halaman: 1218

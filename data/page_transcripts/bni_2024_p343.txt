@@ -1,0 +1,202 @@
+Pinjaman yang Direstruktursand per Kolektibilitas
+Satuan: Rp-miliar
+Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+
+Lancar:
+- 2024: 34.478
+- 2023: 40.863
+- 2022: 62.684
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (6.385)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (15,6)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (21.821)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (34,8)
+
+Dalam Perhatian Khusus:
+- 2024: 25.255
+- 2023: 29.500
+- 2022: 19.183
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (4.245)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (14,4)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 10.317
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): 53,8
+
+Kurang Lancar:
+- 2024: 2.954
+- 2023: 2.388
+- 2022: 2.804
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 566
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): 23,7
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (416)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (14,8)
+
+Diragukan:
+- 2024: 667
+- 2023: 678
+- 2022: 723
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (11)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (1,6)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (45)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (6,2)
+
+Macet:
+- 2024: 3.404
+- 2023: 2.362
+- 2022: 6.665
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 1.042
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): 44,1
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (4.303)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (64,6)
+
+Jumlah:
+- 2024: 66.758
+- 2023: 75.791
+- 2022: 92.059
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9.033)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (11,9)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (16.268)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (17,7)
+
+Pinjaman yang Direstruktursand per Jenis Sektor Usaha
+Satuan: Rp-miliar
+Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+
+Jasa dunia usaha:
+- 2024: 6.942
+- 2023: 9.129
+- 2022: 11.250
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (2.187)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (24,0)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (2.121)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (18,9)
+
+Jasa pelayanan sosial:
+- 2024: 823
+- 2023: 995
+- 2022: 1.339
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (172)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (17,3)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (344)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (25,7)
+
+Konstruksi:
+- 2024: 13.093
+- 2023: 13.156
+- 2022: 14.570
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (63)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (0,5)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (1.414)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (9,7)
+
+Lain-lain:
+- 2024: 3.546
+- 2023: 3.765
+- 2022: 6.908
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (219)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (5,8)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (3.143)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (45,5)
+
+Listrik, gas, dan air:
+- 2024: 788
+- 2023: 364
+- 2022: 428
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 424
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): 116,5
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (64)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (15,0)
+
+Pengangkutan, pergudangan, dan Komunikasi:
+- 2024: 5.279
+- 2023: 5.258
+- 2022: 6.963
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 21
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): 0,4
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (1.705)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (24,5)
+
+Perdagangan, Restoran dan hotel:
+- 2024: 9.406
+- 2023: 13.292
+- 2022: 19.741
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (3.886)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (29,2)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (6.449)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (32,7)
+
+Pertambangan:
+- 2024: 5.771
+- 2023: 7.743
+- 2022: 1.283
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (1.972)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (25,5)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 6.460
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): 503,5
+
+Perindustrian:
+- 2024: 19.517
+- 2023: 19.073
+- 2022: 24.557
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 444
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): 2,3
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (5.484)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (22,3)
+
+Pertanian:
+- 2024: 1.593
+- 2023: 3.016
+- 2022: 5.020
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (1.423)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (47,2)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (2.004)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (39,9)
+
+Jumlah:
+- 2024: 66.758
+- 2023: 75.791
+- 2022: 92.059
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9.033)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (11,9)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (16.268)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (17,7)
+
+Pinjaman yang Direstruktursand per Jenis Peruntukan
+Satuan: Rp-miliar
+Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+
+Kredit Modal Kerja:
+- 2024: 50.651
+- 2023: 54.956
+- 2022: 60.116
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (4.305)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (7,8)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (5.160)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (8,6)
+
+Kredit Investasi:
+- 2024: 12.561
+- 2023: 17.095
+- 2022: 26.191
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (4.534)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (26,5)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (9.096)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (34,7)
+
+Kredit Konsumtif:
+- 2024: 3.546
+- 2023: 3.740
+- 2022: 5.752
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (194)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (5,2)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (2.012)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (35,0)
+
+Jumlah:
+- 2024: 66.758
+- 2023: 75.791
+- 2022: 92.059
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9.033)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (11,9)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (16.268)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (17,7)
+
+Nomor halaman: 341

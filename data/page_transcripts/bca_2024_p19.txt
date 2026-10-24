@@ -1,0 +1,33 @@
+1. Judul atau keterangan:
+- ASEAN Corporate Governance Scorecard Rating
+- Juara Umum Annual Report Award 2023
+- Best Overall IICD Award 2024
+- MSCI Indonesia Index Top 10 Constituents
+- Thomson Reuters - Refinitiv Skor ESG
+- Dow Jones Sustainability Index S&P Global CSA
+- FTSE4Good ASEAN 5 Index Top 10 Constituents
+- FIHRRST Best Sustainability Report
+- BCA masuk daftar konstituen: IDX ESG Leaders Index, SRI - KEHATI Index, ESG Quality 45 IDX - KEHATI, ESG Sector Leaders IDX - KEHATI
+- ISO 27001:2013 untuk Enterprise Security
+- ISO 20000-1:2018 untuk IT service management & data center
+- ISO 27001:2013 untuk data center network & operation
+- PCI DSS 3.2.1 Certification untuk BCA data center (global data security)
+- ISO 9001-2015 untuk data center operations & quality management system
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Grafik ASEAN Corporate Governance Scorecard Rating: Sumbu X (Periode) mencakup tahun 2017, 2019, 2021. Legenda: BCA, Rata-rata.
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2017 - BCA: 85,2
+- 2017 - Rata-rata: 67,0
+- 2019 - BCA: 101,9
+- 2019 - Rata-rata: 70,0
+- 2021 - BCA: 106,6
+- 2021 - Rata-rata: 77,0
+- Thomson Reuters - Refinitiv Skor ESG - Rating A
+- Thomson Reuters - Refinitiv Skor ESG - Skor 86/100
+- Dow Jones Sustainability Index S&P Global CSA - Skor 50
+- Dow Jones Sustainability Index S&P Global CSA - Persentil 80
+- FIHRRST Best Sustainability Report - Rating A+
+- Laporan Tahunahan 2024: 2024
+- PT Bank Central Asia Tbk: 17

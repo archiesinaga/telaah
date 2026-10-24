@@ -1,0 +1,72 @@
+6 Kantor Luar Negeri:
+- New York, Amerika Serikat
+- London, Inggris
+- Seoul, Korea Selatan
+- Tokyo, Jepang
+- Hong Kong
+- Singapura
+
+1 Kantor Sub-Branch Luar Negeri:
+- Osaka, Jepang
+
+1 Kantor Remittance:
+- Singapura
+
+2 Kantor Perwakilan:
+- 1 Amsterdam, Belanda
+- 1 Sydney, Australia
+
+9 ATM:
+- 8 Hong Kong
+- 1 Singapura
+
+Ringkasan Jaringan BNI:
+- Kantor Pusat: 1
+- Kantor Wilayah: 17
+- Kantor Cabang: 197
+- Kantor Cabang Pembantu: 1.583
+- Commercial Business Center: 20
+- Retail Productive Business Center: 26
+- Consumer Loan Processing Center: 12
+- BNI DigiCS: 330
+- ATM/CRM: 13.388
+- BNI Agen46: 213.370
+
+W14 (Jakarta BSD):
+- 10 Kantor Cabang: 10
+- 109 Kantor Cabang Pembantu: 109
+- 1 Commercial Business Center: 1
+- 2 Retail Productive Business Center: 2
+- 1.285 ATM/CRM: 1.285
+- 12.347 BNI Agen46: 12.347
+
+W16 (Papua):
+- 5 Kantor Cabang: 5
+- 37 Kantor Cabang Pembantu: 37
+- 171 ATM/CRM: 171
+- 5.950 BNI Agen46: 5.950
+
+W18 (Malang):
+- 14 Kantor Cabang: 14
+- 69 Kantor Cabang Pembantu: 69
+- 861 ATM/CRM: 861
+- 20.497 BNI Agen46: 20.497
+
+W15 (Jakarta Kemayoran):
+- 8 Kantor Cabang: 8
+- 110 Kantor Cabang Pembantu: 110
+- 2 Commercial Business Center: 2
+- 3 Retail Productive Business Center: 3
+- 992 ATM/CRM: 992
+- 7.819 BNI Agen46: 7.819
+
+W17 (Yogyakarta):
+- 15 Kantor Cabang: 15
+- 97 Kantor Cabang Pembantu: 97
+- 1 Commercial Business Center: 1
+- 2 Retail Productive Business Center: 2
+- 1 Consumer Loan Processing Center: 1
+- 906 ATM/CRM: 906
+- 16.416 BNI Agen46: 16.416
+
+Laporan Tahunan 2024 PT Bank Negara Indonesia (Persero) Tbk: 95

@@ -1,0 +1,82 @@
+1. Judul atau keterangan:
+- Kualitas Aset
+- Pinjaman yang Direstrukturisasi berdasarkan Kategori Restrukturisasi
+
+2. Label, satuan, dan periode:
+- Tabel 1:
+  - Kolom Perihal, 2024 (%), 2023 (%), 2022 (%), Selisih 2023-2024 (%), Selisih 2022-2023 (%)
+  - Baris: Non-Performing Loan (NPL) Neto, Non-Performing Loan (NPL) Gross, Non-Performing Loan (NPL) Coverage Ratio/Rasio Kecukupan Pencadangan Kerugian terhadap Pinjaman yang Bermasalah
+- Tabel 2:
+  - Kolom Kategori, 2024 (Rp-miliar), 2023 (Rp-miliar), 2022 (Rp-miliar), Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar), Kenaikan (Penurunan) 2023-2024 Persentase (%), Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar), Kenaikan (Penurunan) 2022-2023 Persentase (%)
+  - Baris: Penurunan suku bunga kredit, Perpanjangan jangka waktu kredit, Skema restrukturisasi lainnya, Jumlah, Cadangan kerugian penurunan nilai, Jumlah – neto
+
+3. Angka yang tertera:
+- Tabel 1 (Kualitas Aset):
+  - Non-Performing Loan (NPL) Neto:
+    - 2024 (%): 0,7
+    - 2023 (%): 0,6
+    - 2022 (%): 0,5
+    - Selisih 2023-2024 (%): 0,1
+    - Selisih 2022-2023 (%): 0,1
+  - Non-Performing Loan (NPL) Gross:
+    - 2024 (%): 2,0
+    - 2023 (%): 2,1
+    - 2022 (%): 2,8
+    - Selisih 2023-2024 (%): (0,1)
+    - Selisih 2022-2023 (%): (0,7)
+  - Non-Performing Loan (NPL) Coverage Ratio/Rasio Kecukupan Pencadangan Kerugian terhadap Pinjaman yang Bermasalah:
+    - 2024 (%): 255,8
+    - 2023 (%): 319,0
+    - 2022 (%): 278,3
+    - Selisih 2023-2024 (%): (63,2)
+    - Selisih 2022-2023 (%): 40,7
+
+- Tabel 2 (Pinjaman yang Direstrukturisasi berdasarkan Kategori Restrukturisasi):
+  - Penurunan suku bunga kredit:
+    - 2024 (Rp-miliar): 25.710
+    - 2023 (Rp-miliar): 23.729
+    - 2022 (Rp-miliar): 27.824
+    - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 1.981
+    - Kenaikan (Penurunan) 2023-2024 Persentase (%): 8,3
+    - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (4,095)
+    - Kenaikan (Penurunan) 2022-2023 Persentase (%): (14,7)
+  - Perpanjangan jangka waktu kredit:
+    - 2024 (Rp-miliar): 24.754
+    - 2023 (Rp-miliar): 25.940
+    - 2022 (Rp-miliar): 26.100
+    - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (1.186)
+    - Kenaikan (Penurunan) 2023-2024 Persentase (%): (4,6)
+    - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (160)
+    - Kenaikan (Penurunan) 2022-2023 Persentase (%): (0,6)
+  - Skema restrukturisasi lainnya:
+    - 2024 (Rp-miliar): 16.294
+    - 2023 (Rp-miliar): 26.122
+    - 2022 (Rp-miliar): 38.135
+    - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9.828)
+    - Kenaikan (Penurunan) 2023-2024 Persentase (%): (37,6)
+    - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (12,013)
+    - Kenaikan (Penurunan) 2022-2023 Persentase (%): (31,5)
+  - Jumlah:
+    - 2024 (Rp-miliar): 66.758
+    - 2023 (Rp-miliar): 75.791
+    - 2022 (Rp-miliar): 92.059
+    - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9.033)
+    - Kenaikan (Penurunan) 2023-2024 Persentase (%): (11,9)
+    - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (16,268)
+    - Kenaikan (Penurunan) 2022-2023 Persentase (%): (17,7)
+  - Cadangan kerugian penurunan nilai:
+    - 2024 (Rp-miliar): (27.930)
+    - 2023 (Rp-miliar): (33.615)
+    - 2022 (Rp-miliar): (36.560)
+    - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 5.685
+    - Kenaikan (Penurunan) 2023-2024 Persentase (%): (16,9)
+    - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 2.945
+    - Kenaikan (Penurunan) 2022-2023 Persentase (%): (8,1)
+  - Jumlah – neto:
+    - 2024 (Rp-miliar): 38.829
+    - 2023 (Rp-miliar): 42.176
+    - 2022 (Rp-miliar): 55.499
+    - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (3.347)
+    - Kenaikan (Penurunan) 2023-2024 Persentase (%): (7,9)
+    - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (13.323)
+    - Kenaikan (Penurunan) 2022-2023 Persentase (%): (24,0)

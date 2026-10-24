@@ -1,0 +1,11 @@
+1. Judul atau keterangan:
+- Dana Investasi yang Dikelola Tresuri (Portofolio Tresuri): Rp 372,6 triliun
+- Komposisi terhadap total aset: 25,7%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Legenda/Label: Rp 372,6 triliun, 25,7%
+
+3. Angka yang tertera:
+- Rp 372,6 triliun
+- 25,7%

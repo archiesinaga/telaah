@@ -1,0 +1,52 @@
+1. Judul atau keterangan:
+- Profit Before Income Tax (IDR billion)
+- Total Comprehensive Profit for the Current Period (IDR billion)
+- Earnings per Share Attributed to Owners of the Parent Entity
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: IDR billion (untuk grafik batang pertama dan kedua), IDR-billion, million shares, full amount** (untuk tabel)
+- Periode: 2023, 2024, 2024*), 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+Grafik 1 (Profit Before Income Tax):
+- 2023: 25,640
+- 2024: 26,580
+- 2024*): 26,569
+- 2025: 24,397
+
+Grafik 2 (Total Comprehensive Profit for the Current Period):
+- 2023: 21,780
+- 2024: 22,666
+- 2024*): 22,700
+- 2025: 23,716
+
+Tabel (Earnings per Share Attributed to Owners of the Parent Entity):
+- Profit for the current year attributable to Equity Holder of the Parent Entity (IDR billion):
+  - 2025 (IDR-billion): 20,111
+  - 2024*) (IDR-billion): 21,464
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): (1,353)
+  - Increase (Decrease) 2024-2025 Percentage (%): (6,3)
+  - 2024 (IDR-billion): 21,464
+  - 2023**) (%): 20,909
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 555
+  - Increase (Decrease) 2023-2024 Percentage (%): 2,7
+
+- Weighted average number of ordinary shares outstanding (million shares):
+  - 2025 (IDR-billion): 37,297
+  - 2024*) (IDR-billion): 37,290
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 7
+  - Increase (Decrease) 2024-2025 Percentage (%): 0,0
+  - 2024 (IDR-billion): 37,290
+  - 2023**) (%): 37,257
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 33
+  - Increase (Decrease) 2023-2024 Percentage (%): 0,1
+
+- Basic earnings per share attributable to Equity Holder of the Parent Entity (full amount)**:
+  - 2025 (IDR-billion): 537
+  - 2024*) (IDR-billion): 576
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): (39)
+  - Increase (Decrease) 2024-2025 Percentage (%): (6,8)
+  - 2024 (IDR-billion): 576
+  - 2023**) (%): 561
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 15
+  - Increase (Decrease) 2023-2024 Percentage (%): 2,7

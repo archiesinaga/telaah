@@ -1,0 +1,36 @@
+Judul Tabel:
+Pos Akun | 2024* (Rp-miliar) | 2023 (Rp-miliar) | Kenaikan (Penurunan) Nominal (Rp-miliar) | Kenaikan (Penurunan) Persentase (%)
+
+Periode:
+2024*, 2023
+
+Satuan:
+Rp-miliar, %
+
+Data Tabel:
+Posisi Keuangan
+- Aset: 2024* 17.799, 2023 14.599, Kenaikan (Penurunan) Nominal 3.200, Kenaikan (Penurunan) Persentase 21,9
+- Penempatan pada BI: 2024* 1.948, 2023 1.900, Kenaikan (Penurunan) Nominal 48, Kenaikan (Penurunan) Persentase 2,5
+- Penempatan pada Bank Lain: 2024* 1.338, 2023 655, Kenaikan (Penurunan) Nominal 683, Kenaikan (Penurunan) Persentase 104,3
+- Surat Berharga: 2024* 2.773, 2023 5.569, Kenaikan (Penurunan) Nominal (2.796), Kenaikan (Penurunan) Persentase (50,2)
+- Loan: 2024* 10.561, 2023 6.018, Kenaikan (Penurunan) Nominal 4.543, Kenaikan (Penurunan) Persentase 75,5
+- CKPN: 2024* (174), 2023 (139), Kenaikan (Penurunan) Nominal (35), Kenaikan (Penurunan) Persentase 25,2
+- Liabilitas: 2024* 13.202, 2023 10.128, Kenaikan (Penurunan) Nominal 3.074, Kenaikan (Penurunan) Persentase 30,3
+- Dana Pihak Ketiga: 2024* 12.643, 2023 9.500, Kenaikan (Penurunan) Nominal 3.143, Kenaikan (Penurunan) Persentase 33,1
+- Giro: 2024* 4.426, 2023 2.566, Kenaikan (Penurunan) Nominal 1.860, Kenaikan (Penurunan) Persentase 72,5
+- Tabungan: 2024* 840, 2023 979, Kenaikan (Penurunan) Nominal (139), Kenaikan (Penurunan) Persentase (14,2)
+- Deposito: 2024* 7.377, 2023 5.955, Kenaikan (Penurunan) Nominal 1.422, Kenaikan (Penurunan) Persentase 23,9
+- Ekuitas: 2024* 4.597, 2023 4.470, Kenaikan (Penurunan) Nominal 127, Kenaikan (Penurunan) Persentase 2,8
+
+Laba Rugi
+- Pendapatan Operasional: 2024* 701, 2023 547, Kenaikan (Penurunan) Nominal 154, Kenaikan (Penurunan) Persentase 28,2
+- Pendapatan Bunga Bersih: 2024* 632, 2023 524, Kenaikan (Penurunan) Nominal 108, Kenaikan (Penurunan) Persentase 20,6
+- Pendapatan Bunga: 2024* 1.144, 2023 846, Kenaikan (Penurunan) Nominal 298, Kenaikan (Penurunan) Persentase 35,2
+- Beban Bunga: 2024* (512), 2023 (321), Kenaikan (Penurunan) Nominal (190), Kenaikan (Penurunan) Persentase 59,5
+- Pendapatan Operasional Lainnya: 2024* 69, 2023 23, Kenaikan (Penurunan) Nominal 46, Kenaikan (Penurunan) Persentase 200,0
+- Beban Operasional: 2024* (496), 2023 (352), Kenaikan (Penurunan) Nominal (144), Kenaikan (Penurunan) Persentase 40,9
+- Pendapatan Operasional Sebelum Pencadangan: 2024* 205, 2023 195, Kenaikan (Penurunan) Nominal 10, Kenaikan (Penurunan) Persentase 5,1
+- Provisi: 2024* (36), 2023 (32), Kenaikan (Penurunan) Nominal (4), Kenaikan (Penurunan) Persentase 12,5
+- Laba (Rugi) Operasional: 2024* 169, 2023 163, Kenaikan (Penurunan) Nominal 6, Kenaikan (Penurunan) Persentase 3,7
+- Laba (Rugi) Non Operasional: 2024* 1, 2023 4, Kenaikan (Penurunan) Nominal (3), Kenaikan (Penurunan) Persentase (80,0)
+- Laba (Rugi) Setelah Pajak: 2024* 132, 2023 130, Kenaikan (Penurunan) Nominal 2, Kenaikan (Penurunan) Persentase 1,5

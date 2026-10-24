@@ -1,0 +1,11 @@
+1. Judul atau keterangan:
+- Portofolio Kredit Komersial & UKM
+- Pertumbuhan Kredit Komersial & UKM (YoY)
+
+2. Label, satuan, dan periode:
+- Satuan: Rp ... triliun, %
+- Periode: YoY
+
+3. Angka yang tertera:
+- Portofolio Kredit Komersial & UKM: 261,7 triliun
+- Pertumbuhan Kredit Komersial & UKM (YoY): 11,6%

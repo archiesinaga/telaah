@@ -1,0 +1,50 @@
+1. Judul atau keterangan:
+Nilai Investasi Barang Modal yang Dikeluarkan
+Tabel berikut menjelaskan rincian nilai investasi barang modal.
+
+2. Label, legenda, satuan, dan periode:
+- Satuan: Rp-miliar dan Persentase (%)
+- Periode: 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024, Kenaikan (Penurunan) 2022-2023
+- Kolom: Jenis Investasi Barang Modal, 2024 (Rp-miliar), 2023 (Rp-miliar), 2022 (Rp-miliar), Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar), Kenaikan (Penurunan) 2023-2024 Persentase (%), Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar), Kenaikan (Penurunan) 2022-2023 Persentase (%)
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Bangunan dan Tanah:
+  - 2024: 1.689
+  - 2023: 1.027
+  - 2022: 404
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 662
+  - Kenaikan (Penurunan) 2023-2024 Persentase: 64,5
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 623
+  - Kenaikan (Penurunan) 2022-2023 Persentase: 154,2
+- Perabotan Otomasi:
+  - 2024: 1.869
+  - 2023: 1.236
+  - 2022: 899
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 633
+  - Kenaikan (Penurunan) 2023-2024 Persentase: 51,2
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 337
+  - Kenaikan (Penurunan) 2022-2023 Persentase: 37,5
+- Perabotan Non Otomasi:
+  - 2024: 274
+  - 2023: 207
+  - 2022: 146
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 67
+  - Kenaikan (Penurunan) 2023-2024 Persentase: 32,4
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 61
+  - Kenaikan (Penurunan) 2022-2023 Persentase: 41,8
+- Kendaraan:
+  - 2024: 62
+  - 2023: 1
+  - 2022: 3
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 61
+  - Kenaikan (Penurunan) 2023-2024 Persentase: 6.100,0
+  - Kenaikan (Penurunan) 2022-2023 Nominal: (2)
+  - Kenaikan (Penurunan) 2022-2023 Persentase: (66,7)
+- Jumlah:
+  - 2024: 3.894
+  - 2023: 2.471
+  - 2022: 1.452
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 1.423
+  - Kenaikan (Penurunan) 2023-2024 Persentase: 57,6
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 1.019
+  - Kenaikan (Penurunan) 2022-2023 Persentase: 70,2

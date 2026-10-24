@@ -1,0 +1,35 @@
+Total Assets
+(IDR billion)
+2023: 1,086,664
+2024: 1,129,806
+2024*): 1,130,129
+2025: 1,362,055
+
+Account | 2025 (IDR-billion) | 2024*) (IDR-billion) | Increase (Decrease) 2024-2025 Nominal (IDR-billion) | Increase (Decrease) 2024-2025 Percentage (%) | 2024 (IDR-billion) | 2023 (IDR-billion) | Increase (Decrease) 2023-2024 Nominal (IDR-billion) | Increase (Decrease) 2023-2024 Percentage (%)
+Financial Assets | | | | | | | |
+Cash | 13,352 | 13,710 | (358) | (2.6) | 13,710 | 11,207 | 2,503 | 22.3
+Current accounts with Bank Indonesia | 79,989 | 51,669 | 28,320 | 54.8 | 51,669 | 65,256 | (13,587) | (20.8)
+Current accounts with other banks - Net | 25,938 | 22,074 | 3,864 | 17.5 | 22,074 | 35,023 | (12,949) | (37.0)
+Placements with other banks and Bank Indonesia - Net | 33,780 | 17,076 | 16,704 | 97.8 | 17,076 | 43,794 | (26,718) | (61.0)
+Marketable securities - Net | 63,017 | 48,534 | 14,483 | 29.8 | 48,534 | 37,165 | 11,369 | 30.6
+Securities purchased under agreements to resell - Net | 6,911 | 7,972 | (1,061) | (13.3) | 7,972 | 13,951 | (5,979) | (42.9)
+Bills and other receivables - Net | 13,453 | 13,243 | 210 | 1.6 | 13,243 | 18,999 | (5,756) | (30.3)
+Acceptance Receivables - Net | 19,449 | 15,926 | 3,523 | 22.1 | 15,926 | 17,091 | (1,165) | (6.8)
+Derivative Receivables | 5,422 | 1,793 | 3,629 | 202.4 | 1,793 | 996 | 797 | 80.0
+Loans disbursed | 899,531 | 775,872 | 123,659 | 15.9 | 775,872 | 695,085 | 80,787 | 11.6
+CKPN Loans disbursed | (35,861) | (38,685) | 2,824 | (7.3) | (38,685) | (47,158) | 8,473 | (18.0)
+Government Bonds - Net | 163,510 | 132,069 | 31,441 | 23.8 | 132,069 | 127,099 | 4,970 | 3.9
+Equity Investments - Net | 652 | 637 | 15 | 2.4 | 637 | 564 | 73 | 12.9
+Other Assets- Net | 18,941 | 14,136 | 4,805 | 34.0 | 14,107 | 16,972 | (2,865) | (16.9)
+Insurance and Reinsurance Contract Assets | 81 | 99 | (18) | (18.2) | - | - | - | -
+Total Financial Assets | 1,308,165 | 1,076,125 | 232,041 | 21.6 | 1,075,997 | 1,036,044 | 39,953 | 3.9
+Non Financial Assets | | | | | | | |
+Prepaid Taxes | 3,090 | 19 | 3,071 | 16,163.2 | 19 | 643 | (624) | (97.0)
+Prepaid Expenses | 2,275 | 2,941 | (666) | (22.6) | 2,941 | 2,743 | 198 | 7.2
+Investments in Associates | 14,354 | 12,748 | 1,606 | 12.6 | 12,748 | 11,284 | 1,464 | 13.0
+Fixed Assets - Net | 31,113 | 30,408 | 705 | 2.3 | 30,408 | 27,765 | 2,643 | 9.5
+Intangible assets | 742 | 743 | (1) | (0.1) | 743 | 744 | (1) | (0.1)
+Deferred Tax Assets - Net | 2,316 | 7,145 | (4,829) | (67.6) | 6,950 | 7,441 | (491) | (6.6)
+Total Non- Financial Assets | 53,890 | 54,004 | (114) | (0.2) | 53,809 | 50,620 | 3,189 | 6.3
+Total Assets | 1,362,055 | 1,130,129 | (231,926) | 20.5 | 1,129,806 | 1,086,664 | 43,142 | 4.0
+Total Earning Assets | 1,408,227 | 1,161,387 | 246,840 | 21.3 | 1,161,387 | 1,085,279 | 76,108 | 7.0

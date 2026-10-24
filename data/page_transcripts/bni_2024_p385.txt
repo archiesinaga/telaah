@@ -1,0 +1,13 @@
+Pembayaran Bunga Green Bond
+Bunga Ke-, Seri A: Tanggal Pembayaran Bunga Obligasi, Seri A: Bunga (%), Seri B: Tanggal Pembayaran Bunga Obligasi, Seri B: Bunga (%)
+10, 21 Desember 2024: 6,35%, 21 Desember 2025: 6,85%
+11, 21 Maret 2025: 6,35%, 21 Maret 2026: 6,85%
+12, 21 Juni 2025: 6,35%, 21 Juni 2026: 6,85%
+13, , 21 September 2025: 6,85%
+14, , 21 Desember 2025: 6,85%
+15, , 21 Maret 2026: 6,85%
+16, , 21 Juni 2026: 6,85%
+17, , 21 September 2026: 6,85%
+18, , 21 Desember 2026: 6,85%
+19, , 21 Maret 2027: 6,85%
+20, , 21 Juni 2027: 6,85%

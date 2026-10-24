@@ -1,0 +1,10 @@
+Judul: Analysis of Net Credit Risk due to Counterparty Failure Based on the Approach Used
+Satuan: (IDR billion)
+
+Tabel:
+No: 1, a Replacement Cost (RC): 18,238,311, b Potential Future Exposure (PFE): 1,711,166, c EEPE: tidak terbaca, d Alpha used for regulatory EAD calculations: 1.4, e Net Receivables: 27,929,268, f ATMR: 13,967,319
+No: 2, a Replacement Cost (RC): tidak terbaca, b Potential Future Exposure (PFE): tidak terbaca, c EEPE: tidak terbaca, d Alpha used for regulatory EAD calculations: tidak terbaca, e Net Receivables: tidak terbaca, f ATMR: tidak terbaca
+No: 3, a Replacement Cost (RC): tidak terbaca, b Potential Future Exposure (PFE): tidak terbaca, c EEPE: tidak terbaca, d Alpha used for regulatory EAD calculations: tidak terbaca, e Net Receivables: tidak terbaca, f ATMR: tidak terbaca
+No: 4, a Replacement Cost (RC): tidak terbaca, b Potential Future Exposure (PFE): tidak terbaca, c EEPE: tidak terbaca, d Alpha used for regulatory EAD calculations: tidak terbaca, e Net Receivables: tidak terbaca, f ATMR: tidak terbaca
+No: 5, a Replacement Cost (RC): tidak terbaca, b Potential Future Exposure (PFE): tidak terbaca, c EEPE: tidak terbaca, d Alpha used for regulatory EAD calculations: tidak terbaca, e Net Receivables: tidak terbaca, f ATMR: tidak terbaca
+No: 6, Total: 13,967,319

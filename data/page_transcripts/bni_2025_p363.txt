@@ -1,0 +1,29 @@
+1. Judul atau keterangan:
+2. Bank Solvency: Ability to Pay Long-Term Debt
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: (%)
+- Periode: 2025, 2024, 2023, Difference 2024-2025, Difference 2023-2024
+- Label Baris / Deskripsi: 
+  - Capital Adequacy Ratio (CAR)-Tier I
+  - Capital Adequacy Ratio (CAR)-Tier II
+  - Capital Adequacy Ratio (CAR) (Loan, Market and Operational Risk)
+
+3. Semua angka yang tertera, apa adanya:
+- Capital Adequacy Ratio (CAR)-Tier I, 2025 (%): 19.4
+- Capital Adequacy Ratio (CAR)-Tier I, 2024 (%): 20.0
+- Capital Adequacy Ratio (CAR)-Tier I, 2023 (%): 20.3
+- Capital Adequacy Ratio (CAR)-Tier I, Difference 2024-2025 (%): (0.6)
+- Capital Adequacy Ratio (CAR)-Tier I, Difference 2023-2024 (%): (0.3)
+
+- Capital Adequacy Ratio (CAR)-Tier II, 2025 (%): 1.2
+- Capital Adequacy Ratio (CAR)-Tier II, 2024 (%): 1.4
+- Capital Adequacy Ratio (CAR)-Tier II, 2023 (%): 1.7
+- Capital Adequacy Ratio (CAR)-Tier II, Difference 2024-2025 (%): (0.2)
+- Capital Adequacy Ratio (CAR)-Tier II, Difference 2023-2024 (%): (0.3)
+
+- Capital Adequacy Ratio (CAR) (Loan, Market and Operational Risk), 2025 (%): 20.7
+- Capital Adequacy Ratio (CAR) (Loan, Market and Operational Risk), 2024 (%): 21.4
+- Capital Adequacy Ratio (CAR) (Loan, Market and Operational Risk), 2023 (%): 22.0
+- Capital Adequacy Ratio (CAR) (Loan, Market and Operational Risk), Difference 2024-2025 (%): (0.7)
+- Capital Adequacy Ratio (CAR) (Loan, Market and Operational Risk), Difference 2023-2024 (%): (0.6)

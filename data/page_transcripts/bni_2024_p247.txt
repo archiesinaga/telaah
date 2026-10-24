@@ -1,0 +1,53 @@
+1. Judul atau keterangan:
+Profitabilitas Segmen Retail Banking
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2024 dan 2023
+- Satuan: 
+  - Rp-miliar (untuk kolom Profitabilitas, 2024, 2023, dan Kenaikan (Penurunan) Nominal)
+  - % (untuk kolom Kenaikan (Penurunan) Persentase)
+- Baris tabel (Profitabilitas):
+  - Pendapatan bunga – neto
+  - Pendapatan operasional lainnya
+  - Beban operasional lainnya
+  - Pembentukan cadangan kerugian penurunan nilai
+  - Laba operasional
+  - Pendapatan (beban) bukan operasional neto
+  - Laba sebelum beban pajak
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Pendapatan bunga – neto:
+  - 2024: 20.890
+  - 2023: 20.114
+  - Kenaikan (Penurunan) Nominal: 776
+  - Kenaikan (Penurunan) Persentase: 3,9
+- Pendapatan operasional lainnya:
+  - 2024: 10.332
+  - 2023: 9.890
+  - Kenaikan (Penurunan) Nominal: 442
+  - Kenaikan (Penurunan) Persentase: 4,5
+- Beban operasional lainnya:
+  - 2024: (15.289)
+  - 2023: (13.587)
+  - Kenaikan (Penurunan) Nominal: (1.702)
+  - Kenaikan (Penurunan) Persentase: 12,5
+- Pembentukan cadangan kerugian penurunan nilai:
+  - 2024: (6.698)
+  - 2023: (6.523)
+  - Kenaikan (Penurunan) Nominal: (175)
+  - Kenaikan (Penurunan) Persentase: 2,7
+- Laba operasional:
+  - 2024: 9.235
+  - 2023: 9.894
+  - Kenaikan (Penurunan) Nominal: (659)
+  - Kenaikan (Penurunan) Persentase: (6,7)
+- Pendapatan (beban) bukan operasional neto:
+  - 2024: -
+  - 2023: -
+  - Kenaikan (Penurunan) Nominal: -
+  - Kenaikan (Penurunan) Persentase: -
+- Laba sebelum beban pajak:
+  - 2024: 9.235
+  - 2023: 9.894
+  - Kenaikan (Penurunan) Nominal: (659)
+  - Kenaikan (Penurunan) Persentase: (6,7)

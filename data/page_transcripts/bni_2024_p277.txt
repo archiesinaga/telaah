@@ -1,0 +1,37 @@
+1. Judul atau keterangan:
+Tabel "Pos Akun" dengan periode 2024 (Rp-miliar), 2023 (Rp-miliar), dan Kenaikan (Penurunan) Nominal (Rp-miliar) serta Persentase (%).
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: Rp-miliar dan Persentase (%)
+Periode: 2024 dan 2023
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Laba operasional, 2024: 681
+- Laba operasional, 2023: 594
+- Laba operasional, Kenaikan (Penurunan) Nominal: 87
+- Laba operasional, Kenaikan (Penurunan) Persentase: 14,6
+- Pendapatan (beban) bukan operasional – bersih, 2024: (119)
+- Pendapatan (beban) bukan operasional – bersih, 2023: (111)
+- Pendapatan (beban) bukan operasional – bersih, Kenaikan (Penurunan) Nominal: (8)
+- Pendapatan (beban) bukan operasional – bersih, Kenaikan (Penurunan) Persentase: 7,4
+- Laba sebelum beban pajak, 2024: 561
+- Laba sebelum beban pajak, 2023: 483
+- Laba sebelum beban pajak, Kenaikan (Penurunan) Nominal: 78
+- Laba sebelum beban pajak, Kenaikan (Penurunan) Persentase: 16,1
+- Beban pajak, 2024: (53)
+- Beban pajak, 2023: (62)
+- Beban pajak, Kenaikan (Penurunan) Nominal: 9
+- Beban pajak, Kenaikan (Penurunan) Persentase: (14,5)
+- Laba bersih, 2024: 509
+- Laba bersih, 2023: 421
+- Laba bersih, Kenaikan (Penurunan) Nominal: 88
+- Laba bersih, Kenaikan (Penurunan) Persentase: 20,9
+- Total Aset, 2024: 52.994
+- Total Aset, 2023: 46.283
+- Total Aset, Kenaikan (Penurunan) Nominal: 6.711
+- Total Aset, Kenaikan (Penurunan) Persentase: 14,5
+- Total Liabilitas, 2024: 39.400
+- Total Liabilitas, 2023: 32.940
+- Total Liabilitas, Kenaikan (Penurunan) Nominal: 6.460
+- Total Liabilitas, Kenaikan (Penurunan) Persentase: 19,6
+- Nomor halaman di pojok kanan bawah: 275

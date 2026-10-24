@@ -1,0 +1,15 @@
+1. Judul atau keterangan: Kinerja Rasio Keuangan hibank
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: (%)
+- Periode: 2024*, 2023
+- Kolom Kenaikan (Penurunan) %
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Return On Asset (ROA) | 2024* (%): 1,1 | 2023 (%): 1,3 | Kenaikan (Penurunan) %: (0,2)
+- Return On Equity (ROE) | 2024* (%): 3,1 | 2023 (%): 2,9 | Kenaikan (Penurunan) %: 0,2
+- Beban Operasional Terhadap Pendapatan Operasional (BOPO) | 2024* (%): 86,1 | 2023 (%): 81,2 | Kenaikan (Penurunan) %: 4,9
+- Current Account Saving Account (CASA) | 2024* (%): 41,7 | 2023 (%): 37,3 | Kenaikan (Penurunan) %: 4,4
+- Net Interest Margin (NIM) | 2024* (%): 4,3 | 2023 (%): 4,5 | Kenaikan (Penurunan) %: (0,2)
+- Loan to Deposit Ratio (LDR) | 2024* (%): 83,5 | 2023 (%): 63,3 | Kenaikan (Penurunan) %: 20,2
+- Cost of Fund (COF) | 2024* (%): 4,5 | 2023 (%): 3,8 | Kenaikan (Penurunan) %: 0,7
+- Capital Adequacy Ratio (CAR) | 2024* (%): 47,2 | 2023 (%): 86,2 | Kenaikan (Penurunan) %: (39,0)

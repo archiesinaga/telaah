@@ -1,0 +1,15 @@
+1. Judul atau keterangan:
+- Share Ownership Structure of PT Asuransi Tri Pakarta
+- (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: (%)
+- Legenda:
+  - BNI Pension Fund
+  - PT Asuransi Wahana Tata
+  - PT Tri Handayani Utama
+
+3. Angka yang tertera:
+- BNI Pension Fund: 62.86
+- PT Asuransi Wahana Tata: 25
+- PT Tri Handayani Utama: 12.14

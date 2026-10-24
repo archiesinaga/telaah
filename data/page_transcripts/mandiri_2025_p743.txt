@@ -1,0 +1,19 @@
+1. Judul atau keterangan:
+- .1a Laporan disampaikan langsung ke KPK melalui GOL KPK (tembusan ke UPG)
+- .1b Login/Submit
+- Cek Status
+- .2 Email Notifikasi
+- .3 Review & Verifikasi
+- .4
+- .5 Upload Surat Penetapan Gratifikasi
+- .6 Surat Penetapan Gratifikasi
+- Pelapor
+- mandiri
+- KPK Komisi Pemberantasan Korupsi
+- UPG
+
+2. Label sumbu, legenda, satuan, dan periode:
+(Tidak ada label sumbu, legenda, satuan, atau periode yang tercetak pada diagram)
+
+3. Semua angka yang tertera:
+(Tidak ada angka yang tercetak di dalam gambar, kecuali nomor titik alur: .1a, .1b, .2, .3, .4, .5, .6)

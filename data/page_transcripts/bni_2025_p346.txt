@@ -1,0 +1,132 @@
+Tabel: Interest Income
+
+Kolom Header:
+- Account
+- 2025: Total (IDR-billion), Composition (%)
+- 2024*): Total (IDR-billion), Composition (%)
+- Increase (Decrease) 2024-2025: Nominal (IDR-billion), Percentage (%)
+- 2024: Total (IDR-billion), Composition (%)
+- 2023: Total (IDR-billion), Composition (%)
+- Increase (Decrease) 2023-2024: Nominal (IDR-billion), Percentage (%)
+
+Baris Data:
+1. Loans disbursed
+- 2025 Total (IDR-billion): 57,957
+- 2025 Composition (%): 83.5
+- 2024*) Total (IDR-billion): 55,681
+- 2024*) Composition (%): 83.6
+- Increase (Decrease) 2024-2025 Nominal (IDR-billion): 2,276
+- Increase (Decrease) 2024-2025 Percentage (%): 4.1
+- 2024 Total (IDR-billion): 55,681
+- 2024 Composition (%): 83.6
+- 2023 Total (IDR-billion): 50,753
+- 2023 Composition (%): 82.6
+- Increase (Decrease) 2023-2024 Nominal (IDR-billion): 4,928
+- Increase (Decrease) 2023-2024 Percentage (%): 9.7
+
+2. Government Bonds and securities
+- 2025 Total (IDR-billion): 7,957
+- 2025 Composition (%): 11.5
+- 2024*) Total (IDR-billion): 7,245
+- 2024*) Composition (%): 10.9
+- Increase (Decrease) 2024-2025 Nominal (IDR-billion): 712
+- Increase (Decrease) 2024-2025 Percentage (%): 9.8
+- 2024 Total (IDR-billion): 7,245
+- 2024 Composition (%): 10.9
+- 2023 Total (IDR-billion): 6,695
+- 2023 Composition (%): 10.9
+- Increase (Decrease) 2023-2024 Nominal (IDR-billion): 550
+- Increase (Decrease) 2023-2024 Percentage (%): 8.2
+
+3. Placements with other banks and Bank Indonesia
+- 2025 Total (IDR-billion): 2,414
+- 2025 Composition (%): 3.5
+- 2024*) Total (IDR-billion): 2,282
+- 2024*) Composition (%): 3.4
+- Increase (Decrease) 2024-2025 Nominal (IDR-billion): 132
+- Increase (Decrease) 2024-2025 Percentage (%): 5.8
+- 2024 Total (IDR-billion): 2,282
+- 2024 Composition (%): 3.4
+- 2023 Total (IDR-billion): 2,781
+- 2023 Composition (%): 4.5
+- Increase (Decrease) 2023-2024 Nominal (IDR-billion): (499)
+- Increase (Decrease) 2023-2024 Percentage (%): (17.9)
+
+4. Bills and other receivables
+- 2025 Total (IDR-billion): 1,057
+- 2025 Composition (%): 1.5
+- 2024*) Total (IDR-billion): 1,133
+- 2024*) Composition (%): 1.7
+- Increase (Decrease) 2024-2025 Nominal (IDR-billion): (76)
+- Increase (Decrease) 2024-2025 Percentage (%): (6.7)
+- 2024 Total (IDR-billion): 1,133
+- 2024 Composition (%): 1.7
+- 2023 Total (IDR-billion): 1,091
+- 2023 Composition (%): 1.8
+- Increase (Decrease) 2023-2024 Nominal (IDR-billion): 42
+- Increase (Decrease) 2023-2024 Percentage (%): 3.8
+
+5. Others
+- 2025 Total (IDR-billion): 9
+- 2025 Composition (%): 0.0
+- 2024*) Total (IDR-billion): 242
+- 2024*) Composition (%): 0.4
+- Increase (Decrease) 2024-2025 Nominal (IDR-billion): (233)
+- Increase (Decrease) 2024-2025 Percentage (%): (96.3)
+- 2024 Total (IDR-billion): 242
+- 2024 Composition (%): 0.4
+- 2023 Total (IDR-billion): 152
+- 2023 Composition (%): 0.2
+- Increase (Decrease) 2023-2024 Nominal (IDR-billion): 90
+- Increase (Decrease) 2023-2024 Percentage (%): 59.2
+
+6. Total
+- 2025 Total (IDR-billion): 69,394
+- 2025 Composition (%): 100.0
+- 2024*) Total (IDR-billion): 66,583
+- 2024*) Composition (%): 100.0
+- Increase (Decrease) 2024-2025 Nominal (IDR-billion): 2,811
+- Increase (Decrease) 2024-2025 Percentage (%): 4.2
+- 2024 Total (IDR-billion): 66,583
+- 2024 Composition (%): 100.0
+- 2023 Total (IDR-billion): 61,472
+- 2023 Composition (%): 100.0
+- Increase (Decrease) 2023-2024 Nominal (IDR-billion): 5,111
+- Increase (Decrease) 2023-2024 Percentage (%): 8.3
+
+Kaki Tabel:
+*) Restatement
+
+---
+
+Grafik: Komposisi Interest Income (Berdasarkan Tahun dan Kategori)
+
+Legenda:
+- Loans disbursed
+- Government Bonds and securities
+- Placements with other banks and Bank Indonesia
+- Bills and other receivables
+- Others
+
+Periode dan Nilai (dalam %):
+
+2025:
+- Loans disbursed: 83.5
+- Government Bonds and securities: 11.5
+- Placements with other banks and Bank Indonesia: 3.5
+- Bills and other receivables: 1.5
+- Others: 0.0
+
+2024:
+- Loans disbursed: 83.6
+- Government Bonds and securities: 10.9
+- Placements with other banks and Bank Indonesia: 3.4
+- Bills and other receivables: 1.7
+- Others: 0.4
+
+2023:
+- Loans disbursed: 82.6
+- Government Bonds and securities: 10.9
+- Placements with other banks and Bank Indonesia: 4.5
+- Bills and other receivables: 1.8
+- Others: 0.2

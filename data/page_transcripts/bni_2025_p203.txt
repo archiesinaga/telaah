@@ -1,0 +1,33 @@
+1. Judul atau keterangan:
+- BNI Remittance: 1996 | 100.00%
+- Angka: 40.00%
+- hibank: 2022 | 63.92%
+- Angka: 36.08%
+- BNI Ventures: 2023 | 99.98%
+- Angka: 0.02%
+- Angka: 1.50%
+- Angka: 1.00%
+- Central Custodian (ksei): 1998 | 2.50%
+- Banking (MIZUHO): 2003 | 1.00%
+- Banking (SMBC): 2024 | 0.11%
+- Banking (BSI): 2021 | 23.24%
+- Clearing (iDClear): 2024 | 1.11%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 1996, 2022, 2023, 1998, 2003, 2024, 2021
+- Satuan: % (Persen)
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- BNI Remittance: 1996 | 100.00%
+- Lingkaran merah (kiri): 40.00%
+- hibank: 2022 | 63.92%
+- Lingkaran merah (tengah): 36.08%
+- BNI Ventures: 2023 | 99.98%
+- Lingkaran biru: 0.02%
+- Lingkaran hijau (kiri): 1.50%
+- Lingkaran biru tua (kiri): 1.00%
+- Central Custodian (ksei): 1998 | 2.50%
+- Banking (MIZUHO): 2003 | 1.00%
+- Banking (SMBC): 2024 | 0.11%
+- Banking (BSI): 2021 | 23.24%
+- Clearing (iDClear): 2024 | 1.11%

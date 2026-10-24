@@ -1,0 +1,38 @@
+1. Judul atau keterangan:
+- Struktur Kepemilikan Saham BNI Sekuritas
+- (%)
+- Legenda: BNI, SBI Financial Service Co., Ltd
+- Kinerja Keuangan BNI Sekuritas
+- Pos Akun
+- 2024* (Rp-miliar)
+- 2023 (Rp-miliar)
+- Kenaikan (Penurunan) Nominal (Rp-miliar)
+- Kenaikan (Penurunan) Persentase (%)
+
+2. Angka-angka pada diagram lingkaran (Struktur Kepemilikan Saham BNI Sekuritas):
+- BNI: 75%
+- SBI Financial Service Co., Ltd: 25%
+
+3. Angka-angka pada tabel (Kinerja Keuangan BNI Sekuritas):
+Neraca:
+- Aset: 2024*: 1.983; 2023: 2.377; Nominal: (394); Persentase: (16,6)
+- Kewajiban: 2024*: 681; 2023: 1.206; Nominal: (525); Persentase: (43,5)
+- Ekuitas: 2024*: 1.302; 2023: 1.172; Nominal: 130; Persentase: 11,1
+
+Laba/Rugi:
+- Pendapatan Operasional: 2024*: 699; 2023: 586; Nominal: 113; Persentase: 19,3
+- Brokerage commissions: 2024*: 200; 2023: 119; Nominal: 81; Persentase: 68,1
+- Investment management fees: 2024*: 98; 2023: 115; Nominal: (17); Persentase: (14,8)
+- Brokerage comm. from fix income activities: 2024*: 29; 2023: 46; Nominal: (17); Persentase: (37,0)
+- Fees from investment banking activities: 2024*: 299; 2023: 257; Nominal: 42; Persentase: 16,3
+- Increase/(decrease) on net asset value of mutual funds: 2024*: 3; 2023: 1; Nominal: 2; Persentase: 200,0
+- Interest revenue from fund separation & bond & dividend: 2024*: 26; 2023: 15; Nominal: 11; Persentase: 73,3
+- Gain (Loss) on trading of marketable securities - net: 2024*: 10; 2023: 9; Nominal: 1; Persentase: 11,1
+- Margin and overdue revenue: 2024*: 22; 2023: 14; Nominal: 8; Persentase: 57,1
+- Pendapatan Operasional Lainnya: 2024*: 12; 2023: 9; Nominal: 3; Persentase: 33,3
+- Biaya Usaha: 2024*: (594); 2023: (498); Nominal: (96); Persentase: 19,3
+- Pendapatan Lain-lain: 2024*: 31; 2023: 25; Nominal: 6; Persentase: 24,0
+- Biaya Bunga dan Keuangan Lainnya: 2024*: (35); 2023: (23); Nominal: (12); Persentase: 52,2
+
+Nomor halaman:
+- 264

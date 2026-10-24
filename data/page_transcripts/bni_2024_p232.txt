@@ -1,0 +1,61 @@
+Komposisi Laba Rugi per Segmen Operasi
+(%)
+Legenda:
+- Wholesale & International Banking
+- Institutional Banking
+- Enterprises & Commercial Banking
+- Retail Banking
+- Treasury
+- Kantor Pusat
+- Perusahaan Anak
+
+Tahun 2023:
+- Wholesale & International Banking: 55,2%
+- Institutional Banking: 5,0%
+- Enterprises & Commercial Banking: 11,4%
+- Retail Banking: 46,9%
+- Treasury: 11,1%
+- Kantor Pusat: (31,1)%
+- Perusahaan Anak: 2,0%
+
+Tahun 2024:
+- Wholesale & International Banking: 57,9%
+- Institutional Banking: 7,9%
+- Enterprises & Commercial Banking: 12,3%
+- Retail Banking: 42,6%
+- Treasury: 12,7%
+- Kantor Pusat: (35,5)%
+- Perusahaan Anak: 2,3%
+
+Kredit per Segmen Operasi
+Segmen Operasi | 2024 Rp-miliar | % | 2023 Rp-miliar | % | Kenaikan (Penurunan) Nominal (Rp-miliar) | Kenaikan (Penurunan) Persentase (%)
+- Wholesale & International Banking | 405.376 | 52,2 | 353.141 | 50,8 | 52.235 | 14,8 | ↑
+- Institutional Banking | 37.523 | 4,8 | 16.017 | 2,3 | 21.506 | 134,3 | ↑
+- Enterprises & Commercial Banking | 100.117 | 12,9 | 105.519 | 15,2 | (5.402) | (5,1) | ↓
+- Retail Banking | 218.534 | 28,2 | 213.235 | 30,7 | 5.299 | 2,5 | ↑
+- Perusahaan Anak | 16.247 | 2,1 | 9.043 | 1,3 | 7.204 | 79,7 | ↑
+- Penyesuaian dan eliminasi | (1.925) | (0,2) | (1.870) | (0,3) | (55) | 2,9 | ↓
+- Total Kredit Segmen Operasi | 775.872 | 100,0 | 695.085 | 100,0 | 80.787 | 11,6 | ↑
+
+Komposisi Kredit per Segmen Operasi
+(%)
+Legenda:
+- Wholesale & International Banking
+- Institutional Banking
+- Enterprises & Commercial Banking
+- Retail Banking
+- Perusahaan Anak
+
+Tahun 2023:
+- Wholesale & International Banking: 50,8%
+- Institutional Banking: 2,3%
+- Enterprises & Commercial Banking: 15,2%
+- Retail Banking: 30,7%
+- Perusahaan Anak: 1,3%
+
+Tahun 2024:
+- Wholesale & International Banking: 52,2%
+- Institutional Banking: 4,8%
+- Enterprises & Commercial Banking: 12,9%
+- Retail Banking: 28,2%
+- Perusahaan Anak: 2,1%

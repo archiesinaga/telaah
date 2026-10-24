@@ -1,0 +1,24 @@
+1. Judul atau keterangan: Kinerja BNI Agen46
+2. Label sumbu, legenda, satuan, dan periode:
+- Kolom: 2024, 2023, Kenaikan (Penurunan) - Nominal, Kenaikan (Penurunan) - Persentase (%)
+- Baris 1: Jumlah BNI Agen46 (agen)
+- Baris 2: Jumlah Transaksi (Rp-juta)
+- Baris 3: Fee Based Income (Rp-miliar)
+- Baris 4: DPK BNI Agen46 (Rp-triliun)
+3. Semua angka yang tertera:
+- 2024 - Jumlah BNI Agen46 (agen): 213.370
+- 2023 - Jumlah BNI Agen46 (agen): 185.697
+- Kenaikan (Penurunan) Nominal - Jumlah BNI Agen46 (agen): 27.673
+- Kenaikan (Penurunan) Persentase (%) - Jumlah BNI Agen46 (agen): 14,9
+- 2024 - Jumlah Transaksi (Rp-juta): 79,4
+- 2023 - Jumlah Transaksi (Rp-juta): 85,5
+- Kenaikan (Penurunan) Nominal - Jumlah Transaksi (Rp-juta): (6,1)
+- Kenaikan (Penurunan) Persentase (%) - Jumlah Transaksi (Rp-juta): (7,1)
+- 2024 - Fee Based Income (Rp-miliar): 225,8
+- 2023 - Fee Based Income (Rp-miliar): 92,2
+- Kenaikan (Penurunan) Nominal - Fee Based Income (Rp-miliar): 133,7
+- Kenaikan (Penurunan) Persentase (%) - Fee Based Income (Rp-miliar): 144,9
+- 2024 - DPK BNI Agen46 (Rp-triliun): 4,8
+- 2023 - DPK BNI Agen46 (Rp-triliun): 3,7
+- Kenaikan (Penurunan) Nominal - DPK BNI Agen46 (Rp-triliun): 1,2
+- Kenaikan (Penurunan) Persentase (%) - DPK BNI Agen46 (Rp-triliun): 29,7

@@ -1,0 +1,84 @@
+(dalam jutaan Rupiah)
+
+Posisi Tanggal Laporan (Desember 2024)
+Nilai Tercatat berdasarkan Sisa Jangka Waktu
+Tanpa Jangka Waktu:
+- Baris 1: 264.429.302
+- Baris 2: -
+- Baris 3: 538.346.260
+- Baris 4: 155.192.761
+- Baris 5: 223.234.686
+- Baris 6: 404.739
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 85.144
+
+< 6 Bulan:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: 154.823.698
+- Baris 4: 12.485.765
+- Baris 5: -
+- Baris 6: 29.493.301
+- Baris 7: -
+- Baris 8: 35.415
+- Baris 9: 34.679.515
+
+≥ 6 Bulan - < 1 Tahun:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 330.199
+
+≥ 1 Tahun:
+- Baris 1: 115.750
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 12.419
+
+Total Nilai Tertimbang (Kolom Kanan):
+- Baris 1: 264.545.052
+- Baris 2: -
+- Baris 3: 658.511.460
+- Baris 4: 150.910.673
+- Baris 5: 111.617.343
+- Baris 6: 13.715.475
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 177.518
+
+Total Nilai Tertimbang (Kolom Kiri di bawah Total Nilai Tertimbang):
+- Baris 1: 137.500
+- Baris 2: -
+- Baris 3: 652.383.680
+- Baris 4: 159.601.615
+- Baris 5: 106.677.957
+- Baris 6: 14.291.625
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 32.304
+
+≥ 1 Tahun (Kolom paling kiri):
+- Baris 1: 256.779.740
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+- Baris 9: 173.880
+
+Total Baris Terakhir:
+- 1.189.908.497
+- 1.199.477.521

@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+- Overseas Office Networks
+- 6 Overseas Offices
+- 1 Overseas Sub-Branch
+- 1 Remittance Branch Office
+- 2 Representative Office
+- 9 ATM
+- BNI Network
+- W14 (Jakarta BSD)
+- W15 (Jakarta Kemayoran)
+- W16 (Papua)
+- W17 (Yogyakarta)
+- W18 (Malang)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2025 Annual Report
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 6 Overseas Offices: New York, United State of America; London, England; Seoul, South Korea; Tokyo, Japan; Hong Kong; Singapore
+- 1 Overseas Sub-Branch: Osaka, Japan
+- 1 Remittance Branch Office: Singapore
+- 2 Representative Office: 1 Amsterdam, Netherlands; 1 Sydney, Australia
+- 9 ATM: 8 Hong Kong; 1 Singapore
+- 1 Head Office
+- 17 Regional Office
+- 197 Branch Office
+- 1,579 Sub-Branch Office
+- 20 Commercial Business Center
+- 26 SME Business Center
+- 12 Consumer Loan Processing Center
+- 330 BNI DigiCS
+- 6,565 ATM
+- 6,817 CRM
+- 217,013 BNI Agen46
+- W14 (Jakarta BSD): 10 Branch Offices, 109 Sub-Branch Offices, 1 Commercial Business Center, 2 SME Business Center, 491 ATM/795 CRM, 13,025 BNI Agen46
+- W15 (Jakarta Kemayoran): 8 Branch Offices, 109 Sub-Branch Offices, 2 Commercial Business Center, 3 SME Business Center, 475 ATM/521 CRM, 8,341 BNI Agen46
+- W16 (Papua): 6 Branch Offices, 36 Sub-Branch Offices, 81 ATM/87 CRM, 6,538 BNI Agen46
+- W17 (Yogyakarta): 15 Branch Offices, 97 Sub-Branch Offices, 1 Commercial Business Center, 2 SME Business Center, 1 Consumer Loan Processing Center, 257 ATM/649 CRM, 18,195 BNI Agen46
+- W18 (Malang): 14 Branch Offices, 69 Sub-Branch Offices, 253 ATM/606 CRM, 16,964 BNI Agen46
+- 105

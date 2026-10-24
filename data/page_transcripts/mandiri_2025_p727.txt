@@ -1,0 +1,33 @@
+1. Judul atau keterangan diagram organisasi:
+- Kantor Pusat
+- Kantor Wilayah
+- Direktur Human Capital & Compliance
+- Group Head AML & CFT
+- Regional CEO I-XII
+- AML - CFT Transaction Monitoring
+- AML - CFT System Data Analytics
+- AML - CFT Reporting & Liaison
+- AML - CFT Advisory & Business Strategy
+- RBC Head I-XII
+- Area Head
+- TL AMLO I-XII
+- Branch Manager*
+- AMLO I-XII
+- Note :
+  - : Garis Koordinasi terkait fungsi penerapan program APU, PPT, dan PPPSPM
+- RBC : Regional Business Control
+- AMLO : Anti-Money Laundering Officer
+- TL : Team Leader
+- *) Bertindak sebagai PIC dari APU, PPT, dan PPPSPM di Cabang
+
+2. Judul atau keterangan profil pejabat:
+- Anzar Mulyantoro
+- Group Head AML & CFT Group
+- Usia : 48 Tahun
+- Kewarganegaraan : Indonesia
+- Domisili : Jakarta
+- Riwayat Pendidikan
+- S2 Universitas Gajah Mada di bidang Manajemen Keuangan (2007)
+- Pengalaman Kerja
+- Group Head AML & CFT (2025)
+- Deputy Group Head Compliance & AML-CFT Group (2023)

@@ -1,0 +1,317 @@
+1. Judul atau keterangan:
+- Judul tabel: The Tertiary Sector as the Accelerator of Economic Growth Throughout 2025
+- Judul grafik: Inflation declines annually to 2.9% by December 2025
+- Sumber data tabel: Sources: BPS, CEIC, BNI Office of Chief Economist
+- Sumber data grafik: Source: BPS, BNI Office of Chief Economist
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan tabel: Real GDP % YoY
+- Kolom periode tabel: 1Q23, 2Q23, 3Q23, 4Q23, 1Q24, 2Q24, 3Q24, 4Q24, 1Q25, 2Q25, 3Q25, 4Q25
+- Legenda grafik: General Inflation YoY (%), Core Inflation YoY (%)
+- Sumbu X grafik (Periode): Jan-22, Feb-22, Mar-22, Apr-22, Mei-22, Jun-22, Jul-22, Ags-22, Sep-22, Okt-22, Nov-22, Des-22, Jan-23, Feb-23, Mar-23, Apr-23, Mei-23, Jun-23, Jul-23, Ags-23, Sep-23, Okt-23, Nov-23, Des-23, Jan-24, Feb-24, Mar-24, Apr-24, Mei-24, Jun-24, Jul-24, Ags-24, Sep-24, Okt-24, Nov-24, Des-24, Jan-25, Feb-25, Mar-25, Apr-25, Mei-25, Jun-25, Jul-25, Ags-25, Sep-25, Okt-25, Nov-25, Des-25
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+
+Tabel: The Tertiary Sector as the Accelerator of Economic Growth Throughout 2025
+GDP:
+- 1Q23: 5.04
+- 2Q23: 5.17
+- 3Q23: 4.94
+- 4Q23: 5.04
+- 1Q24: 5.11
+- 2Q24: 5.05
+- 3Q24: 4.95
+- 4Q24: 5.02
+- 1Q25: 4.87
+- 2Q25: 5.12
+- 3Q25: 5.04
+- 4Q25: 5.39
+
+Agriculture, Forestry & Fishing:
+- 1Q23: 0.44
+- 2Q23: 2.03
+- 3Q23: 1.49
+- 4Q23: 1.13
+- 1Q24: -3.54
+- 2Q24: 3.25
+- 3Q24: 1.70
+- 4Q24: 0.72
+- 1Q25: 10.53
+- 2Q25: 1.66
+- 3Q25: 4.93
+- 4Q25: 5.14
+
+Mining & Quarrying:
+- 1Q23: 4.92
+- 2Q23: 5.01
+- 3Q23: 6.95
+- 4Q23: 7.46
+- 1Q24: 9.31
+- 2Q24: 3.17
+- 3Q24: 3.46
+- 4Q24: 3.95
+- 1Q25: -1.23
+- 2Q25: 2.03
+- 3Q25: -1.98
+- 4Q25: -1.31
+
+Manufacturing Industry:
+- 1Q23: 4.43
+- 2Q23: 4.88
+- 3Q23: 5.19
+- 4Q23: 4.07
+- 1Q24: 4.13
+- 2Q24: 3.95
+- 3Q24: 4.72
+- 4Q24: 4.89
+- 1Q25: 4.55
+- 2Q25: 5.68
+- 3Q25: 5.54
+- 4Q25: 5.40
+
+Electricity & Gas:
+- 1Q23: 2.67
+- 2Q23: 3.15
+- 3Q23: 5.06
+- 4Q23: 8.68
+- 1Q24: 5.35
+- 2Q24: 5.39
+- 3Q24: 5.02
+- 4Q24: 3.42
+- 1Q25: 5.11
+- 2Q25: 0.90
+- 3Q25: 2.86
+- 4Q25: 3.55
+
+Water Supply, Sewerage & Waste Management:
+- 1Q23: 5.70
+- 2Q23: 4.78
+- 3Q23: 4.49
+- 4Q23: 4.66
+- 1Q24: 4.44
+- 2Q24: 0.85
+- 3Q24: 0.04
+- 4Q24: 1.06
+- 1Q25: 0.18
+- 2Q25: 0.82
+- 3Q25: 3.32
+- 4Q25: -0.51
+
+Construction:
+- 1Q23: 0.32
+- 2Q23: 5.23
+- 3Q23: 6.39
+- 4Q23: 7.68
+- 1Q24: 7.59
+- 2Q24: 7.29
+- 3Q24: 7.48
+- 4Q24: 5.81
+- 1Q25: 2.18
+- 2Q25: 4.98
+- 3Q25: 4.21
+- 4Q25: 3.89
+
+Wholesale & Retail Trade:
+- 1Q23: 4.94
+- 2Q23: 5.30
+- 3Q23: 5.10
+- 4Q23: 4.09
+- 1Q24: 4.58
+- 2Q24: 4.87
+- 3Q24: 4.85
+- 4Q24: 5.23
+- 1Q25: 5.04
+- 2Q25: 5.38
+- 3Q25: 5.46
+- 4Q25: 6.07
+
+Transportation & Logistics:
+- 1Q23: 15.93
+- 2Q23: 15.28
+- 3Q23: 14.74
+- 4Q23: 10.33
+- 1Q24: 8.66
+- 2Q24: 9.56
+- 3Q24: 8.64
+- 4Q24: 7.92
+- 1Q25: 9.01
+- 2Q25: 8.52
+- 3Q25: 8.62
+- 4Q25: 8.98
+
+Accommodation and Food & Beverage:
+- 1Q23: 11.54
+- 2Q23: 9.91
+- 3Q23: 10.93
+- 4Q23: 7.88
+- 1Q24: 9.34
+- 2Q24: 10.00
+- 3Q24: 8.21
+- 4Q24: 6.47
+- 1Q25: 5.75
+- 2Q25: 8.18
+- 3Q25: 8.50
+- 4Q25: 7.15
+
+Information & Communication:
+- 1Q23: 7.11
+- 2Q23: 8.03
+- 3Q23: 8.51
+- 4Q23: 6.74
+- 1Q24: 8.41
+- 2Q24: 7.66
+- 3Q24: 6.82
+- 4Q24: 7.45
+- 1Q25: 7.72
+- 2Q25: 7.92
+- 3Q25: 9.65
+- 4Q25: 8.09
+
+Financial Services:
+- 1Q23: 4.45
+- 2Q23: 2.86
+- 3Q23: 5.24
+- 4Q23: 6.56
+- 1Q24: 3.93
+- 2Q24: 7.90
+- 3Q24: 5.49
+- 4Q24: 1.74
+- 1Q25: 3.98
+- 2Q25: 3.20
+- 3Q25: 0.77
+- 4Q25: 7.92
+
+Real Estate:
+- 1Q23: 0.37
+- 2Q23: 0.96
+- 3Q23: 2.21
+- 4Q23: 2.18
+- 1Q24: 2.54
+- 2Q24: 2.16
+- 3Q24: 2.32
+- 4Q24: 2.97
+- 1Q25: 2.94
+- 2Q25: 3.71
+- 3Q25: 3.95
+- 4Q25: 3.71
+
+Business Services:
+- 1Q23: 6.37
+- 2Q23: 9.59
+- 3Q23: 9.37
+- 4Q23: 7.62
+- 1Q24: 9.63
+- 2Q24: 7.96
+- 3Q24: 7.93
+- 4Q24: 8.08
+- 1Q25: 9.27
+- 2Q25: 9.31
+- 3Q25: 9.94
+- 4Q25: 7.90
+
+Public Administration:
+- 1Q23: 2.13
+- 2Q23: 8.18
+- 3Q23: -6.24
+- 4Q23: 1.63
+- 1Q24: 18.89
+- 2Q24: 2.90
+- 3Q24: 3.96
+- 4Q24: 1.16
+- 1Q25: 4.79
+- 2Q25: 4.70
+- 3Q25: 4.33
+- 4Q25: 1.63
+
+Education Services:
+- 1Q23: 1.02
+- 2Q23: 5.42
+- 3Q23: -2.09
+- 4Q23: 2.63
+- 1Q24: 7.43
+- 2Q24: 2.46
+- 3Q24: 2.58
+- 4Q24: 2.95
+- 1Q25: 5.04
+- 2Q25: 1.40
+- 3Q25: 10.59
+- 4Q25: 3.43
+
+Healthcare Services:
+- 1Q23: 4.77
+- 2Q23: 8.27
+- 3Q23: 2.92
+- 4Q23: 3.09
+- 1Q24: 11.65
+- 2Q24: 8.59
+- 3Q24: 7.67
+- 4Q24: 5.20
+- 1Q25: 5.78
+- 2Q25: 3.80
+- 3Q25: 6.83
+- 4Q25: 5.95
+
+Other Services:
+- 1Q23: 8.90
+- 2Q23: 11.89
+- 3Q23: 11.14
+- 4Q23: 10.15
+- 1Q24: 8.92
+- 2Q24: 8.85
+- 3Q24: 9.95
+- 4Q24: 11.36
+- 1Q25: 9.84
+- 2Q25: 11.31
+- 3Q25: 9.92
+- 4Q25: 8.71
+
+Grafik: Inflation declines annually to 2.9% by December 2025
+- Jan-22: 2.18
+- Feb-22: 2.06
+- Mar-22: 2.64
+- Apr-22: 3.47
+- Mei-22: 3.55
+- Jun-22: 4.35
+- Jul-22: 4.94
+- Ags-22: 4.69
+- Sep-22: 5.95
+- Okt-22: 5.71
+- Nov-22: 5.42
+- Des-22: 5.51
+- Jan-23: 5.28
+- Feb-23: 5.47
+- Mar-23: 4.97
+- Apr-23: 4.33
+- Mei-23: 4.00
+- Jun-23: 3.52
+- Jul-23: 3.08
+- Ags-23: 3.27
+- Sep-23: 2.28
+- Okt-23: 2.56
+- Nov-23: 2.86
+- Des-23: 2.61
+- Jan-24: 2.57
+- Feb-24: 2.75
+- Mar-24: 3.05
+- Apr-24: 3.00
+- Mei-24: 2.84
+- Jun-24: 2.51
+- Jul-24: 2.13
+- Ags-24: 2.12
+- Sep-24: 1.84
+- Okt-24: 1.71
+- Nov-24: 1.55
+- Des-24: 1.57
+- Jan-25: 0.76
+- Feb-25: -0.09
+- Mar-25: 1.03
+- Apr-25: 1.95
+- Mei-25: 1.60
+- Jun-25: 1.87
+- Jul-25: 2.36
+- Ags-25: 2.31
+- Sep-25: 2.65
+- Okt-25: 2.86
+- Nov-25: 2.72
+- Des-25: 2.92
+- Core Inflation YoY (%): 2.38

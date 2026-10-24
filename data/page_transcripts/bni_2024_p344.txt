@@ -1,0 +1,46 @@
+Pinjaman yang Direstrukturisasi per Jenis Segmen
+
+Segmen: Konsumen
+- 2024 (Rp-miliar): 935
+- 2023 (Rp-miliar): 3.738
+- 2022 (Rp-miliar): 5.766
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (2.803)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (75,0)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (2.028)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (35,2)
+
+Segmen: Korporasi
+- 2024 (Rp-miliar): 45.692
+- 2023 (Rp-miliar): 49.319
+- 2022 (Rp-miliar): 48.418
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (3.627)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (7,4)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 901
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): 1,9
+
+Segmen: Kecil
+- 2024 (Rp-miliar): 8.646
+- 2023 (Rp-miliar): 9.328
+- 2022 (Rp-miliar): 13.543
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (682)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (7,3)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (4.215)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (31,1)
+
+Segmen: Menengah
+- 2024 (Rp-miliar): 11.485
+- 2023 (Rp-miliar): 13.406
+- 2022 (Rp-miliar): 24.332
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (1.921)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (14,3)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (10.926)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (44,9)
+
+Segmen: Jumlah
+- 2024 (Rp-miliar): 66.758
+- 2023 (Rp-miliar): 75.791
+- 2022 (Rp-miliar): 92.059
+- Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9.033)
+- Kenaikan (Penurunan) 2023-2024 Persentase (%): (11,9)
+- Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (16.268)
+- Kenaikan (Penurunan) 2022-2023 Persentase (%): (17,7)

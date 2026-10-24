@@ -1,0 +1,82 @@
+1. Judul atau keterangan:
+- Earnings per Share (IDR)
+- Cash and Cash Equivalents at the End of the Year (IDR billion)
+- Consolidated Statement of Cash Flows
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan untuk grafik pertama: tidak tercetak eksplisit (tersirat IDR dari teks terkait: "IDR537")
+- Satuan untuk grafik kedua: IDR billion
+- Periode untuk kedua grafik: 2023, 2024, 2024*), 2025
+- Tabel Consolidated Statement of Cash Flows memiliki kolom: Description, 2025 (IDR-billion), 2024 (IDR-billion), Increase (Decrease) 2024-2025 Nominal (IDR-billion), Increase (Decrease) 2024-2025 Percentage (%), 2023 (IDR-billion), Increase (Decrease) 2023-2024 Nominal (IDR-billion), Increase (Decrease) 2023-2024 Percentage (%)
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Grafik "Earnings per Share":
+  - 2023: 561
+  - 2024: 576
+  - 2024*): 576
+  - 2025: 537
+
+- Grafik "Cash and Cash Equivalents at the End of the Year":
+  - 2023: 154,879
+  - 2024: 104,075
+  - 2024*): 104,075
+  - 2025: 152,852
+
+- Tabel "Consolidated Statement of Cash Flows":
+  - Net cash provided by operating activities:
+    - 2025: 103,103
+    - 2024: (63,218)
+    - Increase (Decrease) 2024-2025 Nominal: 166,321
+    - Increase (Decrease) 2024-2025 Percentage: (263.1)
+    - 2023: 10,393
+    - Increase (Decrease) 2023-2024 Nominal: (73,611)
+    - Increase (Decrease) 2023-2024 Percentage: (708.3)
+  - Net cash used for investment activities:
+    - 2025: (26,638)
+    - 2024: (5,270)
+    - Increase (Decrease) 2024-2025 Nominal: (21,368)
+    - Increase (Decrease) 2024-2025 Percentage: 405.5
+    - 2023: (10,771)
+    - Increase (Decrease) 2023-2024 Nominal: 5,501
+    - Increase (Decrease) 2023-2024 Percentage: (51.1)
+  - Net cash from/(used for) financing activities:
+    - 2025: (27,556)
+    - 2024: 17,718
+    - Increase (Decrease) 2024-2025 Nominal: (45,274)
+    - Increase (Decrease) 2024-2025 Percentage: (255.5)
+    - 2023: (8,493)
+    - Increase (Decrease) 2023-2024 Nominal: 26,211
+    - Increase (Decrease) 2023-2024 Percentage: (308.6)
+  - Net increase in cash and cash equivalents:
+    - 2025: 48,909
+    - 2024: (50,770)
+    - Increase (Decrease) 2024-2025 Nominal: 99,679
+    - Increase (Decrease) 2024-2025 Percentage: (196.3)
+    - 2023: (8,871)
+    - Increase (Decrease) 2023-2024 Nominal: (41,899)
+    - Increase (Decrease) 2023-2024 Percentage: 472.3
+  - Exchange rate impact:
+    - 2025: (132)
+    - 2024: (34)
+    - Increase (Decrease) 2024-2025 Nominal: (98)
+    - Increase (Decrease) 2024-2025 Percentage: 288.2
+    - 2023: (150)
+    - Increase (Decrease) 2023-2024 Nominal: 116
+    - Increase (Decrease) 2023-2024 Percentage: (77.3)
+  - Cash and cash equivalents at the beginning of the year:
+    - 2025: 104,075
+    - 2024: 154,879
+    - Increase (Decrease) 2024-2025 Nominal: (50,804)
+    - Increase (Decrease) 2024-2025 Percentage: (32.8)
+    - 2023: 163,900
+    - Increase (Decrease) 2023-2024 Nominal: (9,021)
+    - Increase (Decrease) 2023-2024 Percentage: (5.5)
+  - Cash and cash equivalents at the end of the year:
+    - 2025: 152,852
+    - 2024: 104,075
+    - Increase (Decrease) 2024-2025 Nominal: 48,777
+    - Increase (Decrease) 2024-2025 Percentage: 46.9
+    - 2023: 154,879
+    - Increase (Decrease) 2023-2024 Nominal: (50,804)
+    - Increase (Decrease) 2023-2024 Percentage: (32.8)
+  - Nomor halaman di sudut kanan bawah: 349

@@ -1,0 +1,95 @@
+1. Judul atau keterangan: Interest Income – Net (IDR billion)
+Periode dan angka:
+- 2023: 41,276
+- 2024: 40,480
+- 2024*): 40,480
+- 2025: 40,333
+
+2. Judul atau keterangan: Premium Income- Net (IDR billion)
+Periode dan angka:
+- 2023: 1,659
+- 2024: 1,724
+- 2024*): 2
+- 2025: 2
+
+3. Judul atau keterangan: Other Operating Income
+Tabel data:
+- Account: Other fees and commission
+  - 2025 (IDR-billion): 11,168
+  - 2024*) (IDR-billion): 10,559
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 609
+  - Increase (Decrease) 2024-2025 Percentage (%): 5.8
+  - 2024 (IDR-billion): 10,559
+  - 2023 (IDR-billion): 10,120
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 439
+  - Increase (Decrease) 2023-2024 Percentage (%): 4.3
+
+- Account: Profit for Associated Entities
+  - 2025 (IDR-billion): 1,627
+  - 2024*) (IDR-billion): 1,523
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 104
+  - Increase (Decrease) 2024-2025 Percentage (%): 6.8
+  - 2024 (IDR-billion): 1,523
+  - 2023 (IDR-billion): 1,328
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 195
+  - Increase (Decrease) 2023-2024 Percentage (%): 14.7
+
+- Account: Recovery of assets written off
+  - 2025 (IDR-billion): 5,439
+  - 2024*) (IDR-billion): 6,025
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (586)
+  - Increase (Decrease) 2024-2025 Percentage (%): (9.7)
+  - 2024 (IDR-billion): 6,025
+  - 2023 (IDR-billion): 5,030
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 995
+  - Increase (Decrease) 2023-2024 Percentage (%): 19.8
+
+- Account: Unrealized gains/(losses) from changes in the fair value of financial assets measured at fair value through profit or loss
+  - 2025 (IDR-billion): 142
+  - 2024*) (IDR-billion): 145
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (3)
+  - Increase (Decrease) 2024-2025 Percentage (%): (2.1)
+  - 2024 (IDR-billion): 145
+  - 2023 (IDR-billion): 74
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 71
+  - Increase (Decrease) 2023-2024 Percentage (%): 95.9
+
+- Account: Gain on sale of financial assets measured at fair value through other comprehensive income and fair value through profit or loss
+  - 2025 (IDR-billion): 2,886
+  - 2024*) (IDR-billion): 1,769
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 1,117
+  - Increase (Decrease) 2024-2025 Percentage (%): 63.1
+  - 2024 (IDR-billion): 1,769
+  - 2023 (IDR-billion): 1,180
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 589
+  - Increase (Decrease) 2023-2024 Percentage (%): 49.9
+
+- Account: Foreign exchange gains - net
+  - 2025 (IDR-billion): 1,037
+  - 2024*) (IDR-billion): 1,259
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (222)
+  - Increase (Decrease) 2024-2025 Percentage (%): (17.6)
+  - 2024 (IDR-billion): 1,259
+  - 2023 (IDR-billion): 1,019
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 240
+  - Increase (Decrease) 2023-2024 Percentage (%): 23.6
+
+- Account: Others
+  - 2025 (IDR-billion): 2,345
+  - 2024*) (IDR-billion): 2,096
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 249
+  - Increase (Decrease) 2024-2025 Percentage (%): 11.9
+  - 2024 (IDR-billion): 2,096
+  - 2023 (IDR-billion): 1,062
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 1,034
+  - Increase (Decrease) 2023-2024 Percentage (%): 97.4
+
+- Account: Total
+  - 2025 (IDR-billion): 24,644
+  - 2024*) (IDR-billion): 23,376
+  - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 1,268
+  - Increase (Decrease) 2024-2025 Percentage (%): 5.4
+  - 2024 (IDR-billion): 23,376
+  - 2023 (IDR-billion): 19,812
+  - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 3,564
+  - Increase (Decrease) 2023-2024 Percentage (%): 18.0

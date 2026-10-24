@@ -1,0 +1,25 @@
+Sustainability Bond Payments
+
+Interest No: 17
+Series A Date of Interest Payment: [kosong]
+Series A Interest (%): [kosong]
+Series B Date of Interest Payment: October 4, 2029
+Series B Interest (%): 6.65%
+
+Interest No: 18
+Series A Date of Interest Payment: [kosong]
+Series A Interest (%): [kosong]
+Series B Date of Interest Payment: January 4, 2030
+Series B Interest (%): 6.65%
+
+Interest No: 19
+Series A Date of Interest Payment: [kosong]
+Series A Interest (%): [kosong]
+Series B Date of Interest Payment: April 4, 2030
+Series B Interest (%): 6.65%
+
+Interest No: 20
+Series A Date of Interest Payment: [kosong]
+Series A Interest (%): [kosong]
+Series B Date of Interest Payment: July 4, 2030
+Series B Interest (%): 6.65%

@@ -1,0 +1,27 @@
+1. Judul atau keterangan: Comparison of Economic Growth Among Countries
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X: GER, ITA*, MEX, FRA, KOR, JPN*, GBR*, AUS*, USA*, THA*, BRA*, PHL, MYS*, SGP, CHN, IDN, IND*, VNM
+- Legenda: 
+  - Economic Growth FY24
+  - Economic Growth FY25
+- Keterangan tambahan: *) Economic Growth 9M25
+- Sumber: Source: IMF, BNI Office of Chief Economist
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- GER: Economic Growth FY24: -0.5, Economic Growth FY25: 0.2
+- ITA*: Economic Growth FY24: 0.7, Economic Growth FY25: 0.4
+- MEX: Economic Growth FY24: 1.4, Economic Growth FY25: 0.5
+- FRA: Economic Growth FY24: 1.1, Economic Growth FY25: 0.8
+- KOR: Economic Growth FY24: 2.0, Economic Growth FY25: 1.0
+- JPN*: Economic Growth FY24: 0.1, Economic Growth FY25: 1.4
+- GBR*: Economic Growth FY24: 1.1, Economic Growth FY25: 1.4
+- AUS*: Economic Growth FY24: 1.0, Economic Growth FY25: 1.8
+- USA*: Economic Growth FY24: 2.8, Economic Growth FY25: 2.2
+- THA*: Economic Growth FY24: 2.5, Economic Growth FY25: 2.4
+- BRA*: Economic Growth FY24: 3.4, Economic Growth FY25: 2.4
+- PHL: Economic Growth FY24: 5.7, Economic Growth FY25: 4.5
+- MYS*: Economic Growth FY24: 5.1, Economic Growth FY25: 4.7
+- SGP: Economic Growth FY24: 4.4, Economic Growth FY25: 4.7
+- CHN: Economic Growth FY24: 5.0, Economic Growth FY25: 5.0
+- IDN: Economic Growth FY24: 5.0, Economic Growth FY25: 5.1
+- IND*: Economic Growth FY24: 6.5, Economic Growth FY25: 7.8
+- VNM: Economic Growth FY24: 7.1, Economic Growth FY25: 8.0

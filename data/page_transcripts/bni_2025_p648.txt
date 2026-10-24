@@ -1,0 +1,19 @@
+1. Judul atau keterangan: Disclosure of Operational Risks Quantitative for Bank Only
+Periode: December 31, 2025
+Kolom/Label dan Angka:
+- No: 1
+- The approach used: Standard Approach
+- Business Indicator Components: 5,030,656
+- Internal Loss Multiplier Factor (FPKI): 0.64
+- Minimum Operational Risk Capital (MMRO): 3,230,716
+- RWA: 40,383,955
+
+2. Judul atau keterangan: Disclosure of Operational Risks Quantitative for Bank Consolidated with Subsidiaries
+Periode: December 31, 2025
+Kolom/Label dan Angka:
+- No: 1
+- The approach used: Standard Approach
+- Business Indicator Components: 5,078,911
+- Internal Loss Multiplier Factor (FPKI): 0.65
+- Minimum Operational Risk Capital (MMRO): 3,286,767
+- RWA: 41,084,588

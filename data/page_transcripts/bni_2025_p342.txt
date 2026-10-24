@@ -1,0 +1,97 @@
+1. Tabel: Borrowings
+   - Satuan: IDR-billion
+   - Periode: 2025, 2024*), 2024, 2023
+   - Baris 1: Two step loans
+     - 2025: 54
+     - 2024*): 49
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 5
+     - Increase (Decrease) 2024-2025 Percentage (%): 9,8 ↑
+     - 2024: 49
+     - 2023: 52
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): (3)
+     - Increase (Decrease) 2023-2024 Percentage (%): (5,8) ↓
+   - Baris 2: Liquidity loans for members of primary cooperatives
+     - 2025: 1
+     - 2024*): 1
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): -
+     - Increase (Decrease) 2024-2025 Percentage (%): -
+     - 2024: 1
+     - 2023: 1
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): -
+     - Increase (Decrease) 2023-2024 Percentage (%): 0,0
+   - Baris 3: Bilateral loans
+     - 2025: 33,681
+     - 2024*): 35,115
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (1,434)
+     - Increase (Decrease) 2024-2025 Percentage (%): (4,1) ↓
+     - 2024: 35,115
+     - 2023: 21,856
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 13,259
+     - Increase (Decrease) 2023-2024 Percentage (%): 60,7 ↑
+   - Baris 4: Bankers acceptance
+     - 2025: 1,812
+     - 2024*): 4,171
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (2,359)
+     - Increase (Decrease) 2024-2025 Percentage (%): (56,5) ↓
+     - 2024: 4,171
+     - 2023: 7,768
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): (3,597)
+     - Increase (Decrease) 2023-2024 Percentage (%): (46,3) ↓
+   - Baris 5: Others
+     - 2025: 3,492
+     - 2024*): 3,595
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (103)
+     - Increase (Decrease) 2024-2025 Percentage (%): (2,9) ↓
+     - 2024: 3,595
+     - 2023: 1,273
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 2,322
+     - Increase (Decrease) 2023-2024 Percentage (%): 182,4 ↑
+   - Baris 6: Total
+     - 2025: 39,040
+     - 2024*): 42,931
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): (3,891)
+     - Increase (Decrease) 2024-2025 Percentage (%): (9,1) ↓
+     - 2024: 42,931
+     - 2023: 30,950
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 11,981
+     - Increase (Decrease) 2023-2024 Percentage (%): 38,7 ↑
+
+2. Tabel: Subordinated Securities
+   - Satuan: IDR-billion
+   - Periode: 2025, 2024*), 2024, 2023
+   - Baris 1: BNI Tier 2
+     - 2025: 8,337
+     - 2024*): 8,046
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 291
+     - Increase (Decrease) 2024-2025 Percentage (%): 3,6 ↑
+     - 2024: 8,046
+     - 2023: 7,696
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 350
+     - Increase (Decrease) 2023-2024 Percentage (%): 4,5 ↑
+   - Baris 2: BNI Additional Tier 1
+     - 2025: 10,003
+     - 2024*): 9,653
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 350
+     - Increase (Decrease) 2024-2025 Percentage (%): 3,6 ↑
+     - 2024: 9,653
+     - 2023: 9,233
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 420
+     - Increase (Decrease) 2023-2024 Percentage (%): 4,5 ↑
+   - Baris 3: Total
+     - 2025: 18,340
+     - 2024*): 17,699
+     - Increase (Decrease) 2024-2025 Nominal (IDR-billion): 641
+     - Increase (Decrease) 2024-2025 Percentage (%): 3,6 ↑
+     - 2024: 17,699
+     - 2023: 16,929
+     - Increase (Decrease) 2023-2024 Nominal (IDR-billion): 770
+     - Increase (Decrease) 2023-2024 Percentage (%): 4,5 ↑
+
+3. Grafik Batang: Total Equity
+   - Judul: Total Equity
+   - Satuan: IDR billion
+   - Periode dan Nilai:
+     - 2023: 154,733
+     - 2024: 167,187
+     - 2024*): 166,548
+     - 2025: 176,339

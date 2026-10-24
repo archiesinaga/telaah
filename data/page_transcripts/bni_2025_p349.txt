@@ -1,0 +1,106 @@
+1. Judul atau keterangan:
+- Other Operating Income (IDR billion)
+- Other Operating Expenses
+- Other Operating Expenses (IDR billion)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode (Grafik 1): 2023, 2024, 2024*), 2025
+- Periode (Grafik 2): 2023, 2024, 2024*), 2025
+- Tabel Other Operating Expenses:
+  - Kolom: Account, 2025 (Total (IDR-billion), Composition (%)), 2024*) (Total (IDR-billion), Composition (%)), Increase (Decrease) 2024-2025 (Total (IDR-billion), Percentage (%)), 2024 (Total (IDR-billion), Composition (%)), 2023 (Total (IDR-billion), Composition (%)), Increase (Decrease) 2023-2024 (Total (IDR-billion), Percentage (%))
+  - Baris: Salaries and Employee Benefits Expenses, General and Administrative Expenses, Promotion Expenses, Guarantee Savings Premiums, Others, Total
+
+3. Angka yang tertera:
+Grafik 1 (Other Operating Income):
+- 2023: 19,812
+- 2024: 22,311
+- 2024*): 22,649
+- 2025: 23,900
+
+Tabel Other Operating Expenses:
+- Salaries and Employee Benefits Expenses:
+  - 2025 Total (IDR-billion): 14,529
+  - 2025 Composition (%): 47.1
+  - 2024*) Total (IDR-billion): 13,782
+  - 2024*) Composition (%): 47.3
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 747
+  - Increase (Decrease) 2024-2025 Percentage (%): 5.4
+  - 2024 Total (IDR-billion): 13,782
+  - 2024 Composition (%): 47.3
+  - 2023 Total (IDR-billion): 12,834
+  - 2023 Composition (%): 46.2
+  - Increase (Decrease) 2023-2024 Total (IDR-billion): 948
+  - Increase (Decrease) 2023-2024 Percentage (%): 7.4
+- General and Administrative Expenses:
+  - 2025 Total (IDR-billion): 9,395
+  - 2025 Composition (%): 30.4
+  - 2024*) Total (IDR-billion): 9,025
+  - 2024*) Composition (%): 31.0
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 370
+  - Increase (Decrease) 2024-2025 Percentage (%): 4.1
+  - 2024 Total (IDR-billion): 9,025
+  - 2024 Composition (%): 31.0
+  - 2023 Total (IDR-billion): 9,193
+  - 2023 Composition (%): 33.1
+  - Increase (Decrease) 2023-2024 Total (IDR-billion): (168)
+  - Increase (Decrease) 2023-2024 Percentage (%): (1.8)
+- Promotion Expenses:
+  - 2025 Total (IDR-billion): 1,188
+  - 2025 Composition (%): 3.9
+  - 2024*) Total (IDR-billion): 1,103
+  - 2024*) Composition (%): 3.8
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 85
+  - Increase (Decrease) 2024-2025 Percentage (%): 7.7
+  - 2024 Total (IDR-billion): 1,103
+  - 2024 Composition (%): 3.8
+  - 2023 Total (IDR-billion): 1,066
+  - 2023 Composition (%): 3.8
+  - Increase (Decrease) 2023-2024 Total (IDR-billion): 37
+  - Increase (Decrease) 2023-2024 Percentage (%): 3.5
+- Guarantee Savings Premiums:
+  - 2025 Total (IDR-billion): 1,704
+  - 2025 Composition (%): 5.5
+  - 2024*) Total (IDR-billion): 1,567
+  - 2024*) Composition (%): 5.4
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 137
+  - Increase (Decrease) 2024-2025 Percentage (%): 8.7
+  - 2024 Total (IDR-billion): 1,567
+  - 2024 Composition (%): 5.4
+  - 2023 Total (IDR-billion): 1,476
+  - 2023 Composition (%): 5.3
+  - Increase (Decrease) 2023-2024 Total (IDR-billion): 91
+  - Increase (Decrease) 2023-2024 Percentage (%): 6.2
+- Others:
+  - 2025 Total (IDR-billion): 4,041
+  - 2025 Composition (%): 13.1
+  - 2024*) Total (IDR-billion): 3,634
+  - 2024*) Composition (%): 12.5
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 407
+  - Increase (Decrease) 2024-2025 Percentage (%): 11.2
+  - 2024 Total (IDR-billion): 3,634
+  - 2024 Composition (%): 12.5
+  - 2023 Total (IDR-billion): 3,208
+  - 2023 Composition (%): 11.5
+  - Increase (Decrease) 2023-2024 Total (IDR-billion): 426
+  - Increase (Decrease) 2023-2024 Percentage (%): 13.3
+- Total:
+  - 2025 Total (IDR-billion): 30,857
+  - 2025 Composition (%): 100.0
+  - 2024*) Total (IDR-billion): 29,111
+  - 2024*) Composition (%): 100.0
+  - Increase (Decrease) 2024-2025 Total (IDR-billion): 1,746
+  - Increase (Decrease) 2024-2025 Percentage (%): 6.0
+  - 2024 Total (IDR-billion): 29,111
+  - 2024 Composition (%): 100.0
+  - 2023 Total (IDR-billion): 27,777
+  - 2023 Composition (%): 100.0
+  - Increase (Decrease) 2023-2024 Total (IDR-billion): 1,334
+  - Increase (Decrease) 2023-2024 Percentage (%): 4.8
+
+Grafik 2 (Other Operating Expenses):
+- 2023: 27,778
+- 2024: 29,688
+- 2024*): 29,111
+- 2025: 30,857
+
+Nomor Halaman: 347

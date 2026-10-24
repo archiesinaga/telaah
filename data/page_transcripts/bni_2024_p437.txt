@@ -1,0 +1,3 @@
+1. Judul atau keterangan: Gambar ponsel menampilkan aplikasi wondr by BNI dengan nilai transaksi "Rp35.046.368".
+2. Label sumbu, legenda, satuan, dan periode: Satuan mata uang Rupiah (Rp).
+3. Angka yang tertera: "Rp35.046.368" dan angka halaman "435".

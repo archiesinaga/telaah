@@ -1,0 +1,14 @@
+1. Judul atau keterangan:
+- Information on the Company's Majority and Controlling Shareholder [ACGS C.1.2]
+- The Republic of Indonesia through BP BUMN
+- PT Danantara Asset Management (Persero)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: %
+- Legenda: 
+  - Controlling Line
+  - Main Shareholder Line
+
+3. Angka yang tertera:
+- The Republic of Indonesia through BP BUMN: 0.000%
+- PT Danantara Asset Management (Persero): 60.000%

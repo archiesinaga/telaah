@@ -1,0 +1,30 @@
+Struktur Kepemilikan Saham BNI Finance
+(%)
+- BNI: 99,998%
+- Koperasi Karyawan PT BNI Finance: 0,002%
+
+Kinerja Keuangan BNI Finance
+Satuan: (Rp-miliar) untuk Pos Akun, 2024*, 2023, dan Nominal (Rp-miliar); (%) untuk Persentase (%).
+
+Neraca:
+- Aset, 2024* (Rp-miliar): 6.076, 2023 (Rp-miliar): 3.789, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.287, Persentase (%): 60,4
+- Kas dan Bank, 2024* (Rp-miliar): 99, 2023 (Rp-miliar): 62, Kenaikan (Penurunan) Nominal (Rp-miliar): 37, Persentase (%): 59,7
+- Deposito, 2024* (Rp-miliar): 50, 2023 (Rp-miliar): 436, Kenaikan (Penurunan) Nominal (Rp-miliar): (386), Persentase (%): (88,5)
+- Pembiayaan, 2024* (Rp-miliar): 5.686, 2023 (Rp-miliar): 3.024, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.662, Persentase (%): 88,0
+- CKPN Pembiayaan, 2024* (Rp-miliar): (184), 2023 (Rp-miliar): (90), Kenaikan (Penurunan) Nominal (Rp-miliar): (94), Persentase (%): 104,4
+- Sewa Guna Usaha, 2024* (Rp-miliar): 1.164, 2023 (Rp-miliar): 516, Kenaikan (Penurunan) Nominal (Rp-miliar): 648, Persentase (%): 125,6
+- Pembiayaan Konsumen, 2024* (Rp-miliar): 4.501, 2023 (Rp-miliar): 2.464, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.037, Persentase (%): 82,7
+- Anjak Piutang, 2024* (Rp-miliar): 20, 2023 (Rp-miliar): 44, Kenaikan (Penurunan) Nominal (Rp-miliar): (24), Persentase (%): (54,5)
+- Liabilitas, 2024* (Rp-miliar): 5.229, 2023 (Rp-miliar): 2.938, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.291, Persentase (%): 78,0
+- Ekuitas, 2024* (Rp-miliar): 847, 2023 (Rp-miliar): 851, Kenaikan (Penurunan) Nominal (Rp-miliar): (4), Persentase (%): (0,5)
+
+Laba/Rugi:
+- Pendapatan Sewa Guna Usaha, 2024* (Rp-miliar): 86, 2023 (Rp-miliar): 50, Kenaikan (Penurunan) Nominal (Rp-miliar): 36, Persentase (%): 72,0
+- Pendapatan Pembiayaan Konsumen, 2024* (Rp-miliar): 465, 2023 (Rp-miliar): 95, Kenaikan (Penurunan) Nominal (Rp-miliar): 370, Persentase (%): 389,5
+- Pendapatan Anjak Piutang, 2024* (Rp-miliar): 3, 2023 (Rp-miliar): 6, Kenaikan (Penurunan) Nominal (Rp-miliar): (3), Persentase (%): (50,0)
+- Total Pendapatan Bunga, 2024* (Rp-miliar): 554, 2023 (Rp-miliar): 151, Kenaikan (Penurunan) Nominal (Rp-miliar): 403, Persentase (%): 266,9
+- Beban Bunga, 2024* (Rp-miliar): (282), 2023 (Rp-miliar): (96), Kenaikan (Penurunan) Nominal (Rp-miliar): (186), Persentase (%): 193,8
+- Pendapatan Bunga Bersih, 2024* (Rp-miliar): 272, 2023 (Rp-miliar): 54, Kenaikan (Penurunan) Nominal (Rp-miliar): 217, Persentase (%): 394,5
+- Pendapatan Sewa Operasi, 2024* (Rp-miliar): 64, 2023 (Rp-miliar): 72, Kenaikan (Penurunan) Nominal (Rp-miliar): (8), Persentase (%): (11,1)
+- Fee Based Income, 2024* (Rp-miliar): 37, 2023 (Rp-miliar): 33, Kenaikan (Penurunan) Nominal (Rp-miliar): 4, Persentase (%): 12,1
+- Pendapatan Recovery, 2024* (Rp-miliar): 6, 2023 (Rp-miliar): 12, Kenaikan (Penurunan) Nominal (Rp-miliar): (6), Persentase (%): (50,0)

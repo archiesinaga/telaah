@@ -1,0 +1,70 @@
+Struktur Kepemilikan Saham BNI Ventures
+(%)
+- BNI: 99,98%
+- BNIAM: 0,02%
+
+Kinerja Keuangan BNI Ventures
+
+Neraca
+- Aset, 2024* (Rp-miliar): 524
+- Aset, 2023 (Rp-miliar): 511
+- Aset, Kenaikan (Penurunan) Nominal (Rp-miliar): 12
+- Aset, Kenaikan (Penurunan) Persentase (%): 2,4
+- Aset Lancar, 2024* (Rp-miliar): 458
+- Aset Lancar, 2023 (Rp-miliar): 463
+- Aset Lancar, Kenaikan (Penurunan) Nominal (Rp-miliar): (5)
+- Aset Lancar, Kenaikan (Penurunan) Persentase (%): (1)
+- Aset Penyertaan Modal Ventura, 2024* (Rp-miliar): 62
+- Aset Penyertaan Modal Ventura, 2023 (Rp-miliar): 46
+- Aset Penyertaan Modal Ventura, Kenaikan (Penurunan) Nominal (Rp-miliar): 16
+- Aset Penyertaan Modal Ventura, Kenaikan (Penurunan) Persentase (%): 35,9
+- Aset Tetap, 2024* (Rp-miliar): 2
+- Aset Tetap, 2023 (Rp-miliar): 2
+- Aset Tetap, Kenaikan (Penurunan) Nominal (Rp-miliar): (0,1)
+- Aset Tetap, Kenaikan (Penurunan) Persentase (%): (3,9)
+- Aset Lainnya, 2024* (Rp-miliar): 0,8
+- Aset Lainnya, 2023 (Rp-miliar): 0,9
+- Aset Lainnya, Kenaikan (Penurunan) Nominal (Rp-miliar): (0,1)
+- Aset Lainnya, Kenaikan (Penurunan) Persentase (%): (10,9)
+- Liabilitas, 2024* (Rp-miliar): 9
+- Liabilitas, 2023 (Rp-miliar): 4
+- Liabilitas, Kenaikan (Penurunan) Nominal (Rp-miliar): 5
+- Liabilitas, Kenaikan (Penurunan) Persentase (%): 146,4
+- Ekuitas, 2024* (Rp-miliar): 515
+- Ekuitas, 2023 (Rp-miliar): 508
+- Ekuitas, Kenaikan (Penurunan) Nominal (Rp-miliar): 7
+- Ekuitas, Kenaikan (Penurunan) Persentase (%): 1,4
+
+Laba/Rugi
+- Pendapatan operasional, 2024* (Rp-miliar): 8
+- Pendapatan operasional, 2023 (Rp-miliar): 0,6
+- Pendapatan operasional, Kenaikan (Penurunan) Nominal (Rp-miliar): 7
+- Pendapatan operasional, Kenaikan (Penurunan) Persentase (%): 1.069,0
+- Pendapatan operasional lainnya, 2024* (Rp-miliar): 25
+- Pendapatan operasional lainnya, 2023 (Rp-miliar): 18
+- Pendapatan operasional lainnya, Kenaikan (Penurunan) Nominal (Rp-miliar): 7
+- Pendapatan operasional lainnya, Kenaikan (Penurunan) Persentase (%): 38,5
+- Total Pendapatan, 2024* (Rp-miliar): 32
+- Total Pendapatan, 2023 (Rp-miliar): 18
+- Total Pendapatan, Kenaikan (Penurunan) Nominal (Rp-miliar): 14
+- Total Pendapatan, Kenaikan (Penurunan) Persentase (%): 74,7
+- Beban Operasional, 2024* (Rp-miliar): (24)
+- Beban Operasional, 2023 (Rp-miliar): (14)
+- Beban Operasional, Kenaikan (Penurunan) Nominal (Rp-miliar): (10)
+- Beban Operasional, Kenaikan (Penurunan) Persentase (%): 71,9
+- Laba Sebelum Pajak, 2024* (Rp-miliar): 8
+- Laba Sebelum Pajak, 2023 (Rp-miliar): 4
+- Laba Sebelum Pajak, Kenaikan (Penurunan) Nominal (Rp-miliar): 4
+- Laba Sebelum Pajak, Kenaikan (Penurunan) Persentase (%): 85,8
+- Pajak yang ditangguhkan, 2024* (Rp-miliar): (0,5)
+- Pajak yang ditangguhkan, 2023 (Rp-miliar): (0,1)
+- Pajak yang ditangguhkan, Kenaikan (Penurunan) Nominal (Rp-miliar): (0,4)
+- Pajak yang ditangguhkan, Kenaikan (Penurunan) Persentase (%): 253,4
+- Pajak, 2024* (Rp-miliar): -
+- Pajak, 2023 (Rp-miliar): -
+- Pajak, Kenaikan (Penurunan) Nominal (Rp-miliar): -
+- Pajak, Kenaikan (Penurunan) Persentase (%): -
+- Laba Setelah Pajak, 2024* (Rp-miliar): 7
+- Laba Setelah Pajak, 2023 (Rp-miliar): 4
+- Laba Setelah Pajak, Kenaikan (Penurunan) Nominal (Rp-miliar): 3
+- Laba Setelah Pajak, Kenaikan (Penurunan) Persentase (%): 79,9

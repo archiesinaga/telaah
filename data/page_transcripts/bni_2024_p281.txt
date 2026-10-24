@@ -1,0 +1,23 @@
+1. Judul atau keterangan:
+Komposisi Aset Bank per Wilayah
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: (%)
+- Periode: 2023, 2024
+- Legenda:
+  - Indonesia
+  - Amerika Serikat
+  - Eropa
+  - Asia
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2023:
+  - Indonesia: 91,6%
+  - Amerika Serikat: 2,3%
+  - Eropa: 0,9%
+  - Asia: 6,0%
+- 2024:
+  - Indonesia: 90,5%
+  - Amerika Serikat: 1,9%
+  - Eropa: 1,4%
+  - Asia: 6,9%

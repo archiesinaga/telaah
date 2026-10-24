@@ -1,0 +1,14 @@
+Judul: Pemegang Saham dan Persentase Kepemilikan Berdasarkan Klasifikasi Per 31 Desember 2024
+Periode: Per 31 Desember 2024
+Kolom: Kepemilikan Saham, Jumlah Pemegang Saham, Jumlah Saham (Lembar), Kepemilikan (%)
+Baris 1: Institusi Lokal | 1.093 | 2.857.300.874 | 7,66088
+Baris 2: Institusi Asing | 1.414 | 9.786.139.529 | 26,23819
+Baris 3: Individu Lokal | 181.794 | 2.272.634.103 | 6,09329
+Baris 4: Individu Asing | 337 | 2.850.660 | 0,00764
+
+Judul: BAGAN PEMEGANG SAHAM UTAMA DAN PENGENDALI
+Angka di dalam diagram: 60,00000%
+
+Judul tabel: (Tidak ada judul tabel, berada di bawah bagan)
+Kolom: Nama Pemegang Saham, Alamat, Jumlah Saham (lembar), Persentase Kepemilikan (%)
+Baris 1: Negara Republik Indonesia Diwakili oleh Kementerian Badan Usaha Milik Negara RI | Kantor Kementerian BUMN Jl. Medan Merdeka Selatan No. 13 Jakarta Pusat 10110 DKI Jakarta, Indonesia Tel. +62 21 29935678 Fax. +62 21 29935740 www.bumn.go.id | 22.378.387.750 | 60,00000

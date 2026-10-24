@@ -1,0 +1,9 @@
+1. Judul atau keterangan:
+DEBITUR, Portofolio, Jumlah, NPL
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan persentase (%) dan triliun (Rp).
+
+3. Angka yang tertera:
+- Kolom biru muda (kiri): 47,0%, Rp44,6 triliun, 597.761 Debitur, 1,72%
+- Kolom kuning (kanan): 53,0%, Rp54,7 triliun, 674.338 Debitur, 1,26%

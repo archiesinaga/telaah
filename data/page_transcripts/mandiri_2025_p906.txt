@@ -1,0 +1,31 @@
+Mandiri Lingkar Hijau
+1. Mandiri Lingkar Hijau: 13
+2. Mandiri Lingkar Hijau: 15
+3. Mandiri Lingkar Hijau: 12
+
+Mandiri Air Bersih
+1. Mandiri Air Bersih: 6
+2. Mandiri Air Bersih: 3
+3. Mandiri Air Bersih: 1
+4. Mandiri Air Bersih: 10
+
+Mandiri Peduli Sekolah
+1. Mandiri Peduli Sekolah: 4
+2. Mandiri Peduli Sekolah: 1
+3. Mandiri Peduli Sekolah: 10
+
+Peduli Bencana
+1. Peduli Bencana: 1
+2. Peduli Bencana: 2
+3. Peduli Bencana: 3
+4. Peduli Bencana: 11
+
+Mandiri Berbagi Kebaikan
+1. Mandiri Berbagi Kebaikan: 1
+2. Mandiri Berbagi Kebaikan: 2
+3. Mandiri Berbagi Kebaikan: 3
+4. Mandiri Berbagi Kebaikan: 10
+
+Pembangunan Sarana dan Prasarana Umum
+1. Pembangunan Sarana dan Prasarana Umum: 9
+2. Pembangunan Sarana dan Prasarana Umum: 11

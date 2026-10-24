@@ -1,0 +1,46 @@
+1. Judul Tabel: 
+Kontribusi produk dan layanan digital banking terhadap pencapaian fee based income
+
+2. Kolom, Label, Satuan, dan Periode:
+- Periode 2024:
+  - Jumlah (Rp-miliar)
+  - Komposisi (%)
+- Periode 2023:
+  - Jumlah (Rp-miliar)
+  - Komposisi (%)
+- Kenaikan (Penurunan):
+  - Nominal (Rp-miliar)
+  - Persentase (%)
+
+3. Data Angka:
+- ATM & e-channel:
+  - 2024 - Jumlah (Rp-miliar): 1.549
+  - 2024 - Komposisi (%): 61,5
+  - 2023 - Jumlah (Rp-miliar): 1.466
+  - 2023 - Komposisi (%): 69,6
+  - Kenaikan (Penurunan) - Nominal (Rp-miliar): 83
+  - Kenaikan (Penurunan) - Persentase (%): 5,7 (disertai simbol panah ke atas)
+
+- Payment Point Online Banking (PPOB) & Bill Payment:
+  - 2024 - Jumlah (Rp-miliar): 383
+  - 2024 - Komposisi (%): 15,2
+  - 2023 - Jumlah (Rp-miliar): 311
+  - 2023 - Komposisi (%): 14,8
+  - Kenaikan (Penurunan) - Nominal (Rp-miliar): 72
+  - Kenaikan (Penurunan) - Persentase (%): 23,1 (disertai simbol panah ke atas)
+
+- Wholesale Digital Transaction Platform:
+  - 2024 - Jumlah (Rp-miliar): 587
+  - 2024 - Komposisi (%): 23,3
+  - 2023 - Jumlah (Rp-miliar): 321
+  - 2023 - Komposisi (%): 15,3
+  - Kenaikan (Penurunan) - Nominal (Rp-miliar): 266
+  - Kenaikan (Penurunan) - Persentase (%): 82,9 (disertai simbol panah ke atas)
+
+- Jumlah:
+  - 2024 - Jumlah (Rp-miliar): 2.519
+  - 2024 - Komposisi (%): 100,0
+  - 2023 - Jumlah (Rp-miliar): 2.098
+  - 2023 - Komposisi (%): 100,0
+  - Kenaikan (Penurunan) - Nominal (Rp-miliar): 421
+  - Kenaikan (Penurunan) - Persentase (%): 20,1 (disertai simbol panah ke atas)

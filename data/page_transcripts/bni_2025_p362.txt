@@ -1,0 +1,10 @@
+Tabel:
+
+Description | 2025 (%) | 2024 (%) | 2023 (%) | Difference 2024-2025 (%) | Difference 2023-2024 (%)
+--- | --- | --- | --- | --- | ---
+**Liquidity Coverage Ratio (LCR)** | | | | |
+Bank Only | 171.93 | 147.95 | 191.5 | 23.98 | (43.55)
+Consolidation | 176.49 | 150.67 | 197.2 | 25.82 | (46.53)
+**Net Stable Funding Ratio (NFSR)** | | | | |
+Bank Only | 141.87 | 132.48 | 145.3 | 9.39 | (12.82)
+Consolidation | 142.49 | 133.08 | 146.4 | 9.41 | (13.32)

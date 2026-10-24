@@ -1,0 +1,118 @@
+Comparison of BBNI Share Prices with the LQ45 Index and the JCI Over the 2023–2025 Period
+
+Legenda:
+- Average Trading Volume of BBNI
+- BBNI Stock Closing Price
+- JCI
+
+Periode dan angka:
+Jan-23: Average Trading Volume of BBNI: 57,378,130
+Feb-23: Average Trading Volume of BBNI: 50,079,570
+Mar-23: Average Trading Volume of BBNI: 75,633,476
+Apr-23: Average Trading Volume of BBNI: 45,148,500
+May-23: Average Trading Volume of BBNI: 65,397,296
+Jun-23: Average Trading Volume of BBNI: 42,327,059
+Jul-23: Average Trading Volume of BBNI: 56,658,060
+Aug-23: Average Trading Volume of BBNI: 53,919,245
+Sep-23: Average Trading Volume of BBNI: 70,606,010
+Oct-23: Average Trading Volume of BBNI: 52,679,418
+Nov-23: Average Trading Volume of BBNI: 56,661,468
+Dec-23: Average Trading Volume of BBNI: 43,734,795
+Jan-24: Average Trading Volume of BBNI: 45,735,141
+Feb-24: Average Trading Volume of BBNI: 53,534,416
+Mar-24: Average Trading Volume of BBNI: 53,591,572
+Apr-24: Average Trading Volume of BBNI: 79,804,081
+May-24: Average Trading Volume of BBNI: 85,735,717
+Jun-24: Average Trading Volume of BBNI: 65,862,211
+Jul-24: Average Trading Volume of BBNI: 54,907,274
+Aug-24: Average Trading Volume of BBNI: 55,781,654
+Sep-24: Average Trading Volume of BBNI: 60,072,495
+Oct-24: Average Trading Volume of BBNI: 46,550,548
+Nov-24: Average Trading Volume of BBNI: 44,881,100
+Dec-24: Average Trading Volume of BBNI: 52,859,484
+Jan-25: Average Trading Volume of BBNI: 58,032,232
+Feb-25: Average Trading Volume of BBNI: 62,081,970
+Mar-25: Average Trading Volume of BBNI: 103,097,506
+Apr-25: Average Trading Volume of BBNI: 108,013,600
+May-25: Average Trading Volume of BBNI: 71,104,977
+Jun-25: Average Trading Volume of BBNI: 55,087,466
+Jul-25: Average Trading Volume of BBNI: 40,173,309
+Aug-25: Average Trading Volume of BBNI: 52,758,205
+Sep-25: Average Trading Volume of BBNI: 60,962,015
+Oct-25: Average Trading Volume of BBNI: 73,256,991
+Nov-25: Average Trading Volume of BBNI: 41,365,760
+Dec-25: Average Trading Volume of BBNI: 32,229,255
+
+Jan-23: BBNI Stock Closing Price: 4,575
+Feb-23: BBNI Stock Closing Price: 4,388
+Mar-23: BBNI Stock Closing Price: 4,675
+Apr-23: BBNI Stock Closing Price: 4,713
+May-23: BBNI Stock Closing Price: 4,525
+Jun-23: BBNI Stock Closing Price: 4,575
+Jul-23: BBNI Stock Closing Price: 4,438
+Aug-23: BBNI Stock Closing Price: 4,588
+Sep-23: BBNI Stock Closing Price: 5,163
+Oct-23: BBNI Stock Closing Price: 4,790
+Nov-23: BBNI Stock Closing Price: 5,275
+Dec-23: BBNI Stock Closing Price: 5,375
+Jan-24: BBNI Stock Closing Price: 5,750
+Feb-24: BBNI Stock Closing Price: 6,000
+Mar-24: BBNI Stock Closing Price: 5,900
+Apr-24: BBNI Stock Closing Price: 5,250
+May-24: BBNI Stock Closing Price: 4,400
+Jun-24: BBNI Stock Closing Price: 4,660
+Jul-24: BBNI Stock Closing Price: 4,970
+Aug-24: BBNI Stock Closing Price: 5,350
+Sep-24: BBNI Stock Closing Price: 5,350
+Oct-24: BBNI Stock Closing Price: 5,250
+Nov-24: BBNI Stock Closing Price: 4,980
+Dec-24: BBNI Stock Closing Price: 4,350
+Jan-25: BBNI Stock Closing Price: 4,770
+Feb-25: BBNI Stock Closing Price: 4,030
+Mar-25: BBNI Stock Closing Price: 4,240
+Apr-25: BBNI Stock Closing Price: 4,180
+May-25: BBNI Stock Closing Price: 4,490
+Jun-25: BBNI Stock Closing Price: 4,120
+Jul-25: BBNI Stock Closing Price: 4,010
+Aug-25: BBNI Stock Closing Price: 4,380
+Sep-25: BBNI Stock Closing Price: 4,100
+Oct-25: BBNI Stock Closing Price: 4,380
+Nov-25: BBNI Stock Closing Price: 4,260
+Dec-25: BBNI Stock Closing Price: 4,370
+
+Jan-23: JCI: 6,839
+Feb-23: JCI: 6,843
+Mar-23: JCI: 6,805
+Apr-23: JCI: 6,916
+May-23: JCI: 6,633
+Jun-23: JCI: 6,662
+Jul-23: JCI: 6,931
+Aug-23: JCI: 6,953
+Sep-23: JCI: 6,940
+Oct-23: JCI: 6,752
+Nov-23: JCI: 7,081
+Dec-23: JCI: 7,273
+Jan-24: JCI: 7,208
+Feb-24: JCI: 7,316
+Mar-24: JCI: 7,289
+Apr-24: JCI: 7,234
+May-24: JCI: 6,971
+Jun-24: JCI: 7,064
+Jul-24: JCI: 7,256
+Aug-24: JCI: 7,671
+Sep-24: JCI: 7,528
+Oct-24: JCI: 7,574
+Nov-24: JCI: 7,114
+Dec-24: JCI: 7,080
+Jan-25: JCI: 7,109
+Feb-25: JCI: 6,271
+Mar-25: JCI: 6,511
+Apr-25: JCI: 6,767
+May-25: JCI: 7,176
+Jun-25: JCI: 6,928
+Jul-25: JCI: 7,484
+Aug-25: JCI: 7,830
+Sep-25: JCI: 8,061
+Oct-25: JCI: 8,164
+Nov-25: JCI: 8,509
+Dec-25: JCI: 8,647

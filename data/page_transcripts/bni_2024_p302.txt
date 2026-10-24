@@ -1,0 +1,30 @@
+1. Judul atau keterangan: Laporan Posisi Keuangan Konsolidasian
+2. Label sumbu, legenda, satuan, dan periode:
+- Pos Akun
+- 2024 (Rp-miliar)
+- 2023 (Rp-miliar)
+- 2022 (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar), Persentase (%)
+- Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar), Persentase (%)
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Aset, 2024 (Rp-miliar): 1.129.806
+- Aset, 2023 (Rp-miliar): 1.086.664
+- Aset, 2022 (Rp-miliar): 1.029.837
+- Aset, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 43.142
+- Aset, Kenaikan (Penurunan) 2023-2024 Persentase (%): 4,0
+- Aset, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 56.827
+- Aset, Kenaikan (Penurunan) 2022-2023 Persentase (%): 5,5
+- Liabilitas, 2024 (Rp-miliar): 962.619
+- Liabilitas, 2023 (Rp-miliar): 931.931
+- Liabilitas, 2022 (Rp-miliar): 889.639
+- Liabilitas, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 30.688
+- Liabilitas, Kenaikan (Penurunan) 2023-2024 Persentase (%): 3,3
+- Liabilitas, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 42.292
+- Liabilitas, Kenaikan (Penurunan) 2022-2023 Persentase (%): 4,8
+- Ekuitas, 2024 (Rp-miliar): 167.187
+- Ekuitas, 2023 (Rp-miliar): 154.733
+- Ekuitas, 2022 (Rp-miliar): 140.198
+- Ekuitas, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 12.454
+- Ekuitas, Kenaikan (Penurunan) 2023-2024 Persentase (%): 8,1
+- Ekuitas, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 14.535
+- Ekuitas, Kenaikan (Penurunan) 2022-2023 Persentase (%): 10,4

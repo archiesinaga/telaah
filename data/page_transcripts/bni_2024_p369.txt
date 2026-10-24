@@ -1,0 +1,22 @@
+1. Judul Tabel: 
+Indikator Kinerja | Proyeksi Tahun 2025
+
+2. Label dan Nilai (Periode: Tahun 2025):
+- Pertumbuhan Neraca yang berkualitas: (tidak ada angka)
+- Pertumbuhan Kredit: 8%-10%
+- Pertumbuhan DPK: 9%-11%
+- CASA Ratio: >70%
+- NPL Gross: < 2.0%
+- Credit Cost (Biaya CKPN terhadap Total Kredit): 1.0%-1.1%
+- Profitabilitas: (tidak ada angka)
+- Net Interest Margin (NIM): 4,0%-4,2%
+- Return on Equity (ROE) - Equity Based: 14,0%-15,0%
+- Struktur Modal: (tidak ada angka)
+- Capital Adequacy Ratio (CAR): >20%
+- Kebijakan Dividen: (tidak ada angka)
+- Proyeksi Pembayaran Dividen di tahun 2025: minimal 25%
+
+3. Angka teks paragraf terkait indikator:
+- 2025: 8,0%-10,0%
+- 2024: (tidak terbaca spesifik dalam konteks label tunggal, tertulis "dibandingkan tahun 2024 (year on year)")
+- 9,0%-11,0% year on year (YoY)

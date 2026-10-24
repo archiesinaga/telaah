@@ -1,0 +1,47 @@
+Per 31 Desember 2024
+
+Nama Perusahaan: PT BCA Finance
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 99,59
+BCA Finance Limited: 0,41%
+Total: 100%
+
+Nama Perusahaan: BCA Finance Limited
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 100%
+
+Nama Perusahaan: PT Bank BCA Syariah (BCA Syariah)
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 99,99995%
+PT BCA Finance: 0,00005%
+Total: 100%
+
+Nama Perusahaan: PT Asuransi Umum BCA (BCA Insurance)
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 75%
+PT BCA Finance: 25%
+Total: 100%
+
+Nama Perusahaan: PT Central Capital Ventura (CCV)
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 99,9997%
+PT BCA Finance: 0,0003%
+Total: 100%
+
+Nama Perusahaan: PT BCA Sekuritas
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 90%
+Chandra Adisusanto: 10%
+Total: 100%
+
+Nama Perusahaan: PT Asuransi Jiwa BCA (BCA Life)
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 90%
+Chandra Adisusanto: 10%
+Total: 100%
+
+Nama Perusahaan: PT Bank Digital BCA
+Persentase Kepemilikan Saham:
+PT Bank Central Asia Tbk: 99,999997%
+PT BCA Finance: 0,000003%
+Total: 100%

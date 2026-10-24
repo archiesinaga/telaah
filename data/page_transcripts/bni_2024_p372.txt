@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+PANGSA PASAR
+
+2. Label sumbu, legenda, satuan, dan periode:
+Tabel memuat kolom: Pos Akun, 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024 (Nominal, Persentase (%), Tren).
+
+3. Semua angka yang tertera:
+Berdasarkan Aset Industri Perbankan:
+- Industri*) (Rp-miliar) | 2024: 12.172 | 2023: 11.428 | 2022: 10.488 | Nominal: 744 | Persentase (%): 6,5 | Tren: ↑
+- BNI (Rp-miliar) | 2024: 1.130 | 2023: 1.087 | 2022: 1.030 | Nominal: 43 | Persentase (%): 4,0 | Tren: ↑
+- Pangsa Pasar terhadap Industri (%) | 2024: 9,3 | 2023: 9,5 | 2022: 9,8 | Nominal: - | Persentase (%): (0,2) | Tren: tidak terbaca
+
+Berdasarkan Outstanding Kredit Industri Perbankan:
+- Industri*) (Rp-miliar) | 2024: 7.657 | 2023: 6.966 | 2022: 6.275 | Nominal: 691 | Persentase (%): 9,9 | Tren: ↑
+- BNI (Rp-miliar) | 2024: 776 | 2023: 695 | 2022: 646 | Nominal: 81 | Persentase (%): 11,7 | Tren: ↑
+- Pangsa Pasar terhadap Industri (%) | 2024: 10,1 | 2023: 10,0 | 2022: 10,3 | Nominal: - | Persentase (%): 0,1 | Tren: ↑
+
+Berdasarkan Outstanding Dana Pihak Ketiga Industri Perbankan:
+- Industri*) (Rp-miliar) | 2024: 8.751 | 2023: 8.216 | 2022: 7.647 | Nominal: 535 | Persentase (%): 6,5 | Tren: ↑
+- BNI (Rp-miliar) | 2024: 806 | 2023: 811 | 2022: 769 | Nominal: (5) | Persentase (%): (0,6) | Tren: ↓
+- Pangsa Pasar terhadap Industri (%) | 2024: 9,2 | 2023: 9,9 | 2022: 10,1 | Nominal: - | Persentase (%): (0,7) | Tren: tidak terbaca
+
+Perbandingan Capital Adequacy Ratio (CAR) dengan Rata-Rata Industri Bank Umum:
+- Industri*) (%) | 2024: 27,0 | 2023: 27,9 | 2022: 25,2 | Nominal: - | Persentase (%): (0,9) | Tren: ↓
+- BNI (%) | 2024: 21,4 | 2023: 22,0 | 2022: 19,3 | Nominal: - | Persentase (%): (0,6) | Tren: ↓
+
+Perbandingan Rasio Beban Operasional Terhadap Pendapatan Operasional (BOPO) dengan Rata-Rata Industri Bank Umum:
+- Industri*) (%) | 2024: 79,0 | 2023: 76,8 | 2022: 77,1 | Nominal: - | Persentase (%): 2,2 | Tren: ↑
+- BNI (%) | 2024: 70,0 | 2023: 68,4 | 2022: 68,6 | Nominal: - | Persentase (%): 1,6 | Tren: ↑
+
+Perbandingan Rasio Return On Asset (ROA) dengan Rata-Rata Industri Bank Umum:
+- Industri*) (%) | 2024: 2,7 | 2023: 2,7 | 2022: 2,5 | Nominal: - | Persentase (%): 0,0 | Tren: ↑
+- BNI (Rp-miliar) | 2024: 2,5 | 2023: 2,6 | 2022: 2,5 | Nominal: - | Persentase (%): (0,1) | Tren: ↓
+
+Perbandingan Rasio Pinjaman terhadap Total Simpanan (LDR) dengan Rata-Rata Industri Bank Umum:
+- Industri*) (%) | 2024: 87,5 | 2023: 84,8 | 2022: 82,1 | Nominal: - | Persentase (%): 2,7 | Tren: ↑
+- BNI (%) | 2024: 96,1 | 2023: 85,8 | 2022: 84,2 | Nominal: - | Persentase (%): 10,3 | Tren: ↑
+
+Catatan kaki:
+*) Sumber: Statistik Perbankan Indonesia, Otoritas Jasa Keuangan, Posisi per Oktober 2024

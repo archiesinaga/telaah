@@ -1,0 +1,16 @@
+Audit & Consulting Realization 2025
+(%)
+
+Legenda:
+Target
+Realization
+
+Kategori dan angka:
+Surprise Audit: Target 2, Realization 2
+Advisory: Target 16, Realization 23
+IT/Application/Project Activities: Target 25, Realization 29
+Non-IT/Thematic Activities: Target 34, Realization 46
+Subsidiaries: Target 3, Realization 3
+Division: Target 1, Realization 1
+Mandatory Audit: Target 14, Realization 14
+Delivery Channel includes KLN: Target 30, Realization 31

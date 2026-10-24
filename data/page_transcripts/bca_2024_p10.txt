@@ -1,0 +1,29 @@
+1. End-to-end Supply Chain
+Label: Supplier, Principal, Large-sized Distributor, Mid-sized Distributor, Retailer, End Customer
+
+2. Kemampuan Digital yang Andal
+Label:
+- Jumlah Transaksi Mobile & Internet Banking: 5,0x dalam 5 tahun
+- Jumlah Pengguna Mobile Banking: 2,8x dalam 5 tahun
+- Nilai Transaksi QRIS: 2,5x YoY
+
+3. Pertumbuhan Nasabah yang Berkelanjutan
+Label dan Angka:
+- Jumlah Nasabah: 33,1 juta, 7,6% YoY
+- Giro & Tabungan (CASA): Rp 924,0 triliun, 81,5% terhadap Total Dana Pihak Ketiga
+
+4. Kanal Online Mencetak Rekor Tertinggi
+Mobile Banking & Internet Banking
+Label dan Angka:
+- Jumlah Transaksi: 31,6 miliar, 23,5% YoY
+- Nilai Transaksi: Rp 28.261 triliun, 13,8% YoY
+
+5. Ekosistem Layanan Perbankan (Infografik bernomor 1 sampai 8)
+- 1: Online Business Banking (virtual account, API BCA)
+- 2: Merchant Point of Sales (POS) & Merchant Apps
+- 3: Two Leading Mobile Banking Apps
+- 4: OneKlik (Online payment embedded in 3rd party platform)
+- 5: E-Wallet
+- 6: Cash Deposit & Withdrawal Machine
+- 7: 24/7 Contact Center (HaloBCA 1500888)
+- 8: 1.264 Cabang

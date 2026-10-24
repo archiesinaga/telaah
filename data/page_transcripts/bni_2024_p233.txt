@@ -1,0 +1,26 @@
+Dana Pihak Ketiga per Segmen Operasi
+
+Tabel:
+Segmen: Wholesale & International Banking, 2024 Jumlah (Rp-miliar): 224.894, 2024 Komposisi (%): 27,9, 2023 Jumlah (Rp-miliar): 253.649, 2023 Komposisi (%): 31,3, Kenaikan (Penurunan) Nominal (Rp-miliar): (28.755), Kenaikan (Penurunan) Persentase (%): (11,3)
+Segmen: Institutional Banking, 2024 Jumlah (Rp-miliar): 117.817, 2024 Komposisi (%): 14,6, 2023 Jumlah (Rp-miliar): 136.146, 2023 Komposisi (%): 16,8, Kenaikan (Penurunan) Nominal (Rp-miliar): (18.329), Kenaikan (Penurunan) Persentase (%): (13,5)
+Segmen: Enterprise & Commercial Banking, 2024 Jumlah (Rp-miliar): 57.400, 2024 Komposisi (%): 7,1, 2023 Jumlah (Rp-miliar): 54.701, 2023 Komposisi (%): 6,7, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.699, Kenaikan (Penurunan) Persentase (%): 4,9
+Segmen: Retail Banking, 2024 Jumlah (Rp-miliar): 392.561, 2024 Komposisi (%): 48,7, 2023 Jumlah (Rp-miliar): 357.213, 2023 Komposisi (%): 44,1, Kenaikan (Penurunan) Nominal (Rp-miliar): 35.348, Kenaikan (Penurunan) Persentase (%): 9,9
+Segmen: Perusahaan Anak, 2024 Jumlah (Rp-miliar): 13.347, 2024 Komposisi (%): 1,7, 2023 Jumlah (Rp-miliar): 10.236, 2023 Komposisi (%): 1,3, Kenaikan (Penurunan) Nominal (Rp-miliar): 3.111, Kenaikan (Penurunan) Persentase (%): 30,4
+Segmen: Penyesuaian dan Eliminasi, 2024 Jumlah (Rp-miliar): (508), 2024 Komposisi (%): (0,1), 2023 Jumlah (Rp-miliar): (1.215), 2023 Komposisi (%): (0,1), Kenaikan (Penurunan) Nominal (Rp-miliar): 707, Kenaikan (Penurunan) Persentase (%): (58,2)
+Segmen: Total Dana Pihak Ketiga Segmen Operasi, 2024 Jumlah (Rp-miliar): 805.511, 2024 Komposisi (%): 100,0, 2023 Jumlah (Rp-miliar): 810.730, 2023 Komposisi (%): 100,0, Kenaikan (Penurunan) Nominal (Rp-miliar): (5.219), Kenaikan (Penurunan) Persentase (%): (0,6)
+
+Judul Grafik: Dana Pihak Ketiga per Segmen Operasi
+Satuan: (%)
+Legenda: Wholesale & International Banking, Institutional Banking, Enterprises & Commercial Banking, Retail Banking, Perusahaan Anak
+Diagram Donat 2023:
+- Wholesale & International Banking: 31,3%
+- Institutional Banking: 16,8%
+- Enterprises & Commercial Banking: 6,7%
+- Retail Banking: 44,1%
+- Perusahaan Anak: 1,3%
+Diagram Donat 2024:
+- Wholesale & International Banking: 27,9%
+- Institutional Banking: 14,6%
+- Enterprises & Commercial Banking: 7,1%
+- Retail Banking: 48,7%
+- Perusahaan Anak: 1,7%

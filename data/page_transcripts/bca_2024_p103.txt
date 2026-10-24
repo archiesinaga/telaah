@@ -1,0 +1,15 @@
+1. Judul atau keterangan:
+Struktur Grup Perusahaan dan Kepemilikan Entitas Anak
+
+2. Label sumbu, legenda, satuan, dan periode:
+(Tidak ada label sumbu, legenda, atau satuan waktu; diagram menampilkan persentase kepemilikan saham)
+
+3. Angka yang tertera dan pasangannya:
+- BCA Finance Limited: 100%
+- PT BCA Finance: 99,576% (dengan panah tambahan 0,424% dari BCA Finance Limited)
+- PT Bank BCA Syariah: 99,99995% (dengan panah tambahan 0,00005% dari PT BCA Finance)
+- PT Asuransi Umum BCA: 75% (dengan panah tambahan 25% dari PT Bank BCA Syariah)
+- PT Central Capital Ventura: 99,9997% (dengan panah tambahan 0,0003% dari PT Asuransi Umum BCA)
+- PT BCA Sekuritas: 90%
+- PT Asuransi Jiwa BCA: 90% (dengan panah tambahan 0,000003% dari PT Central Capital Ventura)
+- PT Bank Digital BCA: 99,99997%

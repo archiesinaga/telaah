@@ -1,0 +1,42 @@
+1. Struktur Kepemilikan Saham Konglomerasi Keuangan
+- Legenda:
+  - Garis biru: Kepemilikan
+  - Garis oranye: Pendiri
+
+- Diagram Struktur Organisasi dan Persentase Kepemilikan:
+  - Perbankan - BSI: 51,47%
+  - Perbankan - Mandiri Taspen: 51,1%
+  - Pembiayaan - mandiri tunas finance: 51%
+  - Pembiayaan - mandiri utama finance: 99,99%
+  - Pasar Modal - mandiri sekuritas: 99,99%
+  - Offshore Business - mandiri remittance: 100%
+  - Offshore Business - europe: 100%
+  - Modal Ventura - mandiri capital: 99,99%
+  - Insurance - mandiri Financial Services: 51%
+  - Pasar Modal - mandiri securities: 100%
+  - Pasar Modal - mandiri investasi: 99,93%
+  - Pasar Modal - mandiri investment: 100%
+  - Yokke! PT Mitra Transaksi Indonesia: 99,99%
+  - Insurance - mandiri dpnk: 99,9% (tidak terbaca jelas)
+  - Pension Fund - PT KRIDA UPAYA TUNGGAL: 99,9%
+
+- Tabel Struktur Kepemilikan Saham Konglomerasi Keuangan Per 31 Desember 2025:
+  - No. 1, PT Bank Mandiri (Persero) Tbk, PIKK: PT Danantara Asset Management (Persero): 52%, Masyarakat : 48%
+  - No. 2, PT Bank Syariah Indonesia, AKK: PT Bank Mandiri (Persero) Tbk: 51,47%, PT Bank Negara Indonesia (Persero) Tbk: 23,24%, PT Bank Rakyat Indonesia (Persero) Tbk: 15,38%, Masyarakat: 9,91%
+  - No. 3, PT Bank Mandiri Taspen, AKK: PT Bank Mandiri (Persero) Tbk: 51,098%, PT Taspen (Persero): 48,437%, IB Made Putra Jandhana: 0,465%
+  - No. 4, Bank Mandiri Europe Ltd., AKK: PT Bank Mandiri (Persero) Tbk: 100,00%
+  - No. 5, PT Mandiri Tunas Finance, AKK: PT Bank Mandiri (Persero) Tbk: 51,00%, PT Tunas Ridean: 49,00%
+  - No. 6, PT Mandiri Utama Finance, AKK: PT Bank Mandiri (Persero) Tbk :99,99%, PT Mandiri Sekuritas: 0,01%
+  - No. 7, PT AXA Mandiri Financial Services, AKK: PT Bank Mandiri (Persero) Tbk: 51,00%, National Mutual International Pty.Ltd.: 49,00%
+  - No. 8, PT Mandiri Sekuritas, AKK: PT Bank Mandiri (Persero) Tbk: 99,99%, Koperasi Bank Mandiri (Mandiri MCO): 0,01%
+  - No. 9, PT Mandiri Capital Indonesia, AKK: PT Bank Mandiri (Persero) Tbk: 99,99%, PT Mandiri Sekuritas: 0,01%
+  - No. 10, Mandiri International Remittance Sdn. Bhd, AKK: PT Bank Mandiri (Persero) Tbk: 100,00%
+  - No. 11, PT Mandiri Manajemen Investasi, AKK: PT Mandiri Sekuritas: 99,93%, Koperasi Bank Mandiri (Mandiri MCO): 0,07%
+  - No. 12, Mandiri Securities Pte. Ltd., AKK: PT Mandiri Sekuritas: 100,00%
+  - No. 13, PT Mitra Transaksi Indonesia, AKK: PT Mandiri Capital Indonesia: 99,99%, PT Mandiri Sekuritas: 0,01%
+  - No. 14, Mandiri Investment Management Pte. Ltd., AKK: PT Mandiri Manajemen Investasi: 100%
+  - No. 15, Dana Pensiun Bank Mandiri, AKK: Pendiri Dana Pensiun: Bank Mandiri
+  - No. 16, Dana Pensiun Bank Mandiri Satu, AKK: Pendiri Dana Pensiun: Bank Mandiri
+  - No. 17, Dana Pensiun Bank Mandiri Dua, AKK: Pendiri Dana Pensiun: Bank Mandiri
+  - No. 18, Dana Pensiun Bank Mandiri Tiga, AKK: Pendiri Dana Pensiun: Bank Mandiri
+  - No. 19, Dana Pensiun Bank Mandiri Empat, AKK: Pendiri Dana Pensiun: Bank Mandiri

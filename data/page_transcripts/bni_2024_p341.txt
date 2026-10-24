@@ -1,0 +1,14 @@
+1. Judul tabel: Perihal | 2024 (%) | 2023 (%) | 2022 (%) | Selisih 2023-2024 (%) | Selisih 2022-2023 (%)
+Label baris, periode, satuan, dan angka:
+- Liquidity Coverage Ratio (LCR):
+  - Bank Saja, 2024: 147,95; 2023: 191,5; 2022: 219,0; Selisih 2023-2024: (43,55); Selisih 2022-2023: (27,5)
+  - Konsolidasian, 2024: 150,67; 2023: 197,2; 2022: 223,4; Selisih 2023-2024: (46,53); Selisih 2022-2023: (26,2)
+- Net Stable Funding Ratio (NFSR):
+  - Bank Saja, 2024: 132,48; 2023: 145,3; 2022: 164,1; Selisih 2023-2024: (12,82); Selisih 2022-2023: (18,8)
+  - Konsolidasian, 2024: 133,08; 2023: 146,4; 2022: 165,7; Selisih 2023-2024: (13,32); Selisih 2022-2023: (19,3)
+
+2. Judul tabel: Perihal | 2024 (%) | 2023 (%) | 2022 (%) | Selisih 2023-2024 (%) | Selisih 2022-2023 (%)
+Label baris, periode, satuan, dan angka:
+- Capital Adequacy Ratio (CAR)-Tier I, 2024: 20,0; 2023: 20,3; 2022: 17,5; Selisih 2023-2024: (0,3); Selisih 2022-2023: 2,8
+- Capital Adequacy Ratio (CAR)-Tier II, 2024: 1,4; 2023: 1,7; 2022: 1,8; Selisih 2023-2024: (0,3); Selisih 2022-2023: (0,1)
+- Capital Adequacy Ratio (CAR) (Risiko Kredit, Pasar dan Operasional), 2024: 21,4; 2023: 22,0; 2022: 19,3; Selisih 2023-2024: (0,6); Selisih 2022-2023: 2,7

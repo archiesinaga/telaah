@@ -1,0 +1,98 @@
+Tabel 1:
+Kolektibilitas Pinjaman:
+2024:
+- Lancar: Jumlah (Rp-miliar) 731.053, Komposisi (%) 94,2
+- Dalam Perhatian Khusus: Jumlah (Rp-miliar) 29.566, Komposisi (%) 3,8
+- Kurang Lancar: Jumlah (Rp-miliar) 3.838, Komposisi (%) 0,5
+- Diragukan: Jumlah (Rp-miliar) 2.138, Komposisi (%) 0,3
+- Macet: Jumlah (Rp-miliar) 9.277, Komposisi (%) 1,2
+- Sub Jumlah: Jumlah (Rp-miliar) 775.872, Komposisi (%) 100,0
+- Cadangan kerugian penurunan nilai: Jumlah (Rp-miliar) (38.685)
+- Jumlah - neto: Jumlah (Rp-miliar) 737.187
+
+2023:
+- Lancar: Jumlah (Rp-miliar) 646.349, Komposisi (%) 93,0
+- Dalam Perhatian Khusus: Jumlah (Rp-miliar) 33.901, Komposisi (%) 4,9
+- Kurang Lancar: Jumlah (Rp-miliar) 2.954, Komposisi (%) 0,4
+- Diragukan: Jumlah (Rp-miliar) 2.822, Komposisi (%) 0,4
+- Macet: Jumlah (Rp-miliar) 9.059, Komposisi (%) 1,3
+- Sub Jumlah: Jumlah (Rp-miliar) 695.085, Komposisi (%) 100,0
+- Cadangan kerugian penurunan nilai: Jumlah (Rp-miliar) (47.158)
+- Jumlah - neto: Jumlah (Rp-miliar) 647.927
+
+2022:
+- Lancar: Jumlah (Rp-miliar) 605.232, Komposisi (%) 93,7
+- Dalam Perhatian Khusus: Jumlah (Rp-miliar) 22.795, Komposisi (%) 3,5
+- Kurang Lancar: Jumlah (Rp-miliar) 3.123, Komposisi (%) 0,5
+- Diragukan: Jumlah (Rp-miliar) 1.471, Komposisi (%) 0,2
+- Macet: Jumlah (Rp-miliar) 13.567, Komposisi (%) 2,1
+- Sub Jumlah: Jumlah (Rp-miliar) 646.188, Komposisi (%) 100,0
+- Cadangan kerugian penurunan nilai: Jumlah (Rp-miliar) (50.334)
+- Jumlah - neto: Jumlah (Rp-miliar) 595.854
+
+Kenaikan (Penurunan) 2023-2024:
+- Lancar: Nominal (Rp-miliar) 84.704, Persentase (%) 13,1
+- Dalam Perhatian Khusus: Nominal (Rp-miliar) (4.335), Persentase (%) (12,8)
+- Kurang Lancar: Nominal (Rp-miliar) 884, Persentase (%) 30
+- Diragukan: Nominal (Rp-miliar) (684), Persentase (%) (24,2)
+- Macet: Nominal (Rp-miliar) 218, Persentase (%) 2,4
+- Sub Jumlah: Nominal (Rp-miliar) 80.787, Persentase (%) 11,6
+- Cadangan kerugian penurunan nilai: Nominal (Rp-miliar) 8.473, Persentase (%) (18,0)
+- Jumlah - neto: Nominal (Rp-miliar) 89.260, Persentase (%) 13,8
+
+Kenaikan (Penurunan) 2022-2023:
+- Lancar: Nominal (Rp-miliar) 41.117, Persentase (%) 6,8
+- Dalam Perhatian Khusus: Nominal (Rp-miliar) 11.106, Persentase (%) 48,7
+- Kurang Lancar: Nominal (Rp-miliar) (169), Persentase (%) (5,4)
+- Diragukan: Nominal (Rp-miliar) 1.351, Persentase (%) 91,8
+- Macet: Nominal (Rp-miliar) (4.508), Persentase (%) (33,2)
+- Sub Jumlah: Nominal (Rp-miliar) 48.897, Persentase (%) 7,6
+- Cadangan kerugian penurunan nilai: Nominal (Rp-miliar) 3.176, Persentase (%) (6,3)
+- Jumlah - neto: Nominal (Rp-miliar) 52.073, Persentase (%) 8,7
+
+Tabel 2:
+Kolektibilitas Pinjaman:
+2024:
+- Nilai Wajar melalui Laporan Laba Rugi: Jumlah (Rp-miliar) 3.957, Komposisi (%) 3,0
+- Nilai Wajar melalui Penghasilan Komprehensif Lain: Jumlah (Rp-miliar) 90.905, Komposisi (%) 68,8
+- Biaya Perolehan yang Diamortisasi: Jumlah (Rp-miliar) 37.210, Komposisi (%) 28,2
+- Jumlah: Jumlah (Rp-miliar) 132.072, Komposisi (%) 100,0
+- Suku Bunga Tetap: Jumlah (Rp-miliar) 131.972, Komposisi (%) 99,9
+- Suku Bunga Mengambang: Jumlah (Rp-miliar) 100, Komposisi (%) 0,1
+- Jumlah: Jumlah (Rp-miliar) 132.072, Komposisi (%) 100,0
+
+2023:
+- Nilai Wajar melalui Laporan Laba Rugi: Jumlah (Rp-miliar) 4.188, Komposisi (%) 3,3
+- Nilai Wajar melalui Penghasilan Komprehensif Lain: Jumlah (Rp-miliar) 86.549, Komposisi (%) 68,1
+- Biaya Perolehan yang Diamortisasi: Jumlah (Rp-miliar) 36.363, Komposisi (%) 28,6
+- Jumlah: Jumlah (Rp-miliar) 127.100, Komposisi (%) 100,0
+- Suku Bunga Tetap: Jumlah (Rp-miliar) 127.001, Komposisi (%) 99,9
+- Suku Bunga Mengambang: Jumlah (Rp-miliar) 99, Komposisi (%) 0,1
+- Jumlah: Jumlah (Rp-miliar) 127.100, Komposisi (%) 100,0
+
+2022:
+- Nilai Wajar melalui Laporan Laba Rugi: Jumlah (Rp-miliar) 1.775, Komposisi (%) 1,5
+- Nilai Wajar melalui Penghasilan Komprehensif Lain: Jumlah (Rp-miliar) 82.328, Komposisi (%) 67,9
+- Biaya Perolehan yang Diamortisasi: Jumlah (Rp-miliar) 37.189, Komposisi (%) 30,6
+- Jumlah: Jumlah (Rp-miliar) 121.292, Komposisi (%) 100,0
+- Suku Bunga Tetap: Jumlah (Rp-miliar) 121.192, Komposisi (%) 99,9
+- Suku Bunga Mengambang: Jumlah (Rp-miliar) 100, Komposisi (%) 0,1
+- Jumlah: Jumlah (Rp-miliar) 121.292, Komposisi (%) 100,0
+
+Kenaikan (Penurunan) 2023-2024:
+- Nilai Wajar melalui Laporan Laba Rugi: Nominal (Rp-miliar) (231), Persentase (%) (5,5)
+- Nilai Wajar melalui Penghasilan Komprehensif Lain: Nominal (Rp-miliar) 4.356, Persentase (%) 5,0
+- Biaya Perolehan yang Diamortisasi: Nominal (Rp-miliar) 847, Persentase (%) 2,3
+- Jumlah: Nominal (Rp-miliar) 4.972, Persentase (%) 3,9
+- Suku Bunga Tetap: Nominal (Rp-miliar) 4.971, Persentase (%) 3,9
+- Suku Bunga Mengambang: Nominal (Rp-miliar) 1, Persentase (%) 1,0
+- Jumlah: Nominal (Rp-miliar) 4.972, Persentase (%) 3,9
+
+Kenaikan (Penurunan) 2022-2023:
+- Nilai Wajar melalui Laporan Laba Rugi: Nominal (Rp-miliar) 2.413, Persentase (%) 135,9
+- Nilai Wajar melalui Penghasilan Komprehensif Lain: Nominal (Rp-miliar) 4.221, Persentase (%) 5,1
+- Biaya Perolehan yang Diamortisasi: Nominal (Rp-miliar) (826), Persentase (%) (2,2)
+- Jumlah: Nominal (Rp-miliar) 5.808, Persentase (%) 4,8
+- Suku Bunga Tetap: Nominal (Rp-miliar) 5.809, Persentase (%) 4,8
+- Suku Bunga Mengambang: Nominal (Rp-miliar) (1), Persentase (%) (1,0)
+- Jumlah: Nominal (Rp-miliar) 5.808, Persentase (%) 4,8

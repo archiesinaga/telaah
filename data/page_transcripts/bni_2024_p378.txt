@@ -1,0 +1,31 @@
+Pembayaran Pajak 2022-2024 (Bank Only)
+
+Jenis Pajak, 2024 (Rp-miliar): PPN: 537; PPh Pemotongan/ Pemungutan*): 6.125; PPh Badan: 4.131; Pajak Lainnya: 101; Jumlah: 10.894
+Jenis Pajak, 2023 (Rp-miliar): PPN: 653; PPh Pemotongan/ Pemungutan*): 4.910; PPh Badan: 4.387; Pajak Lainnya: 111; Jumlah: 10.061
+Jenis Pajak, 2022 (Rp-miliar): PPN: 557; PPh Pemotongan/ Pemungutan*): 3.568; PPh Badan: 4.997; Pajak Lainnya: 103; Jumlah: 9.225
+Kenaikan (Penurunan) 2023-2024, Nominal (Rp-miliar): PPN: (116); PPh Pemotongan/ Pemungutan*): 1.215; PPh Badan: (255); Pajak Lainnya: (11); Jumlah: 833
+Kenaikan (Penurunan) 2023-2024, Persentase (%): PPN: (17,76) ↓; PPh Pemotongan/ Pemungutan*): 24,74 ↑; PPh Badan: (5,82) ↓; Pajak Lainnya: (9,74) ↓; Jumlah: 8,3 ↑
+Kenaikan (Penurunan) 2022-2023, Nominal (Rp-miliar): PPN: 96; PPh Pemotongan/ Pemungutan*): 1.342; PPh Badan: (610); Pajak Lainnya: 8; Jumlah: 836
+Kenaikan (Penurunan) 2022-2023, Persentase (%): PPN: 17,2 ↑; PPh Pemotongan/ Pemungutan*): 37,6 ↑; PPh Badan: (12,2) ↓; Pajak Lainnya: 7,8 ↑; Jumlah: 9,1 ↑
+
+Perkembangan Jumlah Pembayaran Pajak 2022 - 2024
+(Rp-miliar)
+
+Legenda: PPN, PPH (Potput), PPh Badan, Pajak Lainnya
+Tahun 2022:
+- PPN: 557
+- PPH (Potput): 3.568
+- PPh Badan: 4.997
+- Pajak Lainnya: 103
+
+Tahun 2023:
+- PPN: 653
+- PPH (Potput): 4.910
+- PPh Badan: 4.387
+- Pajak Lainnya: 111
+
+Tahun 2024:
+- PPN: 537
+- PPH (Potput): 6.125
+- PPh Badan: 4.131
+- Pajak Lainnya: 101

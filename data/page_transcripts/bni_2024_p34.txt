@@ -1,0 +1,124 @@
+1. Judul atau keterangan:
+Grafik Perbandingan Harga Saham BBNI dan IHSG di Sepanjang Periode 2022-2024
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode (Sumbu X): Jan-22, Feb-22, Mar-22, Apr-22, Mei-22, Jun-22, Jul-22, Ags-22, Sep-22, Okt-22, Nov-22, Des-22, Jan-23, Feb-23, Mar-23, Apr-23, Mei-23, Jun-23, Jul-23, Ags-23, Sep-23, Okt-23, Nov-23, Des-23, Jan-24, Feb-24, Mar-24, Apr-24, Mei-24, Jun-24, Jul-24, Ags-24, Sep-24, Okt-24, Nov-24, Des-24
+- Legenda: 
+  - Rata-rata Volume Perdagangan Saham BBNI
+  - Harga Penutupan Saham BBNI
+  - IHSG
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Rata-rata Volume Perdagangan Saham BBNI:
+  - Jan-22: 64.080.267
+  - Feb-22: 79.597.956
+  - Mar-22: 73.146.172
+  - Apr-22: 79.821.052
+  - Mei-22: 110.366.027
+  - Jun-22: 71.083.895
+  - Jul-22: 65.138.819
+  - Ags-22: 52.810.581
+  - Sep-22: 54.292.972
+  - Okt-22: 51.202.380
+  - Nov-22: 46.182.754
+  - Des-22: 45.525.654
+  - Jan-23: 55.340.771
+  - Feb-23: 50.079.570
+  - Mar-23: 75.633.476
+  - Apr-23: 45.148.500
+  - Mei-23: 65.397.295
+  - Jun-23: 42.327.058
+  - Jul-23: 56.658.060
+  - Ags-23: 53.919.245
+  - Sep-23: 70.606.010
+  - Okt-23: 52.679.418
+  - Nov-23: 56.661.468
+  - Des-23: 43.374.794
+  - Jan-24: 45.735.141
+  - Feb-24: 53.534.416
+  - Mar-24: 53.591.572
+  - Apr-24: 79.804.080
+  - Mei-24: 85.735.716
+  - Jun-24: 65.862.211
+  - Jul-24: 54.907.273
+  - Ags-24: 55.781.654
+  - Sep-24: 60.072.494
+  - Okt-24: 46.550.547
+  - Nov-24: 44.881.099
+  - Des-24: 52.859.484
+
+- Harga Penutupan Saham BBNI:
+  - Jan-22: 3.663
+  - Feb-22: 4.000
+  - Mar-22: 4.125
+  - Apr-22: 4.613
+  - Mei-22: 4.588
+  - Jun-22: 3.925
+  - Jul-22: 4.263
+  - Ags-22: 3.925
+  - Sep-22: 4.488
+  - Okt-22: 4.700
+  - Nov-22: 4.950
+  - Des-22: 4.613
+  - Jan-23: 4.575
+  - Feb-23: 4.388
+  - Mar-23: 4.675
+  - Apr-23: 4.525
+  - Mei-23: 4.713
+  - Jun-23: 4.575
+  - Jul-23: 4.438
+  - Ags-23: 4.589
+  - Sep-23: 5.163
+  - Okt-23: 4.790
+  - Nov-23: 5.275
+  - Des-23: 5.375
+  - Jan-24: 5.750
+  - Feb-24: 6.000
+  - Mar-24: 5.900
+  - Apr-24: 5.250
+  - Mei-24: 4.400
+  - Jun-24: 4.660
+  - Jul-24: 4.970
+  - Ags-24: 5.350
+  - Sep-24: 5.350
+  - Okt-24: 4.980
+  - Nov-24: 5.250
+  - Des-24: 4.350
+
+- IHSG:
+  - Jan-22: 6.631
+  - Feb-22: 6.888
+  - Mar-22: 7.071
+  - Apr-22: 7.229
+  - Mei-22: 7.149
+  - Jun-22: 6.912
+  - Jul-22: 6.951
+  - Ags-22: 7.179
+  - Sep-22: 7.099
+  - Okt-22: 7.041
+  - Nov-22: 7.081
+  - Des-22: 6.851
+  - Jan-23: 6.843
+  - Feb-23: 6.916
+  - Mar-23: 6.839
+  - Apr-23: 6.805
+  - Mei-23: 6.633
+  - Jun-23: 6.662
+  - Jul-23: 6.931
+  - Ags-23: 6.953
+  - Sep-23: 6.940
+  - Okt-23: 6.752
+  - Nov-23: 7.081
+  - Des-23: 7.273
+  - Jan-24: 7.208
+  - Feb-24: 7.316
+  - Mar-24: 7.289
+  - Apr-24: 7.234
+  - Mei-24: 6.971
+  - Jun-24: 7.064
+  - Jul-24: 7.256
+  - Ags-24: 7.528
+  - Sep-24: 7.671
+  - Okt-24: 7.574
+  - Nov-24: 7.114
+  - Des-24: 7.080

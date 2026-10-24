@@ -1,0 +1,41 @@
+1. Judul atau keterangan:
+Tabel 1: Pos Akun BNI Sekuritas
+- Pos Akun: Total Pendapatan
+  - 2024* (Rp-miliar): 730
+  - 2023 (Rp-miliar): 610
+  - Kenaikan (Penurunan) Nominal (Rp-miliar): 120
+  - Kenaikan (Penurunan) Persentase (%): 19,7
+- Pos Akun: Total Biaya
+  - 2024* (Rp-miliar): (629)
+  - 2023 (Rp-miliar): (521)
+  - Kenaikan (Penurunan) Nominal (Rp-miliar): (108)
+  - Kenaikan (Penurunan) Persentase (%): 20,7
+- Pos Akun: Laba Sebelum Pajak
+  - 2024* (Rp-miliar): 101
+  - 2023 (Rp-miliar): 89
+  - Kenaikan (Penurunan) Nominal (Rp-miliar): 12
+  - Kenaikan (Penurunan) Persentase (%): 13,5
+- Pos Akun: Pajak
+  - 2024* (Rp-miliar): (15)
+  - 2023 (Rp-miliar): (19)
+  - Kenaikan (Penurunan) Nominal (Rp-miliar): 4
+  - Kenaikan (Penurunan) Persentase (%): (21,1)
+- Pos Akun: Laba Setelah Pajak
+  - 2024* (Rp-miliar): 86
+  - 2023 (Rp-miliar): 70
+  - Kenaikan (Penurunan) Nominal (Rp-miliar): 16
+  - Kenaikan (Penurunan) Persentase (%): 22,9
+
+Tabel 2: Kinerja Rasio Keuangan BNI Sekuritas
+- Pos Akun: Return On Asset (ROA)
+  - 2024* (%): 4,3
+  - 2023 (%): 3,0
+  - Kenaikan (Penurunan) %: 1,3
+- Pos Akun: Return On Equity (ROE)
+  - 2024* (%): 6,6
+  - 2023 (%): 6,0
+  - Kenaikan (Penurunan) %: 0,6
+- Pos Akun: Beban Operasional Terhadap Pendapatan Operasional (BOPO)
+  - 2024* (%): 85,1
+  - 2023 (%): 85,1
+  - Kenaikan (Penurunan) %: 0,0

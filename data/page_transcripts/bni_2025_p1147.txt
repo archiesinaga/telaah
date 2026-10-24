@@ -1,0 +1,53 @@
+BNI Life Share Ownership Structure
+(%)
+Legenda:
+- BNI
+- Sumitomo Life Insurance Company
+- BNI Employee Welfare Foundation
+- Dana Swadharma Foundation
+Angka:
+- 39.999993: 39.999993%
+- 0.000003: 0.000003%
+- 0.000003: 0.000003%
+- 60.000000: 60.000000%
+
+BNI Remittance Share Ownership Structure
+(%)
+Legenda:
+- BNI
+Angka:
+- 100: 100%
+
+Hibank Share Ownership Structure
+(%)
+Legenda:
+- BNI
+- PT Mayora Inti Utama
+Angka:
+- 36.08: 36.08%
+- 63.92: 63.92%
+
+BNI Ventures Share Ownership Structure
+(%)
+Legenda:
+- BNI
+- BNIAM
+Angka:
+- 0.02: 0.02%
+- 99.98: 99.98%
+
+BNI Asset Management Share Ownership Structure
+(%)
+Legenda:
+- BNI Sekuritas
+- PT BNI Sekuritas Employee Cooperative
+Angka:
+- 99.90: 99.90%
+- 0.10: 0.10%
+
+BNI Securities Share Ownership Structure
+(%)
+Legenda:
+- BNI Sekuritas
+Angka:
+- 100: 100%

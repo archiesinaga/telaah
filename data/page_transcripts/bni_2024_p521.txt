@@ -1,0 +1,48 @@
+1. Judul atau keterangan: 
+2) Pengungkapan Kualitas Kredit atas Aset - Bank secara Konsolidasi
+(dalam jutaan Rupiah)
+31 Desember 2024
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: dalam jutaan Rupiah
+Periode: 31 Desember 2024
+Kolom:
+- Nilai Tercatat Bruto (Tagihan yang Telah Jatuh Tempo (a), Tagihan yang Belum Jatuh Tempo (b))
+- CKPN (d+e) (Stage 2 dan Stage 3 (d), Stage 1 (e))
+- CKPN (Pendekatan IRB) (f)
+- Nilai Bersih (a+b-c) (g)
+Baris:
+- 1 Kredit
+- 2 Surat Berharga
+- 3 Transaksi Rekening Administratif
+- 4 Total
+
+3. Semua angka yang tertera:
+- Kredit, Tagihan yang Telah Jatuh Tempo (a): 15.313.935
+- Kredit, Tagihan yang Belum Jatuh Tempo (b): 760.570.701
+- Kredit, CKPN (d+e) (c): 38.684.520
+- Kredit, Stage 2 dan Stage 3 (d): 34.553.349
+- Kredit, Stage 1 (e): 4.131.171
+- Kredit, CKPN (Pendekatan IRB) (f): 
+- Kredit, Nilai Bersih (a+b-c) (g): 737.200.116
+- Surat Berharga, Tagihan yang Telah Jatuh Tempo (a): 316.989
+- Surat Berharga, Tagihan yang Belum Jatuh Tempo (b): 130.273.925
+- Surat Berharga, CKPN (d+e) (c): 35.875
+- Surat Berharga, Stage 2 dan Stage 3 (d): -
+- Surat Berharga, Stage 1 (e): 35.875
+- Surat Berharga, CKPN (Pendekatan IRB) (f): 
+- Surat Berharga, Nilai Bersih (a+b-c) (g): 130.555.039
+- Transaksi Rekening Administratif, Tagihan yang Telah Jatuh Tempo (a): 929.702
+- Transaksi Rekening Administratif, Tagihan yang Belum Jatuh Tempo (b): 140.956.448
+- Transaksi Rekening Administratif, CKPN (d+e) (c): -
+- Transaksi Rekening Administratif, Stage 2 dan Stage 3 (d): -
+- Transaksi Rekening Administratif, Stage 1 (e): -
+- Transaksi Rekening Administratif, CKPN (Pendekatan IRB) (f): 
+- Transaksi Rekening Administratif, Nilai Bersih (a+b-c) (g): 141.886.149
+- Total, Tagihan yang Telah Jatuh Tempo (a): 16.560.625
+- Total, Tagihan yang Belum Jatuh Tempo (b): 1.031.801.074
+- Total, CKPN (d+e) (c): 38.720.395
+- Total, Stage 2 dan Stage 3 (d): 34.553.349
+- Total, Stage 1 (e): 4.167.046
+- Total, CKPN (Pendekatan IRB) (f): 
+- Total, Nilai Bersih (a+b-c) (g): 1.009.641.304

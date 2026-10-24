@@ -1,0 +1,28 @@
+1. Judul atau keterangan:
+- Volume Transaksi (miliar)
+- 99,8% dari total transaksi dilakukan secara digital
+- 35,9 miliar Total Transaksi Digital
+- 27 Gedung Terpasang Panel Surya
+- 2 Gedung Hijau Bersertifikasi
+- Meminimalkan intensitas energi
+- Jumlah transaksi (kWh/transaksi)
+- Luas gedung (kWh/m²/tahun)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan Volume Transaksi: miliar
+- Periode Volume Transaksi: 2021, 2022, 2023, 2024
+- Periode tabel efisiensi energi: 2024, 2023
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2021: 18
+- 2022: 24
+- 2023: 30
+- 2024: 36
+- 99,8%
+- 35,9 miliar
+- 27
+- 2
+- 2024 (kolom tabel): Jumlah transaksi (kWh/transaksi): 0,005; Luas gedung (kWh/m²/tahun): 139
+- 2023 (kolom tabel): Jumlah transaksi (kWh/transaksi): 0,006; Luas gedung (kWh/m²/tahun): 154
+- 15%
+- 10%

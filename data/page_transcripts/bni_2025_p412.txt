@@ -1,0 +1,36 @@
+1. Realization of Use of Proceeds from the Bond Public Offering
+- Satuan: IDR-billion
+- Periode: 2025
+- Label/Kolom:
+  - Use of Funds Realization: Sustainable Public Offering of Sustainability-Based Bonds (Sustainability 2025 Bond) Sustainable I Bank BNI Phase I Year 2025
+  - Effective Date: July 4
+  - Realized Public Offering Results - Total Public Offering Results (IDR-billion): 5,000
+  - Realized Public Offering Results - Total Public Offering Results (IDR-billion): 4
+  - Realized Public Offering Results - Net Yield (IDR-billion): 4,996
+  - Realized Public Offering Results - Financing or refinacing of projects in the KUBL category* (IDR-billion): 4,996
+  - Realized Public Offering Results - Total (IDR-billion): 4,996
+  - Use of Funds Realization - Financing or refinacing of projects in the KUBL category* (IDR-billion): 4,996
+  - Use of Funds Realization - Total (IDR-billion): 4,996
+  - Remaining Funds from Public Offering (IDR-billion): -
+
+2. Interest Payment Schedule
+- Judul: Sustainability Bond Payments
+- Periode: 2025 - 2029
+- Label/Kolom: Interest No, Series A Date of Interest Payment, Series A Interest (%), Series B Date of Interest Payment, Series B Interest (%)
+- Angka yang tertera:
+  - Interest No 1: Series A Date of Interest Payment October 6, 2025, Series A Interest (%) 6.60%, Series B Date of Interest Payment October 6, 2025, Series B Interest (%) 6.65%
+  - Interest No 2: Series A Date of Interest Payment January 5, 2026, Series A Interest (%) 6.60%, Series B Date of Interest Payment January 5, 2026, Series B Interest (%) 6.65%
+  - Interest No 3: Series A Date of Interest Payment April 6, 2026, Series A Interest (%) 6.60%, Series B Date of Interest Payment April 6, 2026, Series B Interest (%) 6.65%
+  - Interest No 4: Series A Date of Interest Payment July 6, 2026, Series A Interest (%) 6.60%, Series B Date of Interest Payment July 6, 2026, Series B Interest (%) 6.65%
+  - Interest No 5: Series A Date of Interest Payment October 5, 2026, Series A Interest (%) 6.60%, Series B Date of Interest Payment October 5, 2026, Series B Interest (%) 6.65%
+  - Interest No 6: Series A Date of Interest Payment January 4, 2027, Series A Interest (%) 6.60%, Series B Date of Interest Payment January 4, 2027, Series B Interest (%) 6.65%
+  - Interest No 7: Series A Date of Interest Payment April 5, 2027, Series A Interest (%) 6.60%, Series B Date of Interest Payment April 5, 2027, Series B Interest (%) 6.65%
+  - Interest No 8: Series A Date of Interest Payment July 5, 2027, Series A Interest (%) 6.60%, Series B Date of Interest Payment July 5, 2027, Series B Interest (%) 6.65%
+  - Interest No 9: Series A Date of Interest Payment October 4, 2027, Series A Interest (%) 6.60%, Series B Date of Interest Payment October 4, 2027, Series B Interest (%) 6.65%
+  - Interest No 10: Series A Date of Interest Payment January 4, 2028, Series A Interest (%) 6.60%, Series B Date of Interest Payment January 4, 2028, Series B Interest (%) 6.65%
+  - Interest No 11: Series A Date of Interest Payment April 4, 2028, Series A Interest (%) 6.60%, Series B Date of Interest Payment April 4, 2028, Series B Interest (%) 6.65%
+  - Interest No 12: Series A Date of Interest Payment July 4, 2028, Series A Interest (%) 6.60%, Series B Date of Interest Payment July 4, 2028, Series B Interest (%) 6.65%
+  - Interest No 13: Series B Date of Interest Payment October 4, 2028, Series B Interest (%) 6.65%
+  - Interest No 14: Series B Date of Interest Payment January 4, 2029, Series B Interest (%) 6.65%
+  - Interest No 15: Series B Date of Interest Payment April 4, 2029, Series B Interest (%) 6.65%
+  - Interest No 16: Series B Date of Interest Payment July 4, 2029, Series B Interest (%) 6.65%

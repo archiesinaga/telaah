@@ -1,0 +1,51 @@
+1. Judul atau keterangan:
+Perbandingan Pertumbuhan Ekonomi Antarnegara
+Legenda:
+Pertumbuhan Ekonomi 9M24 (% YoY)
+Pertumbuhan Ekonomi FY24F (%)
+Sumbu X (Negara):
+JPN, GER, GBR, EUR, AUS, MEX, THA, KOR, SGP, USA, BRA, CHN, IDN, MYS, PHL, IND, VNM
+Angka yang tertera:
+JPN: -0,5 dan 0,3
+GER: -0,2
+GBR: 0,4 dan 1,1
+EUR: 0,8 dan 0,8
+AUS: 1,0 dan 1,2
+MEX: 1,7 dan 1,5
+THA: 2,3 dan 2,8
+KOR: 2,4 dan 2,5
+SGP: 3,3 dan 2,6
+USA: 3,0 dan 2,8
+BRA: 3,0 dan 3,0
+CHN: 4,9 dan 4,8
+IDN: 5,0 dan 5,0
+MYS: 5,1 dan 4,8
+PHL: 5,7 dan 5,8
+IND: 6,6 dan 7,0
+VNM: 6,7 dan 6,1
+
+2. Judul atau keterangan:
+Sektor Manufaktur Mengalami Pelemahan, Namun Membaik Memasuki Triwulan IV – 2024
+Periode (Kolom):
+Jan-24, Feb-24, Mar-24, Apr-24, May-24, Jun-24, Jul-24, Aug-24, Sep-24, Oct-24, Nov-24, Dec-24
+Label Sumbu Y (Negara):
+GBR, USA, EUR, GER, FRA, CHN, IND, IDN, KOR, PHL, SGP, AUS, MYS, VNM, MEX, BRA, JPN, ITA
+Angka yang tertera:
+GBR: Jan-24: 47,0, Feb-24: 47,5, Mar-24: 50,3, Apr-24: 49,1, May-24: 51,2, Jun-24: 50,9, Jul-24: 52,1, Aug-24: 52,5, Sep-24: 51,5, Oct-24: 49,9, Nov-24: 48,0, Dec-24: 47,0
+USA: Jan-24: 50,7, Feb-24: 52,2, Mar-24: 51,9, Apr-24: 50,0, May-24: 51,3, Jun-24: 51,6, Jul-24: 49,6, Aug-24: 47,9, Sep-24: 47,3, Oct-24: 48,5, Nov-24: 49,7, Dec-24: 49,4
+EUR: Jan-24: 46,6, Feb-24: 46,5, Mar-24: 46,1, Apr-24: 45,7, May-24: 47,3, Jun-24: 45,8, Jul-24: 45,8, Aug-24: 45,8, Sep-24: 45,0, Oct-24: 46,0, Nov-24: 45,2, Dec-24: 45,1
+GER: Jan-24: 45,5, Feb-24: 42,5, Mar-24: 41,9, Apr-24: 42,5, May-24: 45,4, Jun-24: 43,5, Jul-24: 43,2, Aug-24: 42,4, Sep-24: 40,6, Oct-24: 43,0, Nov-24: 43,0, Dec-24: 42,5
+FRA: Jan-24: 43,1, Feb-24: 47,1, Mar-24: 46,2, Apr-24: 45,3, May-24: 46,4, Jun-24: 45,4, Jul-24: 44,0, Aug-24: 43,9, Sep-24: 44,6, Oct-24: 44,5, Nov-24: 43,1, Dec-24: 41,9
+CHN: Jan-24: 50,9, Feb-24: 45,2, Mar-24: 53,9, Apr-24: 52,2, May-24: 52,5, Jun-24: 51,6, Jul-24: 49,4, Aug-24: 50,2, Sep-24: 49,8, Oct-24: 50,4, Nov-24: 53,3, Dec-24: 51,0
+IND: Jan-24: 56,5, Feb-24: 56,9, Mar-24: 59,1, Apr-24: 58,8, May-24: 57,5, Jun-24: 58,3, Jul-24: 58,1, Aug-24: 57,5, Sep-24: 56,5, Oct-24: 57,5, Nov-24: 56,5, Dec-24: 56,4
+IDN: Jan-24: 52,9, Feb-24: 52,7, Mar-24: 54,2, Apr-24: 52,9, May-24: 52,1, Jun-24: 50,7, Jul-24: 49,3, Aug-24: 48,9, Sep-24: 49,2, Oct-24: 49,2, Nov-24: 49,6, Dec-24: 51,2
+KOR: Jan-24: 51,2, Feb-24: 50,7, Mar-24: 49,8, Apr-24: 49,4, May-24: 51,6, Jun-24: 52,0, Jul-24: 51,4, Aug-24: 51,9, Sep-24: 48,3, Oct-24: 48,3, Nov-24: 50,6, Dec-24: 49,0
+PHL: Jan-24: 50,9, Feb-24: 51,0, Mar-24: 50,9, Apr-24: 52,2, May-24: 51,9, Jun-24: 51,3, Jul-24: 51,2, Aug-24: 51,2, Sep-24: 53,7, Oct-24: 52,9, Nov-24: 53,8, Dec-24: 54,3
+SGP: Jan-24: 50,7, Feb-24: 50,6, Mar-24: 50,7, Apr-24: 50,5, May-24: 50,6, Jun-24: 50,4, Jul-24: 50,7, Aug-24: 50,9, Sep-24: 50,9, Oct-24: 50,8, Nov-24: 51,0, Dec-24: 51,1
+AUS: Jan-24: 50,1, Feb-24: 47,8, Mar-24: 47,3, Apr-24: 49,6, May-24: 49,7, Jun-24: 47,2, Jul-24: 47,5, Aug-24: 48,5, Sep-24: 46,7, Oct-24: 47,3, Nov-24: 49,4, Dec-24: 47,8
+MYS: Jan-24: 49,0, Feb-24: 49,5, Mar-24: 48,4, Apr-24: 49,0, May-24: 50,2, Jun-24: 49,9, Jul-24: 49,7, Aug-24: 49,7, Sep-24: 49,5, Oct-24: 49,5, Nov-24: 49,2, Dec-24: 48,6
+VNM: Jan-24: 50,3, Feb-24: 50,4, Mar-24: 49,9, Apr-24: 50,3, May-24: 50,3, Jun-24: 54,7, Jul-24: 54,7, Aug-24: 52,4, Sep-24: 47,3, Oct-24: 51,2, Nov-24: 50,8, Dec-24: 49,8
+MEX: Jan-24: 50,2, Feb-24: 52,3, Mar-24: 52,2, Apr-24: 51,0, May-24: 51,2, Jun-24: 51,1, Jul-24: 49,6, Aug-24: 48,5, Sep-24: 48,5, Oct-24: 48,4, Nov-24: 49,9, Dec-24: 49,8
+BRA: Jan-24: 52,8, Feb-24: 54,1, Mar-24: 53,6, Apr-24: 55,9, May-24: 52,1, Jun-24: 52,5, Jul-24: 54,0, Aug-24: 50,4, Sep-24: 53,2, Oct-24: 52,9, Nov-24: 52,3, Dec-24: 50,4
+JPN: Jan-24: 48,0, Feb-24: 47,2, Mar-24: 48,2, Apr-24: 49,6, May-24: 50,4, Jun-24: 50,0, Jul-24: 49,1, Aug-24: 49,8, Sep-24: 49,7, Oct-24: 49,2, Nov-24: 49,0, Dec-24: 49,6
+ITA: Jan-24: 48,5, Feb-24: 48,7, Mar-24: 50,4, Apr-24: 47,3, May-24: 45,6, Jun-24: 45,7, Jul-24: 47,4, Aug-24: 49,4, Sep-24: 48,3, Oct-24: 46,9, Nov-24: 44,5, Dec-24: 46,2

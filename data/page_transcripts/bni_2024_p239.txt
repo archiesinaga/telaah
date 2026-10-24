@@ -1,0 +1,80 @@
+Produktivitas Segmen Institutional Banking
+Periode: 2024, 2023
+Satuan: Rp-miliar, Persentase (%)
+
+Total Kredit:
+2024: 37.523
+2023: 16.017
+Kenaikan (Penurunan) Nominal (Rp-miliar): 21.506
+Kenaikan (Penurunan) Persentase (%): 134,3
+
+Total Dana Pihak Ketiga:
+2024: 117.817
+2023: 136.146
+Kenaikan (Penurunan) Nominal (Rp-miliar): (18.329)
+Kenaikan (Penurunan) Persentase (%): (13,5)
+
+Giro:
+2024: 51.806
+2023: 51.013
+Kenaikan (Penurunan) Nominal (Rp-miliar): 793
+Kenaikan (Penurunan) Persentase (%): 1,6
+
+Tabungan:
+2024: 534
+2023: 440
+Kenaikan (Penurunan) Nominal (Rp-miliar): 94
+Kenaikan (Penurunan) Persentase (%): 21,4
+
+Deposito:
+2024: 65.477
+2023: 84.693
+Kenaikan (Penurunan) Nominal (Rp-miliar): (19.216)
+Kenaikan (Penurunan) Persentase (%): (22,7)
+
+
+Profitabilitas Segmen Institutional Banking
+Periode: 2024, 2023
+Satuan: Rp-miliar, Persentase (%)
+
+Pendapatan bunga - neto:
+2024: 2.560
+2023: 1.821
+Kenaikan (Penurunan) Nominal (Rp-miliar): 739
+Kenaikan (Penurunan) Persentase (%): 40,6
+
+Pendapatan operasional lainnya:
+2024: 139
+2023: 119
+Kenaikan (Penurunan) Nominal (Rp-miliar): 20
+Kenaikan (Penurunan) Persentase (%): 16,8
+
+Beban operasional lainnya:
+2024: (977)
+2023: (906)
+Kenaikan (Penurunan) Nominal (Rp-miliar): (71)
+Kenaikan (Penurunan) Persentase (%): 7,9
+
+Pembentukan cadangan kerugian penurunan nilai:
+2024: (19)
+2023: 18
+Kenaikan (Penurunan) Nominal (Rp-miliar): (37)
+Kenaikan (Penurunan) Persentase (%): (205,6)
+
+Laba operasional:
+2024: 1.702
+2023: 1.053
+Kenaikan (Penurunan) Nominal (Rp-miliar): 649
+Kenaikan (Penurunan) Persentase (%): 61,7
+
+Pendapatan (beban) bukan operasional neto:
+2024: -
+2023: -
+Kenaikan (Penurunan) Nominal (Rp-miliar): -
+Kenaikan (Penurunan) Persentase (%): -
+
+Laba sebelum beban pajak:
+2024: 1.702
+2023: 1.053
+Kenaikan (Penurunan) Nominal (Rp-miliar): 649
+Kenaikan (Penurunan) Persentase (%): 61,7

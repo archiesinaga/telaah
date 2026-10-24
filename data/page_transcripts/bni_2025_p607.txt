@@ -1,0 +1,36 @@
+(IDR billion)
+December 31, 2025
+Net Receivables After Taking into Account the Impact of Credit Risk Mitigation
+75%: tidak terbaca
+80%: tidak terbaca
+85%: tidak terbaca
+90%: tidak terbaca
+100%: 100%
+105%: tidak terbaca
+110%: tidak terbaca
+112,5%: tidak terbaca
+130%: tidak terbaca
+150%: 150%
+250%: tidak terbaca
+400%: tidak terbaca
+1250%: tidak terbaca
+Others: Others
+Net Receivables After FKK and MRK Techniques: Net Receivables After FKK and MRK Techniques
+
+100%: 100%
+150%: 150%
+Others: Others
+Net Receivables After FKK and MRK Techniques: Net Receivables After FKK and MRK Techniques
+
+100%: 100%
+150%: 150%
+Others: Others
+Net Receivables After FKK and MRK Techniques: Net Receivables After FKK and MRK Techniques
+- : -
+- : -
+- : -
+295,482,876: 295,482,876
+385,936: 385,936
+2,662,970: 2,662,970
+- : -
+157,985,898: 157,985,898

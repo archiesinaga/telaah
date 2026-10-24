@@ -1,0 +1,61 @@
+1. Third Party funds Performance - Excluding Temporary Syirkah funds
+- Satuan: In billion Rupiah, unless otherwise stated
+- Tabel:
+  - 2025: Current Accounts: 439,498; Savings: 286,460; Deposits: 314,875; NCD Issued: -; Total: 1,040,834
+  - 2024: Current Accounts: 305,734; Savings: 257,544; Deposits: 242,233; NCD Issued: -; Total: 805,511
+  - YoY 2024-2025 (%): Current Accounts: 43.8; Savings: 11.2; Deposits: 30.0; NCD Issued: -; Total: 29.2
+  - 2023: Current Accounts: 345,496; Savings: 231,981; Deposits: 232,665; NCD Issued: 588; Total: 810,730
+  - 2022: Current Accounts: 314,625; Savings: 242,695; Deposits: 208,798; NCD Issued: 3,151; Total: 769,269
+  - 2021: Current Accounts: 281,398; Savings: 224,670; Deposits: 223,101; NCD Issued: -; Total: 729,169
+
+- Grafik Batang (Bar Chart):
+  - Legenda: Current Accounts, Savings, Deposits, NCD Issued
+  - Periode 2021:
+    - Current Accounts: 281,398
+    - Savings: 224,670
+    - Deposits: 223,101
+    - NCD Issued: -
+  - Periode 2022:
+    - Current Accounts: 314,625
+    - Savings: 242,695
+    - Deposits: 208,798
+    - NCD Issued: 3,151
+  - Periode 2023:
+    - Current Accounts: 345,496
+    - Savings: 231,981
+    - Deposits: 232,665
+    - NCD Issued: 588
+  - Periode 2024:
+    - Current Accounts: 305,734
+    - Savings: 257,544
+    - Deposits: 242,233
+    - NCD Issued: -
+  - Periode 2025:
+    - Current Accounts: 439,498
+    - Savings: 286,460
+    - Deposits: 314,875
+    - NCD Issued: -
+
+2. Company Rating 2025
+- Tabel PEFINDO:
+  - Corporate Rating: idAAA/Stable
+- Tabel Moody's:
+  - Outlook: Stable
+  - Foreign Long Term Bank Deposits: Baa2
+  - Local Long Term Bank Deposits: Baa2
+  - Baseline Credit Assessment: Baa3
+  - Adjusted Baseline Credit Assessment: Baa3
+  - Counterparty Risk Assessment: Baa2/P-2
+- Tabel Fitch Rating:
+  - Long Term Foreign Currency: BBB/Stable
+  - Long Term Local Currency: BBB/Stable
+  - Short Term Foreign Currency: F2
+  - Viability Rating: bbb-
+  - National Long Term Rating: AAA/Stable
+  - National Short Term Rating: F1+
+- Tabel S&P Global Ratings:
+  - Outlook: Stable
+  - Long Term Foreign Issuer Credit: BBB
+  - Long Term Local Issuer Credit: BBB
+  - Short Term Foreign Issuer Credit: A-2
+  - Short Term Local Issuer Credit: A-2

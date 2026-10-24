@@ -1,0 +1,31 @@
+1. Judul atau keterangan: Struktur Permodalan
+2. Label sumbu, legenda, satuan, dan periode: Uraian, 2024 (Rp-miliar), 2023 (Rp-miliar)
+3. Angka yang tertera:
+- Modal Inti (Tier 1), 2024: 142.043
+- Modal Inti (Tier 1), 2023: 130.938
+- Modal Inti Utama (CET 1), 2024: 132.386
+- Modal Inti Utama (CET 1), 2023: 121.699
+- Modal Pelengkap (Tier 2), 2024: 10.264
+- Modal Pelengkap (Tier 2), 2023: 11.079
+- Total Modal Tersedia, 2024: 152.307
+- Total Modal Tersedia, 2023: 142.016
+- ATMR untuk Risiko Kredit, 2024: 660.200
+- ATMR untuk Risiko Kredit, 2023: 609.161
+- ATMR untuk Risiko Pasar, 2024: 14.162
+- ATMR untuk Risiko Pasar, 2023: 2.812
+- ATMR untuk Risiko Operasional, 2024: 37.411
+- ATMR untuk Risiko Operasional, 2023: 34.967
+- Total ATMR, 2024: 711.774
+- Total ATMR, 2023: 646.939
+- Rasio CAR, 2024: 21,40%
+- Rasio CAR, 2023: 21,95%
+- Rasio CET 1, 2024: 18,60%
+- Rasio CET 1, 2023: 18,81%
+- Rasio Tier 1, 2024: 19,96%
+- Rasio Tier 1, 2023: 20,24%
+- Rasio Tier 2, 2024: 1,44%
+- Rasio Tier 2, 2023: 1,71%
+- CAR Minimum Berdasarkan Profil Risiko, 2024: 9,80%
+- CAR Minimum Berdasarkan Profil Risiko, 2023: 9,80%
+- CAR Minimum + Buffer, 2024: 13,80%
+- CAR Minimum + Buffer, 2023: 13,80%

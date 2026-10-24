@@ -1,0 +1,21 @@
+1. Judul atau keterangan:
+Kinerja BNIdirect
+Kenaikan (Penurunan)
+- 2024
+- 2023
+- Nominal
+- Persentase (%)
+
+2. Label, satuan, dan periode:
+Satuan: Volume Transaksi (Rp-triliun) untuk volume transaksi, angka/jumlah untuk jumlah pengguna, nominal, dan persentase (%) untuk persentase.
+Periode: 2024, 2023.
+
+3. Angka yang tertera:
+- Volume Transaksi (Rp-triliun), 2024: 7.931
+- Volume Transaksi (Rp-triliun), 2023: 6.433
+- Volume Transaksi (Rp-triliun), Nominal: 1.498
+- Volume Transaksi (Rp-triliun), Persentase (%): 23,3 ↑
+- Jumlah Pengguna, 2024: 172.670
+- Jumlah Pengguna, 2023: 151.207
+- Jumlah Pengguna, Nominal: 2.463 (tertulis 2.1463, sesuai gambar 2.1463 / 2.463 tidak terbaca persis, tapi tercetak 2.1463) -> ralat: 2.1463
+- Jumlah Pengguna, Persentase (%): 14,2 ↑

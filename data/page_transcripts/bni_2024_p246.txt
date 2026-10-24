@@ -1,0 +1,34 @@
+Tabel: Produktivitas Segmen Retail Banking
+Judul: PRODUKTIVITAS DAN PROFITABILITAS SEGMEN RETAIL BANKING
+Sub-judul: Produktivitas Segmen Retail Banking
+Satuan: Rp-miliar dan Persentase (%)
+
+Baris 1 (Total Kredit):
+- 2024 Rp-miliar: 218.534
+- 2023 Rp-miliar: 213.235
+- Kenaikan (Penurunan) Nominal (Rp-miliar): 5.298
+- Kenaikan (Penurunan) Persentase (%): 2,5
+
+Baris 2 (Total Dana Pihak Ketiga):
+- 2024 Rp-miliar: 392.561
+- 2023 Rp-miliar: 357.213
+- Kenaikan (Penurunan) Nominal (Rp-miliar): 35.347
+- Kenaikan (Penurunan) Persentase (%): 9,9
+
+Baris 3 (Giro):
+- 2024 Rp-miliar: 60.127
+- 2023 Rp-miliar: 55.914
+- Kenaikan (Penurunan) Nominal (Rp-miliar): 4.213
+- Kenaikan (Penurunan) Persentase (%): 7,5
+
+Baris 4 (Tabungan):
+- 2024 Rp-miliar: 253.381
+- 2023 Rp-miliar: 226.180
+- Kenaikan (Penurunan) Nominal (Rp-miliar): 27.201
+- Kenaikan (Penurunan) Persentase (%): 12,0
+
+Baris 5 (Deposito):
+- 2024 Rp-miliar: 79.053
+- 2023 Rp-miliar: 75.119
+- Kenaikan (Penurunan) Nominal (Rp-miliar): 3.934
+- Kenaikan (Penurunan) Persentase (%): 5,2

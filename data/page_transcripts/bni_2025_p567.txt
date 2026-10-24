@@ -1,0 +1,53 @@
+Judul:
+2) Disclosure of Credit Quality of Assets - Bank Consolidated with Subsidiaries
+
+Satuan:
+(IDR billion)
+
+Periode:
+December 31, 2025
+
+Label Kolom:
+- Gross Carrying Amount - Past Due Receivables (a):
+- Gross Carrying Amount - Past Undue Receivables (b):
+- Allowances for Impairment Losses (d+e) (c):
+- CKPN - Stage 2 and Stage 3 (d):
+- CKPN - Stage 1 (e):
+- Allowances for Impairment Losses (IRB Approach) (f):
+- Net Value Past Due (a+b+c) (g):
+
+Baris 1 - Loan:
+- Gross Carrying Amount - Past Due Receivables (a): 17,320,613
+- Gross Carrying Amount - Past Undue Receivables (b): 882,460,982
+- Allowances for Impairment Losses (d+e) (c): 35,860,626
+- CKPN - Stage 2 and Stage 3 (d): 31,941,966
+- CKPN - Stage 1 (e): 3,918,660
+- Allowances for Impairment Losses (IRB Approach) (f): tidak terbaca
+- Net Value Past Due (a+b+c) (g): 863,920,970
+
+Baris 2 - Securities:
+- Gross Carrying Amount - Past Due Receivables (a): 245,568
+- Gross Carrying Amount - Past Undue Receivables (b): 168,215,194
+- Allowances for Impairment Losses (d+e) (c): 44,176
+- CKPN - Stage 2 and Stage 3 (d): -
+- CKPN - Stage 1 (e): 44,176
+- Allowances for Impairment Losses (IRB Approach) (f): tidak terbaca
+- Net Value Past Due (a+b+c) (g): 168,416,586
+
+Baris 3 - Administrative Account Transactions:
+- Gross Carrying Amount - Past Due Receivables (a): 608,000
+- Gross Carrying Amount - Past Undue Receivables (b): 210,721,315
+- Allowances for Impairment Losses (d+e) (c): -
+- CKPN - Stage 2 and Stage 3 (d): -
+- CKPN - Stage 1 (e): -
+- Allowances for Impairment Losses (IRB Approach) (f): tidak terbaca
+- Net Value Past Due (a+b+c) (g): 211,329,314
+
+Baris 4 - Total:
+- Gross Carrying Amount - Past Due Receivables (a): 18,174,181
+- Gross Carrying Amount - Past Undue Receivables (b): 1,261,397,491
+- Allowances for Impairment Losses (d+e) (c): 35,904,802
+- CKPN - Stage 2 and Stage 3 (d): 31,941,966
+- CKPN - Stage 1 (e): 3,962,836
+- Allowances for Impairment Losses (IRB Approach) (f): tidak terbaca
+- Net Value Past Due (a+b+c) (g): 1,243,666,870

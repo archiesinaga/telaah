@@ -1,0 +1,47 @@
+Komposisi Pendapatan Bunga - Bersih per Segmen Geografis
+2024
+2023
+Kenaikan (Penurunan)
+Segmen: Jumlah (Rp-miliar), Komposisi (%)
+Indonesia: 39.082, 96,5
+Amerika Serikat: 311, 0,8
+Eropa: 132, 0,3
+Asia: 953, 2,4
+Penyesuaian dan Eliminasi: 2, 0
+Jumlah Pendapatan Bunga - Bersih: 40.480, 100,0
+
+Segmen: Jumlah (Rp-miliar), Komposisi (%)
+Indonesia: 40.235, 97,5
+Amerika Serikat: 352, 0,9
+Eropa: 86, 0,2
+Asia: 629, 1,5
+Penyesuaian dan Eliminasi: (26), (0,1)
+Jumlah Pendapatan Bunga - Bersih: 41.276, 100,0
+
+Kenaikan (Penurunan): Nominal (Rp-miliar), Persentase (%)
+Indonesia: (1.153), (2,9)
+Amerika Serikat: (41), (11,6)
+Eropa: 46, 53,3
+Asia: 324, 51,5
+Penyesuaian dan Eliminasi: 28, (107,7)
+Jumlah Pendapatan Bunga - Bersih: (796), 1,9
+
+Komposisi Pendapatan Bunga - Bersih per Segmen Geografis
+(%)
+2023:
+Indonesia: 97,5%
+Amerika Serikat: 0,9%
+Eropa: 0,2%
+Asia: 1,5%
+
+2024:
+Indonesia: 96,5%
+Amerika Serikat: 0,8%
+Eropa: 0,3%
+Asia: 2,4%
+
+Legenda:
+Indonesia
+Amerika Serikat
+Eropa
+Asia

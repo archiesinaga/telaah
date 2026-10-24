@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+FEE BASED INCOME ACCELERATION GROWTH
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tabel berisi kolom: Account, 2025 (Total (IDR-billion), Composition (%)), 2024 (Total (IDR-billion), Composition (%)), 2023 (Total (IDR-billion), Composition (%)), Increase (Decrease) 2024-2025 (Total (IDR-billion), Percentage (%)), Increase (Decrease) 2023-2024 (Total (IDR-billion), Percentage (%)).
+- Baris: Recurring Fee, Non Recurring Fee, Total.
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Recurring Fee, 2025, Total (IDR-billion): 17,682
+- Recurring Fee, 2025, Composition (%): 95.8
+- Recurring Fee, 2024, Total (IDR-billion): 16,010
+- Recurring Fee, 2024, Composition (%): 96.3
+- Recurring Fee, 2023, Total (IDR-billion): 14,438
+- Recurring Fee, 2023, Composition (%): 97.7
+- Recurring Fee, Increase (Decrease) 2024-2025, Total (IDR-billion): 1,673
+- Recurring Fee, Increase (Decrease) 2024-2025, Percentage (%): 10.4
+- Recurring Fee, Increase (Decrease) 2023-2024, Total (IDR-billion): 1,572
+- Recurring Fee, Increase (Decrease) 2023-2024, Percentage (%): 10.9
+
+- Non Recurring Fee, 2025, Total (IDR-billion): 779
+- Non Recurring Fee, 2025, Composition (%): 4.2
+- Non Recurring Fee, 2024, Total (IDR-billion): 614
+- Non Recurring Fee, 2024, Composition (%): 3.7
+- Non Recurring Fee, 2023, Total (IDR-billion): 344
+- Non Recurring Fee, 2023, Composition (%): 2.3
+- Non Recurring Fee, Increase (Decrease) 2024-2025, Total (IDR-billion): 164
+- Non Recurring Fee, Increase (Decrease) 2024-2025, Percentage (%): 26.7
+- Non Recurring Fee, Increase (Decrease) 2023-2024, Total (IDR-billion): 270
+- Non Recurring Fee, Increase (Decrease) 2023-2024, Percentage (%): 78.6
+
+- Total, 2025, Total (IDR-billion): 18,461
+- Total, 2025, Composition (%): 100.0
+- Total, 2024, Total (IDR-billion): 16,624
+- Total, 2024, Composition (%): 100.0
+- Total, 2023, Total (IDR-billion): 14,782
+- Total, 2023, Composition (%): 100.0
+- Total, Increase (Decrease) 2024-2025, Total (IDR-billion): 1,837
+- Total, Increase (Decrease) 2024-2025, Percentage (%): 11.1
+- Total, Increase (Decrease) 2023-2024, Total (IDR-billion): 1,842
+- Total, Increase (Decrease) 2023-2024, Percentage (%): 12.5

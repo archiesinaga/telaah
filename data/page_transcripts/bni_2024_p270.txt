@@ -1,0 +1,20 @@
+Kinerja Keuangan BNI Remittance
+
+Pos Akun | 2024* (Rp-miliar) | 2023 (Rp-miliar) | Kenaikan (Penurunan) Nominal (Rp-miliar) | Kenaikan (Penurunan) Persentase (%)
+Neraca
+Aset: 2024*: 9, 2023: 11, Nominal: (3), Persentase: (24)
+Aset Lancar: 2024*: 6, 2023: 8, Nominal: (2), Persentase: (26)
+Aset Tetap: 2024*: 0,2, 2023: (15), Nominal: 15, Persentase: 99
+Aset Lainnya: 2024*: 3, 2023: 19, Nominal: (16), Persentase: (85)
+Liabilitas: 2024*: 2, 2023: 3, Nominal: (1), Persentase: (19)
+Liabilitas Jangka Pendek: 2024*: 2, 2023: 3, Nominal: (1), Persentase: (19)
+Ekuitas: 2024*: 6, 2023: 8, Nominal: (2), Persentase: (26)
+Laba/Rugi
+Pendapatan Komisi: 2024*: 3, 2023: 3, Nominal: 0,1, Persentase: 4
+Keuntungan/Kerugian Transaksi Valuta Asing: 2024*: 0,8, 2023: 0,7, Nominal: 0,1, Persentase: 10
+Pendapatan Komisi Lainnya: 2024*: 5, 2023: 5, Nominal: 0,8, Persentase: 16
+Total Pendapatan: 2024*: 9, 2023: 9, Nominal: 1, Persentase: 11
+Beban Operasional: 2024*: (12), 2023: (11), Nominal: (0,5), Persentase: 4
+Laba Sebelum Pajak: 2024*: (2), 2023: (3), Nominal: 0,5, Persentase: 15
+Pajak**: 2024*: -, 2023: -, Nominal: -, Persentase: -
+Laba Setelah Pajak: 2024*: (2), 2023: (3), Nominal: 0,5, Persentase: 15

@@ -1,0 +1,38 @@
+Total Emisi Operasional: 349.741 Ton CO2eq
+Total Emisi Pembiayaan: 28,9 juta Ton CO2eq
+
+Emisi operasional BCA 2024
+Emisi GRK (tCO2eq): 2024
+Cakupan 1
+Pembakaran stasioner: 778,7
+Pembakaran mobile: 10,8
+Emisi fugitive: 3.861,1
+TOTAL: 4.650,6
+Cakupan 2
+Listrik yang dibeli: 139.855,6
+Cakupan 3
+Kategori 1. Barang dan jasa yang dibeli: 79.367,6
+Kategori 2. Barang modal: 56.881,3
+Kategori 3. Aktivitas terkait bahan bakar dan energi (tidak tercakup dalam cakupan 1 & 2): 20.853,9
+Kategori 5. Limbah yang dihasilkan dalam operasi: 2.325,3
+Kategori 6. Perjalanan bisnis: 10.704,9
+Kategori 8. Aset disewa di hulu: 34.306,1
+Kategori 12. Penanganan pada akhir masa pakai produk terjual: 795,5
+TOTAL: 205.234,6
+Total Emisi (GRK Cakupan 1 + 2 + 3): 349.740,8
+
+Intensitas Emisi Cakupan 1 & 2 (tCO2eq/miliar Rupiah pendapatan operasional)
+2022: 1,61
+2023: 1,43
+2024: 1,33
+
+Cakupan penghitungan emisi operasional: 100%
+
+Emisi pembiayaan BCA 2023
+TOTAL: 28,9 juta tCO2eq
+Pertambangan & Penggalian: 1,7 juta tCO2eq
+Pengadaan Listrik, Gas, Uap/Air Panas dan Udara Dingin: 0,4 juta tCO2eq
+Konstruksi: 0,6 juta tCO2eq
+Industri Pengolahan: 23,3 juta tCO2eq
+Pertanian, Kehutanan, & Perikanan: 2,1 juta tCO2eq
+Pengangkutan & Pergudangan: 0,8 juta tCO2eq

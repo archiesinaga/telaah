@@ -1,0 +1,22 @@
+1. Judul atau keterangan:
+Bagan struktur kepemilikan/anak perusahaan/afiliasi BNI (termasuk BNI Remittance, hibank, BNI Ventures, KSEI, Mizuho, SMBC, BSI, dan iDClear).
+
+2. Label, legenda, satuan, dan periode:
+- Kategori institusi/perusahaan: Remitansi, Perbankan, Venture Cap., Kustodian Sentral, Kliring.
+- Format keterangan di bawah entitas: [Tahun pendirian/akuisisi] | [Persentase kepemilikan].
+
+3. Angka yang tertera (dipasangkan dengan label/periodenya):
+- BNI Remittance: 1996 | 100,00%
+- Angka dalam lingkaran merah di sebelah kiri (terhubung ke SUMITOMO LIFE): 40,00%
+- hibank: 2022 | 63,92%
+- Angka dalam lingkaran merah di tengah (terhubung ke Mayora Inti Utama): 36,08%
+- BNI Ventures: 2023 | 99,98%
+- Angka dalam lingkaran hijau muda (terhubung ke BNI Ventures): 0,02%
+- Angka dalam lingkaran hijau di atas KSEI: 1,50%
+- Angka dalam lingkaran biru di atas KSEI: 1,00%
+- Kustodian Sentral (ksei): 1998 | 2,50%
+- Mizuho (Perbankan): 2003 | 1,00%
+- SMBC (Perbankan): 2024 | 0,11%
+- BSI (Perbankan): 2021 | 23,24%
+- iDClear (Kliring): 2024 | 1,11%
+- Nomor halaman di pojok kanan bawah: 189

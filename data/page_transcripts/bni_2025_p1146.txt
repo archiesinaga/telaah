@@ -1,0 +1,46 @@
+1. Judul atau keterangan:
+- BNI Financial Conglomerate Structure
+- Share ownership structure in the BNI Financial Conglomerate
+- BNI Finance Share Ownership Structure (%)
+- BNI Sekuritas Share Ownership Structure (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode (untuk semua struktur di atas): As of December 31, 2025
+- Satuan: % (persen)
+- Legenda (Share ownership structure in the BNI Financial Conglomerate):
+  - Government of Indonesia
+  - PT Danantara Asset Management (Persero)
+  - Public
+- Legenda (BNI Finance Share Ownership Structure):
+  - BNI
+  - PT BNI Multifinance Employee Cooperative
+- Legenda (BNI Sekuritas Share Ownership Structure):
+  - BNI
+  - SBI Financial Service Co., Ltd
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- BNI Financial Conglomerate Structure:
+  - BNI finance: 1983 | 99,99%
+  - BNI Sekuritas: 1995 | 75,00%
+  - BNI Life: 1996 | 60,00%
+  - BNI Remittance: 1996 | 99,98%
+  - hibank: 2022 | 63,92%
+  - BNI Ventures: 2022 | 99,98%
+  - Pension Fund: 1960
+  - Pension Fund: 1993
+  - BNI Asset Management: 2011 | 99,90%
+  - BNI Securities: 2021 | 100,00%
+  - Asuransi Umum: 2017 | 62,86%
+
+- Share ownership structure in the BNI Financial Conglomerate:
+  - Government of Indonesia: 0.00%
+  - PT Danantara Asset Management (Persero): 60%
+  - Public: 40%
+
+- BNI Finance Share Ownership Structure:
+  - BNI: 99.998
+  - PT BNI Multifinance Employee Cooperative: 0.002
+
+- BNI Sekuritas Share Ownership Structure:
+  - BNI: 75
+  - SBI Financial Service Co., Ltd: 25

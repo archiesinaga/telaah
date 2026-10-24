@@ -1,0 +1,12 @@
+Penyaluran Dana TJSL
+
+Program | Unit | 2024 | 2025
+Charitable Donations | % | 44,80 | 55,14
+Community Investments | % | 54,00 | 44,36
+Commercial Initiatives | % | 1,20 | 0,5
+Total | % | 100 | 100
+
+Jenis Kontribusi | Unit | 2024 | 2025
+Cash Contribution* | Rp juta | 0 | 0
+In-Kind Giving** | Rp juta | 250,03 | 251,1
+Management Overhead | Rp juta | 6,56 | 1,8

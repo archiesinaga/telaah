@@ -1,0 +1,122 @@
+Tabel 1:
+1. Judul: Aset Non-Keuangan
+2. Label sumbu, legenda, satuan, dan periode:
+- Pos Akun
+- 2024 (Rp-miliar)
+- 2023 (Rp-miliar)
+- 2022 (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar), Persentase (%)
+- Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar), Persentase (%)
+3. Angka yang tertera:
+- Total Aset, 2024 (Rp-miliar): 1.129.806
+- Total Aset, 2023 (Rp-miliar): 1.086.664
+- Total Aset, 2022 (Rp-miliar): 1.029.837
+- Total Aset, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 43.142
+- Total Aset, Kenaikan (Penurunan) 2023-2024 Persentase (%): 4,0
+- Total Aset, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 56.827
+- Total Aset, Kenaikan (Penurunan) 2022-2023 Persentase (%): 5,5
+- Pajak dibayar di muka, 2024 (Rp-miliar): 19
+- Pajak dibayar di muka, 2023 (Rp-miliar): 643
+- Pajak dibayar di muka, 2022 (Rp-miliar): 644
+- Pajak dibayar di muka, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (624)
+- Pajak dibayar di muka, Kenaikan (Penurunan) 2023-2024 Persentase (%): (97,0)
+- Pajak dibayar di muka, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (1)
+- Pajak dibayar di muka, Kenaikan (Penurunan) 2022-2023 Persentase (%): (0,2)
+- Beban dibayar di muka, 2024 (Rp-miliar): 2.941
+- Beban dibayar di muka, 2023 (Rp-miliar): 2.743
+- Beban dibayar di muka, 2022 (Rp-miliar): 3.244
+- Beban dibayar di muka, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 198
+- Beban dibayar di muka, Kenaikan (Penurunan) 2023-2024 Persentase (%): 7,2
+- Beban dibayar di muka, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (501)
+- Beban dibayar di muka, Kenaikan (Penurunan) 2022-2023 Persentase (%): (15,4)
+- Investasi pada entitas asosiasi, 2024 (Rp-miliar): 12.748
+- Investasi pada entitas asosiasi, 2023 (Rp-miliar): 11.284
+- Investasi pada entitas asosiasi, 2022 (Rp-miliar): 10.049
+- Investasi pada entitas asosiasi, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 1.464
+- Investasi pada entitas asosiasi, Kenaikan (Penurunan) 2023-2024 Persentase (%): 13,0
+- Investasi pada entitas asosiasi, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 1.235
+- Investasi pada entitas asosiasi, Kenaikan (Penurunan) 2022-2023 Persentase (%): 12,3
+- Aset tetap dan Aset Hak Guna - Neto, 2024 (Rp-miliar): 30.408
+- Aset tetap dan Aset Hak Guna - Neto, 2023 (Rp-miliar): 27.765
+- Aset tetap dan Aset Hak Guna - Neto, 2022 (Rp-miliar): 26.549
+- Aset tetap dan Aset Hak Guna - Neto, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 2.643
+- Aset tetap dan Aset Hak Guna - Neto, Kenaikan (Penurunan) 2023-2024 Persentase (%): 9,5
+- Aset tetap dan Aset Hak Guna - Neto, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 1.216
+- Aset tetap dan Aset Hak Guna - Neto, Kenaikan (Penurunan) 2022-2023 Persentase (%): 4,6
+- Aset takberwujud, 2024 (Rp-miliar): 743
+- Aset takberwujud, 2023 (Rp-miliar): 744
+- Aset takberwujud, 2022 (Rp-miliar): 753
+- Aset takberwujud, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (1)
+- Aset takberwujud, Kenaikan (Penurunan) 2023-2024 Persentase (%): (0,1)
+- Aset takberwujud, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (9)
+- Aset takberwujud, Kenaikan (Penurunan) 2022-2023 Persentase (%): (1,2)
+- Aset pajak tangguhan - Neto, 2024 (Rp-miliar): 6.950
+- Aset pajak tangguhan - Neto, 2023 (Rp-miliar): 7.441
+- Aset pajak tangguhan - Neto, 2022 (Rp-miliar): 7.614
+- Aset pajak tangguhan - Neto, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (491)
+- Aset pajak tangguhan - Neto, Kenaikan (Penurunan) 2023-2024 Persentase (%): (6,6)
+- Aset pajak tangguhan - Neto, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (173)
+- Aset pajak tangguhan - Neto, Kenaikan (Penurunan) 2022-2023 Persentase (%): (2,3)
+- Jumlah Aset Non-Keuangan, 2024 (Rp-miliar): 53.809
+- Jumlah Aset Non-Keuangan, 2023 (Rp-miliar): 50.620
+- Jumlah Aset Non-Keuangan, 2022 (Rp-miliar): 48.853
+- Jumlah Aset Non-Keuangan, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 3.189
+- Jumlah Aset Non-Keuangan, Kenaikan (Penurunan) 2023-2024 Persentase (%): 6,3
+- Jumlah Aset Non-Keuangan, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 1.767
+- Jumlah Aset Non-Keuangan, Kenaikan (Penurunan) 2022-2023 Persentase (%): 3,6
+
+Tabel 2:
+1. Judul: Giro pada Bank Indonesia
+2. Label sumbu, legenda, satuan, dan periode:
+- Pos Akun
+- 2024: Jumlah (Rp-miliar), Komposisi (%)
+- 2023: Jumlah (Rp-miliar), Komposisi (%)
+- 2022: Jumlah (Rp-miliar), Komposisi (%)
+- Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar), Persentase (%)
+- Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar), Persentase (%)
+3. Angka yang tertera:
+- Rupiah, 2024 Jumlah (Rp-miliar): 43.717
+- Rupiah, 2024 Komposisi (%): 84,6
+- Rupiah, 2023 Jumlah (Rp-miliar): 57.795
+- Rupiah, 2023 Komposisi (%): 88,6
+- Rupiah, 2022 Jumlah (Rp-miliar): 76.037
+- Rupiah, 2022 Komposisi (%): 91,7
+- Rupiah, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (14.078)
+- Rupiah, Kenaikan (Penurunan) 2023-2024 Persentase (%): (24,4)
+- Rupiah, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (18.242)
+- Rupiah, Kenaikan (Penurunan) 2022-2023 Persentase (%): (24,0)
+- Dolar Amerika Serikat, 2024 Jumlah (Rp-miliar): 7.952
+- Dolar Amerika Serikat, 2024 Komposisi (%): 15,4
+- Dolar Amerika Serikat, 2023 Jumlah (Rp-miliar): 7.461
+- Dolar Amerika Serikat, 2023 Komposisi (%): 11,4
+- Dolar Amerika Serikat, 2022 Jumlah (Rp-miliar): 6.885
+- Dolar Amerika Serikat, 2022 Komposisi (%): 8,3
+- Dolar Amerika Serikat, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 491
+- Dolar Amerika Serikat, Kenaikan (Penurunan) 2023-2024 Persentase (%): 6,6
+- Dolar Amerika Serikat, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 576
+- Dolar Amerika Serikat, Kenaikan (Penurunan) 2022-2023 Persentase (%): 8,4
+- Jumlah, 2024 Jumlah (Rp-miliar): 51.669
+- Jumlah, 2024 Komposisi (%): 100,0
+- Jumlah, 2023 Jumlah (Rp-miliar): 65.256
+- Jumlah, 2023 Komposisi (%): 100,0
+- Jumlah, 2022 Jumlah (Rp-miliar): 82.922
+- Jumlah, 2022 Komposisi (%): 100,0
+- Jumlah, Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (13.587)
+- Jumlah, Kenaikan (Penurunan) 2023-2024 Persentase (%): (20,8)
+- Jumlah, Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (17.666)
+- Jumlah, Kenaikan (Penurunan) 2022-2023 Persentase (%): (21,3)
+
+Tabel 3:
+1. Judul: Giro Wajib Minimum (GWM)
+2. Label sumbu, legenda, satuan, dan periode:
+- Giro Wajib Minimum (GWM)
+- 2024 (%)
+- 2023 (%)
+- 2022 (%)
+3. Angka yang tertera:
+- GWM - Rupiah, 2024 (%): 6,5
+- GWM - Rupiah, 2023 (%): 9,5
+- GWM - Rupiah, 2022 (%): 11,9
+- GWM - Valas, 2024 (%): 4,0
+- GWM - Valas, 2023 (%): 4,0
+- GWM - Valas, 2022 (%): 4,0

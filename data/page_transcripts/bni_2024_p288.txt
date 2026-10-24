@@ -1,0 +1,18 @@
+1. Judul atau keterangan: Kinerja Mobile Banking
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2024, 2023
+- Kenaikan (Penurunan): Nominal, Persentase (%)
+- Satuan: juta, Rp-triliun
+3. Angka yang tertera:
+- Pengguna (juta), 2024: 18,1
+- Pengguna (juta), 2023: 16,2
+- Kenaikan (Penurunan) Nominal Pengguna: 1,90
+- Kenaikan (Penurunan) Persentase (%) Pengguna: 11,7
+- Jumlah Transaksi (juta), 2024: 1.379
+- Jumlah Transaksi (juta), 2023: 1.043
+- Kenaikan (Penurunan) Nominal Jumlah Transaksi: 336
+- Kenaikan (Penurunan) Persentase (%) Jumlah Transaksi: 32,2
+- Volume Transaksi (Rp-triliun), 2024: 1.495
+- Volume Transaksi (Rp-triliun), 2023: 1.215
+- Kenaikan (Penurunan) Nominal Volume Transaksi: 280
+- Kenaikan (Penurunan) Persentase (%) Volume Transaksi: 23,0

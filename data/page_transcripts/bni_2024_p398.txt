@@ -1,0 +1,145 @@
+Realisasi Saldo dan Transaksi Pihak Berelasi pada Periode Tahun Buku 2023 dan 2024
+
+Tabel 1: Saldo Pihak Berelasi dalam Aset
+- Giro pada bank lain: 
+  - 2024 (Rp-miliar): 43
+  - 2023 (Rp-miliar): 52
+  - Persentase dari Jumlah Aset 2024 (%): 0,0
+  - Persentase dari Jumlah Aset 2023 (%): 0,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (9)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (17,3)
+- Penempatan pada bank lain: 
+  - 2024 (Rp-miliar): 1.620
+  - 2023 (Rp-miliar): 1.211
+  - Persentase dari Jumlah Aset 2024 (%): 0,1
+  - Persentase dari Jumlah Aset 2023 (%): 0,1
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 409
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 33,8
+- Efek-efek yang dimiliki: 
+  - 2024 (Rp-miliar): 10.157
+  - 2023 (Rp-miliar): 11.428
+  - Persentase dari Jumlah Aset 2024 (%): 0,9
+  - Persentase dari Jumlah Aset 2023 (%): 1,1
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (1.271)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (11,1)
+- Obligasi Pemerintah: 
+  - 2024 (Rp-miliar): 126.661
+  - 2023 (Rp-miliar): 125.021
+  - Persentase dari Jumlah Aset 2024 (%): 11,2
+  - Persentase dari Jumlah Aset 2023 (%): 11,5
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 1.640
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 1,3
+- Wesel ekspor dan tagihan lainnya: 
+  - 2024 (Rp-miliar): 6.209
+  - 2023 (Rp-miliar): 10.085
+  - Persentase dari Jumlah Aset 2024 (%): 0,5
+  - Persentase dari Jumlah Aset 2023 (%): 0,9
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (3.876)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (38,4)
+- Tagihan akseptasi: 
+  - 2024 (Rp-miliar): 2.825
+  - 2023 (Rp-miliar): 3.159
+  - Persentase dari Jumlah Aset 2024 (%): 0,3
+  - Persentase dari Jumlah Aset 2023 (%): 0,3
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (334)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (10,6)
+- Tagihan derivatif: 
+  - 2024 (Rp-miliar): 342
+  - 2023 (Rp-miliar): 38
+  - Persentase dari Jumlah Aset 2024 (%): 0,0
+  - Persentase dari Jumlah Aset 2023 (%): 0,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 304
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 800,0
+- Pinjaman yang diberikan: 
+  - 2024 (Rp-miliar): 159.403
+  - 2023 (Rp-miliar): 126.359
+  - Persentase dari Jumlah Aset 2024 (%): 14,1
+  - Persentase dari Jumlah Aset 2023 (%): 11,6
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 33.044
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 26,2
+- Investasi pada entitas asosiasi dan penyertaan saham: 
+  - 2024 (Rp-miliar): 13.118
+  - 2023 (Rp-miliar): 11.661
+  - Persentase dari Jumlah Aset 2024 (%): 1,2
+  - Persentase dari Jumlah Aset 2023 (%): 1,1
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 1.457
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 12,5
+- Total Aset dari Pihak-pihak Berelasi: 
+  - 2024 (Rp-miliar): 320.378
+  - 2023 (Rp-miliar): 289.014
+  - Persentase dari Jumlah Aset 2024 (%): 28,4
+  - Persentase dari Jumlah Aset 2023 (%): 26,6
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 31.364
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 10,9
+- Total Aset: 
+  - 2024 (Rp-miliar): 1.129.806
+  - 2023 (Rp-miliar): 1.086.664
+  - Persentase dari Jumlah Aset 2024 (%): 100,0
+  - Persentase dari Jumlah Aset 2023 (%): 100,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 43.142
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 4,0
+
+Tabel 2: Saldo Pihak Berelasi dalam Liabilitas
+- Simpanan nasabah: 
+  - 2024 (Rp-miliar): 112.834
+  - 2023 (Rp-miliar): 152.080
+  - Persentase dari Jumlah Aset 2024 (%): 11,7
+  - Persentase dari Jumlah Aset 2023 (%): 16,3
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (39.246)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (25,8)
+- Simpanan bank lain: 
+  - 2024 (Rp-miliar): 4.165
+  - 2023 (Rp-miliar): 2.705
+  - Persentase dari Jumlah Aset 2024 (%): 0,4
+  - Persentase dari Jumlah Aset 2023 (%): 0,3
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 1.460
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 54,0
+- Efek-efek yang diterbitkan: 
+  - 2024 (Rp-miliar): 1.892
+  - 2023 (Rp-miliar): 1.765
+  - Persentase dari Jumlah Aset 2024 (%): 0,2
+  - Persentase dari Jumlah Aset 2023 (%): 0,2
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 127
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 7,2
+- Pinjaman yang diterima: 
+  - 2024 (Rp-miliar): 1.574
+  - 2023 (Rp-miliar): 824
+  - Persentase dari Jumlah Aset 2024 (%): 0,2
+  - Persentase dari Jumlah Aset 2023 (%): 0,1
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 750
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 91,0
+- Efek-efek Subordinasi: 
+  - 2024 (Rp-miliar): 3
+  - 2023 (Rp-miliar): 3
+  - Persentase dari Jumlah Aset 2024 (%): 0,0
+  - Persentase dari Jumlah Aset 2023 (%): 0,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 0
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 0,0
+- Liabilitas derivatif: 
+  - 2024 (Rp-miliar): 155
+  - 2023 (Rp-miliar): 136
+  - Persentase dari Jumlah Aset 2024 (%): 0,0
+  - Persentase dari Jumlah Aset 2023 (%): 0,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 19
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 14,0
+- Liabilitas akseptasi: 
+  - 2024 (Rp-miliar): 901
+  - 2023 (Rp-miliar): 1.071
+  - Persentase dari Jumlah Aset 2024 (%): 0,1
+  - Persentase dari Jumlah Aset 2023 (%): 0,1
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (170)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (15,9)
+- Total Liabilitas dari Pihak-pihak Berelasi: 
+  - 2024 (Rp-miliar): 121.523
+  - 2023 (Rp-miliar): 158.584
+  - Persentase dari Jumlah Aset 2024 (%): 12,6
+  - Persentase dari Jumlah Aset 2023 (%): 17,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (37.061)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (23,4)
+- Total Liabilitas: 
+  - 2024 (Rp-miliar): 962.619
+  - 2023 (Rp-miliar): 931.931
+  - Persentase dari Jumlah Aset 2024 (%): 100,0
+  - Persentase dari Jumlah Aset 2023 (%): 100,0
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 30.688
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 3,3

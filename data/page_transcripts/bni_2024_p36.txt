@@ -1,0 +1,18 @@
+1. Judul atau keterangan:
+Daftar Obligasi yang masih Beredar di Tahun 2024
+
+2. Label, satuan, dan periode:
+- Nama Obligasi
+- Tanggal Penerbitan
+- Tanggal Efektif
+- Tenor
+- Mata Uang
+- Nilai
+
+3. Angka yang tertera dan dipasangkan dengan label/periodenya:
+- Nama Obligasi: Global Bonds 2024, Tanggal Penerbitan: 05 April 2024, Tanggal Efektif: 05 April 2024, Tenor: 5 Tahun, Mata Uang: USD, Nilai: USD500.000.000
+- Judul kelompok: Obligasi Berwawasan Lingkungan (Green Bond) I Tahun 2022
+- Nama Obligasi: Seri A, Tanggal Penerbitan: 21 Juni 2022, Tanggal Efektif: 10 Juni 2022, Tenor: 3 tahun, Mata Uang: Rupiah, Nilai: Rp4.000.000.000.000
+- Nama Obligasi: Seri B, Tanggal Penerbitan: 21 Juni 2022, Tanggal Efektif: 10 Juni 2022, Tenor: 5 tahun, Mata Uang: Rupiah, Nilai: Rp1.000.000.000.000
+- Nama Obligasi: BNI Tier II Capital Bond 2021, Tanggal Penerbitan: 30 Maret 2021, Tanggal Efektif: 30 Maret 2021, Tenor: 5 tahun, Mata Uang: Dolar AS, Nilai: USD500.000.000
+- Nama Obligasi: BNI Additional Tier I Capital Bond 2021, Tanggal Penerbitan: 24 September 2021, Tanggal Efektif: 24 September 2021, Tenor: Perpetual, Non Callable 5,5 tahun, Mata Uang: Dolar AS, Nilai: USD600.000.000

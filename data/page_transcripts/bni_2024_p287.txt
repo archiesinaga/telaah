@@ -1,0 +1,43 @@
+1. Judul atau keterangan:
+Kinerja SMS Banking
+Kenaikan (Penurunan)
+- Nominal
+- Persentase (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2024, 2023
+- Satuan dan Label:
+  - Pengguna (juta)
+  - Jumlah Transaksi (juta)
+  - Volume Transaksi (Rp-triliun)
+
+3. Angka yang tertera:
+- Pengguna (juta) | 2024: 12,7 | 2023: 12,6 | Kenaikan (Penurunan) Nominal: 0,1 | Kenaikan (Penurunan) Persentase (%): 0,8
+- Jumlah Transaksi (juta) | 2024: 688 | 2023: 660 | Kenaikan (Penurunan) Nominal: 28 | Kenaikan (Penurunan) Persentase (%): 4,2
+- Volume Transaksi (Rp-triliun) | 2024: 8,5 | 2023: 16,8 | Kenaikan (Penurunan) Nominal: (8) | Kenaikan (Penurunan) Persentase (%): (49,4)
+
+---
+
+1. Judul atau keterangan:
+Kinerja Internet Banking
+Kenaikan (Penurunan)
+- Nominal
+- Persentase (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2024, 2023
+- Satuan dan Label:
+  - Pengguna (juta)
+  - Jumlah Transaksi (juta)
+  - Volume Transaksi (Rp-miliar)
+
+3. Angka yang tertera:
+- Pengguna (juta) | 2024: 2,2 | 2023: 2,2 | Kenaikan (Penurunan) Nominal: 0 | Kenaikan (Penurunan) Persentase (%): 0,0
+- Jumlah Transaksi (juta) | 2024: 10,3 | 2023: 13,6 | Kenaikan (Penurunan) Nominal: (3) | Kenaikan (Penurunan) Persentase (%): (24,3)
+- Volume Transaksi (Rp-miliar) | 2024: 18,9 | 2023: 29,5 | Kenaikan (Penurunan) Nominal: (11) | Kenaikan (Penurunan) Persentase (%): (35,9)
+
+---
+
+Infografik:
+- Teks: Transaksi Perbangkan Lebih Cepat & Mudah dengan BNI SMS Banking & BNI Internet Banking
+- Ikon dan Teks Fitur: Transfer, Auto Debit, Pembayaran Tagihan, Top-up E-Wallet

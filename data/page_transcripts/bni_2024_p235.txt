@@ -1,0 +1,35 @@
+1. Judul atau keterangan:
+Produktivitas Segmen Wholesale & International Banking
+Satuan: Rp-miliar
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Kolom: Produktivitas, 2024 Rp-miliar, 2023 Rp-miliar, Kenaikan (Penurunan) - Nominal (Rp-miliar), Kenaikan (Penurunan) - Persentase (%)
+- Baris: Total Kredit, Total Dana Pihak Ketiga, Giro, Tabungan, Deposito
+- Periode: 2024, 2023
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Total Kredit:
+  - 2024: 405.376
+  - 2023: 353.141
+  - Nominal (Rp-miliar): 52.235
+  - Persentase (%): 14,8
+- Total Dana Pihak Ketiga:
+  - 2024: 224.894
+  - 2023: 253.649
+  - Nominal (Rp-miliar): (28.755)
+  - Persentase (%): (11,3)
+- Giro:
+  - 2024: 150.108
+  - 2023: 197.876
+  - Nominal (Rp-miliar): (47.768)
+  - Persentase (%): (24,1)
+- Tabungan:
+  - 2024: 447
+  - 2023: 1.070
+  - Nominal (Rp-miliar): (623)
+  - Persentase (%): (58,2)
+- Deposito:
+  - 2024: 74.339
+  - 2023: 54.703
+  - Nominal (Rp-miliar): 19.637
+  - Persentase (%): 35,9

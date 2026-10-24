@@ -1,0 +1,65 @@
+1. Judul atau keterangan: Rincian Struktur Modal Bank
+2. Label sumbu, legenda, satuan, dan periode: 
+- Kolom: Komponen Modal (Bank Saja), 2024, 2023, 2022, Kenaikan (Penurunan) 2023-2024 (Nominal, Persentase (%)), Kenaikan (Penurunan) 2022-2023 (Nominal, Persentase (%))
+- Satuan: Rp-miliar dan %
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Komponen Modal (Bank Saja): Modal Inti (Rp-miliar)
+  - 2024: 142.043
+  - 2023: 130.938
+  - 2022: 118.936
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 11.105
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 8,5
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 12.002
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 10,1
+- Komponen Modal (Bank Saja): Modal Pelengkap (Rp-miliar)
+  - 2024: 10.264
+  - 2023: 11.079
+  - 2022: 12.400
+  - Kenaikan (Penurunan) 2023-2024 Nominal: (815)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (7,4)
+  - Kenaikan (Penurunan) 2022-2023 Nominal: (1.321)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (10,7)
+- Komponen Modal (Bank Saja): Total Modal Inti dan Modal Pelengkap (Rp-miliar)
+  - 2024: 152.307
+  - 2023: 142.016
+  - 2022: 131.336
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 10.291
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 7,2
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 10.680
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 8,1
+- Komponen Modal (Bank Saja): Aset Tertimbang Menurut Risiko (ATMR) untuk Risiko Kredit (Rp miliar)
+  - 2024: 660.200
+  - 2023: 609.161
+  - 2022: 586.142
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 51.039
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 8,4
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 23.019
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 3,9
+- Komponen Modal (Bank Saja): Aset Tertimbang Menurut Risiko (ATMR) untuk Risiko Operasional (Rp miliar)
+  - 2024: 37.411
+  - 2023: 34.967
+  - 2022: 92.999
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 2.444
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 7,0
+  - Kenaikan (Penurunan) 2022-2023 Nominal: (58.032)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (62,40)
+- Komponen Modal (Bank Saja): Aset Tertimbang Menurut Risiko (ATMR) untuk Risiko Pasar (Rp miliar)
+  - 2024: 14.162
+  - 2023: 2.812
+  - 2022: 2.244
+  - Kenaikan (Penurunan) 2023-2024 Nominal: 11.350
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 403,6
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 568
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 25,3
+- Komponen Modal (Bank Saja): Rasio Modal Inti (%)
+  - 2024: 20,0
+  - 2023: 20,2
+  - 2022: 17,5
+  - Kenaikan (Penurunan) 2023-2024 Nominal: (0,2)
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 2,7
+- Komponen Modal (Bank Saja): Rasio Kewajiban Penyediaan Modal Minimum untuk Risiko Kredit, Risiko Operasional, dan Risiko Pasar (%)
+  - 2024: 21,4
+  - 2023: 22,0
+  - 2022: 19,3
+  - Kenaikan (Penurunan) 2023-2024 Nominal: (0,6)
+  - Kenaikan (Penurunan) 2022-2023 Nominal: 2,6

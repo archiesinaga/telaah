@@ -1,0 +1,38 @@
+1. Judul atau keterangan: Operational Income (IDR billion)
+- Satuan: IDR billion
+- Periode dan angka:
+  - 2021: 55,865
+  - 2022: 61,472
+  - 2023: 62,747
+  - 2024: 64,515
+  - 2024*: 63,895
+  - 2025: 64,976
+  - Keterangan tambahan: *) Restated
+
+2. Judul atau keterangan: Net Income (IDR billion)
+- Satuan: IDR billion
+- Periode dan angka:
+  - 2021: 10,977
+  - 2022: 18,482
+  - 2023: 21,106
+  - 2024: 21,669
+  - 2024*: 21,669
+  - 2025: 20,111
+  - Keterangan tambahan: *) Restated
+
+3. Judul atau keterangan: Return on Equity (ROE) - Bank Only (Using total equity average as a denominator)
+- Periode dan angka:
+  - 2021: 9.4
+  - 2022: 14.9
+  - 2023: 15.2
+  - 2024: 14.2
+  - 2025: 12.7
+
+4. Judul atau keterangan: Low Credit Ratio (KKR)/Loan at Risk (LaR) (IDR billion)
+- Satuan: IDR billion
+- Periode dan angka:
+  - 2021: 23.3
+  - 2022: 16.0
+  - 2023: 12.9
+  - 2024: 10.3
+  - 2025: 8.5

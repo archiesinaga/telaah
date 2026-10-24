@@ -1,0 +1,32 @@
+1. Judul atau keterangan:
+Trends in Sanctions for Code of Ethics Violations 2023-2025
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Kategori pelanggaran: Letter of Guidance, Letter of Reprimand, Letter of Strong Reprimand, Demotion, Termination of Employment
+- Legenda warna:
+  - Lingkaran biru tua: 2025
+  - Lingkaran biru muda: 2024
+  - Lingkaran kuning/oranye: 2023
+- Periode: 2023-2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Letter of Guidance:
+  - 2025: 6
+  - 2024: 7
+  - 2023: 9
+- Letter of Reprimand:
+  - 2025: 4
+  - 2024: tidak terbaca (tidak ada angka)
+  - 2023: 2
+- Letter of Strong Reprimand:
+  - 2025: 2
+  - 2024: 5
+  - 2023: 3
+- Demotion:
+  - 2025: 4
+  - 2024: tidak terbaca (tidak ada angka)
+  - 2023: 3
+- Termination of Employment:
+  - 2025: 44
+  - 2024: 80
+  - 2023: 77

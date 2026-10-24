@@ -1,0 +1,15 @@
+(IDR billion)
+
+December 31, 2024
+Business Indicator Components: 4,813,384
+Internal Loss Multiplier Factor (FPKI): 0.62
+Minimum Operational Risk Capital (MMRO): 2,992,869
+RWA: 37,410,865
+
+(IDR billion)
+
+December 31, 2024
+Business Indicator Components: 4,838,206
+Internal Loss Multiplier Factor (FPKI): 0.63
+Minimum Operational Risk Capital (MMRO): 3,037,782
+RWA: 37,972,275

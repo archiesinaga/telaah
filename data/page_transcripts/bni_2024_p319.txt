@@ -1,0 +1,158 @@
+1. Judul atau keterangan:
+Tabel: Efek-efek yang Diterbitkan
+
+2. Label kolom/tabel dan satuan:
+Satuan: Rp-miliar
+Kolom:
+- Berdasarkan Hubungan
+- 2024 (Rp-miliar)
+- 2023 (Rp-miliar)
+- 2022 (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024 (Nominal (Rp-miliar))
+- Kenaikan (Penurunan) 2023-2024 (Persentase (%))
+- Kenaikan (Penurunan) 2022-2023 (Nominal (Rp-miliar))
+- Kenaikan (Penurunan) 2022-2023 (Persentase (%))
+
+3. Angka yang tertera:
+- Berdasarkan Hubungan: Pihak berelasi
+  - 2024 (Rp-miliar): 1.892
+  - 2023 (Rp-miliar): 1.764
+  - 2022 (Rp-miliar): 1.785
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 128
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 7,3
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (21)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (1,2)
+- Berdasarkan Hubungan: Pihak ketiga
+  - 2024 (Rp-miliar): 11.083
+  - 2023 (Rp-miliar): 3.129
+  - 2022 (Rp-miliar): 3.112
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 7.954
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 254,2
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 17
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 0,5
+- Berdasarkan Hubungan: Jumlah
+  - 2024 (Rp-miliar): 12.975
+  - 2023 (Rp-miliar): 4.893
+  - 2022 (Rp-miliar): 4.897
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 8.082
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 165,2
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (4)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (0,1)
+
+---
+
+1. Judul atau keterangan:
+Tabel: Pinjaman yang Diterima
+
+2. Label kolom/tabel dan satuan:
+Satuan: Rp-miliar
+Kolom:
+- Jenis Pinjaman yang Diterima
+- 2024 (Rp-miliar)
+- 2023 (Rp-miliar)
+- 2022 (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024 (Nominal (Rp-miliar))
+- Kenaikan (Penurunan) 2023-2024 (Persentase (%))
+- Kenaikan (Penurunan) 2022-2023 (Nominal (Rp-miliar))
+- Kenaikan (Penurunan) 2022-2023 (Persentase (%))
+
+3. Angka yang tertera:
+- Jenis Pinjaman yang Diterima: Pinjaman penerusan
+  - 2024 (Rp-miliar): 49
+  - 2023 (Rp-miliar): 52
+  - 2022 (Rp-miliar): 56
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (3)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (5,8)
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (4)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (7,1)
+- Jenis Pinjaman yang Diterima: Kredit likuiditas untuk kredit koperasi primer kepada anggotanya
+  - 2024 (Rp-miliar): 1
+  - 2023 (Rp-miliar): 1
+  - 2022 (Rp-miliar): 1
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): -
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 0,0
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): -
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): -
+- Jenis Pinjaman yang Diterima: Pinjaman bilateral
+  - 2024 (Rp-miliar): 35.115
+  - 2023 (Rp-miliar): 21.856
+  - 2022 (Rp-miliar): 28.916
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 13.259
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 60,7
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (7.060)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (24,4)
+- Jenis Pinjaman yang Diterima: Bankers acceptance
+  - 2024 (Rp-miliar): 4.171
+  - 2023 (Rp-miliar): 7.768
+  - 2022 (Rp-miliar): 6.066
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): (3.597)
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): (46,3)
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 1.702
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 28,1
+- Jenis Pinjaman yang Diterima: Lain-lain
+  - 2024 (Rp-miliar): 3.595
+  - 2023 (Rp-miliar): 1.273
+  - 2022 (Rp-miliar): 615
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 2.322
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 182,4
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): 658
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): 107,0
+- Jenis Pinjaman yang Diterima: Jumlah
+  - 2024 (Rp-miliar): 42.931
+  - 2023 (Rp-miliar): 30.950
+  - 2022 (Rp-miliar): 35.654
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 11.981
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 38,7
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (4.704)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (13,2)
+
+---
+
+1. Judul atau keterangan:
+Tabel: Efek-efek Subordinasi
+
+2. Label kolom/tabel dan satuan:
+Satuan: Rp-miliar
+Kolom:
+- Berdasarkan Hubungan
+- 2024 (Rp-miliar)
+- 2023 (Rp-miliar)
+- 2022 (Rp-miliar)
+- Kenaikan (Penurunan) 2023-2024 (Nominal (Rp-miliar))
+- Kenaikan (Penurunan) 2023-2024 (Persentase (%))
+- Kenaikan (Penurunan) 2022-2023 (Nominal (Rp-miliar))
+- Kenaikan (Penurunan) 2022-2023 (Persentase (%))
+
+3. Angka yang tertera:
+- Berdasarkan Hubungan: MTN Subordinasi
+  - 2024 (Rp-miliar): -
+  - 2023 (Rp-miliar): -
+  - 2022 (Rp-miliar): 100
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): -
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): -
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (100)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (100)
+- Berdasarkan Hubungan: BNI Tier 2
+  - 2024 (Rp-miliar): 8.046
+  - 2023 (Rp-miliar): 7.696
+  - 2022 (Rp-miliar): 7.780
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 350
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 4,5
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (84)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (1,1)
+- Berdasarkan Hubungan: BNI Additional Tier
+  - 2024 (Rp-miliar): 9.653
+  - 2023 (Rp-miliar): 9.233
+  - 2022 (Rp-miliar): 9.333
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 420
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 4,5
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (100)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (1,1)
+- Berdasarkan Hubungan: Jumlah
+  - 2024 (Rp-miliar): 17.699
+  - 2023 (Rp-miliar): 16.929
+  - 2022 (Rp-miliar): 17.213
+  - Kenaikan (Penurunan) 2023-2024 Nominal (Rp-miliar): 770
+  - Kenaikan (Penurunan) 2023-2024 Persentase (%): 4,5
+  - Kenaikan (Penurunan) 2022-2023 Nominal (Rp-miliar): (284)
+  - Kenaikan (Penurunan) 2022-2023 Persentase (%): (1,7)

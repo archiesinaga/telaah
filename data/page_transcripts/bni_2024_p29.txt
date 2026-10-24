@@ -1,0 +1,25 @@
+1. Pendapatan Operasional
+(Rp miliar)
+2020: 52.036
+2020*: 49.152
+2021: 55.865
+2022: 61.472
+2023: 62.747
+2024: 64.515
+
+2. Laba Bersih
+(Rp miliar)
+2020: 3.280
+2020*: 3.280
+2021: 10.898
+2022: 18.312
+2023: 20.909
+2024: 21.464
+
+3. Return on Equity (ROE) - Bank Only
+(Menggunakan rata-rata total ekuitas sebagai faktor penyebut)
+2020: 2,6
+2021: 9,4
+2022: 14,9
+2023: 15,2
+2024: 14,2

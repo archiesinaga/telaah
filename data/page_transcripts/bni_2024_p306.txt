@@ -1,0 +1,154 @@
+Efek-efek Berdasarkan Jenis
+
+Efek-efek Securities
+2024: Jumlah (Rp-miliar) 21.721, Komposisi (%) 44,8
+2023: Jumlah (Rp-miliar) 24.199, Komposisi (%) 64,7
+2022: Jumlah (Rp-miliar) 19.350, Komposisi (%) 67,2
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (2.478), Persentase (%) (10,2)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 4.849, Persentase (%) 25,1
+(Baris: Reksa dana)
+
+2024: Jumlah (Rp-miliar) 6.782, Komposisi (%) 14,0
+2023: Jumlah (Rp-miliar) 7.348, Komposisi (%) 19,6
+2022: Jumlah (Rp-miliar) 7.021, Komposisi (%) 24,4
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (566), Persentase (%) (7,7)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 327, Persentase (%) 4,7
+(Baris: Obligasi)
+
+2024: Jumlah (Rp-miliar) 352, Komposisi (%) 0,7
+2023: Jumlah (Rp-miliar) 607, Komposisi (%) 1,6
+2022: Jumlah (Rp-miliar) 604, Komposisi (%) 2,1
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (255), Persentase (%) (42,0)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 3, Persentase (%) 0,5
+(Baris: Obligasi Subordinasi)
+
+2024: Jumlah (Rp-miliar) -, Komposisi (%) -
+2023: Jumlah (Rp-miliar) -, Komposisi (%) -
+2022: Jumlah (Rp-miliar) 78, Komposisi (%) 0,3
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) -, Persentase (%) -
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (78), Persentase (%) (100,0)
+(Baris: Sertifikat Bank Indonesia)
+
+2024: Jumlah (Rp-miliar) 18.496, Komposisi (%) 38,1
+2023: Jumlah (Rp-miliar) 3.700, Komposisi (%) 9,9
+2022: Jumlah (Rp-miliar) -, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 14.796, Persentase (%) 399,9
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 3.700, Persentase (%) 100,0
+(Baris: Sekuritas Rupiah Bank Indonesia (SRBI))
+
+2024: Jumlah (Rp-miliar) -, Komposisi (%) -
+2023: Jumlah (Rp-miliar) 76, Komposisi (%) 0,2
+2022: Jumlah (Rp-miliar) -, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (76), Persentase (%) (100,0)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 76, Persentase (%) 100,0
+(Baris: Sekuritas Valas Bank Indonesia (SVBI))
+
+2024: Jumlah (Rp-miliar) 1.183, Komposisi (%) 2,4
+2023: Jumlah (Rp-miliar) 1.478, Komposisi (%) 4,0
+2022: Jumlah (Rp-miliar) 1.750, Komposisi (%) 6,1
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (295), Persentase (%) (19,9)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (272), Persentase (%) (15,5)
+(Baris: Efek Lainnya)
+
+2024: Jumlah (Rp-miliar) (0,3), Komposisi (%) (0,0)
+2023: Jumlah (Rp-miliar) (243), Komposisi (%) -
+2022: Jumlah (Rp-miliar) (247), Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 243, Persentase (%) (99,9)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 4, Persentase (%) (1,6)
+(Baris: Cadangan kerugian penurunan nilai)
+
+2024: Jumlah (Rp-miliar) 48.534, Komposisi (%) 100,0
+2023: Jumlah (Rp-miliar) 37.165, Komposisi (%) 100,0
+2022: Jumlah (Rp-miliar) 28.556, Komposisi (%) 100,0
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 11.369, Persentase (%) 30,6
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 8.609, Persentase (%) 30,1
+(Baris: Jumlah - neto)
+
+---
+
+Efek-efek Berdasarkan Jenis dan Klasifikasi Aset Keuangan
+
+Efek-efek Securities
+2024: Jumlah (Rp-miliar) -, Komposisi (%) -
+2023: Jumlah (Rp-miliar) -, Komposisi (%) -
+2022: Jumlah (Rp-miliar) -, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) -, Persentase (%) -
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) -, Persentase (%) -
+(Sub-judul: Nilai Wajar Melalui Laporan Laba Rugi)
+
+2024: Jumlah (Rp-miliar) 2.885, Komposisi (%) 5,9
+2023: Jumlah (Rp-miliar) 4.745, Komposisi (%) 12,7
+2022: Jumlah (Rp-miliar) 5.425, Komposisi (%) 18,8
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (1.860), Persentase (%) (39,2)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (680), Persentase (%) (12,5)
+(Baris: Reksa dana)
+
+2024: Jumlah (Rp-miliar) 18.496, Komposisi (%) 38,1
+2023: Jumlah (Rp-miliar) 2.549, Komposisi (%) 6,8
+2022: Jumlah (Rp-miliar) -, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 15.947, Persentase (%) 625,6
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 2.549, Persentase (%) 100,0
+(Baris: Sekuritas Rupiah Bank Indonesia (SRBI))
+
+2024: Jumlah (Rp-miliar) -, Komposisi (%) -
+2023: Jumlah (Rp-miliar) 76, Komposisi (%) 0,2
+2022: Jumlah (Rp-miliar) -, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (76), Persentase (%) (100,0)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 76, Persentase (%) 100,0
+(Baris: Sekuritas Valas Bank Indonesia (SVBI))
+
+2024: Jumlah (Rp-miliar) 1.297, Komposisi (%) 2,7
+2023: Jumlah (Rp-miliar) 642, Komposisi (%) 1,7
+2022: Jumlah (Rp-miliar) 3, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 655, Persentase (%) 102,0
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 639, Persentase (%) 21.300,0
+(Baris: Obligasi)
+
+2024: Jumlah (Rp-miliar) 122, Komposisi (%) 0,3
+2023: Jumlah (Rp-miliar) 269, Komposisi (%) 0,7
+2022: Jumlah (Rp-miliar) 6, Komposisi (%) -
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (147), Persentase (%) (54,6)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 263, Persentase (%) 4.383,0
+(Baris: Obligasi Subordinasi)
+
+2024: Jumlah (Rp-miliar) 1.160, Komposisi (%) 2,4
+2023: Jumlah (Rp-miliar) 1, Komposisi (%) 0,0
+2022: Jumlah (Rp-miliar) 1.742, Komposisi (%) 6,0
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 1.159, Persentase (%) 115.800,3
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (1.741), Persentase (%) (99,9)
+(Baris: Efek lainnya)
+
+2024: Jumlah (Rp-miliar) 23.959, Komposisi (%) 49,4
+2023: Jumlah (Rp-miliar) 8.282, Komposisi (%) 22,1
+2022: Jumlah (Rp-miliar) 7.176, Komposisi (%) 24,9
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) 15.678, Persentase (%) 189,3
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 1.106, Persentase (%) 15,4
+(Baris: Jumlah Nilai Wajar Melalui Laporan Laba Rugi)
+
+2024: Jumlah (Rp-miliar) -, Komposisi (%) -
+2023: Jumlah (Rp-miliar) -, Komposisi (%) -
+2022: Jumlah (Rp-miliar) 78, Komposisi (%) 0,3
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) -, Persentase (%) -
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (78), Persentase (%) (100,0)
+(Sub-judul: Nilai Wajar Melalui Penghasilan Komprehensif lain - SBI)
+
+2024: Jumlah (Rp-miliar) 18.836, Komposisi (%) 38,8
+2023: Jumlah (Rp-miliar) 19.454, Komposisi (%) 52,0
+2022: Jumlah (Rp-miliar) 13.926, Komposisi (%) 48,3
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (618), Persentase (%) (3,2)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) 5.528, Persentase (%) 39,7
+(Baris: Reksadana)
+
+2024: Jumlah (Rp-miliar) 5.121, Komposisi (%) 10,6
+2023: Jumlah (Rp-miliar) 6.101, Komposisi (%) 16,3
+2022: Jumlah (Rp-miliar) 6.303, Komposisi (%) 21,9
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (980), Persentase (%) (16,1)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (202), Persentase (%) (3,2)
+(Baris: Obligasi lainnya)
+
+2024: Jumlah (Rp-miliar) 231, Komposisi (%) 0,5
+2023: Jumlah (Rp-miliar) 338, Komposisi (%) 0,9
+2022: Jumlah (Rp-miliar) 597, Komposisi (%) 2,1
+Kenaikan (Penurunan) 2023-2024: Nominal (Rp-miliar) (107), Persentase (%) (31,7)
+Kenaikan (Penurunan) 2022-2023: Nominal (Rp-miliar) (259), Persentase (%) (43,4)
+(Baris: Obligasi Subordinasi)

@@ -1,0 +1,11 @@
+1. Judul:
+Perkembangan Fee Based Income
+Satuan: (Rp miliar)
+
+2. Label sumbu, legenda, satuan, dan periode:
+Periode: 2022, 2023, 2024
+
+3. Angka yang tertera:
+- 2022: 14.820
+- 2023: 14.783
+- 2024: 16.286

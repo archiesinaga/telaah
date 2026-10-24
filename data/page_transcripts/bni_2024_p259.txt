@@ -1,0 +1,31 @@
+1. Judul: Kinerja Keuangan BNI Life
+2. Kolom/Label Tabel, Satuan, dan Periode:
+- Pos Akun
+- 2024* (Rp-miliar)
+- 2023 (Rp-miliar)
+- Kenaikan (Penurunan) Nominal (Rp-miliar)
+- Kenaikan (Penurunan) Persentase (%)
+- Periode: *Unaudited PSAK 71
+
+3. Data Angka per Pos Akun:
+Posisi Keuangan:
+- Aset: 2024*: 26.656, 2023: 24.967, Nominal: 1.692, Persentase: 6,8
+- Aset Produktif/Investasi: 2024*: 25.145, 2023: 23.353, Nominal: 1.792, Persentase: 7,7
+- Kewajiban: 2024*: 20.272, 2023: 18.602, Nominal: 1.670, Persentase: 9,0
+- Ekuitas: 2024*: 6.384, 2023: 6.361, Nominal: 23, Persentase: 0,4
+
+Laba Rugi:
+- Total Pendapatan: 2024*: 6.868, 2023: 6.981, Nominal: (113), Persentase: (1,6)
+- Pendapatan Premi Bruto: 2024*: 5.583, 2023: 5.380, Nominal: 203, Persentase: 3,8
+- Pendapatan Hasil Investasi: 2024*: 1.256, 2023: 1.573, Nominal: (317), Persentase: (20,2)
+- Non LINK: 2024*: 1.038, 2023: 1.131, Nominal: (94), Persentase: (8,3)
+- LINK: 2024*: 218, 2023: 442, Nominal: (223), Persentase: (50,6)
+- Pendapatan Lain-Lain: 2024*: 128, 2023: 127, Nominal: 1, Persentase: 0,8
+- Total Biaya: 2024*: (6.478), 2023: (6.637), Nominal: 159, Persentase: (2,4)
+- Biaya Asuransi/Klaim: 2024*: (5.013), 2023: (5.194), Nominal: 181, Persentase: (3,5)
+- Biaya Akuisisi: 2024*: (607), 2023: (634), Nominal: 27, Persentase: (4,2)
+- Biaya Usaha: 2024*: (732), 2023: (690), Nominal: (42), Persentase: 6,1
+- Non Operasional Expenses (Income): 2024*: (126), 2023: (118), Nominal: (7), Persentase: 6,0
+- Laba Sebelum Pajak: 2024*: 390, 2023: 344, Nominal: 46, Persentase: 13,3
+- Pajak: 2024*: (50), 2023: (11), Nominal: (39), Persentase: 372,1
+- Laba Bersih: 2024*: 340, 2023: 334, Nominal: 6, Persentase: 1,9

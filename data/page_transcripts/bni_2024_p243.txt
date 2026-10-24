@@ -1,0 +1,74 @@
+1. Judul atau keterangan:
+Produktivitas Segmen Enterprise & Commercial Banking
+Kenaikan (Penurunan)
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: Rp-miliar dan Persentase (%)
+Periode: 2024 dan 2023
+
+3. Angka yang tertera:
+- Total Kredit, 2024 Rp-miliar: 100.117
+- Total Kredit, 2023 Rp-miliar: 105.519
+- Total Kredit, Kenaikan (Penurunan) Nominal (Rp-miliar): (5.402)
+- Total Kredit, Kenaikan (Penurunan) Persentase (%): (5,1)
+- Total Dana Pihak Ketiga, 2024 Rp-miliar: 57.400
+- Total Dana Pihak Ketiga, 2023 Rp-miliar: 54.701
+- Total Dana Pihak Ketiga, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.699
+- Total Dana Pihak Ketiga, Kenaikan (Penurunan) Persentase (%): 4,9
+- Giro, 2024 Rp-miliar: 39.448
+- Giro, 2023 Rp-miliar: 38.288
+- Giro, Kenaikan (Penurunan) Nominal (Rp-miliar): 1.160
+- Giro, Kenaikan (Penurunan) Persentase (%): 3,0
+- Tabungan, 2024 Rp-miliar: 2.343
+- Tabungan, 2023 Rp-miliar: 3.313
+- Tabungan, Kenaikan (Penurunan) Nominal (Rp-miliar): (970)
+- Tabungan, Kenaikan (Penurunan) Persentase (%): (29,3)
+- Deposito, 2024 Rp-miliar: 15.609
+- Deposito, 2023 Rp-miliar: 13.100
+- Deposito, Kenaikan (Penurunan) Nominal (Rp-miliar): 2.509
+- Deposito, Kenaikan (Penurunan) Persentase (%): 19,2
+
+1. Judul atau keterangan:
+Profitabilitas Segmen Enterprise & Commercial Banking
+Kenaikan (Penurunan)
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: Rp-miliar dan Persentase (%)
+Periode: 2024 dan 2023
+
+3. Angka yang tertera:
+- Pendapatan bunga – neto, 2024 Rp-miliar: 5.028
+- Pendapatan bunga – neto, 2023 Rp-miliar: 5.906
+- Pendapatan bunga – neto, Kenaikan (Penurunan) Nominal (Rp-miliar): (879)
+- Pendapatan bunga – neto, Kenaikan (Penurunan) Persentase (%): (14,9)
+- Pendapatan operasional lainnya, 2024 Rp-miliar: 2.783
+- Pendapatan operasional lainnya, 2023 Rp-miliar: 2.097
+- Pendapatan operasional lainnya, Kenaikan (Penurunan) Nominal (Rp-miliar): 686
+- Pendapatan operasional lainnya, Kenaikan (Penurunan) Persentase (%): 32,7
+- Beban operasional lainnya, 2024 Rp-miliar: (2.599)
+- Beban operasional lainnya, 2023 Rp-miliar: (3.050)
+- Beban operasional lainnya, Kenaikan (Penurunan) Nominal (Rp-miliar): 451
+- Beban operasional lainnya, Kenaikan (Penurunan) Persentase (%): (14,8)
+- Pembentukan cadangan kerugian penurunan nilai, 2024 Rp-miliar: (2.545)
+- Pembentukan cadangan kerugian penurunan nilai, 2023 Rp-miliar: (2.555)
+- Pembentukan cadangan kerugian penurunan nilai, Kenaikan (Penurunan) Nominal (Rp-miliar): 10
+- Pembentukan cadangan kerugian penurunan nilai, Kenaikan (Penurunan) Persentase (%): (0,4)
+- Laba operasional, 2024 Rp-miliar: 2.668
+- Laba operasional, 2023 Rp-miliar: 2.399
+- Laba operasional, Kenaikan (Penurunan) Nominal (Rp-miliar): 269
+- Laba operasional, Kenaikan (Penurunan) Persentase (%): 11,2
+- Pendapatan (beban) bukan operasional neto, 2024 Rp-miliar: -
+- Pendapatan (beban) bukan operasional neto, 2023 Rp-miliar: -
+- Pendapatan (beban) bukan operasional neto, Kenaikan (Penurunan) Nominal (Rp-miliar): -
+- Pendapatan (beban) bukan operasional neto, Kenaikan (Penurunan) Persentase (%): -
+- Laba sebelum beban pajak, 2024 Rp-miliar: 2.668
+- Laba sebelum beban pajak, 2023 Rp-miliar: 2.399
+- Laba sebelum beban pajak, Kenaikan (Penurunan) Nominal (Rp-miliar): 269
+- Laba sebelum beban pajak, Kenaikan (Penurunan) Persentase (%): 11,2
+
+1. Judul atau keterangan:
+Nomor halaman
+2. Label sumbu, legenda, satuan, dan periode:
+Tidak ada
+3. Angka yang tertera:
+- Nomor halaman: 241

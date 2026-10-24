@@ -1,0 +1,68 @@
+Simpanan dari Bank Lain
+
+2024:
+- Giro: Jumlah (Rp-miliar) 3.725, Komposisi (%) 20,1
+- Deposito berjangka: Jumlah (Rp-miliar) 832, Komposisi (%) 4,5
+- Simpanan lainnya: Jumlah (Rp-miliar) 926, Komposisi (%) 5,0
+- Pinjaman pasar uang antar bank: Jumlah (Rp-miliar) 12.294, Komposisi (%) 66,3
+- Negotiable Certificate of Deposit (NCD): Jumlah (Rp-miliar) 771, Komposisi (%) 4,2
+- Jumlah: Jumlah (Rp-miliar) 18.548, Komposisi (%) 100,0
+
+2023:
+- Giro: Jumlah (Rp-miliar) 4.376, Komposisi (%) 36,8
+- Deposito berjangka: Jumlah (Rp-miliar) 804, Komposisi (%) 6,8
+- Simpanan lainnya: Jumlah (Rp-miliar) 1.080, Komposisi (%) 9,1
+- Pinjaman pasar uang antar bank: Jumlah (Rp-miliar) 5.118, Komposisi (%) 43,0
+- Negotiable Certificate of Deposit (NCD): Jumlah (Rp-miliar) 516, Komposisi (%) 4,3
+- Jumlah: Jumlah (Rp-miliar) 11.894, Komposisi (%) 100,0
+
+2022:
+- Giro: Jumlah (Rp-miliar) 4.206, Komposisi (%) 27,6
+- Deposito berjangka: Jumlah (Rp-miliar) 903, Komposisi (%) 5,9
+- Simpanan lainnya: Jumlah (Rp-miliar) 1.173, Komposisi (%) 7,7
+- Pinjaman pasar uang antar bank: Jumlah (Rp-miliar) 8.175, Komposisi (%) 53,6
+- Negotiable Certificate of Deposit (NCD): Jumlah (Rp-miliar) 788, Komposisi (%) 5,2
+- Jumlah: Jumlah (Rp-miliar) 15.245, Komposisi (%) 100,0
+
+Kenaikan (Penurunan) 2023-2024:
+- Giro: Nominal (Rp-miliar) (651), Persentase (%) (14,9)
+- Deposito berjangka: Nominal (Rp-miliar) 28, Persentase (%) 3,5
+- Simpanan lainnya: Nominal (Rp-miliar) (154), Persentase (%) (14,3)
+- Pinjaman pasar uang antar bank: Nominal (Rp-miliar) 7.176, Persentase (%) 140,2
+- Negotiable Certificate of Deposit (NCD): Nominal (Rp-miliar) 255, Persentase (%) 49,4
+- Jumlah: Nominal (Rp-miliar) 6.654, Persentase (%) 55,9
+
+Kenaikan (Penurunan) 2022-2023:
+- Giro: Nominal (Rp-miliar) 170, Persentase (%) 4,0
+- Deposito berjangka: Nominal (Rp-miliar) (99), Persentase (%) (11,0)
+- Simpanan lainnya: Nominal (Rp-miliar) (93), Persentase (%) (7,9)
+- Pinjaman pasar uang antar bank: Nominal (Rp-miliar) (3.057), Persentase (%) (37,4)
+- Negotiable Certificate of Deposit (NCD): Nominal (Rp-miliar) (272), Persentase (%) (34,5)
+- Jumlah: Nominal (Rp-miliar) (3.351), Persentase (%) (22,0)
+
+Liabilitas Derivatif
+
+2024:
+- Pihak berelasi: Rp-miliar 155
+- Pihak ketiga: Rp-miliar 1.324
+- Jumlah: Rp-miliar 1.479
+
+2023:
+- Pihak berelasi: Rp-miliar 136
+- Pihak ketiga: Rp-miliar 674
+- Jumlah: Rp-miliar 810
+
+2022:
+- Pihak berelasi: Rp-miliar 118
+- Pihak ketiga: Rp-miliar 657
+- Jumlah: Rp-miliar 775
+
+Kenaikan (Penurunan) 2023-2024:
+- Pihak berelasi: Nominal (Rp-miliar) 19, Persentase (%) 14,0
+- Pihak ketiga: Nominal (Rp-miliar) 650, Persentase (%) 96,4
+- Jumlah: Nominal (Rp-miliar) 669, Persentase (%) 82,6
+
+Kenaikan (Penurunan) 2022-2023:
+- Pihak berelasi: Nominal (Rp-miliar) 18, Persentase (%) 15,3
+- Pihak ketiga: Nominal (Rp-miliar) 17, Persentase (%) 2,6
+- Jumlah: Nominal (Rp-miliar) 35, Persentase (%) 4,5
