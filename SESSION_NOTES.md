@@ -887,3 +887,14 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 ## Next
 1. After 14:00 local on 10-26: ask OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 btn_2025 mandiri_2024 btn_2024`; commit `data/page_transcripts/`. Model: Sonnet 5.5.
 2. Rest unchanged (see 10-24 16:10 Next 2-3).
+
+# Update — 2026-10-25 (evening): the 18 chart questions without a chart word
+## Findings
+- Their wording is plain factoid ("Berapakah total pekerja BCA ...?"): no wording rule can tell them apart, so widening `wants_image` is dropped.
+- With the (pilot) transcripts: 6/18 gold in top 5, 7 at rank 11-20, 5 not in top 50. Of those 5: bd0159 is a real image-only value (btn_2025 p.246, pending transcription); bd0183/0199/0202 have the value in text on other pages; bd0203 was answered right but scored wrong.
+## Done
+- `extra_gold.py` now includes `chart` (it skipped them): +12 chart entries, bd0193 removed by hand (coincidental "40"). Commit 579d8a0. Chart recall@5 (switch OFF) 0.596 -> 0.614.
+- `numeric_match` accepts a figure written in another unit word (juta vs triliun), rounded or truncated to gold's last digit; exact path unchanged. Commit fcce0e1, pytest 83. Re-score of the 10-23 runs: 0 right->wrong; chart 155954 0.316 -> 0.351, 215353 0.500 -> 0.591 (bd0171, bd0203). Runs before 10-23 cannot be re-scored against the current dev.jsonl (ids renumbered).
+## Next
+1. Count dev questions with gold at rank 6-15 (retrieval only) to decide on a "second look on refusal" (answer again with ranks 6-15; default OFF; must keep unanswerable refusals). Model: Sonnet 5.5, Opus 5.5 to decide.
+2. Transcription day 3 after 14:00 on 10-26 (see day-2 Next).
