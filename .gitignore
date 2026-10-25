@@ -15,3 +15,4 @@ data/agent_traces/
 .pytest_cache/
 data/facts.sqlite
 data/bm25_tx.pkl
+space_build/
