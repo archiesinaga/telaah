@@ -898,3 +898,21 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 ## Next
 1. Count dev questions with gold at rank 6-15 (retrieval only) to decide on a "second look on refusal" (answer again with ranks 6-15; default OFF; must keep unanswerable refusals). Model: Sonnet 5.5, Opus 5.5 to decide.
 2. Transcription day 3 after 14:00 on 10-26 (see day-2 Next).
+
+# Update — 2026-10-25 (20:15): chart-question follow-ups, scorer fixes, second-look experiment (RUNNING)
+## Done (commits 579d8a0, fcce0e1, 0ec3629, 92b3bc5, 1d3263a)
+- 18 chart questions without a chart word: wording cannot separate them from plain factoids, `wants_image` NOT widened. Real causes: retrieval rank (7 at rank 11-20), image-only values (btn_2025 p.246 pending transcription), scoring errors.
+- `eval/bench/extra_gold.py` now includes `chart` (+12 entries, bd0193 pruned by hand); chart recall@5 0.596 -> 0.614.
+- `src/telaah/metrics.py` `numeric_match`: same figure in another unit word (juta vs triliun) passes, rounded or truncated to gold's last digit; same-unit/unitless stay exact. Re-score of 10-23 runs: 0 right->wrong, chart 155954 0.316->0.351, 215353 0.500->0.591. Runs before 10-23 cannot be re-scored (ids renumbered).
+- Agent/multi-entity recall: `recall_at_k_groups` scores each step's/entity's own top 5 (`agent.py`, `answer.py` return `retrieved_groups`; `eval/run_eval.py` stores `retrieved_top`). Old runs have no per-step pages, so no offline re-score; takes effect in the next eval. pytest 84.
+- Scratch cleanup: deleted `_boost/_rerank/_rerank_variants/_twoyear_check.py`; committed `_retr_dev/_miss/_calc_diag.py` + `_new_ids*.txt`. `test.jsonl` and `candidates_test.jsonl` still untracked, user has not decided commit vs .gitignore (do not read them).
+- Rank count (retrieval only, 317 answerable dev, 10-23 gold): 221 at rank 1-5, 60 at rank 6-15, 36 beyond 15. Of the 60: 27 were wrongly refused, 18 wrong, 14 right.
+## Running / pending
+- "Second look" experiment (no pipeline change): answer from ranks 1-5; if refused, again from 6-10, then 11-15. RAG path, vision off, transcripts off, 27 refusal candidates + 22 dev unanswerables, local `qwen2.5:7b-gpu`. Script `C:/Users/User/AppData/Local/Temp/claude/C--Users-User-genai-project/b9271d08-07fb-422f-9e48-84ec859479c4/scratchpad/second_look.py` (copy in `eval/bench/_second_look.py`, untracked, writes next to itself), results `.../scratchpad/second_look.jsonl` (same folder; 44/49 lines at 20:10), log `second_look.log`. Resumable: rerun the script. Finishes within minutes. Do not start other GPU jobs.
+- Partial result (38/49): rescue candidates: 19 of 24 answered (15 at look 2, 4 at look 3); 12 numeric-correct (bar was 5), 2 answered with a wrong number, 5 text answers to check by hand (bd0028, 0047, 0053, 0056, 0359); 3 multi-entity skipped (bd0220/0225/0226); 5 still refused (bd0041, 0148, 0169, 0180, 0195). Unanswerables: q050 LEAKED (refused at look 1, answered at look 2 with an invented POJK 12/2024 fine); 10 of 11 so far stay refused; 11 left to count.
+## Decisions
+- Do not widen `wants_image`. Build the second look only if the leak rate on unanswerables stays low, and then with a safeguard: accept a look 2/3 answer only if a cited page contains the figure (reuse the agent's `unsupported` check), default OFF, evaluated after the transcript index is rebuilt.
+## Next
+1. Read `second_look.jsonl` when done (Opus 5.5): final leak count over all 22 unanswerables, hand-check the 5 text answers, then decide on the second look + safeguard.
+2. Transcription day 3 after 14:00 local on 10-26: ask the user OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 btn_2025 mandiri_2024 btn_2024` (918 pages left, ~2 days), commit `data/page_transcripts/`. No evals/drafting on the same Gemini key meanwhile. Then `telaah transcripts-index` and full dev re-eval (new recall and numeric_match change the baseline).
+3. User: decide test.jsonl handling, review test candidates (review_app.py), write 8 test unanswerables. Gradio demo step 1 (separate Gemini key). Commit `_second_look.py`/`_rank615.py` if wanted.
