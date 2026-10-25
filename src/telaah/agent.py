@@ -118,6 +118,29 @@ def repair_text(text: str, candidates: list[tuple[str, int]], allowed: set[str] 
     return " ".join(out)
 
 
+def repair_split(text: str, candidates: list[tuple[str, int]]) -> str:
+    """Sentences citing several pages (a bank figure vs a regulation threshold): a cited page that holds none of
+    the sentence's figures is swapped for a candidate page of the same document that holds the figures no cited
+    page covers. `repair_text` cannot do this: it wants ONE page with every figure."""
+    out = []
+    for sent in SENT_RE.split(text):
+        cites = list(dict.fromkeys(parse_citations(sent)))
+        nums = NUM_RE.findall(_claim(sent, frozenset()))
+        if len(cites) >= 2 and nums:
+            res = {c: tools.check_citation(c[0], c[1], " ".join(nums)) for c in cites}
+            covered = {n for r in res.values() for n in nums if n not in r["missing_numbers"]}
+            uncovered = [n for n in nums if n not in covered]
+            for (d, p), r in res.items():
+                if not uncovered or not r["page_found"] or len(r["missing_numbers"]) < len(nums):
+                    continue  # nothing left to fix, or this page does hold some figure
+                for d2, p2 in dict.fromkeys(candidates):
+                    if d2 == d and p2 != p and tools.check_citation(d2, p2, " ".join(uncovered))["supported"]:
+                        sent = sent.replace(f"[{d} p.{p}]", f"[{d} p.{p2}]")
+                        break
+        out.append(sent)
+    return " ".join(out)
+
+
 def check_text(text: str, allowed: set[str] = frozenset()) -> list[dict]:
     """Sentences with a citation whose numbers are not on any cited page. Years and numbers in `allowed`
     (e.g. calculator results) are ignored."""

@@ -64,3 +64,38 @@ def test_third_look_after_two_refusals(monkeypatch):
     _, calls = _setup(monkeypatch, [answer.REFUSAL, answer.REFUSAL, answer.REFUSAL])
     r = answer.ask("Berapa total aset BRI 2025?")
     assert len(calls) == 3 and r["refused"] and len(r["retrieved"]) == 15
+
+
+def _cite_case(monkeypatch, flag, reply):
+    monkeypatch.setitem(PAGES, ("bri_2025", 4), "Total aset Rp1.965.007 juta")  # inside the top 5
+    _setup(monkeypatch, [reply], on=False)
+    monkeypatch.setattr(answer, "CITE_REPAIR", flag)
+    return answer.ask("Berapa total aset BRI 2025?")
+
+
+def test_cite_repair_points_to_page_with_the_figure(monkeypatch):
+    r = _cite_case(monkeypatch, True, "Total aset Rp1.965.007 juta [bri_2025 p.3].")  # p.3 lacks the figure
+    assert r["citations"] == [("bri_2025", 4)] and r["answer"].endswith("[bri_2025 p.4]")
+    assert r["retrieved"] == [("bri_2025", p) for p in range(1, 6)]  # retrieval untouched
+
+
+def test_cite_repair_off_and_refusal_unchanged(monkeypatch):
+    r = _cite_case(monkeypatch, False, "Total aset Rp1.965.007 juta [bri_2025 p.3].")
+    assert r["citations"] == [("bri_2025", 3)]
+    r = _cite_case(monkeypatch, True, answer.REFUSAL)
+    assert r["refused"] and r["answer"] == answer.REFUSAL
+    r = _cite_case(monkeypatch, True, "Total aset Rp9.999 juta [bri_2025 p.3].")  # figure on no page: left for the verifier
+    assert r["citations"] == [("bri_2025", 3)]
+
+
+def test_cite_repair_in_entity_answers(monkeypatch):
+    monkeypatch.setitem(PAGES, ("bri_2025", 4), "Total aset Rp1.965.007 juta")
+    _setup(monkeypatch, [], on=False)
+    chunks = [{"doc_id": "bri_2025", "page": p, "text": PAGES[("bri_2025", p)]} for p in range(1, 6)]
+    monkeypatch.setattr(answer, "split_question", lambda llm, q, g: ["a?", "b?"])
+    monkeypatch.setattr(answer, "answer_entity", lambda llm, sub, g: ("jawaban", chunks, [], "ctx"))
+    monkeypatch.setattr(answer, "_chat", lambda *a, **k: "Total aset Rp1.965.007 juta [bri_2025 p.3].")
+    monkeypatch.setattr(answer, "CITE_REPAIR", True)
+    assert answer.ask_entities("q", [["bri_2025"], ["bri_2025"]])["citations"] == [("bri_2025", 4)]
+    monkeypatch.setattr(answer, "CITE_REPAIR", False)
+    assert answer.ask_entities("q", [["bri_2025"], ["bri_2025"]])["citations"] == [("bri_2025", 3)]

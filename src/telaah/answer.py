@@ -286,6 +286,8 @@ def ask_entities(question: str, groups: list[list[str]]) -> dict:
         )
     else:
         text = REFUSAL
+    if CITE_REPAIR and any_answer:  # the compose call may cite a neighbouring page of an entity's own page
+        text = repair_cites(text, [(c["doc_id"], c["page"]) for c in all_chunks])
     return {
         "answer": text,
         "citations": parse_citations(text),
@@ -302,6 +304,9 @@ def ask_entities(question: str, groups: list[list[str]]) -> dict:
 # no vision). Dev experiment, 10-25 (27 wrongly refused, 22 unanswerable): 17 rescued, 1 unanswerable answered
 # with a figure from another regulation. A later answer is kept only if `later_look_ok` accepts it.
 SECOND_LOOK = os.getenv("TELAAH_SECOND_LOOK", "0") == "1"
+# Opt-in: a cited page that lacks the answer's figures is replaced by the retrieved page that holds them (the agent
+# already does this per step). Seen in the demo: RIM thresholds cited PADG p.4, the figures are on p.7.
+CITE_REPAIR = os.getenv("TELAAH_CITE_REPAIR", "0") == "1"
 LOOKS = 3
 
 
@@ -319,6 +324,12 @@ def later_look_ok(question: str, text: str, pages: list[tuple[str, int]]) -> tup
     return text, bool(cites) and on_topic and not check_text(text)
 
 
+def repair_cites(text: str, pages: list[tuple[str, int]]) -> str:
+    from telaah.agent import repair_split, repair_text
+
+    return repair_split(repair_text(text, pages), pages)
+
+
 def ask(question: str, k: int | None = None) -> dict:
     groups = entity_groups(question)
     if groups:  # no second look here: each entity's own top k only
@@ -331,6 +342,8 @@ def ask(question: str, k: int | None = None) -> dict:
     context = build_context(chunks, question)
     text = _chat(llm, SYSTEM, f"{hint}Konteks:\n{context}\n\nPertanyaan: {question}")
     retrieved, look = [(c["doc_id"], c["page"]) for c in chunks], 1
+    if CITE_REPAIR and REFUSAL not in text:
+        text = repair_cites(text, retrieved)
     for i in range(1, LOOKS if SECOND_LOOK else 1):
         part = pool[i * n:(i + 1) * n]
         if REFUSAL not in text or not part:

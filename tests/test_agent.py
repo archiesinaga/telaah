@@ -93,3 +93,15 @@ def test_fmt_id():
     assert agent.fmt_id(1849958023.5) == "1.849.958.023,5"
     assert agent.fmt_id(10.44) == "10,44"
     assert agent.fmt_id(406151) == "406.151"
+
+
+def test_repair_split_swaps_the_dead_citation(monkeypatch):
+    pages = {("bank_2025", 9): "RIM 84,52%", ("reg_2025", 4): "ketentuan umum", ("reg_2025", 7): "batas bawah 84% dan batas atas 94%"}
+    _fake_page(monkeypatch, pages)
+    cand = [("bank_2025", 9), ("reg_2025", 4), ("reg_2025", 7)]
+    text = "RIM 84,52%, di atas batas bawah 84% dan di bawah batas atas 94% [bank_2025 p.9] [reg_2025 p.4]."
+    assert agent.repair_split(text, cand).endswith("[bank_2025 p.9] [reg_2025 p.7].")
+    # every figure already covered, or no candidate page of that document holds the figures: unchanged
+    assert agent.repair_split("RIM 84,52% [bank_2025 p.9] [reg_2025 p.4].", cand) == "RIM 84,52% [bank_2025 p.9] [reg_2025 p.4]."
+    assert agent.repair_split(text, cand[:2]) == text
+    assert agent.repair_split("RIM 84,52% [bank_2025 p.9].", cand) == "RIM 84,52% [bank_2025 p.9]."
