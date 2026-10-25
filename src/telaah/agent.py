@@ -352,6 +352,7 @@ def run_agent(question: str) -> dict:
         "answer": s["answer"],
         "citations": parse_citations(s["answer"]),
         "retrieved": [r for st in steps for r in st.get("retrieved", [])],
+        "retrieved_groups": [st.get("retrieved", []) for st in steps],  # per step, for recall@k
         # figures computed in Python from a facts sheet are tool output: the faithfulness judge must see them
         "context": "\n\n".join([st.get("context", "") for st in steps if st["status"] == "ok"]
                                + (["Hasil hitung (kalkulator):\n" + "\n".join(s["derived"])] if s.get("derived") else [])),

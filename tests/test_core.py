@@ -21,6 +21,18 @@ def test_recall_and_citation():
     assert citation_accuracy([], []) == 1.0
 
 
+def test_recall_at_k_groups_scores_each_step():
+    from telaah.metrics import recall_at_k_groups
+
+    step1 = [("a", p) for p in range(1, 6)]
+    step2 = [("b", 1), ("b", 9)]
+    assert recall_at_k_groups([step1, step2], [("b", 9)]) == 1.0  # gold in step 2's top 5
+    assert recall_at_k([*step1, *step2], [("b", 9)]) == 0.0  # combined list: only step 1 was seen
+    assert recall_at_k_groups([step1], [("a", 6)]) == 0.0
+    assert recall_at_k_groups([], [("a", 1)]) == 0.0
+    assert recall_at_k_groups([], []) == 1.0
+
+
 def test_numeric_match_id_format():
     assert numeric_match("Totalnya Rp 123.456 miliar", "123.456")
     assert not numeric_match("Totalnya 999", "123.456")

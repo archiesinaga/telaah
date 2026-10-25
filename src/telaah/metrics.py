@@ -6,6 +6,12 @@ def recall_at_k(retrieved: list[tuple[str, int]], gold: list[tuple[str, int]], k
     return float(any(g in retrieved[:k] for g in gold)) if gold else 1.0
 
 
+def recall_at_k_groups(groups: list[list[tuple[str, int]]], gold: list[tuple[str, int]], k: int = 5) -> float:
+    """Recall when the answer read several retrievals (agent steps, entities): each one's own top k counts.
+    Scoring the first k of all of them combined only ever looked at step 1."""
+    return max((recall_at_k(g, gold, k) for g in groups), default=recall_at_k([], gold, k))
+
+
 def citation_accuracy(cited: list[tuple[str, int]], gold: list[tuple[str, int]]) -> float:
     if not gold:
         return 1.0 if not cited else 0.0

@@ -267,10 +267,11 @@ def ask_entities(question: str, groups: list[list[str]]) -> dict:
     own pages with the normal pipeline, then compose. Keeps the 7B from mixing figures of banks/documents."""
     llm = OpenAI(base_url=LLM_BASE_URL, api_key=LLM_API_KEY, max_retries=LLM_MAX_RETRIES)
     subs = split_question(llm, question, groups)
-    all_chunks, vision_pages, raw, parts, any_answer = [], [], [], [], False
+    all_chunks, vision_pages, raw, parts, any_answer, per_entity = [], [], [], [], False, []
     for sub, g in zip(subs, groups):
         got, chunks, vp, ctx = answer_entity(llm, sub, g)
         all_chunks += chunks
+        per_entity.append([(c["doc_id"], c["page"]) for c in chunks])
         vision_pages += vp
         raw.append(ctx)
         any_answer = any_answer or REFUSAL not in got
@@ -288,6 +289,7 @@ def ask_entities(question: str, groups: list[list[str]]) -> dict:
         "answer": text,
         "citations": parse_citations(text),
         "retrieved": [(c["doc_id"], c["page"]) for c in all_chunks],
+        "retrieved_groups": per_entity,  # per entity, for recall@k
         "context": "\n\n".join(raw),
         "refused": REFUSAL in text,
         "vision": vision_pages,

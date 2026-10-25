@@ -6,7 +6,7 @@ from pathlib import Path
 from telaah import config
 from telaah.answer import ask
 from telaah.judge import judge_correctness, judge_faithfulness
-from telaah.metrics import citation_accuracy, numeric_match, recall_at_k, refusal_correct
+from telaah.metrics import citation_accuracy, numeric_match, recall_at_k_groups, refusal_correct
 
 HERE = Path(__file__).parent
 KEYS = ["recall@5", "citation_acc", "refusal_acc", "correct_numeric", "correct_judge", "faithful", "latency_s"]
@@ -49,7 +49,8 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         correct = None
         if q["answerable"] and q.get("numeric"):
             correct = float(numeric_match(out["answer"], q["gold_answer"]))
-        recall, cite = recall_at_k(out["retrieved"], gold), citation_accuracy(out["citations"], gold)
+        groups = out.get("retrieved_groups") or [out["retrieved"]]
+        recall, cite = recall_at_k_groups(groups, gold), citation_accuracy(out["citations"], gold)
         passed = correct == 1.0 and recall == 1 and cite == 1
         judged = q["answerable"] and not out["refused"] and not (judge_on_fail and passed)
         correct_judge = (
@@ -67,6 +68,7 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
             "correct_judge": correct_judge,
             "faithful": faithful,
             "answer": out["answer"],
+            "retrieved_top": [[list(p) for p in g[:5]] for g in groups],  # lets a later run be re-scored offline
             **({"verified": out["verified"], "steps": len(out["steps"])} if agent else {}),
             **({"route": out["route"]} if router else {}),
         })
