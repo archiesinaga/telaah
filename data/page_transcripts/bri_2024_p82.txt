@@ -1,0 +1,17 @@
+1. Judul atau keterangan: Keterangan Perubahan Nama (Timeline dan Tabel Perubahan Nama)
+2. Label sumbu, legenda, satuan, dan periode: Tahun pada garis waktu (1895, 1897, 1912, 1934, 1942), serta kolom tabel (No., Perihal, Akta/Peraturan Terkait, Tanggal, Notaris).
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 16 Desember 1895
+- 1895
+- 11 Agustus 1897
+- 1897
+- 10 Juli 1912
+- 1912
+- 19 Februari 1934
+- 1934
+- 3 Oktober 1942
+- 1942
+- 1. Pendirian BRI, PP Nomor 1 Tahun 1946 tentang Bank Rakyat Indonesia, 22 Februari 1946
+- 2. Pendirian BRI, UU Nomor 21 Tahun 1968 tentang Bank Rakyat Indonesia, 18 Desember 1968
+- 3. Penyesuaian bentuk hukum Persero, PP Nomor 21 Tahun 1992 tentang Penyesuaian Bentuk Hukum Bank Rakyat Indonesia menjadi Perusahaan Perseroan, 29 April 1992
+- 80

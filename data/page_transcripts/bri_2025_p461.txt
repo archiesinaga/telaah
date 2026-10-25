@@ -1,0 +1,76 @@
+Judul: Nilai Tercatat Berdasarkan Sisa jangka Waktu
+Sub-judul:
+- 6 bulan - < 1 tahun
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: 131.101.450 ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 50%
+  - Nilai Tercatat: - ; Faktor ASF: -
+
+- >= 1 tahun
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 65%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 65%
+  - Nilai Tercatat: - ; Faktor ASF: 65%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: 897.153.338 ; Faktor ASF: 85%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: - ; Faktor ASF: 85%
+  - Nilai Tercatat: - ; Faktor ASF: 85%
+  - Nilai Tercatat: - ; Faktor ASF: 100%
+  - Nilai Tercatat: - ; Faktor ASF: -
+  - Nilai Tercatat: tidak terbaca ; Faktor ASF: tidak terbaca
+  - Nilai Tercatat: - ; Faktor ASF: -
+
+Total Nilai Tertimbang:
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: 871.900.682
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: 871.900.682
+- Total Nilai Tertimbang: 871.900.682
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -
+- Total Nilai Tertimbang: -

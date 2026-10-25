@@ -1,0 +1,26 @@
+(dalam jutaan Rupiah)
+
+31 Desember 2024
+Tagihan Bersih Setelah Memperhitungkan Dampak Mitigasi Risiko Kredit
+75%, 80%, 85%, 90%, 100%, 105%, 110%, 112,5%, 130%, 150%, 250%, 400%, 1250%, Lainnya
+Tagihan Bersih Setelah FKK dan Teknik MRK
+
+Baris 1:
+- Lainnya (100%): 23.539
+- Lainnya (150%): -
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 217.063.168
+
+Baris 2:
+- Lainnya (100%): 376.219
+- Lainnya (150%): 2.656.863
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 108.494.697
+
+Baris 3:
+- Lainnya (100%): -
+- Lainnya (150%): -
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: -
+
+Laporan Tahunan 2024 PT Bank Negara Indonesia (Persero) Tbk: 559

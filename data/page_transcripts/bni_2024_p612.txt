@@ -1,0 +1,31 @@
+1. Judul atau keterangan:
+- Penghargaan Bidang Tata Kelola Tahun 2024
+- PENGHARGAAN BIDANG TATA KELOLA TAHUN 2024
+- "The Best Overall - Big Caps" The 15th IICD Corporate Governance Conference & Award 2024
+- "The Most Trusted Company" Corporate Governance Perception Index 2023
+- Pencapaian Kinerja Bisnis Tahun 2024
+- PENCAPAIAN KINERJA BISNIS TAHUN 2024
+- Pertumbuhan Kredit
+- Pertumbuhan Tabungan
+- Rasio CASA
+- Rasio Kecukupan Modal (CAR) secara Bank Only
+- Loan To Deposit Ratio (LDR)
+- Pertumbuhan Laba Bersih
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Periode: Tahun 2024, 2023
+
+3. Angka yang tertera:
+- 115,56
+- 92,45
+- Rp775,9 triliun
+- naik 11,6%
+- Rp257,5 triliun
+- naik 11,0%
+- 69,9%
+- 21,4%
+- 96,1%
+- Rp21,5 triliun
+- naik 2,7%
+- 610

@@ -1,0 +1,23 @@
+1. Judul atau keterangan:
+- Tata Kelola Perusahaan
+- Prosedur Penetapan Remunerasi
+- Tabel "Tahapan" dan "Aktivitas" (dengan baris Penyusunan, Pengusulan, Penetapan)
+- Diagram alur "Tahapan Penetapan Remunerasi" yang terdiri dari kotak-kotak:
+  - Komite Nominasi dan Remunerasi (Menyusun struktur dan besaran Remunerasi anggota Dewan Komisaris dan Direksi)
+  - Tahap Penyusunan
+  - Dewan Komisaris (Menyusun struktur dan besaran Remunerasi anggota Dewan Komisaris dan Direksi)
+  - Tahap Pengusulan
+  - Persetujuan
+  - Setuju
+  - Tidak Setuju
+  - Tahap Persetujuan
+  - RUPS (Menetapkan struktur dan besaran remunerasi tersebut dengan persyaratan kuorum kehadiran pemegang saham lebih dari 50% dan persetujuan oleh lebih dari 50% pemegang saham yang hadir)
+  - Tahap Penetapan
+  - Dewan Komisaris dan Direksi akan menggunakan remunerasi yang sama seperti tahun buku sebelumnya
+- Indikator Penetapan Remunerasi Dewan Komisaris dan Direksi
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada
+
+3. Semua angka yang tertera, apa adanya:
+- 566

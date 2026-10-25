@@ -1,0 +1,23 @@
+65%5): 34.044.099
+70%: 6.079.636
+75%: 364.515
+100%: 4.156.382
+Tagihan Bersih Setelah FKK dan Teknik MRK: 119.928.221
+
+70%: 19.668.435
+75%: 13.855.990
+100%: 390.511
+Tagihan Bersih Setelah FKK dan Teknik MRK: 36.905.366
+
+100%: 1.033.302
+150%: 6.573.344
+Tagihan Bersih Setelah FKK dan Teknik MRK: 6.977.888
+
+No 4, Bobot Risiko: 85%, Tagihan Bersih Laporan Posisi Keuangan: 110.059.874, Tagihan Bersih TRA (sebelum pengenaan FKK): 26.189.316, Rata-Rata FKK: 10.475.726, Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 117.939.349
+No 5, Bobot Risiko: 90%-100%, Tagihan Bersih Laporan Posisi Keuangan: 283.345.250, Tagihan Bersih TRA (sebelum pengenaan FKK): 90.763.657, Rata-Rata FKK: 65.619.382, Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 338.796.246
+No 6, Bobot Risiko: 105%-130%, Tagihan Bersih Laporan Posisi Keuangan: 4.945.282, Tagihan Bersih TRA (sebelum pengenaan FKK): 1.244.103, Rata-Rata FKK: 497.641, Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 5.111.047
+No 7, Bobot Risiko: 150%, Tagihan Bersih Laporan Posisi Keuangan: 31.762.845, Tagihan Bersih TRA (sebelum pengenaan FKK): 2.353.278, Rata-Rata FKK: 1.213.211, Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 29.559.587
+No 8, Bobot Risiko: 250%, Tagihan Bersih Laporan Posisi Keuangan: 8.214.670, Tagihan Bersih TRA (sebelum pengenaan FKK): 0, Rata-Rata FKK: 0, Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 8.214.670
+No 9, Bobot Risiko: 400%
+No 10, Bobot Risiko: 1250%
+No 11, Total Tagihan Bersih, Tagihan Bersih Laporan Posisi Keuangan: 1.918.913.756, Tagihan Bersih TRA (sebelum pengenaan FKK): 200.778.925, Rata-Rata FKK: 200.778.925, Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 200.778.925

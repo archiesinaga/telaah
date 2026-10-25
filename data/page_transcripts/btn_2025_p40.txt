@@ -1,0 +1,105 @@
+1. Judul atau keterangan: Tidak ada judul grafik, diagram, atau infografik khusus; halaman ini menampilkan tabel data.
+2. Label sumbu, legenda, satuan, dan periode:
+- Header kolom: No, Perusahaan, Kode Broker, Analis, Rekomendasi, Target Price
+- Satuan Target Price tidak disebutkan secara eksplisit di tabel.
+- Periode: Laporan Tahunan 2025 (tercantum di footer).
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Baris 13:
+  - No: 13
+  - Perusahaan: Panin Sekuritas
+  - Kode Broker: GR
+  - Analis: Nico Laurens
+  - Rekomendasi: Buy
+  - Target Price: 1.500
+- Baris 14:
+  - No: 14
+  - Perusahaan: PT Verdhana Sekuritas Indonesia
+  - Kode Broker: BB
+  - Analis: Erwin Wijaya
+  - Rekomendasi: Neutral
+  - Target Price: 980
+- Baris 15:
+  - No: 15
+  - Perusahaan: Trimegah Securities
+  - Kode Broker: LG
+  - Analis: Jonathan Gunawan
+  - Rekomendasi: Buy
+  - Target Price: 1.540
+- Baris 16:
+  - No: 16
+  - Perusahaan: OCBC Sekuritas
+  - Kode Broker: TP
+  - Analis: Budi Rustanto
+  - Rekomendasi: Buy
+  - Target Price: 1.500
+- Baris 17:
+  - No: 17
+  - Perusahaan: CGS International
+  - Kode Broker: YU
+  - Analis: Handy Noverdanius
+  - Rekomendasi: Add
+  - Target Price: 1.400
+- Baris 18:
+  - No: 18
+  - Perusahaan: PT BRI Danareksa Sekuritas
+  - Kode Broker: OD
+  - Analis: Victor Stefano
+  - Rekomendasi: Buy
+  - Target Price: 1.300
+- Baris 19:
+  - No: 19
+  - Perusahaan: DBS Bank
+  - Kode Broker: DP
+  - Analis: Muhammad Nurkholis Syafruddin
+  - Rekomendasi: Fully Valued
+  - Target Price: 900
+- Baris 20:
+  - No: 20
+  - Perusahaan: Macquarie
+  - Kode Broker: RX
+  - Analis: Jayden Vantakris
+  - Rekomendasi: Underperform
+  - Target Price: 915
+- Baris 21:
+  - No: 21
+  - Perusahaan: PT Sinarmas Sekuritas
+  - Kode Broker: DH
+  - Analis: Ivan Putera
+  - Rekomendasi: Neutral
+  - Target Price: 1.400
+- Baris 22:
+  - No: 22
+  - Perusahaan: BNI Securities
+  - Kode Broker: NI
+  - Analis: Yulinda Hartanto
+  - Rekomendasi: Hold
+  - Target Price: 1.100
+- Baris 23:
+  - No: 23
+  - Perusahaan: Bahana Securities
+  - Kode Broker: DX
+  - Analis: Razqi Kurniawan
+  - Rekomendasi: Buy
+  - Target Price: 1.400
+- Baris 24:
+  - No: 24
+  - Perusahaan: Samuel Sekuritas Indonesia
+  - Kode Broker: IF
+  - Analis: Prasetya Gunadi
+  - Rekomendasi: Buy
+  - Target Price: 1.600
+- Baris 25:
+  - No: 25
+  - Perusahaan: PT Valbury Asia Securities
+  - Kode Broker: CP
+  - Analis: Akhmad Nurcahyadi
+  - Rekomendasi: Buy
+  - Target Price: 1.530
+- Baris 26:
+  - No: 26
+  - Perusahaan: Sadif Investment Analytics
+  - Kode Broker: -
+  - Analis: Team Coverage
+  - Rekomendasi: Hold
+  - Target Price: 900
+- Nomor halaman: 01 dan 40

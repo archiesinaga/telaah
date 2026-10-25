@@ -1,0 +1,72 @@
+Tabel 1:
+- Kolom:
+  - 250%: 90.312.284
+  - 400% 5): 12.869.345
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 400.895.363
+
+Tabel 2:
+- Baris 1:
+  - 70%: 38.688.008
+  - 75%: 23.795.834
+  - 85%: 14.995.165
+  - 90%: -
+  - 100%: 3.908.264
+  - 105%: -
+  - 110%: -
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 188.067.234
+- Baris 2:
+  - 70%: 38.688.008
+  - 75%: 6.092.073
+  - 85%: 274.288
+  - 90%: -
+  - 100%: 3.101.102
+  - 105%: -
+  - 110%: -
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 149.850.230
+- Baris 3:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 4:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 5:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 6:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 7:
+  - 75%: 17.703.761
+  - 85%: 14.720.876
+  - 100%: 807.162,20 (catatan: koma atau titik sesuai cetakan)
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 38.217.003
+- Baris 8:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 9:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 10:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 11:
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+- Baris 12:
+  - 90%: -
+  - 100%: 927.641
+  - 150%: 6.967.997
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 7.895.639
+
+Tabel 3:
+- Kolom:
+  - 100%: 26.388.944
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 76.193.042
+
+Tabel 4:
+- Kolom:
+  - 150%: 50.837
+  - 1250% 5): -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 104.924.987

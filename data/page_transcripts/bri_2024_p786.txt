@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+- Tata Kelola Perusahaan
+- Penjelasan mekanisme pelaporan gratifikasi adalah sebagai berikut.
+- Penerima Gratifikasi (Pelaporan)
+- Mengisi formulir
+- Disampaikan Melalui
+- Langsung Diserahkan
+- Email
+- Fax
+- Surat
+- Web Online
+- Disampaikan Melalui UPG (7 Hari kerja sejak gratifikasi diterima) (label 2a)
+- Disampaikan Melalui UPG (30 hari kerja sejak gratifikasi diterima) (label 2b)
+- SK diserahkan ke pelapor (7 hari kerja setelah Ditetapkan) (label 4)
+- SK Penetapan Gratifikasi (label 5)
+- Gratifikasi milik negara (Diserahkan 7 hari kerja sejak SK Ditetapkan)
+- PROSES PENERAPAN STATUS GRATIFIKASI (30 HARI KERJA)
+- UNIT PENGENDALI GRATIFIKASI
+- Verifikasi Kelengkapan (label i)
+- Review Dokumen (label ii)
+- Hasil Analisis atas Rekapitulasi Laporan & Review
+- Rekapitulasi Laporan & Review (14 HK)
+- KPK Komisi Pemberantasan Korupsi
+- Permintaan Data dan Keterangan (label iii)
+- Analisis dan Penetapan Status (label ii)
+- Verifikasi Kelengkapan (label i)
+- KPKNL Kemenkeu (label 6)
+- Rekening Kas Negara
+
+2. Label sumbu, legenda, satuan, dan periode:
+- (Tidak ada sumbu, legenda, atau satuan waktu berupa angka, melainkan keterangan proses hari kerja seperti "7 Hari kerja", "30 HARI KERJA", "14 HK").
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1
+- 2a
+- 2b
+- 3
+- 4
+- 5
+- 6

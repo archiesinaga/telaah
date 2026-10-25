@@ -1,0 +1,77 @@
+1. Judul atau keterangan:
+- 1895-1969
+- 1895
+- 1946
+- 1960
+- 1968
+- 1969
+- 1984-2011
+- 1984
+- 1992
+- 2003
+- 2007
+- 2009
+- 2011
+- 10
+- PT Bank Rakyat Indonesia (Persero) Tbk
+
+2. Label sumbu, legenda, satuan, dan periode:
+- 1895-1969
+- 16 Desember 1895
+- 1895
+- De Poerwokertosche Hulp Spaar-en Landbouw Credietbank atau Volksbank en Spaarbank der Inlandshe Bestuurs Ambtenareen (1895)
+- De Poerwokertosche Hulp Spaar-en Landbouw Credietbank atau Volksbank en Spaarbank der Inlandshe Bestuurs Ambtenareen (1895)
+- Volkscredietwezen Algemene (1912)
+- Algemene Volkscredietbank (AVB)
+- Syomin Ginko (1942-1945)
+- 22 Februari 1946
+- No. 1 tahun 1946
+- 1960
+- 1968
+- No. 21 Tahun 1968
+- 1969
+- 1984-2011
+- 1984
+- No. 21 Tahun 1992
+- 10 November 2003
+- LQ-45
+- 2007
+- 2009
+- 2011
+- 11 Januari 2011
+- 3 Maret 2011
+- 16 Desember 2011
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1895-1969: 1895-1969
+- 1895: 1895
+- tanggal 16 Desember 1895: 16
+- 1895: 1895
+- 1895: 1895
+- 1912: 1912
+- 1934: 1934
+- 1942-1945: 1942-1945
+- 1946: 1946
+- 22 Februari 1946: 22
+- No. 1 tahun 1946: 1
+- 1960: 1960
+- 1968: 1968
+- No. 21 Tahun 1968: 21
+- 1969: 1969
+- 1984-2011: 1984-2011
+- 1984: 1984
+- 1992: 1992
+- No. 21 Tahun 1992: 21
+- 2003: 2003
+- 10 November 2003: 10
+- LQ-45: 45
+- 2007: 2007
+- 2009: 2009
+- 6.480 unit kerja: 6.480
+- 2011: 2011
+- 11 Januari 2011: 11
+- 1: 2: 1
+- 1: 2: 2
+- 3 Maret 2011: 3
+- 16 Desember 2011: 16
+- 10: 10

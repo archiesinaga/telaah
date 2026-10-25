@@ -1,0 +1,39 @@
+Laporan Tahunan 2025 Bank Rakyat Indonesia
+
+Tabel 1:
+Satuan: (Dalam Jutaan Rupiah)
+Judul: Nilai Tercatat Berdasarkan Sisa jangka Waktu
+Kolom 1 (6 bulan - < 1 tahun):
+- Nilai Tercatat: -, Faktor ASF: 0%
+Kolom 2 (≥ 1 tahun):
+- Nilai Tercatat: -, Faktor ASF: 0%
+Total Nilai Tertimbang: -
+Baris berikutnya:
+- Total Nilai Tertimbang: 9.743.335
+Baris-baris rincian:
+- Baris 1: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: -, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 0%, Total Nilai Tertimbang: -
+- Baris 2: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 3: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 4: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 0%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 0%, Total Nilai Tertimbang: -
+- Baris 5: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): 9.743.335, Faktor ASF: 100%, Total Nilai Tertimbang: 9.743.335
+Total Nilai Tertimbang bawah: 1.346.097.957
+
+Tabel 2:
+Satuan: (Dalam Jutaan Rupiah)
+Judul: Nilai Tercatat Berdasarkan Sisa jangka Waktu
+Baris Total Nilai Tertimbang 1: 968.745.172
+Baris Total Nilai Tertimbang 2: 2.442
+Baris Total Nilai Tertimbang 3: 2.442
+Rincian baris berikutnya:
+- Baris 4: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: -, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: -, Total Nilai Tertimbang: -
+- Baris 5: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 6: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: -, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: -, Total Nilai Tertimbang: -
+- Baris 7: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 8: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 9: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 100%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 10: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: -, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: -, Total Nilai Tertimbang: -
+- Baris 11: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 12: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: -, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: -, Total Nilai Tertimbang: -
+- Baris 13: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 14: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 50%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -
+- Baris 15: Nilai Tercatat (6 bulan - < 1 tahun): -, Faktor ASF: 100%, Nilai Tercatat (≥ 1 tahun): -, Faktor ASF: 100%, Total Nilai Tertimbang: -

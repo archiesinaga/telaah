@@ -1,0 +1,9 @@
+1. Judul atau keterangan:
+Struktur Organisasi Satuan Kerja Audit Intern
+
+2. Label sumbu, legenda, satuan, dan periode:
+(Tidak ada sumbu, legenda, satuan, atau periode yang tertera pada diagram)
+
+3. Semua angka yang tertera:
+- 18 (delapan belas)
+- 18

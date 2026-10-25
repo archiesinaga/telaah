@@ -1,0 +1,96 @@
+Laporan Tahunan 2024
+
+Tabel 1:
+- Judul: (Tidak ada judul eksplisit, berada di bawah tabel sebelumnya)
+- Label Kolom / Periode:
+  - Generasi
+  - 2024 (Wanita, Pria, Total)
+  - 2023 (Wanita, Pria, Total)
+- Data:
+  - Millennials - 2024 Wanita: 17.433
+  - Millennials - 2024 Pria: 34.467
+  - Millennials - 2024 Total: 51.900
+  - Millennials - 2023 Wanita: 21.145
+  - Millennials - 2023 Pria: 37.246
+  - Millennials - 2023 Total: 58.391
+  - Gen Z - 2024 Wanita: 12.435
+  - Gen Z - 2024 Pria: 7.023
+  - Gen Z - 2024 Total: 19.458
+  - Gen Z - 2023 Wanita: 5.276
+  - Gen Z - 2023 Pria: 2.767
+  - Gen Z - 2023 Total: 8.043
+  - Jumlah - 2024 Wanita: 33.717
+  - Jumlah - 2024 Pria: 48.131
+  - Jumlah - 2024 Total: 81.848
+  - Jumlah - 2023 Wanita: 30.477
+  - Jumlah - 2023 Pria: 47.262
+  - Jumlah - 2023 Total: 77.739
+
+Jumlah Pekerja Berdasarkan Masa Kerja
+Tabel Jumlah Pekerja Berdasarkan Masa Kerja (dalam satuan orang)
+- Label Kolom / Periode:
+  - Masa Kerja
+  - 2024 (Wanita, Pria, Total)
+  - 2023 (Wanita, Pria, Total)
+- Data:
+  - < 3 - 2024 Wanita: 16.017
+  - < 3 - 2024 Pria: 12.281
+  - < 3 - 2024 Total: 28.298
+  - < 3 - 2023 Wanita: 11.859
+  - < 3 - 2023 Pria: 10.309
+  - < 3 - 2023 Total: 22.168
+  - 3 – 5 - 2024 Wanita: 3.123
+  - 3 – 5 - 2024 Pria: 4.860
+  - 3 – 5 - 2024 Total: 7.983
+  - 3 – 5 - 2023 Wanita: 4.063
+  - 3 – 5 - 2023 Pria: 6.401
+  - 3 – 5 - 2023 Total: 10.464
+  - 6 – 10 - 2024 Wanita: 6.565
+  - 6 – 10 - 2024 Pria: 15.798
+  - 6 – 10 - 2024 Total: 22.363
+  - 6 – 10 - 2023 Wanita: 7.988
+  - 6 – 10 - 2023 Pria: 18.633
+  - 6 – 10 - 2023 Total: 26.621
+  - 11 – 15 - 2024 Wanita: 3.217
+  - 11 – 15 - 2024 Pria: 7.594
+  - 11 – 15 - 2024 Total: 10.811
+  - 11 – 15 - 2023 Wanita: 1.340
+  - 11 – 15 - 2023 Pria: 3.721
+  - 11 – 15 - 2023 Total: 5.061
+  - 16 – 20 - 2024 Wanita: 1.589
+  - 16 – 20 - 2024 Pria: 2.792
+  - 16 – 20 - 2024 Total: 4.381
+  - 16 – 20 - 2023 Wanita: 2.281
+  - 16 – 20 - 2023 Pria: 3.620
+  - 16 – 20 - 2023 Total: 5.901
+  - 21 – 25 - 2024 Wanita: 1.513
+  - 21 – 25 - 2024 Pria: 2.520
+  - 21 – 25 - 2024 Total: 4.033
+  - 21 – 25 - 2023 Wanita: 960
+  - 21 – 25 - 2023 Pria: 1.786
+  - 21 – 25 - 2023 Total: 2.746
+  - 26 – 30 - 2024 Wanita: 1.100
+  - 26 – 30 - 2024 Pria: 1.687
+  - 26 – 30 - 2024 Total: 2.787
+  - 26 – 30 - 2023 Wanita: 1.184
+  - 26 – 30 - 2023 Pria: 1.913
+  - 26 – 30 - 2023 Total: 3.097
+  - > 30 - 2024 Wanita: 593
+  - > 30 - 2024 Pria: 599
+  - > 30 - 2024 Total: 1.192
+  - > 30 - 2023 Wanita: 802
+  - > 30 - 2023 Pria: 879
+  - > 30 - 2023 Total: 1.681
+  - Jumlah - 2024 Wanita: 33.717
+  - Jumlah - 2024 Pria: 48.131
+  - Jumlah - 2024 Total: 81.848
+  - Jumlah - 2023 Wanita: 30.477
+  - Jumlah - 2023 Pria: 47.262
+  - Jumlah - 2023 Total: 77.739
+
+Infografik Pemegang Saham Utama dan Pengendali:
+- Judul/Keterangan: Negara Republik Indonesia (53,19%)
+- Angka: 53,19%
+
+PT Bank Rakyat Indonesia (Persero) Tbk
+141

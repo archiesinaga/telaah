@@ -1,0 +1,70 @@
+Laporan Tahunan 2025 BRI Bank Rakyat Indonesia
+(dalam jutaan rupiah)
+
+Tabel 1:
+- Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 100%: -
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 296.401.489
+
+Tabel 2:
+- Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 100%: 1.289.664
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 163.845.368
+
+Tabel 3:
+- Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 100%: -
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+
+Tabel 4:
+- Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 100%: 44.921
+  - 150%: 1.809.486
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 95.622.715
+- Baris 2: 
+  - 100%: 56.344
+  - 150%: 3.104.380
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 4.128.557
+
+Tabel 5:
+- Kolom: 50%, 100%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 50%: -
+  - 100%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: -
+
+Tabel 6:
+- Kolom: 130%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 130%: -
+  - 150%: 2.639.367
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 262.395.990
+- Baris 2: 
+  - 130%: 3.714.354
+  - 150%: -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 262.395.990
+
+Tabel 7:
+- Kolom: 250%, 400% 5), Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 
+  - 250%: 7.586.390
+  - 400% 5): -
+  - Lainnya: -
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 7.606.390
+
+PT Bank Rakyat Indonesia (Persero) Tbk. 421

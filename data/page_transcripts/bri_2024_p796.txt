@@ -1,0 +1,34 @@
+1. Judul atau keterangan:
+Struktur & Proses
+1. Struktur & Proses
+2. Hubungan dengan Pihak yang memiliki Klaim Finansial
+3. Transparasi Keuangan Pengungkapan Informasi & Efektivitas Pengendalian Internal
+4. Hubungan dengan Induk Perusahaan dan Sinergi Group
+5. Efektivitas Manajemen Risiko dan Kepatuhan
+6. Kualitas Perencanaan Strategis
+7. Hubungan dengan Pemangku Kepentingan
+8. Implementasi GCG dan Manajemen Perubahan
+
+2. Label sumbu, legenda, satuan, dan periode:
+Skala sumbu: 0,00; 1,00; 2,00; 3,00; 4,00; 5,00
+Legenda:
+- TH 2021
+- TH 2022
+- TH 2023
+- Target Maturitas
+
+3. Semua angka yang tertera:
+- 5,00
+- 4,00
+- 3,00
+- 2,00
+- 1,00
+- 0,00
+- 4,24: Hubungan dengan Pihak yang memiliki Klaim Finansial
+- 3,52: Transparasi Keuangan Pengungkapan Informasi & Efektivitas Pengendalian Internal
+- 3,90: Hubungan dengan Induk Perusahaan dan Sinergi Group
+- 3,60: Efektivitas Manajemen Risiko dan Kepatuhan
+- 3,70: Kualitas Perencanaan Strategis
+- 4,02: Hubungan dengan Pemangku Kepentingan
+- 3,75: Implementasi GCG dan Manajemen Perubahan
+- 3,51: Struktur & Proses

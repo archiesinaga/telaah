@@ -1,0 +1,14 @@
+1. Judul atau keterangan:
+Gambar 1. Estimasi Pertumbuhan Ekonomi Global Tahun 2024 (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: %
+Periode pada sumbu: 2019, 2020, 2021, 2022, 2023, 2024E
+
+3. Semua angka yang tertera:
+2019: 2,91
+2020: (2,69)
+2021: 6,57
+2022: 3,55
+2023: 3,33
+2024E: 3,29

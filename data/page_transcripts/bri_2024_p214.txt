@@ -1,0 +1,14 @@
+Tabel Kinerja (Produktivitas) Layanan AgenBRILink
+
+Uraian | 2024 | 2023 | Pertumbuhan Nominal | Pertumbuhan %
+(1) | (2) | (3) | (4) = (2)-(3) | (5) = (4)/(3)
+
+AgenBRILink (Agen) | 2024: 1.064.219 | 2023: 740.818 | Nominal: 323.401 | %: 43,65%
+AgenBRILink Mekaar | 2024: 437.575 | 2023: 151.950 | Nominal: 285.625 | %: 187,97%
+AgenBRILink Non Mekaar | 2024: 626.644 | 2023: 588.868 | Nominal: 37.776 | %: 6,42%
+Transaksi Finansial (transaksi) | 2024: 1.204.250.600 | 2023: 1.096.611.311 | Nominal: 107.639.289 | %: 9,82%
+Fee Base Income (jutaan Rupiah) | 2024: 1.656.288 | 2023: 1.558.327 | Nominal: 97.960 | %: 6,29%
+CASA (jutaan Rupiah) | 2024: 25.632.996 | 2023: 23.390.747 | Nominal: 2.242.248 | %: 9,59%
+Volume Transaksi (jutaan Rupiah) | 2024: 1.589.038.749 | 2023: 1.427.583.095 | Nominal: 161.455.654 | %: 11,31%
+Referral Simpanan | 2024: 153.142 | 2023: 118.437 | Nominal: 34.705 | %: 29,30%
+Referral Pinjaman | 2024: 1.880.506 | 2023: 3.063.826 | Nominal: (1.183.320) | %: (38,62%)

@@ -1,0 +1,24 @@
+1. Home Dashboard - Compliance Rate
+- Judul atau keterangan: % Compliance Rate, 58 of 68 Comply Obligations, Compliance Rate by priority, Compliance Rate by Priority High Priority Comply 100% (6 of 6 Comply Obligation), Compliance Rate by Priority Medium Priority Comply 85% (47 of 55 Comply Obligation), Compliance Rate by Priority Low Priority Comply 71% (5 of 7 Comply Obligation), Your company already complied 58 of 68 in progress and comply obligations, Comply Now, Menunjukkan jumlah kewajiban/ obligasi yang sudah ditindaklanjuti, Menunjukkan persentase pemenuhan kewajiban atas regulasi yang sudah ditindaklanjuti, Menunjukkan Komposisi seluruh kewajiban berdasarkan risiko. Low: tidak ada sanksi. Med: sanksi admin, High: sanksi denda atau pidana
+- Label sumbu, legenda, satuan, dan periode: High, Medium, Low, 0, 10, 20, 30, 40, 50, % Compliance
+- Angka: 58 of 68, 85%, 100%, 6 of 6, 85%, 47 of 55, 71%, 5 of 7, 0, 10, 20, 30, 40, 50, 58, 68
+
+2. Progress pemenuhan kewajiban by Divisi - Obligation Comply by Group
+- Judul atau keterangan: Progress pemenuhan kewajiban by Divisi, Obligation Comply by Group, User Group, Obligation, DIVISI CREDIT & PRODUCT RISK POLICY, DIVISI ENTERPRISE DATA MANAGEMENT, DIVISI MARKET, PORTOFOLIO & ENTERPRISE RISK MANAGEMENT, DIVISI MICRO BUSINESS DEVELOPMENT, DIVISI PLANNING, BUDGETING, & PERFORMANCE MANAGEMENT, DIVISI SERVICE & CONTACT CENTER
+- Label sumbu, legenda, satuan, dan periode: User Group, Obligation, %
+- Angka: 58, 85%, DIVISI CREDIT & PRODUCT RISK POLICY: 8, DIVISI ENTERPRISE DATA MANAGEMENT: 9, DIVISI MARKET, PORTOFOLIO & ENTERPRISE RISK MANAGEMENT: 14, DIVISI MICRO BUSINESS DEVELOPMENT: 7, DIVISI PLANNING, BUDGETING, & PERFORMANCE MANAGEMENT: 8, DIVISI SERVICE & CONTACT CENTER: 12
+
+3. Progress pemenuhan kewajiban by Divisi - Obligation In Progress by Group
+- Judul atau keterangan: Progress pemenuhan kewajiban by Divisi, Obligation In Progress by Group, User Group, Obligation, DIVISI CREDIT & PRODUCT RISK POLICY, DIVISI ENTERPRISE DATA MANAGEMENT, DIVISI MARKET, PORTOFOLIO & ENTERPRISE RISK MANAGEMENT, DIVISI MICRO BUSINESS DEVELOPMENT, DIVISI PLANNING, BUDGETING, & PERFORMANCE MANAGEMENT, DIVISI SERVICE & CONTACT CENTER
+- Label sumbu, legenda, satuan, dan periode: User Group, Obligation, %
+- Angka: 10, 15%, DIVISI CREDIT & PRODUCT RISK POLICY: 2, DIVISI ENTERPRISE DATA MANAGEMENT: 1, DIVISI MARKET, PORTOFOLIO & ENTERPRISE RISK MANAGEMENT: 0, DIVISI MICRO BUSINESS DEVELOPMENT: 3, DIVISI PLANNING, BUDGETING, & PERFORMANCE MANAGEMENT: 2, DIVISI SERVICE & CONTACT CENTER: 2
+
+4. Progress pemenuhan kewajiban by Regulasi - Obligation Comply by Regulation
+- Judul atau keterangan: Progress pemenuhan kewajiban by Regulasi, Obligation Comply by Regulation, Regulation, Obligation, Undang-Undang Nomor 10 Tahun 1998, Surat Edaran Otoritas Jasa Keuangan Nomor 14/ SEOJK.07/2014 Tahun 2014, Peraturan Pemerintah Nomor 23 Tahun 2022, Undang-Undang Nomor 27 Tahun 2022, Undang-Undang Nomor 4 Tahun 2023, Peraturan Menteri Badan Usaha Milik Negara Nomor PER-2/MBU/03/2023 Tahun 2023
+- Label sumbu, legenda, satuan, dan periode: Regulation, Obligation, %
+- Angka: 58, 85%, Undang-Undang Nomor 10 Tahun 1998: 16, Surat Edaran Otoritas Jasa Keuangan Nomor 14/ SEOJK.07/2014 Tahun 2014: 4, Peraturan Pemerintah Nomor 23 Tahun 2022: 1, Undang-Undang Nomor 27 Tahun 2022: 28, Undang-Undang Nomor 4 Tahun 2023: 8, Peraturan Menteri Badan Usaha Milik Negara Nomor PER-2/MBU/03/2023 Tahun 2023: 1
+
+5. Progress pemenuhan kewajiban by Regulasi - Obligation In Progress by Regulation
+- Judul atau keterangan: Progress pemenuhan kewajiban by Regulasi, Obligation In Progress by Regulation, Regulation, Obligation, Undang-Undang Nomor 10 Tahun 1998, Surat Edaran Otoritas Jasa Keuangan Nomor 14/ SEOJK.07/2014 Tahun 2014, Peraturan Pemerintah Nomor 23 Tahun 2022, Undang-Undang Nomor 27 Tahun 2022, Undang-Undang Nomor 4 Tahun 2023, Peraturan Menteri Badan Usaha Milik Negara Nomor PER-2/MBU/03/2023 Tahun 2023
+- Label sumbu, legenda, satuan, dan periode: Regulation, Obligation, %
+- Angka: 10, 15%, Undang-Undang Nomor 10 Tahun 1998: 0, Surat Edaran Otoritas Jasa Keuangan Nomor 14/ SEOJK.07/2014 Tahun 2014: 2, Peraturan Pemerintah Nomor 23 Tahun 2022: 0, Undang-Undang Nomor 27 Tahun 2022: 7, Undang-Undang Nomor 4 Tahun 2023: 0, Peraturan Menteri Badan Usaha Milik Negara Nomor PER-2/MBU/03/2023 Tahun 2023: 0

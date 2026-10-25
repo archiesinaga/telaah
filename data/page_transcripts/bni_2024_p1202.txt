@@ -1,0 +1,10 @@
+1. Judul atau keterangan:
+- 1200
+- 31 DESEMBER 2024 DAN 2023 / 31 DECEMBER 2024 AND 2023
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada.
+
+3. Semua angka yang tertera:
+- 1200: 1200
+- 31 DESEMBER 2024 DAN 2023 / 31 DECEMBER 2024 AND 2023: 31, 2024, 2023, 31, 2024, 2023

@@ -1,0 +1,21 @@
+PT BNI Life Insurance
+Legenda:
+- BNI: 60,000000%
+- Sumitomo Life Insurance Company: 39,999993%
+- Yayasan Kesejahteraan Pegawai BNI: 0,000003%
+- Yayasan Dana Swadharma: 0,000003%
+
+PT BNI Multifinance
+Legenda:
+- BNI: 99,998%
+- Koperasi Karyawan PT BNI Multifinance: 0,002%
+
+PT BNI Sekuritas
+Legenda:
+- PT Bank Negara Indoneisa (Persero) Tbk: 75%
+- SBI Financial Services Co., Ltd: 25%
+
+PT BNI Asset Management
+Legenda:
+- PT BNI Sekuritas: 99,90%
+- Koperasi Karyawan PT BNI Sekuritas: 0,1%

@@ -1,0 +1,93 @@
+1. Judul atau keterangan:
+- Laporan Tahunan 2025 BRI Bank Rakyat Indonesia
+- Development
+- Succession
+- Talent Cluster
+- Talent Pool by Corporate Title and Expertise Field
+- TALENT COMMITTEE To Choose candidates & succesor
+- Andi: EA ME SE 5,1
+- Budi: ME SE 5,1
+- Candra: EA ME TG 5,1
+- Digitalized process with BRISMART
+- Digitalized process with Brilliance
+- PERFORMANCE
+- COMPENSATION & BENEFIT
+- CAREER MANAGEMENT
+- IR
+- HCIS
+- PT Bank Rakyat Indonesia (Persero) Tbk. 519
+
+2. Label sumbu, legenda, satuan, dan periode:
+- CAPACITY (Sumbu vertikal Talent Cluster)
+- POTENTIAL (Sumbu horizontal Talent Cluster)
+- Legend Talent Cluster Matrix:
+  - High - Moderate - Low (Sumbu POTENTIAL)
+  - High - Moderate - Low (Sumbu CAPACITY)
+  - Q1 Brillian Society
+  - Q2 Promotable
+  - Q3 Contributor
+  - Q4 Sleeping
+  - Q5 UNFIT
+- Legend Talent Pool:
+  - RMA Risk Management Talent Available:
+  - COP
+  - AMA Risk Management Talent Available:
+- Detail Tabel Kandidat (Andi, Budi, Candra):
+  - EA: Employee Aspiration
+  - ME: Management Endorsement (1&2)
+  - SE: Successor Endorsement
+  - BEA: Award Winner
+  - CA: Culture Agent
+  - BRI: BRILian Society Member
+  - T5: Top 5 BLDP Ranking
+  - Jabatan
+  - Uker
+  - City
+  - JG
+  - JF
+  - SMK
+  - Usia
+  - MKCT
+  - MKJ
+  - MKU
+  - ASC
+- Keterangan Tombol:
+  - 1-on-1 For Critical Position
+  - Pool Based For other Position
+
+3. Semua angka yang tertera, apa adanya:
+- Talent Cluster Matrix:
+  - Q4 Sleeping
+  - Q1 Brillian Society
+  - Q2 Promotable
+  - Q5 UNFIT
+  - Q3 Contributor
+- Andi:
+  - 5,1
+  - 16
+  - 3,05/3,13/3,00
+  - 52 tahun 7 bulan
+  - 1 tahun 3 bulan
+  - 1 tahun 3 bulan
+  - 1 tahun 3 bulan
+  - Ready Now/2,92
+- Budi:
+  - 5,1
+  - 16
+  - 3,00/3,00/3,00
+  - 51 tahun 6 bulan
+  - 1 tahun 5 bulan
+  - 1 tahun 3 bulan
+  - 1 tahun 3 bulan
+  - Ready Now/3,33
+- Candra:
+  - 5,1
+  - 16
+  - 3,20/3,15/3,01
+  - 54 tahun 2 bulan
+  - 1 tahun 0 bulan
+  - 1 tahun 0 bulan
+  - 1 tahun 0 bulan
+  - Ready Now/2,83
+- Nomor Halaman:
+  - 519

@@ -1,0 +1,79 @@
+Posisi Tanggal Laporan Desember 2023
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu (Dalam Juta Rupiah)
+Tanpa Jangka Waktu: 344.217.541
+< 6 Bulan: 262.366.431
+6 bulan - < 1 tahun: 34.658.565
+≥ 1 tahun: 7.562.145
+Total Nilai Tertimbang: 301.468.841
+
+Tanpa Jangka Waktu: 344.217.541
+< 6 Bulan: 0
+6 bulan - < 1 tahun: 0
+≥ 1 tahun: 0
+Total Nilai Tertimbang: 172.108.771
+
+Tanpa Jangka Waktu: 0
+< 6 Bulan: 262.366.431
+6 bulan - < 1 tahun: 34.658.565
+≥ 1 tahun: 7.562.145
+Total Nilai Tertimbang: 129.360.071
+
+Tanpa Jangka Waktu: 0
+< 6 Bulan: 0
+6 bulan - < 1 tahun: 0
+≥ 1 tahun: 0
+Total Nilai Tertimbang: 0
+
+Tanpa Jangka Waktu: 69.802.560
+< 6 Bulan: 30.183.182
+6 bulan - < 1 tahun: 12.373.741
+≥ 1 tahun: 9.653.207
+Total Nilai Tertimbang: 15.840.077
+
+< 6 Bulan: -
+
+Tanpa Jangka Waktu: 69.802.560
+< 6 Bulan: 30.183.182
+6 bulan - < 1 tahun: 12.373.741
+≥ 1 tahun: 23.758.144
+Total Nilai Tertimbang: 15.840.077
+
+Total Nilai Tertimbang: 1.316.826.496
+
+Nilai Tercatat Berdasarkan Sisa jangka Waktu (Dalam Juta Rupiah)
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu (Dalam Juta Rupiah)
+Tanpa Jangka Waktu: 
+< 6 Bulan: 
+6 bulan - < 1 tahun: 
+≥ 1 tahun: 
+Total Nilai Tertimbang: 12.177.033
+
+Tanpa Jangka Waktu: 26.343.148
+< 6 Bulan: 228.476
+6 bulan - < 1 tahun: 0
+≥ 1 tahun: 0
+Total Nilai Tertimbang: 13.285.812
+
+Tanpa Jangka Waktu: 0
+< 6 Bulan: 145.222.755
+6 bulan - < 1 tahun: 134.012.349
+≥ 1 tahun: 883.805.983
+Total Nilai Tertimbang: 876.654.231
+
+Tanpa Jangka Waktu: 0
+< 6 Bulan: 16.014.285
+6 bulan - < 1 tahun: 0
+≥ 1 tahun: 0
+Total Nilai Tertimbang: 1.601.428
+
+Tanpa Jangka Waktu: 0
+< 6 Bulan: 0
+6 bulan - < 1 tahun: 0
+≥ 1 tahun: 0
+Total Nilai Tertimbang: 0
+
+Tanpa Jangka Waktu: 0
+< 6 Bulan: 98.318.401
+6 bulan - < 1 tahun: 96.977.809
+≥ 1 tahun: 799.295.509
+Total Nilai Tertimbang: 777.049.288

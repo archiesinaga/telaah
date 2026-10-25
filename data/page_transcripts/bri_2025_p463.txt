@@ -1,0 +1,168 @@
+1. Judul atau keterangan:
+- Nilai Tercatat Berdasarkan Sisa jangka Waktu
+- 6 bulan - < 1 tahun
+- ≥ 1 tahun
+- Total Nilai Tertimbang
+
+2. Label kolom/tabel:
+- Nilai Tercatat
+- Faktor ASF
+
+3. Angka yang tertera:
+Baris 1:
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Total Nilai Tertimbang: -
+
+Baris 2:
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Total Nilai Tertimbang: -
+
+Baris 3:
+- Faktor ASF (6 bulan - < 1 tahun): 100%
+- Total Nilai Tertimbang: -
+
+Baris 4:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 5%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 5%
+- Total Nilai Tertimbang: -
+
+Baris 5:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Nilai Tercatat (≥ 1 tahun): -
+- Total Nilai Tertimbang: -
+
+Baris 6:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 5%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 5%
+- Total Nilai Tertimbang: -
+
+Baris 7:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 50%
+- Total Nilai Tertimbang: -
+
+Baris 8:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 100%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 100%
+- Total Nilai Tertimbang: -
+
+Baris 9:
+- Total Nilai Tertimbang: 101.243.717
+
+Baris 10:
+- Total Nilai Tertimbang: 37.380.957
+
+Baris 11:
+- Nilai Tercatat (6 bulan - < 1 tahun): 11.801.732
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): 42.627.499
+- Faktor ASF (≥ 1 tahun): 65%
+- Total Nilai Tertimbang: 37.380.957
+
+Baris 12:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Nilai Tercatat (≥ 1 tahun): -
+- Total Nilai Tertimbang: -
+
+Baris 13:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 65%
+- Total Nilai Tertimbang: -
+
+Baris 14:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 65%
+- Total Nilai Tertimbang: -
+
+Baris 15:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 100%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 100%
+- Total Nilai Tertimbang: -
+
+Baris 16:
+- Total Nilai Tertimbang: 63.862.760
+
+Baris 17:
+- Nilai Tercatat (6 bulan - < 1 tahun): 29.007.659
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): 45.172.805
+- Faktor ASF (≥ 1 tahun): 85%
+- Total Nilai Tertimbang: 63.862.760
+
+Baris 18:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Nilai Tercatat (≥ 1 tahun): -
+- Total Nilai Tertimbang: -
+
+Baris 19:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 85%
+- Total Nilai Tertimbang: -
+
+Baris 20:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 85%
+- Total Nilai Tertimbang: -
+
+Baris 21:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 100%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 100%
+- Total Nilai Tertimbang: -
+
+Baris 22:
+- Total Nilai Tertimbang: 9.000.506
+
+Baris 23:
+- Nilai Tercatat (6 bulan - < 1 tahun): 989.890
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): 9.164.297
+- Faktor ASF (≥ 1 tahun): 85%
+- Total Nilai Tertimbang: 9.000.506
+
+Baris 24:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Nilai Tercatat (≥ 1 tahun): -
+- Total Nilai Tertimbang: -
+
+Baris 25:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 85%
+- Total Nilai Tertimbang: -
+
+Baris 26:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 50%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 85%
+- Total Nilai Tertimbang: -
+
+Baris 27:
+- Nilai Tercatat (6 bulan - < 1 tahun): -
+- Faktor ASF (6 bulan - < 1 tahun): 100%
+- Nilai Tercatat (≥ 1 tahun): -
+- Faktor ASF (≥ 1 tahun): 100%
+- Total Nilai Tertimbang: -
+
+Nomor Halaman (Pojok Bawah): 463

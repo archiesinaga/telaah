@@ -1,0 +1,44 @@
+1. Judul atau keterangan:
+Nilai Maturitas Kepatuhan BRI
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Kategori / Aspek Penilaian Maturitas Kepatuhan: Tone at the Top, Tanggung Jawab Pengawasan, Pelatihan dan Pendidikan, Kebijakan dan Prosedur (K&P), Lines of Communication, Response and Prevention, Risk Assessment, Pemantauan, Auditing, Enforcement & Discipline
+- Legenda:
+  - 2023 (warna biru)
+  - 2022 (warna jingga/oranye)
+- Skala / Satuan: 5.00
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Nilai Maturitas Kepatuhan BRI:
+  - 2023: 4.13 of 5.00
+  - 2022: 3.98 of 5.00
+- Tone at the Top:
+  - 2023: 4,60
+  - 2022: 4,50
+- Tanggung Jawab Pengawasan:
+  - 2023: 4,44
+  - 2022: 4,15
+- Pelatihan dan Pendidikan:
+  - 2023: 4,44
+  - 2022: 4,28
+- Kebijakan dan Prosedur (K&P):
+  - 2023: 3,83
+  - 2022: 3,83
+- Lines of Communication:
+  - 2023: 3,97
+  - 2022: 3,69
+- Response and Prevention:
+  - 2023: 3,71
+  - 2022: 3,86
+- Risk Assessment:
+  - 2023: 3,64
+  - 2022: 3,55
+- Pemantauan:
+  - 2023: 3,76
+  - 2022: 3,65
+- Auditing:
+  - 2023: 4,56
+  - 2022: 4,38
+- Enforcement & Discipline:
+  - 2023: 4,33
+  - 2022: 4,00

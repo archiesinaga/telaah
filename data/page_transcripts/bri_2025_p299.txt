@@ -1,0 +1,21 @@
+1. Judul: Tabel Kinerja (Produktivitas) PT BRI Asuransi Indonesia
+2. Satuan: dalam jutaan Rupiah
+Periode: 2025, 2024
+Label Kolom: Uraian (1), 2025 (2), 2024 (3), Pertumbuhan Nominal (4) = (2)-(3), Pertumbuhan % (5) = (4)/(3)
+
+3. Angka-angka pada tabel:
+- Premi Bruto:
+  - 2025 (2): 4.097.823
+  - 2024 (3): 3.906.348
+  - Nominal (4): 191.475
+  - % (5): 4,90%
+- Aset:
+  - 2025 (2): 8.158.065
+  - 2024 (3): 7.721.019
+  - Nominal (4): 437.046
+  - % (5): 5,66%
+- Ekuitas:
+  - 2025 (2): 2.640.467
+  - 2024 (3): 2.592.763
+  - Nominal (4): 48.000
+  - % (5): 1,85%

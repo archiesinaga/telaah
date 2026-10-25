@@ -1,0 +1,48 @@
+INDIVIDUAL
+31 Desember 2024
+Jumlah, Lancar, Dalam Perhatian Khusus, Kurang Lancar, Diragukan, Macet, Jumlah
+
+Baris 1:
+- : 400.000, - , - , - , - , 400.000
+
+Baris 2:
+- : - , - , - , - , - , -
+
+Baris 3:
+- : - , - , - , - , - , -
+
+Baris 4:
+- : - , - , - , - , - , -
+
+Baris 5:
+- : - , - , - , - , - , -
+
+Baris 6:
+- : - , - , - , - , - , -
+
+Baris 7:
+- : - , - , - , - , - , -
+
+Baris 8:
+- : - , - , - , - , - , -
+
+Baris 9:
+- : - , - , - , - , - , -
+
+Baris 10:
+- : - , - , - , - , - , -
+
+Baris 11:
+- : - , - , - , - , - , -
+
+Baris 12:
+- : - , - , - , - , - , -
+
+Baris 13:
+- : - , - , - , - , - , -
+
+Baris 14:
+800.220: 2.088.684, - , - , - , - , 2.088.684
+
+Baris 15:
+- : - , - , - , - , - , -

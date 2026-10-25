@@ -1,0 +1,41 @@
+(Dalam Jutaan Rupiah)
+
+Nilai Tercatat Berdasarkan Sisa jangka Waktu
+6 bulan - < 1 tahun
+Nilai Tercatat: - ; Faktor ASF: 0%
+Nilai Tercatat: - ; Faktor ASF: 0%
+Nilai Tercatat: - ; Faktor ASF: 0%
+Nilai Tercatat: 3.137.575 ; Faktor ASF: 95%
+Nilai Tercatat: 2.270.120 ; Faktor ASF: 90%
+Nilai Tercatat: 264.612 ; Faktor ASF: 95%
+Nilai Tercatat: 60.020 ; Faktor ASF: 90%
+
+≥ 1 tahun
+Nilai Tercatat: - ; Faktor ASF: n.a
+Nilai Tercatat: - ; Faktor ASF: 100%
+Nilai Tercatat: - ; Faktor ASF: 100%
+Nilai Tercatat: - ; Faktor ASF: 100%
+Nilai Tercatat: 661.955 ; Faktor ASF: 100%
+Nilai Tercatat: 1.064.774 ; Faktor ASF: 100%
+Nilai Tercatat: 71.705 ; Faktor ASF: 100%
+Nilai Tercatat: 17.512 ; Faktor ASF: 100%
+
+Faktor ASF (kolom 6 bulan - < 1 tahun dan ≥ 1 tahun lainnya):
+n.a (pada baris tertentu)
+
+Total Nilai Tertimbang:
+314.922.151
+300.965.536
+13.956.615
+637.269.205
+477.237.201
+85.227.888
+29.285.901
+45.518.215
+58.639.821
+47.060.920
+3.171.435
+5.517.938
+2.889.527
+
+Nomor Halaman: 455

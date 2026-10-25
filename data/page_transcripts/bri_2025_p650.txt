@@ -1,0 +1,20 @@
+1. Judul atau keterangan:
+Prosedur Pelaksanaan Penilaian Kinerja Direktur Utama dan Anggota Direksi
+
+2. Label sumbu, legenda, satuan, dan periode:
+Tidak ada
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1: Direksi menyampaikan usulan KPI Direksi secara kolegial kepada RUPS/Menteri
+- 2: KPI Direksi yang disampaikan secara kolegial ditetapkan bersamaan dengan penyampaian Rencana Kerja dan Anggaran Perusahaan
+- 3: Direksi mejabarkan KPI Direksi secara kolegial menjadi KPI Direksi secara Individual
+- 4: KPI Direksi secara Individual disampaikan kepada Dewan Komisaris untuk mendapatkan Persetujuan
+- 5: Dewan Komisaris menyetujui KPI Direksi secara individual yang disampaikan
+- 6: Setelah KPI Direksi secara kolegial ditetapkan oleh RUPS/Menteri dan KPI Direksi secara individual disetujui oleh Dewan Komisaris, maka Direksi menandatangani Kontrak Manajemen Tahunan yang memuat KPI Direksi secara kolegial dan KPI Direksi secara Individual
+- 7: Kontrak Manajemen Tahunan yang memuat Target KPI Direksi secara kolegial yang telah ditandatangani oleh Direksi, ditandatangani juga oleh Dewan Komisaris dan RUPS/Menteri
+- 8: Kontrak Manajemen Tahunan yang memuat target KPI Direksi secara individual ditandatangani oleh Anggota Direksi dengan Direktur Utama dan Komisaris
+- 9: Pencapaian KPI Direksi secara kolegial dilaporkan dalam laporan berkala dan Laporan Tahunan
+- 10: Perhitungan pencapaian KPI Direksi secara kolegial dan secara individual direviu oleh pihak independen Kantor Akuntan Publik (KAP) yang mengaudit Laporan keuangan Perseroan.
+- 11: Hasil pencapaian KPI Direksi secara kolegial dan Individual disampaikan Dewan Komisaris kepada RUPS.
+- 12: RUPS melakukan penilaian atas Kinerja Direksi.
+- 650: PT Bank Rakyat Indonesia (Persero) Tbk.

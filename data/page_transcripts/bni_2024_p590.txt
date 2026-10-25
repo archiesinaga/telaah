@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+Laporan Perhitungan IRRBB secara Konsolidasi dengan Perusahaan Anak
+Dalam Juta Rupiah
+Δ EVE
+Δ NII
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: Dalam Juta Rupiah
+Periode: T dan T-1
+Keterangan bawah: T = Periode Laporan Desember 2024, T-1 = Periode Laporan September 2024
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Parallel Up, T: (6.155)
+- Parallel Up, T-1: 2.766.734
+- Parallel Up, T (Δ NII): (3.114.315)
+- Parallel Up, T-1 (Δ NII): (2.706.931)
+- Parallel Down, T: (342.507)
+- Parallel Down, T-1: (4.440.463)
+- Parallel Down, T (Δ NII): 3.318.547
+- Parallel Down, T-1 (Δ NII): 2.869.107
+- Steepener, T: (6.922.874)
+- Steepener, T-1: (1.061.165)
+- Flattener, T: 5.082.35
+- Flattener, T-1: 630.323
+- Short Rate Up, T: 3.899.955
+- Short Rate Up, T-1: 1.532.843
+- Short Rate Down, T: (6.695.067)
+- Short Rate Down, T-1: (4.299.691)
+- Nilai Maksimum Negatif Absolut, T: 6.922.874
+- Nilai Maksimum Negatif Absolut, T-1: 4.440.463
+- Nilai Maksimum Negatif Absolut, T (Δ NII): 3.114.315
+- Nilai Maksimum Negatif Absolut, T-1 (Δ NII): 2.706.931
+- Modal Tier 1 (untuk Δ EVE) atau Projected Income (untuk Δ NII), T: 147.431.803
+- Modal Tier 1 (untuk Δ EVE) atau Projected Income (untuk Δ NII), T-1: 143.500.145
+- Modal Tier 1 (untuk Δ EVE) atau Projected Income (untuk Δ NII), T (Δ NII): 40.603.033
+- Modal Tier 1 (untuk Δ EVE) atau Projected Income (untuk Δ NII), T-1 (Δ NII): 39.881.101
+- Nilai Maksimum dibagi Modal Tier 1 (untuk Δ EVE) atau Projected Income (Δ NII), T: 4,70%
+- Nilai Maksimum dibagi Modal Tier 1 (untuk Δ EVE) atau Projected Income (Δ NII), T-1: 3,09%
+- Nilai Maksimum dibagi Modal Tier 1 (untuk Δ EVE) atau Projected Income (Δ NII), T (Δ NII): 7,67%
+- Nilai Maksimum dibagi Modal Tier 1 (untuk Δ EVE) atau Projected Income (Δ NII), T-1 (Δ NII): 6,79%

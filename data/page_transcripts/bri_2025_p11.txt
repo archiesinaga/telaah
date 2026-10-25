@@ -1,0 +1,50 @@
+1. Judul atau keterangan:
+- Pemegang Saham
+- Negara RI melalui BP BUMN: 0,00%
+- PT Danantara Asset Management (Persero): 53,19%
+- Publik: 46,81%
+- Aset: Rp2.135,37 triliun
+- Entitas Anak:
+  - PT Pegadaian: 99,99%
+  - PT Permodalan Nasional Madani (PNM): 99,99%
+  - PT Asuransi BRI Life (BRI Life): 51,00%
+  - PT Bank Raya Indonesia Tbk (Raya): 86,85%
+  - PT BRI Asuransi Indonesia (BRI Insurance): 90,00%
+  - PT BRI Multifinance Indonesia (BRI Finance): 99,88%
+  - PT BRI Ventura Investama (BRI Ventures): 99,97%
+  - PT BRI Danareksa Sekuritas (BRI DS): 67,00%
+  - PT BRI Manajemen Investasi (BRI MI): 65,00%
+  - BRI Global Financial Services Co. Ltd. (BRI Global Financial Services): 100,00%
+- Entitas Asosiasi:
+  - PT Bahana Artha Ventura (BAV): 15,10%
+  - PT Kustodian Sentral Efek Indonesia (KSEI): 4,25%
+  - PT Kliring Penjaminan Efek Indonesia (KPEI): 1,11%
+  - PT Bank Syariah Indonesia Tbk. (BSI): 15,38%
+  - PT Pemeringkat Efek Indonesia (Pefindo): 6,78%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan persentase (%)
+- Satuan nilai aset: Rp ... triliun
+- Periode keterangan catatan: Pada 31 Desember 2025
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Negara RI melalui BP BUMN: 0,00%
+- PT Danantara Asset Management (Persero): 53,19%
+- Publik: 46,81%
+- Aset: Rp2.135,37 triliun
+- PT Pegadaian: 99,99%
+- PT Permodalan Nasional Madani (PNM): 99,99%
+- PT Asuransi BRI Life (BRI Life): 51,00%
+- PT Bank Raya Indonesia Tbk (Raya): 86,85%
+- PT BRI Asuransi Indonesia (BRI Insurance): 90,00%
+- PT BRI Multifinance Indonesia (BRI Finance): 99,88%
+- PT BRI Ventura Investama (BRI Ventures): 99,97%
+- PT BRI Danareksa Sekuritas (BRI DS): 67,00%
+- PT BRI Manajemen Investasi (BRI MI): 65,00%
+- BRI Global Financial Services Co. Ltd. (BRI Global Financial Services): 100,00%
+- PT Bahana Artha Ventura (BAV): 15,10%
+- PT Kustodian Sentral Efek Indonesia (KSEI): 4,25%
+- PT Kliring Penjaminan Efek Indonesia (KPEI): 1,11%
+- PT Bank Syariah Indonesia Tbk. (BSI): 15,38%
+- PT Pemeringkat Efek Indonesia (Pefindo): 6,78%
+- Halaman: 11

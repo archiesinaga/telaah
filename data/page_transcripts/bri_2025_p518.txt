@@ -1,0 +1,75 @@
+1. Judul atau keterangan:
+- BRI Talent Management System
+- BUSINESS STRATEGY
+- Attraction
+- Talent Sources
+- Talent Channels
+- Identification
+- Performance Appraisal
+- UKER
+- Pemimpin UKER
+- Alignment Pekerja UKER
+- Critical Positions Mapping
+- Preliminary Talent Mapping (Using Brilliance)
+- Output
+- expertise field aspiration
+- Position Aspiration
+- Talent Cluster
+- Final Talent Cluster
+- List of Successor Candidate
+- Selection
+- Talent Committee + Subject Matter Expert
+- Talent Selection
+- Output
+- Final Talent Cluster
+- Final Talent Pool by Corporate Title and Expertise Field
+- List of Successor Candidate
+- Selection proses include Talent Review which conducted regulary to review talent with career problems.
+- Regular Talent Committee (Talent Committee 1 sd 5).
+- Digitalized process with E-recruitment
+- Digitalized process with Brilliance
+- CULTURE
+- COMPETENCY FRAMEWORK
+- GRADE EQUIVALENCE
+- BUSINESS RESULTS
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Bagian Attraction (Talent Sources):
+  - BRILiAN Scholarship
+  - BGTP
+  - BEIP
+  - BIP
+  - BLFP/BNLP/BBOP Regular Recruitment
+  - BCCP
+- Bagian Attraction (Talent Channels):
+  - BRILiAN Future Leader Program (BFLP)
+  - BRILiAN Next Leader Program (BNLP)
+  - BRILiAN Banking Officer Program (BBOP)
+- Bagian Identification (Talent Cluster matrix):
+  - Sumbu Vertikal: High, Moderate, Limited / Below
+  - Sumbu Horizontal: Below, Meet, Exceed
+  - Sel matriks:
+    - High: IV / UA, I / HIPO, I / HIPO
+    - Moderate: IV / UA, II / CR, II / CR
+    - Limited: V / LC, III / KC, III / KC
+  - Label Samping: POTENTIAL
+- Bagian Identification (Risk Management Talent Available):
+  - RMA
+  - COP
+  - AMA
+- Bagian Selection (Talent Cluster matrix):
+  - Sumbu Vertikal (CAPACITY): High, Moderate, Low
+  - Sumbu Horizontal (POTENTIAL): High, Moderate, Low
+  - Sel matriks:
+    - Q1 Brillian Society
+    - Q2 Promotable
+    - Q3 Contributor
+    - Q4 Sleeping
+    - Q5 UNFIT
+- Bagian Selection (Risk Management Talent Available):
+  - RMA
+  - COP
+  - AMA
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 518: 518

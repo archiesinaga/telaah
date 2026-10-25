@@ -1,0 +1,3 @@
+1. Judul atau keterangan: 10 Laporan Keuangan
+2. Label sumbu, legenda, satuan, dan periode: Tidak ada
+3. Semua angka: 10

@@ -1,0 +1,41 @@
+1. Judul atau keterangan:
+- Composable Resiliency
+  - Available & Reliable
+  - Scalable (with Cloud)
+  - Components Decoupling
+  - Platforms/Apps/ Infrastructure must be highly available & consistently reliable
+  - Focus on reducing technical debt and accelerate components decoupling
+  - Actively introducing new capabilities to provide end-to-end IT operational monitoring and capacity building
+
+- Composable Open Banking
+  - Fintech Collaborations
+  - Credit Scorig Analytics
+  - Other bank APIs
+  - Account Opening
+  - BaaS BRI api
+  - Cross-industry partnership
+  - Merchants
+  - Payment network
+  - Leading / credit platform
+  - Extending bank's outreach through partnerships with major ecosystems (both for retail and wholesale)
+  - Explore new business model and revenue stream
+  - Human Centered UX, focus on daily needs through the lifecycle of customers)
+
+- Composable AI/ML
+  - CUSTOMER ENGAGEMENT
+  - CREDIT UNDERWRITING
+  - BRI BRAIN
+  - ANTI FRAUD & RISK ANALYTICS
+  - SMART SERVICES & OPERATIONS
+  - Strengthening AI outcome effectiveness for select use cases
+  - Continuously adding useful data sources to DataHub and improve data literacy of stakeholders
+  - Personalized interaction with customers
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada
+
+3. Angka yang tertera:
+- 1
+- 2
+- 3
+- 4

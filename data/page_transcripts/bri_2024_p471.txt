@@ -1,0 +1,37 @@
+1. Judul: Corporate Governance Perception Index
+- Periode/Label dan Nilai:
+  - 2020, Most Trusted Companies: 93,25
+  - 2021, Most Trusted Companies: 95,10
+  - 2022, Most Trusted Companies: 95,18
+  - 2023, Most Trusted Companies: 95,21
+  - 2024, Most Trusted Companies: 95,31
+
+2. Infografik Aspek Governance:
+- Governance Structure: 31,80
+- Governance Process: 31,63
+- Governance Outcome: 31,88
+- Total Index: 95,31
+
+3. Judul: Penilaian CGPI 2024 di Perusahaan Anak
+- Tabel (Tahun Pelaksanaan, Pegadaian, PNM, BANK RAYA, BRI Finance, BRI Life, BRI Insurance, BRI Danareksa Sekuritas):
+  - 2022, Pegadaian: 87.81
+  - 2022, PNM: 82.45
+  - 2022, BANK RAYA: -
+  - 2022, BRI Finance: 81.55
+  - 2022, BRI Life: 83.29
+  - 2022, BRI Insurance: 82.33
+  - 2022, BRI Danareksa Sekuritas: -
+  - 2023, Pegadaian: 88.42
+  - 2023, PNM: 83.50
+  - 2023, BANK RAYA: -
+  - 2023, BRI Finance: -
+  - 2023, BRI Life: 84.40
+  - 2023, BRI Insurance: 82.85
+  - 2023, BRI Danareksa Sekuritas: -
+  - 2024, Pegadaian: 88.74 Sangat Tepercaya
+  - 2024, PNM: 84.62 Tepercaya
+  - 2024, BANK RAYA: 83.80 Tepercaya
+  - 2024, BRI Finance: -
+  - 2024, BRI Life: 85.40 Sangat Tepercaya
+  - 2024, BRI Insurance: 83.95 Tepercaya
+  - 2024, BRI Danareksa Sekuritas: 81.77 Tepercaya

@@ -1,0 +1,25 @@
+1. Judul atau keterangan:
+JEJAK LANGKAH
+
+2. Label sumbu, legenda, satuan, dan periode:
+(Tidak ada label sumbu atau legenda; satuan: US$, berupa mata uang; periode: tahun, terdiri dari 1897, 1942, 1945, 1953, 1963, 1965, 1976, 1986, 1989, 2002, 2005, 2008, 2014, 2015, 2016, 2020, 2021, 2022)
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1897: 00, 10, 2025
+- 1942: 1942
+- 1945: 1945
+- 1953: 1953
+- 1963: 1963
+- 1965: 1965, 1946
+- 1976: 1976
+- 1986: 1986, 266,55
+- 1989: 1989
+- 2002: 2002, 400
+- 2005: 2005, 1
+- 2008: 2008, 9001, 2000, 1, 5, 1
+- 2014: 2014
+- 2015: 2015
+- 2016: 2016
+- 2020: 2020, 2025
+- 2021: 2021
+- 2022: 2022, II, II

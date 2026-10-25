@@ -1,0 +1,9 @@
+Foundation of Zero Trust
+Identity
+Device
+Network / Environment
+Application Workload
+Data
+Visibility and Analytics
+Automation and Orchestration
+Governance

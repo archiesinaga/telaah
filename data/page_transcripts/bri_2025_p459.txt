@@ -1,0 +1,131 @@
+Judul: Nilai Tercatat Berdasarkan Sisa jangka Waktu
+
+Kolom/Label:
+- 6 bulan - < 1 tahun:
+  - Nilai Tercatat, Faktor ASF
+- >= 1 tahun:
+  - Nilai Tercatat, Faktor ASF
+- Total Nilai Tertimbang
+
+Baris-baris data (Nilai Tercatat, Faktor ASF, Total Nilai Tertimbang):
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 0%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 0%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: 2.651.224
+- 6 bulan - < 1 tahun - Faktor ASF: 5%
+- >= 1 tahun - Nilai Tercatat: 40.586.638
+- >= 1 tahun - Faktor ASF: 5%
+- Total Nilai Tertimbang: 3.970.682
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: 5.258.850
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: 6.328.350
+
+- Total Nilai Tertimbang: 154.552
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: 127.923
+- 6 bulan - < 1 tahun - Faktor ASF: 15%
+- >= 1 tahun - Nilai Tercatat: 514.205
+- >= 1 tahun - Faktor ASF: 15%
+- Total Nilai Tertimbang: 154.552
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- Total Nilai Tertimbang: 5.000
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 50%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: 5.000
+
+- Total Nilai Tertimbang: 21.747.773
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: 21.747.773
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 100%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- Total Nilai Tertimbang: 982.147.347
+
+- Total Nilai Tertimbang: 973.146.841
+
+- Total Nilai Tertimbang: 2.442
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: 2.442
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: -
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: -
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 100%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: 50%
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: 100%
+- Total Nilai Tertimbang: -
+
+- 6 bulan - < 1 tahun - Nilai Tercatat: -
+- 6 bulan - < 1 tahun - Faktor ASF: -
+- >= 1 tahun - Nilai Tercatat: -
+- >= 1 tahun - Faktor ASF: -
+- Total Nilai Tertimbang: -

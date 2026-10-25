@@ -1,0 +1,45 @@
+1. Judul atau keterangan:
+- Tingkat Maturitas Tata Kelola
+- 2022 = 4,16
+- 2023 = 4,30
+- Peringkat Maturitas Tata Kelola: Peringkat 1, Peringkat 2, Peringkat 3, Peringkat 4, Peringkat 5
+- Keterangan: Intial, Repeatable, Defined, Managed, Optimized
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda:
+  - 2022 (warna biru)
+  - 2023 (warna oranye)
+- Kategori / Aspek Tata Kelola:
+  - Struktur dan Proses
+  - Hubungan dengan Pihak yang memiliki klaim finansial
+  - Transparansi keuangan, Pengungkapan Informasi & Efektivitas Pengendalian Internal
+  - Efektivitas Manajemen Risiko dan Kepatuhan
+  - Kualitas Perencanaan Strategis
+  - Hubungan dengan Pemangku Kepentingan
+  - Implementasi GCG dan Manajemen Perubahan
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Di tengah diagram:
+  - 2022 = 4,16
+  - 2023 = 4,30
+- Struktur dan Proses:
+  - 2022: 4,40
+  - 2023: 4,45
+- Hubungan dengan Pihak yang memiliki klaim finansial:
+  - 2022: 3,93
+  - 2023: 4,09
+- Transparansi keuangan, Pengungkapan Informasi & Efektivitas Pengendalian Internal:
+  - 2022: 4,39
+  - 2023: 4,45
+- Efektivitas Manajemen Risiko dan Kepatuhan:
+  - 2022: 3,87
+  - 2023: 4,09
+- Kualitas Perencanaan Strategis:
+  - 2022: 4,60
+  - 2023: 4,81
+- Hubungan dengan Pemangku Kepentingan:
+  - 2022: 3,92
+  - 2023: 4,22
+- Implementasi GCG dan Manajemen Perubahan:
+  - 2022: 3,98
+  - 2023: 4,04

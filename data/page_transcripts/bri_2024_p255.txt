@@ -1,0 +1,20 @@
+Tabel Kinerja (Produktivitas) BRI Global Financial Services Co. Ltd
+Uraian | 2024 | 2023 | Pertumbuhan Nominal | Pertumbuhan %
+(1) | (2) | (3) | (4) = (2)-(3) | (5) = (4)/(3)
+Jumlah Transaksi: 2024: 456.538
+Jumlah Transaksi: 2023: 463.063
+Jumlah Transaksi: Nominal (4) = (2)-(3): (6.525)
+Jumlah Transaksi: % (5) = (4)/(3): (1,41%)
+Nominal Amount Transaksi (HKD): 2024: 1.314.503.597
+Nominal Amount Transaksi (HKD): 2023: 1.256.912.406
+Nominal Amount Transaksi (HKD): Nominal (4) = (2)-(3): 57.951.191
+Nominal Amount Transaksi (HKD): % (5) = (4)/(3): 4,58%
+Aset (HKD): 2024: 20.329.158
+Aset (HKD): 2023: 12.446.413
+Aset (HKD): Nominal (4) = (2)-(3): 7.882.745
+Aset (HKD): % (5) = (4)/(3): 63,33%
+Aset (miliar Rupiah): 2024: 42,14
+Aset (miliar Rupiah): 2023: 24,23
+Aset (miliar Rupiah): Nominal (4) = (2)-(3): 17,61
+Aset (miliar Rupiah): % (5) = (4)/(3): 71,79%
+Catatan: Kurs HKD 1 per 31 Desember 2024 = Rp2,073.110

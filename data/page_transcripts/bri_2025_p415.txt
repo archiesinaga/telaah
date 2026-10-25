@@ -1,0 +1,123 @@
+(dalam jutaan rupiah)
+
+Stage 1
+Nilai Tercatat Bruto: e
+CKPN: f
+
+Stage 2
+Nilai Tercatat Bruto: g
+CKPN: h
+
+Stage 3
+Nilai Tercatat Bruto: i
+CKPN: j
+
+Baris 1:
+e: -
+f: -
+g: -
+h: -
+i: -
+j: -
+
+Baris 2:
+e: -
+f: -
+g: 65.632.382
+h: 19.052.383
+i: 16.374.981
+j: 12.004.865
+
+Baris 3:
+e: -
+f: -
+g: 18.412.007
+h: 12.461.711
+i: 5.245.667
+j: 4.920.698
+
+Baris 4:
+e: -
+f: -
+g: 26.676.663
+h: 3.334.422
+i: 5.626.660
+j: 3.528.882
+
+Baris 5:
+e: -
+f: -
+g: 20.543.712
+h: 3.256.250
+i: 5.502.655
+j: 3.555.286
+
+Baris 6:
+e: -
+f: -
+g: 440.556
+h: 63.409
+i: 54.188
+j: -
+
+(dalam jutaan rupiah)
+
+Stage 1
+Nilai Tercatat Bruto: e
+CKPN: f
+
+Stage 2
+Nilai Tercatat Bruto: g
+CKPN: h
+
+Stage 3
+Nilai Tercatat Bruto: i
+CKPN: j
+
+Baris 1:
+e: -
+f: -
+g: -
+h: -
+i: -
+j: -
+
+Baris 2:
+e: 41.728
+f: 629
+g: 67.865.849
+h: 20.264.883
+i: 19.236.510
+j: 14.622.907
+
+Baris 3:
+e: -
+f: -
+g: 18.711.548
+h: 12.486.991
+i: 5.258.221
+j: 4.933.420
+
+Baris 4:
+e: 41.728
+f: 629
+g: 27.631.861
+h: 3.719.551
+i: 6.605.027
+j: 4.439.910
+
+Baris 5:
+e: -
+f: -
+g: 21.522.440
+h: 4.058.341
+i: 7.373.262
+j: 5.249.577
+
+Baris 6:
+e: -
+f: -
+g: 444.488
+h: 63.458
+i: 54.188
+j: -

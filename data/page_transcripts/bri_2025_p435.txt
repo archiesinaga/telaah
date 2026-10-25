@@ -1,0 +1,30 @@
+Tabel 1:
+- Judul/Keterangan: Exposure Values (berdasarkan regulatory approach), ATMR (berdasarkan regulatory approach), Capital charge after cap
+- Kolom h: Exposure Values (berdasarkan regulatory approach) SA/SSFA: -
+- Kolom i: Exposure Values (berdasarkan regulatory approach) 1250%: -
+- Kolom j: ATMR (berdasarkan regulatory approach) IRB RBA (termasuk IAA): -
+- Kolom k: ATMR (berdasarkan regulatory approach) IRB SFA: -
+- Kolom l: ATMR (berdasarkan regulatory approach) SA/SSFA: -
+- Kolom m: ATMR (berdasarkan regulatory approach) 1250%: -
+- Kolom n: Capital charge after cap IRB RBA (termasuk IAA): -
+- Kolom o: Capital charge after cap IRB SFA: -
+- Kolom p: Capital charge after cap SA/SSFA: -
+- Kolom q: Capital charge after cap 1250%: -
+(Catatan: Pola baris kosong dengan tanda "-" berulang untuk seluruh baris tabel di bagian atas).
+
+Tabel 2:
+- Judul/Keterangan: Risiko, Beban Modal Pendekatan Standar 31 Desember 2025, Beban Modal Pendekatan Standar 31 Desember 2024
+- Risiko Ekuitas - Beban Modal Pendekatan Standar 31 Desember 2025: -
+- Risiko Ekuitas - Beban Modal Pendekatan Standar 31 Desember 2024: -
+- Risiko Komoditas - Beban Modal Pendekatan Standar 31 Desember 2025: -
+- Risiko Komoditas - Beban Modal Pendekatan Standar 31 Desember 2024: -
+- Risiko Nilai Tukar - Beban Modal Pendekatan Standar 31 Desember 2025: 671.105,94
+- Risiko Nilai Tukar - Beban Modal Pendekatan Standar 31 Desember 2024: 805.030,47
+- DRC - nonsekuritisasi - Beban Modal Pendekatan Standar 31 Desember 2025: 17.065,94
+- DRC - nonsekuritisasi - Beban Modal Pendekatan Standar 31 Desember 2024: 178.841,92
+- DRC - sekuritisasi nonCTP - Beban Modal Pendekatan Standar 31 Desember 2025: -
+- DRC - sekuritisasi nonCTP - Beban Modal Pendekatan Standar 31 Desember 2024: -
+- DRC - sekuritisasi CTP - Beban Modal Pendekatan Standar 31 Desember 2025: -
+- DRC - sekuritisasi CTP - Beban Modal Pendekatan Standar 31 Desember 2024: -
+- Total - Beban Modal Pendekatan Standar 31 Desember 2025: 1.791.054,35
+- Total - Beban Modal Pendekatan Standar 31 Desember 2024: 2.165.525,07

@@ -1,0 +1,13 @@
+1. Judul atau keterangan:
+18.00
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada label sumbu atau legenda.
+- Satuan: juta, rupiah.
+- Periode: satu tahun terakhir.
+
+3. Angka yang tertera:
+- 65,61%
+- 3,7 juta
+- 80 juta
+- hemat s.d. Rp1 juta

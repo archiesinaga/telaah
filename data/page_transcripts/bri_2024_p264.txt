@@ -1,0 +1,29 @@
+Tabel Kinerja (Produktivitas) PT BRI Danareksa Sekuritas
+Satuan: dalam jutaan Rupiah
+Periode: 2024, 2023
+
+AKUMULASI NILAI TRANSAKSI BROKERAGE
+Saham - 2024: 85.034.344
+Saham - 2023: 98.134.258
+Saham - Pertumbuhan Nominal: (13.099.914)
+Saham - Pertumbuhan %: (13,35%)
+
+Obligasi Pemerintah - 2024: 275.319.420
+Obligasi Pemerintah - 2023: 272.950.420
+Obligasi Pemerintah - Pertumbuhan Nominal: 2.369.000
+Obligasi Pemerintah - Pertumbuhan %: 0,87%
+
+Obligasi Korporasi - 2024: 29.265.960
+Obligasi Korporasi - 2023: 45.000.210
+Obligasi Korporasi - Pertumbuhan Nominal: (15.734.250)
+Obligasi Korporasi - Pertumbuhan %: (34,96%)
+
+Aset - 2024: 1.089.788
+Aset - 2023: 1.059.172
+Aset - Pertumbuhan Nominal: 30.616
+Aset - Pertumbuhan %: 2,89%
+
+Laba Bersih - 2024: 9.123
+Laba Bersih - 2023: 70.520
+Laba Bersih - Pertumbuhan Nominal: (61.397)
+Laba Bersih - Pertumbuhan %: (87,06%)

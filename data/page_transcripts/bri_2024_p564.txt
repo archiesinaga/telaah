@@ -1,0 +1,30 @@
+1. Judul atau keterangan:
+Adapun prosedur Nominasi calon Dewan Komisaris dan Direksi adalah sebagai berikut.
+
+Diagram/Infografik berisi langkah-langkah nomor 1 sampai 10:
+- 1. Komite Nominasi dan Remunerasi (KNR) melalui surat Dewan Komisaris meminta kepada Direksi Daftar Top Talent BRI
+- 2. Direksi menyampaikan daftar Top Talent berdasarkan Top Talent Management System BRI hasil assessment lembaga independen dan hasil rapat Talent Committee BRI
+- 3. KNR melakukan penyaringan administrasi dan seleksi/wawancara terhadap Bakal Calon Pengurus yang diusulkan
+- 4. Berdasarkan seteksi dan hasil rapat, KNR menyampaikan rekomendasi Bakal Calon pengurus kepada Dewan Komisaris
+- 5. Dewan Komisaris melakukan rapat untuk menetapkan Calon Pengurus yang akan diusulkan kepada Pemegang Saham Seri A Dwiwarna dan/atau Cluster Talent Committee
+- 6. Dewan Komisaris menyampaikan daftar Calon Kepada Pemegang Saham Seri A Dwiwarna dan/atau Cluster Talent Committee
+- 7. KBUMN mengusulkan Calon Dalam RUPS melalui Kuasa Pemegang Saham Seri A Dwiwarna
+- 8. Penetapan Calon Pengurus Dalam RUPS
+- 9. Uji Kemampuan dan Kepatutan Pengurus
+- 10. Penetapan tanggal efektif sebagai Pengurus Perseroan
+
+2. Label sumbu, legenda, satuan, dan periode:
+Tidak ada
+
+3. Angka yang tertera:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 562

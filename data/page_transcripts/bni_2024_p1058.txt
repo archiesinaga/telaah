@@ -1,0 +1,20 @@
+1. Judul atau keterangan:
+Tidak ada judul resmi untuk infografik ini, tetapi bagian atas mencakup label "LISAN" dan bagian tengah bawah mencakup label "TERTULIS".
+
+2. Label, legenda, satuan, dan periode:
+- Bagian Lisan:
+  - "Nasabah menghubungi BNI Call Dalam Negeri: 1500046 Luar Negeri: +62 21-30500046"
+  - "Nasabah mendatangi BNI cabang terdekat"
+- Bagian Tertulis:
+  - "Nasabah mengunjungi situs web: www.bni.co.id pada menu Chat With Us"
+  - "Nasabah mendatangi BNI cabang terdekat"
+  - "Nasabah mengirimkan keluhan melalui: - Tanya BNI di BNI Mobile Banking - BNI WhatsApp Business +62 811-588-1946 - E-mail: bnicall@bni.co.id - X: @BNI dan @BNICustomerCare - Facebook: BNI - IG: @bni46"
+  - "Nasabah menggunakan aplikasi yang dapat diunduh melalui AppStore/PlayStore: BNI Call Virtual Assistant"
+- Nomor halaman bawah: "1056"
+
+3. Angka yang tertera:
+- 1500046
+- +62 21-30500046
+- +62 811-588-1946
+- 46
+- 1056

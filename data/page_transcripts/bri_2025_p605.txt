@@ -1,0 +1,13 @@
+Direktur Information Technology, Direktur Micro, Direktur Network & Retail Funding, Direktur Human Capital & Compliance, Direktur Consumer Banking, Direktur Treasury & International Banking, Total Direktur yang Hadir, Total Direksi, Kuorum:
+- Direktur Information Technology: 1, 1, 1, 1, 1
+- Direktur Micro: 1, 0, 1, 0, 1
+- Direktur Network & Retail Funding: 1, 1, 1, 1, 1
+- Direktur Human Capital & Compliance: 1, 1, 1, 1, 1
+- Direktur Consumer Banking: 1, 1, 1, 0, 1
+- Direktur Treasury & International Banking: 1, 1, 1, 1, 1
+- Total Direktur yang Hadir: 12, 11, 12, 10, 12
+- Total Direksi: 12, 11, 12, 10, 12
+- Kuorum: 100%, 100%, 100%, 100%, 100%
+
+PT Bank Rakyat Indonesia (Persero) Tbk.: 605
+Laporan Tahunan 2025

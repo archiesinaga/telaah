@@ -1,0 +1,35 @@
+Tabel Kinerja (Produktivitas) PT BRI Asuransi Indonesia
+(dalam jutaan Rupiah)
+
+Uraian
+(1)
+
+2024
+(2)
+
+2023
+(3)
+
+Pertumbuhan Nominal
+(4) = (2)-(3)
+
+Pertumbuhan %
+(5) = (4)/(3)
+
+Premi Bruto:
+2024: 3.854.198
+2023: 3.256.217
+Nominal: 597.981
+%: 18,36%
+
+Aset:
+2024: 7.721.024
+2023: 6.465.609
+Nominal: 1.255.415
+%: 19,42%
+
+Ekuitas:
+2024: 2.592.763
+2023: 2.010.563
+Nominal: 582.200
+%: 28,96%

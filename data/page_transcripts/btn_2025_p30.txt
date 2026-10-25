@@ -1,0 +1,30 @@
+INFORMASI SAHAM
+
+Tabel:
+2024
+Triwulan I: Pembukaan (Rp) 1.250, Tertinggi (Rp) 1.600, Terendah (Rp) 1.250, Penutupan (Rp) 1.555, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 3.041, Kapitalisasi Pasar (Rp Triliun) 17,54
+Triwulan II: Pembukaan (Rp) 1.490, Tertinggi (Rp) 1.515, Terendah (Rp) 1.175, Penutupan (Rp) 1.265, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 2.204, Kapitalisasi Pasar (Rp Triliun) 21,82
+Triwulan III: Pembukaan (Rp) 1.275, Tertinggi (Rp) 1.535, Terendah (Rp) 1.245, Penutupan (Rp) 1.450, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 2.110, Kapitalisasi Pasar (Rp Triliun) 20,35
+Triwulan IV: Pembukaan (Rp) 1.465, Tertinggi (Rp) 1.505, Terendah (Rp) 1.110, Penutupan (Rp) 1.140, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 1.440, Kapitalisasi Pasar (Rp Triliun) 16,00
+
+2025
+Triwulan I: Pembukaan (Rp) 1.140, Tertinggi (Rp) 1.190, Terendah (Rp) 770, Penutupan (Rp) 885, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 2.210, Kapitalisasi Pasar (Rp Triliun) 12,42
+Triwulan II: Pembukaan (Rp) 885, Tertinggi (Rp) 1.275, Terendah (Rp) 810, Penutupan (Rp) 1.115, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 2.937, Kapitalisasi Pasar (Rp Triliun) 15,65
+Triwulan III: Pembukaan (Rp) 1.095, Tertinggi (Rp) 1.410, Terendah (Rp) 1.080, Penutupan (Rp) 1.285, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 2.125, Kapitalisasi Pasar (Rp Triliun) 18,03
+Triwulan IV: Pembukaan (Rp) 1.265, Tertinggi (Rp) 1.265, Terendah (Rp) 1.090, Penutupan (Rp) 1.175, Jumlah Saham Beredar (Juta Lembar) 14,03, Volume Perdagangan (Juta Lembar) 2.336, Kapitalisasi Pasar (Rp Triliun) 16,49
+
+Grafik:
+Judul: Grafik Volume Transaksi Saham BTN Tahun 2024-2025
+Sumbu Y (Harga Penutupan Saham (Rp)): 200, 400, 600, 800, 1.000, 1.200, 1.400, 1.600, 1.800
+Periode dan Nilai (Batang grafik):
+2024:
+Triwulan I: 1.555
+Triwulan II: 1.265
+Triwulan III: 1.450
+Triwulan IV: 1.140
+
+2025:
+Triwulan I: 885
+Triwulan II: 1.115
+Triwulan III: 1.285
+Triwulan IV: 1.175

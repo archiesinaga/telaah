@@ -1,0 +1,48 @@
+1. Judul atau keterangan:
+- PILAR UTAMA TJSL
+- Pilar Ekonomi
+- Pilar Sosial
+- Pilar Lingkungan
+- Pilar Hukum dan Tata Kelola
+
+2. Label sumbu, legenda, satuan, dan periode:
+(Tidak ada sumbu, legenda, satuan, atau periode yang tercetak pada diagram.)
+
+3. Semua angka yang tertera:
+- 3: 3
+- 4: 4
+- 1: 1
+- 2: 2
+- 3: 3
+- 4: 4
+- 5: 5
+- 6: 6
+- 7: 7
+- 8: 8
+- 9: 9
+- 10: 10
+- 11: 11
+- 12: 12
+- 13: 13
+- 14: 14
+- 15: 15
+- 16: 16
+- 17: 17
+- 1: (1) Tanpa Kemiskinan
+- 2: (2) Tanpa Kelaparan
+- 3: (3) Kehidupan Sehat dan Sejahtera
+- 4: (4) Pendidikan Berkualitas
+- 5: (5) Kesetaraan Gender
+- 6: (6) Air Bersih dan Sanitasi Layak
+- 7: (7) Energi Bersih dan Terjangkau
+- 8: (8) Pekerjaan Layak dan Pertumbuhan Ekonomi
+- 9: (9) Industri, Inovasi dan Infrastruktur
+- 10: (10) Berkurangnya Kesenjangan
+- 11: (11) Kota dan Permukiman yang Berkelanjutan
+- 12: (12) Konsumsi dan Produksi yang Bertanggung Jawab
+- 13: (13) Penanganan Perubahan Iklim
+- 14: (14) Ekosistem Lautan
+- 15: (15) Ekosistem Daratan
+- 16: (16) Perdamaian, Keadilan dan Kelembagaan yang Tangguh
+- 17: (17) Kemitraan untuk Mencapai Tujuan
+- 1156: 1156

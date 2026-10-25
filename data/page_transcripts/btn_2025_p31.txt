@@ -1,0 +1,37 @@
+Grafik 1:
+1. Judul atau keterangan: Grafik Pergerakan Harga dan Volume Saham BTN Tahun 2024-2025
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu Y: Harga dan Volume Saham (Juta Lembar)
+- Periode: Triwulan I, Triwulan II, Triwulan III, Triwulan IV, 2024, 2025
+3. Angka yang tertera:
+- Triwulan I 2024: 3.041
+- Triwulan II 2024: 2.204
+- Triwulan III 2024: 2.110
+- Triwulan IV 2024: 1.440
+- Triwulan I 2025: 2.210
+- Triwulan II 2025: 2.937
+- Triwulan III 2025: 2.125
+- Triwulan IV 2025: 2.336
+
+Grafik 2:
+1. Judul atau keterangan: Grafik Pergerakan Harga dan Volume Saham BTN Tahun 2024-2025
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda: Volume Perdagangan (Juta Lembar), Penutupan
+- Periode: Triwulan I, Triwulan II, Triwulan III, Triwulan IV, 2024, 2025
+3. Angka yang tertera:
+- Triwulan I 2024 (Volume Perdagangan): 3.041
+- Triwulan I 2024 (Penutupan): 1.555
+- Triwulan II 2024 (Volume Perdagangan): 2.204
+- Triwulan II 2024 (Penutupan): 1.265
+- Triwulan III 2024 (Volume Perdagangan): 2.110
+- Triwulan III 2024 (Penutupan): 1.450
+- Triwulan IV 2024 (Volume Perdagangan): 1.440
+- Triwulan IV 2024 (Penutupan): 1.140
+- Triwulan I 2025 (Volume Perdagangan): 2.210
+- Triwulan I 2025 (Penutupan): 885
+- Triwulan II 2025 (Volume Perdagangan): 2.937
+- Triwulan II 2025 (Penutupan): 1.115
+- Triwulan III 2025 (Volume Perdagangan): 2.125
+- Triwulan III 2025 (Penutupan): 1.285
+- Triwulan IV 2025 (Volume Perdagangan): 2.336
+- Triwulan IV 2025 (Penutupan): 1.175

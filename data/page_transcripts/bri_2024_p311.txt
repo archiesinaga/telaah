@@ -1,0 +1,151 @@
+Laporan Tahunan 2024
+INDIVIDUAL
+31 Desember 2023
+Kolom utama: Jumlah, Lancar, Dalam Perhatian Khusus, Kurang Lancar, Diragukan, Macet, Jumlah
+
+Baris 1:
+Jumlah: 15.839.261
+Lancar: 33.350.175
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: 33.350.175
+
+Baris 2:
+Jumlah: 808.621
+Lancar: -
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: -
+
+Baris 3:
+Jumlah: 10.105.373
+Lancar: 10.217.408
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: 10.217.408
+
+Baris 4:
+Jumlah: 673.361.888
+Lancar: 607.935.438
+Dalam Perhatian Khusus: 39.407.524
+Kurang Lancar: 3.918.634
+Diragukan: 6.078.185
+Macet: 13.108.689
+Jumlah: 670.448.470
+
+Baris 5:
+Jumlah: 587.412
+Lancar: 545.186
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: 3.464
+Jumlah: 548.650
+
+Baris 6:
+Jumlah: 400.037.562
+Lancar: 344.928.282
+Dalam Perhatian Khusus: 13.540.756
+Kurang Lancar: 649.914
+Diragukan: 1.308.688
+Macet: 7.573.504
+Jumlah: 368.001.144
+
+Baris 7:
+Jumlah: 139.771.687
+Lancar: 100.903.883
+Dalam Perhatian Khusus: 2.846.303
+Kurang Lancar: 98.396
+Diragukan: 206.290
+Macet: 2.827.374
+Jumlah: 106.882.246
+
+Baris 8:
+Jumlah: 75.791.202
+Lancar: 47.145.841
+Dalam Perhatian Khusus: 27.999.127
+Kurang Lancar: 2.633.548
+Diragukan: 4.388.655
+Macet: 9.689.390
+Jumlah: 91.856.561
+
+Baris 9:
+Jumlah: 8.731.457
+Lancar: 4.996.856
+Dalam Perhatian Khusus: 2.702.413
+Kurang Lancar: -
+Diragukan: 131.408
+Macet: 2.820.897
+Jumlah: 10.651.574
+
+Baris 10:
+Jumlah: 50.241.445
+Lancar: 49.254.757
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: 49.254.757
+
+Baris 11:
+Jumlah: -
+Lancar: -
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: -
+
+Baris 12:
+Jumlah: 117.176.939
+Lancar: 115.900.897
+Dalam Perhatian Khusus: 1.250.166
+Kurang Lancar: 51.005
+Diragukan: 30.246
+Macet: 57.440
+Jumlah: 117.289.754
+
+Baris 13:
+Jumlah: 84.823.163
+Lancar: 88.444.604
+Dalam Perhatian Khusus: 43.719
+Kurang Lancar: 769
+Diragukan: 322
+Macet: 3.392
+Jumlah: 88.492.806
+
+Baris 14:
+Jumlah: 53.246
+Lancar: -
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: -
+
+Baris 15:
+Jumlah: -
+Lancar: -
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: -
+
+Baris 16:
+Jumlah: -
+Lancar: -
+Dalam Perhatian Khusus: -
+Kurang Lancar: -
+Diragukan: -
+Macet: -
+Jumlah: 56.502
+
+PT Bank Rakyat Indonesia (Persero) Tbk
+309

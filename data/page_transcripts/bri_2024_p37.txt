@@ -1,0 +1,25 @@
+Tabel 1:
+- Judul/Kolom: Jumlah MTN (Juta) | Harga Penawaran | Tanggal Jatuh Tempo | Tingkat Suku Bunga | Status Pembayaran
+- Baris 1: Rp2.000.000 | 100% dari jumlah pokok MTN | 24 November 2024 | 6,60% | Lunas
+- Baris 2: Rp3.000.000 | 100% dari jumlah pokok MTN | 24 November 2025 | 6,68% | Belum Lunas
+
+Tabel 2:
+- Judul/Kolom: Jumlah LTN (Juta) | Harga Penawaran | Tanggal Jatuh Tempo | Tingkat Suku Bunga | Status Pembayaran
+- Baris 1: Rp52.332 | 100% dari jumlah pokok LTN | 27 Juni 2036 | 0,55% | Belum Lunas
+- Baris 2: Rp59.485 | 100% dari jumlah pokok LTN | 25 Januari 2037 | 0,55% | Belum Lunas
+- Baris 3: Rp54.995 | 100% dari jumlah pokok LTN | 26 Februari 2037 | 0,55% | Belum Lunas
+
+Tabel 3:
+- Judul/Kolom: Lembaga Pemeringkat | Peringkat
+- Sovereign Risk: BBB
+- Outlook: Stable
+- MOODY'S
+- Counterparty Risk Rating: Baa1/P-2
+- Bank Deposits: Baa2/P-2
+- Baseline Credit Assessment: Baa2
+- Adjusted Baseline Credit Assessment: Baa2
+- Counterparty Risk Assessment: Baa1(cr)/P-2 (cr)
+- Outlook: Stable
+- PT PEMERINGKAT EFEK INDONESIA (PEFINDO)
+- Final Rating (National Rating): idAAA, Stable Outlook
+- Stand Alone Rating: idAA+(sa)

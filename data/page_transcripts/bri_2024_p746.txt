@@ -1,0 +1,12 @@
+Jenis risiko-risiko yang dikelola dalam Manajemen Risiko Terintegrasi meliputi:
+
+- Risiko Kredit
+- Risiko Hukum
+- Risiko Pasar
+- Risiko Stratejik
+- Risiko Operasional
+- Risiko Kepatuhan
+- Risiko Likuiditas
+- Risiko Reputasi
+- Risiko Transaksi Intragrup
+- Risiko Asuransi

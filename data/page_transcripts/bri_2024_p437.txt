@@ -1,0 +1,50 @@
+1. Judul atau keterangan:
+- BUSINESS STRATEGY
+- DEVELOPMENT
+- SUCCESSION
+- Talent Cluster
+- Talent Pool by Corporate Title and Expertise Field
+- Risk Management Talent Available : RMA
+- Risk Management Talent Available : AMA
+- TALENT COMMITTEE To Choose candidates & succesor
+- Employee Aspiration: EA
+- Management Endorsement (1&2): ME
+- Successor Endorsement: SE
+- Award Winner: BEA
+- Culture Agent: CA
+- BRILian Society Member: 
+- Top 5 BLDP Ranking: T5
+- 1-on-1: For Critical Position
+- Pool Based: For other Position
+- Digitalized process with BRISMART
+- Digitalized process with Brilliance
+- PERFORMANCE
+- COMPENSATION & BENEFIT
+- CAREER MANAGEMENT
+- IR
+- HCIS
+- PT Bank Rakyat Indonesia (Persero) Tbk
+- 435
+- Laporan Tahunan 2024
+
+2. Label sumbu, legenda, satuan, dan periode:
+- CAPACITY (Sumbu Y matriks Talent Cluster)
+- PERFORMANCE (Sumbu X matriks Talent Cluster)
+- High, Moderated, Low
+- Q4 SLEEPING
+- Q1 BRILIAN SOCIENTY
+- Q2 PROMOTABLE
+- Q5 UNFIT
+- Q3 CONTRIBUTOR
+- RMA, COP, AMA
+
+3. Angka yang tertera:
+- Q4 SLEEPING
+- Q1 BRILIAN SOCIENTY
+- Q2 PROMOTABLE
+- Q5 UNFIT
+- Q3 CONTRIBUTOR
+- Andi, Jabatan: Kepala Divisi/CLO, Uker: Divisi Kebijakan ..., City: Executive Vice President, JG: 16, JF: GM, MPO, PLA, RM, SMK: 3,05/3,13/3,00, Usia: 52 tahun 7 bulan, MKCT: 1 tahun 3 bulan, MKJ: 1 tahun 3 bulan, MKU: 1 tahun 3 bulan, ASC: Ready Now/2,92, 5,1
+- Budi, Jabatan: Kepala Divisi/CLO, Uker: Divisi Bisnis ..., City: Executive Vice President, JG: 16, JF: GM, RM, SMK: 3,00/3,00/3,00, Usia: 51 tahun 6 bulan, MKCT: 1 tahun 5 bulan, MKJ: 1 tahun 3 bulan, MKU: 1 tahun 3 bulan, ASC: Ready Now/3,33, 5,1
+- Candra, Jabatan: Kepala Divisi/CLO, Uker: Divisi Operasional ..., City: Executive Vice President, JG: 16, JF: CRE, GM, SMK: 3,20/3,15/3,01, Usia: 54 tahun 2 bulan, MKCT: 1 tahun 0 bulan, MKJ: 1 tahun 0 bulan, MKU: 1 tahun 0 bulan, ASC: Ready Now/2,83, 5,1
+- 435

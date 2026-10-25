@@ -1,0 +1,35 @@
+Tabel Kinerja (Produktivitas) PT BRI Manajemen Investasi
+(dalam jutaan Rupiah)
+
+Kolom:
+(1) Uraian
+(2) 2024
+(3) 2023
+Pertumbuhan:
+(4) Nominal = (2)-(3)
+(5) % = (4)/(3)
+
+Baris:
+- Laba (Rugi) Bersih:
+  - 2024: 29.456
+  - 2023: 18.157
+  - Nominal: 11.299
+  - %: 62,23%
+
+- Aset:
+  - 2024: 313.098
+  - 2023: 288.820
+  - Nominal: 24.278
+  - %: 8,41%
+
+- Kewajiban:
+  - 2024: 69.270
+  - 2023: 62.359
+  - Nominal: 6.911
+  - %: 11,08%
+
+- Ekuitas:
+  - 2024: 243.828
+  - 2023: 226.461
+  - Nominal: 17.367
+  - %: 7,67%

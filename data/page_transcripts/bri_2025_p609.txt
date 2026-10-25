@@ -1,0 +1,72 @@
+Laporan Tahunan 2025 BRI Bank Rakyat Indonesia
+
+Tabel:
+Direktur Information Technology, Direktur Micro, Direktur Network & Retail Funding, Direktur Human Capital & Compliance, Direktur Consumer Banking, Direktur Treasury & International Banking, Total Direktur yang Hadir, Total Direksi, Kuorum
+
+Baris 1:
+- Direktur Information Technology: 1
+- Direktur Micro: 1
+- Direktur Network & Retail Funding: 1
+- Direktur Human Capital & Compliance: 1
+- Direktur Consumer Banking: 1
+- Direktur Treasury & International Banking: 1
+- Total Direktur yang Hadir: 10
+- Total Direksi: 10
+- Kuorum: 100%
+
+Baris 2:
+- Direktur Information Technology: 1
+- Direktur Micro: 1
+- Direktur Network & Retail Funding: 0
+- Direktur Human Capital & Compliance: 0
+- Direktur Consumer Banking: 0
+- Direktur Treasury & International Banking: 1
+- Total Direktur yang Hadir: 8
+- Total Direksi: 8
+- Kuorum: 100%
+
+Baris 3:
+- Direktur Information Technology: 1
+- Direktur Micro: 1
+- Direktur Network & Retail Funding: 1
+- Direktur Human Capital & Compliance: 1
+- Direktur Consumer Banking: 1
+- Direktur Treasury & International Banking: 1
+- Total Direktur yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100%
+
+Baris 4:
+- Direktur Information Technology: 1
+- Direktur Micro: 1
+- Direktur Network & Retail Funding: 1
+- Direktur Human Capital & Compliance: 1
+- Direktur Consumer Banking: 1
+- Direktur Treasury & International Banking: 1
+- Total Direktur yang Hadir: 11
+- Total Direksi: 11
+- Kuorum: 100%
+
+Baris 5:
+- Direktur Information Technology: 1
+- Direktur Micro: 1
+- Direktur Network & Retail Funding: 1
+- Direktur Human Capital & Compliance: 1
+- Direktur Consumer Banking: 1
+- Direktur Treasury & International Banking: 1
+- Total Direktur yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100%
+
+Baris 6:
+- Direktur Information Technology: 1
+- Direktur Micro: 1
+- Direktur Network & Retail Funding: 1
+- Direktur Human Capital & Compliance: 1
+- Direktur Consumer Banking: 1
+- Direktur Treasury & International Banking: 1
+- Total Direktur yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100%
+
+PT Bank Rakyat Indonesia (Persero) Tbk. 609

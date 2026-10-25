@@ -1,0 +1,22 @@
+(dalam jutaan Rupiah)
+
+31 Desember 2024
+Tagihan Bersih Setelah Memperhitungkan Dampak Mitigasi Risiko Kredit
+75%: 18.393.837
+80%: 1.347.341
+90%: -
+105%: 6.187
+130%: 1.087
+75%: 420
+75%: 3.870.825
+80%: 5.202.936
+90%: 854.078
+90%: 23.758
+105%: 63.550
+130%: 5.482
+
+Tagihan Bersih Setelah FKK dan Teknik MRK
+69.066.804
+10.846
+11.298.925
+110.137

@@ -1,0 +1,22 @@
+Tabel Rasio Rentabilitas dan Profitabilitas
+(dalam %)
+Uraian, Bank Only 2024: 3,76
+Uraian, Bank Only 2023: 3,93
+Uraian, Konsolidasi 2024: 3,92
+Uraian, Konsolidasi 2023: 4,18
+ROA (before tax), Bank Only 2024: 3,76
+ROA (before tax), Bank Only 2023: 3,93
+ROA (before tax), Konsolidasi 2024: 3,92
+ROA (before tax), Konsolidasi 2023: 4,18
+ROE (Tier-1), Bank Only 2024: 22,91
+ROE (Tier-1), Bank Only 2023: 22,94
+ROE (Tier-1), Konsolidasi 2024: 21,14
+ROE (Tier-1), Konsolidasi 2023: 22,01
+ROE Balance Sheet, Bank Only 2024: 18,40
+ROE Balance Sheet, Bank Only 2023: 18,25
+ROE Balance Sheet, Konsolidasi 2024: 19,01
+ROE Balance Sheet, Konsolidasi 2023: 19,80
+NIM, Bank Only 2024: 6,47
+NIM, Bank Only 2023: 6,98
+NIM, Konsolidasi 2024: 7,74
+NIM, Konsolidasi 2023: 8,15

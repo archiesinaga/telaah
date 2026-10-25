@@ -1,0 +1,7 @@
+Tabel Kinerja (Produktivitas) PT Permodalan Nasional Madani
+(dalam jutaan Rupiah)
+Uraian | 2024 | 2023 | Pertumbuhan Nominal | Pertumbuhan %
+(1) | (2) | (3) | (4) = (2)-(3) | (5) = (4)/(3)
+Penyaluran Pembiayaan | 69.944.923 | 70.180.585 | (235.662) | (0,33%)
+Outstanding | 50.033.881 | 45.727.359 | 4.306.522 | 9,42%
+Aset | 55.348.061 | 51.106.905 | 4.241.156 | 8,30%

@@ -1,0 +1,3 @@
+1. Judul atau keterangan: KEAHLIAN & KEBERAGAMAN DIREKSI
+2. Label sumbu, legenda, satuan, dan periode: Terdapat Direktur Wanita sebanyak 25%
+3. Angka yang tertera, dipasangkan dengan label/periodenya: 25%

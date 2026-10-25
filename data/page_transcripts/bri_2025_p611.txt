@@ -1,0 +1,219 @@
+1. Judul atau keterangan:
+- Laporan Tahunan 2025
+- PT Bank Rakyat Indonesia (Persero) Tbk. 611
+- Rapat Dewan Komisaris dan Direksi
+- Jumlah dan Persentase Kehadiran
+- RUPS
+- Jumlah dan Persentase Kehadiran
+
+2. Label, legenda, satuan, dan periode:
+- Kolom Rapat Dewan Komisaris dan Direksi: Jumlah Rapat, Jumlah Kehadiran, Persentase
+- Kolom RUPS: Jumlah Rapat, Jumlah Kehadiran, Persentase
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+
+Baris 1:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 10
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 10
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 2:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 5
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 5
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 2
+- Jumlah Kehadiran (RUPS): 2
+- Persentase (RUPS): 100
+
+Baris 3:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 12
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 12
+- Persentase (Dewan Komisaris dan Direksi): 100%
+
+Baris 4:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): -
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): -
+- Persentase (Dewan Komisaris dan Direksi): -**
+
+Baris 5:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 6:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 7:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 8:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 9:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 10:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 10
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 10
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 11:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 12:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): -
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): -
+- Persentase (Dewan Komisaris dan Direksi): -**
+- Jumlah Rapat (RUPS): -
+- Jumlah Kehadiran (RUPS): -
+- Persentase (RUPS): -*
+
+Baris 13:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): -
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): -
+- Persentase (Dewan Komisaris dan Direksi): -**
+- Jumlah Rapat (RUPS): -
+- Jumlah Kehadiran (RUPS): -
+- Persentase (RUPS): -*
+
+Baris 14:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): -
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): -
+- Persentase (Dewan Komisaris dan Direksi): -**
+- Jumlah Rapat (RUPS): -
+- Jumlah Kehadiran (RUPS): -
+- Persentase (RUPS): -*
+
+Baris 15:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): -
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): -
+- Persentase (Dewan Komisaris dan Direksi): -**
+- Jumlah Rapat (RUPS): -
+- Jumlah Kehadiran (RUPS): -
+- Persentase (RUPS): -*
+
+Baris 16:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 17:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 10
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 10
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 18:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 2
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 2
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 19:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 3
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 3
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 20:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 2
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 2
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 2
+- Jumlah Kehadiran (RUPS): 2
+- Persentase (RUPS): 100%
+
+Baris 21:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 10
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 10
+- Persentase (Dewan Komisaris dan Direksi): 100%
+
+Baris 22:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 2
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 2
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 23:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 3
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 3
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 24:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 3
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 3
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 2
+- Jumlah Kehadiran (RUPS): 2
+- Persentase (RUPS): 100%
+
+Baris 25:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 9
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 9
+- Persentase (Dewan Komisaris dan Direksi): 100%
+
+Baris 26:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 4
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 4
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+Baris 27:
+- Jumlah Rapat (Dewan Komisaris dan Direksi): 2
+- Jumlah Kehadiran (Dewan Komisaris dan Direksi): 2
+- Persentase (Dewan Komisaris dan Direksi): 100%
+- Jumlah Rapat (RUPS): 1
+- Jumlah Kehadiran (RUPS): 1
+- Persentase (RUPS): 100%
+
+- Nomor halaman: 611

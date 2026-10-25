@@ -1,0 +1,53 @@
+1. Judul atau keterangan:
+- Laporan Tahunan 2025 BRI Bank Rakyat Indonesia
+- Penilaian CGPI 2024 di Perusahaan Anak
+- ASEAN Corporate Governance Scorecard
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode (Grafik Batas Atas): 2020, 2021, 2022, 2023, 2024, 2025
+- Label Predikat: Most Trusted Companies / Most Trusted
+- Tabel Penilaian CGPI Perusahaan Anak:
+  - Kolom: Tahun Pelaksanaan, Pegadaian, PNM, Bank Raya, BRI Finance, BRI Life, BRI Insurance, BRI Danareksa Sekuritas
+  - Baris Tahun: 2022, 2023, 2024, 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+Grafik 1:
+- 2020: 93,25
+- 2021: 95,10
+- 2022: 95,18
+- 2023: 95,21
+- 2024: 95,31
+- 2025: 95,38
+
+Tabel Penilaian CGPI pada Perusahaan Anak:
+- 2022, Pegadaian: 87.81
+- 2022, PNM: 82.45
+- 2022, Bank Raya: -
+- 2022, BRI Finance: 81.55
+- 2022, BRI Life: 83.29
+- 2022, BRI Insurance: 82.33
+- 2022, BRI Danareksa Sekuritas: -
+- 2023, Pegadaian: 88.42
+- 2023, PNM: 83.50
+- 2023, Bank Raya: -
+- 2023, BRI Finance: -
+- 2023, BRI Life: 84.40
+- 2023, BRI Insurance: 82.85
+- 2023, BRI Danareksa Sekuritas: -
+- 2024, Pegadaian: 88.74
+- 2024, PNM: 84.62
+- 2024, Bank Raya: 83.80
+- 2024, BRI Finance: -
+- 2024, BRI Life: 85.40
+- 2024, BRI Insurance: 83.95
+- 2024, BRI Danareksa Sekuritas: 81.77
+- 2025, Pegadaian: 89.05 Most Trusted
+- 2025, PNM: 85.55 Most Trusted
+- 2025, Bank Raya: 85.07 Most Trusted
+- 2025, BRI Finance: -
+- 2025, BRI Life: 86.35 Most Trusted
+- 2025, BRI Insurance: 85.25 Most Trusted
+- 2025, BRI Danareksa Sekuritas: 83.46 Trusted
+
+Nomor Halaman:
+- PT Bank Rakyat Indonesia (Persero) Tbk. 553

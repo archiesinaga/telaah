@@ -1,0 +1,114 @@
+31 Desember 2024
+Indikator Bisnis (IB): (9)
+Komponen Indikator Bisnis (KIB): (10)
+Komponen Kerugian Risiko Operasional (KKRO): (11)
+Faktor Pengali Kerugian Intern (FPKI): (12)
+Modal Minimum Risiko Operasional (MMRO): (13)
+ATMR Risiko Operasional: (14)
+
+Baris 1:
+Indikator Bisnis (IB): 92.934.419
+Komponen Indikator Bisnis (KIB): 13.490.163
+Komponen Kerugian Risiko Operasional (KKRO): 4.175.920
+Faktor Pengali Kerugian Intern (FPKI): 0,75
+Modal Minimum Risiko Operasional (MMRO): 10.070.719
+ATMR Risiko Operasional: 125.883.982
+
+Baris 2:
+Indikator Bisnis (IB): 92.934.419
+Komponen Indikator Bisnis (KIB): 13.490.163
+Komponen Kerugian Risiko Operasional (KKRO): 4.175.920
+Faktor Pengali Kerugian Intern (FPKI): 0,75
+Modal Minimum Risiko Operasional (MMRO): 10.070.719
+ATMR Risiko Operasional: 125.883.982
+
+Validasi:
+Validasi Kolom T-3: -
+Validasi Kolom T-4: -
+Validasi Kolom T-5: -
+Validasi Kolom T-6: -
+Validasi Kolom T-7: -
+Validasi Kolom T-8: -
+Validasi Kolom T-9: -
+Validasi Kolom Rata-rata 10 Tahun: -
+
+Validasi Kolom T-3: -
+Validasi Kolom T-4: -
+Validasi Kolom T-5: -
+Validasi Kolom T-6: -
+Validasi Kolom T-7: -
+Validasi Kolom T-8: -
+Validasi Kolom T-9: -
+Validasi Kolom Rata-rata 10 Tahun: -
+
+Validasi Kolom T-3: -
+Validasi Kolom T-4: -
+Validasi Kolom T-5: -
+Validasi Kolom T-6: -
+Validasi Kolom T-7: -
+Validasi Kolom T-8: -
+Validasi Kolom T-9: -
+Validasi Kolom Rata-rata 10 Tahun: -
+
+Validasi Kolom T-3: -
+Validasi Kolom T-4: -
+Validasi Kolom T-5: -
+Validasi Kolom T-6: -
+Validasi Kolom T-7: -
+Validasi Kolom T-8: -
+Validasi Kolom T-9: -
+Validasi Kolom Rata-rata 10 Tahun: -
+
+Validasi Kolom T-3: -
+Validasi Kolom T-4: -
+Validasi Kolom T-5: -
+Validasi Kolom T-6: -
+Validasi Kolom T-7: -
+Validasi Kolom T-8: -
+Validasi Kolom T-9: -
+Validasi Kolom Rata-rata 10 Tahun: -
+
+Validasi Kolom T-3: 1.303.607,96
+Validasi Kolom T-4: 356.890,82
+Validasi Kolom T-5: 89.009,39
+Validasi Kolom T-6: 46.053,27
+Validasi Kolom T-7: 41278,16
+Validasi Kolom T-8: 19.649,44
+Validasi Kolom T-9: 2.272,00
+Validasi Kolom Rata-rata 10 Tahun: 234.910,52
+
+Validasi Kolom T-3: 15,00
+Validasi Kolom T-4: 15,00
+Validasi Kolom T-5: 13,00
+Validasi Kolom T-6: 5,00
+Validasi Kolom T-7: 5,00
+Validasi Kolom T-8: 12,00
+Validasi Kolom T-9: 1,00
+Validasi Kolom Rata-rata 10 Tahun: 13
+
+Validasi Kolom T-3: 0,00
+Validasi Kolom T-4: 0,00
+Validasi Kolom T-5: 0,00
+Validasi Kolom T-6: 0,00
+Validasi Kolom T-7: 0,00
+Validasi Kolom T-8: 0,00
+Validasi Kolom T-9: 0,00
+Validasi Kolom Rata-rata 10 Tahun: 0,00
+
+Validasi Kolom T-3: 0,00
+Validasi Kolom T-4: 0,00
+Validasi Kolom T-5: 0,00
+Validasi Kolom T-6: 0,00
+Validasi Kolom T-7: 0,00
+Validasi Kolom T-8: 0,00
+Validasi Kolom T-9: 0,00
+Validasi Kolom Rata-rata 10 Tahun: 0,00
+
+Validasi Kolom T-3: 1.303.607,96
+Validasi Kolom T-4: 356.890,82
+Validasi Kolom T-5: 89.009,39
+Validasi Kolom T-6: 46.053,27
+Validasi Kolom T-7: 41.278,16
+Validasi Kolom T-8: 19.649,44
+Validasi Kolom T-9: 2.272,00
+Validasi Kolom Rata-rata 10 Tahun: 234.910,52

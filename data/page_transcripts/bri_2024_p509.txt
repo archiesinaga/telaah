@@ -1,0 +1,9 @@
+Direktur Commercial, Small and Medium Business: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+Direktur Digital dan Teknologi Informasi: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+Direktur Bisnis Mikro: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+Direktur Retail Funding and Distribution: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+Direktur Kepatuhan: 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1
+Direktur Bisnis Konsumer: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+Direktur Yang Hadir: 12, 12, 12, 11, 11, 12, 12, 10, 12, 12, 12
+Total Direksi: 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12
+Kuorum: 100,00%, 100,00%, 100,00%, 91,67%, 91,67%, 100,00%, 100,00%, 83,33%, 100,00%, 100,00%, 100,00%

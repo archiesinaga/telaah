@@ -1,0 +1,35 @@
+Tabel Kinerja (Produktivitas) International Business
+Uraian: 
+- 2024: 2024
+- 2023: 2023
+- Pertumbuhan Nominal: 394.036
+- Pertumbuhan %: 27,09%
+REVENUE (jutaan Rupiah)
+- International Business: 2024: 1.848.390, 2023: 1.454.354, Nominal: 394.036, %: 27,09%
+VOLUME (miliar Rupiah)
+- Correspondent Banking Business: 2024: 68.261, 2023: 60.905, Nominal: 7.356, %: 12,08%
+- Banknotes Business: 2024: 60.063, 2023: 56.423, Nominal: 3.640, %: 6,45%
+JUMLAH TRANSAKSI
+- Cross Border Payment Business: 2024: 14.875.504, 2023: 11.490.099, Nominal: 3.385.405, %: 29,46%
+
+Grafik 1:
+1. Judul atau keterangan: Grafik Volume Correspondent Banking Business
+2. Label sumbu, legenda, satuan, dan periode:
+   - Satuan: (dalam miliar Rupiah)
+   - Sumbu Y: 70.000, 68.000, 66.000, 64.000, 62.000, 60.000, 58.000, 56.000
+   - Periode: 2023, 2024
+   - Keterangan lain: 12,08% Yoy
+3. Semua angka yang tertera:
+   - 2023: 60.905
+   - 2024: 68.261
+
+Grafik 2:
+1. Judul atau keterangan: Grafik Volume Banknotes Business
+2. Label sumbu, legenda, satuan, dan periode:
+   - Satuan: (dalam miliar Rupiah)
+   - Sumbu Y: 61.000, 60.000, 59.000, 58.000, 57.000, 56.000, 55.000, 54.000
+   - Periode: 2023, 2024
+   - Keterangan lain: 6,45% Yoy
+3. Semua angka yang tertera:
+   - 2023: 56.423
+   - 2024: 60.063

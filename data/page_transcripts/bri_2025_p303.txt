@@ -1,0 +1,6 @@
+Tabel Kinerja (Produktivitas) PT Pegadaian
+(dalam jutaan Rupiah)
+Uraian (1): 2025 (2): 2024 (3): Pertumbuhan Nominal (4) = (2)-(3): Pertumbuhan % (5) = (4)/(3)
+Aset: 151.260.934, 102.172.436, 49.088.498, 48,04%
+Pembiayaan (Outstanding Loan/OSL Gross): 126.048.019, 85.378.813, 40.669.206, 47,63%
+Laba Usaha: 8.344.211, 5.851.796, 2.492.415, 42,59%

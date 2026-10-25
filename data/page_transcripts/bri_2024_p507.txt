@@ -1,0 +1,147 @@
+Laporan Tahunan 2024
+
+Header Tabel:
+- Direktur Commercial, Small and Medium Business
+- Direktur Digital dan Teknologi Informasi
+- Direktur Bisnis Mikro
+- Direktur Retail Funding and Distribution
+- Direktur Kepatuhan
+- Direktur Bisnis Konsumer
+- Direktur Yang Hadir
+- Total Direksi
+- Kuorum
+
+Baris 1:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 2:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 3:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 4:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 5:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 6:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 7:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 8:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 11
+- Total Direksi: 12
+- Kuorum: 91,67%
+
+Baris 9:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 10:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 11:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+Baris 12:
+- Direktur Commercial, Small and Medium Business: 1
+- Direktur Digital dan Teknologi Informasi: 1
+- Direktur Bisnis Mikro: 1
+- Direktur Retail Funding and Distribution: 1
+- Direktur Kepatuhan: 1
+- Direktur Bisnis Konsumer: 1
+- Direktur Yang Hadir: 12
+- Total Direksi: 12
+- Kuorum: 100,00%
+
+PT Bank Rakyat Indonesia (Persero) Tbk
+505
