@@ -930,3 +930,21 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. Transcription day 3 after 14:00 local on 10-26: ask the user OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 btn_2025 mandiri_2024 btn_2024` (918 pages left, ~2 days); commit `data/page_transcripts/`. No evals/drafting on the same Gemini key meanwhile. Then `telaah transcripts-index` and the full dev re-eval (second look ON vs OFF, new recall scoring, `numeric_match`). Sonnet 5.5 runs, Opus 5.5 reads.
 2. Optional, no Gemini: opt-in repair of the cited page in plain RAG answers (`repair_text`), evaluated in the same re-eval (Opus 5.5 decides, Sonnet 5.5 codes).
 3. User: record the 2-minute demo video from the local app; review test candidates (`review_app.py`, Test) and write 8 test unanswerables; decide test.jsonl / candidates_test.jsonl (commit vs .gitignore). Then SFT data (roadmap week 10; Opus 5.5 for the design).
+
+# Update — 2026-10-25 (21:05): citation repair, quota check, handoff
+## Done (commit f284d0d)
+- `TELAAH_CITE_REPAIR=1` (default OFF): in RAG answers a citation moves to the retrieved page of the same document that holds the figures. `answer.repair_cites` = `agent.repair_text` + new `agent.repair_split` (sentences citing several pages, e.g. bank figure + regulation threshold: a cited page holding none of the figures is swapped for a candidate page of the same doc holding the uncovered figures). Applied in `answer.ask` (first look) and `answer.ask_entities` (final compose text). Only the page number changes; refusals, retrieval and unmatched figures untouched. README switch list updated. pytest 102.
+- Check case (RIM Mandiri vs PADG 23/2025, goes through `ask_entities`): cites PADG p.4 -> p.7, trust line warning -> ok. Not measured on the dev set: old runs do not store retrieved pages (runs from 10-25 on store `retrieved_top`).
+## Decisions
+- Space stays unpublished (HF needs PRO for Gradio Spaces); see the 10-25 night update above. Demo video comes from the local app.
+- Gemini quota: not refreshed. Last refusal was the end of transcription day 2 (log `eval/bench/transcribe_scale2.log`); reset = midnight Pacific = 14:00 local (UTC+7) on 10-26, 15:00 local after US daylight saving ends on 11-01. No test request was sent.
+## Lessons
+- The local demo (`app.py`, port 7860) holds the Qdrant lock: stop it before any other script that queries (CLI, evals, smoke scripts) or you get "Storage folder ... already accessed by another instance". Stop with PowerShell: `Get-CimInstance Win32_Process -Filter "Name='python.exe'" | ? CommandLine -like '*app.py*' | % { Stop-Process -Id $_.ProcessId -Force }`.
+- Python on this Windows console needs `PYTHONIOENCODING=utf-8` to print the demo's check marks. `deploy/build_space.py` cannot run while a shell has `space_build/` as its working directory.
+## Running / pending
+- Local demo app is running in the background (port 7860) from this session; it dies with the session or stop it as above.
+- `test.jsonl` / `candidates_test.jsonl` and `eval/bench/_second_look.py`, `_rank615.py` still untracked (user decides commit vs .gitignore; do not read the test files).
+## Next
+1. After 14:00 local on 10-26: ask the user OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 btn_2025 mandiri_2024 btn_2024` (918 pages left, ~2 days); commit `data/page_transcripts/` after each run. No evals/drafting on the same Gemini key meanwhile. Model: Sonnet 5.5.
+2. When transcription is done: `telaah transcripts-index`, then the full dev re-eval with second look ON vs OFF, `TELAAH_CITE_REPAIR` ON vs OFF, new agent recall and `numeric_match`. Sonnet 5.5 runs, Opus 5.5 reads the results.
+3. User: record the 2-minute demo video from the local app; review test candidates (`review_app.py`, Test) and write 8 test unanswerables; decide on the untracked files. Then SFT data / DPO design (roadmap weeks 10-11, Opus 5.5).
