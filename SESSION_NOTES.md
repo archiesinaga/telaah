@@ -878,3 +878,12 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. After 14:00 local on 10-25: ask OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 bri_2025 bri_2024 btn_2025 mandiri_2024 btn_2024` (resumable, stops at quota; ~3 more days). No evals/drafting on the same key meanwhile. Commit `data/page_transcripts/` after each run. Model: Sonnet 5.5.
 2. When all done: `telaah transcripts-index`, then full dev re-eval before `TELAAH_TRANSCRIPTS` goes default-on (Sonnet 5.5 run, Opus 5.5 to read results).
 3. Still open: 18 chart questions without chart word (`wants_image`); agent recall top-5 per step; calculation levers; user reviews test candidates and writes 8 test unanswerables; Gradio demo step 1; decide keep/delete of untracked scratch.
+
+# Update — 2026-10-25 (19:05): transcription scaling day 2
+## Done
+- `telaah transcribe --docs bni_2024 bri_2025 bri_2024 btn_2025 mandiri_2024 btn_2024`: 500 pages, then daily quota (log `eval/bench/transcribe_scale2.log`, untracked). ~45 min, ~0.6 GB RAM, no GPU.
+- bri_2025, bri_2024 complete; bni_2024 238/239 (p.602 failed on a connection error; retried on next run); btn_2025 45/208 (stopped at p.88). Committed as cb683bc.
+- 918 pages left: btn_2025 ~163, mandiri_2024 358, btn_2024 396 (~2 more days).
+## Next
+1. After 14:00 local on 10-26: ask OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 btn_2025 mandiri_2024 btn_2024`; commit `data/page_transcripts/`. Model: Sonnet 5.5.
+2. Rest unchanged (see 10-24 16:10 Next 2-3).
