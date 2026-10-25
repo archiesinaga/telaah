@@ -71,7 +71,7 @@ def find(q: dict) -> list[list]:
 
 def build() -> dict[str, list]:
     rows = [q for q in read_jsonl(HERE / "dev.jsonl")
-            if q["answerable"] and q["source"] != "seed" and q["type"] in {"text_fact", "table_lookup", "calculation", "regulation"}]
+            if q["answerable"] and q["source"] != "seed" and q["type"] in {"text_fact", "table_lookup", "calculation", "regulation", "chart"}]
     extra = {q["id"]: f for q in rows if 0 < len(f := find(q)) <= MAX_EXTRA}
     OUT.write_text(json.dumps(extra, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(rows)} dev questions checked, {len(extra)} gained pages (<= MAX_EXTRA each), {sum(map(len, extra.values()))} pages added")
