@@ -35,6 +35,19 @@ def test_numeric_match_formats_are_read_per_number():
     assert not numeric_match("pertumbuhan 14,76%", "1.476")  # decimal is not thousands
 
 
+def test_numeric_match_unit_conversion():
+    # another unit word: convert, then round or truncate to gold's last printed digit
+    assert numeric_match("adalah Rp328.309.681 juta [mandiri_2025 p.296]", "Rp328,30 triliun")  # truncated
+    assert numeric_match("Rp154.987.000 juta", "Rp155 triliun")  # rounded
+    assert numeric_match("Rp14.782.500 juta", "Rp14.783 miliar")
+    assert not numeric_match("Rp154.200.000 juta", "Rp155 triliun")  # neither rounds nor truncates to 155
+    assert not numeric_match("Rp970.233.234 juta", "Rp992,9 triliun")
+    # same unit word or no unit word: still exact
+    assert not numeric_match("Rp328,31 triliun", "Rp328,30 triliun")
+    assert not numeric_match("Rp328.309.681", "Rp328,30 triliun")
+    assert not numeric_match("16,63%", "16,6%")
+
+
 def test_parse_score():
     from telaah.judge import parse_score
 
