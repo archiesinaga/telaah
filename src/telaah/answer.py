@@ -12,6 +12,7 @@ from telaah.config import (
     LLM_MIN_INTERVAL,
     LLM_MODEL,
     MAX_ANSWER_TOKENS,
+    TOP_K,
     VISION_PAGES,
 )
 from telaah.retrieve import entity_groups, retrieve, retrieve_entity
@@ -297,32 +298,59 @@ def ask_entities(question: str, groups: list[list[str]]) -> dict:
         "sub_answers": parts,
     }
 
+# Second look (opt-in): a refusal from the top k pages is asked again on ranks k+1..2k, then 2k+1..3k (text only,
+# no vision). Dev experiment, 10-25 (27 wrongly refused, 22 unanswerable): 17 rescued, 1 unanswerable answered
+# with a figure from another regulation. A later answer is kept only if `later_look_ok` accepts it.
+SECOND_LOOK = os.getenv("TELAAH_SECOND_LOOK", "0") == "1"
+LOOKS = 3
+
+
+def later_look_ok(question: str, text: str, pages: list[tuple[str, int]]) -> tuple[str, bool]:
+    """(repaired answer, accept?) for an answer from a later look: it must cite, every number must be on a
+    cited page (after moving a citation to the look page holding it), and when the question names banks or
+    regulations every cited document must be one of them (the leaked answer cited POJK 22/2023 for POJK 12/2024)."""
+    from telaah.agent import check_text, repair_text
+    from telaah.filters import named_prefixes
+
+    text = repair_text(text, pages)
+    cites = parse_citations(text)
+    named = named_prefixes(question)
+    on_topic = all(any(d.startswith(p) for p in named) for d, _ in cites) if named else True
+    return text, bool(cites) and on_topic and not check_text(text)
+
+
 def ask(question: str, k: int | None = None) -> dict:
     groups = entity_groups(question)
-    if groups:
+    if groups:  # no second look here: each entity's own top k only
         return ask_entities(question, groups)
-    chunks, vision_pages = add_page_images(question, retrieve(question, **({} if k is None else {"k": k})))
+    n = TOP_K if k is None else k
+    pool = retrieve(question, k=n * LOOKS if SECOND_LOOK else n)  # same top n for any k
+    chunks, vision_pages = add_page_images(question, pool[:n])
     llm = OpenAI(base_url=LLM_BASE_URL, api_key=LLM_API_KEY, max_retries=LLM_MAX_RETRIES)
     hint = VISION_HINT if vision_pages else ""
-    throttle()
-    resp = llm.chat.completions.create(
-        model=LLM_MODEL,
-        temperature=0,
-        max_tokens=MAX_ANSWER_TOKENS,
-        messages=[
-            {"role": "system", "content": SYSTEM},
-            {
-                "role": "user",
-                "content": f"{hint}Konteks:\n{build_context(chunks, question)}\n\nPertanyaan: {question}",
-            },
-        ],
-    )
-    text = resp.choices[0].message.content or ""
+    context = build_context(chunks, question)
+    text = _chat(llm, SYSTEM, f"{hint}Konteks:\n{context}\n\nPertanyaan: {question}")
+    retrieved, look = [(c["doc_id"], c["page"]) for c in chunks], 1
+    for i in range(1, LOOKS if SECOND_LOOK else 1):
+        part = pool[i * n:(i + 1) * n]
+        if REFUSAL not in text or not part:
+            break
+        pages = [(c["doc_id"], c["page"]) for c in part]
+        retrieved += pages
+        ctx = build_context(part, question)
+        got = _chat(llm, SYSTEM, f"Konteks:\n{ctx}\n\nPertanyaan: {question}")
+        if REFUSAL in got:
+            continue
+        got, ok = later_look_ok(question, got, pages)
+        if ok:
+            text, context, look = got, ctx, i + 1
+        break  # an answer that fails the check ends the search: keep the refusal
     return {
         "answer": text,
         "citations": parse_citations(text),
-        "retrieved": [(c["doc_id"], c["page"]) for c in chunks],
-        "context": build_context(chunks, question),
+        "retrieved": retrieved,  # first n = first look, so recall@k is unchanged
+        "context": context,
         "refused": REFUSAL in text,
         "vision": vision_pages,
+        "look": look,
     }

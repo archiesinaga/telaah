@@ -27,6 +27,18 @@ def doc_ids() -> tuple[str, ...]:
     return tuple(sorted(p.stem for p in PROCESSED_DIR.glob("*.jsonl")))
 
 
+def named_prefixes(question: str) -> list[str]:
+    """Doc-id prefixes of the banks and regulations a question names, whether or not they are in the corpus:
+    'POJK Nomor 12 Tahun 2024' -> 'ojk_pojk_12_2024', 'BRI' -> 'bri_'."""
+    out = []
+    for m in REG_RE.finditer(question):
+        kind, num, year = m.group(1).lower(), m.group(2), m.group(3) or m.group(4)
+        out.append(f"{REG_PREFIX[kind]}_{num}_" + (year or ""))
+    q = question.lower()
+    out += [bank + "_" for bank, pat in BANKS.items() if re.search(pat, q)]
+    return out
+
+
 def detect_groups(question: str) -> list[list[str]]:
     """One group of doc_ids per entity named in the question; [] means no filter."""
     q = question.lower()
