@@ -994,9 +994,12 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 ## Lessons
 - An empty `$(cat ids.txt)` after `--ids` starts a full dev run: build the list safely (assert non-empty) and kill with `Get-CimInstance ... telaah*eval* | Stop-Process` if it happens.
 - The "background command completed" notice for `cmd &` only means the shell wrapper exited, not the eval; check the `.json` next to the `.partial.jsonl`.
+## Addendum (23:40): bd0257, and two ideas that were already tried
+- bd0257 (right at baseline, wrong with year union): the 2024 step's own pages are identical in both runs (bri_2024 p.994 rank 1, holds 128.886 = 31 Dec 2024). The union adds 5 look-alike bond tables from bri_2025 (p.1131 even holds the right 128.886), and with ~10 "Indah Kiat" rows in context the 7B took p.995 (118.877, the 2023 comparison table). Reading noise from similar tables, same as the step-pool regressions (bd0206, bd0263). Possible cap (newer report's top 2 instead of 5) NOT tried: tuning on 19 questions to win back 1 overfits; revisit only if the full re-eval shows more such losses.
+- `TELAAH_STEP_POOL` repeats experiment A of 10-21 ("each step also reads the whole question's pages", reverted, see "Tried and REVERTED" above) with the same outcome. "Growth questions -> agent" (router) is experiment B (0.222 -> 0.111, reverted) and was NOT re-run. Before proposing a method, grep these notes for "Tried and REVERTED" / "kept OFF".
+- Calc work paused at a projected 15/53. Untried levers: planner fixes for the per-entity path (bd0225/0226 unsplit, bd0239/0266 lose the entity; Opus 5.5 designs the prompt), table-row excerpt for steps (reading errors bd0257/0213/0272), Gemini for calc steps (after transcription).
 ## Next
-1. Inspect bd0257 (right at baseline, now 75.555 vs gold 85.564): which step read a different figure with the union?
-2. After 14:00 local on 10-27: ask OK, then `telaah transcribe --docs mandiri_2024 btn_2024` (~425 pages); commit `data/page_transcripts/`.
-3. Then `telaah transcripts-index` and the full dev re-eval: second look, cite repair, step pool, year union ON vs OFF; decide the defaults (Opus 5.5 reads).
-4. Remaining calc failures after the fix: plan problems (bd0225/0226 unsplit, bd0239/0266 lose the entity), read errors (bd0213, bd0272, bd0259), 6 read cases for a stronger step model.
-5. User: record the demo video; review test candidates; write 8 test unanswerables; decide test.jsonl / candidates_test.jsonl.
+1. After 14:00 local on 10-27: ask OK, then `telaah transcribe --docs mandiri_2024 btn_2024` (~425 pages); commit `data/page_transcripts/`.
+2. Then `telaah transcripts-index` and the full dev re-eval: second look, cite repair, year union ON vs OFF (step pool stays OFF); decide the defaults (Opus 5.5 reads). Model: Sonnet 5.5 runs.
+3. Calc, later: see the untried levers in the 23:40 addendum.
+4. User: record the demo video; review test candidates; write 8 test unanswerables; decide test.jsonl / candidates_test.jsonl.
