@@ -948,3 +948,23 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. After 14:00 local on 10-26: ask the user OK, then `.venv/Scripts/telaah.exe transcribe --docs bni_2024 btn_2025 mandiri_2024 btn_2024` (918 pages left, ~2 days); commit `data/page_transcripts/` after each run. No evals/drafting on the same Gemini key meanwhile. Model: Sonnet 5.5.
 2. When transcription is done: `telaah transcripts-index`, then the full dev re-eval with second look ON vs OFF, `TELAAH_CITE_REPAIR` ON vs OFF, new agent recall and `numeric_match`. Sonnet 5.5 runs, Opus 5.5 reads the results.
 3. User: record the 2-minute demo video from the local app; review test candidates (`review_app.py`, Test) and write 8 test unanswerables; decide on the untracked files. Then SFT data / DPO design (roadmap weeks 10-11, Opus 5.5).
+
+# Update — 2026-10-26 (15:35): transcription day 3, second look and cite repair A/B
+## Done
+- Transcription day 3: started 11:04 by mistake (quota resets 14:00 local; 1 page, bni_2024 p.602), real run after 14:05: 492 pages, then daily quota (log `eval/bench/transcribe_scale4.log`, untracked). bni_2024 and btn_2025 complete; mandiri_2024 done to p.1206. Committed as 2cd5a60. Left: ~425 pages = mandiri_2024 p.1207+ (~29) and btn_2024 (396).
+- A/B on the non-chart dev set (99 ids `_new_ids_nochart.txt`, router + judge-on-fail, `qwen2.5:7b-gpu`, vision OFF via blank GEMINI_API_KEY/VISION_API_KEY, `TELAAH_COLPALI_CACHE_ONLY=1`, transcripts OFF; no Gemini used). Second look and cite repair runs also include the 22 dev unanswerables (121 ids, scratchpad `ids_sl.txt`).
+  - Baseline `eval/runs/bench-dev-20261026-111017.json`: recall 0.657, citation 0.333, refusal 0.677, numeric 0.266 (n=79), calc numeric 0.17, table 0.43. Calc recall 0.68 vs 0.38 on 10-23 is the new per-step scoring, not a better pipeline.
+  - Second look (`TELAAH_SECOND_LOOK=1`, `...124102.json`): numeric 0.329, refusal 0.747, citation 0.404, recall unchanged. 5 numeric wrong->right (bd0089, 0099, 0137, 0140, 0344), 0 right->wrong. All 22 dev unanswerables stay refused (no leak).
+  - Cite repair (`TELAAH_CITE_REPAIR=1`, `...143916.json`): numeric/refusal/recall identical to baseline; citation 0.333 -> 0.354 after rescore (+2 questions, table_lookup). No unanswerable leak.
+- bd0224 looked like a cite-repair regression but was a scoring gap: the figure -1,03% is also on btn_2024 p.304 (KAS row, "(1,03%)"), which extra_gold missed. Added `bd0224: [btn_2024, 304]` to `extra_gold_dev.json` (hand edit; rebuilding with `extra_gold.py` would drop it). Commit f2d437b. Rescore: `PYTHONIOENCODING=utf-8 .venv/Scripts/python eval/bench/extra_gold.py --rescore <run.json>` (no `-I`, it imports `common`).
+## Decisions
+- Not decided: defaults for `TELAAH_SECOND_LOOK` (leaning ON) and `TELAAH_CITE_REPAIR` (safe, small gain). Decide after the full re-eval with new transcripts (Opus 5.5).
+## Lessons
+- Check the clock before asking to run transcription: quota resets 14:00 local (15:00 after 11-01).
+- Ollama was not running at session start; `ollama serve` (hidden window) before any eval. `.env` has `LLM_MODEL=qwen2.5:7b-gpu`.
+- Free RAM was 0.8 GB with Chrome open, 4.5 GB after closing it; the eval ran fine at ~0.5 GB free (no crash). Run durations: baseline ~90 min, 121-id runs ~1.5-2 h.
+- To disable Gemini vision without editing `.env`: set GEMINI_API_KEY and VISION_API_KEY to empty strings in the shell (dotenv does not override).
+## Next
+1. After 14:00 local on 10-27: ask OK, then `.venv/Scripts/telaah.exe transcribe --docs mandiri_2024 btn_2024` (~425 pages, ~1 day); commit `data/page_transcripts/`. Model: Sonnet 5.5.
+2. Then `telaah transcripts-index` and the full dev re-eval (second look ON vs OFF, cite repair ON vs OFF, transcripts ON, new recall and `numeric_match`); Opus 5.5 reads it and decides the defaults.
+3. User: record the demo video; review test candidates (`review_app.py`); write 8 test unanswerables; decide `test.jsonl` / `candidates_test.jsonl` (commit vs .gitignore). Then SFT data (roadmap week 10, Opus 5.5).
