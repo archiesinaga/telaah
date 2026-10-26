@@ -25,6 +25,14 @@ from telaah.retrieve import entity_groups
 MAX_STEPS = 5
 # one-figure steps (bank, indicator, year) are read from the facts table instead of RAG; TELAAH_FACTS=0 disables
 USE_FACTS = os.environ.get("TELAAH_FACTS", "1") == "1"
+# opt-in: a RETRIED RAG step of a multi-step plan also sees the top 5 pages of the original question (dev diagnosis
+# 10-26: in 16 of 24 agent retrieval misses the page holding both periods is in the original question's top 5; on
+# every first try it made working steps worse, 9 -> 8 right, so it only applies to the retry)
+STEP_POOL = os.environ.get("TELAAH_STEP_POOL", "0") == "1"
+# opt-in: when one bank is split into its report years, the earlier year's step also reads the newer reports' top
+# pages (dev diagnosis 10-26: 16 of 24 agent calc retrieval misses were an earlier-year step locked out of the
+# newer report whose table holds both years; reading both reports put the gold page in every step for 10 of them)
+YEAR_UNION = os.environ.get("TELAAH_YEAR_UNION", "0") == "1"
 RETRY_K = 8
 RETRY_ENTITY_PAGES = 8
 CALC_RE = re.compile(r"selisih|perbedaan|beda\b|berapa kali|rata-rata|total gabungan|jumlah", re.I)
@@ -159,6 +167,12 @@ def check_text(text: str, allowed: set[str] = frozenset()) -> list[dict]:
     return bad
 
 
+def year_split(groups: list[list[str]]) -> bool:
+    """One bank's annual reports read as separate entities, one report each (bri_2024 | bri_2025)."""
+    docs = [d for g in groups for d in g]
+    return all(len(g) == 1 for g in groups) and len({d.rsplit("_", 1)[0] for d in docs}) == 1
+
+
 def plan(state: State) -> dict:
     t0 = time.time()
     q = state["question"]
@@ -193,7 +207,11 @@ def plan(state: State) -> dict:
     if groups:  # comparison across documents: the tuned one-question-per-entity split, each read from its own docs
         steps = [{"q": s, "docs": g, "status": "pending", "attempts": 0}
                  for s, g in zip(split_question(_llm(), q, groups), groups)]
-        calc = bool(CALC_RE.search(q) or DERIVE_RE.search(q))
+        if YEAR_UNION and year_split(groups):
+            for st in steps:
+                st["later"] = [d for g in groups for d in g if d > st["docs"][0]]
+        # growth/change questions need the calculator too (the 7B got 259,9% for 258,65% from correct figures)
+        calc = bool(CALC_RE.search(q) or DERIVE_RE.search(q) or facts.CHANGE_RE.search(q))
     else:
         data = _json(_chat(_llm(), PLAN_SYSTEM, q))
         subs = [s for s in data.get("steps", []) if isinstance(s, str) and s.strip()][:MAX_STEPS]
@@ -220,11 +238,13 @@ def execute(state: State) -> dict:
                 r = hit
                 st = {**st, "fact": hit["fact"]}
             elif st.get("docs"):
-                got, chunks, vp, ctx = answer_entity(_llm(), st["q"], st["docs"], RETRY_ENTITY_PAGES if retry else None)
+                got, chunks, vp, ctx = answer_entity(_llm(), st["q"], st["docs"], RETRY_ENTITY_PAGES if retry else None,
+                                                     st.get("later"))
                 r = {"answer": got, "citations": parse_citations(got), "context": ctx, "refused": REFUSAL in got,
                      "retrieved": [(c["doc_id"], c["page"]) for c in chunks], "vision": vp}
             else:
-                r = ask(st["q"], k=RETRY_K if retry else None)
+                extra = {"pool_with": state["question"]} if STEP_POOL and retry and len(state["steps"]) > 1 else {}
+                r = ask(st["q"], k=RETRY_K if retry else None, **extra)
             st = {**st, "vision": bool(r.get("vision"))}
             st = {**st, "attempts": st["attempts"] + 1, "answer": r["answer"], "citations": r["citations"],
                   "retrieved": r["retrieved"], "context": r["context"], "refused": r["refused"]}

@@ -979,3 +979,24 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. Resume the calculation diagnosis (Sonnet 5.5 runs, Opus 5.5 designs the lever), or do the user tasks below.
 2. After 14:00 local on 10-27: ask OK, then `telaah transcribe --docs mandiri_2024 btn_2024`; commit `data/page_transcripts/`.
 3. Then `telaah transcripts-index` and the full dev re-eval (defaults decision for second look and cite repair).
+
+# Update — 2026-10-26 (23:10): calculation diagnosis, year union, calculator fix
+## Findings
+- Diagnosis of the 53 dev calc questions (baseline `bench-dev-20261026-111017.json`, calc numeric 9/53): 44 failures = 29 retrieval (24 agent, 5 rag), 6 read, 9 compute/compose. Script `calc_diag_1026.py` (scratchpad, needs an output path as argv[1]).
+- `TELAAH_STEP_POOL` (original question's top 5 added to RAG steps): every first try 9 -> 8 (bd0237 +, bd0206/0263 -: the extra summary page, e.g. mandiri_2024 p.30, pulled the 7B off its own page); retry-only 0 of 44 gained. Kept in the code, default OFF, no measured benefit. It never reaches per-entity steps (they use `answer_entity`).
+- Real cause of 16 of the 24 agent misses: `entity_groups` splits "bank + two years" into one entity per report, so the earlier-year step can only search the OLDER report, while the comparison table with both columns is in the NEWER one. Retrieval-only check: reading both reports puts the gold page in every step for 10 of 16 (3 of 3 passing kept).
+- Second bug: the per-entity plan path set `calc` from `CALC_RE`/`DERIVE_RE` only, so growth questions (pertumbuhan/kenaikan) never reached the calculator; the 7B did the arithmetic from correct figures and got it wrong (bd0210 259,9% vs 258,65%, bd0261 10,10% vs 10,11%).
+## Done
+- `TELAAH_YEAR_UNION=1` (default OFF): `agent.year_split` + `answer_entity(..., later=...)`: the earlier year's step reads its own report's top 5 first, then the newer report's. Run 214017 (53 ids): numeric 9 -> 12, refusal 0.623 -> 0.755, recall unchanged; 4 gained (bd0205, 0236, 0246, 0270), 1 lost (bd0257, one step read a different figure, not yet inspected).
+- Calculator fix (not behind a switch): `facts.CHANGE_RE` added to the per-entity `calc` check. Re-run of the 19 year-split ids (run 222633, year union ON): right 3 (baseline) -> 6 (union) -> 9 (union + fix); gained bd0210, 0242, 0261 vs the union run, lost none. Projected calc numeric on all 53: 15 (was 9). pytest 109.
+## Decisions
+- `TELAAH_YEAR_UNION` default is not decided; it also changes non-calc questions that name two years. Decide after the full dev re-eval with the new transcripts (Opus 5.5).
+## Lessons
+- An empty `$(cat ids.txt)` after `--ids` starts a full dev run: build the list safely (assert non-empty) and kill with `Get-CimInstance ... telaah*eval* | Stop-Process` if it happens.
+- The "background command completed" notice for `cmd &` only means the shell wrapper exited, not the eval; check the `.json` next to the `.partial.jsonl`.
+## Next
+1. Inspect bd0257 (right at baseline, now 75.555 vs gold 85.564): which step read a different figure with the union?
+2. After 14:00 local on 10-27: ask OK, then `telaah transcribe --docs mandiri_2024 btn_2024` (~425 pages); commit `data/page_transcripts/`.
+3. Then `telaah transcripts-index` and the full dev re-eval: second look, cite repair, step pool, year union ON vs OFF; decide the defaults (Opus 5.5 reads).
+4. Remaining calc failures after the fix: plan problems (bd0225/0226 unsplit, bd0239/0266 lose the entity), read errors (bd0213, bd0272, bd0259), 6 read cases for a stronger step model.
+5. User: record the demo video; review test candidates; write 8 test unanswerables; decide test.jsonl / candidates_test.jsonl.

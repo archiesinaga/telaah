@@ -255,9 +255,15 @@ def split_question(llm: OpenAI, question: str, groups: list[list[str]]) -> list[
     return [question] * len(groups)
 
 
-def answer_entity(llm: OpenAI, sub: str, group: list[str], n: int | None = None):
-    """One simple question answered from ONE entity's documents: (answer, chunks, vision pages, context)."""
-    chunks, vp = add_page_images(sub, retrieve_entity(sub, group, *([] if n is None else [n])))
+def answer_entity(llm: OpenAI, sub: str, group: list[str], n: int | None = None, later: list[str] | None = None):
+    """One simple question answered from ONE entity's documents: (answer, chunks, vision pages, context).
+    `later`: the same bank's newer reports, whose top pages follow the own ones (their comparison tables hold
+    this year's figures as the prior-year column)."""
+    got = retrieve_entity(sub, group, *([] if n is None else [n]))
+    if later:
+        seen = {(c["doc_id"], c["page"]) for c in got}
+        got += [c for c in retrieve_entity(sub, later) if (c["doc_id"], c["page"]) not in seen]
+    chunks, vp = add_page_images(sub, got)
     ctx = build_context(chunks, sub)
     got = _chat(llm, SYSTEM, f"{VISION_HINT if vp else ''}Konteks:\n{ctx}\n\nPertanyaan: {sub}")
     return got, chunks, vp, ctx
@@ -330,13 +336,22 @@ def repair_cites(text: str, pages: list[tuple[str, int]]) -> str:
     return repair_split(repair_text(text, pages), pages)
 
 
-def ask(question: str, k: int | None = None) -> dict:
+POOL_EXTRA = 5
+
+
+def ask(question: str, k: int | None = None, pool_with: str | None = None) -> dict:
+    """`pool_with`: a sibling question (the agent passes the original one) whose top POOL_EXTRA pages are added after
+    this question's own top k, so every step of a two-period question sees the page that holds both columns."""
     groups = entity_groups(question)
     if groups:  # no second look here: each entity's own top k only
         return ask_entities(question, groups)
     n = TOP_K if k is None else k
     pool = retrieve(question, k=n * LOOKS if SECOND_LOOK else n)  # same top n for any k
-    chunks, vision_pages = add_page_images(question, pool[:n])
+    first = pool[:n]
+    if pool_with and pool_with != question:
+        seen = {(c["doc_id"], c["page"]) for c in first}
+        first = first + [c for c in retrieve(pool_with, k=POOL_EXTRA) if (c["doc_id"], c["page"]) not in seen]
+    chunks, vision_pages = add_page_images(question, first)
     llm = OpenAI(base_url=LLM_BASE_URL, api_key=LLM_API_KEY, max_retries=LLM_MAX_RETRIES)
     hint = VISION_HINT if vision_pages else ""
     context = build_context(chunks, question)
