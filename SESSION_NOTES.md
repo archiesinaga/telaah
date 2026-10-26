@@ -968,3 +968,14 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. After 14:00 local on 10-27: ask OK, then `.venv/Scripts/telaah.exe transcribe --docs mandiri_2024 btn_2024` (~425 pages, ~1 day); commit `data/page_transcripts/`. Model: Sonnet 5.5.
 2. Then `telaah transcripts-index` and the full dev re-eval (second look ON vs OFF, cite repair ON vs OFF, transcripts ON, new recall and `numeric_match`); Opus 5.5 reads it and decides the defaults.
 3. User: record the demo video; review test candidates (`review_app.py`); write 8 test unanswerables; decide `test.jsonl` / `candidates_test.jsonl` (commit vs .gitignore). Then SFT data (roadmap week 10, Opus 5.5).
+
+## Addendum (15:45): calculation diagnosis, paused (not run)
+- Goal: bucket the 53 calc failures of the baseline run (`bench-dev-20261026-111017.json`; calc numeric 0.17) into retrieval / read / plan / compute / gold, to pick a lever (stronger step model, EPS in facts table).
+- `eval/bench/_calc_diag.py` is hardwired to the 10-22 run and traces of 10-21/22 (dev ids were renumbered since), so it cannot be used as is. A scratchpad copy with the run switched to `20261026-111017`, traces glob `20261026.jsonl` and an absolute `sys.path` for `common` is at `C:/Users/User/AppData/Local/Temp/claude/C--Users-User-genai-project/ff3d8456-f9f2-42da-8407-99968b86d224/scratchpad/calc_diag_1026.py` (temp, may be gone).
+- First run failed with `KeyError: 'bd0207'`: dev.jsonl has calc questions that were not in the 99-id run. Fix = keep only calc questions whose id is in the run (`... if q["type"] == "calculation" and q["id"] in run`). That edit was NOT applied (user stopped the call); the script has not produced output.
+- Caveat: `data/agent_traces/20261026.jsonl` holds the baseline, second look and cite repair runs; "latest wins" per question text, so agent steps shown come from the cite repair run (same questions and routes).
+- Needs Qdrant (stop the demo app first) and the bge-m3 embedder on CPU; Ollama not needed.
+## Next (replaces the 15:35 list order)
+1. Resume the calculation diagnosis (Sonnet 5.5 runs, Opus 5.5 designs the lever), or do the user tasks below.
+2. After 14:00 local on 10-27: ask OK, then `telaah transcribe --docs mandiri_2024 btn_2024`; commit `data/page_transcripts/`.
+3. Then `telaah transcripts-index` and the full dev re-eval (defaults decision for second look and cite repair).
