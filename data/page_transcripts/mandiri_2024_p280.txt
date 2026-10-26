@@ -1,0 +1,58 @@
+Indikator Keuangan Utama Perbankan Indonesia
+
+1. Judul Grafik: Aset Bank Umum
+Legenda:
+- Aset (Rp T)
+- ASET YoY (%)
+Angka:
+- 2020: 9.178, 7,18
+- 2021: 10.112, 10,18
+- 2022: 11.113, 9,90
+- 2023: 11.766, 5,87
+- 2024*: 12.335, 4,83
+
+2. Judul Grafik: Kredit Bank Umum
+Legenda:
+- Kredit (Rp T)
+- Kredit YoY (%)
+Angka:
+- 2020: 5.548, -2,41
+- 2021: 5.769, 5,24
+- 2022: 6.424, 11,35
+- 2023: 7.090, 10,38
+- 2024*: 7.827, 10,39
+
+3. Judul Grafik: DPK Bank Umum
+Legenda:
+- DPK (Rp T)
+- DPK YoY (%)
+Angka:
+- 2020: 6.665, 11,11
+- 2021: 7.479, 12,21
+- 2022: 8.154, 9,01
+- 2023: 8.458, 3,73
+- 2024*: 8.837, 4,48
+
+4. Judul Grafik: LDR (%)
+Angka:
+- 2020: 82,2
+- 2021: 77,1
+- 2022: 78,7
+- 2023: 83,8
+- 2024*: 88,6
+
+5. Judul Grafik: NPL (%)
+Angka:
+- 2020: 3,06
+- 2021: 3,00
+- 2022: 2,44
+- 2023: 2,19
+- 2024*: 2,08
+
+6. Judul Grafik: LaR (%)
+Angka:
+- 2020: 23,38
+- 2021: 19,48
+- 2022: 14,05
+- 2023: 10,94
+- 2024*: 9,28

@@ -1,0 +1,118 @@
+Berikut adalah transkripsi dari grafik dan tabel yang terdapat pada halaman laporan:
+
+1. Judul atau keterangan:
+Berikut komposisi personil Internal Audit Division berdasarkan pendidikan sebagai berikut:
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu Y (tidak berlabel nama sumbu, berupa angka): 0, 5, 10, 15, 20, 25
+- Sumbu X (Label kategori pendidikan):
+  - D3 Manajemen
+  - S1 Administrasi
+  - S1 Akuntansi
+  - S1 Ekonomi Pembangunan
+  - S1 Hukum
+  - S1 Keuangan
+  - S1 Manajemen
+  - S1 Matematika
+  - S1 Perikanan
+  - S1 Pertanian
+  - S1 Teknik
+  - S1 TI & Sistem Informasi
+  - S2 Ekonomi Syariah
+  - S2 Akuntansi
+  - S2 Hukum
+  - S2 Manajemen
+  - S2 TI & Ilmu Komputer
+  - S2 STEM Education
+- Legenda/Periode:
+  - 2024 (warna biru muda)
+  - 2025 (warna biru tua)
+
+3. Angka yang tertera (dipasangkan dengan label/kategori dan periode):
+- D3 Manajemen, 2024: 1
+- D3 Manajemen, 2025: 3
+- S1 Administrasi, 2024: 3
+- S1 Administrasi, 2025: 3
+- S1 Akuntansi, 2024: 20
+- S1 Akuntansi, 2025: 17
+- S1 Ekonomi Pembangunan, 2024: 5
+- S1 Ekonomi Pembangunan, 2025: 5
+- S1 Hukum, 2024: 4
+- S1 Hukum, 2025: 7
+- S1 Keuangan, 2024: 1
+- S1 Keuangan, 2025: 0 (tidak ada balok warna, tetapi ada angka 0 di sumbu) / tidak terbaca angka spesifik selain batang kosong
+- S1 Manajemen, 2024: 6
+- S1 Manajemen, 2025: 4
+- S1 Matematika, 2024: 1
+- S1 Matematika, 2025: 1
+- S1 Perikanan, 2024: 1
+- S1 Perikanan, 2025: 1
+- S1 Pertanian, 2024: 1
+- S1 Pertanian, 2025: 0 (batang tidak ada) / tidak terbaca
+- S1 Teknik, 2024: 5
+- S1 Teknik, 2025: 5
+- S1 TI & Sistem Informasi, 2024: 11
+- S1 TI & Sistem Informasi, 2025: 11
+- S2 Ekonomi Syariah, 2024: 1
+- S2 Ekonomi Syariah, 2025: 1
+- S2 Akuntansi, 2024: 5
+- S2 Akuntansi, 2025: 3
+- S2 Hukum, 2024: 1
+- S2 Hukum, 2025: 0 (batang tidak ada) / tidak terbaca
+- S2 Manajemen, 2024: 6
+- S2 Manajemen, 2025: 7
+- S2 TI & Ilmu Komputer, 2024: 2
+- S2 TI & Ilmu Komputer, 2025: 1
+- S2 STEM Education, 2024: 1
+- S2 STEM Education, 2025: 0 (batang tidak ada) / tidak terbaca
+
+*(Catatan: Angka-angka di atas tertera di dalam kotak kecil di atas masing-masing batang diagram sesuai urutan kategori dan tahun).*
+
+---
+**Tabel Pengembangan Kompetensi Personil Internal Audit Division**
+
+Judul Tabel: Tabel Pengembangan Kompetensi Personil Internal Audit Division
+
+Kolom: No, Nama Pendidikan/Pelatihan, Fasilitator/Narasumber, Tanggal Pelaksanaan, Jumlah Peserta
+
+Baris 1:
+- No: 1
+- Nama Pendidikan/Pelatihan: Uji Kompetensi Sertifikasi Certified Forensic Auditor (CFrA)
+- Fasilitator/Narasumber: Lembaga Pengembangan Fraud Auditing (LPFA)
+- Tanggal Pelaksanaan: 20, 22 Januari 2025
+- Jumlah Peserta: 2
+
+Baris 2:
+- No: 2
+- Nama Pendidikan/Pelatihan: Pelatihan Sertifikasi Qualified Internal Auditor (QIA) - Dasar
+- Fasilitator/Narasumber: Yayasan Pendidikan Internal Audit (YPIA)
+- Tanggal Pelaksanaan: 20 Januari – 05 Februari 2025
+- Jumlah Peserta: 1
+
+Baris 3:
+- No: 3
+- Nama Pendidikan/Pelatihan: Pelatihan Sertifikasi Qualified Internal Auditor (QIA) - Lanjutan
+- Fasilitator/Narasumber: Yayasan Pendidikan Internal Audit (YPIA)
+- Tanggal Pelaksanaan: 20 Januari – 05 Februari 2025
+- Jumlah Peserta: 12
+
+Baris 4:
+- No: 4
+- Nama Pendidikan/Pelatihan: Pelatihan Sertifikasi Qualified Internal Auditor (QIA) - Manajerial
+- Fasilitator/Narasumber: Yayasan Pendidikan Internal Audit (YPIA)
+- Tanggal Pelaksanaan: 20 Januari – 03 Februari 2025
+- Jumlah Peserta: 6
+
+Baris 5:
+- No: 5
+- Nama Pendidikan/Pelatihan: Pembekalan dan Uji Kompetensi Sertifikasi Manajemen Risiko Perbankan Jenjang Kualifikasi 5
+- Fasilitator/Narasumber: Bank BTN & LSP LSPP
+- Tanggal Pelaksanaan: 07, 10, 14 Februari 2025
+- Jumlah Peserta: 1
+
+Baris 6:
+- No: 6
+- Nama Pendidikan/Pelatihan: Pembekalan Sertifikasi Manajemen Risiko Perbankan Jenjang Kualifikasi 4
+- Fasilitator/Narasumber: Bank BTN
+- Tanggal Pelaksanaan: 17–18 Maret 2025
+- Jumlah Peserta: 2

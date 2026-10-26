@@ -1,0 +1,41 @@
+IKHTISAR KINERJA WHOLESALE BANKING
+
+Uraian: Pengguna Aktif Kopra
+2022: 93.277
+2023: 107.687
+Des-24: 117.586
+
+Uraian: Jumlah Transaksi Kopra (Juta)
+2022: 885
+2023: 1.057
+Des-24: 1.311
+
+Uraian: Nilai Transaksi Kopra (Rp Triliun)
+2022: 18.567
+2023: 19.450
+Des-24: 22.703
+
+Uraian: Total Fee Based Income (Rp Miliar)
+2022: 2.038
+2023: 2.201
+Des-24: 2.372
+
+Judul Diagram: Jumlah Transaksi Kopra (Juta)
+2022: 885
+2023: 1.057
+Des-2024: 1.311
+
+Judul Diagram: Pengguna Aktif Kopra
+2022: 93.277
+2023: 107.687
+Des-2024: 117.586
+
+Judul Diagram: Total Fee Based Income (Rp Miliar)
+2022: 2.038
+2023: 2.201
+Des-2024: 2.372
+
+Judul Diagram: Nilai Transaksi (T)
+2022: 18.567
+2023: 19.450
+Des-2024: 22.703

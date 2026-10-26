@@ -1,0 +1,22 @@
+1. Judul atau keterangan grafik:
+- Pertumbuhan Aset (%)
+- Pangsa Pasar Aset BMRI (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda: Industri, Bank Mandiri
+- Periode (Sumbu X): 2022, 2023, 2024*
+- Satuan: %
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+Grafik Pertumbuhan Aset (%):
+- 2022 Industri: 9,90
+- 2022 Bank Mandiri: 15,5
+- 2023 Industri: 5,87
+- 2023 Bank Mandiri: 9,12
+- 2024* Industri: 7,93
+- 2024* Bank Mandiri: 11,6
+
+Grafik Pangsa Pasar Aset BMRI (%):
+- 2022 Bank Mandiri: 17,93
+- 2023 Bank Mandiri: 18,48
+- 2024* Bank Mandiri: 19,68

@@ -1,0 +1,29 @@
+RISIKO KREDIT - TAGIHAN BERSIH DERIVATIF KREDIT (CCR6)
+
+Posisi 31 Desember 2024
+(dalam jutaan rupiah)
+
+KONSOLIDASI
+- Proteksi yang dibeli (Protection bought):
+Nilai Notional: -
+Single-name credit default swaps: -
+Index credit default swaps: -
+Total return swaps: -
+Credit options: -
+Derivatif kredit lainnya: -
+Total Nilai Notional: -
+Nilai wajar: -
+Nilai wajar positif (aset): -
+Nilai wajar negatif (kewajiban): -
+
+- Proteksi yang dijual (Protection sold):
+Nilai Notional: -
+Single-name credit default swaps: -
+Index credit default swaps: -
+Total return swaps: -
+Credit options: -
+Derivatif kredit lainnya: -
+Total Nilai Notional: -
+Nilai wajar: -
+Nilai wajar positif (aset): -
+Nilai wajar negatif (kewajiban): -

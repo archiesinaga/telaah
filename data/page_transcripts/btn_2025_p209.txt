@@ -1,0 +1,27 @@
+1. Judul atau keterangan infografik pemegang saham:
+PT Bank Tabungan Negara Negara (Persero) Tbk, Danantara Indonesia, 60%
+
+2. Label, satuan, dan periode infografik pemegang saham:
+Label: Danantara Indonesia, PT Bank Tabungan Negara (Persero) Tbk
+Satuan: %
+
+3. Angka pada infografik pemegang saham:
+60% : 60%
+
+4. Judul atau keterangan pada tabel entitas anak:
+Entitas Anak
+
+5. Label, satuan, dan periode pada tabel entitas anak:
+- Nama Perusahaan : PT Bank Syariah Nasional
+- Bidang Usaha : Perbankan Syariah
+- Tanggal Penyertaan : 22 Desember 2025
+- Jumlah Aset : Rp72,9 Triliun
+- Kepemilikan (%) : 99,999%
+- Mulai Beroperasi/Status Operasi : 22 Desember 2025
+
+6. Angka pada tabel entitas anak:
+- Tanggal Penyertaan : 22 Desember 2025
+- Jumlah Aset : Rp72,9 Triliun
+- Kepemilikan (%) : 99,999%
+- Mulai Beroperasi/Status Operasi : 22 Desember 2025
+- Nomor halaman : 209, 2025

@@ -1,0 +1,86 @@
+RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+(dalam jutaan rupiah)
+
+Kolom:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3
+- CKPN di Entitas Anak - Syariah**
+- Tagihan yang dihapus buku*
+
+Baris 1:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 132
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: -
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: -
+- CKPN di Entitas Anak - Syariah**: -
+- Tagihan yang dihapus buku*: -
+
+Baris 2:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 7.135
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 8.083
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 393
+- CKPN di Entitas Anak - Syariah**: 82.959
+- Tagihan yang dihapus buku*: 38.637
+
+Baris 3:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 59.765
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 65.391
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 7.086
+- CKPN di Entitas Anak - Syariah**: 98.972
+- Tagihan yang dihapus buku*: 15.110
+
+Baris 4:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 1.943
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 183
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 4.919
+- CKPN di Entitas Anak - Syariah**: 145.941
+- Tagihan yang dihapus buku*: 76.490
+
+Baris 5:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 112.620
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 43.997
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 29.691
+- CKPN di Entitas Anak - Syariah**: -
+- Tagihan yang dihapus buku*: 48.626
+
+Baris 6:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 279
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 273
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 442
+- CKPN di Entitas Anak - Syariah**: 8.907
+- Tagihan yang dihapus buku*: 7.773
+
+Baris 7:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 1.994
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: -
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: -
+- CKPN di Entitas Anak - Syariah**: -
+- Tagihan yang dihapus buku*: -
+
+Baris 8:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 3.497.754
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 1.494.947
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 2.343.297
+- CKPN di Entitas Anak - Syariah**: -
+- Tagihan yang dihapus buku*: 3.376.284
+
+Baris 9:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 351.797
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 20.665
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 169.700
+- CKPN di Entitas Anak - Syariah**: 2.612.903
+- Tagihan yang dihapus buku*: 1.314.885
+
+Baris 10:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 1.948.835
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 964.993
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 1.699.907
+- CKPN di Entitas Anak - Syariah**: 222.012
+- Tagihan yang dihapus buku*: 10.358.220
+
+Baris 11:
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 1: 13.150.419
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 2: 16.625.142
+- Cadangan kerugian penurunan nilai (CKPN) -Stage 3: 17.173.981
+- CKPN di Entitas Anak - Syariah**: 9.910.474
+- Tagihan yang dihapus buku*: 20.871.629

@@ -1,0 +1,30 @@
+IKHTISAR KINERJA RETAIL BANKING
+Uraian | 2022 | 2023 | Sep-24 | Des-24
+Pengguna Aktif ('000) | 9.658 | 13.180 | 14.675 | 14.874
+Jumlah Transaksi Livin' (Juta) | 1.944 | 2.819 | 2.757 | 3.879
+Nilai Transaksi Livin' (Rp Triliun) | 2.472 | 3.271 | 2.940 | 4.027
+Total Livin' Fee Based Income (Rp Miliar) | 1.736 | 2.174 | 1.858 | 2.624
+
+Pengguna Aktif (000)
+2022: 9.658
+2023: 13.180
+Sep-24: 14.675
+Des-2024: 14.874
+
+Jumlah transaksi Livin' (Juta)
+2022: 1.944
+2023: 2.819
+Sep-24: 2.757
+Des-2024: 3.879
+
+Nilai Transaksi Livin' (Juta)
+2022: 2.472
+2023: 3.271
+Sep-24: 2.940
+Des-2024: 4.027
+
+Total Livin' Fee Based Income (Rp Miliar)
+2022: 1.736
+2023: 2.174
+Sep-24: 1.858
+Des-2024: 2.624

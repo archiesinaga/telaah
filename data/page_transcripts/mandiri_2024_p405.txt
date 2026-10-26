@@ -1,0 +1,21 @@
+1. Judul atau keterangan:
+Komposisi Tagihan Lainnya – Transaksi Perdagangan
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda:
+  - Usance L/C Payable at Sight
+  - Tagihan Supplier Chain Financing
+  - Lain-lain
+- Periode / Angka tahun di tengah diagram:
+  - 2024
+  - 2023
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2024:
+  - 19,45% (Usance L/C Payable at Sight)
+  - 12,18% (Tagihan Supplier Chain Financing)
+  - 68,37% (Lain-lain)
+- 2023:
+  - 26,25% (Usance L/C Payable at Sight)
+  - 11,46% (Tagihan Supplier Chain Financing)
+  - 62,30% (Lain-lain)

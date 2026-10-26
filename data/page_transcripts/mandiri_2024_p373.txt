@@ -1,0 +1,23 @@
+1. Judul atau keterangan tabel/grafik:
+Perkembangan Mandiri Kartu Kredit
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Kartu Kredit
+- 2024
+- 2023
+- Pertumbuhan (%)
+- Satuan: Rp Triliun, %
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Outstanding (Rp Triliun), 2024: 19,3
+- Outstanding (Rp Triliun), 2023: 16,7
+- Outstanding (Rp Triliun), Pertumbuhan (%): 15,4
+- Sales Volume (Rp Triliun), 2024: 66,1
+- Sales Volume (Rp Triliun), 2023: 51,2
+- Sales Volume (Rp Triliun), Pertumbuhan (%): 29,2
+- NPL, 2024: 1,06%
+- NPL, 2023: 1,23%
+- NPL, Pertumbuhan (%): -0,17
+- Fee Based Income (Rp Triliun), 2024: 2,1
+- Fee Based Income (Rp Triliun), 2023: 1,9
+- Fee Based Income (Rp Triliun), Pertumbuhan (%): 7,6

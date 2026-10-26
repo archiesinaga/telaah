@@ -1,0 +1,23 @@
+1) Bank secara Individu Posisi Desember 2024
+- Tagihan yang Tidak Dijamin dengan Teknik MRK, a:
+  - 1 Kredit: 1.206.775.575
+  - 2 Surat Berharga: 174.263.955
+  - 3 Total: 1.381.039.530
+  - 4 Kredit dan Surat Berharga yang Telah Jatuh Tempo: 4.169.922
+- Tagihan yang Dijamin dengan Teknik MRK, b:
+  - 1 Kredit: 61.304.956
+  - 2 Surat Berharga: -
+  - 3 Total: 61.304.956
+  - 4 Kredit dan Surat Berharga yang Telah Jatuh Tempo: 190.318
+
+2) Bank secara Konsolidasi dengan Entitas Anak Posisi Desember 2024
+- Tagihan yang Tidak Dijamin dengan Teknik MRK, a:
+  - 1 Kredit: 1.505.817.709
+  - 2 Surat Berharga: 290.779.498
+  - 3 Total: 1.796.597.207
+  - 4 Kredit dan Surat Berharga yang Telah Jatuh Tempo: 6.347.978
+- Tagihan yang Dijamin dengan Teknik MRK, b:
+  - 1 Kredit: 61.424.943
+  - 2 Surat Berharga: -
+  - 3 Total: 61.424.943
+  - 4 Kredit dan Surat Berharga yang Telah Jatuh Tempo: 190.318

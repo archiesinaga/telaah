@@ -1,0 +1,31 @@
+ROA (%)
+2020: 1,59
+2021: 1,84
+2022: 2,43
+2023: 2,74
+2024*: 2,69
+
+NIM (%)
+2020: 4,45
+2021: 4,51
+2022: 4,71
+2023: 4,81
+2024*: 4,62
+
+BOPO (%)
+2020: 86,54
+2021: 83,58
+2022: 78,65
+2023: 78,92
+2024*: 79,87
+*): data BOPO per November 2024.
+Sumber: Siaran Pers OJK Desember 2024 Otoritas Jasa Keuangan, BI, dan KSSK.
+
+CAR (%)
+2020: 23,89
+2021: 25,67
+2022: 25,66
+2023: 27,65
+2024*: 26,69
+*): per Desember 2024.
+Sumber: Siaran Pers 2024 Otoritas Jasa Keuangan, BI, dan KSSK.

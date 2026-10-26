@@ -1,0 +1,29 @@
+Grafik 1.4. Proyeksi Populasi Indonesia
+Satuan: Juta Jiwa
+Legenda: 
+- Kelas Menengah
+- Segmen Lainnya
+Periode dan angka:
+- 2010: Total 239, Segmen Lainnya 194, Kelas Menengah 45
+- 2020: Total 271, Segmen Lainnya 186, Kelas Menengah 85
+- 2030: Total 296, Segmen Lainnya 151, Kelas Menengah 145
+- 2040: Total 313, Segmen Lainnya 126, Kelas Menengah 187
+- 2045: Total 319, Segmen Lainnya 96, Kelas Menengah 223
+Sumber: Bappenas
+
+Gambar Perluasan Value Chain Bisnis Perumahan
+Tahapan:
+1. Akuisisi Lahan
+2. Basic materials
+3. Pengembangan lahan dan Properti
+4. Jasa kontruksi
+5. Pengembang
+
+Jumlah Pemain dan landscape persaingan 2019:
+- Akuisisi Lahan: ~20 (20 korporasi yang berporasi di seluruh Indonesia; Banyaknya pemilik lahan individual di luar 10 kota besar di Indonesia)
+- Basic materials: ~15 (2 pemain terbesar mengambil mayoritas market share dengan dibantu distributor kelas SME)
+- Pengembangan lahan dan Properti: ~130rb (20 ribu pemain pada kelas menengah sampai perusahaan besar; 85% merupakan perusahan konstruksi kelas SME)
+- Jasa kontruksi: ~5-6rb (20% Perusahaan besar; 45% Perusahaan kelas menengah; 35% Perusahaan kecil)
+- Pengembang: ~5-6rb (Top 10 Perusahaan tertiesar mengambil mayoritas market share; Sisa 80-90% merupakan pengembang kelas SME)
+
+Sumber: Rencana Jangka Panjang Perusahaan Tahun 2025-2029

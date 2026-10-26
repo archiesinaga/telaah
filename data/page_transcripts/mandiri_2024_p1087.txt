@@ -1,0 +1,38 @@
+PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+
+(dalam jutaan rupiah)
+
+Tabel 1:
+- 400%
+- Lainnya
+- Tagihan Bersih Setelah FKK dan Teknik MRK
+- 400% / Lainnya / Tagihan Bersih Setelah FKK dan Teknik MRK: - / - / 22.970
+
+Tabel 2:
+- 100%
+- Lainnya
+- Tagihan Bersih Setelah FKK dan Teknik MRK
+- 100% / Lainnya / Tagihan Bersih Setelah FKK dan Teknik MRK: 379.005 / 71.620 / 240.329.365
+
+Tabel 3:
+- 70%
+- 75%
+- 85%
+- 90%
+- 100%
+- 105%
+- 110%
+- 150%
+- Lainnya
+- Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1: 70%: - | 75%: 44.788.170 | 85%: - | 90%: [tidak terbaca/blok abu-abu] | 100%: - | 105%: [tidak terbaca/blok abu-abu] | 110%: - | 150%: - | Lainnya: - | Tagihan Bersih Setelah FKK dan Teknik MRK: 61.739.242
+- Baris tambahan tanpa label kolom eksplisit:
+  - -
+  - -
+  - -
+  - - | - | 2.574.368 | - | 2.854.329 | - | 194 | 10.336.745
+  - -
+  - -
+
+Nomor halaman: 1085
+Teks bawah: LAPORAN TAHUNAN 2024

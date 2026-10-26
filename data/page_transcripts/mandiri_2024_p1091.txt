@@ -1,0 +1,72 @@
+(dalam jutaan rupiah)
+
+Tabel 1:
+Judul: PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+Satuan: dalam jutaan rupiah
+Label Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+Baris 1:
+- 100%: 0
+- 150%: 0
+- Lainnya: [kosong]
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 441.848.950
+
+Tabel 2:
+Label Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+Baris 1:
+- 100%: 0
+- 150%: 4.591.405
+- Lainnya: [kosong]
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 105.306.667
+
+Tabel 3:
+Label Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+Baris 1:
+- 100%: 0
+- 150%: 0
+- Lainnya: [kosong]
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 0
+
+Tabel 4:
+Label Kolom: 100%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+Baris 1:
+- 100%: 253.535
+- 150%: 0
+- Lainnya: [kosong]
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 93.034.798
+Baris 2:
+- 100%: 0
+- 150%: 0
+- Lainnya: [kosong]
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 11.546.959
+
+Tabel 5:
+Label Kolom: 50%, 100%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+Baris 1:
+- 50%: 0
+- 100%: 0
+- Lainnya: [kosong]
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 0
+
+Tabel 6:
+Label Kolom: 85%, 100%, 130%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+Baris 1:
+- 85%: 134.206.176
+- 100%: 437.305.445
+- 130%: -
+- 150%: 622.778
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 657.111.696
+Baris 2:
+- 85%: -
+- 100%: -
+- 130%: [area abu-abu]
+- 150%: -
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 0
+Baris 3:
+- 85%: [area abu-abu]
+- 100%: 125.437.085
+- 130%: 17.817.212
+- 150%: -
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 148.136.553

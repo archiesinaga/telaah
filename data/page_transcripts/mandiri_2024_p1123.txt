@@ -1,0 +1,61 @@
+TABEL 7.3A
+PENGUNGKAPAN EKSKPOSUR INTEREST RATE RISK IN BANKING BOOK (IRRBB) - BANK SECARA INDIVIDUAL
+
+Nama Bank : PT. Bank Mandiri (Persero), Tbk (Individu)
+Bulan Laporan : Desember 2024
+Mata Uang : Rupiah dan Valas
+
+Dalam Juta Rupiah
+ΔEVE:
+Des-24: 5.121.749
+Des-23: (2.202.450)
+
+ΔNII:
+Des-24: 1.198.553
+Des-23: 121.234
+
+Parallel up:
+Des-24 (ΔEVE): 5.121.749
+Des-23 (ΔEVE): (2.202.450)
+Des-24 (ΔNII): 1.198.553
+Des-23 (ΔNII): 121.234
+
+Parallel down:
+Des-24 (ΔEVE): (4.398.536)
+Des-23 (ΔEVE): 6.127.550
+Des-24 (ΔNII): (4.378.629)
+Des-23 (ΔNII): (3.091.515)
+
+Steepener:
+Des-24 (ΔEVE): (3.294.699)
+Des-23 (ΔEVE): (6.912.287)
+
+Flattener:
+Des-24 (ΔEVE): 5.095.363
+Des-23 (ΔEVE): 7.086.259
+
+Short rate up:
+Des-24 (ΔEVE): 4.947.860
+Des-23 (ΔEVE): 3.367.107
+
+Short rate down:
+Des-24 (ΔEVE): (6.509.117)
+Des-23 (ΔEVE): (4.517.455)
+
+Nilai Maksimum Negatif (absolut):
+Des-24 (ΔEVE): 6.509.117
+Des-23 (ΔEVE): 6.912.287
+Des-24 (ΔNII): 4.378.629
+Des-23 (ΔNII): 3.091.515
+
+Modal Tier 1 (untuk ΔEVE) atau Projected Income (untuk ΔNII):
+Des-24 (ΔEVE): 229.932.670
+Des-23 (ΔEVE): 209.724.274
+Des-24 (ΔNII): 76.058.431
+Des-23 (ΔNII): 67.392.637
+
+Nilai Maksimum dibagi Modal Tier 1 atau Projected Income:
+Des-24 (ΔEVE): 2,83%
+Des-23 (ΔEVE): 3,30%
+Des-24 (ΔNII): 5,76%
+Des-23 (ΔNII): 4,59%

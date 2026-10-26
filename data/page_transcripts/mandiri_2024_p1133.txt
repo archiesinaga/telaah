@@ -1,0 +1,37 @@
+TABEL PENGUNGKAPAN NILAI LIQUIDITY COVERAGE RATIO
+(dalam jutaan Rupiah)
+
+KONSOLIDASIAN
+Posisi Tanggal Laporan
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual:
+  - 614.535.642
+  - 247.282.743
+  - 1.134.909
+  - 434.370.680
+  - 149.598.397
+  - -
+- Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate):
+  - 145.860.279
+  - 129.551.593
+  - 1.134.909
+  - 628.142
+  - 170.780.163
+  - 149.598.397
+  - -
+
+Posisi Tanggal Laporan Sebelumnya
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual:
+  - 578.932.906
+  - 240.641.217
+  - 1.137.549
+  - 415.917.823
+  - 141.262.063
+  - -
+- Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate):
+  - 137.266.875
+  - 126.465.984
+  - 1.137.549
+  - 652.955
+  - 162.465.241
+  - 141.262.063
+  - -

@@ -1,0 +1,81 @@
+Judul: RISIKO KREDIT - ANALISIS EKSPOSUR COUNTERPARY CREDIT RISK (CCR1)
+
+Satuan: (dalam jutaan rupiah)
+
+Tabel 1:
+Kolom:
+- Alpha digunakan untuk perhitungan regulatory EAD
+- Tagihan Bersih
+- ATMR
+
+Baris 1:
+- Alpha digunakan untuk perhitungan regulatory EAD: 1,4
+- Tagihan Bersih: 15.353.932
+- ATMR: 7.749.198
+
+Baris 2:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: -
+- ATMR: -
+
+Baris 3:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: -
+- ATMR: -
+
+Baris 4:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: 12.623.344
+- ATMR: 2.468.903
+
+Baris 5:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: -
+- ATMR: -
+
+Baris 6 (Total/Jumlah):
+- Tagihan Bersih: 27.977.276
+- ATMR: 10.218.101
+
+---
+
+Satuan: (dalam jutaan rupiah)
+
+Tabel 2:
+Kolom:
+- Alpha digunakan untuk perhitungan regulatory EAD
+- Tagihan Bersih
+- ATMR
+
+Baris 1:
+- Alpha digunakan untuk perhitungan regulatory EAD: 1,4
+- Tagihan Bersih: 15.448.354
+- ATMR: 7.777.525
+
+Baris 2:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: -
+- ATMR: -
+
+Baris 3:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: -
+- ATMR: -
+
+Baris 4:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: 14.266.724
+- ATMR: 2.571.233
+
+Baris 5:
+- Alpha digunakan untuk perhitungan regulatory EAD: -
+- Tagihan Bersih: -
+- ATMR: -
+
+Baris 6 (Total/Jumlah):
+- Tagihan Bersih: 29.715.078
+- ATMR: 10.348.758
+
+Nomor Halaman dan Keterangan Bawah:
+- 1097
+- LAPORAN TAHUNAN 2024

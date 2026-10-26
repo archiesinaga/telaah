@@ -1,0 +1,125 @@
+Judul:
+RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+
+Keterangan satuan dan periode:
+(dalam jutaan rupiah)
+31 Desember 2023
+Tagihan Bersih Berdasarkan Wilayah
+
+Label Kolom:
+- Sulawesi & Maluku
+- Bali & Nusa Tenggara
+- Papua
+- Kantor Pusat
+- Overseas
+- Total
+
+Data Angka Berdasarkan Baris:
+Baris 1:
+- Sulawesi & Maluku: -
+- Bali & Nusa Tenggara: -
+- Papua: -
+- Kantor Pusat: 352.491.241
+- Overseas: 64.858.187
+- Total: 445.306.677
+
+Baris 2:
+- Sulawesi & Maluku: 39
+- Bali & Nusa Tenggara: 92.048
+- Papua: -
+- Kantor Pusat: 17.727.317
+- Overseas: 815.774
+- Total: 100.221.544
+
+Baris 3:
+- Total: -
+
+Baris 4:
+- Sulawesi & Maluku: -
+- Bali & Nusa Tenggara: -
+- Papua: -
+- Kantor Pusat: 51.188.072
+- Overseas: 18.233.711
+- Total: 75.063.109
+
+Baris 5:
+- Total: -
+
+Baris 6:
+- Sulawesi & Maluku: -
+- Bali & Nusa Tenggara: -
+- Papua: -
+- Kantor Pusat: 722
+- Overseas: -
+- Total: 7.309.832
+
+Baris 7:
+- Kantor Pusat: 2.970
+- Total: 2.970
+
+Baris 8:
+- Sulawesi & Maluku: 2.478.621
+- Bali & Nusa Tenggara: 2.072.633
+- Papua: 562.408
+- Kantor Pusat: 111.662
+- Overseas: -
+- Total: 53.328.528
+
+Baris 9:
+- Sulawesi & Maluku: 1.123.630
+- Bali & Nusa Tenggara: 117.928
+- Papua: 62.675
+- Kantor Pusat: 375.753
+- Overseas: -
+- Total: 20.536.212
+
+Baris 10:
+- Sulawesi & Maluku: 396.806
+- Bali & Nusa Tenggara: -
+- Papua: -
+- Kantor Pusat: -
+- Overseas: -
+- Total: 1.259.671
+
+Baris 11:
+- Sulawesi & Maluku: 5.495
+- Bali & Nusa Tenggara: 507
+- Papua: 1.884
+- Kantor Pusat: 400
+- Total: 86.767
+
+Baris 12:
+- Sulawesi & Maluku: 18.099.694
+- Bali & Nusa Tenggara: 10.091.881
+- Papua: 5.667.173
+- Kantor Pusat: 19.336.707
+- Overseas: 2.277.985
+- Total: 239.155.937
+
+Baris 13:
+- Sulawesi & Maluku: 25.596.337
+- Bali & Nusa Tenggara: 16.321.967
+- Papua: 2.009.609
+- Kantor Pusat: 122.083.108
+- Overseas: 51.175.318
+- Total: 702.180.677
+
+Baris 14:
+- Sulawesi & Maluku: 159.358
+- Bali & Nusa Tenggara: 57.442
+- Papua: 39.632
+- Kantor Pusat: 449.790.282
+- Overseas: 35.937.538
+- Total: 9.862.971
+
+Baris 15:
+- Kantor Pusat: 92.584.977
+- Total: 92.584.977
+
+Baris Total (bawah):
+- Sulawesi & Maluku: 47.859.979
+- Bali & Nusa Tenggara: 28.754.405
+- Papua: 8.343.381
+- Kantor Pusat: 1.105.693.208
+- Overseas: 173.298.513
+- Total: 1.746.899.873

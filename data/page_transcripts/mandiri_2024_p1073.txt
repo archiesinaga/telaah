@@ -1,0 +1,35 @@
+(dalam jutaan rupiah)
+31 Desember 2023
+Tagihan Berdasarkan Hari Tunggakan
+>90 hari s.d. 120 hari: 2.289.310
+>120 hari s.d. 180 hari: 4.322.560
+>180 hari: 4.387.667
+Total: 10.999.537
+
+>90 hari s.d. 120 hari: -
+>120 hari s.d. 180 hari: -
+>180 hari: 39.496
+Total: 39.496
+
+>90 hari s.d. 120 hari: 2.289.310
+>120 hari s.d. 180 hari: 4.322.560
+>180 hari: 4.427.163
+Total: 11.039.033
+
+(dalam jutaan rupiah)
+31 Desember 2023
+Tagihan Berdasarkan Hari Tunggakan
+>90 hari s.d. 120 hari: 3.825.585
+>120 hari s.d. 180 hari: 5.238.019
+>180 hari: 7.069.987
+Total: 16.133.591
+
+>90 hari s.d. 120 hari: -
+>120 hari s.d. 180 hari: -
+>180 hari: 138.496
+Total: 138.496
+
+>90 hari s.d. 120 hari: 3.825.585
+>120 hari s.d. 180 hari: 5.238.019
+>180 hari: 7.208.483
+Total: 16.272.087

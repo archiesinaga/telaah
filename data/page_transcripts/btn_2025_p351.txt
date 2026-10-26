@@ -1,0 +1,23 @@
+1. Judul atau keterangan:
+Grafik Laporan Posisi Keuangan
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: (dalam triliun Rupiah)
+Kategori Sumbu X:
+- Aset
+- Liabilitas
+- Dana Syirkah Temporer
+- Ekuitas
+Legenda:
+- 2024
+- 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Aset, 2024: 469,61
+- Aset, 2025: 527,79
+- Liabilitas, 2024: 407,79
+- Liabilitas, 2025: 459,70
+- Dana Syirkah Temporer, 2024: 29,25
+- Dana Syirkah Temporer, 2025: 31,88
+- Ekuitas, 2024: 32,57
+- Ekuitas, 2025: 36,21

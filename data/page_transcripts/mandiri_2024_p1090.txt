@@ -1,0 +1,22 @@
+2) Bank secara Konsolidasi dengan Entitas Anak
+
+Kategori Portofolio, 0%, 20%, 50%
+1, Tagihan kepada Pemerintah, 441.224.538, 624.412, 0
+
+Kategori Portofolio, 20%, 50%
+2, Tagihan Kepada Entitas Sektor Publik, 36.964.426, 63.750.836
+
+Kategori Portofolio, 0%, 20%, 30%, 50%
+3, Tagihan Kepada Bank Pembangunan Multilateral dan Lembaga Internasional, 0, 0, 0, 0
+
+Kategori Portofolio, 20%, 30%, 40%, 50%, 75%
+4, Tagihan Kepada Bank, 62.134.472, 1.748.835, 28.117.709, 775.218, 5.029
+Tagihan kepada Perusahaan Efek dan Lembaga Jasa Keuangan Lain1), 779.332, 4.561.354, 0, 200.037, 6.006.236
+
+Kategori Portofolio, 10%, 15%, 20%, 25%, 35%
+5, Tagihan berupa Covered Bond, 0, 0, 0, 0, 0
+
+Kategori Portofolio, 20%, 50%, 65%5), 75%, 80%
+6, Tagihan kepada Korporasi Umum2), 58.433.852, 25.431.318, -, 1.112.127, -
+Tagihan kepada Perusahaan Efek dan Lembaga Jasa Keuangan Lain3), -, -, -, -, tidak terbaca
+Eksposur Pembiayaan Khusus4), -, -, tidak terbaca, -, 4.882.256

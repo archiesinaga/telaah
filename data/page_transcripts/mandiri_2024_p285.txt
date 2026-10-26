@@ -1,0 +1,39 @@
+Pertumbuhan Kredit (%)
+Legenda: Industri, Bank Mandiri
+Periode 2022:
+- Industri: 11,35
+- Bank Mandiri: 14,48
+Periode 2023:
+- Industri: 10,38
+- Bank Mandiri: 16,29
+Periode 2024*:
+- Industri: 10,39
+- Bank Mandiri: 19,49
+
+Pangsa Pasar Kredit (%)
+Periode 2022:
+- Bank Mandiri: 18,72
+Periode 2023:
+- Bank Mandiri: 19,72
+Periode 2024*:
+- Bank Mandiri: 21,34
+
+Pertumbuhan DPK (%)
+Legenda: Industri, Bank Mandiri
+Periode 2022:
+- Industri: 9,01
+- Bank Mandiri: 15,46
+Periode 2023:
+- Industri: 3,73
+- Bank Mandiri: 5,78
+Periode 2024*:
+- Industri: 4,48
+- Bank Mandiri: 7,73
+
+Pangsa Pasar DPK (%)
+Periode 2022:
+- Bank Mandiri: 18,28
+Periode 2023:
+- Bank Mandiri: 18,64
+Periode 2024*:
+- Bank Mandiri: 19,23

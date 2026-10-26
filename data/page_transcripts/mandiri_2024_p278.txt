@@ -1,0 +1,29 @@
+1. Judul atau keterangan:
+Neraca Perdagangan (USD Milliar)
+Catatan: *): Januari-November 2024; Sumber: BPS.
+
+2. Label sumbu, legenda, satuan, dan periode:
+Periode: 2020, 2021, 2022, 2023, 11M24
+Satuan: USD Milliar
+
+3. Angka yang tertera:
+- 2020: 22
+- 2021: 35
+- 2022: 54
+- 2023: 36
+- 11M24: 29
+
+1. Judul atau keterangan:
+Nilai Tukar (USD/IDR)
+Catatan: *): per Desember 2024; Sumber: Bloomberg
+
+2. Label sumbu, legenda, satuan, dan periode:
+Periode: 2020, 2021, 2022, 2023, 2024*
+Satuan: USD/IDR
+
+3. Angka yang tertera:
+- 2020: 14.050
+- 2021: 14.253
+- 2022: 15.568
+- 2023: 15.397
+- 2024*: 16.102

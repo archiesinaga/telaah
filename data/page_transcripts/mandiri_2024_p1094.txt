@@ -1,0 +1,11 @@
+1. Judul atau keterangan: PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+2. Label sumbu, legenda, satuan, dan periode: 
+- Kategori Portofolio, 0%^5), 20%, 25%, 30%, 35%, 40%, 45%, 50%, 60%, 65%^5)
+- Kategori Portofolio, 50%, 100%
+- Kategori Portofolio, 0%, 20%, 100%
+- Kategori Portofolio, 0%, 20%, 25%, 35%
+
+3. Angka yang tertera:
+- Kategori Portofolio (Tagihan yang Telah Jatuh tempo): 50%: 1.978.436; 100%: 2.569.967
+- 11 Aset Lainnya: 0%: 23.524.795; 20%: -; 100%: 79.205.089
+- 12 Eksposur Perusahaan Anak - Syariah: 0%: 117.754.924; 20%: 26.953.952; 25%: 12.069.393; 35%: 29.112.042

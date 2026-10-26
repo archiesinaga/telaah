@@ -1,0 +1,31 @@
+1. Judul: Kredit yang Diberikan dan Piutang/Pembiayaan Syariah Berdasarkan Mata Uang
+- Legenda: Rupiah, Mata Uang Asing
+- Periode: 2024 dan 2023
+- Angka:
+  - 2024:
+    - 17,58%
+    - 82,42%
+  - 2023:
+    - 19,05%
+    - 80,95%
+
+2. Judul: Kredit yang Diberikan dan Piutang/Pembiayaan Syariah Berdasarkan Jenis
+- Legenda: Investasi, Modal Kerja, Konsumen, Sindikasi, Program Pemerintah, Karyawan, Eksport
+- Periode: 2024 dan 2023
+- Angka:
+  - 2024:
+    - 30,93%
+    - 28,69%
+    - 21,14%
+    - 9,35%
+    - 5,72%
+    - 3,01%
+    - 1,17%
+  - 2023:
+    - 28,84%
+    - 28,51%
+    - 22,29%
+    - 9,58%
+    - 6,32%
+    - 3,31%
+    - 1,16%

@@ -1,0 +1,27 @@
+Tabel 1:
+1. Judul atau keterangan: Tabel Pengungkapan Kuantitatif Risiko Operasional Bank secara Individu
+2. Label, legenda, satuan, periode:
+- Periode: 31 Desember 2024
+- Kolom: No, Pendekatan yang digunakan, Komponen Indikator Bisnis (KIB), Faktor Pengali Kerugian Intern (FPKI), Modal Minimum Risiko Operasional (MMRO), ATMR
+3. Angka yang tertera:
+- Baris 1:
+  - No: 1
+  - Pendekatan yang digunakan: Pendekatan Standar
+  - Komponen Indikator Bisnis (KIB) (31 Desember 2024): 4.813.384
+  - Faktor Pengali Kerugian Intern (FPKI) (31 Desember 2024): 0,62
+  - Modal Minimum Risiko Operasional (MMRO) (31 Desember 2024): 2.992.869
+  - ATMR (31 Desember 2024): 37.410.865
+
+Tabel 2:
+1. Judul atau keterangan: Tabel Pengungkapan Kuantitatif Risiko Operasional Bank secara Konsolidasi dengan Entitas Anak
+2. Label, legenda, satuan, periode:
+- Periode: 31 Desember 2024
+- Kolom: No, Pendekatan yang digunakan, Komponen Indikator Bisnis (KIB), Faktor Pengali Kerugian Intern (FPKI), Modal Minimum Risiko Operasional (MMRO), ATMR
+3. Angka yang tertera:
+- Baris 1:
+  - No: 1
+  - Pendekatan yang digunakan: Pendekatan Standar
+  - Komponen Indikator Bisnis (KIB) (31 Desember 2024): 4.838.206
+  - Faktor Pengali Kerugian Intern (FPKI) (31 Desember 2024): 0,63
+  - Modal Minimum Risiko Operasional (MMRO) (31 Desember 2024): 3.037.782
+  - ATMR (31 Desember 2024): 37.972.275

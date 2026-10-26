@@ -1,0 +1,131 @@
+PENGUNGKAPAN EKSPOSUR RISIKO KREDIT DAN DAMPAK TEKNIK MITIGASI RISIKO KREDIT (CR4)
+
+(dalam jutaan rupiah)
+
+Tagihan Bersih Setelah penerapan FKK dan Teknik MRK
+Laporan Posisi Keuangan: c
+Transaksi Rekening Administratif: d
+
+ATMR dan Rata-Rata Bobot Risiko
+ATMR: e
+Rata-Rata Bobot Risiko (e/(c+d)): f
+
+Baris 1:
+c: 409.314.065
+d: 12.933.036
+e: 124.882
+f: 0,03%
+
+Baris 2:
+c: 85.551.009
+d: 19.120.150
+e: 45.858.665
+f: 43,81%
+
+Baris 3:
+c: -
+d: -
+e: -
+f: 0,00%
+
+Baris 4:
+c: 70.003.285
+d: 25.373.732
+e: 25.689.167
+f: 26,93%
+
+Baris 5:
+c: 11.498.715
+d: 148.244
+e: 6.203.968
+f: 53,27%
+
+Baris 6:
+c: -
+d: -
+e: -
+f: 0,00%
+
+Baris 7:
+c: 597.901.230
+d: 57.207.900
+e: 575.518.060
+f: 87,85%
+
+Baris 8:
+c: -
+d: -
+e: -
+f: 0,00%
+
+Baris 9:
+c: 145.988.298
+d: 2.148.256
+e: 152.505.266
+f: 102,95%
+
+Baris 10:
+c: 22.970
+d: -
+e: 24.455
+f: 106,46%
+
+Baris 11:
+c: 236.308.305
+d: 4.021.060
+e: 182.497.934
+f: 75,94%
+
+Baris 12:
+c: 83.286.726
+d: 799.420
+e: 58.130.977
+f: 69,13%
+
+Baris 13:
+c: 61.739.160
+d: 82
+e: 39.944.442
+f: 64,70%
+
+Baris 14:
+c: -
+d: -
+e: -
+f: 0,00%
+
+Baris 15:
+c: 9.697.759
+d: 638.986
+e: 7.638.584
+f: 73,90%
+
+Baris 16:
+c: 11.849.806
+d: 160.352
+e: 10.547.951
+f: 87,83%
+
+Baris 17:
+c: 1.095.294
+d: 71.504
+e: 1.750.197
+f: 150,00%
+
+Baris 18:
+c: 4.176.844
+d: 2.274
+e: 3.225.150
+f: 77,17%
+
+Baris 19:
+c: 95.920.957
+d: -
+e: 72.594.435
+f: 75,68%
+
+Total:
+c: 1.741.067.696
+d: 121.825.575
+e: 1.124.123.157
+f: 60,34%

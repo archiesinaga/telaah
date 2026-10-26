@@ -1,0 +1,73 @@
+Grafik Kinerja Segmen Konvensional
+Satuan: (dalam triliun Rupiah)
+Legenda: 2024, 2025
+
+Produk Konsumen
+Sumbu Y: 0,00, 50,00, 100,00, 150,00, 200,00, 250,00, 300,00
+Sumbu X / Kategori: Kredit Konsumen, Simpanan Konsumen
+Angka pada batang:
+- Kredit Konsumen (batang 1): 255,11
+- Kredit Konsumen (batang 2): 270,20
+- Simpanan Konsumen (batang 1): 67,85
+- Simpanan Konsumen (batang 2): 64,71
+
+Produk Komersial
+Sumbu Y: 0,00, 50,00, 100,00, 150,00, 200,00, 250,00, 300,00, 350,00
+Sumbu X / Kategori: Kredit Komersial, Simpanan Komersial
+Angka pada batang:
+- Kredit Komersial (batang 1): 58,97
+- Kredit Komersial (batang 2): 75,50
+- Simpanan Komersial (batang 1): 264,19
+- Simpanan Komersial (batang 2): 314,06
+
+Jumlah Nilai Produk Segmen Konvensional
+Sumbu Y: 0,00, 50,00, 100,00, 150,00, 200,00, 250,00, 300,00, 350,00, 400,00, 450,00
+Sumbu X / Kategori: Jumlah Nilai Produk Konsumen, Jumlah Nilai Produk Komersial
+Angka pada batang:
+- Jumlah Nilai Produk Konsumen (batang 1): 322,97
+- Jumlah Nilai Produk Konsumen (batang 2): 334,91
+- Jumlah Nilai Produk Komersial (batang 1): 323,16
+- Jumlah Nilai Produk Komersial (batang 2): 389,56
+
+Tabel Nilai Produk Konsumen
+Satuan: (dalam jutaan Rupiah)
+Kolom: Produk Konsumen, 2025, 2024, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan %
+Baris 1:
+- Produk Konsumen: Produk Kredit Konsumen
+- 2025: 270.202.267
+- 2024: 255.110.204
+- Nominal: 15.092.063
+- %: 5,92%
+Baris 2:
+- Produk Konsumen: Produk Simpanan Konsumen
+- 2025: 64.710.833
+- 2024: 67.854.930
+- Nominal: (3.144.097)
+- %: (4,63%)
+Baris 3:
+- Produk Konsumen: Jumlah Nilai Produk Konsumen
+- 2025: 334.913.100
+- 2024: 322.965.133
+- Nominal: 11.947.966
+- %: 3,70%
+
+Tabel Volume Produk Konsumen
+Kolom: Produk Konsumen, 2025, 2024, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Baris 1:
+- Produk Konsumen: Produk Kredit Konsumen (unit)
+- 2025: 2.089.179
+- 2024: 2.026.978
+- Nominal: 62.201
+- Persentase: 3,07%
+Baris 2:
+- Produk Konsumen: Produk Simpanan Konsumen (rekening)
+- 2025: 7.162.745
+- 2024: 6.261.345
+- Nominal: 901.400
+- Persentase: 14,40%
+Baris 3:
+- Produk Konsumen: Jumlah Produk Konsumen (unit/rekening)
+- 2025: 9.251.924
+- 2024: 8.288.323
+- Nominal: 963.601
+- Persentase: 11,63%

@@ -1,0 +1,12 @@
+4: Eka Fitria, Direktur Treasury dan International Banking
+5: Aquarius Rudianto, Direktur Jaringan dan Retail Banking
+6: Sigit Prastowo, Direktur Keuangan dan Strategi
+10: Rohan Hafas, Direktur Hubungan Kelembagaan
+11: Timothy Utama, Direktur Information Technology
+12: Totok Priyambodo, Direktur Commercial Banking
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7

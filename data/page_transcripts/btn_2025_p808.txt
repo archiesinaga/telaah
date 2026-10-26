@@ -1,0 +1,42 @@
+1. Judul atau keterangan:
+Jumlah Sertifikasi (Secara keseluruhan jumlah sertifikasi personil Internal Audit Division posisi Desember 2025 sebagai berikut:)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Label sumbu X (kategori sertifikasi): SMR, QIA, CFRS, CA, CIAE, CFE, CISA, COF, ISO 37001:2016, ISO 9001:2015, ITIL
+- Label sumbu Y: tidak terbaca (skala angka: 0, 10, 20, 30, 40, 50, 60, 70, 80)
+- Legenda warna: 2024, 2025
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- SMR:
+  - 2024: 66
+  - 2025: 66
+- QIA:
+  - 2024: 54
+  - 2025: 46
+- CFRS:
+  - 2024: 7
+  - 2025: 3
+- CA:
+  - 2024: 2
+  - 2025: 1
+- CIAE:
+  - 2024: 4
+  - 2025: 4
+- CFE:
+  - 2024: 1
+  - 2025: 1
+- CISA:
+  - 2024: 3
+  - 2025: 2
+- COF:
+  - 2024: 2
+  - 2025: 1
+- ISO 37001:2016:
+  - 2024: 2
+  - 2025: 2
+- ISO 9001:2015:
+  - 2024: 3
+  - 2025: 2
+- ITIL:
+  - 2024: 5
+  - 2025: 3

@@ -1,0 +1,23 @@
+1. Judul atau keterangan: Profitabilitas Bank Mandiri (2022-2024)
+2. Label sumbu, legenda, satuan, dan periode:
+- Kategori 1: Laba Sebelum Pajak dan Kepentingan Non Pengendali
+- Kategori 2: Laba Tahun Berjalan
+- Kategori 3: Total penghasilan Komprehensif Tahun Berjalan
+- Legenda warna: 
+  - Biru: 2024
+  - Kuning/Oranye: 2023
+  - Abu-abu: 2022
+- Satuan: Triliun Rupiah (berdasarkan konteks teks pada halaman)
+3. Semua angka yang tertera:
+- Laba Sebelum Pajak dan Kepentingan Non Pengendali:
+  - 2024: 76,40
+  - 2023: 74,68
+  - 2022: 56,38
+- Laba Tahun Berjalan:
+  - 2024: 61,17
+  - 2023: 60,05
+  - 2022: 44,95
+- Total penghasilan Komprehensif Tahun Berjalan:
+  - 2024: 61,15
+  - 2023: 60,96
+  - 2022: 45,35

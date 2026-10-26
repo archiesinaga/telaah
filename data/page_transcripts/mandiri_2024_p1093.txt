@@ -1,0 +1,43 @@
+PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+
+(dalam jutaan rupiah)
+
+Bagian 1:
+- Kolom: 400%5), Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 22.970
+
+Bagian 2:
+- Kolom: 100%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Lainnya (585.128): 585.128
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 325.603.503
+
+Bagian 3:
+- Kolom: 70%, 75%, 85%, 90%, 100%, 105%, 110%, 150%, Lainnya, Tagihan Bersih Setelah FKK dan Teknik MRK
+- Baris 1 (Lainnya - 0): Tagihan Bersih Setelah FKK dan Teknik MRK: 0
+- Baris 2:
+  - 70%: 1.328
+  - 75%: 44.788.170
+  - 85%: 0
+  - 100%: 0
+  - 150%: 0
+  - Lainnya: 0
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 61.787.577
+- Baris-baris berikutnya (Tagihan Bersih Setelah FKK dan Teknik MRK):
+  - 0
+  - 0
+  - 0
+- Baris lainnya:
+  - 85%: 0
+  - 105%: 0
+  - 150%: 0
+  - Lainnya: 0
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 0
+- Baris terakhir yang terlihat angkanya:
+  - 75%: 2.574.368
+  - 85%: 0
+  - 100%: 2.854.329
+  - 150%: 194
+  - Tagihan Bersih Setelah FKK dan Teknik MRK: 10.336.744
+- Dua baris terakhir (Tagihan Bersih Setelah FKK dan Teknik MRK):
+  - 0
+  - 0

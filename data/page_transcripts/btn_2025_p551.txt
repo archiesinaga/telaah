@@ -1,0 +1,60 @@
+Posisi Tanggal Laporan (Desember 2025)
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu (dalam juta Rupiah)
+Tanpa Jangka Waktu:
+- Baris 1: 28.768.953
+- Baris 2: 28.768.953
+- Baris 3: -
+- Baris 4: 46.109.786
+- Baris 5: 41.505.959
+- Baris 6: 4.603.827
+- Baris 7: 56.078.498
+- Baris 8: 56.078.498
+
+< 6 bulan:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: 22.830.603
+- Baris 5: 11.351.111
+- Baris 6: 11.479.492
+- Baris 7: 176.028.437
+- Baris 8: -
+
+≥ 6 bulan - < 1 tahun:
+- Baris 1: -
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: 10.000.000
+- Baris 8: -
+
+≥ 1 tahun:
+- Baris 1: 4.082.270
+- Baris 2: 4.082.270
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: 29.811.887
+- Baris 8: -
+
+Total Nilai Tertimbang:
+- Baris 1: 32.851.223
+- Baris 2: 32.851.223
+- Baris 3: -
+- Baris 4: 64.689.203
+- Baris 5: 50.214.216
+- Baris 6: 14.474.987
+- Baris 7: 152.072.952
+- Baris 8: 28.039.249
+
+No. Ref. dari Kertas Kerja NSFR:
+- Baris 2 (1.1 / 1.2): 1.1, 1.2
+- Baris 3 (1.3): 1.3
+- Baris 4 (2 / 3): 2, 3
+- Baris 5 (2.1 / 3.1): 2.1, 3.1
+- Baris 6 (2.2 / 3.2): 2.2, 3.2
+- Baris 7 (4): 4
+- Baris 8 (4.1): 4.1

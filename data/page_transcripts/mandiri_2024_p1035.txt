@@ -1,0 +1,142 @@
+Judul: RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+Satuan: (dalam jutaan rupiah)
+
+Kolom tabel:
+- Kredit Beragun Properti Rumah Tinggal
+- Kredit Beragun Properti Komersial
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi
+- Kredit Pegawai/ Pensiunan
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel
+- Tagihan kepada Korporasi
+- Tagihan yang Telah Jatuh Tempo
+- Aset Lainnya
+
+Baris 1:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 1.493.580
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 24.239.506
+- Tagihan kepada Korporasi: 79.635.178
+- Tagihan yang Telah Jatuh Tempo: 617.470
+- Aset Lainnya: -
+
+Baris 2:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 148.056
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 24.722
+- Tagihan kepada Korporasi: 103.207.891
+- Tagihan yang Telah Jatuh Tempo: 4.245
+- Aset Lainnya: -
+
+Baris 3:
+- Kredit Beragun Properti Rumah Tinggal: 3.117
+- Kredit Beragun Properti Komersial: 4.329.533
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: 604.642
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 6.254.503
+- Tagihan kepada Korporasi: 129.014.781
+- Tagihan yang Telah Jatuh Tempo: 3.177.625
+- Aset Lainnya: -
+
+Baris 4:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 838.547
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 144
+- Tagihan kepada Korporasi: 28.868.159
+- Tagihan yang Telah Jatuh Tempo: 101
+- Aset Lainnya: -
+
+Baris 5:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 512
+- Tagihan kepada Korporasi: 497.082
+- Tagihan yang Telah Jatuh Tempo: 22
+- Aset Lainnya: -
+
+Baris 6:
+- Kredit Beragun Properti Rumah Tinggal: 699
+- Kredit Beragun Properti Komersial: 63.599
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: 75.618
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 223.407
+- Tagihan kepada Korporasi: 49.556.679
+- Tagihan yang Telah Jatuh Tempo: 3.609.726
+- Aset Lainnya: -
+
+Baris 7:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 2.231.054
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 39.451.388
+- Tagihan kepada Korporasi: 53.882.103
+- Tagihan yang Telah Jatuh Tempo: 358.401
+- Aset Lainnya: -
+
+Baris 8:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 268.822
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 1.979.702
+- Tagihan kepada Korporasi: 39.459.892
+- Tagihan yang Telah Jatuh Tempo: 50.033
+- Aset Lainnya: -
+
+Baris 9:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 2.336.600
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 8.526.116
+- Tagihan kepada Korporasi: 8.997.845
+- Tagihan yang Telah Jatuh Tempo: 43.524
+- Aset Lainnya: -
+
+Baris 10:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 478.138
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 220.893
+- Tagihan kepada Korporasi: 24.242.926
+- Tagihan yang Telah Jatuh Tempo: 1.553
+- Aset Lainnya: -
+
+Baris 11:
+- Kredit Beragun Properti Rumah Tinggal: 3.867
+- Kredit Beragun Properti Komersial: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 310.552
+- Tagihan kepada Korporasi: 25.757.565
+- Tagihan yang Telah Jatuh Tempo: 17.070
+- Aset Lainnya: -
+
+Baris 12:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: 6.012.922
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: 579.411
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 1.882
+- Tagihan kepada Korporasi: 20.586.831
+- Tagihan yang Telah Jatuh Tempo: 48.610
+- Aset Lainnya: -
+
+Baris 13:
+- Kredit Beragun Properti Rumah Tinggal: -
+- Kredit Beragun Properti Komersial: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi: -
+- Kredit Pegawai/ Pensiunan: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 247.885
+- Tagihan kepada Korporasi: 6.926.716
+- Tagihan yang Telah Jatuh Tempo: 1.525
+- Aset Lainnya: -

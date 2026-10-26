@@ -1,0 +1,51 @@
+1. Judul atau keterangan:
+Ekspor & Impor Indonesia (USD Miliar)
+Sumber: BPS
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: USD Miliar
+Legenda: 
+- Ekspor
+- Import
+Periode sumbu horizontal: 2020, 2021, 2022, 2023, 11M24
+
+3. Angka yang tertera:
+Ekspor:
+- 2020: 163
+- 2021: 232
+- 2022: 292
+- 2023: 259
+- 11M24: 241
+
+Import:
+- 2020: 142
+- 2021: 196
+- 2022: 237
+- 2023: 222
+- 11M24: 212
+
+---
+
+1. Judul atau keterangan:
+Nominal PDB (USD Miliar) dan PDB/Kapita (USD)
+*) proyeksi; Sumber: IMF.
+
+2. Label sumbu, legenda, satuan, dan periode:
+Judul kiri: Nominal PDB (USD Miliar)
+Judul kanan: PDB/Kapita (USD)
+Periode sumbu horizontal: 2020, 2021, 2022, 2023, 2024*
+
+3. Angka yang tertera:
+Nominal PDB (USD Miliar):
+- 2020: 1.063
+- 2021: 1.188
+- 2022: 1.319
+- 2023: 1.371
+- 2024*: 1.403
+
+PDB/Kapita (USD):
+- 2020: 3.932
+- 2021: 4.363
+- 2022: 4.798
+- 2023: 4.920
+- 2024*: 4.981

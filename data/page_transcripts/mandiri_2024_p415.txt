@@ -1,0 +1,36 @@
+LAPORAN POSISI KEUANGAN
+
+Diagram Donat 2024:
+Judul: 2024
+Legenda: Rupiah, Mata Uang Asing
+Angka:
+- 57,12%
+- 42,88%
+
+Diagram Donat 2023:
+Judul: 2023
+Legenda: Rupiah, Mata Uang Asing
+Angka:
+- 43,83%
+- 56,17%
+
+Tabel Nama Efek, Seri, Nominal (Rp juta), Suku Bunga, Peringkat (2024, 2023), Jatuh Tempo:
+Denominasi Rupiah:
+- A, 1.100.000, 7,95%, -, -, 30 September 2021
+- Obligasi Berkelanjutan I Bank Mandiri Tahap I Tahun 2016 B, 1.500.000, 8,50%, -, -, 30 September 2023
+- Obligasi Berkelanjutan I Bank Mandiri Tahap I Tahun 2016 C, 2.400.000, 8,65%, idAAA (Pefindo), idAAA (Pefindo), 30 September 2026
+- A, 1.000.000, 8,00%, -, -, 15 Juni 2022
+- Obligasi Berkelanjutan I Bank Mandiri Tahap II Tahun 2017 B, 3.000.000, 8,50%, -, idAAA (Pefindo), 15 Juni 2024
+- Obligasi Berkelanjutan I Bank Mandiri Tahap II Tahun 2017 C, 1.000.000, 8,65%, idAAA (Pefindo), idAAA (Pefindo), 15 Juni 2027
+- Obligasi Berkelanjutan I Bank Mandiri Tahap II Tahun 2017 D, 1.000.000, 7,80%, -, -, 15 Juni 2020
+- Obligasi Berkelanjutan I Bank Mandiri Tahap III Tahun 2018 -, 3.000.000, 8,50%, -, -, 21 September 2023
+- Obligasi Berkelanjutan II Bank Mandiri Tahap I Tahun 2020 A, 350.000, 7,75%, idAAA (Pefindo), idAAA (Pefindo), 12 Mei 2025
+- Obligasi Berkelanjutan II Bank Mandiri Tahap I Tahun 2020 B, 650.000, 8,30%, idAAA (Pefindo), idAAA (Pefindo), 12 Mei 2027
+- Obligasi Berwawasan Lingkungan Berkelanjutan I Bank Mandiri Tahap I Tahun 2023 A, 1.950.000, 5,80%, idAAA (Pefindo), idAAA (Pefindo), 4 Juli 2026
+- Obligasi Berwawasan Lingkungan Berkelanjutan I Bank Mandiri Tahap I Tahun 2023 B, 3.050.000, 6,10%, idAAA (Pefindo), idAAA (Pefindo), 4 Juli 2028
+
+Denominasi Mata Uang Asing (nilai penuh):
+- Euro Medium Term Notes I (Obligasi Euro Medium Term Notes) Tahun 2019 -, USD750.000.000, 3,75%, Baa2 (Moody's) dan BBB- (Fitch Ratings), Baa2 (Moody's) dan BBB- (Fitch Ratings), 11 April 2024
+- Euro Medium Term Notes II (Obligasi Euro Medium Term Notes) Tahun 2020 -, USD500.000.000, 4,75%, Baa2 (Moody's) dan BBB- (Fitch Ratings), Baa2 (Moody's) dan BBB- (Fitch Ratings), 13 Mei 2025
+- Euro Medium Term Notes III (Sustainability Bond Bank Mandiri 2021) Tahun 2021 -, USD300.000.000, 2,00%, Baa2 (Moody's) dan BBB- (Fitch Ratings), Baa2 (Moody's) dan BBB- (Fitch Ratings), 19 April 2026
+- Euro Medium Term Notes IV (Sustainability Bond Bank Mandiri 2023) Tahun 2023 -, USD300.000.000, 5,50%, Baa2 (Moody's) dan BBB- (Fitch Ratings), Baa2 (Moody's) dan BBB- (Fitch Ratings), 4 April 2026

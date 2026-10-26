@@ -1,0 +1,94 @@
+PENGUNGKAPAN TAMBAHAN TERKAIT PERLAKUAN TERHADAP ASET NON PERFORMING (CRB-A)
+
+(dalam jutaan rupiah)
+
+Non Performing (Kualitas KL, D, M)
+Tagihan yang Tidak Mengalami Penurunan Nilai
+Memiliki Tunggakan > 90 Hari:
+- Nilai Tercatat Bruto e: -
+- CKPN f: -
+Memiliki Tunggakan ≤ 90 Hari:
+- Nilai Tercatat Bruto g: -
+- CKPN h: -
+
+Baris 1:
+- e: -
+- f: -
+- g: -
+- h: -
+
+Baris 2:
+- e: -
+- f: -
+- g: -
+- h: -
+
+Baris 3:
+- e: -
+- f: -
+- g: -
+- h: -
+
+Baris 4:
+- e: -
+- f: -
+- g: -
+- h: -
+
+Baris 5:
+- e: -
+- f: -
+- g: -
+- h: -
+
+---
+
+(dalam jutaan rupiah)
+
+Non Performing (Kualitas KL, D, M)
+Tagihan yang Tidak Mengalami Penurunan Nilai
+Memiliki Tunggakan > 90 Hari:
+- Nilai Tercatat Bruto e: -
+- CKPN f: -
+Memiliki Tunggakan ≤ 90 Hari:
+- Nilai Tercatat Bruto g: -
+- CKPN h: -
+CKPN Eksposur Syariah:
+
+Baris 1:
+- e: -
+- f: -
+- g: -
+- h: -
+- CKPN Eksposur Syariah: 35.231
+
+Baris 2:
+- e: -
+- f: -
+- g: -
+- h: -
+- CKPN Eksposur Syariah: 10.273.223
+
+Baris 3:
+- e: -
+- f: -
+- g: -
+- h: -
+- CKPN Eksposur Syariah: -
+
+Baris 4:
+- e: -
+- f: -
+- g: -
+- h: -
+- CKPN Eksposur Syariah: 10.273.223
+
+Baris 5:
+- e: -
+- f: -
+- g: -
+- h: -
+- CKPN Eksposur Syariah: 24.045
+
+1073
+LAPORAN TAHUNAN 2024

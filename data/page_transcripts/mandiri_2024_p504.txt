@@ -1,0 +1,30 @@
+1. Judul atau keterangan:
+- ARSITEKTUR HUMAN CAPITAL BANK MANDIRI
+- Keterangan diagram lingkaran:
+  - EMPLOYEE VALUE PROPOSITION, PURPOSE, CULTURE
+  - 1: ARCHITECT, Org. Structure & Capacity
+  - 2: ATTRACT, Recruitment
+  - 3: ALIGN, Onboarding & Employee Relation
+  - 4: ADVANCE, Learning & Development
+  - 5: APPRAISE, Performance
+  - 6: AWARD, Reward
+  - 7: ACTUALIZE, Talent & Succession
+  - 8: ADIEU, Retire & Exit
+- Panah melingkar luar:
+  - Leadership
+  - HC Policy & Strategy
+  - HC Operating Model
+  - HC Technology & People Analytic
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada sumbu, legenda, satuan, atau periode yang tercetak pada diagram.
+
+3. Angka yang tertera:
+- 1: 1
+- 2: 2
+- 3: 3
+- 4: 4
+- 5: 5
+- 6: 6
+- 7: 7
+- 8: 8

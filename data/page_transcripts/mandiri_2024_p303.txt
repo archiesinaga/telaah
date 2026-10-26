@@ -1,0 +1,27 @@
+1. Judul atau keterangan:
+- Pangsa Pasar Aset BMRI (%)
+- Pangsa Pasar Kredit (%)
+- Pangsa Pasar DPK (%)
+- Pangsa Pasar CASA (%)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode (untuk semua grafik): 2022, 2023, 2024*
+- Satuan: % (persen)
+
+3. Angka yang tertera:
+- Pangsa Pasar Aset BMRI (%):
+  - 2022: 17,93
+  - 2023: 18,48
+  - 2024*: 19,68
+- Pangsa Pasar Kredit (%):
+  - 2022: 18,72
+  - 2023: 19,72
+  - 2024*: 21,34
+- Pangsa Pasar DPK (%):
+  - 2022: 18,28
+  - 2023: 18,64
+  - 2024*: 19,23
+- Pangsa Pasar CASA (%):
+  - 2022: 21,21
+  - 2023: 21,98
+  - 2024*: 22,69

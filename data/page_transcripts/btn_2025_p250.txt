@@ -1,0 +1,61 @@
+Grafik 1:
+Judul: Grafik Pertumbuhan Harga Rumah menurut House Price Index Triwulan IV 2025
+Sumbu dan Legenda: Sumbu Y kiri (0,00 - 12,00), Sumbu Y kanan (0,00 - 300,00), Sumbu X (Sep 2020 hingga Des 2025), Legenda: Indeks, QoQ, YoY.
+Periode dan Angka:
+- Sep 2020: Indeks tidak terbaca, QoQ 1,11, YoY 4,29
+- Des 2020: Indeks tidak terbaca, QoQ 1,07, YoY 4,23
+- Mar 2021: Indeks tidak terbaca, QoQ 1,59, YoY 5,24
+- Juni 2021: Indeks tidak terbaca, QoQ 1,16, YoY 5,02
+- Sep 2021: Indeks tidak terbaca, QoQ 1,03, YoY 4,94
+- Des 2021: Indeks tidak terbaca, QoQ 1,55, YoY 5,44
+- Mar 2022: Indeks tidak terbaca, QoQ 1,78, YoY 5,64
+- Juni 2022: Indeks tidak terbaca, QoQ 1,50, YoY 6,00
+- Sep 2022: Indeks tidak terbaca, QoQ 1,57, YoY 6,56
+- Des 2022: Indeks tidak terbaca, QoQ 1,78, YoY 6,80
+- Mar 2023: Indeks tidak terbaca, QoQ 1,57, YoY 6,58
+- Juni 2023: Indeks tidak terbaca, QoQ 2,05, YoY 7,14
+- Sep 2023: Indeks tidak terbaca, QoQ 3,01, YoY 8,66
+- Des 2023: Indeks tidak terbaca, QoQ 1,39, YoY 8,25
+- Mar 2024: Indeks tidak terbaca, QoQ 2,78, YoY 9,55
+- Juni 2024: Indeks tidak terbaca, QoQ 1,53, YoY 8,99
+- Sep 2024: Indeks tidak terbaca, QoQ 0,31, YoY 6,14
+- Des 2024: Indeks tidak terbaca, QoQ 1,68, YoY 6,44
+- Mar 2025: Indeks tidak terbaca, QoQ 1,01, YoY 4,60
+- Juni 2025: Indeks tidak terbaca, QoQ 1,54, YoY 4,61
+- Sep 2025: Indeks tidak terbaca, QoQ 0,57, YoY 4,88
+- Des 2025: Indeks tidak terbaca, QoQ 1,92, YoY 5,13
+
+Grafik 2:
+Judul: Grafik Perbandingan Kinerja Aset dan Kredit Desember 2025 (termasuk UUS)
+Legenda: Aset, Kredit
+Periode dan Angka:
+- Mandiri:
+  - Desember 2024: Aset 1.877, Kredit 1.311
+  - Desember 2025: Aset 2.228, Kredit 1.497
+- BCA:
+  - Desember 2024: Aset 1.406, Kredit 895
+  - Desember 2025: Aset 1.537, Kredit 962
+- btn:
+  - Desember 2024: Aset 470, Kredit 358
+  - Desember 2025: Aset 528, Kredit 401
+- OCBC Bank:
+  - Desember 2024: Aset 281, Kredit 170
+  - Desember 2025: Aset 308, Kredit 173
+- Permata Bank:
+  - Desember 2024: Aset 295, Kredit 155
+  - Desember 2025: Aset 268, Kredit 163
+- BRI:
+  - Desember 2024: Aset 1.840, Kredit 1.216
+  - Desember 2025: Aset 1.932, Kredit 1.343
+- BNI:
+  - Desember 2024: Aset 1.084, Kredit 762
+  - Desember 2025: Aset 1.306, Kredit 883
+- BSI:
+  - Desember 2024: Aset 409, Kredit 278
+  - Desember 2025: Aset 456, Kredit 318
+- CIMB NIAGA:
+  - Desember 2024: Aset 351, Kredit 219
+  - Desember 2025: Aset 362, Kredit 228
+- Danamon:
+  - Desember 2024: Aset 212, Kredit 156
+  - Desember 2025: Aset 240, Kredit 175

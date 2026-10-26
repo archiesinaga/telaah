@@ -1,0 +1,10 @@
+1. Judul atau keterangan:
+Kelompok Usaha Bank (KUB) BTN Group
+(Bank Konvensional dan Bank Syariah)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Logo/teks: btn
+- Logo/teks: bsn* bank syariah nasional
+
+3. Semua angka:
+TIDAK ADA ANGKA

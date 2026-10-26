@@ -1,0 +1,16 @@
+Pelapor
+Mulai
+1. Laporan WBS
+
+Pengelola WBS Independen
+2. Input Aplikasi WBS
+3. Mengklasifikasikan Laporan WBS
+Laporan WBS in scope/out of scope
+8. Closing Status Laporan
+Selesai
+
+BP BUMN
+4. Menerima hasil WBS
+5. Laporan WBS in scope/out of scope
+6. Menindaklanjuti menentukan langkah penanganan laporan WBS sesuai kewenangan yang dimiliki
+7. Arahan Closing Laporan WBS

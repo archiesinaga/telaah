@@ -1,0 +1,28 @@
+1. Judul: Rasio NPL Bank Mandiri Vs Industri
+Label: 
+- NPL Industri (%)
+- NPL Bank mandiri (%)
+Periode: 
+- 2022
+- 2023
+- 2024*
+Angka:
+- 2022 NPL Bank mandiri (%): 2,44
+- 2022 NPL Industri (%): 1,88
+- 2023 NPL Bank mandiri (%): 2,19
+- 2023 NPL Industri (%): 1,02
+- 2024* NPL Bank mandiri (%): 2,19
+- 2024* NPL Industri (%): 0,97
+
+2. Judul: NPL Coverage Bank Mandiri (Bank Only)
+Label:
+- BI-Rate (%)
+- Inflasi (% yoy)
+Periode:
+- 2022
+- 2023
+- 2024*
+Angka:
+- 2022: 311
+- 2023: 385
+- 2024*: 304

@@ -1,0 +1,43 @@
+1. Judul atau keterangan:
+Proyeksi Perbandingan BTN dengan Bank sejenis
+Pada 2025, BTN dapat menjadi salah satu mortgage bank dengan pertumbuhan tercepat dan paling menguntungkan secara global
+Cut off USD 10 Miliar di Asia Tenggara, India, Cina, Brazil, Nigeria, AS, Inggris, Rusia
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Mortgage % dari aset pinjaman
+- Mortgage, 2019 USD Miliar
+- CAGR, 17-19
+- ROE, 2019
+- XX%
+- CAHR >13% (CATATAN: tertulis CAHR >13% pada legenda gambar)
+- ROF >16%
+- Angka BTN sebagai bagian dari aspirasi 2025
+
+3. Semua angka yang tertera:
+Kolom Kiri:
+- Nationwide Building Society, Mortgage % dari aset pinjaman: 94, Mortgage, 2019 USD Miliar: 246, CAGR, 17-19: 3.2%, ROE, 2019: 5.0%
+- LIC Housing Finance Ltd, Mortgage % dari aset pinjaman: 90, Mortgage, 2019 USD Miliar: 25, CAGR, 17-19: 10.6%, ROE, 2019: 15.9%
+- ธนาคารอาคารสงเคราะห์ GH Bank, Mortgage % dari aset pinjaman: 85, Mortgage, 2019 USD Miliar: 35, CAGR, 17-19: 8.4%, ROE, 2019: 15.6%
+- Santander, Mortgage % dari aset pinjaman: 81, Mortgage, 2019 USD Miliar: 216, CAGR, 17-19: 3.4%, ROE, 2019: 4.6%
+- HDFC, Mortgage % dari aset pinjaman: 73, Mortgage, 2019 USD Miliar: 91, CAGR, 17-19: 10.4%, ROE, 2019: 17.0%
+- Lloyds Bank, Mortgage % dari aset pinjaman: 68, Mortgage, 2019 USD Miliar: 403, CAGR, 17-19: 0.6%, ROE, 2019: 6.1%
+- btn, Mortgage % dari aset pinjaman: 67, Mortgage, 2019 USD Miliar: 12, CAGR, 17-19: 13%¹, ROE, 2019: 20%¹
+- Caixa, Mortgage % dari aset pinjaman: 67, Mortgage, 2019 USD Miliar: 84, CAGR, 17-19: 3.7%, ROE, 2019: 17.5%
+- JPMorgan Chase & Co., Mortgage % dari aset pinjaman: 44, Mortgage, 2019 USD Miliar: 431, CAGR, 17-19: -8.8%, ROE, 2019: 14.1%
+- Public Bank, Mortgage % dari aset pinjaman: 37, Mortgage, 2019 USD Miliar: 29, CAGR, 17-19: 8.3%, ROE, 2019: 12.8%
+- China Construction Bank, Mortgage % dari aset pinjaman: 35, Mortgage, 2019 USD Miliar: 760, CAGR, 17-19: 12.2%, ROE, 2019: 12.7%
+- RHB, Mortgage % dari aset pinjaman: 35, Mortgage, 2019 USD Miliar: 25, CAGR, 17-19: 11.1%, ROE, 2019: 10.1%
+
+Kolom Kanan:
+- Wells Fargo, Mortgage % dari aset pinjaman: 34, Mortgage, 2019 USD Miliar: 325, CAGR, 17-19: -0.1%, ROE, 2019: 10.4%
+- Agricultural Bank of China, Mortgage % dari aset pinjaman: 31, Mortgage, 2019 USD Miliar: 596, CAGR, 17-19: 15.3%, ROE, 2019: 11.7%
+- Industrial and Commercial Bank of China, Mortgage % dari aset pinjaman: 31, Mortgage, 2019 USD Miliar: 756, CAGR, 17-19: 12.5%, ROE, 2019: 10.4%
+- SCB Siam Commercial Bank, Mortgage % dari aset pinjaman: 31, Mortgage, 2019 USD Miliar: 22, CAGR, 17-19: 1.6%, ROE, 2019: 10.3%
+- Bank of China, Mortgage % dari aset pinjaman: 31, Mortgage, 2019 USD Miliar: 573, CAGR, 17-19: 14.2%, ROE, 2019: 10.9%
+- CIMB Niaga, Mortgage % dari aset pinjaman: 29, Mortgage, 2019 USD Miliar: 26, CAGR, 17-19: 8.9%, ROE, 2019: 8.1%
+- Maybank, Mortgage % dari aset pinjaman: 27, Mortgage, 2019 USD Miliar: 40, CAGR, 17-19: 9.9%, ROE, 2019: 10.5%
+- UOB, Mortgage % dari aset pinjaman: 26, Mortgage, 2019 USD Miliar: 51, CAGR, 17-19: 2.5%, ROE, 2019: 11.2%
+- OCBC Bank, Mortgage % dari aset pinjaman: 23, Mortgage, 2019 USD Miliar: 46, CAGR, 17-19: -1.9%, ROE, 2019: 10.9%
+- Sber, Mortgage % dari aset pinjaman: 21, Mortgage, 2019 USD Miliar: 74, CAGR, 17-19: 17.0%, ROE, 2019: 21.9%
+- DBS, Mortgage % dari aset pinjaman: 20, Mortgage, 2019 USD Miliar: 55, CAGR, 17-19: 0.2%, ROE, 2019: 12.6%
+- State Bank of India, Mortgage % dari aset pinjaman: 20, Mortgage, 2019 USD Miliar: 65, CAGR, 17-19: 15.6%, ROE, 2019: 1.4%

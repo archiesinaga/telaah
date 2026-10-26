@@ -1,0 +1,71 @@
+LAPORAN NET STABLE FUNDING RATIO (NSFR) - KONSOLIDASI
+
+Posisi Tanggal Laporan (Desember/2024)
+Nilai Tercatat Berdasarkan Sisa Jangka Waktu (Dalam Juta Rupiah)
+Tanpa Jangka Waktu: 
+- Baris 1: 47.881.290
+- Baris 2: -
+- Baris 3: -
+- Baris 4: -
+- Baris 5: -
+- Baris 6: -
+- Baris 7: -
+- Baris 8: -
+
+< 6 bulan:
+- Baris 1: 1.725.198
+- Baris 2: 265.501.068
+- Baris 3: 7.166.266
+- Baris 4: 32.648.613
+- Baris 5: -
+- Baris 6: 183.977.807
+- Baris 7: 34.237.840
+- Baris 8: 67.075
+- Baris 9: 37.246
+
+≥ 6 bulan - < 1 tahun:
+- Baris 1: -
+- Baris 2: 182.456.497
+- Baris 3: 5.008
+- Baris 4: 12.131.025
+- Baris 5: -
+- Baris 6: 122.956.714
+- Baris 7: 46.792.698
+- Baris 8: 207.433
+- Baris 9: 122.937
+
+≥ 1 tahun:
+- Baris 1: -
+- Baris 2: 1.261.179.113
+- Baris 3: -
+- Baris 4: 97.353.949
+- Baris 5: -
+- Baris 6: 921.791.703
+- Baris 7: 112.739.007
+- Baris 8: 60.418.511
+- Baris 9: 49.346.750
+
+Total Nilai Tertimbang:
+- Baris 1: 47.830.953
+- Baris 2: 24.803.244
+- Baris 3: 1.266.065.230
+- Baris 4: 719.130
+- Baris 5: 108.316.754
+- Baris 6: 936.351.518
+- Baris 7: 116.626.095
+- Baris 8: 51.492.989
+- Baris 9: 32.155.479
+
+No. Ref. dari Kertas Kerja NSFR:
+- Baris 1: 1
+- Baris 2: 2
+- Baris 3: 3
+- Baris 4: 3.1.1
+- Baris 5: 3.1.2 dan 3.1.3
+- Baris 6: 3.1.4.2, 3.1.5, 3.1.6
+- Baris 7: 3.1.4.1
+- Baris 8: 3.1.7.2
+- Baris 9: 3.1.7.1
+
+Halaman: 1147
+LAPORAN TAHUNAN 2024

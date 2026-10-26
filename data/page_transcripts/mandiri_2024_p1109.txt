@@ -1,0 +1,194 @@
+RISIKO KREDIT - PENGUNGKAPAN KSPOSUR SEKURITISASI PADA TRADING BOOK (SEC2)
+
+(dalam jutaan rupiah)
+Tabel bagian atas:
+Judul kolom utama 1: Bank sebagai sponsor
+Sub-kolom: Tradisional, Sintetis, Subtotal
+Judul kolom utama 2: Bank sebagai investor
+Sub-kolom: Tradisional, Sintetis, Sub-total
+
+Baris data 1:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 2:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 3:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 4:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 5:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 6:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 7:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 8:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 9:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 10:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 11:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+(dalam jutaan rupiah)
+Tabel bagian bawah:
+Judul kolom utama 1: Bank sebagai sponsor
+Sub-kolom: Tradisional, Sintetis, Subtotal
+Judul kolom utama 2: Bank sebagai investor
+Sub-kolom: Tradisional, Sintetis, Sub-total
+
+Baris data 1:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 2:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 3:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 4:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 5:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 6:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 7:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 8:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 9:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 10:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Baris data 11:
+- Bank sebagai sponsor - Tradisional: -
+- Bank sebagai sponsor - Sintetis: -
+- Bank sebagai sponsor - Subtotal: -
+- Bank sebagai investor - Tradisional: -
+- Bank sebagai investor - Sintetis: -
+- Bank sebagai investor - Sub-total: -
+
+Nomor halaman: 1107
+Keterangan bawah: LAPORAN TAHUNAN 2024

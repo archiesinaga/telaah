@@ -1,0 +1,11 @@
+Tabel Tren Resignation Rate Bank Mandiri Tahun 2022-2024
+Kolom: Tahun, Total Resignation (orang), Total Pegawai (orang), Persentase
+2024: 1.024; 38.847; 2,63%
+2023: 1.044; 38.940; 2,68%
+2022: 1.102; 38.176; 2,89%
+
+Tren Pegawai Keluar dari Perusahaan
+Kolom: Keterangan, 2024, 2023, 2022
+Jumlah karyawan yang keluar (orang): 2024: 2.411, 2023: 2.048, 2022: 1.840
+Jumlah karyawan akhir tahun (orang): 2024: 38.847, 2023: 38.940, 2022: 38.176
+Persentase turnover (%): 2024: 6,21%, 2023: 5,26%, 2022: 4,82%

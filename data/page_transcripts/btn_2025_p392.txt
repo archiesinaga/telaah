@@ -1,0 +1,23 @@
+Uraian: Giro, Proyeksi Pertumbuhan 2026: 15,58%
+Uraian: Tabungan, Proyeksi Pertumbuhan 2026: 13,47%
+Uraian: Deposito, Proyeksi Pertumbuhan 2026: (2,06%)
+Uraian: Jumlah Dana Pihak Ketiga, Proyeksi Pertumbuhan 2026: 6,13%
+
+Tabel Proyeksi Keuangan (dalam %)
+Uraian: Aset, Proyeksi Pertumbuhan 2026: 10,90%
+Uraian: Liabilitas, Proyeksi Pertumbuhan 2026: 11,06%
+Uraian: Ekuitas, Proyeksi Pertumbuhan 2026: 9,06%
+Uraian: Pendapatan Bunga, Proyeksi Pertumbuhan 2026: 5,23%
+Uraian: Laba Operasional, Proyeksi Pertumbuhan 2026: 18,14%
+Uraian: Laba Bersih, Proyeksi Pertumbuhan 2026: 20,28%
+Uraian: CAR, Proyeksi Pertumbuhan 2026: 17,00% - 18,00%
+Uraian: NPL, Proyeksi Pertumbuhan 2026: < 3,00%
+Uraian: ROA, Proyeksi Pertumbuhan 2026: 0,90% - 1,00%
+Uraian: ROE, Proyeksi Pertumbuhan 2026: 12,00% - 13,00%
+Uraian: NIM, Proyeksi Pertumbuhan 2026: 3,50% - 4,00%
+
+Tabel Proyeksi Struktur Modal
+Uraian: Modal Inti (Tier 1), Proyeksi Pertumbuhan 2026: ±Rp31 triliun - Rp32 triliun
+Uraian: Modal Pelengkap (Tier 2), Proyeksi Pertumbuhan 2026: ±Rp3,5 triliun - Rp3,8 triliun
+Uraian: Jumlah Modal, Proyeksi Pertumbuhan 2026: ±Rp34 triliun - Rp35 triliun
+Uraian: Aset Tertimbang Menurut Risiko (ATMR), Proyeksi Pertumbuhan 2026: Rp195 triliun - Rp198 triliun

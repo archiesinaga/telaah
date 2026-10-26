@@ -1,0 +1,48 @@
+IKHTISAR UTAMA
+INFORMASI SAHAM
+
+Grafik Pergerakan Harga Saham
+Pergerakan Harga Saham Bank Mandiri Tahun 2023 – 2024
+Harga Pembukaan, Penutupan Tertinggi, Penutupan Terendah, dan Penutupan Saham di Setiap Triwulan (Rp)
+
+Kinerja Pergerakan Harga Saham Bank Mandiri
+
+Grafik 1: Kinerja Pergerakan Harga Saham Bank Mandiri (Kombinasi Garis dan Batang)
+Sumbu Y Kiri (Harga): 12.000, 10.000, 8.000, 6.000, 4.000, 2.000, 0
+Sumbu Y Kanan (Volume / Nilai terkait): 8.000, 7.000, 6.000, 5.000, 4.000, 3.000, 2.000, 1.000, 0
+Sumbu X (Periode): Q1 2023, Q2 2023, Q3 2023, Q4 2023, Q1 2024, Q2 2024, Q3 2024, Q4 2024
+Legenda:
+- Volume (Juta Lembar)
+- Penutupan
+- Harga Saham Pembukaan
+- Harga Saham Tertinggi
+- Harga Saham Terendah
+- Harga Saham Penutupan
+
+Angka pada Grafik 1 (berdasarkan label/titik/batang):
+- Q1 2023:
+  - Harga Saham Pembukaan: 9.925
+  - Harga Saham Penutupan: 10.325
+  - Harga Saham Tertinggi: 10.950
+  - Harga Saham Terendah: 8.900
+- Q2 2023:
+  - Harga Saham Tertinggi / Titik tertinggi: 10.600 (perkiraan posisi, sesuai gambar tertulis garis menyambung ke titik tersebut) -> *Catatan: angka tidak tertulis langsung, hanya titik*, namun terdapat angka tambahan di dekat beberapa titik:
+  - Q1 2023: 10.325, 9.925, 10.950, 8.900
+  - Q2 2024: 7.550, 5.525
+  - Q4 2024: 7.300, 7.000, 5.700, 5.600
+
+Volume Transaksi Saham Bank Mandiri Tahun 2023 - 2024
+Grafik Batang: Volume Transaksi Saham Bank Mandiri Tahun 2023 - 2024
+Sumbu Y: 8.000, 7.000, 6.000, 5.000, 4.000, 3.000, 2.000, 1.000, 0
+Sumbu X (Periode): Q1 2023, Q2 2023, Q3 2023, Q4 2023, Q1 2024, Q2 2024, Q3 2024, Q4 2024
+Legenda: Volume (Juta Lembar)
+
+Angka pada Grafik Volume Transaksi:
+- Q1 2023: 3.135,25
+- Q2 2023: 4.839,50
+- Q3 2023: 5.516,57
+- Q4 2023: 4.306,11
+- Q1 2024: 5.884,79
+- Q2 2024: 7.275,20
+- Q3 2024: 6.287,70
+- Q4 2024: 5.922,09

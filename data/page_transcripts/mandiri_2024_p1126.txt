@@ -1,0 +1,52 @@
+1. Judul atau keterangan:
+TABEL 7.3B PENGUNGKAPAN EKSPOSUR INTEREST RATE RISK IN BANKING BOOK (IRRBB) - BANK SECARA KONSOLIDASI DENGAN ENTITAS ANAK
+
+Nama Bank : PT Bank Mandiri (Persero), Tbk. (Konsolidasi)
+Posisi : Desember 2024
+Mata Uang : Rupiah dan Valas
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: Dalam Juta Rupiah
+Kolom utama: 
+- ΔEVE (dengan sub-kolom Periode: Des-24, Des-23)
+- ΔNII (dengan sub-kolom Periode: Des-24, Des-23)
+Baris/Label Skenario:
+- Parallel up
+- Parallel down
+- Steepener
+- Flattener
+- Short rate up
+- Short rate down
+- Nilai Maksimum Negatif (absolut)
+- Modal Tier 1 (untuk ΔEVE) atau Projected Income (untuk ΔNII)
+- Nilai Maksimum dibagi Modal Tier 1 atau Projected Income
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Parallel up, Des-24: (2.195.951)
+- Parallel up, Des-23: (9.441.540)
+- Parallel up (ΔNII), Des-24: 2.241.388
+- Parallel up (ΔNII), Des-23: (217.679)
+- Parallel down, Des-24: 2.873.801
+- Parallel down, Des-23: 14.395.450
+- Parallel down (ΔNII), Des-24: (4.977.851)
+- Parallel down (ΔNII), Des-23: (3.335.916)
+- Steepener, Des-24: (4.026.409)
+- Steepener, Des-23: (8.288.576)
+- Flattener, Des-24: 3.701.361
+- Flattener, Des-23: (6.725.141)
+- Short rate up, Des-24: 2.144.005
+- Short rate up, Des-23: 340.892
+- Short rate down, Des-24: (3.812.637)
+- Short rate down, Des-23: (1.635.207)
+- Nilai Maksimum Negatif (absolut), Des-24: 4.026.209
+- Nilai Maksimum Negatif (absolut), Des-23: 9.441.540
+- Nilai Maksimum Negatif (absolut) ΔNII, Des-24: 4.977.851
+- Nilai Maksimum Negatif (absolut) ΔNII, Des-23: 3.335.916
+- Modal Tier 1 (untuk ΔEVE) atau Projected Income (untuk ΔNII), Des-24: 286.910.930
+- Modal Tier 1 (untuk ΔEVE) atau Projected Income (untuk ΔNII), Des-23: 258.956.049
+- Modal Tier 1 (untuk ΔEVE) atau Projected Income (untuk ΔNII) ΔNII, Des-24: 106.053.000
+- Modal Tier 1 (untuk ΔEVE) atau Projected Income (untuk ΔNII) ΔNII, Des-23: 95.178.000
+- Nilai Maksimum dibagi Modal Tier 1 atau Projected Income, Des-24: 1,40%
+- Nilai Maksimum dibagi Modal Tier 1 atau Projected Income, Des-23: 3,65%
+- Nilai Maksimum dibagi Modal Tier 1 atau Projected Income ΔNII, Des-24: 4,69%
+- Nilai Maksimum dibagi Modal Tier 1 atau Projected Income ΔNII, Des-23: 3,50%

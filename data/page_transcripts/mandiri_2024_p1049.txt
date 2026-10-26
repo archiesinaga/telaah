@@ -1,0 +1,104 @@
+RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+(dalam jutaan rupiah)
+31 Desember 2023
+Tagihan bersih berdasarkan sisa jangka waktu kontrak
+> 3 thn s.d. 5 thn: > 3 thn s.d. 5 thn
+> 5 thn: > 5 thn
+Non Kontraktual: Non Kontraktual
+Total: Total
+
+Row 1:
+> 3 thn s.d. 5 thn: 40.269.300
+> 5 thn: 192.512.450
+Non Kontraktual: -
+Total: 445.306.677
+
+Row 2:
+> 3 thn s.d. 5 thn: 14.628.993
+> 5 thn: 35.183.806
+Non Kontraktual: -
+Total: 100.221.544
+
+Row 3:
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: -
+Total: -
+
+Row 4:
+> 3 thn s.d. 5 thn: 1.196.596
+> 5 thn: 3.569.733
+Non Kontraktual: -
+Total: 75.063.109
+
+Row 5:
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: -
+Total: -
+
+Row 6:
+> 3 thn s.d. 5 thn: 3.401.375
+> 5 thn: 49.277
+Non Kontraktual: -
+Total: 7.309.832
+
+Row 7:
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: 2.970
+Total: 2.970
+
+Row 8:
+> 3 thn s.d. 5 thn: 4.280.097
+> 5 thn: 46.736.098
+Non Kontraktual: -
+Total: 53.328.528
+
+Row 9:
+> 3 thn s.d. 5 thn: 3.000.138
+> 5 thn: 9.234.336
+Non Kontraktual: -
+Total: 20.536.212
+
+Row 10:
+> 3 thn s.d. 5 thn: 393.430
+> 5 thn: 654.675
+Non Kontraktual: -
+Total: 1.259.671
+
+Row 11:
+> 3 thn s.d. 5 thn: 7.337
+> 5 thn: 70.989
+Non Kontraktual: -
+Total: 86.767
+
+Row 12:
+> 3 thn s.d. 5 thn: 78.619.679
+> 5 thn: 58.674.249
+Non Kontraktual: -
+Total: 239.155.937
+
+Row 13:
+> 3 thn s.d. 5 thn: 140.358.240
+> 5 thn: 154.253.189
+Non Kontraktual: -
+Total: 702.180.677
+
+Row 14:
+> 3 thn s.d. 5 thn: 2.811.437
+> 5 thn: 1.432.145
+Non Kontraktual: -
+Total: 9.862.971
+
+Row 15:
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: 92.584.977
+Total: 92.584.977
+
+Total:
+> 3 thn s.d. 5 thn: 288.966.622
+> 5 thn: 502.370.948
+Non Kontraktual: 92.587.947
+Total: 1.746.899.873

@@ -1,0 +1,34 @@
+1. Judul Grafik 1: Pertumbuhan PDB (%)
+- Satuan: %
+- Periode dan angka:
+  - 2020: -2,07
+  - 2021: 3,70
+  - 2022: 5,31
+  - 2023: 5,05
+  - Q3-24: 4,95
+  - 2024F: 5,06
+  - 2025F: 5,13
+- Catatan kaki: *) Proyeksi; Sumber: BPS, BI, dan IMF.
+
+2. Judul Grafik 2: Pertumbuhan PDB Menurut Lapangan Usaha dan Pengeluaran per Triwulan III 2024
+
+Sub-grafik 2A: Pertumbuhan PDB Menurut Lapangan Usaha (Y-ON-Y) (persen)
+- Satuan: persen
+- Periode/Label dan angka:
+  - Pertanian: 1,69
+  - Pertambangan & penggalian: 3,46
+  - Industri pengolahan: 4,72
+  - Perdagangan & Reparasi: 7,48
+  - Transportasi & Pergudangan: 4,82
+  - Lainnya: 5,89
+
+Sub-grafik 2B: Pertumbuhan PDB Menurut Pengeluaran (Y-ON-Y) (persen)
+- Satuan: persen
+- Periode/Label dan angka:
+  - Konsumsi Rumah Tangga: 4,91
+  - Konsumsi LNPRT: 11,69
+  - Konsumsi Pemerintah: 4,62
+  - PMTB: 5,15
+  - Ekspor: 9,09
+  - Import: 11,47
+- Sumber: BPS.

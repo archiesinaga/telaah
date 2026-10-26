@@ -1,0 +1,107 @@
+Judul: Tabel Laporan Transaksi Spot dan Transaksi Derivatif
+Satuan: (dalam jutaan Rupiah)
+Periode: 2025
+
+Kolom Header:
+No, Transaksi, BANK 2025, Nilai Notional, Tujuan Trading, Tujuan Hedging, Tagihan dan Kewajiban Derivatif Tagihan, Tagihan dan Kewajiban Derivatif Kewajiban
+
+Baris Data A. TERKAIT DENGAN NILAI TUKAR:
+1. Spot:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+2. Forward:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+3. Option:
+a. Jual
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+b. Beli
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+4. Future:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+5. Swap:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+6. Lainnya (CCS):
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+Baris Data B. TERKAIT DENGAN SUKU BUNGA:
+1. Forward:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+2. Option:
+a. Jual
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+b. Beli
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+3. Future:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+4. Swap:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+5. Lainnya:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -
+
+Baris Data C. LAINNYA:
+Jumlah:
+- Nilai Notional: -
+- Trading: -
+- Hedging: -
+- Tagihan: -
+- Kewajiban: -

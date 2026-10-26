@@ -1,0 +1,52 @@
+PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+
+(dalam jutaan rupiah)
+
+Tabel 1:
+70%: tidak terbaca
+75%: tidak terbaca
+85%: tidak terbaca
+90%: tidak terbaca
+100%: tidak terbaca
+105%: tidak terbaca
+110%: tidak terbaca
+150%: tidak terbaca
+Lainnya: tidak terbaca
+Tagihan Bersih Setelah FKK dan Teknik MRK: 0
+70%: 4.894.080
+75%: tidak terbaca
+85%: tidak terbaca
+90%: 5.805.464
+100%: tidak terbaca
+105%: 171.861
+110%: 1.138.753
+150%: tidak terbaca
+Lainnya: 12.010.158
+70%: tidak terbaca
+75%: tidak terbaca
+85%: tidak terbaca
+90%: tidak terbaca
+100%: 0
+105%: tidak terbaca
+110%: tidak terbaca
+150%: 1.166.798
+Lainnya: 0
+Tagihan Bersih Setelah FKK dan Teknik MRK: 1.166.798
+
+Tabel 2:
+150%: 26.112
+Lainnya: -
+Tagihan Bersih Setelah FKK dan Teknik MRK: 4.574.515
+
+Tabel 3:
+150%: -
+1250%5): -
+Lainnya: -
+Tagihan Bersih Setelah FKK dan Teknik MRK: 102.729.884
+
+Tabel 4:
+50%: 56.601.556
+75%: 41.830.624
+100%: 86.420.152
+Lainnya: -
+Tagihan Bersih Setelah FKK dan Teknik MRK: 370.742.643

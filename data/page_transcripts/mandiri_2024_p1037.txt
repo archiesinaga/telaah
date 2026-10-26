@@ -1,0 +1,114 @@
+RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+(dalam jutaan rupiah)
+
+Kredit Beragun Properti Rumah Tinggal:
+- Kredit Beragun Properti Rumah Tinggal, Baris 1: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 2: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 3: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 4: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 5: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 6: 1.651
+- Kredit Beragun Properti Rumah Tinggal, Baris 7: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 8: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 9: 53.318.945
+- Kredit Beragun Properti Rumah Tinggal, Baris 10: 249
+- Kredit Beragun Properti Rumah Tinggal, Baris 11: -
+- Kredit Beragun Properti Rumah Tinggal, Baris 12 (Total): 53.328.528
+
+Kredit Beragun Properti Komersial:
+- Kredit Beragun Properti Komersial, Baris 1: 41.356
+- Kredit Beragun Properti Komersial, Baris 2: -
+- Kredit Beragun Properti Komersial, Baris 3: -
+- Kredit Beragun Properti Komersial, Baris 4: 413.826
+- Kredit Beragun Properti Komersial, Baris 5: -
+- Kredit Beragun Properti Komersial, Baris 6: -
+- Kredit Beragun Properti Komersial, Baris 7: -
+- Kredit Beragun Properti Komersial, Baris 8: -
+- Kredit Beragun Properti Komersial, Baris 9: 1.880.179
+- Kredit Beragun Properti Komersial, Baris 10: -
+- Kredit Beragun Properti Komersial, Baris 11: -
+- Kredit Beragun Properti Komersial, Baris 12 (Total): 20.536.212
+
+Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi:
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 1: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 2: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 3: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 4: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 5: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 6: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 7: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 8: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 9: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 10: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 11: -
+- Kredit Pengadaan Tanah, Pengolahan Tanah, dan/atau Konstruksi, Baris 12 (Total): 1.259.671
+
+Kredit Pegawai/Pensiunan:
+- Kredit Pegawai/Pensiunan, Baris 1: -
+- Kredit Pegawai/Pensiunan, Baris 2: -
+- Kredit Pegawai/Pensiunan, Baris 3: -
+- Kredit Pegawai/Pensiunan, Baris 4: -
+- Kredit Pegawai/Pensiunan, Baris 5: -
+- Kredit Pegawai/Pensiunan, Baris 6: -
+- Kredit Pegawai/Pensiunan, Baris 7: -
+- Kredit Pegawai/Pensiunan, Baris 8: -
+- Kredit Pegawai/Pensiunan, Baris 9: 86.767
+- Kredit Pegawai/Pensiunan, Baris 10: -
+- Kredit Pegawai/Pensiunan, Baris 11: -
+- Kredit Pegawai/Pensiunan, Baris 12 (Total): 86.767
+
+Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel:
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 1: 1.375.615
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 2: 15
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 3: 132.861
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 4: 331.084
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 5: 7.458
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 6: 4.288.803
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 7: 28.534
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 8: 87
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 9: 131.015.190
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 10: 20.457.868
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 11: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Baris 12 (Total): 239.118.725
+
+Tagihan kepada Korporasi:
+- Tagihan kepada Korporasi, Baris 1: 11.587.784
+- Tagihan kepada Korporasi, Baris 2: 15.385
+- Tagihan kepada Korporasi, Baris 3: 376.097
+- Tagihan kepada Korporasi, Baris 4: 7.068.370
+- Tagihan kepada Korporasi, Baris 5: 154.240
+- Tagihan kepada Korporasi, Baris 6: 617.292
+- Tagihan kepada Korporasi, Baris 7: -
+- Tagihan kepada Korporasi, Baris 8: -
+- Tagihan kepada Korporasi, Baris 9: 8.639.996
+- Tagihan kepada Korporasi, Baris 10: 179.854
+- Tagihan kepada Korporasi, Baris 11: 102.908.010
+- Tagihan kepada Korporasi, Baris 12 (Total): 702.180.677
+
+Tagihan yang Telah Jatuh Tempo:
+- Tagihan yang Telah Jatuh Tempo, Baris 1: 22.821
+- Tagihan yang Telah Jatuh Tempo, Baris 2: -
+- Tagihan yang Telah Jatuh Tempo, Baris 3: 281
+- Tagihan yang Telah Jatuh Tempo, Baris 4: 3.915
+- Tagihan yang Telah Jatuh Tempo, Baris 5: 2.714
+- Tagihan yang Telah Jatuh Tempo, Baris 6: 17.079
+- Tagihan yang Telah Jatuh Tempo, Baris 7: 402
+- Tagihan yang Telah Jatuh Tempo, Baris 8: -
+- Tagihan yang Telah Jatuh Tempo, Baris 9: 1.179.859
+- Tagihan yang Telah Jatuh Tempo, Baris 10: 46.212
+- Tagihan yang Telah Jatuh Tempo, Baris 11: 659.783
+- Tagihan yang Telah Jatuh Tempo, Baris 12 (Total): 9.862.971
+
+Aset Lainnya:
+- Aset Lainnya, Baris 1: -
+- Aset Lainnya, Baris 2: -
+- Aset Lainnya, Baris 3: -
+- Aset Lainnya, Baris 4: -
+- Aset Lainnya, Baris 5: -
+- Aset Lainnya, Baris 6: -
+- Aset Lainnya, Baris 7: -
+- Aset Lainnya, Baris 8: -
+- Aset Lainnya, Baris 9: -
+- Aset Lainnya, Baris 10: -
+- Aset Lainnya, Baris 11: 92.584.977
+- Aset Lainnya, Baris 12 (Total): 92.584.977

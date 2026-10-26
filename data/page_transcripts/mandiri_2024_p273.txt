@@ -1,0 +1,67 @@
+1. Judul atau keterangan: Realisasi & Proyeksi Pertumbuhan PDB Beberapa Negara Mitra Dagang Utama Indonesia (dalam persentase)
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X (Negara/Kawasan): Dunia, Negara Maju, Negara Berkembang, Tiongkok, Amerika Serikat, India, Jepang, Filipina, Malaysia, Korea Selatan, Singapura, Taiwan, Vietnam, Thailand, Australia
+- Legenda: 2003, 2004*, 2005*
+- Satuan: % (dalam persentase)
+- Periode: 2003, 2004*, 2005* (*): proyeksi
+3. Angka yang tertera:
+- Dunia:
+  - 2003: 3,3
+  - 2004*: 3,2
+  - 2005*: 3,2
+- Negara Maju:
+  - 2003: 1,7
+  - 2004*: 1,8
+  - 2005*: 1,8
+- Negara Berkembang:
+  - 2003: 4,4
+  - 2004*: 4,2
+  - 2005*: 4,2
+- Tiongkok:
+  - 2003: 5,2
+  - 2004*: 4,8
+  - 2005*: 4,5
+- Amerika Serikat:
+  - 2003: 2,9
+  - 2004*: 2,8
+  - 2005*: 2,2
+- India:
+  - 2003: 8,2
+  - 2004*: 7,0
+  - 2005*: 6,5
+- Jepang:
+  - 2003: 1,7
+  - 2004*: 0,3
+  - 2005*: 1,1
+- Filipina:
+  - 2003: 5,5
+  - 2004*: 5,8
+  - 2005*: 6,1
+- Malaysia:
+  - 2003: 3,6
+  - 2004*: 4,8
+  - 2005*: 4,4
+- Korea Selatan:
+  - 2003: 1,4
+  - 2004*: 2,5
+  - 2005*: 2,2
+- Singapura:
+  - 2003: 1,1
+  - 2004*: 2,0
+  - 2005*: 2,5
+- Taiwan:
+  - 2003: 5,0
+  - 2004*: 6,1
+  - 2005*: 6,1
+- Vietnam:
+  - 2003: 7,3
+  - 2004*: 3,7
+  - 2005*: 2,7
+- Thailand:
+  - 2003: 1,9
+  - 2004*: 2,8
+  - 2005*: 3,0
+- Australia:
+  - 2003: 2,0
+  - 2004*: 1,2
+  - 2005*: 2,1

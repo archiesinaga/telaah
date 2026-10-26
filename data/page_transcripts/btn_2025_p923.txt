@@ -1,0 +1,19 @@
+1. Judul Tabel 1: Data Inklusi Keuangan Tahun 2025
+- Kolom 1: Semester
+  - Semester I: 55 kegiatan
+  - Semester II: 102 kegiatan
+
+2. Judul Tabel 2: Adapun rincian Inklusi Keuangan Tahun 2025 adalah sebagai berikut:
+- Kolom No.: 1
+- Kolom Bulan: Januari
+- Kolom Nama Kegiatan Inklusi Keuangan:
+  1) Pembukaan rekening pada Sesi Edukasi Pengelolaan Keuangan di Universitas Sulawesi Barat
+  2) Pembukaan Rekening pada Sosialisasi Pengelolaan Keuangan di Pengadilan Militer Tinggi II Jakarta
+  3) Pembukaan Rekening pada Sosialisasi Pengelolaan Keuangan di SMPN 1 Kota Tangerang Selatan
+  4) Pembukaan Rekening pada Sosialisasi Pengelolaan Keuangan di SMK 11 PGRI Kota Tangerang Selatan
+  5) Pembukaan Rekening pada Sosialisasi Pengelolaan Keuangan di SMPN 22 PGRI Kota Tangerang Selatan
+  6) Pembukaan Rekening pada Sosialisasi Mari Menabung di SMK YMIK
+  7) Akad Massal KPR Subsidi BTN KC Makassar
+  8) Akad Massal KPR Subsidi BTN KC Kendari
+  9) Akad Massal KPR Subsidi BTN KC Palu
+  10) Akad Massal KPR Subsidi BTN KCP Watampone

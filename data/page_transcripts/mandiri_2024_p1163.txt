@@ -1,0 +1,33 @@
+3 Gedung Tersertifikasi Green Building
+10 Green Office
+241 Smart Branch
+870 Unit Solar Panel
+404 Kendaraan Operasional dengan EV dan Hybrid
+
+Data Historis emisi karbon Scope 1&2 Bank Mandiri (tCO₂e)
+Legenda: Scope 1, Scope 2
+Sumbu X (Periode): 2019, 2020, 2021, 2022, 2023, 2024
+Angka pada grafik:
+2019: Scope 1: 75.640, Scope 2: 283.113, Total: 358.754
+2020: Scope 1: 61.105, Scope 2: 254.173, Total: 315.279
+2021: Scope 1: 64.319, Scope 2: 249.938, Total: 314.257
+2022: Scope 1: 42.698, Scope 2: 260.082, Total: 302.780
+2023: Scope 1: 43.077, Scope 2: 252.636, Total: 295.713
+2024: Scope 1: 46.741, Scope 2: 192.853, Total: 239.594
+
+33% Penurunan Emisi Cakupan-1 dan 2 dibandingkan tahun dasar 2019
+239.594 tCO₂e emisi cakupan 1+2 Bank Mandiri
+
+KONSUMSI LISTRIK
+17% yoy
+2024: 863.024 GJ
+2023: 1.040.757 GJ
+2022: 1.046.804 GJ
+
+KONSUMSI BBM
+7% yoy
+2024: 642.865 GJ
+2023: 599.750 GJ
+2022: 569.528 GJ
+
+1161

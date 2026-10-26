@@ -1,0 +1,50 @@
+1. Judul atau keterangan:
+Kinerja Kredit Usaha Rakyat dan Kredit Usaha Menengah
+(Rp Miliar)
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: (Rp Miliar)
+Legenda: KUM, KUR, Jumlah Debitur
+Periode (Sumbu X): 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+3. Semua angka yang tertera:
+Grafik Garis (Jumlah Debitur):
+- 2018: 389.854
+- 2019: 429.035
+- 2020: 467.898
+- 2021: 512.573
+- 2022: 601.769
+- 2023: 692.043
+- 2024: 765.432
+
+Grafik Batang (KUM):
+- 2018: 6.118
+- 2019: 6.126
+- 2020: 5.672
+- 2021: 6.040
+- 2022: 7.424
+- 2023: 10.087
+- 2024: 12.345
+
+Grafik Batang (KUR):
+- 2018: 17.071
+- 2019: 22.595
+- 2020: 27.072
+- 2021: 33.113
+- 2022: 38.965
+- 2023: 44.488
+- 2024: 54.321
+
+Infografik / Kotak Debitur (Laki-laki):
+- 45%
+- Rp40,8 triliun
+- 555.814 debitur
+- 94,5%
+- 1,64%
+
+Infografik / Kotak Debitur (Perempuan):
+- 55%
+- Rp49,97 triliun
+- 685.145 debitur
+- 95,65%
+- 1,22%

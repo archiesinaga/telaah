@@ -1,0 +1,47 @@
+1. 
+- Judul/Keterangan: Diagram lingkaran 2024 dan 2023 (Simpanan Nasabah)
+- Legenda: 
+  - Biru: Giro dan Giro Wadiah
+  - Kuning: Tabungan dan Tabungan Wadiah
+  - Abu-abu: Deposito Berjangka
+- Periode: 2024, 2023
+- Angka:
+  - Grafik 2024:
+    - Giro dan Giro Wadiah: 39,31%
+    - Tabungan dan Tabungan Wadiah: 40,12%
+    - Deposito Berjangka: 20,57%
+  - Grafik 2023:
+    - Giro dan Giro Wadiah: 40,87%
+    - Tabungan dan Tabungan Wadiah: 37,68%
+    - Deposito Berjangka: 21,45%
+
+2. 
+- Judul/Keterangan: Tabel Simpanan Nasabah
+- Kolom: Simpanan Nasabah | Mata Uang | 2024 | 2023
+- Angka dan label:
+  - Giro dan Giro Wadiah | Rupiah | 2024: 2,71% | 2023: 2,64%
+  - Giro dan Giro Wadiah | Mata uang asing | 2024: 2,71% | 2023: 1,95%
+  - Tabungan dan Tabungan Wadiah | Rupiah | 2024: 0,48% | 2023: 0,50%
+  - Tabungan dan Tabungan Wadiah | Mata uang asing | 2024: 0,17% | 2023: 0,18%
+  - Deposito Berjangka | Rupiah | 2024: 4,06% | 2023: 3,53%
+  - Deposito Berjangka | Mata uang asing | 2024: 3,48% | 2023: 3,01%
+
+3. 
+- Judul/Keterangan: Diagram lingkaran Simpanan dari Bank Lain (2024 dan 2023)
+- Legenda:
+  - Biru: Giro, Giro Wadiah dan Tabungan
+  - Kuning: Inter-Bank Call Money
+  - Abu-abu: Deposito berjangka
+- Periode: 2024, 2023
+- Angka:
+  - Grafik 2024:
+    - Giro, Giro Wadiah dan Tabungan: 33,61%
+    - Inter-Bank Call Money: 36,84%
+    - Deposito berjangka: 29,55%
+  - Grafik 2023:
+    - Giro, Giro Wadiah dan Tabungan: 37,85%
+    - Inter-Bank Call Money: 41,18%
+    - Deposito berjangka: 20,97%
+
+4. 
+- Angka halaman: 411

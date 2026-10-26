@@ -1,0 +1,8 @@
+Laporan Posisi Keuangan Konsolidasian (Dalam Rp Juta)
+
+Pos Akun | 2024 | 2023 | 2022 | Pertumbuhan 2024-2023 Nominal | Pertumbuhan 2024-2023 %
+Aset: 2024: 2.427.223.262, 2023: 2.174.219.449, 2022: 1.992.544.687, Nominal: 253.003.813, %: 11,64
+Liabilitas: 2024: 1.860.408.316, 2023: 1.660.442.815, 2022: 1.544.096.631, Nominal: 199.965.501, %: 12,04
+Dana Syirkah Temporer: 2024: 253.340.265, 2023: 226.281.672, 2022: 196.202.601, Nominal: 27.058.593, %: 11,96
+Ekuitas: 2024: 313.474.681, 2023: 287.494.962, 2022: 252.245.455, Nominal: 25.979.719, %: 9,04
+Liabilitas, Dana Syirkah Temporer dan Ekuitas: 2024: 2.427.223.262, 2023: 2.174.219.449, 2022: 1.992.544.687, Nominal: 253.003.813, %: 11,64

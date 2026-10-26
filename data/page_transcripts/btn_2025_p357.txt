@@ -1,0 +1,48 @@
+PT Bank Tabungan Negara (Persero) Tbk
+Laporan Tahun 2025 | 357
+
+Uraian, 2025, 2024, Pertumbuhan Rp, Pertumbuhan %
+(1), (2), (3), (4) = (2)-(3), (5) = (4)/(3)
+
+Akun-akun yang akan direklasifikasi ke laba rugi
+Bagian Efektif Lindung Nilai Arus Kas: 54.423, (14.490), 68.913, (475,59%)
+Keuntungan (kerugian) neto yang belum direalisasi atas perubahan nilai efek-efek dan obligasi pemerintah yang diukur pada nilai wajar melalui penghasilan komprehensif lain: 708.453, (421.538), 1.129.991, (268,06%)
+Pajak penghasilan terkait akun-akun yang akan direklasifikasi ke laba rugi: (141.010), 85.311, (226.321), (265,29%)
+
+TOTAL LABA KOMPREHENSIF TAHUN BERJALAN: 4.390.219, 2.792.935, 1.597.284, 57,19%
+
+LABA TAHUN BERJALAN YANG DAPAT DIATRIBUSIKAN KEPADA:
+Pemilik entitas induk: 3.501.154, 3.007.328, 493.826, 16,42%
+Kepentingan non-pengendali: -, -, -, -
+Total: 3.501.154, 3.007.328, 493.826, 16,42%
+
+TOTAL LABA KOMPREHENSIF TAHUN BERJALAN YANG DAPAT DIATRIBUSIKAN KEPADA:
+Pemilik entitas induk: 4.390.219, 2.792.935, 1.597.284, 57,19%
+Kepentingan non-pengendali: -, -, -, -
+Total: 4.390.219, 2.792.935, 1.597.284, 57,19%
+
+Laba Per Saham Dasar (nilai penuh): 249, 214, 35, 16,36%
+
+Grafik Laporan Laba Rugi dan Penghasilan Komprehensif Lain Konsolidasian
+(dalam triliun Rupiah)
+Legenda: 2024 (cyan), 2025 (biru)
+
+Pendapatan Bunga dan Bagi Hasil-Neto:
+2024: 11,49
+2025: 18,22
+
+Pendapatan Operasional Lainnya:
+2024: 4,58
+2025: 4,11
+
+Laba Operasional:
+2024: 3,82
+2025: 4,36
+
+Laba Tahun Berjalan:
+2024: 3,01
+2025: 3,50
+
+Laba Komprehensif Tahun Berjalan:
+2024: 2,79
+2025: 4,39

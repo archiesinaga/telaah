@@ -1,0 +1,20 @@
+1. Judul atau keterangan: Struktur Konglomerasi Keuangan
+2. Label sumbu, legenda, satuan, dan periode: Tidak ada
+3. Angka yang tertera:
+- Investment Banking & Securities:
+  - mandiri sekuritas: 99,99%
+  - mandiri investasi: 99,93%
+- Insurance:
+  - axa mandiri: 51,00%
+- Islamic Banking:
+  - BSI BANK SYARIAH INDONESIA: 51,47%
+- Venture Capital:
+  - mandiri capital: 99,99%
+- Banking:
+  - mandiri taspen: 51,098%
+  - mandiri europe: 100,00%
+- Remittance:
+  - mandiri remittance: 100,00%
+- Multifinance:
+  - mandiri tunas finance: 51,00%
+  - mandiri utama finance: 99,99%

@@ -1,0 +1,59 @@
+TABEL 7.2 PENGUNGKAPAN RISIKO PASAR DENGAN MENGGUNAKAN MODEL INTERNAL (VALUE AT RISK/VAR) - BANK SECARA INDIVIDUAL
+
+(dalam jutaan rupiah)
+
+31 Desember 2024
+No: 1, Jenis Risiko: Risiko Suku Bunga
+(1): 1
+(2): Risiko Suku Bunga
+(3) VaR Rata-Rata: 20.675
+(4) VaR Maksimum: 57.586
+(5) VaR Minimum: 6.845
+(6) VaR Akhir Periode: 15.803
+
+No: 2, Jenis Risiko: Risiko Nilai Tukar
+(1): 2
+(2): Risiko Nilai Tukar
+(3) VaR Rata-Rata: 14.272
+(4) VaR Maksimum: 40.349
+(5) VaR Minimum: 1.760
+(6) VaR Akhir Periode: 8.948
+
+No: 3, Jenis Risiko: Risiko Option
+(1): 3
+(2): Risiko Option
+(3) VaR Rata-Rata: 5.828
+(4) VaR Maksimum: 14.847
+(5) VaR Minimum: 722
+(6) VaR Akhir Periode: 845
+
+Total 31 Desember 2024:
+(3) VaR Rata-Rata: 24.019
+(4) VaR Maksimum: 58.801
+(5) VaR Minimum: 7.571
+(6) VaR Akhir Periode: 22.164
+
+31 Desember 2023
+No: 1, Jenis Risiko: Risiko Suku Bunga
+(3) VaR Rata-Rata: 24.583
+(4) VaR Maksimum: 47.974
+(5) VaR Minimum: 12.661
+(6) VaR Akhir Periode: 18.991
+
+No: 2, Jenis Risiko: Risiko Nilai Tukar
+(3) VaR Rata-Rata: 32.655
+(4) VaR Maksimum: 85.253
+(5) VaR Minimum: 3.356
+(6) VaR Akhir Periode: 25.636
+
+No: 3, Jenis Risiko: Risiko Option
+(3) VaR Rata-Rata: 7.089
+(4) VaR Maksimum: 26.108
+(5) VaR Minimum: 1.115
+(6) VaR Akhir Periode: 2.193
+
+Total 31 Desember 2023:
+(3) VaR Rata-Rata: 37.289
+(4) VaR Maksimum: 86.076
+(5) VaR Minimum: 15.257
+(6) VaR Akhir Periode: 33.058

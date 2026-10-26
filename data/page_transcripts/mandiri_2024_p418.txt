@@ -1,0 +1,29 @@
+1. Judul: Dana Syirkah Temporer – Simpanan Nasabah
+- Legenda: 
+  - Giro - Investasi terikat, giro mudharabah - investasi tidak terikat dan giro mudharabah musytarakah
+  - Tabungan Investasi terikat dan investasi tidak terikat - mudharabah
+  - Deposito mudharabah - investasi tidak terikat
+- Periode dan angka:
+  - 2024:
+    - Giro - Investasi terikat, giro mudharabah - investasi tidak terikat dan giro mudharabah musytarakah: 14,72%
+    - Tabungan Investasi terikat dan investasi tidak terikat - mudharabah: 33,74%
+    - Deposito mudharabah - investasi tidak terikat: 51,54%
+  - 2023:
+    - Giro - Investasi terikat, giro mudharabah - investasi tidak terikat dan giro mudharabah musytarakah: 14,35%
+    - Tabungan Investasi terikat dan investasi tidak terikat - mudharabah: 34,46%
+    - Deposito mudharabah - investasi tidak terikat: 51,19%
+
+2. Judul: Dana Syirkah Temporer – Simpanan Dari Bank Lain
+- Legenda:
+  - Giro mudharabah investasi tidak terikat
+  - Tabungan mudharabah investasi tidak terikat
+  - Deposito mudharabah - investasi tidak terikat
+- Periode dan angka:
+  - 2024:
+    - Giro mudharabah investasi tidak terikat: 6,97%
+    - Tabungan mudharabah investasi tidak terikat: 79,10%
+    - Deposito mudharabah - investasi tidak terikat: 13,93%
+  - 2023:
+    - Giro mudharabah investasi tidak terikat: 8,13%
+    - Tabungan mudharabah investasi tidak terikat: 74,35%
+    - Deposito mudharabah - investasi tidak terikat: 17,52%

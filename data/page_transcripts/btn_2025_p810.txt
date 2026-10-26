@@ -1,0 +1,19 @@
+Tabel Realisasi Program Kerja Audit Internal
+Periode: Januari s.d. Desember 2025
+Kolom: No, Keterangan, Target, Realisasi, % Penc.
+
+Baris:
+- A, Audit Umum: Target 71, Realisasi 71, % Penc. 100,00%
+- B, Audit ICT: Target 20, Realisasi 20, % Penc. 100,00%
+- C, Audit Khusus: Target 0, Realisasi 8, % Penc. 100,00%
+- D, Audit Mutu: Target 27, Realisasi 28, % Penc. 103,70%
+- TOTAL: Target 118, Realisasi 118, % Penc. 107,63%
+
+Grafik: Jumlah Temuan
+Sumbu Y: 0, 500, 1000, 1500, 2000, 2500, 3000
+Sumbu X (Periode) dan nilai:
+- 2021: 2817
+- 2022: 1588
+- 2023: 1027
+- 2024: 659
+- 2025: 847

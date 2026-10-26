@@ -1,0 +1,16 @@
+Judul: PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+
+Tabel:
+No 1: Bobot Risiko < 40%, Tagihan Bersih Laporan Posisi Keuangan: 625.475.130, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 75.364.524
+No 2: Bobot Risiko 40%-70%, Tagihan Bersih Laporan Posisi Keuangan: 136.585.675, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 106.074.664
+No 3: Bobot Risiko 75%, Tagihan Bersih Laporan Posisi Keuangan: 346.710.085, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 37.174.931
+No 4: Bobot Risiko 80%, Tagihan Bersih Laporan Posisi Keuangan: 4.620.259, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 2.423.805
+No 5: Bobot Risiko 85%, Tagihan Bersih Laporan Posisi Keuangan: 152.693.000, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 43.245.358
+No 6: Bobot Risiko 90%-100%, Tagihan Bersih Laporan Posisi Keuangan: 623.838.863, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 169.765.814
+No 7: Bobot Risiko 105%-130%, Tagihan Bersih Laporan Posisi Keuangan: 17.888.701, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 1.003.725
+No 8: Bobot Risiko 150%, Tagihan Bersih Laporan Posisi Keuangan: 7.195.093, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 2.472.389
+No 9: Bobot Risiko 250%, Tagihan Bersih Laporan Posisi Keuangan: -, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): -
+No 10: Bobot Risiko 400%, Tagihan Bersih Laporan Posisi Keuangan: -, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): -
+No 11: Bobot Risiko 1250%, Tagihan Bersih Laporan Posisi Keuangan: -, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): -
+No 12: Bobot Risiko Eksposur Perusahaan Anak - Syariah, Tagihan Bersih Laporan Posisi Keuangan: 389.534.261, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 4.544.183
+No 13: Bobot Risiko Total Tagihan Bersih, Tagihan Bersih Laporan Posisi Keuangan: 2.304.541.067, Tagihan Bersih Transaksi Rekening Administratif (sebelum pengenaan FKK): 442.069.394

@@ -1,0 +1,22 @@
+1. Judul atau keterangan:
+Laba Setelah Pajak
+*) data per November 2024.
+Sumber: Statistik Perbankan Indonesia Agustus 2024 Otoritas Jasa Keuangan.
+
+2. Label sumbu, legenda, satuan, dan periode:
+Legenda:
+- Laba Setelah Pajak (Rp T)
+- YoY (%)
+Periode: 2020, 2021, 2022, 2023, 2024*
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 2020: -32,69
+- 2020: 105,0
+- 2021: 33,33
+- 2021: 140,0
+- 2022: 44,29
+- 2022: 202,0
+- 2023: 20,30
+- 2023: 243,0
+- 2024*: -2,41
+- 2024*: 237,2

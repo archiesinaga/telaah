@@ -1,0 +1,77 @@
+(dalam jutaan rupiah)
+
+Cadangan kerugian penurunan nilai (CKPN) - Stage 1:
+- 525
+- 71.060
+- 207
+- 0
+- 3.077.707
+- 296.078
+- 318.985
+- 9.413.290
+
+Cadangan kerugian penurunan nilai (CKPN) - Stage 2:
+- 180
+- 44.978
+- 101
+- -
+- 1.674.545
+- 12.710
+- 740.861
+- 17.528.026
+
+Cadangan kerugian penurunan nilai (CKPN) - Stage 3:
+- 89
+- 30.850
+- 136
+- -
+- 3.147.170
+- 101.778
+- 1.293.067
+- 13.874.176
+
+Tagihan yang dihapus buku:
+- 7.656
+- 71.768
+- 1.160
+- -
+- 4.940.428
+- 473.289
+- 402.571
+- 11.093.008
+
+---
+
+(dalam jutaan rupiah)
+
+Cadangan kerugian penurunan nilai (CKPN) - Stage 1:
+- 1.915.199
+- 444.598
+- 921.638
+- 305.107
+- 3.725
+- 707.349
+
+Cadangan kerugian penurunan nilai (CKPN) - Stage 2:
+- 845.610
+- 330.879
+- 4.101.864
+- 1.046.281
+- -
+- 4.014.041
+
+Cadangan kerugian penurunan nilai (CKPN) - Stage 3:
+- 402.025
+- 10.180
+- 8.011.940
+- 83
+- 30
+- 3.597.603
+
+Tagihan yang dihapus buku:
+- 622.503
+- 885
+- 706.439
+- -
+- -
+- 3.464

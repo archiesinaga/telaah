@@ -1,0 +1,32 @@
+1. Tabel "Risk Awareness Program"
+- Kolom: No., Program School, Frekuensi, Target Audiens
+- Baris 1: 
+  - No.: 1
+  - Program School: Forum (Siaran/forum/ workshop yang membahas isu/tren seputar risiko dan mitigasinya.)
+  - Frekuensi: Triwulanan
+  - Target Audiens: Pegawai organik
+- Baris 2: 
+  - No.: 2
+  - Program School: Survei (Survei/ceklis berisi pertanyaan singkat kepada pegawai melalui Ms. Form.)
+  - Frekuensi: Bulanan
+  - Target Audiens: Pegawai Bank Mandiri Region dan Kantor Pusat, Pegawai Bank Mandiri Cabang Luar Negeri
+- Baris 3: 
+  - No.: 3
+  - Program School: E-learning (Pembelajaran kepada pegawai berisi materi beserta post-test yang harus dikerjakan.)
+  - Frekuensi: Tahunan
+  - Target Audiens: Pegawai organik
+
+2. Diagram "Two-Prong Approach" (Pengelolaan Risiko Bank)
+- Label utama: Two-Prong Approach
+- Cabang Atas:
+  - Kotak panah kuning: Managing Risk Through Operation
+  - Kotak biru di kanan atas (Bussiness Process): 
+    - Front End
+    - Middle End
+    - Back End
+    - Keterangan di bawah kotak biru: Risk Mangement through daily business operations
+- Cabang Bawah:
+  - Kotak panah kuning: Managing Risk Through Capital
+  - Kotak biru di kanan bawah (Capital Management & Planning):
+    - Regulatory Capital, Stress Test
+    - Keterangan di bawah kotak biru: Capital as buffer for unexpected loss; capital as risk-return allocation

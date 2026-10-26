@@ -1,0 +1,11 @@
+1. Judul: Komposisi Obligasi Pemerintah
+2. Legenda: 
+- Mata Uang Asing
+- Rupiah
+3. Angka yang tertera:
+- 2024:
+  - Mata Uang Asing: 17,96%
+  - Rupiah: 82,04%
+- 2023:
+  - Mata Uang Asing: 17,07%
+  - Rupiah: 82,93%

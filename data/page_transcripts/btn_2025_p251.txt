@@ -1,0 +1,35 @@
+Grafik 1:
+1. Judul: Grafik Perbandingan Kinerja Dana Pihak Ketiga Perbankan Desember 2025
+2. Label sumbu, legenda, satuan, dan periode: Periode Desember 2024 dan Desember 2025
+3. Angka yang tertera:
+- Mandiri, Desember 2024: 1.327
+- Mandiri, Desember 2025: 1.675
+- BCA, Desember 2024: 1.109
+- BCA, Desember 2025: 1.220
+- btn, Desember 2024: 382
+- btn, Desember 2025: 437
+- OCBC Bank, Desember 2024: 206
+- OCBC Bank, Desember 2025: 244
+- Permata Bank, Desember 2024: 187
+- Permata Bank, Desember 2025: 193
+- BRI, Desember 2024: 1.360
+- BRI, Desember 2025: 1.460
+- BNI, Desember 2024: 793
+- BNI, Desember 2025: 1.022
+- BSI BANK SYARIAH INDONESIA, Desember 2024: 327
+- BSI BANK SYARIAH INDONESIA, Desember 2025: 380
+- CIMB NIAGA, Desember 2024: 262
+- CIMB NIAGA, Desember 2025: 271
+- Danamon, Desember 2024: 151
+- Danamon, Desember 2025: 175
+
+Grafik 2:
+1. Judul: Grafik Perbandingan Outstanding KPR Bank di Indonesia Desember 2025
+2. Label sumbu, legenda, satuan, dan periode: (dalam triliun Rupiah); label bank: BTN, BCA, BNI, Mandiri, BRI, CIMB Niaga
+3. Angka yang tertera:
+- BTN: 313
+- BCA: 142
+- BNI: 73
+- Mandiri: 70
+- BRI: 66
+- CIMB Niaga: 42

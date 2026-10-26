@@ -1,0 +1,25 @@
+Grafik 1:
+1. Judul atau keterangan: Pertumbuhan Kredit Bank Mandiri Menopang Pertumbuhan Kredit Industri *)
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X (Periode): Dec-23, Mar-24, Jun-24, Sep-24, Dec-24
+- Legenda: Bank Mandiri, Industri, Industri
+- Keterangan tambahan: "Laju Pertumbuhan Kredit Bank Mandiri 2 Kali Lipat Industri"
+3. Angka yang tertera:
+- Dec-23: Bank Mandiri 16,4%, Industri 10,6%, Industri 9,63%
+- Mar-24: Bank Mandiri 20,1%, Industri 12,6%, Industri 11,3%
+- Jun-24: Bank Mandiri 21,5%, Industri 12,6%, Industri 11,0%
+- Sep-24: Bank Mandiri 22,1%, Industri 11,1%, Industri 9,18%
+- Dec-24: Bank Mandiri 20,7%, Industri 10,4%*), Industri 8,56%*)
+
+Grafik 2:
+1. Judul atau keterangan: Pertumbuhan Kredit BMRI Jauh Di atas KBMI 4, KBMI 3, KBMI 2 & 1**)
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X (Periode): Dec-23, Mar-24, Jun-24, Sep-24, Dec-24
+- Legenda: Bank Mandiri, KBMI 1&2, KBMI 3, KBMI 1&2 (ex-Mandiri)
+- Keterangan tambahan: "Laju Pertumbuhan Kredit Mandiri 2 Kali Konsisten di Atas Bank-Bank Lainnya"
+3. Angka yang tertera:
+- Dec-23: Bank Mandiri 16,4%, KBMI 1&2 10,9%, KBMI 3 8,89%, KBMI 1&2 (ex-Mandiri) 8,46%
+- Mar-24: Bank Mandiri 20,1%, KBMI 1&2 12,2%, KBMI 3 11,2%, KBMI 1&2 (ex-Mandiri) 10,2%
+- Jun-24: Bank Mandiri 21,5%, KBMI 1&2 12,1%, KBMI 3 10,3%, KBMI 1&2 (ex-Mandiri) 10,1%
+- Sep-24: Bank Mandiri 22,1%, KBMI 1&2 9,98%, KBMI 3 9,60%, KBMI 1&2 (ex-Mandiri) 7,59%
+- Dec-24: Bank Mandiri 20,7%, KBMI 1&2 9,60%, KBMI 3 9,00%, KBMI 1&2 (ex-Mandiri) 8,10%

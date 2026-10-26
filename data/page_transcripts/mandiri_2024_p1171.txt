@@ -1,0 +1,24 @@
+1. Judul Tabel: Portofolio Kategori Kegiatan Usaha Berkelanjutan
+Satuan: (Rp Miliar)
+Periode: 2024, 2023, 2022
+Angka per baris:
+- No. 1 Energi Terbarukan: 2024: 11.773, 2023: 9.727, 2022: 6.149
+- No. 2 Efisiensi Energi: 2024: -, 2023: -, 2022: -
+- No. 3 Pencegahan dan pengendalian Polusi: 2024: -, 2023: -, 2022: -
+- No. 4 Pengelolaan Sumber Daya Alam Hayati dan Penggunaan Lahan yang Berkelanjutan: 2024: 111.432, 2023: 102.413, 2022: 92.956
+- No. 5 Konservasi Keanekaragaman Hayati Darat dan Air: 2024: -, 2023: -, 2022: -
+- No. 6 Transportasi Bersih: 2024: 7.545, 2023: 3.926, 2022: 3.107
+- No. 7 Pengelolaan Air dan Air Limbah Berkelanjutan: 2024: 1.176, 2023: 1.171, 2022: 867
+- No. 8 Adaptasi Perubahan Iklim: 2024: -, 2023: -, 2022: -
+- No. 9 Produk, Teknologi & Proses yang Beradaptasi dengan Ekonomi Sirkular dan/atau Ramah Lingkungan: 2024: 10.621, 2023: 5.354, 2022: 3.307
+- No. 10 Bangunan Hijau: 2024: 6.268, 2023: 6.612, 2022: 16
+- No. 11 Kegiatan Usaha Berwawasan Lingkungan Lainnya: 2024: 9.644, 2023: 8.776, 2022: 5.067
+- No. 12 Kegiatan Usaha Mikro, Kecil, dan Menengah: 2024: 134.048, 2023: 126.101, 2022: 117.295
+- Total Pembiayaan Berkelanjutan: 2024: 292.507, 2023: 264.080, 2022: 228.764
+
+2. Judul Infografik: SUSTAINABLE FINANCING
+Satuan: triliun
+Angka:
+- Green Portfolio: Rp 148,81 triliun
+- Sustainable Portfolio: Rp 292,51 triliun
+- Social Portfolio: Rp 143,69 triliun

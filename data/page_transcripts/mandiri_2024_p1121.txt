@@ -1,0 +1,20 @@
+TABEL 7.1. PENGUNGKAPAN RISIKO PASAR DENGAN MENGGUNAKAN METODE STANDAR
+(dalam jutaan rupiah)
+
+31 Desember 2023
+Bank: Beban Modal, ATMR
+Konsolidasi: Beban Modal, ATMR
+
+(1) No.: 1, 2, 3, 4, 5, 6
+(2) Jenis Risiko:
+- Risiko Suku Bunga
+a. Risiko Spesifik: Beban Modal (3) 868, ATMR (4) 10.844, Beban Modal (5) 38.445, ATMR (6) 480.569
+b. Risiko Umum: Beban Modal (3) 424.974, ATMR (4) 5.312.174, Beban Modal (5) 502.726, ATMR (6) 6.284.071
+Risiko Suku Bunga Total (Baris tanpa nomor): Beban Modal (3) 425.841, ATMR (4) 5.323.018, Beban Modal (5) 541.171, ATMR (6) 6.764.640
+- Risiko Nilai Tukar: Beban Modal (3) 264.267, ATMR (4) 3.303.335, Beban Modal (5) 334.995, ATMR (6) 4.187.435
+- Risiko Ekuitas **): Beban Modal (3) -, ATMR (4) -, Beban Modal (5) 2.894, ATMR (6) 36.177
+- Risiko Komoditas **): Beban Modal (3) -, ATMR (4) -, Beban Modal (5) -, ATMR (6) -
+- Risiko Option: Beban Modal (3) 33, ATMR (4) 413, Beban Modal (5) 33, ATMR (6) 413
+- Credit Valuation Adjustment (CVA): Beban Modal (3) 108.276, ATMR (4) 1.353.449, Beban Modal (5) 109.648, ATMR (6) 1.370.604
+
+Total: Beban Modal (3) 798.417, ATMR (4) 9.980.215, Beban Modal (5) 988.742, ATMR (6) 12.359.269

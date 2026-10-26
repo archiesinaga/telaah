@@ -1,0 +1,14 @@
+Tabel 1:
+- Rencana Penggunaan Dana Menurut Prospektus - Hasil Bersih (7 = 5-6): 1.992.090.925.000, 294.804.638.000, 2.286.895.563.000
+- Rencana Penggunaan Dana Menurut Prospektus - Rencana Realisasi Kredit (8): 1.992.090.925.000, 294.804.638.000, 2.286.895.563.000
+- Rencana Penggunaan Dana Menurut Prospektus - Total (9 = 8): 1.992.090.925.000, 294.804.638.000, 2.286.895.563.000
+- Realisasi Penggunaan Dana Menurut Prospektus - Realisasi Kredit (10): 1.992.090.925.000, 294.804.638.000, 2.286.895.563.000
+- Realisasi Penggunaan Dana Menurut Prospektus - Total (11 = 10): 1.992.090.925.000, 294.804.638.000, 2.286.895.563.000
+- Sisa Dana Hasil Penawaran Umum (12 = 9-11): -, -, -
+
+Tabel Investasi Efek-Efek
+Satuan: (dalam jutaan Rupiah)
+- Uraian: Nilai wajar melalui laba rugi | Nilai 2025: 18.726.497 | Nilai 2024: 21.207.876
+- Uraian: Nilai wajar melalui penghasilan komprehensif lainnya | Nilai 2025: 22.317.224 | Nilai 2024: 15.291.478
+- Uraian: Biaya perolehan diamortisasi | Nilai 2025: 12.276.856 | Nilai 2024: 20.825.986
+- Uraian: Total efek-efek | Nilai 2025: 53.320.577 | Nilai 2024: 57.325.340

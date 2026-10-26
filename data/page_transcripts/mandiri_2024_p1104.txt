@@ -1,0 +1,42 @@
+1. Judul atau keterangan:
+RISIKO KREDIT - TAGIHAN BERSIH DERIVATIF KREDIT (CCR6)
+Posisi 31 Desember 2024
+(dalam jutaan rupiah)
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: dalam jutaan rupiah
+Periode: Posisi 31 Desember 2024
+Kolom: INDIVIDU, Proteksi yang dibeli (Protection bought), Proteksi yang dijual (Protection sold)
+Baris:
+- Nilai Notional
+- Single-name credit default swaps
+- Index credit default swaps
+- Total return swaps
+- Credit options
+- Derivatif kredit lainnya
+- Total Nilai Notional
+- Nilai wajar
+- Nilai wajar positif (aset)
+- Nilai wajar negatif (kewajiban)
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Proteksi yang dibeli (Protection bought) - Nilai Notional: -
+- Proteksi yang dijual (Protection sold) - Nilai Notional: -
+- Proteksi yang dibeli (Protection bought) - Single-name credit default swaps: -
+- Proteksi yang dijual (Protection sold) - Single-name credit default swaps: -
+- Proteksi yang dibeli (Protection bought) - Index credit default swaps: -
+- Proteksi yang dijual (Protection sold) - Index credit default swaps: -
+- Proteksi yang dibeli (Protection bought) - Total return swaps: -
+- Proteksi yang dijual (Protection sold) - Total return swaps: -
+- Proteksi yang dibeli (Protection bought) - Credit options: -
+- Proteksi yang dijual (Protection sold) - Credit options: -
+- Proteksi yang dibeli (Protection bought) - Derivatif kredit lainnya: -
+- Proteksi yang dijual (Protection sold) - Derivatif kredit lainnya: -
+- Proteksi yang dibeli (Protection bought) - Total Nilai Notional: -
+- Proteksi yang dijual (Protection sold) - Total Nilai Notional: -
+- Proteksi yang dibeli (Protection bought) - Nilai wajar: -
+- Proteksi yang dijual (Protection sold) - Nilai wajar: -
+- Proteksi yang dibeli (Protection bought) - Nilai wajar positif (aset): -
+- Proteksi yang dijual (Protection sold) - Nilai wajar positif (aset): -
+- Proteksi yang dibeli (Protection bought) - Nilai wajar negatif (kewajiban): -
+- Proteksi yang dijual (Protection sold) - Nilai wajar negatif (kewajiban): -

@@ -1,0 +1,36 @@
+1. Judul atau keterangan:
+Diagram alur dengan judul bagian "7. Jika Terlapor adalah Direksi dan/atau Dewan Komisaris Perusahaan Anak".
+
+2. Label kolom, legenda, satuan, dan periode:
+- Kolom 1: Pelapor
+- Kolom 2: Pengelola WBS Independen
+- Kolom 3: Direktur Utama Bank
+- Kolom 4: Tim Audit Khusus / Tim Audit Perusahaan Anak
+- Kolom 5: Direktur Utama Perusahaan anak
+- Legenda keputusan: Ya, Tidak
+
+3. Teks dan nomor langkah di dalam diagram (sesuai urutan dan label):
+- Mulai
+- 1. Laporan WBS
+- 2. Input Aplikasi WBS
+- 3. Mengklasifikasikan Laporan WBS
+- Laporan WBS in scope / out of scope
+- 4. Analisa
+- Laporan WBS in scope / out of scope
+- 5. Informasi Cukup (Ya)
+- 6. Layak Audit Khusus
+- 7a. Laporan WBS in scope (Ya)
+- Tidak
+- 7b. Laporan WBS out of scope
+- 8a. Tindak Lanjut
+- 8b. Tindak Lanjut
+- 9. Memo / dokumen lainnya tindak lanjut laporan WBS
+- 10. Arahan untuk dilakukan closing Status Laporan
+- 11. Closing Status Laporan
+- Selesai
+- 12. Meminta Pelapor untuk melengkapi Informasi (Tidak)
+- 13a. Memberikan Feedback
+- Informasi Tambahan
+- 13b. Tidak Memberikan Feedback
+- 14. Menginformasikan pelaporan tidak memberikan feedback
+- 15. Menerima informasi tidak ada feedback

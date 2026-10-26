@@ -1,0 +1,40 @@
+PENGUNGKAPAN EKSPOSUR BERDASARKAN KELAS ASET DAN BOBOT RISIKO (CR5)
+
+(dalam jutaan rupiah)
+
+Label kolom/bobot risiko (tabel bagian atas):
+- 70%: -
+- 75%: 4.894.080
+- 85%: -
+- 90%: 5.805.464
+- 100%: 0
+- 105%: -
+- 110%: 171.861
+- 150%: 1.138.753,29
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 12.010.159
+
+Baris lanjutan (tabel bagian tengah pertama):
+- 150%: 1.621
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 4.179.118
+
+Baris lanjutan (tabel bagian tengah kedua):
+- 150%: -
+- 1250%5): -
+- Lainnya: -
+- Tagihan Bersih Setelah FKK dan Teknik MRK: 95.920.957
+
+Tabel utama (Rata-Rata FKK dan Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK)):
+Baris 1: Rata-Rata FKK: 26,69% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 617.537.955
+Baris 2: Rata-Rata FKK: 37,54% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 142.005.282
+Baris 3: Rata-Rata FKK: 10,48% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 290.011.901
+Baris 4: Rata-Rata FKK: 13,26% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 4.882.256
+Baris 5: Rata-Rata FKK: 20,86% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 138.201.862
+Baris 6: Rata-Rata FKK: 31,30% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 644.937.157
+Baris 7: Rata-Rata FKK: 10,00% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 17.989.074
+Baris 8: Rata-Rata FKK: 25,38% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 7.327.784
+Baris 9: Rata-Rata FKK: 0,00% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): -
+Baris 10: Rata-Rata FKK: 0,00% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): -
+Baris 11: Rata-Rata FKK: 0,00% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): -
+Baris Total: Rata-Rata FKK: 29,03% | Tagihan Bersih (Setelah pengenaan FKK dan Teknik MRK): 1.862.893.271

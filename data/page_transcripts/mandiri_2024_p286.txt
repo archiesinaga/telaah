@@ -1,0 +1,37 @@
+Pertumbuhan CASA (%)
+Legenda:
+- Industri
+- Bank Mandiri
+
+Periode dan angka:
+- 2022, Industri: 12,80
+- 2022, Bank Mandiri: 21,63
+- 2023, Industri: 3,30
+- 2023, Bank Mandiri: 7,05
+- 2024*, Industri: 5,06
+- 2024*, Bank Mandiri: 8,49
+
+Pangsa Pasar CASA (%)
+Periode dan angka:
+- 2022: 21,21
+- 2023: 21,98
+- 2024*: 22,69
+
+Pertumbuhan Laba Bersih (%)
+Legenda:
+- Industri
+- Bank Mandiri
+
+Periode dan angka:
+- 2022, Industri: 43,94
+- 2022, Bank Mandiri: 46,89
+- 2023, Industri: 20,57
+- 2023, Bank Mandiri: 33,73
+- 2024*, Industri: 8,08
+- 2024*, Bank Mandiri: 1,31
+
+Pangsa Pasar Laba Bersih (%)
+Periode dan angka:
+- 2022: 20,40
+- 2023: 22,63
+- 2024*: 23,52

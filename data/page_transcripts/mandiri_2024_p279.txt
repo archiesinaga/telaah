@@ -1,0 +1,63 @@
+1. Judul atau keterangan:
+- Perbandingan Inflasi Tahunan (%)
+- Sumber: BPS
+- BI-Rate Vs Inflasi
+- *): per Desember 2024; Sumber: BI & BPS.
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Legenda Perbandingan Inflasi Tahunan (%): 2022, 2023, 2024
+- Sumbu X Perbandingan Inflasi Tahunan (%): Jan, Feb, Mar, Apr, Mei, Jun, Jul, Ags, Sept, Okt, Nov, Des
+- Satuan: %
+- Legenda BI-Rate Vs Inflasi: BI-Rate (%), Inflasi (EOP, % yoy)
+- Sumbu X BI-Rate Vs Inflasi: 2020, 2021, 2022, 2023, 2024*
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Perbandingan Inflasi Tahunan (%):
+  - Jan - 2022: 2,18
+  - Jan - 2023: 5,28
+  - Jan - 2024: 2,57
+  - Feb - 2022: 2,06
+  - Feb - 2023: 5,47
+  - Feb - 2024: 2,75
+  - Mar - 2022: 2,64
+  - Mar - 2023: 4,97
+  - Mar - 2024: 3,05
+  - Apr - 2022: 3,47
+  - Apr - 2023: 4,33
+  - Apr - 2024: 3,00
+  - Mei - 2022: 3,55
+  - Mei - 2023: 4,00
+  - Mei - 2024: 2,84
+  - Jun - 2022: 4,35
+  - Jun - 2023: 3,52
+  - Jun - 2024: 2,51
+  - Jul - 2022: 4,94
+  - Jul - 2023: 3,08
+  - Jul - 2024: 2,13
+  - Ags - 2022: 4,69
+  - Ags - 2023: 3,27
+  - Ags - 2024: 2,12
+  - Sept - 2022: 5,95
+  - Sept - 2023: 2,28
+  - Sept - 2024: 1,84
+  - Okt - 2022: 5,71
+  - Okt - 2023: 2,56
+  - Okt - 2024: 1,71
+  - Nov - 2022: 5,42
+  - Nov - 2023: 2,86
+  - Nov - 2024: 1,55
+  - Des - 2022: 5,51
+  - Des - 2023: 2,61
+  - Des - 2024: 1,57
+
+- BI-Rate Vs Inflasi:
+  - 2020 - BI-Rate (%): tidak terbaca
+  - 2020 - Inflasi (EOP, % yoy): 1,68
+  - 2021 - BI-Rate (%): tidak terbaca
+  - 2021 - Inflasi (EOP, % yoy): 1,87
+  - 2022 - BI-Rate (%): 5,50
+  - 2022 - Inflasi (EOP, % yoy): 5,51
+  - 2023 - BI-Rate (%): 6,00
+  - 2023 - Inflasi (EOP, % yoy): 2,61
+  - 2024* - BI-Rate (%): 5,75
+  - 2024* - Inflasi (EOP, % yoy): 1,57

@@ -1,0 +1,29 @@
+1. Judul atau keterangan:
+- KUALITAS ASET
+  - Cost of Credit: 0,79%, membaik sebesar 6 bps YoY.
+  - Loan at Risk (LaR): 6,76%, membaik sebesar 1,86 pts YoY.
+  - NPL Coverage: 271%, meningkat sebesar 55,2 poin persentase YoY.
+- PROFITABILITAS
+  - Laba Bersih: Rp55,8 triliun.
+  - NIM: 5,15%, turun sebesar 33 bps YoY.
+  - BOPO (Bank-Only): 56,5%, atau meningkat 4,58 poin persentase YoY.
+  - CIR (Bank-Only): 35,0%, naik sebesar 73 bps YoY.
+- PERMODALAN
+  - Tier-1 CAR (Bank-Only): 18,9%, tetap pada level yang sangat baik.
+
+2. Label, legenda, satuan, dan periode:
+- RASIO NPL (Bank-Only), periode: YoY
+- ROE Tier-1 (Bank-Only)
+- Satuan: %, bps, pts, poin persentase, triliun, Rp
+
+3. Angka yang tertera:
+- RASIO NPL (Bank-Only): 0,97% YoY (5bps YoY)
+- ROE Tier-1 (Bank-Only): 24,2%
+- Cost of Credit: 0,79%, 6 bps YoY
+- Loan at Risk (LaR): 6,76%, 1,86 pts YoY
+- NPL Coverage: 271%, 55,2 poin persentase YoY
+- Laba Bersih: Rp55,8 triliun
+- NIM: 5,15%, 33 bps YoY
+- BOPO (Bank-Only): 56,5%, 4,58 poin persentase YoY
+- CIR (Bank-Only): 35,0%, 73 bps YoY
+- Tier-1 CAR (Bank-Only): 18,9%

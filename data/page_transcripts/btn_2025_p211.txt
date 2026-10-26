@@ -1,0 +1,14 @@
+STRSTRUKTUR GRUP PERUSAHAAN
+
+1. Judul atau keterangan: STRSTRUKTUR GRUP PERUSAHAAN
+2. Label, legenda, satuan, dan periode:
+- Danantara Indonesia
+- PT Danantara Asset Management: 60 %
+- PT Bank Tabungan Negara (Persero) Tbk
+- Publik, masing masing kurang dari 5 %: 40 %
+- PT Bank Syariah Nasional (bsn bank syariah nasional): 99,999 %
+
+3. Semua angka yang tertera:
+- PT Danantara Asset Management: 60 %
+- Publik, masing masing kurang dari 5 %: 40 %
+- PT Bank Syariah Nasional: 99,999 %

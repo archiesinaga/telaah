@@ -1,0 +1,16 @@
+RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+(dalam jutaan rupiah)
+
+Kolom:
+1. Cadangan kerugian penurunan nilai (CKPN) - Stage 1
+2. Cadangan kerugian penurunan nilai (CKPN) - Stage 2
+3. Cadangan kerugian penurunan nilai (CKPN) - Stage 3
+4. CKPN di Entitas Anak - Syariah**
+5. Tagihan yang dihapus buku*
+
+Baris data:
+- Cadangan kerugian penurunan nilai (CKPN) - Stage 1: 8, 5.308, 43.451, 525, 71.060, 207, 0, 3.077.707, 296.078, 318.985, 9.413.290
+- Cadangan kerugian penurunan nilai (CKPN) - Stage 2: -, 4.313, 73.781, 180, 44.978, 101, -, 1.674.545, 12.710, 740.861, 17.528.026
+- Cadangan kerugian penurunan nilai (CKPN) - Stage 3: -, 448, 5.281, 89, 30.850, 136, -, 3.147.170, 101.778, 1.293.067, 13.874.176
+- CKPN di Entitas Anak - Syariah**: -, 89.060, 123.142, 100.287, -, 12.080, -, -, 2.993.550, 75.698, 10.367.675
+- Tagihan yang dihapus buku*: -, 4.912, 22.445, 71.755, 71.768, 3.874, -, 4.940.428, 1.565.974, 413.192, 13.143.031

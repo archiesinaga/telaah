@@ -1,0 +1,9 @@
+4: Arif Budimanta, Komisaris
+5: Muliadi Rahardja, Komisaris Independen
+6: Heru Kristiyana, Komisaris Independen
+10: Tedi Bharata, Komisaris
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6

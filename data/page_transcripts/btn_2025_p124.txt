@@ -1,0 +1,12 @@
+Tabel Jaringan Kantor per Wilayah Tahun 2025
+Jenis Kantor | Kantor Wilayah Jawa Barat: 1 | Kantor Wilayah Jakarta I: 1 | Kantor Wilayah Jakarta II: 1
+Kantor Wilayah | Kantor Wilayah Jawa Barat: 1 | Kantor Wilayah Jakarta I: 1 | Kantor Wilayah Jakarta II: 1
+Kantor Cabang | Kantor Wilayah Jawa Barat: 10 | Kantor Wilayah Jakarta I: 11 | Kantor Wilayah Jakarta II: 8
+Kantor Cabang Pembantu | Kantor Wilayah Jawa Barat: 79 | Kantor Wilayah Jakarta I: 100 | Kantor Wilayah Jakarta II: 90
+Kantor Fungsional | Kantor Wilayah Jawa Barat: - | Kantor Wilayah Jakarta I: - | Kantor Wilayah Jakarta II: 1
+Kantor Cabang Syariah | Kantor Wilayah Jawa Barat: 5 | Kantor Wilayah Jakarta I: 3 | Kantor Wilayah Jakarta II: 3
+Kantor Cabang Pembantu Syariah | Kantor Wilayah Jawa Barat: 11 | Kantor Wilayah Jakarta I: 9 | Kantor Wilayah Jakarta II: 6
+Kantor Kas Syariah | Kantor Wilayah Jawa Barat: - | Kantor Wilayah Jakarta I: - | Kantor Wilayah Jakarta II: -
+Payment Point Syariah | Kantor Wilayah Jawa Barat: - | Kantor Wilayah Jakarta I: - | Kantor Wilayah Jakarta II: -
+Outlet & Lounge BTN Prioritas | Kantor Wilayah Jawa Barat: 6 | Kantor Wilayah Jakarta I: 11 | Kantor Wilayah Jakarta II: 12
+ATM & CRM | Kantor Wilayah Jawa Barat: 336 | Kantor Wilayah Jakarta I: 342 | Kantor Wilayah Jakarta II: 263

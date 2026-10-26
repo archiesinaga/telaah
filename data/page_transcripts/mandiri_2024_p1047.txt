@@ -1,0 +1,82 @@
+(dalam jutaan rupiah)
+31 Desember 2024
+Tagihan bersih berdasarkan sisa jangka waktu kontrak
+> 3 thn s.d. 5 thn: 81.290.980
+> 5 thn: 168.428.230
+Non Kontraktual: -
+Total: 422.247.100
+
+> 3 thn s.d. 5 thn: 19.377.047
+> 5 thn: 42.445.165
+Non Kontraktual: -
+Total: 113.021.220
+
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: -
+Total: -
+
+> 3 thn s.d. 5 thn: 9.671.378
+> 5 thn: 1.743.816
+Non Kontraktual: -
+Total: 95.527.550
+
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: -
+Total: -
+
+> 3 thn s.d. 5 thn: 5.913.244
+> 5 thn: 25.812
+Non Kontraktual: -
+Total: 11.676.668
+
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: 22.970
+Total: 22.970
+
+> 3 thn s.d. 5 thn: 4.499.689
+> 5 thn: 54.792.878
+Non Kontraktual: -
+Total: 61.739.242
+
+> 3 thn s.d. 5 thn: 4.499.689
+> 5 thn: 10.503.471
+Non Kontraktual: -
+Total: 22.331.419
+
+> 3 thn s.d. 5 thn: 33.917
+> 5 thn: 552.883
+Non Kontraktual: -
+Total: 1.172.760
+
+> 3 thn s.d. 5 thn: 8.058
+> 5 thn: 58.154
+Non Kontraktual: -
+Total: 71.620
+
+> 3 thn s.d. 5 thn: 84.834.882
+> 5 thn: 68.371.056
+Non Kontraktual: -
+Total: 259.957.317
+
+> 3 thn s.d. 5 thn: 162.735.784
+> 5 thn: 233.311.447
+Non Kontraktual: -
+Total: 841.304.428
+
+> 3 thn s.d. 5 thn: 621.382
+> 5 thn: 1.674.841
+Non Kontraktual: -
+Total: 4.369.468
+
+> 3 thn s.d. 5 thn: -
+> 5 thn: -
+Non Kontraktual: 95.920.957
+Total: 95.920.957
+
+> 3 thn s.d. 5 thn: 373.486.051
+> 5 thn: 581.907.752
+Non Kontraktual: 95.943.927
+Total: 1.929.362.719

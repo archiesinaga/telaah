@@ -1,0 +1,83 @@
+1. Judul:
+LAPORAN NET STABLE FUNDING RATIO (NSFR) - KONSOLIDASI
+
+2. Label, satuan, dan periode:
+- Posisi Tanggal Laporan (Desember/2024)
+- Nilai Tercatat Berdasarkan Sisa Jangka Waktu (Dalam Juta Rupiah)
+- Tanpa Jangka Waktu¹
+- < 6 bulan
+- ≥ 6 bulan - < 1 tahun
+- ≥ 1 tahun
+- Total Nilai Tertimbang
+- No. Ref. dari Kertas Kerja NSFR
+
+3. Angka yang tertera:
+- Tanpa Jangka Waktu¹: -
+- < 6 bulan: 7.366.222
+- ≥ 6 bulan - < 1 tahun: 240.683
+- ≥ 1 tahun: 19.529.192
+- Total Nilai Tertimbang: 20.403.265
+- No. Ref. dari Kertas Kerja NSFR: 3,2
+
+- Tanpa Jangka Waktu¹: -
+- < 6 bulan: 8.881.793
+- ≥ 6 bulan - < 1 tahun: 30.962
+- ≥ 1 tahun: 248.967
+- Total Nilai Tertimbang: -
+- No. Ref. dari Kertas Kerja NSFR: 4
+
+- Tanpa Jangka Waktu¹: 11.279.155
+- < 6 bulan: 8.800.279
+- ≥ 6 bulan - < 1 tahun: 1.122.713
+- ≥ 1 tahun: 102.536.002
+- Total Nilai Tertimbang: 123.731.126
+- No. Ref. dari Kertas Kerja NSFR: 5
+
+- Tanpa Jangka Waktu¹: -
+- Total Nilai Tertimbang: -
+- No. Ref. dari Kertas Kerja NSFR: 5,1
+
+- Tanpa Jangka Waktu¹: -
+- < 6 bulan: -
+- ≥ 6 bulan - < 1 tahun: -
+- ≥ 1 tahun: -
+- Total Nilai Tertimbang: -
+- No. Ref. dari Kertas Kerja NSFR: 5,2
+
+- Tanpa Jangka Waktu¹: -
+- < 6 bulan: -
+- ≥ 6 bulan - < 1 tahun: -
+- ≥ 1 tahun: 7.637.064
+- Total Nilai Tertimbang: 7.637.064
+- No. Ref. dari Kertas Kerja NSFR: 5,3
+
+- Tanpa Jangka Waktu¹: -
+- < 6 bulan: -
+- ≥ 6 bulan - < 1 tahun: -
+- ≥ 1 tahun: -
+- Total Nilai Tertimbang: -
+- No. Ref. dari Kertas Kerja NSFR: 5,4
+
+- Tanpa Jangka Waktu¹: 11.279.155
+- < 6 bulan: 1.163.216
+- ≥ 6 bulan - < 1 tahun: 1.122.713
+- ≥ 1 tahun: 102.536.002
+- Total Nilai Tertimbang: 116.094.063
+- No. Ref. dari Kertas Kerja NSFR: 5.5 sampai dengan 5.12
+
+- Tanpa Jangka Waktu¹: 440.984.506
+- < 6 bulan: -
+- ≥ 6 bulan - < 1 tahun: -
+- ≥ 1 tahun: -
+- Total Nilai Tertimbang: 8.201.996
+- No. Ref. dari Kertas Kerja NSFR: 12
+
+- Tanpa Jangka Waktu¹: -
+- < 6 bulan: -
+- ≥ 6 bulan - < 1 tahun: -
+- ≥ 1 tahun: -
+- Total Nilai Tertimbang: 1.470.524.632
+- No. Ref. dari Kertas Kerja NSFR: 13
+
+- Total Nilai Tertimbang: 109,21%
+- No. Ref. dari Kertas Kerja NSFR: 14

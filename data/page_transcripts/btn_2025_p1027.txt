@@ -1,0 +1,33 @@
+Arus Kas PUMK Tahun 2025
+dalam Rupiah
+
+No.: 1, Uraian: Saldo Awal, RKA 2024: 10.970.559.980, Realisasi 2024: 10.970.559.980, (%): 100%, RKA 2025: 11.036.287.064, Realisasi 2025: 11.036.287.064, (%): 100%
+No.: 2, Uraian: Pengembalian Pinjaman Mitra Binaan, RKA 2024: 10.000.000.000, Realisasi 2024: 8.501.789.249, (%): 85%, RKA 2025: 6.000.000.000, Realisasi 2025: 4.407.074.564, (%): 73%
+No.: 3, Uraian: Pengembalian Dana dari BUMN Penyalur, RKA 2024: tidak terbaca, Realisasi 2024: tidak terbaca, (%): tidak terbaca, RKA 2025: tidak terbaca, Realisasi 2025: tidak terbaca, (%): tidak terbaca
+No.: 4, Uraian: Pendapatan Jasa Admin PUMK, RKA 2024: 500.000.000, Realisasi 2024: 1.450.172.764, (%): 290%, RKA 2025: 200.000.000, Realisasi 2025: 62.737.806, (%): 31%
+No.: 5, Uraian: Pendapatan Jasa Bank, RKA 2024: tidak terbaca, Realisasi 2024: tidak terbaca, (%): tidak terbaca, RKA 2025: tidak terbaca, Realisasi 2025: tidak terbaca, (%): tidak terbaca
+No.: 6, Uraian: Pendapatan (Biaya) Lainnya, RKA 2024: tidak terbaca, Realisasi 2024: 113.765.071, (%): tidak terbaca, RKA 2025: tidak terbaca, Realisasi 2025: 369.694, (%): tidak terbaca
+Total Dana Tersedia, RKA 2024: 21.470.559.980, Realisasi 2024: 21.036.287.064, (%): 475%, RKA 2025: 17.236.287.064, Realisasi 2025: 15.506.469.128, (%): 90%
+
+No.: 7, Uraian: Penyaluran PUMK secara Mandiri, RKA 2024: tidak terbaca, Realisasi 2024: tidak terbaca, (%): tidak terbaca, RKA 2025: tidak terbaca, Realisasi 2025: tidak terbaca, (%): tidak terbaca
+No.: 8, Uraian: Penyaluran PUMK secara Kolaborasi, RKA 2024: tidak terbaca, Realisasi 2024: tidak terbaca, (%): tidak terbaca, RKA 2025: tidak terbaca, Realisasi 2025: tidak terbaca, (%): tidak terbaca
+No.: 9, Uraian: Penyaluran PUMK secara Khusus, RKA 2024: tidak terbaca, Realisasi 2024: tidak terbaca, (%): tidak terbaca, RKA 2025: tidak terbaca, Realisasi 2025: tidak terbaca, (%): tidak terbaca
+No.: 10, Uraian: Penyaluran PUMK melalui BRI, RKA 2024: 10.000.000.000, Realisasi 2024: 10.000.000.000, (%): 100%, RKA 2025: 11.000.000.000, Realisasi 2025: 11.000.000.000, (%): 100%
+Total Dana Disalurkan, RKA 2024: 10.000.000.000, Realisasi 2024: 10.000.000.000, (%): 100%, RKA 2025: 11.000.000.000, Realisasi 2025: 11.000.000.000, (%): 100%
+Saldo Akhir, RKA 2024: 11.470.559.980, Realisasi 2024: 11.036.287.064, (%): 375%, RKA 2025: 6.236.287.064, Realisasi 2025: 4.506.469.128, (%): 72%
+
+Penyaluran Program PUMK 2025
+Tahun: 2024 dan 2025
+TARGET: 2024: Rp10 miliar, 2025: Rp11 Miliar
+REALISASI: 2024: Rp14,8 miliar, 2025: Rp6,5 Miliar
+PENCAPAIAN: 2024: 148,5%, 2025: 59,6%
+
+Komposisi Penyaluran Berdasarkan Sektor
+Realisasi PUMK Kerja Sama melalui BRI Berdasarkan Sektor Usaha
+Tahun 2024: Jumlah MB, Nominal (Rp)
+Tahun 2025: Jumlah MB, Nominal (Rp)
+
+No.: 1, Sektor Usaha: Sektor Industri, Tahun 2024 Jumlah MB: 20, Tahun 2024 Nominal (Rp): 601.000.000, Tahun 2025 Jumlah MB: 23, Tahun 2025 Nominal (Rp): 606.000.000
+No.: 2, Sektor Usaha: Sektor Jasa, Tahun 2024 Jumlah MB: 81, Tahun 2024 Nominal (Rp): 2.347.000.000, Tahun 2025 Jumlah MB: 22, Tahun 2025 Nominal (Rp): 1.064.500.000
+No.: 3, Sektor Usaha: Sektor Perdagangan, Tahun 2024 Jumlah MB: 205, Tahun 2024 Nominal (Rp): 6.014.000.000, Tahun 2025 Jumlah MB: 95, Tahun 2025 Nominal (Rp): 4.019.300.000
+No.: 4, Sektor Usaha: Sektor Pertanian, Tahun 2024 Jumlah MB: 4, Tahun 2024 Nominal (Rp): 45.000.000, Tahun 2025 Jumlah MB: 9, Tahun 2025 Nominal (Rp): 385.000.000

@@ -1,0 +1,43 @@
+1. Judul atau keterangan:
+- Diagram alir: SEGMEN SYARIAH, PRODUK PEMBIAYAAN SYARIAH, PRODUK SIMPANAN SYARIAH, PEMBIAYAAN KOMERSIAL SYARIAH, PEMBIAYAAN KONSUMER SYARIAH, GIRO SYARIAH, DEPOSITO SYARIAH, TABUNGAN SYARIAH
+- Judul grafik 1: Grafik Kinerja Produk Pembiayaan dan DPK Segmen Syariah
+- Subjudul grafik 1 (kiri): Posisi Pembiayaan Syariah
+- Subjudul grafik 1 (kanan): Posisi Simpanan Syariah
+- Satuan grafik: (dalam triliun Rupiah)
+- Label sumbu X grafik 1 kiri: Pembiayaan Konsumer, Pembiayaan Komersial
+- Label sumbu X grafik 1 kanan: Giro Syariah, Tabungan Berkah, Deposito Berkah
+- Judul grafik 2: Jumlah Posisi Pembiayaan dan DPK Segmen Syariah
+- Label sumbu X grafik 2: Jumlah Posisi Nilai Produk pembiayaan Syariah, Jumlah Posisi Dana Simpanan Syariah, Jumlah Posisi Produk Segmen Syariah
+- Legenda: 2024, 2025
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Grafik 1 Kiri: Sumbu Y dengan nilai 0,00; 10,00; 20,00; 30,00; 40,00; 50,00; 60,00. Sumbu X dengan label "Pembiayaan Konsumer" dan "Pembiayaan Komersial".
+- Grafik 1 Kanan: Sumbu Y dengan nilai 0,00; 5,00; 10,00; 15,00; 20,00; 25,00; 30,00. Sumbu X dengan label "Giro Syariah", "Tabungan Berkah", "Deposito Berkah".
+- Grafik 2: Sumbu Y dengan nilai 0,00; 20,00; 40,00; 60,00; 80,00; 100,00; 120,00. Sumbu X dengan label "Jumlah Posisi Nilai Produk pembiayaan Syariah", "Jumlah Posisi Dana Simpanan Syariah", "Jumlah Posisi Produk Segmen Syariah".
+- Legenda: Kotak warna biru muda (2024), Kotak warna biru tua (2025).
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Posisi Pembiayaan Syariah - Pembiayaan Konsumer: 
+  - 2024: 41,16
+  - 2025: 51,35
+- Posisi Pembiayaan Syariah - Pembiayaan Komersial:
+  - 2024: 3,52
+  - 2025: 2,74
+- Posisi Simpanan Syariah - Giro Syariah:
+  - 2024: 19,82
+  - 2025: 26,94
+- Posisi Simpanan Syariah - Tabungan Berkah:
+  - 2024: 7,81
+  - 2025: 8,68
+- Posisi Simpanan Syariah - Deposito Berkah:
+  - 2024: 21,99
+  - 2025: 23,11
+- Jumlah Posisi Pembiayaan dan DPK Segmen Syariah - Jumlah Posisi Nilai Produk pembiayaan Syariah:
+  - 2024: 43,89
+  - 2025: 54,87
+- Jumlah Posisi Pembiayaan dan DPK Segmen Syariah - Jumlah Posisi Dana Simpanan Syariah:
+  - 2024: 49,62
+  - 2025: 58,73
+- Jumlah Posisi Pembiayaan dan DPK Segmen Syariah - Jumlah Posisi Produk Segmen Syariah:
+  - 2024: 93,52
+  - 2025: 114

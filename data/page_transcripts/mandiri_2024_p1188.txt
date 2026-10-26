@@ -1,0 +1,10 @@
+1. Judul: Pelatihan terkait Privasi dan Keamanan Data
+2. Infografik 1:
+   - Keterangan: Jumlah Pelatihan
+   - Angka: 412 Judul
+3. Infografik 2:
+   - Keterangan: Jumlah Jam Pelatihan
+   - Angka: 190.502 Jam
+4. Infografik 3:
+   - Keterangan: Jumlah Peserta Pelatihan
+   - Angka: 81.929 Pegawai

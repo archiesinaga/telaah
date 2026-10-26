@@ -1,0 +1,14 @@
+1. Judul atau keterangan:
+- Pembiayaan Energi Terbarukan: "Hingga 2024, total kredit yang disalurkan mencapai Rp11,8 triliun."
+- Green Loan: "Pada 2024, Bank Mandiri memberikan fasilitas kredit hijau Rp3,5 triliun untuk sektor kelistrikan sebagai ESG Coordinator dalam transisi energi, dan USD226 juta untuk sektor transportasi guna mendukung distribusi kendaraan listrik serta infrastrukturnya."
+- Perbankan Digital: "...mengoperasikan 241 Smart Branch..."
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2024
+- Satuan: Rp (rupiah), triliun, USD (dolar Amerika Serikat)
+
+3. Angka yang tertera:
+- Hingga 2024: Rp11,8 triliun
+- Pada 2024: Rp3,5 triliun
+- Pada 2024: USD226 juta
+- 241 Smart Branch

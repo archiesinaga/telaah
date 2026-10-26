@@ -1,0 +1,17 @@
+1. Program Lingkungan
+Tabel Program Lingkungan:
+- No.: 1
+- Nama Program: Transformasi Hijau Perkotaan (Urban Farming)
+- TPB: TPB 15
+- Lokasi: Ciracas, Jakarta Timur
+- Jenis Bantuan: Sarana Prasarana Urban Farming
+- Jumlah Penerima Manfaat: Kelompok Tani KWT Delima UF terdiri dari 20 anggota
+
+2. Program Pendidikan BTN
+Tabel Program Pendidikan BTN:
+- No.: 1
+- Nama Program: Inkubasi Bisnis
+- TPB: TPB 4
+- Lokasi: Jakarta
+- Jenis Bantuan: Pemberian pelatihan dan pembekalan serta membangun relasi terhadap pengusaha ekosistem perumahan
+- Jumlah Penerima Manfaat: 30 peserta

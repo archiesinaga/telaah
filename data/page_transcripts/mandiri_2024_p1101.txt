@@ -1,0 +1,93 @@
+RISIKO KREDIT - EKSWPOSUR CCR BERDASARKAN KATEGORI PORTFOLIO DAN BOBOT RISIKO (CCR3)
+
+(dalam jutaan rupiah)
+
+Kolom:
+- 40%
+- 45%
+- 50%
+- 75%
+- 85%
+- 100%
+- 150%
+- Total Tagihan Bersih Lainnya
+
+Baris 1:
+- 40%: -
+- 45%: -
+- 50%: -
+- 75%: -
+- 85%: -
+- 100%: -
+- 150%: -
+- Total Tagihan Bersih Lainnya: 3.567.981-
+
+Baris 2:
+- 40%: -
+- 45%: -
+- 50%: 5.310.579
+- 75%: -
+- 85%: -
+- 100%: -
+- 150%: -
+- Total Tagihan Bersih Lainnya: 5.310.579-
+
+Baris 3:
+- 40%: -
+- 45%: -
+- 50%: -
+- 75%: -
+- 85%: -
+- 100%: -
+- 150%: -
+- Total Tagihan Bersih Lainnya: --
+
+Baris 4:
+- 40%: 8.409.967
+- 45%: -
+- 50%: 99.973
+- 75%: -
+- 85%: tidak terbaca
+- 100%: -
+- 150%: -
+- Total Tagihan Bersih Lainnya: 16.513.308-
+
+Baris 5:
+- 40%: -
+- 45%: -
+- 50%: tidak terbaca
+- 75%: -
+- 85%: -
+- 100%: 16.623
+- 150%: -
+- Total Tagihan Bersih Lainnya: 16.623-
+
+Baris 6:
+- 40%: -
+- 45%: -
+- 50%: 48.121
+- 75%: 109
+- 85%: 97.661
+- 100%: 2.422.805
+- 150%: 90
+- Total Tagihan Bersih Lainnya: 2.568.785-
+
+Baris 7:
+- 40%: -
+- 45%: -
+- 50%: -
+- 75%: -
+- 85%: -
+- 100%: -
+- 150%: -
+- Total Tagihan Bersih Lainnya: --
+
+Baris Total:
+- 40%: 8.409.967
+- 45%: -
+- 50%: 5.458.673
+- 75%: 109
+- 85%: 97.661
+- 100%: 2.439.427
+- 150%: 90
+- Total Tagihan Bersih Lainnya: 27.977.276-

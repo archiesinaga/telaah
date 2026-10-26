@@ -1,0 +1,14 @@
+1. Judul atau keterangan:
+- "AI Chatbot", "Conversational AI enabling us to handle customer queries 24/7 serving our customer anytime"
+- "AI Call Center", "AI boosts call center boost efficiency by delivering faster respond and available 24/7", angka "14000", teks "Customer Services", "Collection", "Telesales"
+- "AI Coding Assistant", "Accelerate time-to-market and enhance code quality", angka/label persentase: "▲ 25% Enhance Productivity", "Zero PTR Defect", "▲ 25% Faster Development", "▲ 30% Code Quality"
+
+2. Label sumbu, legenda, satuan, dan periode:
+Tidak ada sumbu atau legenda terpisah. Satuan berupa persen (%). Periode tidak tercantum.
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 24/7
+- 14000
+- 25%: Enhance Productivity
+- 25%: Faster Development
+- 30%: Code Quality

@@ -1,0 +1,111 @@
+1. Judul atau keterangan:
+- bebas biaya investment plan reksa dana di livin' hingga 31 Desember 2024 *info: bmri.id/invesplan
+- Investasi mulai Rp10 ribu di livin' *info: bmri.id/inveslimit
+- Produktivitas dan Pendapatan Produk Wealth Management - Reksa Dana (Dalam Rp Juta)
+
+2. Label tabel, kolom, dan satuan:
+- Satuan: Dalam Rp Juta
+- Kolom Asset Under Management (AUM): Reksa Dana Saham, Reksa Dana Campuran, Reksa Dana Pendapatan Tetap, Reksa Dana Pasar Uang, Reksa Dana Indeks, Sub Total, Reksa Dana Terproteksi, Reksa Dana Penyertaan Terbatas, PDNI (Pengelolaan Dana Nasabah Individual), Total
+- Kolom Reksa Dana dengan AUM: 2024, 2023, Pertumbuhan (Nominal), Pertumbuhan (%)
+- Kolom Pendapatan Produk Reksa Dana: 2024, 2023, Pertumbuhan (Nominal), Pertumbuhan (%)
+
+3. Angka yang tertera:
+- Reksa Dana Saham:
+  - 2024 (AUM): 2.705.984
+  - 2023 (AUM): 3.460.914
+  - Pertumbuhan Nominal (AUM): (754.930)
+  - Pertumbuhan % (AUM): (21,8)%
+  - 2024 (Pendapatan): 40.945
+  - 2023 (Pendapatan): 64.136
+  - Pertumbuhan Nominal (Pendapatan): (23.191)
+  - Pertumbuhan % (Pendapatan): (36,2)%
+
+- Reksa Dana Campuran:
+  - 2024 (AUM): 162.769
+  - 2023 (AUM): 247.991
+  - Pertumbuhan Nominal (AUM): (85.222)
+  - Pertumbuhan % (AUM): (34,4)%
+  - 2024 (Pendapatan): 2.041
+  - 2023 (Pendapatan): 2.379
+  - Pertumbuhan Nominal (Pendapatan): (338)
+  - Pertumbuhan % (Pendapatan): (14,2)%
+
+- Reksa Dana Pendapatan Tetap:
+  - 2024 (AUM): 4.307.814
+  - 2023 (AUM): 4.765.550
+  - Pertumbuhan Nominal (AUM): (457.736)
+  - Pertumbuhan % (AUM): (9,6)%
+  - 2024 (Pendapatan): 53.114
+  - 2023 (Pendapatan): 60.265
+  - Pertumbuhan Nominal (Pendapatan): (7.151)
+  - Pertumbuhan % (Pendapatan): (11,9)%
+
+- Reksa Dana Pasar Uang:
+  - 2024 (AUM): 16.992.558
+  - 2023 (AUM): 14.888.946
+  - Pertumbuhan Nominal (AUM): 2.103.612
+  - Pertumbuhan % (AUM): 14,1%
+  - 2024 (Pendapatan): 106.329
+  - 2023 (Pendapatan): 104.509
+  - Pertumbuhan Nominal (Pendapatan): 1.820
+  - Pertumbuhan % (Pendapatan): 1,7%
+
+- Reksa Dana Indeks:
+  - 2024 (AUM): 127.453
+  - 2023 (AUM): 10.845
+  - Pertumbuhan Nominal (AUM): 116.608
+  - Pertumbuhan % (AUM): 1075,2%
+  - 2024 (Pendapatan): 1.850
+  - 2023 (Pendapatan): 396
+  - Pertumbuhan Nominal (Pendapatan): 1.454
+  - Pertumbuhan % (Pendapatan): 367,1%
+
+- Sub Total:
+  - 2024 (AUM): 24.296.577
+  - 2023 (AUM): 23.374.246
+  - Pertumbuhan Nominal (AUM): 922.331
+  - Pertumbuhan % (AUM): 3,9%
+  - 2024 (Pendapatan): 204.278
+  - 2023 (Pendapatan): 231.685
+  - Pertumbuhan Nominal (Pendapatan): (27.407)
+  - Pertumbuhan % (Pendapatan): (11,8)%
+
+- Reksa Dana Terproteksi:
+  - 2024 (AUM): 370.632
+  - 2023 (AUM): 409.847
+  - Pertumbuhan Nominal (AUM): (39.215)
+  - Pertumbuhan % (AUM): (9,6)%
+  - 2024 (Pendapatan): 986
+  - 2023 (Pendapatan): 0
+  - Pertumbuhan Nominal (Pendapatan): 986
+  - Pertumbuhan % (Pendapatan): 0,0%
+
+- Reksa Dana Penyertaan Terbatas:
+  - 2024 (AUM): 77.080
+  - 2023 (AUM): 83.824
+  - Pertumbuhan Nominal (AUM): (6.744)
+  - Pertumbuhan % (AUM): (8,0)%
+  - 2024 (Pendapatan): 795
+  - 2023 (Pendapatan): 890
+  - Pertumbuhan Nominal (Pendapatan): (95)
+  - Pertumbuhan % (Pendapatan): (10,7)%
+
+- PDNI (Pengelolaan Dana Nasabah Individual):
+  - 2024 (AUM): 0
+  - 2023 (AUM): 0
+  - Pertumbuhan Nominal (AUM): 0
+  - Pertumbuhan % (AUM): 0%
+  - 2024 (Pendapatan): 25
+  - 2023 (Pendapatan): 55
+  - Pertumbuhan Nominal (Pendapatan): (30)
+  - Pertumbuhan % (Pendapatan): 0%
+
+- Total:
+  - 2024 (AUM): 24.744.289
+  - 2023 (AUM): 23.867.917
+  - Pertumbuhan Nominal (AUM): 876.372
+  - Pertumbuhan % (AUM): 3,7%
+  - 2024 (Pendapatan): 206.084
+  - 2023 (Pendapatan): 232.630
+  - Pertumbuhan Nominal (Pendapatan): (26.546)
+  - Pertumbuhan % (Pendapatan): (11,4)%

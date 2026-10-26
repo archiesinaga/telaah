@@ -1,0 +1,19 @@
+1. Judul atau keterangan:
+- Highlight ESG Bank Mandiri
+- MSCI ESG Rating Upgrade (Mei-2024)
+- Livin' Planet (Nov-2024)
+- KPR Hijau (Mei-2024)
+- SUSTAINALYTICS ESG Risk Rating Category (Low Risk)* (Jan-2025)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode MSCI ESG Rating Upgrade: 2022, 2023, 2024
+- Livin' Planet: 1. Kalkulator Karbon, 2. Kontribusi Penanaman Pohon, 3. Report
+- Periode SUSTAINALYTICS: 2023, 2024, 2025
+
+3. Angka yang tertera:
+- 2022: BB
+- 2023: BB
+- 2024: BBB
+- 2023: 28,18
+- 2024: 28,45
+- 2025: 17,5

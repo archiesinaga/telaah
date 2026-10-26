@@ -1,0 +1,11 @@
+1. Judul atau keterangan:
+- Most Trusted Company
+- Bank Mandiri mendapatkan predikat sebagai salah satu top performers pada Corporate Governance & Perception Index (CGPI)
+- *Rating sebelumnya : 95,01
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- Most Trusted Company 95,30
+- *Rating sebelumnya : 95,01

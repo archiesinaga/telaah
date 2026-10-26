@@ -1,0 +1,33 @@
+1. Judul atau keterangan:
+- Rasio Casa Konsolidasian
+  - Angka: 74,83%
+  - Keterangan periode: pada Desember 2024, atau porsinya meningkat dibandingkan posisi 2023 sebesar 74,30%
+
+- PPOP
+  - Angka: Rp87,99 triliun
+  - Keterangan periode: tumbuh 3,77% yoy di 2024 dibandingkan 2023 sebesar Rp84,97 triliun
+
+- ROE Avg. Tier I Capital (Bank Only)
+  - Angka: 24,19%
+  - Keterangan periode: menurun di 2024 dibandingkan 2023 sebesar 27,31%
+
+- RASIO NPL GROSS (Bank-Only)
+  - Angka: 0,97%
+  - Keterangan periode: turun 5bps yoy di 2024 dibandingkan 2023 sebesar 1,02%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada sumbu, legenda, atau grafik berbatang/garis. Satuan yang tertera adalah "%" dan "triliun". Periode yang tertera adalah "Desember 2024", "2024", dan "2023".
+
+3. Semua angka yang tertera, apa adanya:
+- 74,83%
+- 74,30%
+- Rp87,99 triliun
+- 3,77%
+- 2024
+- 2023
+- Rp84,97 triliun
+- 24,19%
+- 27,31%
+- 0,97%
+- 5bps
+- 1,02%

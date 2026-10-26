@@ -1,0 +1,60 @@
+Judul Bagian: Kualitas Aset Terjaga Dengan Sangat Baik
+
+Grafik 1:
+- Judul: Rasio Loans at Risk / LAR
+- Legenda: Rasio LAR (Bank-Only)
+- Periode dan Angka:
+  - Des-23: 8,74%
+  - Mar-24: 8,62%
+  - Jun-24: 7,82%
+  - Sep-24: 7,32%
+  - Des-24: 6,81%
+
+Grafik 2:
+- Judul: Rasio NPL dan NPL Coverage
+- Legenda: Rasio NPL (Bank-Only), Rasio NPL Coverage (Bank-Only)
+- Periode dan Angka (Rasio NPL Coverage):
+  - Des-23: 384%
+  - Mar-24: 368%
+  - Jun-24: 332%
+  - Sep-24: 319%
+  - Des-24: 304%
+- Periode dan Angka (Rasio NPL):
+  - Des-23: 1,02%
+  - Mar-24: 1,02%
+  - Jun-24: 1,01%
+  - Sep-24: 0,97%
+  - Des-24: 0,97%
+
+Grafik 3:
+- Judul: YTD Cost of Credit / CoC
+- Legenda: Rasio LAR (Bank-Only)
+- Periode dan Angka:
+  - Des-23: 0,63%
+  - Mar-24: 0,99%
+  - Jun-24: 0,86%
+  - Sep-24: 0,69%
+  - Des-24: 0,62%
+
+Grafik 4:
+- Judul: Kredit Restrukturisasi (Rp Tn)
+- Keterangan tambahan: Kebijakan restrukturisasi kredit terkait Covid-19 berakhir di Maret 2024
+- Legenda: Restructuring Covid-19, Restructuring Normal
+- Periode dan Angka (Bagian Bawah / Restructuring Covid-19):
+  - Des-23: 17,2
+  - Mar-24: 14,9
+  - Jun-24: 11,5
+  - Sep-24: 10,4
+  - Des-24: 9,25
+- Periode dan Angka (Bagian Atas / Restructuring Normal):
+  - Des-23: 61,0
+  - Mar-24: 62,3
+  - Jun-24: 64,3
+  - Sep-24: 62,7
+  - Des-24: 64,2
+- Periode dan Angka (Total / Puncak Batang):
+  - Des-23: 78,2
+  - Mar-24: 77,2
+  - Jun-24: 75,8
+  - Sep-24: 73,2
+  - Des-24: 73,5

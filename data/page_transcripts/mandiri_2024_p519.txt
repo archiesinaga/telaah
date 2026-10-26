@@ -1,0 +1,45 @@
+1. Judul atau keterangan:
+PROGRAM PENGELOLAAN HUMAN CAPITAL TAHUN 2024
+Bank Mandiri Talent Management Process
+Pengelola: Pegawai Talent, Human Capital, Kepala Unit Kerja, Direksi Bidang
+
+Diagram Lingkaran (Infografik):
+- Bagian luar (panah berputar): Leadership, Culture, Skill
+- Bagian dalam: Learning Agility, Purpose
+- Keterangan di bawah diagram: Super Happy, Super Productive, Sustainable Business
+
+Diagram Blok 1 (Talent Identification):
+- Angka: 1
+- Judul: Talent Identification
+- Keterangan: Identifikasi TC berdasarkan kinerja, leadership characteristics, ability, agility serta engagement
+- Grafik kecil di dalam:
+  - Sumbu Y (tegak): Capacity (Limited, Moderated, High)
+  - Sumbu X (mendatar): Performance (3 tahun terakhir) (Limited, Moderated, High)
+  - Kotak/Label dalam grafik:
+    - Under Achiever (UA)
+    - Limited Contributor (LC)
+    - Critical Resources (CR)
+    - Key Contributor (KC)
+    - High Potential (HiPO)
+- Output: Talent Classification
+
+Diagram Blok 2 (Talent Profiling):
+- Angka: 2
+- Judul: Talent Profiling
+- Keterangan: Asesmen talent berdasarkan aspek track record, technical capability, leadership capability dan personality
+- Gambar dokumen/laporan (tidak terbaca detail teksnya)
+- Output: Talent Profile & Gap Competency
+
+Diagram Blok 3 (Talent Development):
+- Angka: 3
+- Judul: Talent Development
+- Keterangan: Menyusun rencan dan menjalankan pengembangan talent berdasarkan gap kapabilitas
+- Gambar diagram kecil (tidak terbaca detail teksnya)
+- Output: Talent Development Plan & Execution
+
+Diagram Blok 4 (Strategic Talent Review):
+- Angka: 4
+- Judul: Strategic Talent Review
+- Keterangan: Review proses pengembangan dan menyiapkan rencana sukses incumbent
+- Gambar tabel/dokumen (tidak terbaca detail teksnya)
+- Output: Progress Development Plan & Succession Plan

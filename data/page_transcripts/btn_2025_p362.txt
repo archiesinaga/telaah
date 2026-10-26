@@ -1,0 +1,53 @@
+1. Judul atau keterangan:
+Grafik Laporan Arus Kas Konsolidasian
+
+2. Label sumbu, legenda, satuan, dan periode:
+Satuan: (dalam triliun Rupiah)
+Legenda:
+- Kotak biru tua: 2025
+- Kotak biru muda: 2024
+Label kategori arus kas:
+- Kas Neto (digunakan untuk) diperoleh dari Aktivitas Operasi
+- Kas Neto digunakan untuk Aktivitas Investasi
+- Kas Neto (digunakan untuk) diperoleh dari Aktivitas Pendanaan
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+Untuk Kategori "Kas Neto (digunakan untuk) diperoleh dari Aktivitas Operasi":
+- 2024: (8,76)
+- 2025: 24,32
+
+Untuk Kategori "Kas Neto digunakan untuk Aktivitas Investasi":
+- 2024: (5,31)
+- 2025: (6,63)
+
+Untuk Kategori "Kas Neto (digunakan untuk) diperoleh dari Aktivitas Pendanaan":
+- 2024: (3,52)
+- 2025: (1,76)
+
+---
+Tabel Bagian Atas:
+
+Judul Kolom:
+- Uraian
+- 2025
+- 2024
+- Pertumbuhan Rp
+- Pertumbuhan %
+
+Baris 1 (Giro pada bank lain):
+- 2025 (2): 2.515.971
+- 2024 (3): 5.951.746
+- Rp (4): (3.435.775)
+- % (5): (57,73%)
+
+Baris 2 (Penempatan pada Bank Indonesia dan bank lain - jangka waktu jatuh tempo tiga bulan atau kurang sejak tanggal perolehan):
+- 2025 (2): 12.929.938
+- 2024 (3): 4.661.104
+- Rp (4): 8.268.834
+- % (5): 177,40%
+
+Baris 3 (Total):
+- 2025 (2): 51.398.621
+- 2024 (3): 35.458.390
+- Rp (4): 15.940.231
+- % (5): 44,95%

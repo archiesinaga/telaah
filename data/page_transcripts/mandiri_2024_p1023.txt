@@ -1,0 +1,122 @@
+RISIKO KREDIT - PENGUNGKAPAN TAMBAHAN TERKAIT KUALITAS KREDIT ATAS ASET (CRB)
+(dalam jutaan rupiah)
+31 Desember 2024
+Tagihan Bersih Berdasarkan Wilayah
+
+Sulawesi & Maluku, Bali & Nusa Tenggara, Papua, Kantor Pusat, Overseas, Total
+
+Baris 1:
+Sulawesi & Maluku: -
+Bali & Nusa Tenggara: -
+Papua: -
+Kantor Pusat: 300.810.252
+Overseas: 77.617.272
+Total: 422.247.100
+
+Baris 2:
+Sulawesi & Maluku: -
+Bali & Nusa Tenggara: 79.769
+Papua: 200
+Kantor Pusat: 20.765.132
+Overseas: 800.284
+Total: 113.021.220
+
+Baris 3:
+Total: -
+
+Baris 4:
+Sulawesi & Maluku: -
+Bali & Nusa Tenggara: -
+Papua: -
+Kantor Pusat: 68.331.651
+Overseas: 21.232.523
+Total: 95.527.550
+
+Baris 5:
+Total: -
+
+Baris 6:
+Sulawesi & Maluku: -
+Bali & Nusa Tenggara: -
+Papua: -
+Kantor Pusat: 20.238
+Overseas: -
+Total: 11.676.668
+
+Baris 7:
+Sulawesi & Maluku: -
+Bali & Nusa Tenggara: -
+Papua: -
+Kantor Pusat: 22.970
+Total: 22.970
+
+Baris 8:
+Sulawesi & Maluku: 2.911.602
+Bali & Nusa Tenggara: 2.487.995
+Papua: 765.281
+Kantor Pusat: -
+Overseas: -
+Total: 61.739.242
+
+Baris 9:
+Sulawesi & Maluku: 417.243
+Bali & Nusa Tenggara: 269.218
+Papua: 66.980
+Kantor Pusat: -
+Overseas: -
+Total: 22.331.419
+
+Baris 10:
+Sulawesi & Maluku: 283.715
+Bali & Nusa Tenggara: -
+Papua: -
+Kantor Pusat: -
+Overseas: -
+Total: 1.172.760
+
+Baris 11:
+Sulawesi & Maluku: 4.725
+Bali & Nusa Tenggara: 445
+Papua: 1.728
+Kantor Pusat: -
+Overseas: -
+Total: 71.620
+
+Baris 12:
+Sulawesi & Maluku: 20.186.114
+Bali & Nusa Tenggara: 11.663.107
+Papua: 6.083.369
+Kantor Pusat: 23.160.649
+Overseas: 304.223
+Total: 259.957.317
+
+Baris 13:
+Sulawesi & Maluku: 38.720.760
+Bali & Nusa Tenggara: 18.152.241
+Papua: 1.958.821
+Kantor Pusat: 113.465.758
+Overseas: 57.972.514
+Total: 841.304.428
+
+Baris 14:
+Sulawesi & Maluku: 281.237
+Bali & Nusa Tenggara: 64.374
+Papua: 61.164
+Kantor Pusat: 119.405
+Overseas: 18
+Total: 4.369.468
+
+Baris 15:
+Sulawesi & Maluku: -
+Bali & Nusa Tenggara: -
+Papua: -
+Kantor Pusat: 95.920.957
+Total: 95.920.957
+
+Total:
+Sulawesi & Maluku: 62.805.396
+Bali & Nusa Tenggara: 32.717.149
+Papua: 8.937.543
+Kantor Pusat: 622.617.012
+Overseas: 157.926.833
+Total: 1.929.362.719

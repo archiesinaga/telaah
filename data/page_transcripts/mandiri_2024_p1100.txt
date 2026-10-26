@@ -1,0 +1,18 @@
+1. Judul atau keterangan: RISIKO KREDIT - EKSPOSUR CCR BERDASARKAN KATEGORI PORTFOLIO DAN BOBOT RISIKO (CCR3)
+Pengungkapan Eksposur CCR Berdasarkan Kategori Portfolio dan Bobot Risiko - Individu
+Posisi 31 Desember 2024
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Kategori Portofolio
+- Bobot Risiko: 0%, 10%, 20%, 25%, 30%, 35%
+- Periode: Posisi 31 Desember 2024
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Tagihan Kepada Pemerintah: 0%: 3.567.981, 10%: -, 20%: -, 25%: -, 30%: -, 35%: -
+- Tagihan Kepada Entitas Sektor Publik: 0%: -, 10%: -, 20%: -, 25%: -, 30%: -, 35%: -
+- Tagihan Kepada Bank Pembangunan Multilateral dan Lembaga Internasional: 0%: -, 10%: -, 20%: -, 25%: -, 30%: -, 35%: -
+- Tagihan Kepada Bank: 0%: -, 10%: -, 20%: 7.988.879, 25%: -, 30%: 14.489, 35%: -
+- Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel: 0%: -, 10%: -, 20%: -, 25%: -, 30%: -, 35%: -
+- Tagihan kepada Korporasi: 0%: -, 10%: -, 20%: -, 25%: -, 30%: -, 35%: -
+- Eksposur tertimbang dari Credit Valuation Adjustment (CVA risk weighted assets): 0%: -, 10%: -, 20%: -, 25%: -, 30%: -, 35%: -
+- Total: 0%: 3.567.981, 10%: -, 20%: 7.988.879, 25%: -, 30%: 14.489, 35%: -

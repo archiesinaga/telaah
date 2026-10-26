@@ -1,0 +1,26 @@
+PENGUNGKAPAN KUALITAS KREDIT ATAS ASET (CR1)
+
+(dalam jutaan rupiah)
+
+Tabel 1:
+- Satuan: (dalam jutaan rupiah)
+- Kolom CKPN: Stage 2 dan Stage 3 (d), Stage 1 (e)
+- Kolom CKPN (Pendekatan IRB): f
+- Kolom Nilai Bersih (a+b-c): g
+- Baris 1: d: 29.246.079, e: 9.094.305, f: , g: 1.272.439.018
+- Baris 2: d: 6.921, e: 12.102, f: , g: 174.265.708
+- Baris 3: d: 677.834, e: 412.129, f: , g: 437.108.849
+- Baris Total: d: 29.930.834, e: 9.518.536, f: -, g: 1.883.813.575
+
+(dalam jutaan rupiah)
+
+Tabel 2:
+- Satuan: (dalam jutaan rupiah)
+- Kolom CKPN: Stage 2 dan Stage 3 (d), Stage 1 (e)
+- Kolom CKPN Eksposur Syariah: f
+- Kolom CKPN (Pendekatan IRB): g
+- Kolom Nilai Bersih (a+b-c): h
+- Baris 1: d: 29.415.789, e: 9.748.405, f: 10.273.223, g: , h: 1.573.779.195
+- Baris 2: d: 6.921, e: 18.982, f: 35.231, g: , h: 290781251
+- Baris 3: d: 677.734, e: 412.234, f: 24.045, g: , h: 439421715
+- Baris Total: d: 30.100.444, e: 10.179.621, f: 10.332.499, g: -, h: 2.303.982.161

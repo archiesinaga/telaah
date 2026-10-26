@@ -1,0 +1,25 @@
+1. Judul Grafik 1: Pergerakan Harga dan Volume Transaksi Saham Bank Mandiri Tahun 2023 - 2024
+   Judul Sub-Grafik 1: Volume Transaksi & Harga per Saham Penutupan
+   - Label sumbu X: Q1 2023, Q2 2023, Q3 2023, Q4 2023, Q1 2024, Q2 2024, Q3 2024, Q4 2024
+   - Label sumbu Y kiri: 0, 2.000, 4.000, 6.000, 8.000, 10.000, 12.000
+   - Label sumbu Y kanan: 0, 1.000, 2.000, 3.000, 4.000, 5.000, 6.000, 7.000, 8.000
+   - Legenda: Volume (Juta Lembar), Penutupan
+   - Angka/Data pada grafik (Penutupan):
+     - Q1 2023: 10.325
+     - Q4 2024: 5.700
+
+2. Judul Grafik 2: Kapitalisasi Pasar Saham Bank Mandiri Tahun 2023 – 2024
+   Judul Sub-Grafik 2: Kapitalisasi Pasar (Rp Triliun)
+   - Satuan: Rp Triliun
+   - Label sumbu X: Q1 2023, Q2 2023, Q3 2023, Q4 2023, Q1 2024, Q2 2024, Q3 2024, Q2 2024
+   - Label sumbu Y: 0, 100, 200, 300, 400, 500, 600, 700, 800
+   - Legenda: Kapitalisasi (Rp Triliun)
+   - Angka/Data pada grafik:
+     - Q1 2023: 477,02
+     - Q2 2023: 480,48
+     - Q3 2023: 556,71
+     - Q4 2023: 559,71
+     - Q1 2024: 669,90
+     - Q2 2024: 568,26
+     - Q3 2024: 639,87
+     - Q2 2024: 532,00

@@ -1,0 +1,26 @@
+1. Judul atau keterangan:
+BMRI Share Performance Versus JCI - YTD December 2024 Trend
+Keterangan tambahan: as of last closing price, 31 December 2024
+
+2. Label sumbu, legenda, satuan, dan periode:
+Legenda:
+- BMRI (garis kuning)
+- JCI (garis biru)
+
+Periode sumbu horizontal (X):
+- Dec-23
+- Jan-24
+- Feb-24
+- Mar-24
+- May-24
+- Jun-24
+- Jul-24
+- Aug-24
+- Sep-24
+- Oct-24
+- Nov-24
+- Dec-24
+
+3. Angka yang tertera:
+- IHSG: -3%
+- BMRI: -6%

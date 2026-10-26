@@ -1,0 +1,13 @@
+Tabel 1:
+Judul atau keterangan: PENGUNGKAPAN KUANTITATIF TERKAIT TEKNIK MITIGASI RISIKO KREDIT (CR3), satuan (dalam jutaan rupiah)
+Label kolom dan baris:
+- Tagihan yang Dijamin dengan Agunan, c: 45.362.344, -, 45.362.344, 18.925
+- Tagihan yang Dijamin dengan Garansi dan/atau Asuransi Kredit, d: 15.942.612, -, 15.942.612, 171.393
+- Tagihan yang Dijamin dengan Derivatif Kredit, e: tidak terbaca
+
+Tabel 2:
+Judul atau keterangan: PENGUNGKAPAN KUANTITATIF TERKAIT TEKNIK MITIGASI RISIKO KREDIT (CR3), satuan (dalam jutaan rupiah)
+Label kolom dan baris:
+- Tagihan yang Dijamin dengan Agunan, c: 45.482.331, -, 45.482.331, 18.925
+- Tagihan yang Dijamin dengan Garansi dan/atau Asuransi Kredit, d: 15.942.612, -, 15.942.612, 171.393
+- Tagihan yang Dijamin dengan Derivatif Kredit, e: tidak terbaca

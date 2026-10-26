@@ -1,0 +1,19 @@
+TABEL PENGUNGKAPAN NILAI LIQUIDITY COVERAGE RATIO
+(dalam jutaan Rupiah)
+
+KONSOLIDASIAN
+Posisi Tanggal Laporan:
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual, Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): Baris 1: -, -
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: 26.201.541 | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 4.599.207
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: - | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 163.572
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: 249.197.420 | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 7.045.665
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: 9.373.322 | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 9.373.322
+- Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 497.600.320
+
+Posisi Tanggal Laporan Sebelumnya:
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: - | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): -
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: 26.793.742 | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 4.541.076
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: - | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 8.333
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: 238.016.880 | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 6.808.631
+- Nilai outstanding kewajiban dan komitmen/nilai tagihan kontraktual: 9.845.138 | Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 9.845.138
+- Nilai HQLA setelah pengurangan nilai (haircut) atau outstanding kewajiban dan komitmen dikalikan tingkat penarikan (run-off rate) atau Nilai tagihan kontraktual dikalikan tingkat penerimaan (inflow rate): 477.516.378

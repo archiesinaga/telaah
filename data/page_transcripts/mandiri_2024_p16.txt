@@ -1,0 +1,21 @@
+1. Judul atau keterangan:
+- Pengguna Aktif Bulanan
+- Frekuensi Transaksi Bulanan
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu waktu/periode (kedua grafik): Des 23, Mar 24, Jun 24, Sep 24, Des 24
+
+3. Angka yang tertera:
+- Grafik Pengguna Aktif Bulanan:
+  - Des 23: x
+  - Mar 24: 1,2X
+  - Jun 24: 2X
+  - Sep 24: 3X
+  - Des 24: 4x
+
+- Grafik Frekuensi Transaksi Bulanan:
+  - Des 23: 0,3X (pada sumbu y/titik awal) dan x
+  - Mar 24: 0,4X
+  - Jun 24: 0,6X
+  - Sep 24: 0,9X
+  - Des 24: 1,05X dan x

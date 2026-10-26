@@ -1,0 +1,35 @@
+01
+Apraisal Internal Untuk Lelang
+Appraisal Internal untuk percepatan lelang aset bermasalah
+
+02
+Revamp Rumah Murah BTN
+Redesign dan Pengembangan fitur portal Rumah Murah BTN
+
+03
+Pengembangan iColl for RAS
+Pengembangan aplikasi iColl untuk RAS sebagai tools monitoring aset
+
+04
+Host-to-Host dengan Asuradur Kredit
+Integrasi host-to-host dengan Asuradur Kredit untuk memudahkan klaim asuransi
+
+05
+Review Ketentuan Cessie
+Review ketentuan Cessie
+
+06
+Pengembangan iLoan Restruk
+Pengembangan aplikasi iLoan restruk untuk penambahan skema dan fitur baru
+
+07
+Pengembangan Sistem Buyback Asset
+Pengembangan system untuk monitoring portofolio aset debitur yang dilakukan buyback
+
+Tabel Rasio Keuangan Lain
+(entitas induk, dalam %)
+Uraian | 2025 | 2024 | Kenaikan/Penurunan
+Return On Assets (ROA) | 0,89% | 0,83% | 7,23%
+Return On Equity (ROE) | 11,57% | 10,76% | 7,53%
+Net Interest Margin (NIM) | 4,20% | 2,86% | 46,85%
+Beban Operasional terhadap Pendapatan Operasional (BOPO) | 89,04% | 88,70% | 0,38%

@@ -1,0 +1,40 @@
+1. Judul atau keterangan:
+- LIVIN' BY MANDIRI – TERUS BERINOVASI MEMBERIKAN FITUR TERLENGKAP UNTUK BANKING DAN BEYOND BANKING
+- Terus Berinovasi Menjadi yang Terdepan dalam Menyediakan Solusi Perbankan Paling Komprehensif dengan Pengalaman Nasabah Terbaik
+- Fitur Terlengkap untuk Banking dan Beyond Banking
+- Dalam dan Luar Negeri: Menyediakan layanan onboarding secara online untuk Warga Negara Indonesia dan Warga Negara Asing, di dalam dan luar negeri
+- Comprehensive Banking Experience: Menyediakan layanan perbankan yang komprehensif: mulai dari transaksi, pinjaman, hingga investasi.
+- Beyond Banking: .. dan Beyond Banking untuk memberikan pengalaman gaya hidup yang terbaik
+- SEGERA HADIR: Memperluas segmen nasabah, menyasar next generation of customer untuk meningkatkan dana murah
+- Meningkatkan engagement nasabah dan adopsi produk melalui insight keuangan berbasis AI
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Bagian lingkaran diagram Fitur Terlengkap untuk Banking dan Beyond Banking (searah jarum jam dari kiri atas):
+  - MOVE MONEY
+  - BORROW MONEY
+  - GROW MONEY
+  - WHOLESALE BANK
+  - BEYOND BANKING
+  - SERVICE EXCELLENCE
+  - SAVE MONEY
+- Sub-label di dalam diagram:
+  - Transactions
+  - Digital Lending
+  - Investment
+  - Ecosystem
+  - Lifestyle
+  - Operational
+  - Online Outstanding
+  - Domestic & Overseas
+  - livin' pay
+  - livin' paylater
+  - livin' investment
+  - kopra by mandiri
+  - livin'
+  - livin' loan
+  - livin'
+
+3. Angka yang tertera:
+- 18 (dalam "tersedia dalam 18 mata uang" dan "Tersedia di 18 mata uang")
+- 13 (nomor halaman di bagian bawah)
+- 2024 (dalam "LAPORAN TAHUNAN 2024")

@@ -1,0 +1,57 @@
+Uraian 2025 Tanpa Segmen Syariah: 300.755.197
+Uraian 2025 Dengan Segmen Syariah: 49.918.935
+Uraian 2024 Tanpa Segmen Syariah: 273.060.967
+Uraian 2024 Dengan Segmen Syariah: 39.536.826
+Lancar 2025 Tanpa Segmen Syariah: 300.755.197
+Lancar 2025 Dengan Segmen Syariah: 49.918.935
+Lancar 2024 Tanpa Segmen Syariah: 273.060.967
+Lancar 2024 Dengan Segmen Syariah: 39.536.826
+Dalam Perhatian Khusus 2025 Tanpa Segmen Syariah: 34.005.342
+Dalam Perhatian Khusus 2025 Dengan Segmen Syariah: 3.539.306
+Dalam Perhatian Khusus 2024 Tanpa Segmen Syariah: 30.961.727
+Dalam Perhatian Khusus 2024 Dengan Segmen Syariah: 3.095.410
+Non Performing Loan (NPL) 2025 Tanpa Segmen Syariah: 10.942.385
+Non Performing Loan (NPL) 2025 Dengan Segmen Syariah: 1.414.922
+Non Performing Loan (NPL) 2024 Tanpa Segmen Syariah: 10.057.411
+Non Performing Loan (NPL) 2024 Dengan Segmen Syariah: 1.260.591
+Kurang Lancar 2025 Tanpa Segmen Syariah: 334.251
+Kurang Lancar 2025 Dengan Segmen Syariah: 280.091
+Kurang Lancar 2024 Tanpa Segmen Syariah: 605.276
+Kurang Lancar 2024 Dengan Segmen Syariah: 266.796
+Diragukan 2025 Tanpa Segmen Syariah: 650.189
+Diragukan 2025 Dengan Segmen Syariah: 218.665
+Diragukan 2024 Tanpa Segmen Syariah: 1.748.284
+Diragukan 2024 Dengan Segmen Syariah: 191.485
+Macet 2025 Tanpa Segmen Syariah: 9.957.945
+Macet 2025 Dengan Segmen Syariah: 916.166
+Macet 2024 Tanpa Segmen Syariah: 7.703.851
+Macet 2024 Dengan Segmen Syariah: 802.310
+PL 2025 Tanpa Segmen Syariah: 96,83%
+PL 2025 Dengan Segmen Syariah: 97,42%
+PL 2024 Tanpa Segmen Syariah: 96,80%
+PL 2024 Dengan Segmen Syariah: 97,13%
+NPL Gross 2025 Tanpa Segmen Syariah: 3,17%
+NPL Gross 2025 Dengan Segmen Syariah: 2,58%
+NPL Gross 2024 Tanpa Segmen Syariah: 3,20%
+NPL Gross 2024 Dengan Segmen Syariah: 2,87%
+NPL Net 2025 Tanpa Segmen Syariah: 1,85%
+NPL Net 2025 Dengan Segmen Syariah: 0,70%
+NPL Net 2024 Tanpa Segmen Syariah: 1,91%
+NPL Net 2024 Dengan Segmen Syariah: 1,71%
+
+Tabel Hapus Buku Kredit Macet
+(dalam jutaan Rupiah)
+2025 Jumlah Debitur Konvensional: 12.916
+2025 Nilai Hapus Buku (dalam jutaan Rupiah) Konvensional: 3.253.317
+2025 Jumlah Debitur Syariah: 3.149
+2025 Nilai Hapus Buku (dalam jutaan Rupiah) Syariah: 507.579
+2025 Jumlah Debitur Jumlah: 16.065
+2025 Nilai Hapus Buku (dalam jutaan Rupiah) Jumlah: 3.760.896
+2024 Jumlah Debitur Konvensional: 16.761
+2024 Nilai Hapus Buku (dalam jutaan Rupiah) Konvensional: 3.200.092
+2024 Jumlah Debitur Syariah: 2.102
+2024 Nilai Hapus Buku (dalam jutaan Rupiah) Syariah: 281.309
+2024 Jumlah Debitur Jumlah: 18.863
+2024 Nilai Hapus Buku (dalam jutaan Rupiah) Jumlah: 3.481.401
+
+Laporan Tahunan 2025 367

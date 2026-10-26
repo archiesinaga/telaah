@@ -1,0 +1,15 @@
+Grafik Pertumbuhan Kredit dan DPK Perbankan
+Sumbu Y kiri: 2, 4, 6, 8, 10, 12, 14, 16
+Sumbu Y kanan (RHS): 60, 65, 70, 75, 80, 85, 90, 95, 100
+Periode sumbu X: 
+2024: Jan, Feb, Mar, Apr, Mei, Juni, Juli, Agst, Sep, Okt, Nov, Des
+2025: Jan, Feb, Mar, Apr, Mei, Juni, Juli, Agst, Sep, Okt, Nov, Des
+Legenda: LDR (RHS), Kredit, DPK
+
+Angka pada grafik:
+Jan 2024 (Kredit): 11,83
+Jan 2024 (DPK): 5,80
+Jan 2024 (LDR): 83,87
+Des 2025 (Kredit): 9,63
+Des 2025 (DPK): 13,83
+Des 2025 (LDR): 85,35

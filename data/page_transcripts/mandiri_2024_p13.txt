@@ -1,0 +1,71 @@
+1. Judul atau keterangan:
+- Pertumbuhan DPK Bank Mandiri Difokuskan pada Dana Murah ...
+- Ending Balance Kredit Konsolidasi (Rp Tri)
+- YoY: Total 7,73%, Tabungan 13,4%, Giro 3,60%, Deposito 5,54%
+- Des-20, Des-21, Des-22, Des-23, Des-24
+- ... Sehingga Rasio Dana Murah Terjaga di Level Yang Sangat Baik
+- Rasio Dana Murah Konsolidasi
+- Rasio Dana Murah Murah (Bank-Only)
+- 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+- Kredit Pada Semua Segmen Tumbuh Secara Sehat
+- Ending Balance Kredit Konsolidasi (Rp Tn)
+- Total, YoY: 19,5%
+- Des-20, Des-21, Des-22, Des-23, Des-24
+- Perusahaan Anak: 15,2%
+- Consumer: 8,24%
+- Micro: 12,0%
+- SME: 13,2%
+- Commercial: 23,0%
+- Corporate*): 26,7%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: Rp Tri, Rp Tn, %
+- Periode: Des-20, Des-21, Des-22, Des-23, Des-24, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024
+
+3. Angka yang tertera:
+- Ending Balance Kredit Konsolidasi (Rp Tri) atas:
+  - Des-20: 1.145 (atas), 432, 320, 393
+  - Des-21: 1.145 (kiri), 487, 413, 391
+  - Des-22: 1.491, 553, 396, 542
+  - Des-23: 1.577, 587, 585, 405
+  - Des-24: 1.699, 665, 606, 428
+- Total YoY DPK: 7,73%
+- Tabungan YoY: 13,4%
+- Giro YoY: 3,60%
+- Deposito YoY: 5,54%
+- Rasio Dana Murah Konsolidasi:
+  - 2015: 65,6%
+  - 2016: 64,2%
+  - 2017: 66,2%
+  - 2018: 64,1%
+  - 2019: 65,3%
+  - 2020: 65,6%
+  - 2021: 73,4%
+  - 2022: 73,4%
+  - 2023: 74,3%
+  - 2024: 74,4%
+- Rasio Dana Murah Murah (Bank-Only):
+  - 2015: 67,3%
+  - 2016: 66,0%
+  - 2017: 68,4%
+  - 2018: 66,6%
+  - 2019: 67,8%
+  - 2020: 68,5%
+  - 2021: 69,7%
+  - 2022: 74,0%
+  - 2023: 77,6%
+  - 2024: 79,4%, 80,3%
+- Ending Balance Kredit Konsolidasi (Rp Tn) kanan:
+  - Des-20: 965, 201, 86, 121, 55, 158, 343
+  - Des-21: 1.050, 222, 92, 132, 60, 174, 370
+  - Des-22: 1.202, 270, 103, 152, 67, 196, 414
+  - Des-23: 1.398, 312, 113, 168, 77, 238, 490
+  - Des-24: 1.671, 360, 123, 188, 87, 293, 620
+- YoY Kredit:
+  - Total: 19,5%
+  - Perusahaan Anak: 15,2%
+  - Consumer: 8,24%
+  - Micro: 12,0%
+  - SME: 13,2%
+  - Commercial: 23,0%
+  - Corporate*): 26,7%

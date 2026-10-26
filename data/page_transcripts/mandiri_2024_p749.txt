@@ -1,0 +1,26 @@
+1. Judul Tabel:
+Sebagaimana dalam tabel di bawah ini:
+Kolom:
+- Jenis Remunerasi yang Bersifat Variabel
+- Sisa yang Masih Ditangguhkan
+- Total Pengurangan Selama Periode Laporan
+  - Disebabkan Penyesuaian Eksplisit (A)
+  - Disebabkan Penyesuaian Eksplisit (B) [Catatan: label pada gambar tertulis Eksplisit (B)]
+  - Total (A) + (B)
+
+2. Isi Tabel:
+Baris 1 (Tunai (dalam juta rupiah)):
+- Sisa yang Masih Ditangguhkan: Rp71.677.416.064
+- Total Pengurangan Selama Periode Laporan - Disebabkan Penyesuaian Eksplisit (A): -
+- Total Pengurangan Selama Periode Laporan - Disebabkan Penyesuaian Eksplisit (B): -
+- Total Pengurangan Selama Periode Laporan - Total (A) + (B): -
+
+Baris 2 (Saham/Instrumen yang berbasis saham yang diterbitkan Bank. (dalam lembar saham dan nominal juta rupiah yang merupakan konversi dari lembar saham tersebut)):
+- Sisa yang Masih Ditangguhkan: 72.362.400 lembar saham
+- Total Pengurangan Selama Periode Laporan - Disebabkan Penyesuaian Eksplisit (A): -
+- Total Pengurangan Selama Periode Laporan - Disebabkan Penyesuaian Eksplisit (B): -
+- Total Pengurangan Selama Periode Laporan - Total (A) + (B): -
+
+3. Angka Footer:
+- 747
+- LAPORAN TAHUNAN 2024

@@ -1,0 +1,63 @@
+Tabel 1:
+(dalam jutaan rupiah)
+Bank sebagai sponsor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+Bank sebagai investor:
+- Traditional: 42.194
+- Sintetis: -
+- Sub-total: 42.194
+
+Baris kedua:
+Bank sebagai sponsor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+Bank sebagai investor:
+- Traditional: 42.194
+- Sintetis: -
+- Sub-total: 42.194
+
+Baris berikutnya (total 10 baris dengan tanda strip):
+Bank sebagai sponsor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+Bank sebagai investor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+(diulang sebanyak 10 kali baris)
+
+Tabel 2:
+(dalam jutaan rupiah)
+Bank sebagai sponsor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+Bank sebagai investor:
+- Traditional: 68.940
+- Sintetis: -
+- Sub-total: 68.940
+
+Baris kedua:
+Bank sebagai sponsor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+Bank sebagai investor:
+- Traditional: 68.940
+- Sintetis: -
+- Sub-total: 68.940
+
+Baris berikutnya (total 10 baris dengan tanda strip):
+Bank sebagai sponsor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+Bank sebagai investor:
+- Traditional: -
+- Sintetis: -
+- Sub-total: -
+(diulang sebanyak 10 kali baris)

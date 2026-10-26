@@ -1,0 +1,24 @@
+Grafik Peluang Pengembangan Bisnis KPR
+
+Bendera dan angka:
+- Indonesia: 3,0
+- Vietnam: 3,1
+- Filipina: 3,8
+- India: 7,7
+- Brasil: 10,1
+- Thailand: 22,2
+- Tiongkok: 27,9
+- Malaysia: 38,4
+- Singapura: 44,8
+
+Diagram Lingkaran (Pie Chart):
+- Segmen Biru: 28% (KPR Subsidi)
+- Segmen Merah: 38% (KPR Non Subsidi)
+- Segmen Biru Muda: 34% (KPR Non Subsidi Pembeli Langsung)
+
+Keterangan Tambahan:
+- Direct-to-consumer (Persentase BTN: 12%)
+- Developer (Porsi BTN pada 2019: 24%)
+- Segmen subsidi (Porsi BTN: 77%)
+
+Sumber: Corporate Plan BTN 2021-2025

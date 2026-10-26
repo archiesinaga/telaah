@@ -1,0 +1,35 @@
+1. Judul atau keterangan:
+PROSES INTEGRASI LST DALAM PEMBERIAN KREDIT
+
+2. Label, diagram, dan angka yang tertera:
+1:
+- Business Unit + Risk Management Unit
+- PRE-SCREEN
+
+2:
+- Business Unit + Risk Management Unit
+- LOAN ANALYSIS
+
+3:
+- Legal + Compliance
+- LEGAL & COMPLIANCE REVIEW
+
+4:
+- Business Unit + Risk Management
+- RAPAT KOMITE KREDIT
+
+5:
+- Pejabat Berwenang
+- LOAN APPROVAL
+
+6:
+- Business Unit + Risk Management + Credit Operations Unit
+- LOAN DOCUMENTATION
+
+7:
+- Credit Operation Unit
+- DISBURSEMENT
+
+8:
+- Business Unit + Risk Management Unit + Credit Operations Unit
+- LOAN MONITORING
