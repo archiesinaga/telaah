@@ -1003,3 +1003,9 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 2. Then `telaah transcripts-index` and the full dev re-eval: second look, cite repair, year union ON vs OFF (step pool stays OFF); decide the defaults (Opus 5.5 reads). Model: Sonnet 5.5 runs.
 3. Calc, later: see the untried levers in the 23:40 addendum.
 4. User: record the demo video; review test candidates; write 8 test unanswerables; decide test.jsonl / candidates_test.jsonl.
+
+# Update — 2026-10-26 (23:45): handoff
+- Full state is in the 23:10 update and the 23:40 addendum above (commits 7c3561e, f2bab0f). Nothing running; Ollama `serve` was started this session (hidden window) and may still be up.
+- Scratch from today (temp, may be gone): `C:/Users/User/AppData/Local/Temp/claude/C--Users-User-genai-project/ff3d8456-f9f2-42da-8407-99968b86d224/scratchpad/` holds `calc_diag_1026.py/.json`, `pool_check.py`, `union_check.py`, id lists `ids_calc.txt` (53), `ids_calc_fail.txt` (44), `ids_yearsplit.txt` (19). Untracked logs: `eval/bench/eval_calc_*.log`.
+- Runs: baseline `bench-dev-20261026-111017`, step pool `...202751` (53) and `...210306` (44, retry-only), year union `...214017` (53), year union + calc fix `...222633` (19).
+- Next: step 1 of the list above (transcription after 14:00 on 10-27, ask OK first). Model: Sonnet 5.5.
