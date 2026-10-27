@@ -1,0 +1,23 @@
+Tabel Jumlah Rekening Giro Komersial
+(dalam rekening)
+
+Giro Komersial | 2024 | 2023 | Kenaikan/Penurunan Nominal | Kenaikan/Penurunan Persentase
+Giro Non FLPP: 177.030 | 2024: 177.030 | 2023: 143.882 | Nominal: 33.148 | Persentase: 23,04%
+Giro FLPP: 12 | 2024: 12 | 2023: 9 | Nominal: 3 | Persentase: 33,33%
+Jumlah Rekening Dana Giro Komersial: 177.042 | 2024: 177.042 | 2023: 143.891 | Nominal: 33.151 | Persentase: 23,04%
+
+Tabel Jumlah Dana Deposito Berjangka Lembaga
+(dalam jutaan Rupiah)
+
+Deposito Berjangka Lembaga | 2024 | 2023 | Kenaikan/Penurunan Nominal | Kenaikan/Penurunan Persentase
+Deposito Berjangka Lembaga: 119.769.907 | 2024: 119.769.907 | 2023: 109.855.648 | Nominal: 9.914.259 | Persentase: 9,02%
+Deposito On Call Lembaga: 3.818.992 | 2024: 3.818.992 | 2023: 4.469.756 | Nominal: (650.764) | Persentase: (14,56%)
+Jumlah Dana Deposito Berjangka Lembaga: 123.588.899 | 2024: 123.588.899 | 2023: 114.313.404 | Nominal: 9.263.495 | Persentase: 8,10%
+
+Tabel Jumlah Rekening Deposito Berjangka Lembaga
+(dalam rekening)
+
+Deposito Berjangka Lembaga | 2024 | 2023 | Kenaikan/Penurunan Nominal | Kenaikan/Penurunan Persentase
+Deposito Berjangka Lembaga: 13.736 | 2024: 13.736 | 2023: 10.674 | Nominal: 3.062 | Persentase: 28,69%
+Deposito On Call Lembaga: 367 | 2024: 367 | 2023: 207 | Nominal: 160 | Persentase: 77,29%
+Jumlah Rekening Deposito Berjangka Lembaga: 14.103 | 2024: 14.103 | 2023: 10.881 | Nominal: 3.222 | Persentase: 29,61%

@@ -1,0 +1,44 @@
+1. Judul atau keterangan:
+Grafik Pertumbuhan Ekonomi Indonesia sampai dengan Triwulan IV 2024 (% yoy)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X / Periode (Tahun dan Triwulan):
+  - 2019: TW I, TW II, TW III, TW IV
+  - 2020: TW I, TW II, TW III, TW IV
+  - 2021: TW I, TW II, TW III, TW IV
+  - 2022: TW I, TW II, TW III, TW IV
+  - 2023: TW I, TW II, TW III, TW IV
+  - 2024: TW I, TW II, TW III, TW IV
+- Satuan: % yoy
+
+3. Semua angka yang tertera:
+- 2019:
+  - TW I: 5,07%
+  - TW II: 5,07% (tidak terbaca spesifik label titik selain yang pertama, namun garis menunjukkan tingkat serupa, ditulis angka tertera di dekat titik awal: 5,07%)
+  - TW III: 5,07%
+  - TW IV: 5,07%
+- 2020:
+  - TW I: 2,97%
+  - TW II: (5,32%)
+  - TW III: (3,49%)
+  - TW IV: (2,19%)
+- 2021:
+  - TW I: (0,74%)
+  - TW II: 7,07%
+  - TW III: 3,51%
+  - TW IV: 5,02%
+- 2022:
+  - TW I: 5,02%
+  - TW II: 5,72%
+  - TW III: 5,72% (mengikuti titik puncak)
+  - TW IV: 5,72% (mengikuti titik puncak)
+- 2023:
+  - TW I: 5,02%
+  - TW II: 5,02%
+  - TW III: 5,02%
+  - TW IV: 5,02%
+- 2024:
+  - TW I: 5,05%
+  - TW II: 4,95%
+  - TW III: 5,05%
+  - TW IV: 5,02%

@@ -1,0 +1,33 @@
+Tabel 1:
+- Judul: E. Pengembangan Talenta
+- Kolom: 
+  - No: 15
+  - KPI Kolegial 2024: Human Capital Transformation
+  - Bobot (%): 10,00 dan 100,00 (Total)
+  - Bobot Direktorat (%) - Direktur Utama: 15 (Total)
+  - Bobot Direktorat (%) - Wakil Direktur Utama: 15 (Total)
+  - Bobot Direktorat (%) - SME & Retail Funding: 8 (Total)
+  - Bobot Direktorat (%) - Distribution & Institutional Funding: 6 (Total), 9 (Total 2022), 9 (Total 2023)
+  - Bobot Direktorat (%) - SEVP Digital Business: 7 (Total), 9 (Total 2022), 9 (Total 2023)
+  - Bobot Direktorat (%) - Consumer: 10 (Total), 14 (Total 2022), 17 (Total 2023)
+
+Tabel 2:
+- Judul: HASIL PENILAIAN KINERJA DIREKSI
+- Kolom: No., Indikator, Bobot (%), Satuan, Target, Realisasi, Pencapaian (%), Nilai Akhir
+- Baris 1: I., Nilai Ekonomi dan Sosial Untuk Indonesia, Bobot (%): 66,00
+- Baris 2: A., Aspek Finansial, Bobot (%): 36,00
+- Baris 3 (1.): PPOP, Bobot (%): 8,00, Satuan: Rp triliun, Target: 8,35, Realisasi: 5,97, Pencapaian (%): 71,56%, Nilai Akhir: 5,72%
+- Baris 4 (2.): Total Shareholder Return, Bobot (%): 5,00, Satuan: %, Target: 10,02, Realisasi: 9,19, Pencapaian (%): 91,72%, Nilai Akhir: 4,59%
+- Baris 5 (3.): ROE Tier 1, Bobot (%): 7,00, Satuan: %, Target: 13,09, Realisasi: 10,85, Pencapaian (%): 82,86%, Nilai Akhir: 5,80%
+- Baris 6 (4.): CAR, Bobot (%): 6,00, Satuan: %, Target: 18,86, Realisasi: 18,15, Pencapaian (%): 96,25%, Nilai Akhir: 5,78%
+- Baris 7 (5.): Pertumbuhan Rata - Rata Total Deposit, Bobot (%): 5,00, Satuan: %, Target: 12,36, Realisasi: 13,02, Pencapaian (%): 105,34%, Nilai Akhir: 5,27%
+- Baris 8 (6.): Pertumbuhan Rata - Rata Total Loans, Bobot (%): 5,00, Satuan: %, Target: 12,74, Realisasi: 12,54, Pencapaian (%): 98,46%, Nilai Akhir: 4,92%
+- Baris 9: B., Aspek Operasional, Bobot (%): 18,00
+- Baris 10 (7.): Cost of Credit (CoC), Bobot (%): 7,00, Satuan: %, Target: 1,10, Realisasi: 0,60, Pencapaian (%): 110,00%, Nilai Akhir: 7,70%
+- Baris 11 (8.): BOPO, Bobot (%): 5,00, Satuan: %, Target: 87,25, Realisasi: 88,73, Pencapaian (%): 98,31%, Nilai Akhir: 4,92%
+- Baris 12 (9.): Loan at Risk (LaR), Bobot (%): 6,00, Satuan: %, Target: 18,95, Realisasi: 19,65, Pencapaian (%): 96,33%, Nilai Akhir: 5,78%
+- Baris 13: A.3. Aspek Sosial, Bobot (%): 12,00
+- Baris 14 (10.): Realisasi penyaluran KPR Subsidi, Bobot (%): 7,00, Satuan: Rp triliun, Target: 22,90, Realisasi: 24,91, Pencapaian (%): 108,79%, Nilai Akhir: 7,62%
+- Baris 15 (11.): Net Promoter Score (NPS) for Bank, Bobot (%): 5,00, Satuan: Skor, Target: 40,00, Realisasi: 47,70, Pencapaian (%): 110,00%, Nilai Akhir: 5,50%
+- Baris 16: II., Inovasi Model Bisnis, Bobot (%): 8,00
+- Baris 17 (12.): CASA Ratio, Bobot (%): 3,00, Satuan: %, Target: 53,60, Realisasi: 54,09, Pencapaian (%): 100,90%, Nilai Akhir: 3,03%

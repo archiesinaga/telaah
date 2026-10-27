@@ -1,0 +1,86 @@
+Tabel Nilai Produk Konsumen (dalam jutaan Rupiah)
+Produk Konsumen:
+- 2024
+- 2023
+- Kenaikan/Penurunan Nominal
+- Kenaikan/Penurunan %
+
+Produk Kredit Konsumen:
+- 2024: 40.660.578
+- 2023: 42.450.499
+- Kenaikan/Penurunan Nominal: 1.789.923
+- Kenaikan/Penurunan %: (4,22%)
+
+Produk Simpanan Konsumen:
+- 2024: 67.432.408
+- 2023: 63.770.218
+- Kenaikan/Penurunan Nominal: 3.662.190
+- Kenaikan/Penurunan %: 5,74%
+
+Jumlah Nilai Produk Konsumen:
+- 2024: 108.092.986
+- 2023: 106.220.717
+- Kenaikan/Penurunan Nominal: 1.872.269
+- Kenaikan/Penurunan %: 1,76%
+
+Tabel Volume Produk Konsumen
+Produk Konsumen:
+- 2024
+- 2023
+- Kenaikan/Penurunan Nominal
+- Kenaikan/Penurunan Persentase
+
+Produk Kredit Konsumen (unit):
+- 2024: 179.539
+- 2023: 198.986
+- Kenaikan/Penurunan Nominal: (19.447)
+- Kenaikan/Penurunan Persentase: (9,77%)
+
+Produk Simpanan Konsumen (rekening):
+- 2024: 6.232.485
+- 2023: 7.192.402
+- Kenaikan/Penurunan Nominal: (959.917)
+- Kenaikan/Penurunan Persentase: (13,35%)
+
+Tabel Nilai Penyaluran Produk Kredit Konsumen (dalam jutaan Rupiah)
+Kredit Konsumen:
+- 2024
+- 2023
+- Kenaikan/Penurunan Nominal
+- Kenaikan/Penurunan Persentase
+
+Kredit Perumahan:
+- 2024: 37.629.430
+- 2023: 38.674.541
+- Kenaikan/Penurunan Nominal: 1.045.111
+- Kenaikan/Penurunan Persentase: (2,70%)
+
+KPR Subsidi:
+- 2024: 19.451.494
+- 2023: 20.114.296
+- Kenaikan/Penurunan Nominal: 662.802
+- Kenaikan/Penurunan Persentase: (3,30%)
+
+KPR Non Subsidi:
+- 2024: 15.790.588
+- 2023: 16.191.348
+- Kenaikan/Penurunan Nominal: 400.760
+- Kenaikan/Penurunan Persentase: (2,48%)
+
+Kredit Perumahan Lainnya:
+- 2024: 2.387.348
+- 2023: 2.374.553
+- Kenaikan/Penurunan Nominal: 12.795
+- Kenaikan/Penurunan Persentase: 0,54%
+
+Kredit Non Perumahan:
+- 2024: 3.031.148
+- 2023: 3.775.958
+- Kenaikan/Penurunan Nominal: 744.811
+- Kenaikan/Penurunan Persentase: (19,73%)
+
+Jumlah Nilai Penyaluran Kredit Konsumen:
+- 2024: 40.660.578
+- 2023: 42.450.499
+- Kenaikan/Penurunan Nominal: 1.789.923
+- Kenaikan/Penurunan Persentase: (4,22%)

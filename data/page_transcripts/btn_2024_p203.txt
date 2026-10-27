@@ -1,0 +1,13 @@
+Tanggal Transaksi: 11 Februari 2009*, Jatuh Tempo: 10 Januari 2018, Average Life: 5,30, Kupon Kelas A: 13,000%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 10 November 2009*, Jatuh Tempo: 10 Desember 2019, Average Life: 5,63, Kupon Kelas A: 11,000%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 27 Desember 2010*, Jatuh Tempo: 27 September 2019, Average Life: 5,35, Kupon Kelas A: 9,250%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 16 November 2011*, Jatuh Tempo: 27 Februari 2021, Average Life: 5,94, Kupon Kelas A: 8,750%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 12 December 2012*, Jatuh Tempo: 07 Januari 2023, Average Life: 6,35, Kupon Kelas A: 7,750%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 20 Desember 2013*, Jatuh Tempo: 26 Februari 2022, Average Life: 5,57, Kupon Kelas A A1 = 8,90%, A2 = 9,50%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 28 November 2014*, Jatuh Tempo: 07 September 2025, Average Life: 6,72, Kupon Kelas A A1 = 10%, A2 = 10,25%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 27 November 2015, Jatuh Tempo: 07 Maret 2022, Average Life: 3,95, Kupon Kelas A: 8,60%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 31 Oktober 2016, Jatuh Tempo: 27 Juni 2027, Average Life: 7,05, Kupon Kelas A A1 = 8,15%, A2 = 8,75%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 28 April 2017, Jatuh Tempo: 07 Januari 2028, Average Life: 7,78, Kupon Kelas A A1 = 8,00%, A2 = 8,40%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 28 Februari 2018, Jatuh Tempo: 07 Mei 2029, Average Life: 7,03, Kupon Kelas A A1 = 7,00%, A2 = 7,50%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 27 November 2019, Jatuh Tempo: 07 Mei 2032, Average Life: 9,09, Kupon Kelas A A1 = 8,50%, A2 = 8,75%, M = 10,40%, Peringkat Kelas A: idAAA, idA
+Tanggal Transaksi: 30 Desember 2020, Jatuh Tempo: 07 Juli 2032, Average Life: 6,08, Kupon Kelas A: 6,50%, Peringkat Kelas A: idAAA

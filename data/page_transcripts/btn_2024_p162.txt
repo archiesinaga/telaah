@@ -1,0 +1,21 @@
+1. Judul atau keterangan:
+- Hubungan Afiliasi Anggota Dewan Pengawas Syariah
+- Tabel Hubungan Afiliasi Dewan Pengawas Syariah
+- Hubungan Keuangan, Keluarga dan Kepengurusan Komisaris
+- Perubahan Komposisi Anggota Dewan Pengawas Syariah dan Alasan Perubahannya
+- Tabel Komposisi dan Dasar Pengangkatan Dewan Pengawas Syariah
+
+2. Label, legenda, satuan, dan periode:
+- Nama
+- Jabatan
+- Hubungan Keuangan Dengan: Dewan Komisaris (Ya, Tidak), Direksi (Ya, Tidak), Pemegang Saham Pengendali* (Ya, Tidak)
+- Hubungan Keluarga Dengan: Dewan Komisaris (Ya, Tidak), Direksi (Ya, Tidak), Pemegang Saham Pengendali* (Ya, Tidak)
+- Hubungan Kepengurusan: (Ya, Tidak)
+- *Langsung maupun tidak langsung
+- Dasar Pengangkatan
+- Periode
+- Pelaksana Penilaian Kemampuan dan Kepatutan
+- Tanggal Efektif
+
+3. Angka yang tertera:
+TIDAK ADA GRAFIK

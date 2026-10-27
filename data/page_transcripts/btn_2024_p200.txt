@@ -1,0 +1,33 @@
+Profil Perusahaan
+
+Uraian, Tanggal Distribusi Obligasi secara Elektronik, Tenor (Tahun), Mata Uang, Jumlah Obligasi (Jutaan), Harga Penawaran
+
+Obligasi Berkelanjutan III Bank BTN Tahap II Tahun 2019 Seri A: Tanggal Distribusi: 28 Juni 2019, Tenor: 370 Hari, Mata Uang: Rp, Jumlah Obligasi: 1.756.500, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan III Bank BTN Tahap II Tahun 2019 Seri B: Tanggal Distribusi: 28 Juni 2019, Tenor: 3, Mata Uang: Rp, Jumlah Obligasi: 1.168.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan III Bank BTN Tahap II Tahun 2019 Seri C: Tanggal Distribusi: 28 Juni 2019, Tenor: 5, Mata Uang: Rp, Jumlah Obligasi: 1.219.500, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Junior Global Bond Bank BTN: Tanggal Distribusi: 23 Januari 2020, Tenor: 5, Mata Uang: USD, Jumlah Obligasi: 300, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan IV Bank BTN Tahap I Tahun 2020 Seri A: Tanggal Distribusi: 19 Agustus 2020, Tenor: 370 (hari), Mata Uang: Rp, Jumlah Obligasi: 577.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan IV Bank BTN Tahap I Tahun 2020 Seri B: Tanggal Distribusi: 19 Agustus 2020, Tenor: 3, Mata Uang: Rp, Jumlah Obligasi: 727.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan IV Bank BTN Tahap I Tahun 2020 Seri C: Tanggal Distribusi: 19 Agustus 2020, Tenor: 5, Mata Uang: Rp, Jumlah Obligasi: 196.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan IV Bank BTN Tahap II Tahun 2022 seri A: Tanggal Distribusi: 24 Mei 2022, Tenor: 3, Mata Uang: Rp, Jumlah Obligasi: 600.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Obligasi Berkelanjutan IV Bank BTN Tahap II Tahun 2022 seri B: Tanggal Distribusi: 24 Mei 2022, Tenor: 5, Mata Uang: Rp, Jumlah Obligasi: 400.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Kronologi Penerbitan Sukuk
+
+Tabel Kronologi Penerbitan Sukuk BTN
+
+Uraian, Tanggal Distribusi Sukuk secara Elektronik, Tenor (bulan), Mata Uang, Jumlah Sukuk (Jutaan Rp)
+
+Sukuk BTN I Tahun 2023 Tahap I: Tanggal Distribusi: 28 Juli 2023, Tenor: 159, Mata Uang: Rp, Jumlah Sukuk: 92.553
+
+Sukuk BTN I Tahun 2023 Tahap II: Tanggal Distribusi: 27 Desember 2023, Tenor: 156, Mata Uang: Rp, Jumlah Sukuk: 175.039
+
+198 PT Bank Tabungan Negara (Persero) Tbk

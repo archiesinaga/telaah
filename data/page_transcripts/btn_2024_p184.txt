@@ -1,0 +1,39 @@
+Tabel 1:
+Judul: Tabel Jumlah Pegawai Berdasarkan Jenis Kelamin
+Satuan: (dalam satuan orang)
+Periode: 2024, 2023
+- Pria, 2024: 6.560
+- Pria, 2023: 6.288
+- Wanita, 2024: 6.287
+- Wanita, 2023: 5.757
+- Jumlah, 2024: 12.847
+- Jumlah, 2023: 12.045
+
+Tabel 2:
+Judul: Tabel Jumlah Pegawai Berdasarkan Jabatan
+Satuan: (dalam satuan orang)
+Periode: 2024, 2023
+- Level 22, 2024 Pria: 2
+- Level 22, 2024 Wanita: 1
+- Level 22, 2024 Total: 3
+- Level 22, 2023 Pria: 2
+- Level 22, 2023 Wanita: -
+- Level 22, 2023 Total: 2
+- Level 19-21, 2024 Pria: 114
+- Level 19-21, 2024 Wanita: 26
+- Level 19-21, 2024 Total: 140
+- Level 19-21, 2023 Pria: 134
+- Level 19-21, 2023 Wanita: 24
+- Level 19-21, 2023 Total: 158
+- Level 15-18, 2024 Pria: 1.119
+- Level 15-18, 2024 Wanita: 409
+- Level 15-18, 2024 Total: 1.528
+- Level 15-18, 2023 Pria: 1.061
+- Level 15-18, 2023 Wanita: 376
+- Level 15-18, 2023 Total: 1.437
+- Level 13-14, 2024 Pria: 1.718
+- Level 13-14, 2024 Wanita: 1.215
+- Level 13-14, 2024 Total: 2.933
+- Level 13-14, 2023 Pria: 1.762
+- Level 13-14, 2023 Wanita: 1.149
+- Level 13-14, 2023 Total: 2.911

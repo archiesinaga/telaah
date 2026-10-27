@@ -1,0 +1,27 @@
+Tabel Liquidity Coverage Ratio (LCR) (dalam %)
+Periode 2024:
+- Bank Secara Individu, Triwulan I: 225,00%
+- Bank Secara Individu, Triwulan II: 193,95%
+- Bank Secara Individu, Triwulan III: 202,35%
+- Bank Secara Individu, Triwulan IV: 191,17%
+
+Periode 2023:
+- Bank Secara Individu, Triwulan I: 247,26%
+- Bank Secara Individu, Triwulan II: 204,17%
+- Bank Secara Individu, Triwulan III: 171,38%
+- Bank Secara Individu, Triwulan IV: 190,24%
+
+Tabel Net Stable Funding Ratio (NSFR) (dalam jutaan Rupiah)
+Tahun 2023:
+- Total Pendanaan Stabil yang Tersedia (ASF), Triwulan I: 240.501.381
+- Total Pendanaan Stabil yang Tersedia (ASF), Triwulan II: 237.859.803
+- Total Pendanaan Stabil yang Tersedia (ASF), Triwulan III: 240.729.276
+- Total Pendanaan Stabil yang Tersedia (ASF), Triwulan IV: 241.948.844
+- Total Pendanaan Stabil yang Diperlukan (RSF), Triwulan I: 185.657.280
+- Total Pendanaan Stabil yang Diperlukan (RSF), Triwulan II: 191.171.173
+- Total Pendanaan Stabil yang Diperlukan (RSF), Triwulan III: 194.996.110
+- Total Pendanaan Stabil yang Diperlukan (RSF), Triwulan IV: 197.105.438
+- NSFR (%), Triwulan I: 129,54%
+- NSFR (%), Triwulan II: 124,42%
+- NSFR (%), Triwulan III: 123,45%
+- NSFR (%), Triwulan IV: 122,75%

@@ -1,0 +1,47 @@
+Deposito Berjangka
+
+Kolom:
+- Deposito Berjangka
+- 2024
+- 2023
+- Kenaikan/Penurunan (Nominal)
+- Kenaikan/Penurunan (Persentase)
+
+Baris E-DEPO:
+1 Bulan: 2024: 2.044.796, 2023: 1.001.338, Nominal: 1.043.458, Persentase: 104,21%
+2 Bulan: 2024: 246.524, 2023: 223.584, Nominal: 22.940, Persentase: 10,26%
+3 Bulan: 2024: 1.352.132, 2023: 597.071, Nominal: 755.061, Persentase: 126,46
+4 Bulan: 2024: 67.863, 2023: 17.026, Nominal: 50.836, Persentase: 298,57%
+6 Bulan: 2024: 132.663, 2023: 210.461, Nominal: (77.798), Persentase: (36,97%)
+12 Bulan: 2024: 35, 2023: -, Nominal: 35, Persentase: -
+Deposito On Call: 2024: 29.732.484, 2023: 26.724.483, Nominal: 3.008.001, Persentase: 11,26%
+DHE: 2024: 35, 2023: -, Nominal: 35, Persentase: -
+Jumlah Dana Deposito Berjangka: 2024: 29.732.484, 2023: 26.724.483, Nominal: 3.008.001, Persentase: 11,26%
+
+Tabel Jumlah Rekening Deposito Berjangka (rekening)
+
+Kolom:
+- Deposito Berjangka
+- 2024
+- 2023
+- Kenaikan/Penurunan (Nominal)
+- Kenaikan/Penurunan (Persentase)
+
+Baris DEPOSITO ON BILYET:
+1 bulan: 2024: 35.642, 2023: 43.687, Nominal: (8.045), Persentase: (18,42%)
+2 bulan: 2024: 1.607, 2023: 1.273, Nominal: 334, Persentase: 26,24%
+3 bulan: 2024: 19.641, 2023: 22.970, Nominal: (3.329), Persentase: (14,49%)
+4 Bulan: 2024: 193, 2023: 203, Nominal: (10), Persentase: (4,93%)
+6 bulan: 2024: 7.396, 2023: 8.634, Nominal: (1.238), Persentase: (14,34%)
+> 12 bulan: 2024: 2.556, 2023: 2.839, Nominal: (283), Persentase: (9,97%)
+
+Baris E-DEPO:
+1 Bulan: 2024: 9.208, 2023: 5.599, Nominal: 3.609, Persentase: 64,46%
+2 Bulan: 2024: 888, 2023: 479, Nominal: 409, Persentase: 85,39%
+3 Bulan: 2024: 9.522, 2023: 4.340, Nominal: 5.182, Persentase: 119,40%
+4 Bulan: 2024: 889, 2023: 559, Nominal: 330, Persentase: 59,03%
+6 Bulan: 2024: 4.531, 2023: 1.772, Nominal: 2.759, Persentase: -
+12 Bulan: 2024: 917, 2023: 296, Nominal: 621, Persentase: 209,80%
+Deposito On Call: 2024: 26, 2023: 14, Nominal: 12, Persentase: 85,71%
+DHE: 2024: 1, 2023: -, Nominal: 1, Persentase: -
+Jumlah Rekening Deposito Berjangka: 2024: 93.017, 2023: 92.665, Nominal: 352, Persentase: 0,38%

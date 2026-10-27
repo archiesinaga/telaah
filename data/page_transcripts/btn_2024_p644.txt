@@ -1,0 +1,10 @@
+1. Judul: Alur Permintaan Informasi
+- Label/Periode/Angka:
+  - PPID memeriksa kelengkapan dokumen (3 hari)
+  - Permohonan melengkapi (3 hari hari)
+  - Permohonan tidak melengkapi (3 hari hari)
+  - Pemberitahuan tertulis (10 hari kerja) + dapat diperpanjang (7 hari kerja)
+
+2. Judul: Alur Pengajuan Keberatan Permintaan informasi
+- Label/Periode/Angka:
+  - Atasan PPID memberikan tanggapan tertulis (30 hari kerja)

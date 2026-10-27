@@ -1,0 +1,36 @@
+1. Judul Grafik:
+Grafik Kinerja Segmen Konvensional (dalam triliun Rupiah)
+
+2. Label Sumbu, Legenda, Satuan, dan Periode:
+- Satuan: Triliun Rupiah
+- Legenda:
+  - 2023 (warna biru muda)
+  - 2024 (warna biru tua)
+- Bagian Kiri (PRODUK KONSUMER):
+  - Sumbu Y: 0,00 hingga 80,00
+  - Kategori X: Kredit Konsumen, Simpanan Konsumen
+- Bagian Tengah (PRODUK KOMERSIAL):
+  - Sumbu Y: 0,00 hingga 300,00
+  - Kategori X: Kredit Komersial, Simpanan Komersial
+- Bagian Kanan (JUMLAH NILAI PRODUK SEGMEN KONVENSIONAL):
+  - Sumbu Y: 0,00 hingga 300,00
+  - Kategori X: Jumlah Nilai Produk Konsumen, Jumlah Nilai Produk Komersial
+
+3. Semua Angka yang Tertera:
+- PRODUK KONSUMER:
+  - Kredit Konsumen - 2023: 42,45
+  - Kredit Konsumen - 2024: 40,21
+  - Simpanan Konsumen - 2023: 63,77
+  - Simpanan Konsumen - 2024: 67,43
+
+- PRODUK KOMERSIAL:
+  - Kredit Komersial - 2023: 42,96
+  - Kredit Komersial - 2024: 38,28
+  - Simpanan Komersial - 2023: 243,69
+  - Simpanan Komersial - 2024: 264,79
+
+- JUMLAH NILAI PRODUK SEGMEN KONVENSIONAL:
+  - Jumlah Nilai Produk Konsumen - 2023: 106,22
+  - Jumlah Nilai Produk Konsumen - 2024: 107,64
+  - Jumlah Nilai Produk Komersial - 2023: 286,66
+  - Jumlah Nilai Produk Komersial - 2024: 303,07

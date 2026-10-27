@@ -1,0 +1,117 @@
+Kepemilikan Saham Dewan Komisaris Sebesar 5% atau Lebih
+
+Tabel: Kepemilikan Saham Dewan Komisaris Sebesar 5% atau Lebih
+Kolom 1: Nama
+Kolom 2: Jabatan
+Kolom 3: Kepemilikan Saham (lembar) - BTN
+Kolom 4: Kepemilikan Saham (lembar) - Bank Lain
+Kolom 5: Kepemilikan Saham (lembar) - Lembaga Keuangan Non-Bank
+Kolom 6: Kepemilikan Saham (lembar) - Perusahaan Lain
+
+Baris 1:
+- Nama: Chandra M. Hamzah
+- Jabatan: Komisaris Utama/Independen
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 2:
+- Nama: Iqbal Latanro
+- Jabatan: Wakil Komisaris Utama/Independen
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 3:
+- Nama: Armand B. Arief
+- Jabatan: Komisaris Independen
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 4:
+- Nama: Sentot A. Sentausa
+- Jabatan: Komisaris Independen
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 5:
+- Nama: Adi Sulistyowati*
+- Jabatan: Komisaris Independen
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 6:
+- Nama: Bambang Widjanarko*
+- Jabatan: Komisaris Independen
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 7:
+- Nama: Andin Hadiyanto
+- Jabatan: Komisaris
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 8:
+- Nama: Herry Trisaputra Zuna
+- Jabatan: Komisaris
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 9:
+- Nama: Himawan Arief Sugoto
+- Jabatan: Komisaris
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Baris 10:
+- Nama: Mohamad Yusuf Permana**
+- Jabatan: Komisaris
+- BTN: Nihil
+- Bank Lain: Nihil
+- Lembaga Keuangan Non-Bank: Nihil
+- Perusahaan Lain: Nihil
+
+Transaksi Kepemilikan Saham Direksi dan Dewan Komisaris
+
+Tabel: Transaksi Kepemilikan Saham Direksi dan Dewan Komisaris selama tahun 2024
+Kolom 1: No.
+Kolom 2: Nama
+Kolom 3: Kategori
+Kolom 4: Tanggal Transaksi
+Kolom 5: Jumlah Saham dan Persentase Kepemilikan Saham - Sebelum transaksi
+Kolom 6: Jumlah Saham dan Persentase Kepemilikan Saham - Setelah transaksi
+Kolom 7: Jumlah Saham yang Dibeli
+Kolom 8: Harga Pembelian per Saham
+Kolom 9: Status Kepemilikan
+Kolom 10: Tujuan Transaksi
+
+Baris 1:
+- No.: 1.
+- Nama: Nixon L.P. Napitupulu
+- Kategori: Direksi
+- Tanggal Transaksi: 24 April 2024
+- Sebelum transaksi: 4.250.500
+- Setelah transaksi: 5.399.000
+- Jumlah Saham yang Dibeli: 1.148.500
+- Harga Pembelian per Saham: Rp1.382,-
+- Status Kepemilikan: Langsung
+- Tujuan Transaksi: Pemenuhan Peraturan Otoritas Jasa Keuangan Nomor 45/POJK.03/2015 tanggal 23 Desember 2015 tentang Penerapan Tata Kelola Dalam Pemberian Remunerasi Bagi Bank Umum
+
+586 | PT Bank Tabungan Negara (Persero) Tbk

@@ -1,0 +1,41 @@
+Laporan Tahunan 2024
+btn
+
+Jenis Produk | Strata Saldo | Suku Bunga
+
+Tabungan SiMuda RumahKu:
+- ≤ 1 juta - Rp10 juta: 1,00%
+- > Rp10 juta - Rp25 juta: 1,15%
+- > Rp25 juta - Rp50 juta: 1,25%
+- > Rp50 juta - Rp100 juta: 1,35%
+- > Rp100 juta - Rp250 juta: 1,50%
+- > Rp250 juta: 2,00%
+
+Tabungan BTN Siap!:
+- < Rp1 juta - Rp10 juta: 1,00%
+- > Rp10 juta - Rp25 juta: 1,15%
+- > Rp25 juta - Rp50 juta: 1,25%
+- > Rp50 juta - Rp100 juta: 1,35%
+- > Rp100 juta - Rp250 juta: 1,50%
+- > Rp250 juta: 2,00%
+
+Tabungan BTN e'BataraPos:
+- < Rp1 juta: 0,00%
+- ≥ Rp1 juta - Rp50 juta: 0,10%
+- > Rp50 juta - Rp500 juta: 0,10%
+- > Rp500 juta - Rp1 miliar: 0,50%
+- > Rp1 miliar: 1,00%
+
+Tabanas Batara Kantor Pos: 0,00%
+
+Tabel Suku Bunga Giro Rupiah
+
+Jenis Produk | Strata Saldo | Suku Bunga
+
+Giro Rupiah:
+- ≤ Rp10 juta: 0,00%
+- > Rp10 juta - Rp100 juta: 0,25%
+- > Rp100 juta - Rp500 juta: 0,75%
+- > Rp500 juta: 1,00%
+
+PT Bank Tabungan Negara (Persero) Tbk | 323

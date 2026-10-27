@@ -1,0 +1,22 @@
+C. Komite Kredit C2
+- Anggota Tetap
+Fungsi Risiko: Jabatan: Kepala Unit Kerja Kredit Komersial pada Commercial Banking Center, Voting Rights: ✓
+Fungsi Bisnis: Jabatan: Kepala Unit Kerja Risiko Kredit Komersial pada Commercial Banking Center, Voting Rights: ✓
+
+- Anggota Tidak Tetap
+No.: 1, Anggota Tidak Tetap: Manajer Unit Kerja Kredit Komersial pada Commercial Banking Center, Voting Rights: x
+No.: 2, Anggota Tidak Tetap: Manajer Unit Kerja Risiko Kredit Komersial pada Commercial Banking Center, Voting Rights: x
+No.: 3, Anggota Tidak Tetap: Legal Checklist *), Voting Rights: x
+No.: 4, Anggota Tidak Tetap: Compliance Checklist *), Voting Rights: x
+
+D. Komite Kredit D
+- Anggota Tetap
+Fungsi Risiko: Jabatan: Kepala Unit Kerja Risiko Kredit SME/Pembiayaan di Kantor Cabang/Kantor Cabang Syariah, Voting Rights: ✓
+Fungsi Bisnis: Jabatan: Kepala Cabang atau Kepala Cabang Syariah, Voting Rights: ✓
+
+- Anggota Tidak Tetap
+No.: 1, Anggota Tidak Tetap: Kepala Unit Kerja Kredit SME di Kantor Cabang, Voting Rights: x
+No.: 2, Anggota Tidak Tetap: Kepala Unit Kerja Pembiayaan Komersial di Kantor Cabang Syariah, Voting Rights: x
+No.: 3, Anggota Tidak Tetap: Kepala Unit Kerja Kredit Komersial pada Commercial Banking Center, Voting Rights: x
+No.: 4, Anggota Tidak Tetap: Legal Checklist *), Voting Rights: x
+No.: 5, Anggota Tidak Tetap: Compliance Checklist *), Voting Rights: x

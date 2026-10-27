@@ -1,0 +1,53 @@
+Tabel 1:
+1. Judul atau keterangan: Jumlah fraud yang dilakukan (Internal), Internal Fraud dalam 1 Tahun
+2. Label sumbu, legenda, satuan, dan periode: 
+   - Kolom 1: Internal Fraud dalam 1 Tahun
+   - Kolom 2-3: Anggota Dewan Komisaris dan Anggota Direksi (Tahun Sebelumnya (2023), Tahun Berjalan (2024))
+   - Kolom 4-5: Pegawai Tetap (Tahun Sebelumnya (2023), Tahun Berjalan (2024))
+   - Kolom 6-7: Pegawai Tidak Tetap (Tahun Sebelumnya (2023), Tahun Berjalan (2024))
+   - Baris: Total Fraud, Telah Diselesaikan, Dalam Proses Penyelesaian di Internal Bank, Belum Diupayakan Penyelesaian, Telah Ditindaklanjuti Melalui Proses Hukum
+3. Semua angka yang tertera:
+   - Total Fraud - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Sebelumnya (2023): -
+   - Total Fraud - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Berjalan (2024): -
+   - Total Fraud - Pegawai Tetap - Tahun Sebelumnya (2023): 1
+   - Total Fraud - Pegawai Tetap - Tahun Berjalan (2024): 4
+   - Total Fraud - Pegawai Tidak Tetap - Tahun Sebelumnya (2023): -
+   - Total Fraud - Pegawai Tidak Tetap - Tahun Berjalan (2024): -
+   - Telah Diselesaikan - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Sebelumnya (2023): -
+   - Telah Diselesaikan - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Berjalan (2024): -
+   - Telah Diselesaikan - Pegawai Tetap - Tahun Sebelumnya (2023): 1
+   - Telah Diselesaikan - Pegawai Tetap - Tahun Berjalan (2024): 4
+   - Telah Diselesaikan - Pegawai Tidak Tetap - Tahun Sebelumnya (2023): -
+   - Telah Diselesaikan - Pegawai Tidak Tetap - Tahun Berjalan (2024): -
+   - Dalam Proses Penyelesaian di Internal Bank - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Sebelumnya (2023): -
+   - Dalam Proses Penyelesaian di Internal Bank - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Berjalan (2024): -
+   - Dalam Proses Penyelesaian di Internal Bank - Pegawai Tetap - Tahun Sebelumnya (2023): -
+   - Dalam Proses Penyelesaian di Internal Bank - Pegawai Tetap - Tahun Berjalan (2024): 0
+   - Dalam Proses Penyelesaian di Internal Bank - Pegawai Tidak Tetap - Tahun Sebelumnya (2023): -
+   - Dalam Proses Penyelesaian di Internal Bank - Pegawai Tidak Tetap - Tahun Berjalan (2024): -
+   - Belum Diupayakan Penyelesaian - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Sebelumnya (2023): -
+   - Belum Diupayakan Penyelesaian - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Berjalan (2024): -
+   - Belum Diupayakan Penyelesaian - Pegawai Tetap - Tahun Sebelumnya (2023): -
+   - Belum Diupayakan Penyelesaian - Pegawai Tetap - Tahun Berjalan (2024): 0
+   - Belum Diupayakan Penyelesaian - Pegawai Tidak Tetap - Tahun Sebelumnya (2023): -
+   - Belum Diupayakan Penyelesaian - Pegawai Tidak Tetap - Tahun Berjalan (2024): -
+   - Telah Ditindaklanjuti Melalui Proses Hukum - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Sebelumnya (2023): -
+   - Telah Ditindaklanjuti Melalui Proses Hukum - Anggota Dewan Komisaris dan Anggota Direksi - Tahun Berjalan (2024): -
+   - Telah Ditindaklanjuti Melalui Proses Hukum - Pegawai Tetap - Tahun Sebelumnya (2023): -
+   - Telah Ditindaklanjuti Melalui Proses Hukum - Pegawai Tetap - Tahun Berjalan (2024): 0
+   - Telah Ditindaklanjuti Melalui Proses Hukum - Pegawai Tidak Tetap - Tahun Sebelumnya (2023): -
+   - Telah Ditindaklanjuti Melalui Proses Hukum - Pegawai Tidak Tetap - Tahun Berjalan (2024): -
+
+Tabel 2:
+1. Judul atau keterangan: Permasalahan Hukum
+2. Label sumbu, legenda, satuan, dan periode:
+   - Kolom 1: Permasalahan Hukum
+   - Kolom 2: Jumlah (Perdata, Pidana)
+   - Baris: Telah selesai (telah mempunyai kekuatan hukum tetap), Dalam proses penyelesaian, Total
+3. Semua angka yang tertera:
+   - Telah selesai (telah mempunyai kekuatan hukum tetap) - Perdata: 7
+   - Telah selesai (telah mempunyai kekuatan hukum tetap) - Pidana: 1
+   - Dalam proses penyelesaian - Perdata: 13
+   - Dalam proses penyelesaian - Pidana: 2
+   - Total - Perdata: 20
+   - Total - Pidana: 3

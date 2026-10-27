@@ -1,0 +1,79 @@
+Tabel Obligasi BTN:
+- Uraian: Obligasi Berkelanjutan II Bank BTN Tahap I Tahun 2015 Seri D
+Tanggal Distribusi Obligasi Secara Elektronik: 8 Juli 2015
+Tenor (Tahun): 10
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 800.000
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Obligasi Berkelanjutan III Bank BTN Tahap I Tahun 2017 Seri C
+Tanggal Distribusi Obligasi Secara Elektronik: 13 Juli 2017
+Tenor (Tahun): 7
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 853.000
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Obligasi Berkelanjutan III Bank BTN Tahap I Tahun 2017 Seri D
+Tanggal Distribusi Obligasi Secara Elektronik: 13 Juli 2017
+Tenor (Tahun): 10
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 1.386.000
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Obligasi Berkelanjutan III Bank BTN Tahap II Tahun 2019 Seri C
+Tanggal Distribusi Obligasi Secara Elektronik: 28 Juni 2019
+Tenor (Tahun): 5
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 1.219.500
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Junior Global Bond Bank BTN
+Tanggal Distribusi Obligasi Secara Elektronik: 23 Januari 2020
+Tenor (Tahun): 5
+Mata Uang: USD
+Jumlah Obligasi (Jutaan): 300
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Obligasi Berkelanjutan IV Bank BTN Tahap I Tahun 2020 Seri C
+Tanggal Distribusi Obligasi Secara Elektronik: 19 Agustus 2020
+Tenor (Tahun): 5
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 196.000
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Obligasi Berkelanjutan IV Bank BTN Tahap II Tahun 2022 seri A
+Tanggal Distribusi Obligasi Secara Elektronik: 24 Mei 2022
+Tenor (Tahun): 3
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 600.000
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+- Uraian: Obligasi Berkelanjutan IV Bank BTN Tahap II Tahun 2022 seri B
+Tanggal Distribusi Obligasi Secara Elektronik: 24 Mei 2022
+Tenor (Tahun): 5
+Mata Uang: Rp
+Jumlah Obligasi (Jutaan): 400.000
+Harga Penawaran: 100% dari jumlah pokok Obligasi
+
+Tabel Sukuk BTN:
+- Uraian: Sukuk BTN I Tahun 2023 Tahap I
+Tanggal Distribusi Sukuk secara Elektronik: 28 Juli 2023
+Tenor (Tahun): 159
+Mata Uang: Rp
+Jumlah Sukuk (Jutaan): 92.553
+Tanggal Jatuh Tempo: 28 Oktober 2036
+Tingkat Nisbah: 11,00% dari Pendapatan yang dibagihasilkan dengan indikasi bagi hasil sebesar ekuivalen 0,55% per tahun.
+Status Pembayaran: Belum Jatuh Tempo
+Keterangan: Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum.
+
+- Uraian: Sukuk BTN I Tahun 2023 Tahap II
+Tanggal Distribusi Sukuk secara Elektronik: 27 Desember 2023
+Tenor (Tahun): 156
+Mata Uang: Rp
+Jumlah Sukuk (Jutaan): 175.039
+Tanggal Jatuh Tempo: 27 Desember 2036
+Tingkat Nisbah: 27,40% dari Pendapatan yang dibagihasilkan dengan indikasi bagi hasil sebesar ekuivalen 1,37% per tahun.
+Status Pembayaran: Belum Jatuh Tempo
+Keterangan: Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum.
+
+Nomor Halaman: 30

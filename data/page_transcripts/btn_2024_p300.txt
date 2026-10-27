@@ -1,0 +1,37 @@
+Tabel Pendapatan dan Profitabilitas Segmen Usaha
+Periode: 2024
+Satuan: tidak terbaca
+
+Uraian, Konvensional, Syariah, Eliminasi, Total
+Pendapatan segmen, Konvensional: 25.472.625, Syariah: 4.068.967, Eliminasi: -, Total: 29.541.592
+Beban segmen, Konvensional: (16.113.935), Syariah: (1.935.005), Eliminasi: -, Total: (18.048.940)
+Pendapatan segmen-neto, Konvensional: 9.358.690, Syariah: 2.133.962, Eliminasi: -, Total: 11.492.652
+Pendapatan operasional lainnya, Konvensional: 4.760.640, Syariah: 151.115, Eliminasi: (335.836), Total: 4.575.919
+Penyisihan kerugian penurunan nilai aset keuangan dan non-aset keuangan, Konvensional: (1.853.801), Syariah: (127.694), Eliminasi: -, Total: (1.981.495)
+Pembalikkan penyisihan estimasi kerugian komitmen dan kontijensi-bersih, Konvensional: 195, Syariah: -, Eliminasi: -, Total: 195
+Beban operasional lainnya, Konvensional: (9.313.293), Syariah: (1.285.101), Eliminasi: 335.836, Total: (10.262.558)
+Laba operasional, Konvensional: 2.952.431, Syariah: 872.282, Eliminasi: -, Total: 3.824.713
+Pendapatan (beban) bukan operasional-neto, Konvensional: (51.993), Syariah: 121, Eliminasi: -, Total: (51.872)
+Beban pajak, Konvensional: , Syariah: , Eliminasi: , Total: (765.513)
+Laba tahun berjalan, Konvensional: , Syariah: , Eliminasi: , Total: 3.007.328
+Total aset, Konvensional: 416.184.631, Syariah: 60.560.957, Eliminasi: (7.131.086), Total: 469.614.502
+Total liabilitas dan dana syirkah temporer, Konvensional: 384.480.961, Syariah: 59.692.738, Eliminasi: (7.131.086), Total: 437.042.613
+
+Tabel Pertumbuhan Pendapatan dan Profitabilitas Segmen Usaha
+Periode: Pertumbuhan Nominal 2023-2024
+Satuan: tidak terbaca
+
+Uraian, Konvensional, Syariah, Eliminasi, Total
+Pendapatan segmen, Konvensional: 750.096, Syariah: 510.244, Eliminasi: -, Total: 1.260.340
+Beban segmen, Konvensional: (2.707.510), Syariah: (490.468), Eliminasi: -, Total: (3.197.978)
+Pendapatan segmen-neto, Konvensional: (1.957.414), Syariah: 19.776, Eliminasi: -, Total: (1.937.638)
+Pendapatan operasional lainnya, Konvensional: 598.798, Syariah: (3.856), Eliminasi: 89.830, Total: 684.772
+Penyisihan kerugian penurunan nilai aset keuangan dan non-aset keuangan, Konvensional: 1.799.867, Syariah: (15.965), Eliminasi: -, Total: 1.783.902
+Pembalikkan penyisihan estimasi kerugian komitmen dan kontijensi-bersih, Konvensional: (944), Syariah: -, Eliminasi: -, Total: (944)
+Beban operasional lainnya, Konvensional: (1.325.179), Syariah: 169.901, Eliminasi: (89.830), Total: (1.245.108)
+Laba operasional, Konvensional: (884.872), Syariah: 169.856, Eliminasi: -, Total: (715.016)
+Pendapatan (beban) bukan operasional-neto, Konvensional: 107.435, Syariah: 212, Eliminasi: -, Total: 107.647
+Beban pajak, Konvensional: , Syariah: , Eliminasi: , Total: 113.709
+Laba tahun berjalan, Konvensional: , Syariah: , Eliminasi: , Total: (493.660)
+Total aset, Konvensional: 23.330.346, Syariah: 6.272.248, Eliminasi: 1.262.172, Total: 30.864.766
+Total liabilitas dan dana syirkah temporer, Konvensional: 21.398.634, Syariah: 6.111.223, Eliminasi: 1.262.172, Total: 28.772.029

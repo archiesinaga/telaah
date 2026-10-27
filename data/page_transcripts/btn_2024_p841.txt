@@ -1,0 +1,21 @@
+1. Judul atau keterangan:
+- Program Pelatihan Developer Muda di Surabaya
+- Program Pelatihan Developer Muda di Pekanbaru
+- 1. Pelatihan Developer Muda | TPB 4 | Pekanbaru dan Surabaya. | Pemberian pelatihan dan pengenalan mengenai properti dan kepada mahasiswa dan umum. | 400 peserta
+
+2. Label sumbu, legenda, satuan, dan periode:
+- 2022
+- 2023
+- 2024
+- Laporan Tahunan 2024
+- PT Bank Tabungan Negara (Persero) Tbk | 839
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1.: 1.
+- 4: TPB 4
+- 400: 400 peserta
+- 2022: 2022
+- 2023: 2023
+- 2024: 2024
+- 2024: Laporan Tahunan 2024
+- 839: 839

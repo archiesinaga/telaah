@@ -1,0 +1,57 @@
+1. Judul atau keterangan:
+- Jumlah Aset
+- tahun 2024 sebesar
+- meningkat 7,03% dari tahun 2023
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Periode: tahun 2024, tahun 2023
+
+3. Semua angka yang tertera:
+- Rp469,61 triliun
+- 7,03%
+
+---
+
+1. Judul atau keterangan:
+- Simpanan Konsumen
+- tahun 2024 sebesar
+- meningkat 4,64% dari tahun 2023
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Periode: tahun 2024, tahun 2023
+
+3. Semua angka yang tertera:
+- Rp67,43 triliun
+- 4,64%
+
+---
+
+1. Judul atau keterangan:
+- Produk Konsumer
+- tahun 2024 sebesar
+- meningkat 1,34% dari tahun 2023
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Periode: tahun 2024, tahun 2023
+
+3. Semua angka yang tertera:
+- Rp107,64 triliun
+- 1,34%
+
+---
+
+1. Judul atau keterangan:
+- Produk Komersial
+- tahun 2024 sebesar
+- meningkat 5,73% dari tahun 2023
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan: triliun, %
+- Periode: tahun 2024, tahun 2023
+
+3. Semua angka yang tertera:
+- Rp303,07 triliun
+- 5,73%

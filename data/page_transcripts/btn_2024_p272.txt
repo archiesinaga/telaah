@@ -1,0 +1,21 @@
+Tabel Nilai Produk Komersial (dalam jutaan Rupiah)
+Produk Komersial, 2024, 2023, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Produk Kredit Komersial, 38.278.495, 42.963.396, (4.684.901), (10,90%)
+Produk Simpanan Komersial, 264.793.641, 243.694.432, 21.109.903, 8,66%
+Jumlah Nilai Produk Komersial, 303.072.136, 286.657.828, 16.425.002, 5,73%
+
+Tabel Volume Penyaluran Produk Komersial
+Produk Komersial, 2024, 2023, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Produk Kredit Komersial (Unit), 21.557, 12.511, 9.046, 72,30%
+Produk Simpanan Komersial (Rekening), 191.145, 154.772, 36.373, 23,50%
+
+Tabel Nilai Penyaluran Produk Kredit Komersial (dalam jutaan Rupiah)
+Kredit Komersial, 2024, 2023, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Kredit Perumahan:
+- Kredit Konstruksi, 8.057.926, 7.836.512, 221.414, 2,83%
+Kredit Non Perumahan:
+- Kredit UMKM, 6.692.911, 6.520.248, 172.662, 2,65%
+- Kredit Komersial Lainnya, 23.528.808, 27.716.089, (4.187.282), (15,11%)
+Jumlah Nilai Penyaluran Kredit Komersial, 38.279.645, 42.963.396, (2.332.067), (5,74%)
+
+270

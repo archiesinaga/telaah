@@ -1,0 +1,207 @@
+31 Desember 2023:
+Saldo: 6.763.517
+s.d 1 minggu: 10.458
+> 1 minggu s.d 2 minggu: 824.462
+> 2 minggu s.d 1 bulan: 2.090.700
+> 1 bulan s.d 3 bulan: 1.732.429
+> 3 bulan s.d 6 bulan: 1.371.955
+> 6 bulan s.d 12 bulan: 733.513
+> 12 bulan: -
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 4.612.840
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 4.612.840
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 4.612.840
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 4.612.840
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 750.059
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 750.059
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 750.059
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 750.059
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 145.511
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: 145.511
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 30.923.852
+s.d 1 minggu: 18.662.384
+> 1 minggu s.d 2 minggu: 824.462
+> 2 minggu s.d 1 bulan: 2.236.211
+> 1 bulan s.d 3 bulan: 1.732.429
+> 3 bulan s.d 6 bulan: 1.371.955
+> 6 bulan s.d 12 bulan: 733.513
+> 12 bulan: 5.362.899
+
+Saldo: (1.290.702)
+s.d 1 minggu: 2.507.791
+> 1 minggu s.d 2 minggu: (670.802)
+> 2 minggu s.d 1 bulan: (1.144.022)
+> 1 bulan s.d 3 bulan: (1.732.429)
+> 3 bulan s.d 6 bulan: (1.183.548)
+> 6 bulan s.d 12 bulan: (363.929)
+> 12 bulan: 1.296.237
+
+Saldo: 1.878.434
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 1.878.434
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 1.878.434
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 1.878.434
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -
+
+Saldo: 1.878.434
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: 1.878.434
+
+Saldo: -
+s.d 1 minggu: -
+> 1 minggu s.d 2 minggu: -
+> 2 minggu s.d 1 bulan: -
+> 1 bulan s.d 3 bulan: -
+> 3 bulan s.d 6 bulan: -
+> 6 bulan s.d 12 bulan: -
+> 12 bulan: -

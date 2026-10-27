@@ -1,0 +1,11 @@
+1. Judul atau keterangan:
+Skor ACGS
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu vertikal: tidak ada label sumbu (menunjukkan angka 102 sampai 113)
+- Periode (sumbu horizontal): 2017, 2019, 2021
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- 2017: 105,63
+- 2019: 110,29
+- 2021: 111,82

@@ -1,0 +1,33 @@
+Laporan Tahunan 2024 btn
+
+Nominal Class (Rp): Rp544.800.000.000, Tanggal Transaksi: 26 September 2023, Jatuh Tempo: 7 Agustus 2035, Average Life: 7,44, Kupon Kelas A: 6,65%, Peringkat Pefindo: idAAA
+Nominal Class (Rp): Rp55.200.020.055
+Nominal Class (Rp): Rp19.785.068.564.486
+
+(dalam Jutaan Rupiah)
+
+31 Desember 2024:
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: 194.108, Pengurang Modal: -, Nilai aset yang disekuritisasi: 12.286.868, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: 226.678, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: 12.286.868, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+ATMR: -, Pengurang Modal: -, Nilai aset yang disekuritisasi: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Telah Jatuh Tempo: -, Nilai aset yang disekuritisasi yang mengalami penurunan nilai - Belum Jatuh Tempo: -, Laba/Rugi dari aktivitas sekuritisasi: -, ATMR: -, Pengurang Modal: -
+
+31 Desember 2024:
+No. 9, Underlying Asset *) Kredit Beragun Properti Komersial, Nilai Aset yang Disekuritisasi: -, Keuntungan (Kerugian) Penjualan: -
+No. 10, Underlying Asset *) Kredit untuk Pengadaan Tanah, Pengelolaan Tanah, dan Konstruksi, Nilai Aset yang Disekuritisasi: -, Keuntungan (Kerugian) Penjualan: -
+No. 11, Underlying Asset *) Kredit Pegawai/Pensiunan, Nilai Aset yang Disekuritisasi: -, Keuntungan (Kerugian) Penjualan: -
+No. 12, Underlying Asset *) Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel, Nilai Aset yang Disekuritisasi: -, Keuntungan (Kerugian) Penjualan: -
+No. 13, Underlying Asset *) Tagihan Kepada Korporasi, Nilai Aset yang Disekuritisasi: -, Keuntungan (Kerugian) Penjualan: -
+No. 14, Underlying Asset *) Aset Lainnya, Nilai Aset yang Disekuritisasi: -, Keuntungan (Kerugian) Penjualan: -
+No. -, Underlying Asset *) Jumlah, Nilai Aset yang Disekuritisasi: 13.386.868, Keuntungan (Kerugian) Penjualan: -
+
+PT Bank Tabungan Negara (Persero) Tbk | 407

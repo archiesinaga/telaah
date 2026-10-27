@@ -1,0 +1,24 @@
+Kronologis Penerbitan/Pencatatan Saham BTN
+No.: 1, Periode: Sebelum IPO, Keterangan: -, Saham: -, Nilai Nominal (Rp): -, Harga Penawaran (Rp): -
+No.: 2, Periode: 17 Desember 2009, Keterangan: Penawaran Umum Perdana, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 800
+No.: 3, Periode: 4 Februari 2011, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 855
+No.: 4, Periode: 4 Oktober 2011, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 855
+No.: 5, Periode: 1 Februari 2012, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 1.297
+No.: 6, Periode: 1 Mei 2012, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): -
+No.: 7, Periode: 23 November 2012, Keterangan: Penawaran Umum Terbatas I/Rights Issue, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 1.235
+No.: 8, Periode: 1 Februari 2013, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 1.098
+No.: 9, Periode: 1 Juli 2013, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): -
+No.: 10, Periode: 1 Februari 2014, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): -
+No.: 11, Periode: 1 Juli 2014, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): -
+No.: 12, Periode: 2 Februari 2015, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): -
+No.: 13, Periode: 1 Juli 2015, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): -
+No.: 14, Periode: 1 Februari 2016, Keterangan: Realisasi Program MESOP, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 1.098
+No.: 15, Periode: 28 Desember 2022, Keterangan: Penawaran Umum Terbatas II/Rights Issue, Saham: Saham Biasa Seri B, Nilai Nominal (Rp): 500, Harga Penawaran (Rp): 1.200
+
+Kronologi Penerbitan Obligasi BTN
+Tabel Kronologi Penerbitan Obligasi BTN
+Uraian: Obligasi Bank BTN I Tahun 1989, Tanggal Distribusi Obligasi secara Elektronik: 25 Juli 1989, Tenor (Tahun): 5, Mata Uang: Rp, Jumlah Obligasi (Jutaan): 50.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+Uraian: Obligasi Bank BTN II Tahun 1990, Tanggal Distribusi Obligasi secara Elektronik: -, Tenor (Tahun): 5, Mata Uang: Rp, Jumlah Obligasi (Jutaan): 50.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+Uraian: Obligasi Bank BTN III Tahun 1991, Tanggal Distribusi Obligasi secara Elektronik: -, Tenor (Tahun): 5, Mata Uang: Rp, Jumlah Obligasi (Jutaan): 50.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+Uraian: Obligasi Bank BTN IV Tahun 1991, Tanggal Distribusi Obligasi secara Elektronik: -, Tenor (Tahun): 5, Mata Uang: Rp, Jumlah Obligasi (Jutaan): 100.000, Harga Penawaran: 100% dari jumlah pokok Obligasi
+Uraian: Obligasi Bank BTN V Tahun 1993, Tanggal Distribusi Obligasi secara Elektronik: -, Tenor (Tahun): 5, Mata Uang: Rp, Jumlah Obligasi (Jutaan): 150.000, Harga Penawaran: 100% dari jumlah pokok Obligasi

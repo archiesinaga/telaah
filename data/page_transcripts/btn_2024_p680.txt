@@ -1,0 +1,47 @@
+Tabel 1:
+- Judul/Keterangan: Komite, Fungsi Bisnis, Fungsi Risk, Fungsi Independen
+- Komite A3: Fungsi Bisnis: 2 orang, Fungsi Risk: 2 orang, Fungsi Independen: 1 orang
+- Komite A4: Fungsi Bisnis: 1 orang, Fungsi Risk: 1 orang, Fungsi Independen: 1 orang
+
+Tabel 2:
+- Judul/Keterangan: Struktur Keanggotaan Komite Kredit - Jenis dan tingkat Komite Kredit berdasarkan kewenangannya terbagi dengan kategori sebagai berikut:
+- No.: 1., Jenis Komite: Komite A, Tingkat Komite: A1, Unit Kerja: Direksi
+- No.: 1., Jenis Komite: Komite A, Tingkat Komite: A2, Unit Kerja: Direksi
+- No.: 1., Jenis Komite: Komite A, Tingkat Komite: A3, Unit Kerja: Direksi
+- No.: 1., Jenis Komite: Komite A, Tingkat Komite: A4, Unit Kerja: Direksi
+- No.: 2., Jenis Komite: Komite B, Tingkat Komite: B, Unit Kerja: Kantor Pusat
+- No.: 3., Jenis Komite: Komite C, Tingkat Komite: C1, Unit Kerja: Kantor Wilayah
+- No.: 3., Jenis Komite: Komite C, Tingkat Komite: C2, Unit Kerja: Commercial Banking Center (CBC)
+- No.: 4., Jenis Komite: Komite D, Tingkat Komite: D1, Unit Kerja: Kantor Cabang/Kantor Cabang Syariah
+- No.: 4., Jenis Komite: Komite D, Tingkat Komite: D2, Unit Kerja: Kantor Cabang/Kantor Cabang Syariah
+- No.: 4., Jenis Komite: Komite D, Tingkat Komite: D3, Unit Kerja: Kantor Cabang/Kantor Cabang Syariah
+
+Tabel 3:
+- Judul/Keterangan: Komite Kredit pada tingkat Direksi terbagi menjadi 4 (empat) tingkat dengan jumlah kuorum minimal kehadiran Anggota Tetap sebagai berikut:
+- Komite: Komite A1, Fungsi Bisnis: Seluruh Anggota, Fungsi Risk: Seluruh Anggota, Fungsi Independen: 1 orang
+- Komite: Komite A2, Fungsi Bisnis: 3 orang, Fungsi Risk: 3 orang, Fungsi Independen: 1 orang
+
+Tabel 4 (Fungsi Risiko dan Fungsi Bisnis):
+- Fungsi Risiko - Jabatan: Direktur Utama, Voting Rights: ✓
+- Fungsi Risiko - Jabatan: Direktur yang membawahi Manajemen Risiko, Voting Rights: ✓
+- Fungsi Risiko - Jabatan: Direktur yang membawahi Asset Management, Voting Rights: ✓
+- Fungsi Risiko - Jabatan: Direktur yang membawahi Sistem Informasi, Voting Rights: ✓
+- Fungsi Risiko - Jabatan: SEVP yang membawahi Operasional Kredit, Voting Rights: ✓
+- Fungsi Bisnis - Jabatan: Wakil Direktur Utama, Voting Rights: ✓
+- Fungsi Bisnis - Jabatan: Direktur yang membawahi Perkreditan/Pembiayaan, Voting Rights: ✓
+- Fungsi Bisnis - Jabatan: Direktur yang membawahi Keuangan, Voting Rights: ✓
+- Fungsi Bisnis - Jabatan: Direktur yang membawahi Jaringan, Voting Rights: ✓
+- Fungsi Bisnis - Jabatan: Direktur yang membawahi Institutional Banking, Voting Rights: ✓
+- Fungsi Bisnis - Jabatan: SEVP yang membawahi Wholesale Banking, Voting Rights: ✓
+
+Tabel 5:
+- Judul/Keterangan: Fungsi Independen
+- Direktur yang membawahi Kepatuhan dan Legal, Voting Rights: ✖
+- SEVP yang membawahi Kepatuhan dan Legal, Voting Rights: ✖
+
+Tabel 6:
+- Judul/Keterangan: Keanggotaan Tidak Tetap pada Komite Kredit tingkat Direksi diatur dengan ketentuan sebagai berikut:
+- No. 1., Anggota Tidak Tetap: Kepala/Wakil Kepala Satuan Kerja Kredit Komersial atau Pejabat Pemegang Kewenangan RKK, Voting Rights: ✖
+- No. 2., Anggota Tidak Tetap: Kepala Satuan Kerja Kredit Korporasi atau Pejabat Pemegang Kewenangan RKK, Voting Rights: ✖
+- No. 3., Anggota Tidak Tetap: Kepala Satuan Kerja Kredit SME atau Pejabat Pemegang Kewenangan RKK, Voting Rights: ✖
+- No. 4., Anggota Tidak Tetap: Kepala Satuan Kerja Pembiayaan Komersial atau Pejabat Pemegang Kewenangan RKK, Voting Rights: ✖

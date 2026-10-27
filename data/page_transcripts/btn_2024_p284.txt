@@ -1,0 +1,35 @@
+SEGMEN SYARIAH
+
+PRODUK PEMBIAYAAN SYARIAH
+- PEMBIAYAAN KOMERSIAL SYARIAH
+- PEMBIAYAAN KONSUMER SYARIAH
+
+PRODUK SIMPANAN SYARIAH
+- GIRO SYARIAH
+- DEPOSITO SYARIAH
+- TABUNGAN SYARIAH
+
+Grafik Posisi Pembiayaan dan Dana Pihak Ketiga (dalam triliun Rupiah)
+
+PEMBIAYAAN SYARIAH
+Sumbu y: 0,00, 5,00, 10,00, 15,00, 20,00, 25,00, 30,00, 35,00, 40,00
+Sumbu x / Label:
+- Pembiayaan Konsumer: 34,77 (untuk batang pertama), 41,16 (untuk batang kedua)
+- Pembiayaan Komersial: 2,34 (untuk batang pertama), 2,74 (untuk batang kedua)
+
+SIMPANAN SYARIAH
+Sumbu y: 0,00, 5,00, 10,00, 15,00, 20,00, 25,00
+Sumbu x / Label:
+- Giro Syariah: 14,17 (untuk batang pertama), 14,49 (untuk batang kedua)
+- Tabungan Syariah: 6,75 (untuk batang pertama), 6,99 (untuk batang kedua)
+- Deposito Syariah: 20,89 (untuk batang pertama), 21,38 (untuk batang kedua)
+
+JUMLAH POSISI PRODUK PEMBIAYAAN DAN DPK SEGMEN SYARIAH
+Legenda: 
+- 2023 (warna biru muda)
+- 2024 (warna biru tua)
+Sumbu y: 0,00, 20,00, 40,00, 60,00, 80,00, 100,00
+Sumbu x / Label:
+- Jumlah Produk pembiayaan Syariah: 37,11 (2023), 43,89 (2024)
+- Jumlah Produk Simpanan Syariah: 41,80 (2023), 42,86 (2024)
+- Jumlah Posisi Produk Segmen Syariah: 78,92 (2023), 87 (2024)

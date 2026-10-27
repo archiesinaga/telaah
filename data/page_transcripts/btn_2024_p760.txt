@@ -1,0 +1,24 @@
+1. Judul atau keterangan:
+Jenis Sanksi Pelanggaran Kode Etik
+- Sanksi Ringan, Ringan Huruf A, Teguran lisan, Masa Pembinaan: 3 (tiga) bulan
+- Sanksi Ringan, Ringan Huruf B, Teguran tertulis, Masa Pembinaan: 3 (tiga) bulan
+- Sanksi Ringan, Ringan Huruf C, Pernyataan tidak puas, Masa Pembinaan: 3 (tiga) bulan
+- Sanksi Sedang, Sedang Huruf A, Tidak mendapatkan uang cuti, Masa Pembinaan: 1 (satu) tahun
+- Sanksi Sedang, Sedang Huruf B, Tidak mendapatkan penyesuaian gaji berkala, Masa Pembinaan: 1 (satu) tahun
+- Sanksi Sedang, Sedang Huruf C, Penurunan Person Grade sebanyak 1 (satu) grade (gaji dasar menyesuaikan), Masa Pembinaan: 1 (satu) tahun
+- Sanksi Berat, Berat Huruf A, Penurunan person grade sebanyak minimal 2 (dua) grade (gaji dasar menyesuaikan), Masa Pembinaan: 2 (dua) tahun
+- Sanksi Berat, Berat Huruf B, Pemutusan hubungan kerja (PHK), Masa Pembinaan: 2 (dua) tahun
+- Sanksi Berat, Berat Huruf C, Pemutusan hubungan kerja dan dilaporkan kepada pihak yang berwajib., Masa Pembinaan: 2 (dua) tahun
+
+2. Judul atau keterangan:
+Jumlah Pelanggaran dan Sanksi yang Diberikan
+- No. 1, Sanksi Ringan, Ringan Huruf A, Tahun 2018: 22, Tahun 2019: 23, Tahun 2020: 27, Tahun 2021: 14, Tahun 2022: 9, Tahun 2023: 11, Tahun 2024: 4, Total Sanksi yang Diberikan: 61
+- No. 1, Sanksi Ringan, Ringan Huruf B, Tahun 2018: 31, Tahun 2019: 15, Tahun 2020: 19, Tahun 2021: 28, Tahun 2022: 5, Tahun 2023: 15, Tahun 2024: 15, Total Sanksi yang Diberikan: 67
+- No. 1, Sanksi Ringan, Ringan Huruf C, Tahun 2018: 24, Tahun 2019: 25, Tahun 2020: 47, Tahun 2021: 35, Tahun 2022: 6, Tahun 2023: 11, Tahun 2024: 0, Total Sanksi yang Diberikan: 99
+- No. 2, Sanksi Sedang, Sedang Huruf A, Tahun 2018: 18, Tahun 2019: 69, Tahun 2020: 62, Tahun 2021: 54, Tahun 2022: 8, Tahun 2023: 15, Tahun 2024: 8, Total Sanksi yang Diberikan: 139
+- No. 2, Sanksi Sedang, Sedang Huruf B, Tahun 2018: 13, Tahun 2019: 53, Tahun 2020: 32, Tahun 2021: 21, Tahun 2022: 10, Tahun 2023: 12, Tahun 2024: 20, Total Sanksi yang Diberikan: 75
+- No. 2, Sanksi Sedang, Sedang Huruf C, Tahun 2018: 9, Tahun 2019: 45, Tahun 2020: 31, Tahun 2021: 16, Tahun 2022: 11, Tahun 2023: 10, Tahun 2024: 0, Total Sanksi yang Diberikan: 68
+- No. 3, Sanksi Berat, Berat Huruf A, Tahun 2018: 2, Tahun 2019: 5, Tahun 2020: 10, Tahun 2021: 5, Tahun 2022: 3, Tahun 2023: 1, Tahun 2024: 3, Total Sanksi yang Diberikan: 19
+- No. 3, Sanksi Berat, Berat Huruf B, Tahun 2018: 22, Tahun 2019: 40, Tahun 2020: 24, Tahun 2021: 19, Tahun 2022: 44, Tahun 2023: 43, Tahun 2024: 27, Total Sanksi yang Diberikan: 130
+- No. 3, Sanksi Berat, Berat Huruf C, Tahun 2018: 0, Tahun 2019: 0, Tahun 2020: 6, Tahun 2021: 3, Tahun 2022: 3, Tahun 2023: 1, Tahun 2024: 4, Total Sanksi yang Diberikan: 13
+- TOTAL, Tahun 2018: 141, Tahun 2019: 275, Tahun 2020: 258, Tahun 2021: 195, Tahun 2022: 99, Tahun 2023: 119, Tahun 2024: 81, Total Sanksi yang Diberikan: 752

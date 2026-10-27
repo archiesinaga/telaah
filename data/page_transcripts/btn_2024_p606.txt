@@ -1,0 +1,21 @@
+Tabel Tingkat Keadiran Rapat Komite Audit
+No.: 1, Nama: Iqbal Latanro, Jabatan: Ketua merangkap anggota, Rapat Komite Audit Jumlah Rapat: 39, Rapat Komite Audit Jumlah Kehadiran: 39, Rapat Komite Audit Persentase: 100,00%
+No.: 2, Nama: Sentot A. Sentausa, Jabatan: Anggota, Rapat Komite Audit Jumlah Rapat: 39, Rapat Komite Audit Jumlah Kehadiran: 39, Rapat Komite Audit Persentase: 100,00%
+No.: 3, Nama: Bambang Widjanarko, Jabatan: Anggota¹, Rapat Komite Audit Jumlah Rapat: 15, Rapat Komite Audit Jumlah Kehadiran: 15, Rapat Komite Audit Persentase: 100,00%
+No.: 4, Nama: Andin Hadiyanto, Jabatan: Anggota², Rapat Komite Audit Jumlah Rapat: 25, Rapat Komite Audit Jumlah Kehadiran: 20, Rapat Komite Audit Persentase: 80,00%
+No.: 5, Nama: Endang A. Suprijatna, Jabatan: Anggota, Rapat Komite Audit Jumlah Rapat: 39, Rapat Komite Audit Jumlah Kehadiran: 36, Rapat Komite Audit Persentase: 92,31%
+No.: 6, Nama: Indra Jaka Aprilyanta, Jabatan: Anggota³, Rapat Komite Audit Jumlah Rapat: 7, Rapat Komite Audit Jumlah Kehadiran: 7, Rapat Komite Audit Persentase: 100,00%
+No.: 7, Nama: Peter Eko Budi Darwito, Jabatan: Anggota⁴, Rapat Komite Audit Jumlah Rapat: 32, Rapat Komite Audit Jumlah Kehadiran: 32, Rapat Komite Audit Persentase: 100,00%
+
+Program Kerja dan Pelaksanaan Tugas Komite Audit Tahun 2024
+No.: 1, Kegiatan: Memberikan masukan dan rekomendasi Persetujuan atas Annual Audit Plan kepada Dewan Komisaris, Pelaksanaan: Terlaksana
+No.: 2, Kegiatan: Pemantauan dan evaluasi bulanan terhadap pelaksanaan tugas & tindak lanjut Audit Internal, termasuk terhadap pengendalian internal, Pelaksanaan: Terlaksana
+No.: 3, Kegiatan: Menghadiri Exit Meeting Audit Umum IAD, Pelaksanaan: Terlaksana
+No.: 4, Kegiatan: Pemantauan dan evaluasi terhadap pelaksanaan audit oleh Eksternal Auditor (OJK, BI, BPK, KAP, dan lainnya) termasuk penyelesaian tindak lanjut hasil audit., Pelaksanaan: Terlaksana
+No.: 5, Kegiatan: Pengecekan dan evaluasi terhadap Laporan Keuangan Publikasi Triwulanan, Pelaksanaan: Terlaksana
+No.: 6, Kegiatan: Memberikan rekomendasi mengenai pengadaan hingga penunjukkan Akuntan Publik/Kantor Akuntan Publik kepada Dewan Komisaris untuk diputuskan dalam Rapat Umum Pemegang Saham, Pelaksanaan: Terlaksana
+No.: 7, Kegiatan: Menyampaikan rekomendasi mengenai penunjukan Akuntan Publik kepada Dewan Komisaris untuk disampaikan kepada Kementerian BUMN dalam rangka agenda Rapat Umum Pemegang Saham, Pelaksanaan: Terlaksana
+No.: 8, Kegiatan: Memantau laporan penunjukkan Kantor Akuntan Publik sesuai Rapat Umum Pemegang Saham kepada OJK, Pelaksanaan: Terlaksana
+No.: 9, Kegiatan: Pemantauan progres pelaksanaan audit oleh KAP, Pelaksanaan: Terlaksana
+No.: 10, Kegiatan: Memberikan evaluasi terhadap pelaksanaan pemberian Jasa Audit atas Informasi Keuangan oleh KAP untuk disampaikan kepada OJK, Pelaksanaan: Terlaksana
+No.: 11, Kegiatan: Memberikan evaluasi terhadap pelaksanaan pemberian Jasa Audit atas Informasi Keuangan oleh KAP untuk disampaikan kepada KBUMN, Pelaksanaan: Terlaksana

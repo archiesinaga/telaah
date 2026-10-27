@@ -1,0 +1,33 @@
+1. Judul: Biaya Pengembangan Kompetensi
+- Label/Kolom:
+  - Biaya pengembangan kompetensi (dalam jutaan Rupiah):
+    - 2024: 105.530
+    - 2023: 95.928
+  - Pertumbuhan:
+    - Dalam mata uang (dalam jutaan Rupiah): 9.602
+    - Dalam Persen (%): 10,01%
+
+2. Judul: Pengembangan Karir - Kebijakan (Tabel Sistem Grading Perseroan)
+- Label Kolom: Band, Grade, Corporate Title
+- Baris dan Angka/Label yang tertera:
+  - Band 5:
+    - Grade 6A: Senior Executive Vice President
+    - Grade 5B: Executive Vice President
+  - Band 4:
+    - Grade 4E/5A: Senior Vice President
+    - Grade 4D: Vice President
+    - Grade 4C: Vice President
+    - Grade 4B: Assistant Vice President
+    - Grade 3E/4A: Senior Manager
+  - Band 3:
+    - Grade 3D: Manager
+    - Grade 3C: Manager
+    - Grade 3B: Assistant Manager
+    - Grade 3A: Assistant Manager
+  - Band 2:
+    - Grade 2F: Senior Staff
+    - Grade 2E: Senior Staff
+    - Grade 2D: Staff
+    - Grade 2C: Staff
+    - Grade 2B: Junior Staff
+    - Grade 2A: Junior Staff

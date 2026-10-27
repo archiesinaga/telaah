@@ -1,0 +1,32 @@
+Tabel 1:
+- Jenis NCD: NCD Tahap IV 2017, Nominal Penerbitan (Rp): 540.000.000.000, Tanggal Transaksi: 13 Desember 2017, Seri: A
+- Jenis NCD: NCD Tahap IV 2017, Nominal Penerbitan (Rp): 540.000.000.000, Tanggal Transaksi: 13 Desember 2017, Seri: B
+- Jenis NCD: NCD Tahap I 2018, Nominal Penerbitan (Rp): 1.440.000.000.000, Tanggal Transaksi: 3 April 2018, Seri: A
+- Jenis NCD: NCD Tahap II 2018, Nominal Penerbitan (Rp): 690.000.000.000, Tanggal Transaksi: 18 Juli 2018, Seri: A
+- Jenis NCD: NCD Tahap II 2018, Nominal Penerbitan (Rp): 690.000.000.000, Tanggal Transaksi: 18 Juli 2018, Seri: B
+- Jenis NCD: NCD Tahap III 2018, Nominal Penerbitan (Rp): 2.020.000.000.000, Tanggal Transaksi: 5 November 2018, Seri: A
+- Jenis NCD: NCD Tahap III 2018, Nominal Penerbitan (Rp): 2.020.000.000.000, Tanggal Transaksi: 5 November 2018, Seri: B
+- Jenis NCD: NCD Tahap III 2018, Nominal Penerbitan (Rp): 2.020.000.000.000, Tanggal Transaksi: 5 November 2018, Seri: C
+- Jenis NCD: NCD Tahap IV 2018, Nominal Penerbitan (Rp): 340.000.000.000, Tanggal Transaksi: 10 Desember 2018, Seri: A
+- Jenis NCD: NCD Tahap IV 2018, Nominal Penerbitan (Rp): 340.000.000.000, Tanggal Transaksi: 10 Desember 2018, Seri: B
+- Jenis NCD: NCD Tahap I Tahun 2023, Nominal Penerbitan (Rp): 1.500.000.000.000, Tanggal Transaksi: 20 Oktober 2023, Seri: A
+- Jenis NCD: NCD Tahap I Tahun 2023, Nominal Penerbitan (Rp): 1.500.000.000.000, Tanggal Transaksi: 20 Oktober 2023, Seri: B
+- Jenis NCD: NCD Tahap I Tahun 2023, Nominal Penerbitan (Rp): 1.500.000.000.000, Tanggal Transaksi: 20 Oktober 2023, Seri: C
+- Jenis NCD: Jumlah, Nominal Penerbitan (Rp): 14.831.000.000.000
+
+Tabel Kronologi Penerbitan Long Term Notes (LTN) BTN:
+- Uraian: LTN BTN Tahun 2021 Tahap I, Tanggal Distribusi LTN secara Elektronik: 17 Desember 2021, Tenor (Bulan): 186, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 10.185.851
+- Uraian: LTN BTN II Tahun 2022 Seri A, Tanggal Distribusi LTN secara Elektronik: 12 Juli 2022, Tenor (Bulan): 171, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 47.740.325
+- Uraian: LTN BTN II Tahun 2022 Seri B, Tanggal Distribusi LTN secara Elektronik: 12 Juli 2022, Tenor (Bulan): 177, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 79.378.706
+- Uraian: LTN BTN III Tahap I Tahun 2022, Tanggal Distribusi LTN secara Elektronik: 14 Desember 2022, Tenor (Bulan): 177, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 210.866.282
+- Uraian: LTN BTN III Tahap II Tahun 2022, Tanggal Distribusi LTN secara Elektronik: 28 Desember 2022, Tenor (Bulan): 171, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 131.184.885
+- Uraian: LTN BTN IV Tahap I Tahun 2023, Tanggal Distribusi LTN secara Elektronik: 28 Juli 2023, Tenor (Bulan): 165, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 35.898.139
+- Uraian: LTN BTN IV Tahap II Tahun 2023, Tanggal Distribusi LTN secara Elektronik: 15 September 2023, Tenor (Bulan): 168, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 404.745.014
+- Uraian: LTN BTN IV Tahap III Tahun 2023 – Seri A, Tanggal Distribusi LTN secara Elektronik: 27 Desember 2023, Tenor (Bulan): 180, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 6.241.671.188
+- Uraian: LTN BTN IV Tahap III Tahun 2023 – Seri B, Tanggal Distribusi LTN secara Elektronik: 27 Desember 2023, Tenor (Bulan): 168, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 234.541.750.854
+- Uraian: LTN BTN IV Tahun 2024 Tahap IV, Tanggal Distribusi LTN secara Elektronik: 07 Mei 2024, Tenor (Bulan): 171, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 203.350.626.300
+- Uraian: LTN BTN IV Tahun 2024 Tahap V, Tanggal Distribusi LTN secara Elektronik: 27 September 2024, Tenor (Bulan): 171, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 312.678.083.000
+- Uraian: LTN BTN IV Tahun 2024 Tahap VI, Tanggal Distribusi LTN secara Elektronik: 23 Desember 2024, Tenor (Bulan): 168, Mata Uang: Rp, Jumlah LTN (Rp Ribuan): 147.909.042.000
+
+Nomor halaman:
+- 204

@@ -1,0 +1,19 @@
+1. Judul atau keterangan:
+- Proses Penyelenggaraan RUPS dan Pemungutan Suara
+- 1, Pemberitahuan Rencana Penyelenggaraan RUPS kepada Regulator: Paling Lambat 5 (lima) hari kerja sebelum pengumuman RUPS, dengan tidak memperhitungkan tanggal pengumuman RUPS
+- 2, Pengumuman Penyelenggaraan RUPS: Paling Lambat 14 (empat belas) hari sebelum pemanggilan RUPS, tanpa memperhitungkan tanggal pengumuman dan tanggal pemanggilan
+- 3, Pemanggilan Penyelenggaraan RUPS melalui Media Massa: Paling Lambat 21 (dua puluh satu) hari sebelum pelaksanaan RUPS, tanpa memperhitungkan tanggal pemanggilan dan tanggal RUPS
+- 4, Pelaksanaan RUPS: Pelaksanaan RUPS
+- 5, Pengumuman Ringkasan Risalah RUPS melalui Situs Web Bursa Efek, Situs Web Emiten, dan Situs Web Penyedia e-RUPS: Paling Lambat 2 (dua) hari kerja setelah pelaksanaan RUPS
+- 6, Berita Acara/Risalah RUPS: Paling Lambat 30 (tiga puluh) hari setelah pelaksanaan RUPS
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada sumbu, legenda, satuan, atau periode yang tercetak pada infografik.
+
+3. Angka yang tertera:
+- 1: 5 (lima)
+- 2: 14 (empat belas)
+- 3: 21 (dua puluh satu)
+- 4: Pelaksanaan RUPS
+- 5: 2 (dua)
+- 6: 30 (tiga puluh)

@@ -1,0 +1,27 @@
+1. Judul Tabel 1:
+- No. 1, Jabatan: Direktur Utama, Jumlah Pihak yang Menjadi MRT: 1
+- No. 2, Jabatan: Wakil Direktur Utama, Jumlah Pihak yang Menjadi MRT: 1
+- No. 3, Jabatan: Direktur, Jumlah Pihak yang Menjadi MRT: 9
+- No. 4, Jabatan: Komisaris Utama, Jumlah Pihak yang Menjadi MRT: 1
+- No. 5, Jabatan: Wakil Komisaris Utama, Jumlah Pihak yang Menjadi MRT: 1
+- No. 6, Jabatan: Anggota Dewan Komisaris, Jumlah Pihak yang Menjadi MRT: 7
+
+2. Judul Tabel 2:
+MESOP Tahap 1
+
+Dewan Komisaris:
+- No. 1, Nama dan Jabatan: Chandra Martha Hamzah, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 2, Nama dan Jabatan: Iqbal Latanro, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 3, Nama dan Jabatan: Ahdi Jumhari Luddin, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 4, Nama dan Jabatan: Andin Hadiyanto, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 5, Nama dan Jabatan: Armand B. Arief, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 6, Nama dan Jabatan: Herry Trisaputra Zuna, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 7, Nama dan Jabatan: Himawan Arief S., Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 8, Nama dan Jabatan: Sentot A. Sentausa, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+
+Direksi:
+- No. 1, Nama dan Jabatan: Haru Koesmahargyo, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 2, Nama dan Jabatan: Nixon L. Pahotan Napitupulu, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 3, Nama dan Jabatan: Andi Nirwoto, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 4, Nama dan Jabatan: Jasmin, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+- No. 5, Nama dan Jabatan: Setiyo Wibowo, Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -

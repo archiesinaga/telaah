@@ -1,0 +1,19 @@
+1. Tabel Keterangan kategori penilaian skor SPI:
+- 2023: 77,92
+- 2024: 84,36
+
+2. Tabel Jumlah Pelaporan LHKPN:
+- No. 1, Kategori Jabatan: Dewan Komisaris, Jumlah: 8, %Pelaporan: 100%
+- No. 2, Kategori Jabatan: Direksi, Jumlah: 10, %Pelaporan: 100%
+- No. 3, Kategori Jabatan: SEVP, Jumlah: 2, %Pelaporan: 100%
+- No. 4, Kategori Jabatan: Kepala Divisi, Jumlah: 40, %Pelaporan: 100%
+- No. 5, Kategori Jabatan: Kepala Kantor Wilayah, Jumlah: 6, %Pelaporan: 100%
+- No. 6, Kategori Jabatan: Kepala Cabang, Jumlah: 113, %Pelaporan: 100%
+- Total Wajib Lapor, Jumlah: 179, %Pelaporan: 100%
+
+3. Tabel Kepatuhan Pelaporan LHKPN per Tahun:
+- No. 1, Tahun: 2020, Jenis Laporan: Periodik Tahun 2019, Jumlah Wajib Lapor: 158, Jumlah Pelaporan: 157, %Kepatuhan: 99,37%
+- No. 2, Tahun: 2021, Jenis Laporan: Periodik Tahun 2020, Jumlah Wajib Lapor: 162, Jumlah Pelaporan: 162, %Kepatuhan: 100%
+- No. 3, Tahun: 2022, Jenis Laporan: Periodik Tahun 2021, Jumlah Wajib Lapor: 170, Jumlah Pelaporan: 170, %Kepatuhan: 100%
+- No. 4, Tahun: 2023, Jenis Laporan: Periodik Tahun 2022, Jumlah Wajib Lapor: 175, Jumlah Pelaporan: 175, %Kepatuhan: 100%
+- No. 5, Tahun: 2024, Jenis Laporan: Periodik Tahun 2024, Jumlah Wajib Lapor: 179, Jumlah Pelaporan: 179, %Kepatuhan: 100%

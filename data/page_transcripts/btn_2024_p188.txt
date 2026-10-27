@@ -1,0 +1,158 @@
+1. Judul atau keterangan:
+Tabel Komposisi 20 Pemegang Saham Terbesar BTN Per 31 Desember 2024
+
+2. Label kolom / atribut tabel:
+- No.
+- Nama Investor
+- Status
+- Jumlah Saham (Lembar)
+- Persentase Kepemilikan (%)
+
+3. Angka yang tertera, dipasangkan dengan nama investor dan atributnya:
+- Nomor 1:
+  - Nama Investor: DJS KETENAGAKERJAAN PROGRAM JHT
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 389.275.808
+  - Persentase Kepemilikan (%): 2,77
+- Nomor 2:
+  - Nama Investor: PT TASPEN (ASURANSI) - AFS
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 362.166.723
+  - Persentase Kepemilikan (%): 2,58
+- Nomor 3:
+  - Nama Investor: PT. TASPEN
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 332.835.794
+  - Persentase Kepemilikan (%): 2,37
+- Nomor 4:
+  - Nama Investor: REKSA DANA SUCORINVEST EQUITY FUND
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 206.156.100
+  - Persentase Kepemilikan (%): 1,47
+- Nomor 5:
+  - Nama Investor: JPMSE STOCK RE UCITS CLT RE-HANDELSBANKEN
+  - Status: Asing
+  - Jumlah Saham (Lembar): 156.224.839
+  - Persentase Kepemilikan (%): 1,11
+- Nomor 6:
+  - Nama Investor: REKSA DANA SAM DANA CERDAS
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 84.750.058
+  - Persentase Kepemilikan (%): 0,60
+- Nomor 7:
+  - Nama Investor: DJS KETENAGAKERJAAN PROGRAM JP
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 77.756.000
+  - Persentase Kepemilikan (%): 0,55
+- Nomor 8:
+  - Nama Investor: NTC-ARTEMIS SMARTGARP GLOBAL EMERGING MARKETS EQUITY FUND
+  - Status: Asing
+  - Jumlah Saham (Lembar): 75.530.000
+  - Persentase Kepemilikan (%): 0,54
+- Nomor 9:
+  - Nama Investor: JPMCB NA RE - VANGUARD EMERGING MARKETS
+  - Status: Asing
+  - Jumlah Saham (Lembar): 66.560.556
+  - Persentase Kepemilikan (%): 0,47
+- Nomor 10:
+  - Nama Investor: JPMCB NA RE-VANGUARD TOTAL INTERNATIONAL
+  - Status: Asing
+  - Jumlah Saham (Lembar): 65.330.984
+  - Persentase Kepemilikan (%): 0,47
+- Nomor 11:
+  - Nama Investor: NTC-LSV EMERGING MARKETS EQUITY FUND, LP
+  - Status: Asing
+  - Jumlah Saham (Lembar): 61.460.400
+  - Persentase Kepemilikan (%): 0,44
+- Nomor 12:
+  - Nama Investor: BNYM RE BNYMLB RE EMPLOYEES PROVIDENTFD
+  - Status: Asing
+  - Jumlah Saham (Lembar): 57.337.558
+  - Persentase Kepemilikan (%): 0,41
+- Nomor 13:
+  - Nama Investor: JPMCB NA RE - REB EMERGING MARKETS FINANCIALS FUND
+  - Status: Asing
+  - Jumlah Saham (Lembar): 57.264.150
+  - Persentase Kepemilikan (%): 0,41
+- Nomor 14:
+  - Nama Investor: BNYM RE VANDERBILT UNIVERSITY
+  - Status: Asing
+  - Jumlah Saham (Lembar): 55.523.100
+  - Persentase Kepemilikan (%): 0,40
+- Nomor 15:
+  - Nama Investor: CITIBANK NEW YORK S/A EMERGING MARKETS CORE EQUITY
+  - Status: Asing
+  - Jumlah Saham (Lembar): 54.408.154
+  - Persentase Kepemilikan (%): 0,39
+- Nomor 16:
+  - Nama Investor: SSB 2Q27 ISHARES CORE MSCI EMERGING MARKETS
+  - Status: Asing
+  - Jumlah Saham (Lembar): 54.042.776
+  - Persentase Kepemilikan (%): 0,39
+- Nomor 17:
+  - Nama Investor: SSB SBG6 SWEDBANK ROBUR SMALL CAP EMERGING MARKETS
+  - Status: Asing
+  - Jumlah Saham (Lembar): 50.000.000
+  - Persentase Kepemilikan (%): 0,36
+- Nomor 18:
+  - Nama Investor: REKSA DANA ASHMORE SAHAM SEJAHTERA NUSANTARA
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 43.438.800
+  - Persentase Kepemilikan (%): 0,31
+- Nomor 19:
+  - Nama Investor: RETAIL INDIVIDUAL
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 38.406.500
+  - Persentase Kepemilikan (%): 0,27
+- Nomor 20:
+  - Nama Investor: REKSA DANA ASHMORE DANA EKUITAS NUSANTARA
+  - Status: Lokal
+  - Jumlah Saham (Lembar): 36.759.600
+  - Persentase Kepemilikan (%): 0,26
+
+*(Catatan: Bagian atas tabel menampilkan lanjutan nomor 12 sampai 20 dari halaman sebelumnya, dengan rincian berikut:)*
+- Nomor 12 (lanjutan atas):
+  - Nama Investor: BNYM RE VANDERBILT UNIVERSITY
+  - Status: Asing
+  - Jumlah Saham (Lembar): 60.723.800
+  - Persentase Kepemilikan (%): 0,43
+- Nomor 13 (lanjutan atas):
+  - Nama Investor: STATE STREET BANK-ISHARES CORE MSCI EMERGING MARKETS ETF
+  - Status: Asing
+  - Jumlah Saham (Lembar): 53.781.176
+  - Persentase Kepemilikan (%): 0,38
+- Nomor 14 (lanjutan atas):
+  - Nama Investor: BNYM RE BNYMLB RE EMPLOYEES PROVIDENTFDBOARD-2039927326
+  - Status: Asing
+  - Jumlah Saham (Lembar): 52.862.458
+  - Persentase Kepemilikan (%): 0,38
+- Nomor 15 (lanjutan atas):
+  - Nama Investor: JPMCB NA RE - REB EMERGING MARKETS FINANCIALS FUND, LP
+  - Status: Asing
+  - Jumlah Saham (Lembar): 49.607.900
+  - Persentase Kepemilikan (%): 0,35
+- Nomor 16 (lanjutan atas):
+  - Nama Investor: CITIBANK NEW YORK S/A EMERGING MARKETS CORE EQUITY PORTFOLIO OF DFA INV DIMENSIO
+  - Status: Asing
+  - Jumlah Saham (Lembar): 48.371.154
+  - Persentase Kepemilikan (%): 0,34
+- Nomor 17 (lanjutan atas):
+  - Nama Investor: STATE STREET BANK-CALIFORNIA STATE TEACHERS RETIREMENT SYSTEM
+  - Status: Asing
+  - Jumlah Saham (Lembar): 42.207.800
+  - Persentase Kepemilikan (%): 0,30
+- Nomor 18 (lanjutan atas):
+  - Nama Investor: STATE STREET BANK-LORD ABBETT SECURITIESTRUST LORD ABBETT INTERNATIONAL OPPORTU
+  - Status: Asing
+  - Jumlah Saham (Lembar): 41.619.000
+  - Persentase Kepemilikan (%): 0,30
+- Nomor 19 (lanjutan atas):
+  - Nama Investor: CITIBANK NEW YORK S/A GEORGETOWN EMERGING MARKETS FUND SPC, LTD.-XING LONG FUND
+  - Status: Asing
+  - Jumlah Saham (Lembar): 37.500.000
+  - Persentase Kepemilikan (%): 0,27
+- Nomor 20 (lanjutan atas):
+  - Nama Investor: CITIBANK NEW YORK S/A DIMENSIONAL EMERGING MARKETS VALUE FUND
+  - Status: Asing
+  - Jumlah Saham (Lembar): 31.550.815
+  - Persentase Kepemilikan (%): 0,22

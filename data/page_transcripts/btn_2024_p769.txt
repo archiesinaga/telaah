@@ -1,0 +1,36 @@
+7. Jika Terlapor adalah Direksi dan/atau Komisaris Perusahaan Anak
+
+Pelapor:
+- Mulai: 1. Laporan WBS
+- 13a. Memberikan Feedback
+- Informasi Tambahan
+- 13b. Tidak Memberikan Feedback
+
+Pengelola WBS Independen:
+- 2. Input Aplikasi WBS
+- 3. Mengklasifikasikan Laporan WBS
+- Laporan WBS in scope/out of scope
+- 12. Meminta Pelapor untuk melengkapi Informasi
+- 14. Menginformasikan pelaporan tidak memberikan feedback
+- Selesai: 11. Closing Status Laporan
+
+Direktur Utama Bank:
+- 4. Analisa
+- Laporan WBS in scope/out of scope
+- 5. Informasi Cukup
+- Tidak
+- Ya
+- 6. Layak Audit Khusus
+- 9. Memo/dokumen lainnya tindak lanjut laporan WBS
+- 15. Menerima informasi tidak ada feedback
+- 10. Arahan untuk dilakukan closing Status Laporan
+
+Tim Audit Khusus / Tim Audit Perusahaan Anak:
+- Tidak
+- 7a. Laporan WBS in scope
+- Ya
+- 8a. Tindak Lanjut
+
+Direktur Utama Perusahaan anak:
+- 7b. Laporan WBS out of scope
+- 8b. Tindak Lanjut

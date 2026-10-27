@@ -1,0 +1,59 @@
+Tagihan Bersih
+Peringkat Jangka Panjang
+Peringkat Jangka Pendek
+Tanpa Peringkat
+Jumlah
+BB+ s.d BB-
+B+ s.d B-
+kurang dari B-
+A-1
+A-2
+A-3
+kurang dari A-3
+BB+ s.d BB-
+B+ s.d B-
+kurang dari B-
+F1 s.d F1
+F2
+F3
+kurang dari F3
+Ba1 s.d Ba3
+B1 s.d B3
+kurang dari B3
+p-1
+p-2
+p-3
+kurang dari P-3
+BB+(idn) s.d BB-(idn)
+B+(idn) s.d B-(idn)
+kurang dari B-(idn)
+F1+(idn) s.d F1(idn)
+F2(idn)
+F3(idn)
+kurang dari F3(idn)
+idBB+ s.d idBB-
+idB+ s.d idB-
+kurang dari idB-
+idA1
+idA2
+idA3 s.d idA4
+kurang dari idA4
+- : - : - : - : - : - : 5.943.455 : 5.943.455
+- : - : - : - : - : - : - : 15.870.870 : 15.870.870
+- : - : - : - : - : - : - : 2.273.664 : 2.273.664
+- : - : - : - : - : - : - : 6.749.481 : 6.749.481
+119.318 : - : 753.195 : - : - : - : - : 10.106.943 : 19.047.958
+- : - : - : - : - : - : - : 6.823.125 : 6.823.125
+- : - : - : - : - : - : - : 13.507.510 : 13.507.510
+
+(dalam jutaan Rupiah)
+31 Desember 2023
+No : Kategori Portofolio *) : Nilai Wajar SB Repo : Kewajiban Repo : Tagihan Bersih : ATMR
+1 : Tagihan Kepada Pemerintah : - : - : - : -
+2 : Tagihan Kepada Entitas Sektor Publik : - : - : - : -
+3 : Tagihan Kepada Bank Pembangunan Multilateral dan Lembaga Internasional : - : - : - : -
+4 : Tagihan Kepada Bank : - : - : - : -
+5 : Tagihan Kepada Perusahaan Efek dan Lembaga Jasa Keuangan Lainnya : - : - : - : -
+6 : Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel : - : - : - : -
+7 : Tagihan Kepada Korporasi : - : - : - : -
+Jumlah : - : - : - : -

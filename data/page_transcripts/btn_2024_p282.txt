@@ -1,0 +1,23 @@
+Gambar Peluang Pengembangan Bisnis KPR
+
+Bendera Indonesia: 3,0
+Bendera Bangladesh: 3,1
+Bendera Filipina: 3,9
+Bendera India: 7,7
+Bendera Brasil: 10,1
+Bendera Thailand: 23,9
+Bendera Tiongkok: 27,9
+Bendera Malaysia: 35,4
+Bendera Singapura: 52,1
+
+Diagram Lingkar (Pie Chart):
+Merah: 34%
+Biru Muda: 28%
+Biru Tua: 38%
+
+Kotak Bawah Diagram:
+KPR Non Subsidi Pembeli Langsung: Direct-to-consumer (Persentase BTN: 12%)
+KPR Non Subsidi: Developer (Porsi BTN pada 2019: 24%)
+KPR Subsidi: Segmen subsidi (Porsi BTN : 77%)
+
+Sumber: Corporate Plan BTN 2021-2025

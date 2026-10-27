@@ -1,0 +1,23 @@
+1. Bobot Direktorat (%)
+SEVP Wholesale Banking: 8, 11, 10
+Assets Management: 7, 10, 10
+Risk Management: 7, 13, 12
+Information Technology: 7, 12, 12
+Finance: 7, 9, 10
+Human Capital, Compliance & Legal: 7, √
+Operations & Customer Experience: 7, -
+SEVP Operations: 6, -, 7
+
+2. Tabel Indikator Kinerja
+No. 13, Indikator: Jumlah Pengguna Aktif BTN Mobile, Bobot (%): 5,00, Satuan: Jumlah, Target: 1.100.000, Realisasi: 1.469.190, Pencapaian (%): 110,00%, Nilai Akhir: 5,50%
+No. III, Indikator: Kepemimpinan Teknologi, Bobot (%): 7,00
+No. 14, Indikator: Implementasi Integrasi ATM (Project Jalin), Bobot (%): 4,00, Satuan: ATM, Target: 445, Realisasi: 537, Pencapaian (%): 110,00%, Nilai Akhir: 4,40%
+No. 15, Indikator: Cyber Security Breach (Zero Incident), Bobot (%): 3,00, Satuan: Laporan, Target: 0, Realisasi: 0, Pencapaian (%): 110,00%, Nilai Akhir: 3,30%
+No. IV, Indikator: Pengembangan Investasi, Bobot (%): 11,00
+No. 16, Indikator: Environment, Social, Governance (ESG) Rating, Bobot (%): 4,00, Satuan: Rating, Target: BBB, Realisasi: BBB, Pencapaian (%): 100,00%, Nilai Akhir: 4,00%
+No. 17, Indikator: Pembiayaan/Kredit Berkelanjutan, Bobot (%): 4,00, Satuan: Rp triliun, Target: 180,04, Realisasi: 181,63, Pencapaian (%): 100,88%, Nilai Akhir: 4,04%
+No. 18, Indikator: Realisasi KPI PMN, Bobot (%): 3,00, Satuan: %, Target: 100,00, Realisasi: 93,04, Pencapaian (%): 93,04%, Nilai Akhir: 2,79%
+No. V, Indikator: Pengembangan Talenta, Bobot (%): 8,00
+No. 19, Indikator: Average Diversity in Nominated Talent (Women & Young), Bobot (%): 4,00, Satuan: %, Target: 100,00, Realisasi: 108,33, Pencapaian (%): 108,33%, Nilai Akhir: 4,33%
+No. 20, Indikator: Employee Productivity, Bobot (%): 4,00, Satuan: Rp juta, Target: 21,31, Realisasi: 20,02, Pencapaian (%): 93,96%, Nilai Akhir: 3,76%
+Total, Bobot (%): 100,00, Nilai Akhir: 98,73

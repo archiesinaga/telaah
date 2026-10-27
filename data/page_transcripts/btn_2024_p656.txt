@@ -1,0 +1,14 @@
+Tabel Realisasi Program Kerja Audit Internal
+No., Keterangan, Target, Realisasi, % Penc.
+A., Audit Umum (General Audit), 72, 72, 100,00%
+B., Audit ICT (Information & Communication Technology Audit), 18, 19, 105,56%
+C., Audit Khusus, 0, 20, 100,00%
+D., Audit Standar ISO, 31, 37, 119,35%
+TOTAL, 121, 148, 122,31%
+
+Jumlah Temuan
+2020: 3237
+2021: 2817
+2022: 1588
+2023: 1027
+2024: 659

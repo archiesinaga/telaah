@@ -1,0 +1,29 @@
+Tabel 1 (atas kanan):
+Kolom 1: No
+Kolom 2: Tanggal
+Kolom 3: Agenda
+
+Baris:
+6, 04 April 2024, Talent Mobility Pejabat Branch Manager
+7, 30 April 2024, Talent Mobility Pejabat L1A dan L1B
+8, 27 Mei 2024, Talent Mobility Pejabat Branch Manager
+9, 24 Juni 2024, Talent Mobility Pejabat L1A dan L1B
+10, 30 Juni 2024, Talent Mobility Pejabat L1A dan L1B
+11, 26 Agustus 2024, Talent Mobility Pejabat L1A dan L1B
+12, 17 September 2024, Talent Mobility Pejabat Branch Manager
+13, 14 Oktober 2024, Talent Mobility Pejabat L1A dan L1B
+14, 08 November 2024, Talent Mobility Pejabat Branch Manager
+15, 18 November 2024, Talent Mobility Pejabat L1A dan L1B
+16, 05 Desember 2024, Penetapan Nominated Talent
+
+Tabel 2 (bawah kiri):
+Kolom 1: No
+Kolom 2: Tanggal
+Kolom 3: Agenda
+
+Baris:
+1, 08 Januari 2024, Talent Mobility Pejabat L1A dan L1B
+2, 08 Januari 2024, Talent Mobility Pejabat Branch Manager
+3, 17 Januari 2024, Talent Mobility Pejabat Branch Manager
+4, 19 Februari 2024, Talent Mobility Pejabat L1A dan L1B
+5, 13 Maret 2024, Talent Mobility Pejabat L1A dan L1B

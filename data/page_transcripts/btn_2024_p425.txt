@@ -1,0 +1,199 @@
+31 Desember 2023
+Jatuh Tempo
+Saldo | s.d 1 minggu | > 1 minggu s.d 2 minggu | > 2 minggu s.d 1 bulan | > 1 bulan s.d 3 bulan | > 3 bulan s.d 6 bulan | > 6 bulan s.d 12 bulan | > 12 bulan
+
+Baris 1 (kosong):
+- Saldo: -
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 2:
+- Saldo: 24.998.985
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 24.998.985
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 3:
+- Saldo: 24.998.985
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 24.998.985
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 4:
+- Saldo: 20.977.203
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 19.170.698
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: 1.806.505
+
+Baris 5:
+- Saldo: 19.138.038
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 19.138.038
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 6:
+- Saldo: 18.496
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 18.496
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 7:
+- Saldo: 1.806.505
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: 1.806.505
+
+Baris 8:
+- Saldo: -
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 9:
+- Saldo: 1.806.505
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: 1.806.505
+
+Baris 10:
+- Saldo: 14.164
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 14.164
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 11:
+- Saldo: 2.502.757
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 2.502.757
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 12:
+- Saldo: 23.479.960
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 21.673.455
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: 1.806.505
+
+Baris 13:
+- Saldo: 1.519.025
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 3.325.530
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: (1.806.505)
+
+Baris 14:
+- Saldo: 40.765.170
+- s.d 1 minggu: (77.607.561)
+- > 1 minggu s.d 2 minggu: (15.381.751)
+- > 2 minggu s.d 1 bulan: (38.561.698)
+- > 1 bulan s.d 3 bulan: (34.096.909)
+- > 3 bulan s.d 6 bulan: (18.082.373)
+- > 6 bulan s.d 12 bulan: (23.657.534)
+- > 12 bulan: 248.152.996
+
+Baris 15:
+- Saldo: 40.765.170
+- s.d 1 minggu: (77.607.561)
+- > 1 minggu s.d 2 minggu: (92.989.312)
+- > 2 minggu s.d 1 bulan: (131.551.010)
+- > 1 bulan s.d 3 bulan: (165.647.919)
+- > 3 bulan s.d 6 bulan: (183.730.292)
+- > 6 bulan s.d 12 bulan: (207.387.826)
+- > 12 bulan: 40.765.170
+
+(dalam jutaan Rupiah)
+
+31 Desember 2023
+Jatuh Tempo
+Saldo | s.d 1 minggu | > 1 minggu s.d 2 minggu | > 2 minggu s.d 1 bulan | > 1 bulan s.d 3 bulan | > 3 bulan s.d 6 bulan | > 6 bulan s.d 12 bulan | > 12 bulan
+
+Baris 1:
+- Saldo: 32.111
+- s.d 1 minggu: 32.111
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 2:
+- Saldo: 19.257.856
+- s.d 1 minggu: 19.104.196
+- > 1 minggu s.d 2 minggu: 153.661
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 3:
+- Saldo: 1.969.352
+- s.d 1 minggu: 1.969.352
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 4:
+- Saldo: 4.756.845
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: 188.407
+- > 6 bulan s.d 12 bulan: 138.629
+- > 12 bulan: 4.429.809

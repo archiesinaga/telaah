@@ -1,0 +1,23 @@
+Tabel 1:
+No.: 8
+Tanggal Rapat: 27 November 2024
+Agenda Rapat: Penyusunan Rencana Kerja dan Anggaran Perusahaan (RKAP) Tahun 2025 dan Rencana Bisnis Bank (RBB) Tahun 2025-2027.
+Dewan Komisaris - Peserta Rapat: 1. Chandra M. Hamzah, 2. Iqbal Latanro, 3. Armand B. Arief, 4. Sentot A. Sentausa, 5. Adi Sulistyowati, 6. Bambang Widjanarko, 7. Andin Hadiyanto, 8. Herry Trisaputra Zuna, 9. Himawan Arief Sugoto
+Dewan Komisaris - Kehadiran: 1. Hadir, 2. Hadir, 3. Hadir, 4. Hadir, 5. Hadir, 6. Hadir, 7. Hadir, 8. Hadir, 9. Hadir
+Direksi - Peserta Rapat: 1. Nixon L.P. Napitupulu, 2. Oni Febriarto Rahardjo, 3. Andi Nirwoto, 4. Elisabeth Novie Riswanti, 5. Hirwandi Gafar, 6. Jasmin, 7. Setiyo Wibowo, 8. Nofry Rony Poetra, 9. Eko Waluyo, 10. Hakim Putratama, 11. Muhammad Iqbal
+Direksi - Kehadiran: 1. Tidak Hadir, 2. Hadir, 3. Hadir, 4. Hadir, 5. Tidak Hadir, 6. Hadir, 7. Hadir, 8. Hadir, 9. Hadir, 10. Hadir, 11. Hadir
+
+Tabel 2: Tabel Frekuensi dan Kehadiran Rapat Dewan Komisaris
+
+Nama | Jabatan | Rapat Internal Dewan Komisaris - Jumlah dan Persentase Kehadiran (Jumlah Rapat, Jumlah Kehadiran, Persentase) | Rapat Dewan Komisaris Bersama Direksi - Jumlah dan Persentase Kehadiran (Jumlah Rapat, Jumlah Kehadiran, Persentase) | RUPS - Jumlah dan Persentase Kehadiran (Jumlah Rapat, Jumlah Kehadiran, Persentase)
+
+Chandra M. Hamzah | Komisaris Utama/Independen | 53, 49, 92,45% | 8, 7, 87,50% | 1, 1, 100%
+Iqbal Latanro | Wakil Komisaris Utama/Independen | 53, 51, 96,23% | 8, 8, 100% | 1, 1, 100%
+Armand B. Arief | Komisaris Independen | 53, 52, 98,11% | 8, 8, 100% | 1, 1, 100%
+Sentot A. Sentausa | Komisaris Independen | 53, 52, 98,11% | 8, 8, 100% | 1, 1, 100%
+Adi Sulistyowati* | Komisaris Independen | 13, 13, 100% | 2, 2, 100% | 0, 0, -
+Bambang Widjanarko* | Komisaris Independen | 13, 13, 100% | 2, 2, 100% | 0, 0, -
+Andin Hadiyanto | Komisaris | 53, 53, 100% | 8, 8, 100% | 1, 1, 100%
+Himawan Arief Sugoto | Komisaris | 53, 51, 96,23% | 8, 8, 100% | 1, 1, 100%
+Herry Trisaputra Zuna | Komisaris | 53, 52, 98,11% | 8, 8, 100% | 1, 1, 100%
+Mohamad Yusuf Permana** | Komisaris | 9, 9, 100% | 1, 1, 100% | 0, 0, -

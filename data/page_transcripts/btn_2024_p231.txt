@@ -1,0 +1,12 @@
+1. Judul atau keterangan: Grafik Perbandingan Outstanding KPR Bank di Indonesia Desember 2024 (dalam triliun Rupiah)
+2. Label sumbu, legenda, satuan, dan periode: 
+- Satuan: dalam triliun Rupiah
+- Periode: Desember 2024
+- Label kategori (bank): BTN, BCA, BNI, Mandiri, BRI, CIMB Niaga
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- BTN: 280
+- BCA: 136
+- BNI: 67
+- Mandiri: 66
+- BRI: 59
+- CIMB Niaga: 42

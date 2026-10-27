@@ -1,0 +1,25 @@
+1. Judul atau keterangan infografik:
+- FASE I 2023
+- FASE II 2024
+- FASE III 2025
+
+2. Label, legenda, dan kategori di sekeliling diagram:
+- Recruitment
+- Onboarding
+- Performance & Goal
+- Succession & Development
+- Learning Management
+- Travel Management
+- Strategic Workforce Planning
+- Advanced People Analytic
+- Payroll
+- Benefit
+- Compensation
+- Time Management
+- Personal Administration
+- Organization Management
+
+3. Angka atau tahun yang tertera di dalam diagram:
+- 2023 (pada label FASE I)
+- 2024 (pada label FASE II)
+- 2025 (pada label FASE III)

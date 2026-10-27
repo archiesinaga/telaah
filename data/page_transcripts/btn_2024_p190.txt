@@ -1,0 +1,59 @@
+1. Profil Perusahaan
+
+Tabel 1: Pemegang Saham
+Header:
+- Pemegang Saham
+- Jumlah Pemegang Saham
+- Jumlah Saham (Lembar)
+- Persentase Kepemilikan (%)
+
+Baris-baris data:
+- Dana Pensiun: Jumlah Pemegang Saham: 108, Jumlah Saham (Lembar): 1.331.751.166, Persentase Kepemilikan (%): 9,49
+- Koperasi: Jumlah Pemegang Saham: 3, Jumlah Saham (Lembar): 1.016.500, Persentase Kepemilikan (%): 0,01
+- Perorangan Indonesia: Jumlah Pemegang Saham: 55.826, Jumlah Saham (Lembar): 1.594.873.202, Persentase Kepemilikan (%): 11,36
+- Perseroan Terbatas: Jumlah Pemegang Saham: 153, Jumlah Saham (Lembar): 115.739.035, Persentase Kepemilikan (%): 0,82
+- Reksadana: Jumlah Pemegang Saham: 150, Jumlah Saham (Lembar): 744.706.029, Persentase Kepemilikan (%): 5,31
+- Yayasan: Jumlah Pemegang Saham: 15, Jumlah Saham (Lembar): 26.954.630, Persentase Kepemilikan (%): 0,19
+- Sub Total: Jumlah Pemegang Saham: 56.351, Jumlah Saham (Lembar): 4.107.900.705, Persentase Kepemilikan (%): 29,27%
+
+ASING
+- Badan Usaha Asing: Jumlah Pemegang Saham: 204, Jumlah Saham (Lembar): 1.503.132.136, Persentase Kepemilikan (%): 10,71
+- Perorangan Asing: Jumlah Pemegang Saham: 71, Jumlah Saham (Lembar): 2.744.924, Persentase Kepemilikan (%): 0,02
+- Sub Total: Jumlah Pemegang Saham: 275, Jumlah Saham (Lembar): 1.505.877.060, Persentase Kepemilikan (%): 10,73
+- TOTAL: Jumlah Pemegang Saham: 56.626, Jumlah Saham (Lembar): 5.613.777.765, Persentase Kepemilikan (%): 40,00%
+
+2. Kepemilikan Saham oleh Dewan Komisaris dan Direksi
+
+Tabel Kepemilikan Saham Dewan Komisaris dan Direksi BTN per 1 Januari 2024
+Header:
+- No.
+- Nama
+- Jabatan
+- Jumlah Saham (Lembar)
+- Persentase Kepemilikan (%)
+
+DIREKSI
+- 1, Nixon L.P. Napitupulu, Direktur Utama: Jumlah Saham (Lembar): 4.250.500, Persentase Kepemilikan (%): 0,0302862
+- 2, Oni Febriarto Rahardjo, Wakil Direktur Utama: Jumlah Saham (Lembar): 308.000, Persentase Kepemilikan (%): 0,0021946
+- 3, Andi Nirwoto, Direktur IT and Digital: Jumlah Saham (Lembar): 1.822.161, Persentase Kepemilikan (%): 0,0129835
+- 4, Elisabeth Novie Riswanti, Direktur Asset Management: Jumlah Saham (Lembar): 1.733.200, Persentase Kepemilikan (%): 0,0123496
+- 5, Jasmin, Direktur Distribution and Funding: Jumlah Saham (Lembar): 2.848.030, Persentase Kepemilikan (%): 0,0202931
+- 6, Setiyo Wibowo, Direktur Risk Management: Jumlah Saham (Lembar): 1.892.700, Persentase Kepemilikan (%): 0,0134861
+- 7, Hirwandi Gafar, Direktur Consumer: Jumlah Saham (Lembar): 1.763.314, Persentase Kepemilikan (%): 0,0125642
+- 8, Nofry Rony Poetra, Direktur Finance: Jumlah Saham (Lembar): 2.531.022, Persentase Kepemilikan (%): 0,0180344
+- 9, Eko Waluyo, Direktur Human Capital, Compliance and Legal: Jumlah Saham (Lembar): 1.871.964, Persentase Kepemilikan (%): 0,0133384
+- 10, Hakim Putratama, Direktur Institutional Banking: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+
+DEWAN KOMISARIS
+- 1, Chandra M. Hamzah, Komisaris Utama/Independen: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+- 2, Iqbal Latanro, Wakil Komisaris Utama/Independen: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+- 3, Armand B. Arief, Komisaris Independen: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+- 4, Sentot A. Sentausa, Komisaris Independen: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+- 5, Andin Hadiyanto, Komisaris: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+- 6, Herry Trisaputra Zuna, Komisaris: Jumlah Saham (Lembar): 404.600, Persentase Kepemilikan (%): 0,0028829
+- 7, Himawan Arief Sugoto, Komisaris: Jumlah Saham (Lembar): 404.600, Persentase Kepemilikan (%): 0,0028829
+- 8, M Yusuf Permana*, Komisaris: Jumlah Saham (Lembar): -, Persentase Kepemilikan (%): -
+- TOTAL: Jumlah Saham (Lembar): 19.830.091, Persentase Kepemilikan (%): 0,1412959
+
+Nomor halaman:
+- 188

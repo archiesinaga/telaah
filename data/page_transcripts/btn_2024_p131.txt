@@ -1,0 +1,11 @@
+1. Judul atau keterangan:
+- Warga Negara Indonesia, berusia 55 Tahun Per Desember 2024, berdomisili di Jakarta Selatan, Indonesia
+- Kepemilikan Saham BBTN
+- Per 31 Desember 2024, memiliki 5.399.000 lembar saham/0,0384696%
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Per 31 Desember 2024
+
+3. Angka yang tertera:
+- Per Desember 2024: 55 Tahun
+- Per 31 Desember 2024: 5.399.000 lembar saham/0,0384696%

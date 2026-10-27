@@ -1,0 +1,29 @@
+Judul: Struktur Satuan Kerja Manajemen Risiko Operasional dan Digital
+
+1. L1
+- Digital & Operations Risk Management (DORD)
+- Secretary
+- Regional Office
+
+2. L2
+- Fraud Risk Management
+- Digital Risk Management
+- Operational Risk Management
+- Regional Operational Risk Control
+- Operational Risk Control
+- Regional Business Control
+
+3. L3/L4
+- Fraud Stategic Strategy & Presentation
+- Fraud Operational, Detection & Investigation
+- Fraud Monitoring & Recovery
+- Digital Risk, Governance, Monitoring and Reporting
+- Digital Risk Assesment
+- Operational Risk Development
+- Operational Risk Assesment
+- Regional Operational Risk Control Analyst
+- Operational Risk Control Analyst
+- Regional Business Control Supervisor
+- Branch Business Control
+- CBC Business Control
+- Regional Business Control Officer

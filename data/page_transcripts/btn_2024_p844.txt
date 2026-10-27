@@ -1,0 +1,18 @@
+Tabel 1:
+- Judul/Kolom: No., Nama Program, TPB, Lokasi, Jenis Bantuan, Jumlah Penerima Manfaat
+- Baris 1: 
+  - No.: 2
+  - Nama Program: Rumah Tidak Layak Huni
+  - TPB: TPB 3
+  - Lokasi: Tapanuli Tengah, Jawa Barat
+  - Jenis Bantuan: Perseroan mendukung Percepatan Penghapusan Kemiskinan Ekstrem, dengan memberikan bantuan perbaikan rumah bagi keluarga miskin ekstrem
+  - Jumlah Penerima Manfaat: 35 unit
+
+Tabel 2 (Rincian Program CID Berdasarkan Fokus TJSL):
+- Judul/Kolom: No., Bidang, Realisasi (Rp), Kategori Kegiatan, Sebaran Wilayah Bantuan
+- Baris 1:
+  - No.: 1
+  - Bidang: Lingkungan
+  - Realisasi (Rp): 12.397.865.592
+  - Kategori Kegiatan: Penghijauan Lingkungan Perumahan BTN, Penanaman Bibit Pohon Penanaman Mangrove, Sarana dan Prasarana Kebersihan, Sarana dan Prasarana Umum Masyarakat
+  - Sebaran Wilayah Bantuan: Bantuan TJSL Perseroan telah dilakukan secara merata di seluruh wilayah kerja mulai dari DKI Jakarta, Cibubur, Bekasi, Ciputat, Tangerang, Karawaci, Cilegon, Tasikmalaya, Karawang, Cirebon, Tegal, Solo, Magelang, Yogyakarta, Kudus, Jember, Kediri, Mulyosari, Sidoarjo, Surabaya, Bangkalan, Malang, Jambi, Tanjung Pinang, Pangkal Pinang, Palembang, Bengkulu, Padang, Bandar Lampung, Pematang Siantar, Balikpapan, Denpasar, Mataram, Makassar, Ambon

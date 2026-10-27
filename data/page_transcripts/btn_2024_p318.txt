@@ -1,0 +1,26 @@
+Uraian, 2024, 2023, Pertumbuhan Rp, Pertumbuhan %
+1, 2, 3, (4) = (2)-(3), (5) = (4)/(3)
+Penerimaan atas efek-efek yang dibeli dengan janji dijual kembali, 143.153.604, 67.691.353, 75.462.251, 111,48%
+Pembayaran atas jatuh tempo efek-efek yang dijual dengan janji dibeli kembali, (139.744.766), (67.691.353), (72.053.413), 106,44%
+Pembayaran dividen, (700.198), (609.015), (91.183), 14,97%
+Penerimaan dari pinjaman yang diterima, 11.144.193, 11.185.162, (40.969), (0,37%)
+Pembayaran dari pinjaman yang diterima, (11.385.262), (2.187.576), (9.197.686), 420,45%
+Pembayaran liabilitas sewa, (93.408), (81.973), (11.435), 13,95%
+Pembayaran atas pinjaman dan efek-efek subordinasi jatuh tempo, (3.000.000), -, (3.000.000), (100%)
+Dana setoran modal, -, 1.330.093, (1.330.093), (100,00%)
+Kas Neto (digunakan untuk) diperoleh dari Aktivitas Pendanaan, (3.517.424), 9.315.946, (12.833.370), (137,76%)
+KENAIKAN NETO KAS DAN SETARA KAS, (17.579.380), 11.511.084, (29.090.464), (252,72%)
+KAS DAN SETARA KAS AWAL TAHUN, 53.037.770, 41.526.686, 11.511.084, 27,72%
+KAS DAN SETARA KAS AKHIR TAHUN, 35.458.390, 53.037.770, (17.579.380), (33,15%)
+
+Grafik Laporan Arus Kas (dalam triliun Rupiah)
+Legenda: 2023, 2024
+Kas Neto (digunakan untuk) diperoleh dari Aktivitas Operasi:
+- 2023: 6,63
+- 2024: (8,76)
+Kas Neto digunakan untuk Aktivitas Investasi:
+- 2024: (5,31)
+- 2023: (4,44)
+Kas Neto (digunakan untuk) diperoleh dari Aktivitas Pendanaan:
+- 2023: 9,32
+- 2024: (3,52)

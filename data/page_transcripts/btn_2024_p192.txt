@@ -1,0 +1,10 @@
+Tabel Klasifikasi Pemegang Saham BTN Per 31 Desember 2024
+Pemegang Saham: Jumlah Pemegang Saham, Jumlah Saham (Lembar), Persentase Kepemilikan (%)
+Institusi Lokal: 526, 10.933.694.151, 77,91
+Institusi Asing: 204, 1.503.132.136, 10,71
+Individu Lokal: 55.826, 1.594.873.202, 11,36
+Individu Asing: 71, 2.744.924, 0,02
+Total: 56.627, 14.034.444.413, 100,00
+
+Infografik Pemegang Saham Utama dan Pengendali:
+Pemerintah Republik Indonesia*: 60%

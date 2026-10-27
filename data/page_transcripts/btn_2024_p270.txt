@@ -1,0 +1,35 @@
+Tabel Jumlah Rekening Tabungan Konsumen
+Satuan: (rekening)
+Periode: 2024 dan 2023
+
+Tabungan Konsumen:
+Tabungan Batara, 2024: 2.588.725, 2023: 3.376.346, Nominal: (787.621), Persentase: (23,33%)
+Tabungan Bisnis, 2024: 61.138, 2023: 35.251, Nominal: 25.887, Persentase: 73,44%
+Tabungan Investa, 2024: 8.080, 2023: 7.535, Nominal: 545, Persentase: 7,23%
+Tabungan eBatara Pos, 2024: 602.956, 2023: 588.242, Nominal: 14.714, Persentase: 2,50%
+Tabungan Lainnya, 2024: 2.878.569, 2023: 3.092.363, Nominal: (213.794), Persentase: (6,91%)
+Tabungan Junior, 2024: 95.234, 2023: 111.110, Nominal: (15.876), Persentase: (14,29%)
+Tabungan Juara, 2024: 614.216, 2023: 556.006, Nominal: 58.210, Persentase: 10,47%
+Tabungan Simpel, 2024: 824.069, 2023: 795.592, Nominal: 28.477, Persentase: 3,58%
+TabunganKu, 2024: 1.148.480, 2023: 1.448.630, Nominal: (300.150), Persentase: (20,72%)
+Tabungan BTN Perumahan, 2024: 2.457, 2023: 2.617, Nominal: (160), Persentase: (6,11%)
+Tabungan Cermat, 2024: 123.203, 2023: 123.211, Nominal: (8), Persentase: (0,01%)
+Tabungan BTN Haji, 2024: 262, 2023: 261, Nominal: 1, Persentase: -
+Tabungan Siap!, 2024: 68.671, 2023: 53.936, Nominal: 14.735, Persentase: 27,32%
+Tabungan SiMuda RumahKu, 2024: -, 2023: 2, Nominal: (2), Persentase: (100,00%)
+Tabungan BTN Felas, 2024: 1.977, 2023: 998, Nominal: 979, Persentase: 98,10%
+Jumlah Dana Tabungan Konsumen, 2024: 6.139.468, 2023: 7.099.737, Nominal: (960.269), Persentase: (13,53%)
+
+Tabel Jumlah Deposito Berjangka
+Satuan: (dalam jutaan Rupiah)
+Periode: 2024 dan 2023
+
+DEPOSITO ON BILYET
+1 bulan, 2024: 8.276.804, 2023: 8.293.915, Nominal: (17.111), Persentase: (0,21%)
+2 bulan, 2024: 1.885.215, 2023: 447.053, Nominal: 1.438.162, Persentase: 321,70%
+3 bulan, 2024: 11.159.587, 2023: 11.878.796, Nominal: (719.208), Persentase: (6,05%)
+4 Bulan, 2024: 444.730, 2023: 768.713, Nominal: (323.983), Persentase: (42,15%)
+6 bulan, 2024: 2.200.387, 2023: 2.016.777, Nominal: 183.610, Persentase: 9,10%
+> 12 bulan, 2024: 278.385, 2023: 327.305, Nominal: (48.920), Persentase: (14,95%)
+
+Nomor Halaman: 268

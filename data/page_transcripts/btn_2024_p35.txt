@@ -1,0 +1,13 @@
+Tanggal Transaksi: 31 Oktober 2016, Jatuh Tempo: 27 Juni 2027, Average Life: 7,05, Kupon Kelas A: A1 = 8,15% | A2 = 8,75%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 28 April 2017, Jatuh Tempo: 07 Januari 2028, Average Life: 7,78, Kupon Kelas A: A1 = 8,00% | A2 = 8,40%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 28 Februari 2018, Jatuh Tempo: 07 Mei 2029, Average Life: 7,03, Kupon Kelas A: A1 = 7,00% | A2 = 7,50%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 27 November 2019, Jatuh Tempo: 07 Mei 2032, Average Life: 9,09, Kupon Kelas A: A1 = 8,50% | A2 = 8,75% | M = 10,40%, Peringkat Kelas A: idAAA | idA
+Tanggal Transaksi: 30 Desember 2020, Jatuh Tempo: 07 Juli 2032, Average Life: 6,08, Kupon Kelas A: 6,50%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 23 Desember 2022, Jatuh Tempo: 07 Januari 2034, Average Life: 5,66, Kupon Kelas A: 7,70%, Peringkat Kelas A: idAAA
+Tanggal Transaksi: 26 September 2023, Jatuh Tempo: 07 Agustus 2035, Average Life: 7,44, Kupon Kelas A: 6,65%, Peringkat Kelas A: idAAA
+
+Tabel Negotiable Certificate of Deposit BTN
+Jenis NCD: NCD Tahap I Tahun 2023, Nominal Penerbitan (Rp): 1.500.000.000.000, Tanggal Transaksi: 20 Oktober 2023
+Seri A, Jangka Waktu: 6 bulan, Jatuh Tempo: 17 April 2024, Rate: 6,40%, Nominal Per Seri: 500.000.000.000
+Seri B, Jangka Waktu: 9 bulan, Jatuh Tempo: 16 Juli 2024, Rate: 6,45%, Nominal Per Seri: 70.000.000.000
+Seri C, Jangka Waktu: 12 bulan, Jatuh Tempo: 21 Oktober 2024, Rate: 6,53%, Nominal Per Seri: 930.000.000.000

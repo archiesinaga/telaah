@@ -1,0 +1,8 @@
+Tanggal Jatuh Tempo: 8 Juli 2025, Tingkat Suku Bunga: 10,5%, Status Pembayaran: Belum Jatuh Tempo, Peringkat 2024: AA+(idn), Peringkat 2023: AA+(idn), Wali Amanat: Bank BJB
+Tanggal Jatuh Tempo: 13 Juli 2024, Tingkat Suku Bunga: 8,70%, Status Pembayaran: Lunas, Peringkat 2024: -, Peringkat 2023: AA+(idn), Wali Amanat: Bank Mega
+Tanggal Jatuh Tempo: 13 Juli 2027, Tingkat Suku Bunga: 8,90%, Status Pembayaran: Belum Jatuh Tempo, Peringkat 2024: AA+(idn), Peringkat 2023: AA+(idn), Wali Amanat: Bank Mega
+Tanggal Jatuh Tempo: 28 Juni 2024, Tingkat Suku Bunga: 9,00%, Status Pembayaran: Lunas, Peringkat 2024: -, Peringkat 2023: AA+(idn), Wali Amanat: Bank Mega
+Tanggal Jatuh Tempo: 23 Januari 2025, Tingkat Suku Bunga: 4,20%, Status Pembayaran: Belum Jatuh Tempo, Peringkat 2024: Ba3, Peringkat 2023: Ba3, Wali Amanat: Bank BJB
+Tanggal Jatuh Tempo: 19 Agustus 2025, Tingkat Suku Bunga: 8,40%, Status Pembayaran: Belum Jatuh Tempo, Peringkat 2024: AA+(idn), Peringkat 2023: AA+(idn), Wali Amanat: Bank BJB
+Tanggal Jatuh Tempo: 24 Mei 2025, Tingkat Suku Bunga: 5,50%, Status Pembayaran: Belum Jatuh Tempo, Peringkat 2024: AA+(idn), Peringkat 2023: AA+(idn), Wali Amanat: Bank BJB
+Tanggal Jatuh Tempo: 24 Mei 2027, Tingkat Suku Bunga: 6,0%, Status Pembayaran: Belum Jatuh Tempo, Peringkat 2024: AA+(idn), Peringkat 2023: AA+(idn), Wali Amanat: Bank BJB

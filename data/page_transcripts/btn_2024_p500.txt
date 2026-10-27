@@ -1,0 +1,34 @@
+Hasil Pemungutan Suara
+Setuju : 10.430.252.214 (93,1894388%)
+Tidak Setuju : 388.189.479 (3,4682919%)
+Abstain : 374.084.358 (3,3422693%)
+
+Tabel 1:
+No.: 1
+Semula: Direktur Distribution and Funding
+Menjadi: Direktur Distribution and Institutional Funding
+
+No.: 2
+Semula: Direktur IT and Digital
+Menjadi: Direktur Information Technology
+
+No.: 3
+Semula: Direktur Institutional Banking
+Menjadi: Direktur Operations and Customer Experience
+
+No.: 4
+Semula: -
+Menjadi: Direktur SME and Retail Funding
+
+Tabel 2:
+No.: 1
+Nama: Sdr. Andi Nirwoto
+Semula: Direktur IT and Digital
+Menjadi: Direktur Information Technology
+
+No.: 2
+Nama: Sdr. Hakim Putratama
+Semula: Direktur Institutional Banking
+Menjadi: Direktur Operations and Customer Experience
+
+498 PT Bank Tabungan Negara (Persero) Tbk

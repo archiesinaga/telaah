@@ -1,0 +1,83 @@
+1. Judul: Tabel Jaringan Kantor Tahun selama 5 tahun terakhir
+Periode: 2024, 2023, 2022, 2021, 2020
+Jenis Kantor dan Angka:
+- Kantor Wilayah: 2024: 8, 2023: 6, 2022: 6, 2021: 6, 2020: 6
+- Kantor Cabang: 2024: 82, 2023: 81, 2022: 80, 2021: 79, 2020: 78
+- Kantor Cabang Pembantu: 2024: 536, 2023: 541, 2022: 537, 2021: 543, 2020: 314
+- Kantor Kas: 2024: -, 2023: -, 2022: -, 2021: -, 2020: 247
+- Payment Point: 2024: -, 2023: -, 2022: -, 2021: -, 2020: 56
+- Kantor Fungsional: 2024: 4, 2023: 3, 2022: 3, 2021: 58*
+- Kantor Layanan Setara KCP: 2024: -, 2023: -, 2022: 2, 2021: 2, 2020: 2
+- Mobil Kas Keliling (BTNMove): 2024: -, 2023: -, 2022: -, 2021: 51, 2020: 23
+- Total Jaringan Kantor Konvensional: 2024: 630, 2023: 631, 2022: 628, 2021: 739, 2020: 726
+- Kantor Cabang Syariah: 2024: 35, 2023: 34, 2022: 30, 2021: 29, 2020: 25
+- Kantor Cabang Pembantu Syariah: 2024: 75, 2023: 75, 2022: 69, 2021: 61, 2020: 59
+- Kantor Kas Syariah: 2024: -, 2023: -, 2022: 5, 2021: 7, 2020: 7
+- Payment Point Syariah: 2024: -, 2023: -, 2022: 6, 2021: 12, 2020: 12
+- Total Jaringan Kantor Syariah: 2024: 110, 2023: 109, 2022: 110, 2021: 109, 2020: 103
+
+2. Infografik rincian jaringan kantor per wilayah (Kolom 1 - 5):
+Kolom 1:
+- Judul/Label: 4 Kantor Wilayah Jatim Bali Nusra
+- Kantor Wilayah: 1
+- Kantor Cabang: 16
+- Kantor Cabang Pembantu: 81
+- Kantor Kas: -
+- Payment Point: 4
+- Kantor Fungsional: 13
+- Kantor Layanan Setara KCP: -
+- Mobil Kas Keliling (BTNMove): -
+- Kantor Cabang Syariah: 8
+- Total Jaringan Kantor Konvensional: 332
+
+Kolom 2:
+- Judul/Label: 5 Kantor Wilayah Sumatera
+- Kantor Wilayah: 1
+- Kantor Cabang: 11
+- Kantor Cabang Pembantu: 76
+- Kantor Kas: 1
+- Payment Point: 10
+- Kantor Fungsional: 17
+- Kantor Layanan Setara KCP: -
+- Mobil Kas Keliling (BTNMove): -
+- Kantor Cabang Syariah: 8
+- Total Jaringan Kantor Konvensional: 303
+
+Kolom 3:
+- Judul/Label: 6 Kantor Wilayah Sulawesi, Maluku, Papua
+- Kantor Wilayah: 1
+- Kantor Cabang: 11
+- Kantor Cabang Pembantu: 38
+- Kantor Kas: -
+- Payment Point: 3
+- Kantor Fungsional: 2
+- Kantor Layanan Setara KCP: -
+- Mobil Kas Keliling (BTNMove): -
+- Kantor Cabang Syariah: 5
+- Total Jaringan Kantor Konvensional: 164
+
+Kolom 4:
+- Judul/Label: 7 Kantor Wilayah Jateng & DIY
+- Kantor Wilayah: 1
+- Kantor Cabang: 8
+- Kantor Cabang Pembantu: 55
+- Kantor Kas: 2
+- Payment Point: 4
+- Kantor Fungsional: 14
+- Kantor Layanan Setara KCP: -
+- Mobil Kas Keliling (BTNMove): -
+- Kantor Cabang Syariah: 5
+- Total Jaringan Kantor Konvensional: 209
+
+Kolom 5:
+- Judul/Label: 8 Kantor Wilayah Kalimantan
+- Kantor Wilayah: 1
+- Kantor Cabang: 7
+- Kantor Cabang Pembantu: 32
+- Kantor Kas: -
+- Payment Point: 3
+- Kantor Fungsional: 3
+- Kantor Layanan Setara KCP: -
+- Mobil Kas Keliling (BTNMove): -
+- Kantor Cabang Syariah: 5
+- Total Jaringan Kantor Konvensional: 131

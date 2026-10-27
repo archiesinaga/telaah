@@ -1,0 +1,66 @@
+1. Judul atau keterangan:
+Tabel Sekuritisasi KPR BTN
+
+2. Label kolom, satuan:
+- No.
+- Transaksi Sekuritisasi
+- Nominal Total (Rp)
+- Kelas
+- Nominal (Rp)
+
+3. Semua angka yang tertera beserta label/barisnya:
+- Baris 1:
+  - No.: 1.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 02
+  - Nominal Total (Rp): 1.000.000.000.000
+  - Kelas A1: 400.000.000.000
+  - Kelas A2: 513.000.000.000
+  - Kelas B: 87.000.000.000
+
+- Baris 2:
+  - No.: 2.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 03
+  - Nominal Total (Rp): 1.000.000.000.000
+  - Kelas A1: 200.000.000.000
+  - Kelas A2: 713.000.000.000
+  - Kelas B: 87.000.000.000
+
+- Baris 3:
+  - No.: 3.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 04
+  - Nominal Total (Rp): 2.000.000.000.000
+  - Kelas A1: 700.000.000.000
+  - Kelas A2: 1.124.000.000.000
+  - Kelas B: 176.000.000.000
+
+- Baris 4:
+  - No.: 4.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 05
+  - Nominal Total (Rp): 2.000.000.000.000
+  - Kelas A1: 574.000.000.000
+  - Kelas A2: 1.142.000.000.000
+  - Kelas M: 24.000.000.000
+  - Kelas B: 260.000.000.000
+
+- Baris 5:
+  - No.: 5.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 06
+  - Nominal Total (Rp): 631.000.543.015
+  - Kelas A: 576.734.000.000
+  - Kelas B: 54.266.543.015
+
+- Baris 6:
+  - No.: 6.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 07
+  - Nominal Total (Rp): 500.000.001.416
+  - Kelas A: 452.500.000.000
+  - Kelas B: 47.500.001.416
+
+- Baris 7:
+  - No.: 7.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 08
+  - Nominal Total (Rp): 600.000.020.055
+  - Kelas A: 544.800.000.000
+  - Kelas B: 55.200.020.055
+
+Nomor Halaman: 32

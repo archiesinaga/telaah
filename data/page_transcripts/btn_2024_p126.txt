@@ -1,0 +1,58 @@
+1. Judul atau keterangan:
+Jaringan Kantor Per Wilayah Tahun 2024
+
+2. Label, legenda, satuan, dan periode:
+- Periode: Tahun 2024
+- Kolom 1: 1 Kantor Wilayah Jawa Barat
+- Kolom 2: 2 Kantor Wilayah Jakarta I
+- Kolom 3: 3 Kantor Wilayah Jakarta II
+- Baris:
+  - Kantor Wilayah
+  - Kantor Cabang
+  - Kantor Cabang Pembantu
+  - Kantor Fungsional
+  - Kantor Cabang Syariah
+  - Kantor Cabang Pembantu Syariah
+  - Kantor Kas Syariah
+  - Payment Point Syariah
+  - Outlet & Lounge BTN Prioritas
+  - ATM & CRM
+
+3. Angka yang tertera (dipasangkan dengan label/kolom):
+- Kolom 1 (Kantor Wilayah Jawa Barat):
+  - Kantor Wilayah: 1
+  - Kantor Cabang: 10
+  - Kantor Cabang Pembantu: 80
+  - Kantor Fungsional: -
+  - Kantor Cabang Syariah: 5
+  - Kantor Cabang Pembantu Syariah: 11
+  - Kantor Kas Syariah: -
+  - Payment Point Syariah: -
+  - Outlet & Lounge BTN Prioritas: 6
+  - ATM & CRM: 337
+
+- Kolom 2 (Kantor Wilayah Jakarta I):
+  - Kantor Wilayah: 1
+  - Kantor Cabang: 11
+  - Kantor Cabang Pembantu: 93
+  - Kantor Fungsional: -
+  - Kantor Cabang Syariah: 3
+  - Kantor Cabang Pembantu Syariah: 9
+  - Kantor Kas Syariah: -
+  - Payment Point Syariah: -
+  - Outlet & Lounge BTN Prioritas: 11
+  - ATM & CRM: 334
+
+- Kolom 3 (Kantor Wilayah Jakarta II):
+  - Kantor Wilayah: 1
+  - Kantor Cabang: 8
+  - Kantor Cabang Pembantu: 81
+  - Kantor Fungsional: 1
+  - Kantor Cabang Syariah: 3
+  - Kantor Cabang Pembantu Syariah: 6
+  - Kantor Kas Syariah: -
+  - Payment Point Syariah: -
+  - Outlet & Lounge BTN Prioritas: 9
+  - ATM & CRM: 261
+
+- Nomor halaman: 124

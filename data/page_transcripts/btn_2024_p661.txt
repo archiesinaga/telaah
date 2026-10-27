@@ -1,0 +1,11 @@
+Tabel Pelaksana Surveillance Audit untuk Sertifikasi ISO 9001:2008 dan ISO 9001:2015
+Kolom: No., Audit Eksternal, Tahun, Keterangan
+- 1 | PT SGS | 2022 | Pelaksanaan surveillance audit untuk sertifikasi ISO 9001:2015 oleh Audit Eksternal PT SGS
+- 2 | PT SGS | 2023 | Pelaksanaan surveillance audit untuk sertifikasi ISO 9001:2015 oleh Audit Eksternal PT SGS
+- 3 | PT SGS | 2024 | Pelaksanaan surveillance audit untuk sertifikasi ISO 9001:2015 oleh Audit Eksternal PT SGS
+
+Tabel Assessor Independen Terkait Penilaian atas Pelaksanaan Audit
+Kolom: No., Audit Eksternal, Tahun, Keterangan
+- 1 | PT Deloitte Touche Tohmatsu | 2018 | Pelaksanaan proses review gap analysis kebijakan, prosedur dan metodologi serta pelaksanaan audit terhadap best practices SPFAIB setiap 3 tahun sekali oleh Auditor Eksternal
+- 2 | PT KPMG Siddharta Advisory | 2020 | Pelaksanaan proses review gap analysis kebijakan, prosedur dan metodologi serta pelaksanaan audit terhadap best practices SPFAIB setiap 3 tahun sekali oleh Auditor Eksternal
+- 3 | PT PricewaterhouseCoopers (PWC) | 2023 | Pelaksanaan proses review gap analysis kebijakan, prosedur dan metodologi serta pelaksanaan audit terhadap best practices Standar Penerapan Fungsi Audit Intern pada Bank Umum setiap 3 tahun sekali oleh Auditor Eksternal

@@ -1,0 +1,47 @@
+1. Judul atau keterangan:
+Tabel Posisi Nilai Pembiayaan Syariah (dalam jutaan Rupiah)
+
+2. Label, satuan, dan periode:
+- Pembiayaan Syariah
+- 2024
+- 2023
+- Kenaikan/Penurunan: Nominal, Persentase
+
+3. Angka yang tertera:
+- Pembiayaan Konsumen - 2024: 41.156.171
+- Pembiayaan Konsumen - 2023: 34.773.107
+- Pembiayaan Konsumen - Nominal Kenaikan/Penurunan: 6.383.063
+- Pembiayaan Konsumen - Persentase Kenaikan/Penurunan: 18,36%
+- Pembiayaan Komersial - 2024: 2.736.656
+- Pembiayaan Komersial - 2023: 2.341.174
+- Pembiayaan Komersial - Nominal Kenaikan/Penurunan: 395.482
+- Pembiayaan Komersial - Persentase Kenaikan/Penurunan: 16,89%
+- Jumlah Posisi Nilai Pembiayaan Syariah - 2024: 43.892.827
+- Jumlah Posisi Nilai Pembiayaan Syariah - 2023: 37.114.281
+- Jumlah Posisi Nilai Pembiayaan Syariah - Nominal Kenaikan/Penurunan: 6.778.545
+- Jumlah Posisi Nilai Pembiayaan Syariah - Persentase Kenaikan/Penurunan: 18,26%
+
+---
+
+1. Judul atau keterangan:
+Tabel Posisi Volume Pembiayaan Syariah (dalam unit pembiayaan)
+
+2. Label, satuan, dan periode:
+- Pembiayaan Syariah
+- 2024
+- 2023
+- Kenaikan/Penurunan: Nominal, Persentase
+
+3. Angka yang tertera:
+- Pembiayaan Konsumen - 2024: 311.252
+- Pembiayaan Konsumen - 2023: 276.508
+- Pembiayaan Konsumen - Nominal Kenaikan/Penurunan: 34.744
+- Pembiayaan Konsumen - Persentase Kenaikan/Penurunan: 12,57%
+- Pembiayaan Komersial - 2024: 1.461
+- Pembiayaan Komersial - 2023: 1.260
+- Pembiayaan Komersial - Nominal Kenaikan/Penurunan: 201
+- Pembiayaan Komersial - Persentase Kenaikan/Penurunan: 15,95%
+- Jumlah Posisi Volume Pembiayaan Syariah - 2024: 312.713
+- Jumlah Posisi Volume Pembiayaan Syariah - 2023: 277.768
+- Jumlah Posisi Volume Pembiayaan Syariah - Nominal Kenaikan/Penurunan: 34.945
+- Jumlah Posisi Volume Pembiayaan Syariah - Persentase Kenaikan/Penurunan: 12,58%

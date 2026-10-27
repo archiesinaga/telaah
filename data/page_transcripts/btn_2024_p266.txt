@@ -1,0 +1,81 @@
+1. Judul atau keterangan:
+Tabel Volume Penyaluran KPR Subsidi (dalam unit)
+Tabel Nilai Penyaluran Produk KPR Non Subsidi (dalam jutaan Rupiah)
+Tabel Volume Penyaluran KPR Non Subsidi (dalam unit)
+
+2. Label, legenda, satuan, dan periode:
+- KPR Subsidi / KPR Non Subsidi
+- 2024
+- 2023
+- Kenaikan/Penurunan: Nominal, Persentase
+- Satuan: (dalam unit) untuk tabel KPR Subsidi dan Volume KPR Non Subsidi, (dalam jutaan Rupiah) untuk tabel Nilai Penyaluran Produk KPR Non Subsidi.
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+
+Tabel Volume Penyaluran KPR Subsidi:
+- KPR BTN Sejahtera Tapak, 2024: 114.835
+- KPR BTN Sejahtera Tapak, 2023: 126.312
+- KPR BTN Sejahtera Tapak, Kenaikan/Penurunan Nominal: (11.477)
+- KPR BTN Sejahtera Tapak, Kenaikan/Penurunan Persentase: (9,09%)
+
+- KPR BP2BT, 2024: -
+- KPR BP2BT, 2023: -
+- KPR BP2BT, Kenaikan/Penurunan Nominal: -
+- KPR BP2BT, Kenaikan/Penurunan Persentase: -
+
+- KPR BTN Tapera, 2024: 3812
+- KPR BTN Tapera, 2023: 4.514
+- KPR BTN Tapera, Kenaikan/Penurunan Nominal: (702)
+- KPR BTN Tapera, Kenaikan/Penurunan Persentase: (15,55%)
+
+- Jumlah Volume Penyaluran KPR Subsidi, 2024: 118.665
+- Jumlah Volume Penyaluran KPR Subsidi, 2023: 130.830
+- Jumlah Volume Penyaluran KPR Subsidi, Kenaikan/Penurunan Nominal: (12.165)
+- Jumlah Volume Penyaluran KPR Subsidi, Kenaikan/Penurunan Persentase: (9,30%)
+
+
+Tabel Nilai Penyaluran Produk KPR Non Subsidi:
+- KPR BTN Platinum, 2024: 15.388.946
+- KPR BTN Platinum, 2023: 15.934.162
+- KPR BTN Platinum, Kenaikan/Penurunan Nominal: (545.215)
+- KPR BTN Platinum, Kenaikan/Penurunan Persentase: (3,42%)
+
+- KPA BTN, 2024: 288.523
+- KPA BTN, 2023: 136.875
+- KPA BTN, Kenaikan/Penurunan Nominal: 151.648
+- KPA BTN, Kenaikan/Penurunan Persentase: 110,79%
+
+- Kredit Ruko BTN, 2024: 113.117
+- Kredit Ruko BTN, 2023: 120.311
+- Kredit Ruko BTN, Kenaikan/Penurunan Nominal: (7.193)
+- Kredit Ruko BTN, Kenaikan/Penurunan Persentase: (5,98%)
+
+- Jumlah Nilai Penyaluran KPR Non Subsidi, 2024: 15.790.587
+- Jumlah Nilai Penyaluran KPR Non Subsidi, 2023: 16.191.348
+- Jumlah Nilai Penyaluran KPR Non Subsidi, Kenaikan/Penurunan Nominal: (400.760)
+- Jumlah Nilai Penyaluran KPR Non Subsidi, Kenaikan/Penurunan Persentase: (2,48%)
+
+
+Tabel Volume Penyaluran KPR Non Subsidi:
+- KPR BTN Platinum, 2024: 30.462
+- KPR BTN Platinum, 2023: 35.906
+- KPR BTN Platinum, Kenaikan/Penurunan Nominal: (5.444)
+- KPR BTN Platinum, Kenaikan/Penurunan Persentase: (15,16%)
+
+- KPA BTN, 2024: 354
+- KPA BTN, 2023: 217
+- KPA BTN, Kenaikan/Penurunan Nominal: 137
+- KPA BTN, Kenaikan/Penurunan Persentase: 63,13%
+
+- Kredit Ruko BTN, 2024: 144
+- Kredit Ruko BTN, 2023: 137
+- Kredit Ruko BTN, Kenaikan/Penurunan Nominal: 7
+- Kredit Ruko BTN, Kenaikan/Penurunan Persentase: 5,11%
+
+- Jumlah Volume Penyaluran KPR Non Subsidi, 2024: 30.960
+- Jumlah Volume Penyaluran KPR Non Subsidi, 2023: 36.260
+- Jumlah Volume Penyaluran KPR Non Subsidi, Kenaikan/Penurunan Nominal: (5.300)
+- Jumlah Volume Penyaluran KPR Non Subsidi, Kenaikan/Penurunan Persentase: (14,62%)
+
+Nomor Halaman:
+- 264

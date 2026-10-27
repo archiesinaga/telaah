@@ -1,0 +1,29 @@
+Tabel Asumsi Makro
+Periode: 2025
+- Inflasi (%): 3,2
+- Nilai Tukar (Rp/USD): 16.000
+- Pertumbuhan Kredit (%): 11,0
+- Pertumbuhan Dana Pihak Ketiga (%): 8,0
+
+Tabel Proyeksi Produksi/Operasional
+Satuan: (dalam %)
+Periode: Proyeksi Pertumbuhan 2025
+- Kredit Perumahan: 5,61%
+- Kredit Non Perumahan: 14,84%
+- Jumlah Kredit: 7,14%
+- Jumlah Pembiayaan: 8,76%
+- Jumlah Kredit dan Pembiayaan yang diberikan: 7,34%
+- Giro: 8,93%
+- Tabungan: 13,16%
+- Deposito: 6,91%
+- Jumlah Dana Pihak Ketiga: 8,51%
+
+Tabel Proyeksi Keuangan
+Satuan: (dalam %)
+Periode: Proyeksi Pertumbuhan 2025
+- Aset: 7,87%
+- Liabilitas: 8,00%
+- Ekuitas: 6,18%
+- Pendapatan Bunga: 10,22%
+- Laba Operasional: 11,88%
+- Laba Bersih: 10,35%

@@ -1,0 +1,55 @@
+1. Judul: Grafik Pertumbuhan PDB Sektoral sampai dengan Triwulan IV 2024
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu X (Sektoral): Manufaktur, Pertanian, Perdagangan Besar & Eceran, Konstruksi, Pertambangan, Informasi & Komunikasi, Jasa Keuangan & Asuransi, Administrasi & Pemerintahan, Transprotasi & Pergudangan, Jasa Pendidikan, Real Estate
+- Sumbu Y: Angka 0, 2, 4, 6, 8, 10, 12
+- Legenda: 
+  - TW IV 2023
+  - TW III 2023
+  - TW IV 2024
+- Satuan: % (tersirat dari konteks teks di atasnya, namun label sumbu hanya berupa angka)
+- Periode: Triwulan IV 2024
+3. Semua angka yang tertera:
+- Manufaktur:
+  - TW IV 2023: 4,07
+  - TW III 2023: 4,72
+  - TW IV 2024: 4,89
+- Pertanian:
+  - TW IV 2023: 1,12
+  - TW III 2023: 1,69
+  - TW IV 2024: 0,71
+- Perdagangan Besar & Eceran:
+  - TW IV 2023: 4,09
+  - TW III 2023: 4,82
+  - TW IV 2024: 5,19
+- Konstruksi:
+  - TW IV 2023: 7,68
+  - TW III 2023: 7,48
+  - TW IV 2024: 5,81
+- Pertambangan:
+  - TW IV 2023: 7,46
+  - TW III 2023: 3,46
+  - TW IV 2024: 3,95
+- Informasi & Komunikasi:
+  - TW IV 2023: 6,74
+  - TW III 2023: 6,86
+  - TW IV 2024: 7,45
+- Jasa Keuangan & Asuransi:
+  - TW IV 2023: 6,56
+  - TW III 2023: 5,49
+  - TW IV 2024: 1,74
+- Administrasi & Pemerintahan:
+  - TW IV 2023: 1,61
+  - TW III 2023: 3,94
+  - TW IV 2024: 1,16
+- Transprotasi & Pergudangan:
+  - TW IV 2023: 10,33
+  - TW III 2023: 8,64
+  - TW IV 2024: 7,92
+- Jasa Pendidikan:
+  - TW IV 2023: 2,63
+  - TW III 2023: 2,51
+  - TW IV 2024: 2,95
+- Real Estate:
+  - TW IV 2023: 2,18
+  - TW III 2023: 2,32
+  - TW IV 2024: 2,97

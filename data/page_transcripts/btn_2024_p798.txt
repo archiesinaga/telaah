@@ -1,0 +1,35 @@
+1. Tabel 1: Total Penggunaan (lanjutan)
+- Judul atau keterangan: Tabel kelanjutan Uraian dan 31 Desember 2024
+- Label sumbu, legenda, satuan, dan periode: Kolom No., Uraian, 31 Desember 2024
+- Angka:
+  - Total Penggunaan: 446.449.151
+  - Kenaikan (Penurunan) Sumber dana kebajikan atas Penggunaan: 619.564.442
+  - Sumber Dana Kebajikan Pada Akhir Periode: 1.086.950.101
+
+2. Tabel 2: Pendapatan Non Halal dan Penggunaannya
+- Judul atau keterangan: Pendapatan Non Halal dan Penggunaannya
+- Label sumbu, legenda, satuan, dan periode: Kolom No., Uraian, 31 Desember 2024 (dalam satuan angka penuh Rupiah)
+- Angka:
+  - Sumber Dana Kebajikan Pada Awal Periode: 467.385.659
+  - Penerimaan Dana Kebajikan - Infaq: -
+  - Penerimaan Dana Kebajikan - Sedekah: -
+  - Penerimaan Dana Kebajikan - Pengembalian dana kebajikan produktif: -
+  - Penerimaan Dana Kebajikan - Denda: 1.063.000.094
+  - Penerimaan Dana Kebajikan - Penerimaan non halal: 3.013.499
+  - Total Penerimaan: 1.066.013.593
+  - Penggunaan Dana Kebajikan - Dana Kebajikan Produktif: -
+  - Penggunaan Dana Kebajikan - Sumbangan: -
+  - Penggunaan Dana Kebajikan - Penggunaan lainnya untuk kepentingan umum: 446.449.151
+
+3. Tabel 3: Melakukan Self Assessment GCG UUS
+- Judul atau keterangan: Tabel Melakukan Self Assessment GCG UUS
+- Label sumbu, legenda, satuan, dan periode: Kolom No., Faktor, Bobot (%), Peringkat, Nilai
+- Angka:
+  - 1. Pelaksanaan tugas dan tanggung jawab Direktur yang Membidangi UUS: Bobot (%) 0.35, Peringkat 1.00, Nilai 0.35
+  - 2. Pelaksanaan tugas dan tanggung jawab Dewan Pengawas Syariah: Bobot (%) 0.20, Peringkat 1.00, Nilai 0.20
+  - 3. Pelaksanaan Prinsip Syariah dalam kegiatan penghimpunan dana dan penyaluran dana serta pelayanan jasa: Bobot (%) 0.10, Peringkat 2.00, Nilai 0.20
+  - 4. Penyaluran dana kepada nasabah pembiayaan inti dan penyimpanan dana oleh deposan inti: Bobot (%) 0.10, Peringkat 2.00, Nilai 0.20
+  - 5. Transparansi Kondisi Keuangan dan Non Keuangan, Laporan Pelaksanaan GCG dan Pelaporan Internal: Bobot (%) 0.25, Peringkat 2.00, Nilai 0.50
+  - Total Nilai Komposit: Bobot (%) 1.00, Nilai 1.70
+  - Kriteria Angka: 2
+  - Predikat: BAIK

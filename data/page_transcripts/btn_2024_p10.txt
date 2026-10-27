@@ -1,0 +1,45 @@
+1. Judul atau keterangan:
+Jejak Langkah
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 1897 - 1963
+- Periode: 1965 - 1992
+- Tahun: 1897
+- Tahun: 1942
+- Tahun: 1945
+- Tahun: 1946
+- Tahun: 1949
+- Tahun: 1950
+- Tahun: 1953
+- Tahun: 1963
+- Tahun: 1965
+- Tahun: 1968
+- Tahun: 1971
+- Tahun: 1974
+- Tahun: 1976
+- Tahun: 1986
+- Tahun: 1989
+- Tahun: 1992
+
+3. Semua angka yang tertera:
+- 1897 - 1963
+- 1965 - 1992
+- 1897
+- 1942
+- 1945
+- 1946
+- 1949
+- 1950
+- 1953
+- 1963
+- 1965
+- BNI 1946: 1946
+- 1968
+- 1971
+- 1974
+- 1976
+- 1986
+- 1986: US$266,55 juta
+- 1989
+- 1992
+- 8: 8

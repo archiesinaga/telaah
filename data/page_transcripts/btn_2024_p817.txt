@@ -1,0 +1,29 @@
+No. 1:
+- Judul/Keterangan: Aset, Posisi Desember 2023, Posisi Desember 2024
+- Angka: 
+  - Posisi Desember 2023: 439,885
+  - Posisi Desember 2024: 470,137
+
+No. 2:
+- Judul/Keterangan: Laba, Posisi Desember 2023, Posisi Desember 2024
+- Angka: 
+  - Posisi Desember 2023: 3,419
+  - Posisi Desember 2024: 3,028
+
+No. 3:
+- Judul/Keterangan: DPK, Posisi Desember 2023, Posisi Desember 2024
+- Angka: 
+  - Posisi Desember 2023: 349,933
+  - Posisi Desember 2024: 381,848
+
+No. 4:
+- Judul/Keterangan: Kredit/Pembiayaan, Posisi Desember 2023, Posisi Desember 2024
+- Angka: 
+  - Posisi Desember 2023: 333,698
+  - Posisi Desember 2024: 357,973
+
+No. 5:
+- Judul/Keterangan: Kualitas Kredit, Posisi Desember 2023, Posisi Desember 2024
+- Angka: 
+  - Posisi Desember 2023: 3,01%
+  - Posisi Desember 2024: 3,19%

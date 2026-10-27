@@ -1,0 +1,33 @@
+MESOP Tahap 3
+
+Dewan Komisaris:
+1. Chandra Martha Hamzah: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+2. Iqbal Latanro: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+3. Ahdi Jumhari Luddin: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+4. Andin Hadiyanto: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+5. Armand B. Arief: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+6. Herry Trisaputra Zuna: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+7. Himawan Arief S.: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+8. Sentot A. Sentausa: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+
+Direksi:
+1. Haru Koesmahargyo: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+2. Nixon L. Pahotan Napitupulu: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+3. Andi Nirwoto: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+4. Jasmin: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+5. Setiyo Wibowo: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): -, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): -, Harga Opsi (Rp.): -, Jangka Waktu: -
+6. Elisabeth Novie Riswanti: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): 56.000, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): 56.000, Harga Opsi (Rp.): 1.098,36, Jangka Waktu: Feb 2013-Ags 2016
+7. Hirwandi Gafar: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): 47.500, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): 47.500, Harga Opsi (Rp.): 1.098,36, Jangka Waktu: Feb 2013-Ags 2016
+8. Nofry Rony Poetra: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): 61.500, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): 61.500, Harga Opsi (Rp.): 1.098,36, Jangka Waktu: Feb 2013-Ags 2016
+9. Eko Waluyo: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): 44.500, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): 44.500, Harga Opsi (Rp.): 1.098,36, Jangka Waktu: Feb 2013-Ags 2016
+Pejabat Eksekutif: Jumlah Saham Yang Dimiliki (Lembar Saham): 7.430.600, Jumlah Opsi Yang Diberikan (Lembar Saham): 5.566.500, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): 5.566.500, Harga Opsi (Rp.): 1.098,36, Jangka Waktu: Feb 2013-Ags 2016
+Pegawai: Jumlah Saham Yang Dimiliki (Lembar Saham): -, Jumlah Opsi Yang Diberikan (Lembar Saham): 102.367.500, Jumlah Opsi Yang Telah Dieksekusi (Lembar Saham): 102.367.500, Harga Opsi (Rp.): 1.098,36, Jangka Waktu: Feb 2013-Ags 2016
+
+Rasio Gaji Tertinggi dan Terendah
+Rasio Gaji 2024 2023
+- Gaji Pegawai Tertinggi dan Terendah: 2024: 25,00 : 1, 2023: 22,44 : 1
+- Gaji Direksi Tertinggi dan Terendah: 2024: 1,18 : 1, 2023: 1,18 : 1
+- Gaji Komisaris Tertinggi dan Terendah: 2024: 1,11 : 1, 2023: 1,11 : 1
+- Gaji Direksi Tertinggi dan Pegawai Tertinggi: 2024: 2,89 : 1, 2023: 2,92 : 1
+
+Nomor Halaman: 696

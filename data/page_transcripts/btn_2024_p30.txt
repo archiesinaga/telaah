@@ -1,0 +1,36 @@
+Grafik Pergerakan Harga dan Volume Saham BTN Tahun 2023-2024
+Sumbu Y: 3.500, 3.000, 2.500, 2.000, 1.500, 1.000, 500, -
+Legenda: Volume Perdagangan (Juta Lembar), Penutupan
+Periode: 2023 (Triwulan I, Triwulan II, Triwulan III, Triwulan IV), 2024 (Triwulan I, Triwulan II, Triwulan III, Triwulan IV)
+Angka Volume Perdagangan:
+- Triwulan I 2023: 2.265
+- Triwulan II 2023: 1.770
+- Triwulan III 2023: 1.304
+- Triwulan IV 2023: 819
+- Triwulan I 2024: 3.041
+- Triwulan II 2024: 2.204
+- Triwulan III 2024: 2.110
+- Triwulan IV 2024: 1.440
+Angka Penutupan:
+- Triwulan I 2023: 1.225
+- Triwulan II 2023: 1.320
+- Triwulan III 2023: 1.220
+- Triwulan IV 2023: 1.250
+- Triwulan I 2024: 1.555
+- Triwulan II 2024: 1.265
+- Triwulan III 2024: 1.450
+- Triwulan IV 2024: 1.140
+
+Tabel Ringkasan Informasi Saham BBTN 2020-2024
+Kolom: Indikator, BBTN 2024, BBTN 2023, BBTN 2022, BBTN 2021, BBTN 2020
+Baris dan Angka:
+- Harga Pembukaan (Rp per Lembar Saham) | BBTN 2024: 1.250 | BBTN 2023: 1.335 | BBTN 2022: 1.668 | BBTN 2021: 1.735 | BBTN 2020: 2.15
+- Harga Tertinggi (Rp per Lembar Saham) | BBTN 2024: 1.600 | BBTN 2023: 1.400 | BBTN 2022: 1.798 | BBTN 2021: 2.15 | BBTN 2020: 2.16
+- Harga Terendah (Rp per Lembar Saham) | BBTN 2024: 1.110 | BBTN 2023: 1.175 | BBTN 2022: 1.311 | BBTN 2021: 1.23 | BBTN 2020: 745
+- Harga Penutupan (Rp per Lembar Saham) | BBTN 2024: 1.140 | BBTN 2023: 1.250 | BBTN 2022: 1.350 | BBTN 2021: 1.73 | BBTN 2020: 1.725
+- Volume Perdagangan (Juta Lembar) | BBTN 2024: 8.795 | BBTN 2023: 5.416 | BBTN 2022: 5.563 | BBTN 2021: 10.502 | BBTN 2020: 16.981
+- Nilai Buku Per Saham (Rp) | BBTN 2024: 2.281 | BBTN 2023: 2.071 | BBTN 2022: 2.131 | BBTN 2021: 1.988 | BBTN 2020: 1.887
+- Price to Book Value (kali) | BBTN 2024: 0,51 | BBTN 2023: 0,60 | BBTN 2022: 0,63 | BBTN 2021: 0,89 | BBTN 2020: 0,91
+- Price to Earning Ratio (kali) | BBTN 2024: 4,98 | BBTN 2023: 5,53 | BBTN 2022: 4,73 | BBTN 2021: 9,28 | BBTN 2020: 11,40
+- Jumlah Saham Beredar (Juta Lembar) | BBTN 2024: 14,03 | BBTN 2023: 14,03 | BBTN 2022: 12,87 | BBTN 2021: 10.59 | BBTN 2020: 10.59
+- Kapitalisasi Pasar (Rp Triliun) | BBTN 2024: 16,00 | BBTN 2023: 17,54 | BBTN 2022: 17,46 | BBTN 2021: 18,32 | BBTN 2020: 18,27

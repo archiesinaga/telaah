@@ -1,0 +1,13 @@
+1. Judul atau keterangan:
+Assessment Manajemen atas Hal-Hal yang Berpengaruh Signifikan Terhadap Kelangsungan Usaha
+
+2. Label sumbu, legenda, satuan, dan periode:
+- S: Strengths
+- W: Weaknesses
+- T: Opportunities
+- O: Threats
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 3 juta: "Program Pemerintah 3 juta unit rumah"
+- 4: "bank-bank KBMI 4"
+- 366: "366"

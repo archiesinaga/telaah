@@ -1,0 +1,18 @@
+1. Judul: Grafik Laporan Posisi Keuangan (dalam triliun Rupiah)
+2. Label sumbu, legenda, satuan, dan periode:
+   - Satuan: triliun Rupiah
+   - Kategori (Sumbu X): ASET, LIABILITAS, DANA SYIRKAH TEMPORER, EKUITAS
+   - Legenda: 2023, 2024
+3. Angka yang tertera:
+   - ASET
+     - 2023: 438,75
+     - 2024: 469,61
+   - LIABILITAS
+     - 2023: 381,16
+     - 2024: 407,79
+   - DANA SYIRKAH TEMPORER
+     - 2023: 27,11
+     - 2024: 29,25
+   - EKUITAS
+     - 2023: 30,48
+     - 2024: 32,57

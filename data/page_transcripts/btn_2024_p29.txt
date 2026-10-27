@@ -1,0 +1,25 @@
+Grafik 1:
+1. Judul: Grafik Volume Transaksi Saham BTN Tahun 2023-2024
+2. Label sumbu, legenda, satuan, dan periode: Sumbu Y: Harga Penutupan Saham (Rp), dengan skala 200, 400, 600, 800, 1.000, 1.200, 1.400, 1.600, 1.800. Sumbu X: Triwulan I, Triwulan II, Triwulan III, Triwulan IV untuk tahun 2023 dan 2024.
+3. Angka tertera:
+- Triwulan I 2023: 1.225
+- Triwulan II 2023: 1.320
+- Triwulan III 2023: 1.220
+- Triwulan IV 2023: 1.250
+- Triwulan I 2024: 1.555
+- Triwulan II 2024: 1.265
+- Triwulan III 2024: 1.450
+- Triwulan IV 2024: 1.140
+
+Grafik 2:
+1. Judul: Grafik Volume Perdagangan Saham BTN Tahun 2023-2024
+2. Label sumbu, legenda, satuan, dan periode: Sumbu Y: Volume Perdagangan (Juta Lembar), dengan skala 500, 1.000, 1.500, 2.000, 2.500, 3.000, 3.500. Sumbu X: Triwulan I, Triwulan II, Triwulan III, Triwulan IV untuk tahun 2023 dan 2024.
+3. Angka tertera:
+- Triwulan I 2023: 2.265
+- Triwulan II 2023: 1.770
+- Triwulan III 2023: 1.304
+- Triwulan IV 2023: 819
+- Triwulan I 2024: 3.041
+- Triwulan II 2024: 2.204
+- Triwulan III 2024: 2.110
+- Triwulan IV 2024: 1.440

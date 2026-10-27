@@ -1,0 +1,72 @@
+Grafik Perbandingan Pertumbuhan Total Kredit dan KPR
+Legenda:
+- KPR (batang biru)
+- Total Kredit (garis merah)
+Periode: 2020 - 2024 (TW I, TW II, TW III, TW IV)
+
+Angka:
+2020:
+- TW I: Total Kredit 8,00%, KPR 6,40%
+- TW II: Total Kredit 1,49%, KPR 3,50%
+- TW III: Total Kredit 2,10%, KPR 3,50%
+- TW IV: Total Kredit 0,12%, KPR 4,30%
+
+2021:
+- TW I: Total Kredit -2,41% (tidak terbaca jelas tanda minus, tertulis 2,41%), KPR 7,22%
+- TW II: Total Kredit -3,77% (tidak terbaca jelas tanda minus, tertulis 3,77%), KPR 0,59%
+- TW III: Total Kredit 2,21%, KPR 9,32%
+- TW IV: Total Kredit 5,24%, KPR 9,55%
+
+2022:
+- TW I: Total Kredit 6,67%, KPR 10,55%
+- TW II: Total Kredit 6,81%, KPR 10,66%
+- TW III: Total Kredit 7,56%, KPR 11,00%
+- TW IV: Total Kredit 7,82%, KPR 11,35%
+
+2023:
+- TW I: Total Kredit 7,06%, KPR 10,82%
+- TW II: Total Kredit 7,76%, KPR 12,66%
+- TW III: Total Kredit 8,96%, KPR 12,48%
+- TW IV: Total Kredit 10,38%, KPR 6,87%
+
+2024:
+- TW I: Total Kredit 14,20%, KPR 13,97%
+- TW II: Total Kredit 12,36%, KPR 10,80%
+- TW III: Total Kredit 10,85%, KPR 10,00%
+- TW IV: Total Kredit 10,39%, KPR tidak terbaca (kosong atau tidak ada label persentase untuk batang KPR TW IV 2024)
+
+Grafik Pertumbuhan Harga Rumah menurut House Price Index Triwulan IV 2024
+Legenda:
+- Indeks (batang biru)
+- QoQ (titik biru)
+- YoY (titik merah)
+Periode: Sep 2020 - Dec 2024
+
+Angka:
+2020:
+- Sep: Indeks tidak terbaca jelas (skala 8), QoQ 1,11, YoY 4,29
+- Dec: Indeks tidak terbaca jelas (skala 8), QoQ 1,07, YoY 4,23
+
+2021:
+- Mar: Indeks tidak terbaca jelas (skala 8), QoQ 1,59, YoY 5,24
+- Jun: Indeks tidak terbaca jelas (skala 8), QoQ 1,16, YoY 5,02
+- Sep: Indeks tidak terbaca jelas (skala 8), QoQ 1,03, YoY 4,94
+- Dec: Indeks tidak terbaca jelas (skala 8), QoQ 1,55, YoY 5,44
+
+2022:
+- Mar: Indeks tidak terbaca jelas (skala 9), QoQ 1,78, YoY 5,64
+- Jun: Indeks tidak terbaca jelas (skala 9), QoQ 1,50, YoY 6,00
+- Sep: Indeks tidak terbaca jelas (skala 9), QoQ 1,57, YoY 6,56
+- Dec: Indeks tidak terbaca jelas (skala 9), QoQ 1,78, YoY 6,80
+
+2023:
+- Mar: Indeks tidak terbaca jelas (skala 9), QoQ 1,57, YoY 6,58
+- Jun: Indeks tidak terbaca jelas (skala 9), QoQ 2,05, YoY 7,14
+- Sep: Indeks tidak terbaca jelas (skala 10), QoQ 3,01, YoY 8,66
+- Dec: Indeks tidak terbaca jelas (skala 10), QoQ 1,39, YoY 8,25
+
+2024:
+- Mar: Indeks tidak terbaca jelas (skala 10), QoQ 2,78, YoY 9,55
+- Jun: Indeks tidak terbaca jelas (skala 10), QoQ 1,53, YoY 8,99
+- Sep: Indeks tidak terbaca jelas (skala 11), QoQ 0,31, YoY 6,14
+- Dec: Indeks 228,64 (tertera dalam teks), QoQ 1,68, YoY 6,44

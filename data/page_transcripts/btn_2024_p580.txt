@@ -1,0 +1,19 @@
+1. Judul atau keterangan:
+- Dewan Komisaris menugaskan Komite Remunerasi dan Nominasi (KRN) untuk melakukan kajian remunerasi: 1
+- KRN melakukan koordinasi dengan Human Capital Management Division (HCMD) dan unit kerja terkait untuk menyusun usulan remunerasi Dewan Komisaris dan Direksi: 2
+- KRN menyusun rekomendasi remunerasi Dewan Komisaris dan Direksi untuk disampaikan kepada Dewan Komisaris: 3
+- Dewan Komisaris membahas usulan remunerasi yang disampaikan oleh KRN: 4
+- Dewan Komisaris menyampaikan usulan remunerasi Dewan Komisaris dan Direksi kepada RUPS: 5
+- RUPS memberikan kewenangan dan kuasa kepada Dewan Komisaris untuk menetapkan dengan terlebih dahulu mendapat persetujuan pemegang saham Seri A Dwiwarna: 6
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1: 1
+- 2: 2
+- 3: 3
+- 4: 4
+- 5: 5
+- 6: 6
+- 578: 578

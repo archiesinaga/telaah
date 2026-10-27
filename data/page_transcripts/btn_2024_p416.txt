@@ -1,0 +1,63 @@
+Satuan: dalam Jutaan Rupiah
+
+Tabel 1:
+Periode: 31 Desember 2023
+- No. 1, Jenis Transaksi *): Tagihan kepada Pemerintah
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 1a, Jenis Transaksi *): a. Tagihan Kepada Pemerintah Indonesia
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 1b, Jenis Transaksi *): b. Tagihan Kepada Pemerintah Negara Lain
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 2, Jenis Transaksi *): Tagihan Kepada Entitas Sektor Publik
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 3, Jenis Transaksi *): Tagihan kepada Bank Pembangunan Multilateral dan Lembaga Internasional
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 4, Jenis Transaksi *): Tagihan kepada Bank
+  - Faktor Pengurang Modal: 150.239
+  - ATMR: 44.017
+- No. 4a, Jenis Transaksi *): a. Tagihan Jangka Pendek
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 4b, Jenis Transaksi *): b. Tagihan Jangka Panjang
+  - Faktor Pengurang Modal: 150.239
+  - ATMR: 44.017
+- No. 5, Jenis Transaksi *): Tagihan Kepada Perusahaan Efek dan Lembaga Jasa Keuangan Lainnya
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 5a, Jenis Transaksi *): a. Tagihan Jangka Pendek
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 5b, Jenis Transaksi *): b. Tagihan Jangka Panjang
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 6, Jenis Transaksi *): Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 7, Jenis Transaksi *): Tagihan Kepada Korporasi
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- No. 8, Jenis Transaksi *): Eksposur terkait Central Counterparty (CCP)
+  - Faktor Pengurang Modal: -
+  - ATMR: -
+- Jumlah:
+  - Faktor Pengurang Modal: 150.239
+  - ATMR: 44.017
+
+Tabel 2: Tabel Pengukuran Risiko Kredit per 31 Desember 2024 dan 31 Desember 2023
+- No. 1, Keterangan: PERHITUNGAN ATMR RISIKO KREDIT (A):
+  - 31 Desember 2024: 151.116.320
+  - 31 Desember 2023: 136.691.761
+- No. 2, Keterangan: FAKTOR PENGURANG ATMR RISIKO KREDIT: Selisih lebih cadangan umum PPKA atas aset produktif yang wajib dihitung dengan 1,25% ATMR untuk Risiko Kredit (B):
+  - 31 Desember 2024: 1.828.570
+  - 31 Desember 2023: -
+- No. 3, Keterangan: TOTAL ATMR RISIKO KREDIT (A) - (B) (C):
+  - 31 Desember 2024: 149.287.750
+  - 31 Desember 2023: 136.691.761
+- No. 4, Keterangan: TOTAL FAKTOR PENGURANG MODAL (D):
+  - 31 Desember 2024: -
+  - 31 Desember 2023: -

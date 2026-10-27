@@ -1,0 +1,25 @@
+Tabel Kolektibilitas
+(dalam jutaan Rupiah)
+Uraian
+2024: Tanpa Segmen Syariah, Dengan Segmen Syariah
+2023: Tanpa Segmen Syariah, Dengan Segmen Syariah
+Jumlah Kredit/Pembiayaan yang Diberikan: 2024 Tanpa Segmen Syariah: 314.080.105, 2024 Dengan Segmen Syariah: 357.972.932, 2023 Tanpa Segmen Syariah: 296.583.860, 2023 Dengan Segmen Syariah: 333.698.141
+Performing Loan (PL): 2024 Tanpa Segmen Syariah: 304.022.694, 2024 Dengan Segmen Syariah: 346.654.931, 2023 Tanpa Segmen Syariah: 287.420.712, 2023 Dengan Segmen Syariah: 323.649.241
+Lancar: 2024 Tanpa Segmen Syariah: 273.060.967, 2024 Dengan Segmen Syariah: 312.597.793, 2023 Tanpa Segmen Syariah: 263.614.334, 2023 Dengan Segmen Syariah: 297.250.597
+Dalam Perhatian Khusus: 2024 Tanpa Segmen Syariah: 30.961.727, 2024 Dengan Segmen Syariah: 34.057.137, 2023 Tanpa Segmen Syariah: 23.806.378, 2023 Dengan Segmen Syariah: 26.398.644
+Non Performing Loan (NPL): 2024 Tanpa Segmen Syariah: 10.057.411, 2024 Dengan Segmen Syariah: 11.318.001, 2023 Tanpa Segmen Syariah: 9.163.148, 2023 Dengan Segmen Syariah: 10.048.900
+Kurang Lancar: 2024 Tanpa Segmen Syariah: 605.276, 2024 Dengan Segmen Syariah: 872.072, 2023 Tanpa Segmen Syariah: 393.326, 2023 Dengan Segmen Syariah: 571.273
+Diragukan: 2024 Tanpa Segmen Syariah: 1.748.284, 2024 Dengan Segmen Syariah: 1.939.769, 2023 Tanpa Segmen Syariah: 538.432, 2023 Dengan Segmen Syariah: 677.813
+Macet: 2024 Tanpa Segmen Syariah: 7.703.851, 2024 Dengan Segmen Syariah: 8.506.160, 2023 Tanpa Segmen Syariah: 8.231.390, 2023 Dengan Segmen Syariah: 8.799.814
+PL: 2024 Tanpa Segmen Syariah: 96,80%, 2024 Dengan Segmen Syariah: 96,84%, 2023 Tanpa Segmen Syariah: 96,91%, 2023 Dengan Segmen Syariah: 96,99%
+NPL Gross: 2024 Tanpa Segmen Syariah: 3,20%, 2024 Dengan Segmen Syariah: 3,16%, 2023 Tanpa Segmen Syariah: 3,09%, 2023 Dengan Segmen Syariah: 3,01%
+NPL Net: 2024 Tanpa Segmen Syariah: 1,91%, 2024 Dengan Segmen Syariah: 1,89%, 2023 Tanpa Segmen Syariah: 1,48%, 2023 Dengan Segmen Syariah: 1,32%
+
+Tabel Hapus Buku Kredit Macet
+(dalam jutaan Rupiah)
+Uraian
+2024: Jumlah Debitur, Nilai Hapus Buku (dalam jutaan Rupiah)
+2023: Jumlah Debitur, Nilai Hapus Buku (dalam jutaan Rupiah)
+Konvensional: 2024 Jumlah Debitur: 16.761, 2024 Nilai Hapus Buku (dalam jutaan Rupiah): 3.200.092, 2023 Jumlah Debitur: 11.099, 2023 Nilai Hapus Buku (dalam jutaan Rupiah): 2.705.785
+Syariah: 2024 Jumlah Debitur: 2.102, 2024 Nilai Hapus Buku (dalam jutaan Rupiah): 281.309, 2023 Jumlah Debitur: 1.897, 2023 Nilai Hapus Buku (dalam jutaan Rupiah): 322.241
+Jumlah: 2024 Jumlah Debitur: 18.863, 2024 Nilai Hapus Buku (dalam jutaan Rupiah): 3.481.401, 2023 Jumlah Debitur: 12.996, 2023 Nilai Hapus Buku (dalam jutaan Rupiah): 3.028.026

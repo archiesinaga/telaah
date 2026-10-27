@@ -1,0 +1,49 @@
+1. Tabel "Partisipan" dan "Jumlah Kegiatan":
+- Analis: 84
+- Investor Lokal: 58
+- Investor Asing: 103
+- Rating Agency: 3
+- Total: 248
+
+2. Diagram Lingkaran "Sebaran Kategori Media Pemberitaan BTN":
+- Media Cetak : 1.318 Artikel, 5%
+- Media online : 23.937 Artikel, 94%
+- Media Elektronik (TV) : 347 Liputan, 1%
+- Media Elektronik (Radio) : 1 Siaran
+
+3. Diagram Batang "TOP 10 Media BTN":
+- Media Cetak:
+  - Kontan: 402
+  - Bisnis Indonesia: 198
+  - Investor Daily: 165
+  - Rakyat Merdeka: 118
+  - Neraca: 77
+  - Media Indonesia: 64
+  - Koran Jakarta: 35
+  - Jawa Pos: 34
+  - Majalah Info Bank: 29
+  - Solopos: 26
+
+- Media Online:
+  - kontan.co.id: 835
+  - bisnis.com: 535
+  - poskota.co.id: 474
+  - detik.com: 411
+  - msn.com: 404
+  - idxchannel.com: 401
+  - kompas.com: 349
+  - cnbcindonesia.com: 338
+  - emitennews.com: 296
+  - wartaekonomi.com: 271
+
+- Media elektronik (TV):
+  - IDX CHANNEL: 84
+  - CNBC Indonesia: 33
+  - VOI: 31
+  - Kontan TV: 31
+  - Garuda TV: 20
+  - Inews TV: 20
+  - Metro TV: 16
+  - CNN Indonesia: 12
+  - Liputan 6: 7
+  - Indosiar: 6

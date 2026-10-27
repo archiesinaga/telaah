@@ -1,0 +1,88 @@
+Tabel Posisi Dana Tabungan Syariah
+(dalam jutaan Rupiah)
+
+Tabungan Syariah
+2024:
+Tabungan BTN Batara iB: 1.499.161
+Tabungan BTN Berkah iB: 6.007.489
+Tabungan BTN Haji dan Umroh iB: 262.503
+Tabunganku iB: 15.039
+Tabungan BTN Qurban iB: 7.334
+Tabungan BTN Simpel iB: 7.732
+Tabungan BTN Emas iB: 10.454
+Jumlah Posisi Dana Tabungan Syariah: 7.809.712
+
+2023:
+Tabungan BTN Batara iB: 1.256.572
+Tabungan BTN Berkah iB: 5.214.570
+Tabungan BTN Haji dan Umroh iB: 245.314
+Tabunganku iB: 13.532
+Tabungan BTN Qurban iB: 6.092
+Tabungan BTN Simpel iB: 6.489
+Tabungan BTN Emas iB: 7.266
+Jumlah Posisi Dana Tabungan Syariah: 6.749.835
+
+Kenaikan/Penurunan Nominal:
+Tabungan BTN Batara iB: 242.589
+Tabungan BTN Berkah iB: 792.918
+Tabungan BTN Haji dan Umroh iB: 17.190
+Tabunganku iB: 1.507
+Tabungan BTN Qurban iB: 1.242
+Tabungan BTN Simpel iB: 1.243
+Tabungan BTN Emas iB: 3.188
+Jumlah Posisi Dana Tabungan Syariah: 1.059.877
+
+Kenaikan/Penurunan Persentase:
+Tabungan BTN Batara iB: 19,31%
+Tabungan BTN Berkah iB: 15,21%
+Tabungan BTN Haji dan Umroh iB: 7,01%
+Tabunganku iB: 11,14%
+Tabungan BTN Qurban iB: 20,39%
+Tabungan BTN Simpel iB: 19,16%
+Tabungan BTN Emas iB: 43,87%
+Jumlah Posisi Dana Tabungan Syariah: 15,70%
+
+
+Tabel Posisi Volume Rekening Tabungan Syariah
+(dalam rekening)
+
+Tabungan Syariah
+2024:
+Tabungan BTN Batara iB: 786.936
+Tabungan BTN Berkah iB: 157.409
+Tabungan BTN Haji dan Umroh iB: 224.705
+Tabunganku iB: 32.810
+Tabungan BTN Qurban iB: 30.927
+Tabungan BTN Simpel iB: 90.489
+Tabungan BTN Emas iB: 11.639
+Jumlah Posisi Volume Rekening Tabungan Syariah: 1.334.915
+
+2023:
+Tabungan BTN Batara iB: 701.304
+Tabungan BTN Berkah iB: 153.644
+Tabungan BTN Haji dan Umroh iB: 194.333
+Tabunganku iB: 26.108
+Tabungan BTN Qurban iB: 23.187
+Tabungan BTN Simpel iB: 82.873
+Tabungan BTN Emas iB: 10.398
+Jumlah Posisi Volume Rekening Tabungan Syariah: 1.191.847
+
+Kenaikan/Penurunan Nominal:
+Tabungan BTN Batara iB: 85.632
+Tabungan BTN Berkah iB: 3.765
+Tabungan BTN Haji dan Umroh iB: 30.372
+Tabunganku iB: 6.702
+Tabungan BTN Qurban iB: 7.740
+Tabungan BTN Simpel iB: 7.616
+Tabungan BTN Emas iB: 1.241
+Jumlah Posisi Volume Rekening Tabungan Syariah: 143.068
+
+Kenaikan/Penurunan Persentase:
+Tabungan BTN Batara iB: 12,21%
+Tabungan BTN Berkah iB: 2,45%
+Tabungan BTN Haji dan Umroh iB: 15,63%
+Tabunganku iB: 25,67%
+Tabungan BTN Qurban iB: 33,38%
+Tabungan BTN Simpel iB: 9,19%
+Tabungan BTN Emas iB: 11,93%
+Jumlah Posisi Volume Rekening Tabungan Syariah: 12,00%

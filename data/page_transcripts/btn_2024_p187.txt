@@ -1,0 +1,140 @@
+Sub Total:
+Jumlah Pemegang Saham: 259
+Jumlah Saham (Lembar): 1.354.479.934
+Persentase Kepemilikan (%): 9,65
+
+TOTAL:
+Jumlah Pemegang Saham: 56.629
+Jumlah Saham (Lembar): 14.034.444.413
+Persentase Kepemilikan (%): 100,00
+
+Tabel Komposisi Pemegang Saham BTN Per 31 Desember 2024
+
+LOKAL
+Negara Republik Indonesia:
+Jumlah Pemegang Saham: 1
+Jumlah Saham (Lembar): 8.420.666.648
+Persentase Kepemilikan (%): 60,00
+
+Asuransi:
+Jumlah Pemegang Saham: 93
+Jumlah Saham (Lembar): 283.251.354
+Persentase Kepemilikan (%): 2,02
+
+Bank:
+Jumlah Pemegang Saham: 3
+Jumlah Saham (Lembar): 9.608.789
+Persentase Kepemilikan (%): 0,07
+
+Dana Pensiun:
+Jumlah Pemegang Saham: 108
+Jumlah Saham (Lembar): 1.331.751.166
+Persentase Kepemilikan (%): 9,49
+
+Koperasi:
+Jumlah Pemegang Saham: 3
+Jumlah Saham (Lembar): 1.016.500
+Persentase Kepemilikan (%): 0,01
+
+Perorangan Indonesia:
+Jumlah Pemegang Saham: 55.826
+Jumlah Saham (Lembar): 1.594.873.202
+Persentase Kepemilikan (%): 11,36
+
+Perseroan Terbatas:
+Jumlah Pemegang Saham: 153
+Jumlah Saham (Lembar): 115.739.035
+Persentase Kepemilikan (%): 0,82
+
+Reksadana:
+Jumlah Pemegang Saham: 150
+Jumlah Saham (Lembar): 744.706.029
+Persentase Kepemilikan (%): 5,31
+
+Yayasan:
+Jumlah Pemegang Saham: 15
+Jumlah Saham (Lembar): 26.954.630
+Persentase Kepemilikan (%): 0,19
+
+Sub Total Lokal:
+Jumlah Pemegang Saham: 56.351
+Jumlah Saham (Lembar): 4.107.900.705
+Persentase Kepemilikan (%): 89,27
+
+ASING
+Badan Usaha Asing:
+Jumlah Pemegang Saham: 204
+Jumlah Saham (Lembar): 1.503.132.136
+Persentase Kepemilikan (%): 10,71
+
+Perorangan Asing:
+Jumlah Pemegang Saham: 71
+Jumlah Saham (Lembar): 2.744.924
+Persentase Kepemilikan (%): 0,02
+
+Sub Total Asing:
+Jumlah Pemegang Saham: 275
+Jumlah Saham (Lembar): 1.505.877.060
+Persentase Kepemilikan (%): 10,73
+
+TOTAL KESELURUHAN:
+Jumlah Pemegang Saham: 56.627
+Jumlah Saham (Lembar): 14.034.444.413
+Persentase Kepemilikan (%): 100,00
+
+Tabel Komposisi 20 Pemegang Saham Terbesar BTN Per 1 Januari 2024
+
+1. DJS KETENAGAKERJAAN PROGRAM JHT
+Status: Lokal
+Jumlah Saham (Lembar): 389.275.808
+Persentase Kepemilikan (%): 2,77
+
+2. PT TASPEN (ASURANSI) – AFS
+Status: Lokal
+Jumlah Saham (Lembar): 362.166.723
+Persentase Kepemilikan (%): 2,58
+
+3. PT TASPEN
+Status: Lokal
+Jumlah Saham (Lembar): 332.835.794
+Persentase Kepemilikan (%): 2,37
+
+4. REKSA DANA SUCORINVEST EQUITY FUND
+Status: Lokal
+Jumlah Saham (Lembar): 237.196.100
+Persentase Kepemilikan (%): 1,69
+
+5. JPMSE STOCK RE UCITS CLT RE-HANDELSBANKENTILLVAXTMARKNAD TEMA
+Status: Asing
+Jumlah Saham (Lembar): 166.610.040
+Persentase Kepemilikan (%): 1,19
+
+6. REKSA DANA SAM DANA CERDAS
+Status: Lokal
+Jumlah Saham (Lembar): 86.500.058
+Persentase Kepemilikan (%): 0,62
+
+7. DJS KETENAGAKERJAAN PROGRAM JP
+Status: Lokal
+Jumlah Saham (Lembar): 77.756.000
+Persentase Kepemilikan (%): 0,55
+
+8. JPMCB NA RE – VANGUARD EMERGING MARKETSSTOCK INDEX FUND
+Status: Asing
+Jumlah Saham (Lembar): 66.560.556
+Persentase Kepemilikan (%): 0,47
+
+9. DP BTN II
+Status: Lokal
+Jumlah Saham (Lembar): 63.301.800
+Persentase Kepemilikan (%): 0,45
+
+10. JPMCB NA RE-VANGUARD TOTAL INTERNATIONALSTOCK INDEX FUND
+Status: Asing
+Jumlah Saham (Lembar): 62.390.184
+Persentase Kepemilikan (%): 0,44
+
+11. NT TST CO S/A LSV EMERGING MARKETS EQUITY FUND, LP
+Status: Asing
+Jumlah Saham (Lembar): 61.460.400
+Persentase Kepemilikan (%): 0,44

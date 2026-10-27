@@ -1,0 +1,125 @@
+Tabel 1:
+Judul: 31 Desember 2023
+Satuan: dalam Jutaan Rupiah (tersirat dari tabel lain yang sejenis)
+Periode: 31 Desember 2023
+Label Kolom: No., Kategori Portofolio *), Tagihan Bersih, ATMR sebelum MRK, ATMR setelah MRK
+Baris 11:
+- No.: 11
+- Kategori Portofolio *): Tagihan Kepada Korporasi
+- Tagihan Bersih: 3.225.368
+- ATMR sebelum MRK: 2.286.629
+- ATMR setelah MRK: 2.254.449
+Baris 12:
+- No.: 12
+- Kategori Portofolio *): Tagihan Yang Telah Jatuh Tempo
+- Tagihan Bersih: 4.058
+- ATMR sebelum MRK: 6.087
+- ATMR setelah MRK: 6.087
+Jumlah:
+- Tagihan Bersih: 4.890.349
+- ATMR sebelum MRK: 3.525.951
+- ATMR setelah MRK: 3.490.895
+
+Tabel 2:
+Judul: Tabel Eksposur yang Menimbulkan Risiko Kredit akibat Kegagalan Pihak Lawan (Counterparty Credit Risk) per 31 Desember 2024 dan 31 Desember 2023
+Satuan: dalam Jutaan Rupiah
+Periode: 31 Desember 2024
+Label Kolom: No., Kategori Portofolio *), Tagihan Bersih, ATMR sebelum MRK, ATMR setelah MRK
+Baris 1:
+- No.: 1
+- Kategori Portofolio *): Tagihan Kepada Pemerintah
+- Tagihan Bersih: 265.499
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 2:
+- No.: 2
+- Kategori Portofolio *): Tagihan Kepada Entitas Sektor Publik
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 3:
+- No.: 3
+- Kategori Portofolio *): Tagihan kepada Bank Pembangunan Multilateral dan Lembaga Internasional
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 4:
+- No.: 4
+- Kategori Portofolio *): Tagihan kepada Bank
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 5:
+- No.: 5
+- Kategori Portofolio *): Tagihan Kepada Perusahaan Efek dan Lembaga Jasa Keuangan Lainnya
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 6:
+- No.: 6
+- Kategori Portofolio *): Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 7:
+- No.: 7
+- Kategori Portofolio *): Tagihan Kepada Korporasi
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Jumlah:
+- Tagihan Bersih: 265.499
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+
+Tabel 3:
+Judul: 31 Desember 2023
+Satuan: dalam Jutaan Rupiah
+Periode: 31 Desember 2023
+Label Kolom: No., Kategori Portofolio *), Tagihan Bersih, ATMR sebelum MRK, ATMR setelah MRK
+Baris 1:
+- No.: 1
+- Kategori Portofolio *): Tagihan Kepada Pemerintah
+- Tagihan Bersih: 0
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 2:
+- No.: 2
+- Kategori Portofolio *): Tagihan Kepada Entitas Sektor Publik
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 3:
+- No.: 3
+- Kategori Portofolio *): Tagihan kepada Bank Pembangunan Multilateral dan Lembaga Internasional
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 4:
+- No.: 4
+- Kategori Portofolio *): Tagihan kepada Bank
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 5:
+- No.: 5
+- Kategori Portofolio *): Tagihan Kepada Perusahaan Efek dan Lembaga Jasa Keuangan Lainnya
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Baris 6:
+- No.: 6
+- Kategori Portofolio *): Tagihan Kepada Usaha Mikro, Usaha Kecil dan Portofolio Ritel
+- Tagihan Bersih: (tidak ada angka)
+- ATMR sebelum MRK: (tidak ada angka)
+- ATMR setelah MRK: (tidak ada angka)
+Baris 7:
+- No.: 7
+- Kategori Portofolio *): Tagihan Kepada Korporasi
+- Tagihan Bersih: -
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -
+Jumlah:
+- Tagihan Bersih: 0
+- ATMR sebelum MRK: -
+- ATMR setelah MRK: -

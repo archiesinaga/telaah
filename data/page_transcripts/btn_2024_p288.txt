@@ -1,0 +1,86 @@
+Tabel Posisi Volume Pembiayaan Komersial Syariah
+(dalam unit pembiayaan)
+
+Pembiayaan Perumahan:
+2024: 1.334
+2023: 1.161
+Kenaikan/Penurunan Nominal: 173
+Kenaikan/Penurunan Persentase: 14,90%
+
+Pembiayaan Konstruksi BTN iB:
+2024: 1.334
+2023: 1.161
+Kenaikan/Penurunan Nominal: 173
+Kenaikan/Penurunan Persentase: 14,90%
+
+Pembiayaan Non Perumahan:
+2024: 127
+2023: 99
+Kenaikan/Penurunan Nominal: 28
+Kenaikan/Penurunan Persentase: 28,28%
+
+UMKM Syariah:
+2024: -
+2023: -
+Kenaikan/Penurunan Nominal: -
+Kenaikan/Penurunan Persentase: -
+
+Pembiayaan Modal Kerja iB:
+2024: 78
+2023: 48
+Kenaikan/Penurunan Nominal: 30
+Kenaikan/Penurunan Persentase: 62,50%
+
+Pembiayaan Investasi iB:
+2024: 49
+2023: 51
+Kenaikan/Penurunan Nominal: (2)
+Kenaikan/Penurunan Persentase: (3,92%)
+
+Jumlah Posisi Volume Pembiayaan Komersial Syariah:
+2024: 1.461
+2023: 1.260
+Kenaikan/Penurunan Nominal: 201
+Kenaikan/Penurunan Persentase: 15,45%
+
+Tabel Posisi Dana Simpanan Syariah
+(dalam jutaan Rupiah)
+
+Giro Syariah:
+2024: 19.824.691
+2023: 14.165.526
+Kenaikan/Penurunan Nominal: 5.659.165
+Kenaikan/Penurunan Persentase: 39,95%
+
+Tabungan Syariah:
+2024: 7.809.712
+2023: 6.749.835
+Kenaikan/Penurunan Nominal: 1.059.877
+Kenaikan/Penurunan Persentase: 15,70%
+
+Deposito Syariah:
+2024: 21.987.804
+2023: 20.887.524
+Kenaikan/Penurunan Nominal: 1.100.280
+Kenaikan/Penurunan Persentase: 5,27%
+
+Jumlah Posisi Dana Simpanan Syariah:
+2024: 49.622.207
+2023: 41.802.885
+Kenaikan/Penurunan Nominal: 7.819.322
+Kenaikan/Penurunan Persentase: 18,71%
+
+Tabel Posisi Volume Rekening Simpanan Syariah
+(dalam rekening)
+
+Giro Syariah:
+2024: 76.270
+2023: 61.128
+Kenaikan/Penurunan Nominal: 15.142
+Kenaikan/Penurunan Persentase: 24,77%
+
+Tabungan Syariah:
+2024: 1.334.915
+2023: 1.191.847
+Kenaikan/Penurunan Nominal: 143.068
+Kenaikan/Penurunan Persentase: 12,00%

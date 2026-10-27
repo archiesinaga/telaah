@@ -1,0 +1,111 @@
+1. Judul atau keterangan:
+- 3. Tindak Lanjut Hasil Audit dan/atau Penilaian Teknologi Informasi (TI)
+- 4. Realisasi Rencana Pembiayaan Teknologi Informasi (TI) (IT Spending Plan)
+
+2. Label tabel, kolom, baris, satuan, dan periode:
+Tabel 1 (Tindak Lanjut Hasil Audit dan/atau Penilaian Teknologi Informasi (TI)):
+- Kolom No.
+- Kolom Penilaian/Audit
+- Kolom Tahun (Periode: 2024)
+- Kolom Asesor/Auditor (Internal/Eksternal)
+- Kolom Jumlah Tindak Lanjut
+- Kolom Status (BS, S, T)
+- Kolom % Tindak Lanjut Selesai
+- Baris 1: Audit Teknologi Informasi (TI)
+- Baris 2: Penilaian atas Penyelenggaraan Teknologi Informasi (TI)
+- Subbaris a: COBIT 2019 EDM01 – Ensured Governance Framework Setting & Maintenance
+- Subbaris b: COBIT 2019 EDM04 – Ensured Resource Optimization
+- Subbaris c: COBIT 2019 EDM05 – Ensured Stakeholder Engagement
+- Subbaris d: COBIT 2019 APO01 – Managed I&T Management Framework
+- Subbaris e: COBIT 2019 APO09 – Managed Service Agreements
+- Subbaris f: COBIT 2019 BAI08 – Managed Knowledge
+- Subbaris g: COBIT 2019 BAI10 – Managed Configuration
+- Baris Total
+
+Tabel 2 (Realisasi Rencana Pembiayaan Teknologi Informasi (TI) (IT Spending Plan)):
+- Kolom IT Spending
+- Kolom Rencana Tahun 2024
+- Kolom Realisasi TW IV Tahun 2024
+- Kolom % Realisasi Terhadap Rencana Tahun 2024
+- Baris IT CAPEX
+- Baris IT OPEX
+
+3. Angka yang tertera:
+Tabel 1:
+- Baris 1 - Tahun: 2024: 2024
+- Baris 1 - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 1 - Jumlah Tindak Lanjut: 14
+- Baris 1 - Status BS: 0
+- Baris 1 - Status S: 14
+- Baris 1 - Status T: 0
+- Baris 1 - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.a - Tahun: 2024: 2024
+- Baris 2.a - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.a - Jumlah Tindak Lanjut: 1
+- Baris 2.a - Status BS: 0
+- Baris 2.a - Status S: 1
+- Baris 2.a - Status T: 0
+- Baris 2.a - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.b - Tahun: 2024: 2024
+- Baris 2.b - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.b - Jumlah Tindak Lanjut: 1
+- Baris 2.b - Status BS: 0
+- Baris 2.b - Status S: 1
+- Baris 2.b - Status T: 0
+- Baris 2.b - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.c - Tahun: 2024: 2024
+- Baris 2.c - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.c - Jumlah Tindak Lanjut: 1
+- Baris 2.c - Status BS: 0
+- Baris 2.c - Status S: 1
+- Baris 2.c - Status T: 0
+- Baris 2.c - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.d - Tahun: 2024: 2024
+- Baris 2.d - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.d - Jumlah Tindak Lanjut: 1
+- Baris 2.d - Status BS: 0
+- Baris 2.d - Status S: 1
+- Baris 2.d - Status T: 0
+- Baris 2.d - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.e - Tahun: 2024: 2024
+- Baris 2.e - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.e - Jumlah Tindak Lanjut: 1
+- Baris 2.e - Status BS: 0
+- Baris 2.e - Status S: 1
+- Baris 2.e - Status T: 0
+- Baris 2.e - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.f - Tahun: 2024: 2024
+- Baris 2.f - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.f - Jumlah Tindak Lanjut: 1
+- Baris 2.f - Status BS: 0
+- Baris 2.f - Status S: 1
+- Baris 2.f - Status T: 0
+- Baris 2.f - % Tindak Lanjut Selesai: 100%
+
+- Baris 2.g - Tahun: 2024: 2024
+- Baris 2.g - Asesor/Auditor Internal/Eksternal: Eksternal
+- Baris 2.g - Jumlah Tindak Lanjut: 1
+- Baris 2.g - Status BS: 0
+- Baris 2.g - Status S: 1
+- Baris 2.g - Status T: 0
+- Baris 2.g - % Tindak Lanjut Selesai: 100%
+
+- Total Jumlah Tindak Lanjut: 21
+- Total % Tindak Lanjut Selesai: 100%
+
+Tabel 2:
+- IT CAPEX - Rencana Tahun 2024: Rp792.758.559.227
+- IT CAPEX - Realisasi TW IV Tahun 2024: Rp781.684.933.314
+- IT CAPEX - % Realisasi Terhadap Rencana Tahun 2024: 98,6%
+
+- IT OPEX - Rencana Tahun 2024: Rp583.494.311.924
+- IT OPEX - Realisasi TW IV Tahun 2024: Rp474.706.174.787
+- IT OPEX - % Realisasi Terhadap Rencana Tahun 2024: 81,3%
+
+- Halaman: 471

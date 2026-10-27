@@ -1,0 +1,53 @@
+Simpanan Syariah
+2024
+2023
+Kenaikan/Penurunan Nominal
+Kenaikan/Penurunan Persentase
+Deposito Syariah: 2024: 10.820
+Deposito Syariah: 2023: 10.957
+Deposito Syariah: Nominal: (137)
+Deposito Syariah: Persentase: (1,25%)
+Jumlah Posisi Volume Rekening Simpanan Syariah: 2024: 1.422.005
+Jumlah Posisi Volume Rekening Simpanan Syariah: 2023: 1.263.932
+Jumlah Posisi Volume Rekening Simpanan Syariah: Nominal: 158.073
+Jumlah Posisi Volume Rekening Simpanan Syariah: Persentase: 12,51%
+
+Tabel Posisi Dana Giro Syariah
+(dalam jutaan Rupiah)
+Giro Syariah
+2024
+2023
+Kenaikan/Penurunan Nominal
+Kenaikan/Penurunan Persentase
+Giro BTN iB: 2024: 18.882.766
+Giro BTN iB: 2023: 13.439.465
+Giro BTN iB: Nominal: 5.443.299
+Giro BTN iB: Persentase: 40,50%
+Giro BTN Prima iB: 2024: 941.925
+Giro BTN Prima iB: 2023: 726.061
+Giro BTN Prima iB: Nominal: 215.865
+Giro BTN Prima iB: Persentase: 29,73%
+Jumlah Posisi Dana Giro Syariah: 2024: 19.824.691
+Jumlah Posisi Dana Giro Syariah: 2023: 14.165.526
+Jumlah Posisi Dana Giro Syariah: Nominal: 5.659.164
+Jumlah Posisi Dana Giro Syariah: Persentase: 39,95%
+
+Tabel Posisi Rekening Giro Syariah
+(dalam rekening)
+Giro Syariah
+2024
+2023
+Kenaikan/Penurunan Nominal
+Kenaikan/Penurunan Persentase
+Giro BTN iB: 2024: 74.056
+Giro BTN iB: 2023: 59.038
+Giro BTN iB: Nominal: 15.018
+Giro BTN iB: Persentase: 25,44%
+Giro BTN Prima iB: 2024: 2.214
+Giro BTN Prima iB: 2023: 2.090
+Giro BTN Prima iB: Nominal: 124
+Giro BTN Prima iB: Persentase: 5,93%
+Jumlah Posisi Volume Rekening Giro Syariah: 2024: 76.270
+Jumlah Posisi Volume Rekening Giro Syariah: 2023: 61.128
+Jumlah Posisi Volume Rekening Giro Syariah: Nominal: 15.142
+Jumlah Posisi Volume Rekening Giro Syariah: Persentase: 24,77%

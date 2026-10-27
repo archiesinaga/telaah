@@ -1,0 +1,53 @@
+1. Judul atau keterangan:
+- 3. Jika Terlapor adalah Tim WBS
+- Header kolom: Pelapor, Pengelola WBS Independen, Direktur Utama, Tim Auditor Eksternal, Unit Kerja Terkait
+- Teks di dalam kotak diagram alur:
+  - Mulai
+  - 1. Laporan WBS
+  - 2. Input Aplikasi WBS
+  - 3. Mengklasifikasikan Laporan WBS
+  - Laporan WBS in scope / out of scope
+  - 4. Analisa
+  - Laporan WBS in scope / out of scope
+  - 5. Informasi Cukup
+  - Tidak
+  - Ya
+  - Ya
+  - 6. Layak Audit Khusus
+  - 7b. Laporan WBS out of scope
+  - 7a. Laporan WBS in scope
+  - 8a. Tindak Lanjut
+  - 8b. Tindak Lanjut
+  - 9. Memo / dokumen lainnya tindak lanjut laporan WBS
+  - 10. Arahan untuk dilakukan closing Status Laporan
+  - 11. Closing Status Laporan
+  - Selesai
+  - 12. Meminta Pelapor untuk melengkapi informasi
+  - Informasi Tambahan
+  - 13a. Memberikan Feedback
+  - 13b. Tidak Memberikan Feedback
+  - 14. Menginformasikan pelaporan tidak memberikan feedback
+  - 15. Menerima informasi tidak ada feedback
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tidak ada
+
+3. Semua angka yang tertera, apa adanya, dipasangkan dengan label/periodenya:
+- 1. Laporan WBS
+- 2. Input Aplikasi WBS
+- 3. Mengklasifikasikan Laporan WBS
+- 4. Analisa
+- 5. Informasi Cukup
+- 6. Layak Audit Khusus
+- 7b. Laporan WBS out of scope
+- 7a. Laporan WBS in scope
+- 8a. Tindak Lanjut
+- 8b. Tindak Lanjut
+- 9. Memo / dokumen lainnya tindak lanjut laporan WBS
+- 10. Arahan untuk dilakukan closing Status Laporan
+- 11. Closing Status Laporan
+- 12. Meminta Pelapor untuk melengkapi informasi
+- 13a. Memberikan Feedback
+- 13b. Tidak Memberikan Feedback
+- 14. Menginformasikan pelaporan tidak memberikan feedback
+- 15. Menerima informasi tidak ada feedback

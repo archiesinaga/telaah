@@ -1,0 +1,39 @@
+Tabel 1:
+1. Judul atau keterangan: Ikhtisar Operasional, dalam Jutaan Rupiah
+2. Label, satuan, dan periode:
+- Uraian, 2024, 2023, 2022, 2021, 2020
+- PERBANKAN KONSUMER
+- Penyaluran Kredit Konsumen
+- Simpanan Konsumen
+- PERBANKAN KOMERSIAL
+- Penyaluran Kredit Komersial
+- Simpanan Komersial
+- UNIT USAHA SYARIAH
+- Penyaluran Pembiayaan Syariah
+- Simpanan Syariah
+3. Angka yang tertera:
+- Penyaluran Kredit Konsumen: 2024: 40.207.160, 2023: 42.450.499, 2022: 41.795.595, 2021: 32.948.775, 2020: 24.812.869
+- Simpanan Konsumen: 2024: 67.432.408, 2023: 63.770.218, 2022: 68.190.039, 2021: 68.770.476, 2020: 65.777.811
+- Penyaluran Kredit Komersial: 2024: 38.278.495, 2023: 42.963.396, 2022: 37.654.912, 2021: 19.923.399, 2020: 15.416.031
+- Simpanan Komersial: 2024: 264.793.641, 2023: 243.694.432, 2022: 223.893.013, 2021: 197.961.260, 2020: 189.525.768
+- Penyaluran Pembiayaan Syariah: 2024: 43.892.827, 2023: 37.114.281, 2022: 31.624.139, 2021: 27.549.858, 2020: 4.658.912
+- Simpanan Syariah: 2024: 49.622.208, 2023: 41.802.885, 2022: 34.640.775, 2021: 29.269.336, 2020: 23.831.409
+
+Tabel 2:
+1. Judul atau keterangan: Tabel Harga, Volume dan Kapitalisasi Saham BTN Tahun 2023-2024, dalam Jutaan Rupiah
+2. Label, satuan, dan periode:
+- Tahun
+- Harga per saham (Rp): Pembukaan (Rp), Tertinggi (Rp), Terendah (Rp), Penutupan (Rp)
+- Jumlah Saham Beredar (Juta Lembar)
+- Volume Perdagangan (Juta Lembar)
+- Kapitalisasi Pasar (Rp Triliun)
+- Periode: 2023 (Triwulan I, Triwulan II, Triwulan III, Triwulan IV), 2024 (Triwulan I, Triwulan II, Triwulan III, Triwulan IV)
+3. Angka yang tertera:
+- Triwulan I 2023: Pembukaan: 1.335, Tertinggi: 1.400, Terendah: 1.175, Penutupan: 1.225, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 2.265, Kapitalisasi Pasar: 17,19
+- Triwulan II 2023: Pembukaan: 1.225, Tertinggi: 1.340, Terendah: 1.215, Penutupan: 1.320, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 1.770, Kapitalisasi Pasar: 18,53
+- Triwulan III 2023: Pembukaan: 1.315, Tertinggi: 1.370, Terendah: 1.220, Penutupan: 1.220, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 1.304, Kapitalisasi Pasar: 17,12
+- Triwulan IV 2023: Pembukaan: 1.240, Tertinggi: 1.295, Terendah: 1.190, Penutupan: 1.250, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 819, Kapitalisasi Pasar: 17,54
+- Triwulan I 2024: Pembukaan: 1.250, Tertinggi: 1.600, Terendah: 1.250, Penutupan: 1.555, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 3.041, Kapitalisasi Pasar: 17,54
+- Triwulan II 2024: Pembukaan: 1.490, Tertinggi: 1.515, Terendah: 1.175, Penutupan: 1.265, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 2.204, Kapitalisasi Pasar: 21,82
+- Triwulan III 2024: Pembukaan: 1.275, Tertinggi: 1.535, Terendah: 1.245, Penutupan: 1.450, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 2.110, Kapitalisasi Pasar: 20,35
+- Triwulan IV 2024: Pembukaan: 1.465, Tertinggi: 1.505, Terendah: 1.110, Penutupan: 1.140, Jumlah Saham Beredar: 14,03, Volume Perdagangan: 1.440, Kapitalisasi Pasar: 16,00

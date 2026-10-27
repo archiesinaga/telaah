@@ -1,0 +1,38 @@
+Tabel Proyeksi Pengembangan SDM
+Satuan: (dalam %)
+Kolom Uraian dan Proyeksi 2025:
+- Biaya Pengembangan SDM (Rp juta): 133.000
+- Jumlah Pelatihan (pelatihan): 250
+- Jumlah Peserta Pelatihan (orang): 325.000
+
+Proyeksi Perbandingan BTN dengan Bank sejenis
+Catatan: xx% CAHR >13%, ROF >16%
+Catatan bawah: 1. Angka BTN sebagai bagian dari aspirasi 2025
+
+Kolom Kiri (Nama Bank, Mortgage % dari aset pinjaman, Mortgage, 2019 USD Miliar, CAGR, 17-19, ROE, 2019):
+- Nationwide: 94, 246, 3.2%, 5.0%
+- LIC HFL: 90, 25, 10.6%, 15.9%
+- ธอส: 85, 35, 8.4%, 15.6%
+- Santander: 81, 216, 3.4%, 4.6%
+- HDFC: 73, 91, 10.4%, 17.0%
+- LLOYDS BANK: 68, 403, 0.6%, 6.1%
+- btn: 67, 12, 13%, 20%
+- CAIXA: 67, 84, 3.7%, 17.5%
+- JPMORGAN CHASE & CO.: 44, 431, -8.8%, 14.1%
+- PUBLIC BANK: 37, 29, 8.3%, 12.8%
+- 中国建设银行 China Construction Bank: 35, 760, 12.2%, 12.7%
+- RHB: 35, 25, 11.1%, 10.1%
+
+Kolom Kanan (Nama Bank, Mortgage % dari aset pinjaman, Mortgage, 2019 USD Miliar, CAGR, 17-19, ROE, 2019):
+- WELLS FARGO: 34, 325, -0.1%, 10.4%
+- 中国农业银行 AGRICULTURAL BANK OF CHINA: 31, 596, 15.3%, 11.7%
+- 中国工商银行 INDUSTRIAL AND COMMERCIAL BANK OF CHINA: 31, 756, 12.5%, 10.4%
+- SCB: 31, 22, 1.6%, 10.3%
+- 中国银行 BANK OF CHINA: 31, 573, 14.2%, 10.9%
+- CIMB NIAGA: 29, 26, 8.9%, 8.1%
+- Maybank: 27, 40, 9.9%, 10.5%
+- UOB: 26, 51, 2.5%, 11.2%
+- OCBC Bank: 23, 46, -1.9%, 10.9%
+- SBER: 21, 74, 17.0%, 21.9%
+- DBS: 20, 55, 0.2%, 12.6%
+- State Bank of India: 20, 65, 15.6%, 1.4%

@@ -1,0 +1,22 @@
+1. Judul atau keterangan:
+Tabel Nilai
+Periode: 2024 dan 2023
+
+Angka yang tertera:
+- Biaya perolehan diamortisasi, 2024: 20.825.986
+- Biaya perolehan diamortisasi, 2023: 21.921.022
+- Total efek-efek, 2024: 57.325.340
+- Total efek-efek, 2023: 41.199.803
+
+2. Judul atau keterangan:
+Tabel Ekspansi Jaringan Kantor
+
+Angka dan teks tertera:
+- Kantor Wilayah (Kanwil), Kanwil Jakarta I, Dioperasikan Tanggal: 2 Mei 2024
+- Kantor Wilayah (Kanwil), Kanwil Kalimantan, Dioperasikan Tanggal: 12 Juli 2024
+- Kantor Cabang (KC) Konvensional, KC Agung Sedayu (Peningkatan Status dari KCP), Dioperasikan Tanggal: 3 Juni 2024
+- Kantor Cabang Syariah (KCS), KCS Lhokseumawe (Peningkatan status dari KCPS), Dioperasikan Tanggal: 19 Desember 2024
+- Kantor Cabang Pembantu (KCP) Konvensional, KCP Nusantara, Dioperasikan Tanggal: 20 Desember 2024
+- KCP Syariah (KCPS), KCPS Sigli, Dioperasikan Tanggal: 27 Juni 2024
+- KCP Syariah (KCPS), KCPS Kuningan, Dioperasikan Tanggal: 24 Juni 2024
+- Kantor Fungsional (KF), Menara II BTN, Dioperasikan Tanggal: 18 Maret 2024

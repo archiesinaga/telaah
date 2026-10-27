@@ -1,0 +1,73 @@
+Tabel 1:
+- Struktur: Ketua (merangkap anggota tetap)
+- Jabatan: Wakil Direktur Utama
+- Hak Suara: ✓
+- Keterangan: (Ketua) Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Dana Institusi dan Jaringan*
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Kredit Konsumer dan Pembiayaan
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Manajemen Risiko
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Teknologi Informasi
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Operasional dan Customer Experience
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi SME & Retail Funding
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Sumber Daya Manusia, Kepatuhan, dan Hukum
+- Hak Suara: ×
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: SEVP yang membawahi Wholesale Banking
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: SEVP yang membawahi Digital Business
+- Hak Suara: ✓
+- Keterangan: Anggota Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Keuangan
+- Hak Suara: ✓
+- Keterangan: Anggota Tidak Tetap
+
+- Struktur: Direksi / SEVP
+- Jabatan: Direktur yang membawahi Aset Manajemen
+- Hak Suara: ✓
+- Keterangan: Anggota Tidak Tetap
+
+Tabel 2:
+- No: 1
+- Tanggal: 06 Februari 2024
+- Agenda: Pengembangan Produk BTN Paylater
+
+- No: 2
+- Tanggal: 07 Februari 2024
+- Agenda: Persiapan Implementasi Rebranding BTN
+
+- No: 3
+- Tanggal: 02 April 2024
+- Agenda: Rencana PKS Jasa Perbankan, Autodebet TWP, dan Integrasi Aplikasi e-TWP dengan TNI-AD

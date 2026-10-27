@@ -1,0 +1,28 @@
+1. Judul: Laporan Tahunan 2024 btn
+2. Tabel 1:
+- Kolom: Tanggal Jatuh Tempo, Tingkat Suku Bunga, Status Pembayaran, Keterangan
+- Baris 1: 17 Juni 2037: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 2: 12 Oktober 2036: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 3: 12 April 2037: 0,55% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 4: 14 Juni 2037: 0,55% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 5: 28 Maret 2037: 0,55% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 6: 28 April 2037: 0,55% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 7: 15 September 2037: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 8: 27 Desember 2038: 0,55% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 9: 27 Desember 2037: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 10: 07 Agustus 2038: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 11: 27 Desember 2038: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+- Baris 12: 23 Desember 2038: 1,37% tetap, Belum Jatuh Tempo, Surat Berharga ini tidak dirating dan tidak dilakukan penawaran umum
+
+3. Tabel 2: Peringkat Fitch per 23 Oktober 2024
+- Kolom: Keterangan, Peringkat
+- Outlook: Stable
+- Peringkat Nasional Jangka Panjang: AA+(idn)
+- Peringkat Nasional Jangka Pendek: F1+(idn)
+
+4. Tabel 3: Peringkat Pefindo per 5 Juli 2024
+- Kolom: Keterangan, Peringkat
+- Outlook: Stable
+- Peringkat Nasional: idAAA
+
+5. Footer: PT Bank Tabungan Negara (Persero) Tbk | 35

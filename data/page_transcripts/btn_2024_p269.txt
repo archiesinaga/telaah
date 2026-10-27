@@ -1,0 +1,123 @@
+Tabel Jumlah Rekening Simpanan Konsumen
+Satuan: (dalam rekening)
+Periode: 2024 dan 2023
+
+Tabungan Konsumen:
+- 2024: 6.139.468
+- 2023: 7.099.737
+- Kenaikan/Penurunan Nominal: (960.269)
+- Kenaikan/Penurunan Persentase: (13,53%)
+
+Deposito Berjangka:
+- 2024: 93.017
+- 2023: 92.665
+- Kenaikan/Penurunan Nominal: 352
+- Kenaikan/Penurunan Persentase: 0,38%
+
+Jumlah Rekening Simpanan Konsumen:
+- 2024: 6.232.485
+- 2023: 7.192.402
+- Kenaikan/Penurunan Nominal: (959.917)
+- Kenaikan/Penurunan Persentase: (13,35%)
+
+---
+
+Tabel Jumlah Tabungan Konsumen
+Satuan: (dalam jutaan Rupiah)
+Periode: 2024 dan 2023
+
+Tabungan Batara:
+- 2024: 17.250.326
+- 2023: 17.539.793
+- Kenaikan/Penurunan Nominal: (289.467)
+- Kenaikan/Penurunan Persentase: (1,65%)
+
+Tabungan Bisnis:
+- 2024: 3.603.417
+- 2023: 3.107.305
+- Kenaikan/Penurunan Nominal: 496.382
+- Kenaikan/Penurunan Persentase: 15,98%
+
+Tabungan Investa:
+- 2024: 12.052.267
+- 2023: 12.451.489
+- Kenaikan/Penurunan Nominal: (399.222)
+- Kenaikan/Penurunan Persentase: (3,21%)
+
+Tabungan eBatara Pos:
+- 2024: 1.944.082
+- 2023: 1.949.007
+- Kenaikan/Penurunan Nominal: (4.926)
+- Kenaikan/Penurunan Persentase: (0,25%)
+
+Tabungan Lainnya:
+- 2024: 2.849.902
+- 2023: 2.673.513
+- Kenaikan/Penurunan Nominal: 176.389
+- Kenaikan/Penurunan Persentase: 6,60%
+
+Tabungan Junior:
+- 2024: 311.772
+- 2023: 518.793
+- Kenaikan/Penurunan Nominal: (207.021)
+- Kenaikan/Penurunan Persentase: (39,90%)
+
+Tabungan Juara:
+- 2024: 864.736
+- 2023: 732.105
+- Kenaikan/Penurunan Nominal: 132.631
+- Kenaikan/Penurunan Persentase: 18,12%
+
+Tabungan Simpel:
+- 2024: 242.574
+- 2023: 161.457
+- Kenaikan/Penurunan Nominal: 81.117
+- Kenaikan/Penurunan Persentase: 50,24%
+
+TabunganKu:
+- 2024: 1.000.413
+- 2023: 951.332
+- Kenaikan/Penurunan Nominal: 49.081
+- Kenaikan/Penurunan Persentase: 5,16%
+
+Tabungan BTN Perumahan:
+- 2024: 18.635
+- 2023: 22.503
+- Kenaikan/Penurunan Nominal: (3.868)
+- Kenaikan/Penurunan Persentase: (17,19%)
+
+Tabungan Cermat:
+- 2024: 21.175
+- 2023: 20.967
+- Kenaikan/Penurunan Nominal: 209
+- Kenaikan/Penurunan Persentase: 0,99%
+
+Tabungan BTN Haji:
+- 2024: 0,1
+- 2023: 0
+- Kenaikan/Penurunan Nominal: 0
+- Kenaikan/Penurunan Persentase: -
+
+Tabungan Siap!:
+- 2024: 100.215
+- 2023: 73.517
+- Kenaikan/Penurunan Nominal: 26.698
+- Kenaikan/Penurunan Persentase: 36,32%
+
+Tabungan SiMuda RumahKu:
+- 2024: 0
+- 2023: 31
+- Kenaikan/Penurunan Nominal: (31)
+- Kenaikan/Penurunan Persentase: (100,00%)
+
+Tabungan BTN Felas:
+- 2024: 290.382
+- 2023: 192.807
+- Kenaikan/Penurunan Nominal: 97.575
+- Kenaikan/Penurunan Persentase: 50,61%
+
+Jumlah Dana Tabungan Konsumen:
+- 2024: 37.699.994
+- 2023: 37.720.836
+- Kenaikan/Penurunan Nominal: (20.842)
+- Kenaikan/Penurunan Persentase: (0,06%)

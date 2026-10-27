@@ -1,0 +1,20 @@
+No. | Key Performance Indicators | Realisasi | Target | Pencapaian | Bobot (%) | Nilai (%)
+No. | Key Performance Indicators | a | b | c=a/b | d | e=cxd
+3. | Menghadiri Exit Meeting Audit Umum Internal | 4 | 4 | 100% | 10 | 10,00
+4. | Pengecekan dan evaluasi terhadap Laporan Keuangan Publikasi Triwulanan | 4 | 4 | 100% | 10 | 10,00
+5. | Memberikan rekomendasi mengenai penunjukan KAP dan Evaluasi Pelaksanaan Pemberian Jasa Audit KAP kepada Dewan Komisaris | 3 | 2 | 150% | 10 | 15,00
+6. | Menelaah, mengevaluasi, dan memberikan masukan kepada Dekom terkait materi Performance Review bulanan | 12 | 12 | 100% | 10 | 10,00
+7. | Menyusun laporan triwulanan dan tahunan mengenai kegiatan Komite Audit kepada Dewan Komisaris | 4 | 4 | 100% | 5 | 5,00
+8. | Menyusun Tanggapan Dewan Komisaris atas Kinerja Perseroan (Triwulanan) yang disampaikan kepada Menteri BUMN dan Semesteran kepada OJK | 6 | 6 | 100% | 10 | 10,00
+II. | NON REGULER | | | | 5 | 10,00
+9. | Pengembangan Kompetensi yang berhubungan dengan Tugas dan Tanggung Jawab (jam pelatihan) | 87 | 20 | 200% | 5 | 10,00
+IV. | LAIN - LAIN | | | | 15 | 30,00
+10. | Rapat Komite Audit | 39 | 12 | 200% | 15 | 30,00
+JUMLAH | | | | | 100 | 128,75
+
+No. | Indikator Kinerja | Realisasi a | s.d. Desember 2024 Target b | s.d. Desember 2024 Pencapaian c=a÷b | s.d. Desember 2024 Bobot (%) d | s.d. Desember 2024 Nilai (%) e=cxd
+I. | FINANCIAL | | | | |
+1. | Monitoring dan Evaluasi Realisasi Anggaran Dewan Komisaris | 2 | 2 | 100% | 10 | 10
+II. | CUSTOMER | | | | |
+2. | Mereviu Laporan Rencana Bisnis Bank (RBB), Rencana Kerja dan Anggaran Perusahaan (RKAP) dan Rencana Aksi Keuangan Berkelanjutan serta Penilaian Sendiri kepada Bank Terkait GCG | 1 | 1 | 100% | 5 | 5
+3. | Rekomendasi dan Penilaian Calon Anggota Dewan Komisaris dan Direksi terkait dengan pelaksanaan RUPS Perseroan | 1 | 1 | 100% | 5 | 5

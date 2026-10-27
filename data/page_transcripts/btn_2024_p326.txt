@@ -1,0 +1,52 @@
+Tabel Suku Bunga Deposito Rupiah
+
+Jenis Produk: Deposito Rupiah
+Jangka Waktu (bulan): 1, 2, 3, 4, 6, 12, 24
+Strata Saldo dan Suku Bunga per Jangka Waktu:
+- < Rp1 juta: 1: 0,00%, 2: 0,00%, 3: 0,00%, 4: 0,00%, 6: 0,00%, 12: 0,00%, 24: 0,00%
+- ≥Rp1 juta - < Rp10 juta: 1: 1,00%, 2: 1,00%, 3: 1,00%, 4: 1,00%, 6: 1,00%, 12: 1,00%, 24: 1,00%
+- ≥Rp10 juta - < Rp100 juta: 1: 2,25%, 2: 2,40%, 3: 2,65%, 4: 2,65%, 6: 2,90%, 12: 2,90%, 24: 2,90%
+- ≥ Rp100 juta - < Rp500 juta: 1: 2,40%, 2: 2,40%, 3: 2,90%, 4: 2,90%, 6: 3,05%, 12: 3,05%, 24: 3,05%
+- ≥ Rp500 juta - ≤ Rp2 miliar: 1: 2,40%, 2: 2,40%, 3: 2,90%, 4: 2,90%, 6: 3,05%, 12: 3,05%, 24: 3,05%
+- > Rp2 miliar: 1: 2,40%, 2: 2,40%, 3: 2,90%, 4: 2,90%, 6: 3,05%, 12: 3,05%, 24: 3,05%
+
+Tabel Suku Bunga e-Deposito Ritel Rupiah
+
+Jenis Produk: e-Deposito Ritel Rupiah
+Jangka Waktu (bulan): 1, 2, 3, 4, 6, 12, 24
+Strata Saldo dan Suku Bunga per Jangka Waktu:
+- < Rp100 juta: 1: 2,60%, 2: 2,75%, 3: 3,00%, 4: 3,00%, 6: 3,25%, 12: 3,25%, 24: 3,25%
+- ≥ Rp100 juta - < Rp500 juta: 1: 2,65%, 2: 2,75%, 3: 3,25%, 4: 3,25%, 6: 3,40%, 12: 3,40%, 24: 3,40%
+- ≥ Rp500 juta - < Rp2 miliar: 1: 4,25%, 2: 4,25%, 3: 4,40%, 4: 4,50%, 6: 4,65%, 12: 3,40%, 24: 3,40%
+- ≥ Rp2 miliar - < Rp5 miliar: 1: 4,50%, 2: 4,50%, 3: 4,65%, 4: 4,80%, 6: 4,90%, 12: 3,40%, 24: 3,40%
+- ≥ Rp5 miliar - < Rp10 miliar: 1: 4,60%, 2: 4,60%, 3: 4,80%, 4: 4,90%, 6: 5,00%, 12: 3,50%, 24: 3,50%
+- ≥ Rp10 miliar: 1: 4,70%, 2: 4,70%, 3: 5,00%, 4: 5,00%, 6: 5,00%, 12: 3,60%, 24: 3,60%
+
+Tabel Suku Bunga Tabungan Valas
+
+Jenis Produk: Tabungan BTN Felas
+USD:
+- Strata Saldo dan Suku Bunga:
+  - < USD 1.000: 0,00%
+  - USD 1.000 - < USD 10.000: 0,15%
+  - USD 10.000 - < USD 100.000: 0,35%
+  - ≥ USD 100.000: 0,50%
+SGD:
+- Strata Saldo: All tiering
+- Suku Bunga: 0,10%
+AUD / CNY:
+- Strata Saldo: All tiering
+- Suku Bunga: 0,05%
+JPY:
+- Strata Saldo: All tiering
+- Suku Bunga: 0,00%
+
+Tabel Suku Bunga Tabungan Valas
+
+Jenis Produk: Tabungan BTN Felas USD via Mobile Banking
+USD:
+- Strata Saldo dan Suku Bunga:
+  - < USD 1.000: 0,00%
+  - USD 1.000 - < USD 10.000: 0,15%
+  - USD 10.000 - < USD 100.000: 0,35%
+  - ≥ USD 100.000: 0,50%

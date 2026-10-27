@@ -1,0 +1,10 @@
+Alokasi Anggaran Program TJSL Program Pengembangan Masyarakat
+Program: Charitable Donations, Unit: %, 2023: 42,35, 2024: 44,80
+Program: Community Investments, Unit: %, 2023: 53,65, 2024: 54,00
+Program: Commercial Initiatives, Unit: %, 2023: 4,00, 2024: 1,20
+Program: Total, Unit: %, 2023: 100, 2024: 100
+
+Jenis Kontribusi TJSL
+Jenis Kontribusi: Cash Contribution*, Unit: Rp juta, 2023: 0, 2024: 0
+Jenis Kontribusi: In-Kind Giving**, Unit: Rp juta, 2023: 174,67, 2024: 250,03
+Jenis Kontribusi: Management Overhead, Unit: Rp juta, 2023: 9,63, 2024: 6,56

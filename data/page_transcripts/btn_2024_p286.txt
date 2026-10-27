@@ -1,0 +1,179 @@
+Tabel Posisi Pembiayaan Konsumen Syariah
+(dalam jutaan Rupiah)
+
+Pembiayaan Konsumen Syariah
+2024: 
+2023: 
+Kenaikan/Penurunan Nominal: 
+Kenaikan/Penurunan Persentase: 
+
+PEMBIAYAAN PERUMAHAN
+2024: 40.866.065
+2023: 34.604.291
+Nominal: 6.261.774
+Persentase: 18,10%
+
+KPR SUBSIDI
+2024: 26.521.953
+2023: 22.961.992
+Nominal: 3.559.961
+Persentase: 15,50%
+
+KPR BP2BT iB
+2024: 551.863
+2023: 581.978
+Nominal: (30.115)
+Persentase: (5,17%)
+
+KPR Sejahtera Tapak iB
+2024: 18.549.858
+2023: 14.313.911
+Nominal: 4.235.947
+Persentase: 29,59%
+
+KPR Sejahtera Susun iB
+2024: 1.363
+2023: 1.440
+Nominal: (77)
+Persentase: (5,35%)
+
+KPR SSM Tapak iB
+2024: 6.972.292
+2023: 7.715.628
+Nominal: (743.336)
+Persentase: (9,63%)
+
+KPR SSM Susun iB
+2024: 43.519
+2023: 48.991
+Nominal: (5.472)
+Persentase: (11,17%)
+
+KPR Tapera iB
+2024: 403.058
+2023: 300.044
+Nominal: 103.014
+Persentase: 34,33%
+
+KPR Non Subsidi
+2024: 14.303.159
+2023: 11.604.082
+Nominal: 2.699.077
+Persentase: 23,26%
+
+KPR Platinum iB
+2024: 9.040.139
+2023: 7.743.069
+Nominal: 1.297.070
+Persentase: 16,75%
+
+KPR Indent iB
+2024: 5.263.020
+2023: 3.861.013
+Nominal: 1.402.007
+Persentase: 36,31%
+
+Non KPR
+2024: 40.953
+2023: 38.217
+Nominal: 2.736
+Persentase: 7,16%
+
+Pembiayaan Bangun Rumah iB
+2024: 37.172
+2023: 33.330
+Nominal: 3.842
+Persentase: 11,53%
+
+PUM-KB Jamsostek iB
+2024: 3.781
+2023: 4.887
+Nominal: (1.106)
+Persentase: (22,63%)
+
+PEMBIAYAAN NON PERUMAHAN
+2024: 290.105
+2023: 168.816
+Nominal: 121.289
+Persentase: 71,85%
+
+Pembiayaan Kendaraan Bermotor iB
+2024: 1.485
+2023: 1.400
+Nominal: 85
+Persentase: 6,07%
+
+Pembiayaan Gadai iB
+2024: -
+2023: -
+Nominal: -
+Persentase: -
+
+Pembiayaan Multijasa iB
+2024: 20.904
+2023: 15.940
+Nominal: 4.964
+Persentase: 31,14%
+
+Pembiayaan Multimanfaat iB
+2024: 175.877
+2023: 151.476
+Nominal: 24.401
+Persentase: 16,11%
+
+Pembiayaan Emasku
+2024: -
+2023: -
+Nominal: -
+Persentase: -
+
+Pembiayaan Multiguna (Soft Financing) Pegawai BTN iB
+2024: 91.839
+2023: 0
+Nominal: 91.839
+Persentase: 91,839%
+
+Jumlah Posisi Pembiayaan Konsumen Syariah
+2024: 41.156.171
+2023: 34.773.107
+Nominal: 6.383.064
+Persentase: 18,36%
+
+Tabel Posisi Volume Pembiayaan Konsumen Syariah
+(dalam unit pembiayaan)
+
+Pembiayaan Konsumen Syariah
+2024: 
+2023: 
+Kenaikan/Penurunan Nominal: 
+Kenaikan/Penurunan Persentase: 
+
+PEMBIAYAAN PERUMAHAN
+2024: 307.580
+2023: 273.261
+Nominal: 34.319
+Persentase: 12,56%
+
+KPR SUBSIDI
+2024: 250.808
+2023: 221.749
+Nominal: 29.059
+Persentase: 13,10%
+
+KPR BP2BT iB
+2024: 6.144
+2023: 6.213
+Nominal: (69)
+Persentase: (1,11%)
+
+KPR Sejahtera Tapak iB
+2024: 156.941
+2023: 126.742
+Nominal: 30.199
+Persentase: 23,83%
+
+KPR Sejahtera Susun iB
+2024: 10
+2023: 10
+Nominal: -
+Persentase: 0,00%

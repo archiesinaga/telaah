@@ -1,0 +1,6 @@
+Tabel Rasio Keuangan Lain (dalam %)
+Uraian | 2024 | 2023 | Kenaikan/Penurunan
+Return On Assets (ROA): 2024: 0,83, 2023: 1,07, Kenaikan/Penurunan: (0,24)
+Return On Equity (ROE): 2024: 10,76, 2023: 13,86, Kenaikan/Penurunan: (3,1)
+Net Interest Margin (NIM): 2024: 2,86, 2023: 3,75, Kenaikan/Penurunan: (0,89)
+Beban Operasional terhadap Pendapatan Operasional (BOPO): 2024: 88,70, 2023: 86,10, Kenaikan/Penurunan: 2,60

@@ -1,0 +1,42 @@
+Tata Kelola Perusahaan
+
+2. Jika Terlapor adalah pegawai Bank (1 level di bawah Direksi) dan bukan Tim WBS
+
+Kolom: Pelapor
+Mulai: Mulai
+1. Laporan WBS: 1. Laporan WBS
+13a. Memberikan Feedback: 13a. Memberikan Feedback
+Informasi Tambahan: Informasi Tambahan
+13b. Tidak Memberikan Feedback: 13b. Tidak Memberikan Feedback
+
+Kolom: Pengelola WBS Independen
+2. Input Aplikasi WBS: 2. Input Aplikasi WBS
+3. Mengklasifikasikan Laporan WBS: 3. Mengklasifikasikan Laporan WBS
+Laporan WBS in scope/out of scope: Laporan WBS in scope/out of scope
+12. Meminta Pelapor untuk melengkapi Informasi: 12. Meminta Pelapor untuk melengkapi Informasi
+14. Menginformasikan pelapor tidak memberikan feedback: 14. Menginformasikan pelapor tidak memberikan feedback
+Selesai: Selesai
+11. Closing Status Laporan: 11. Closing Status Laporan
+
+Kolom: Direktur Utama
+4. Analisa: 4. Analisa
+Laporan WBS in scope/out of scope: Laporan WBS in scope/out of scope
+5. Informasi Cukup: 5. Informasi Cukup
+6. Layak Audit Khusus: 6. Layak Audit Khusus
+Tidak: Tidak
+Ya: Ya
+Ya: Ya
+9. Memo/dokumen lainnya tindak lanjut laporan WBS: 9. Memo/dokumen lainnya tindak lanjut laporan WBS
+15. Menerima informasi tidak ada feedback: 15. Menerima informasi tidak ada feedback
+10. Arahan untuk dilakukan closing Status Laporan: 10. Arahan untuk dilakukan closing Status Laporan
+
+Kolom: Tim Audit Khusus
+Tidak: Tidak
+7a. Laporan WBS in scope: 7a. Laporan WBS in scope
+8a. Tindak Lanjut: 8a. Tindak Lanjut
+
+Kolom: Unit Kerja Terkait
+7b. Laporan WBS out of scope: 7b. Laporan WBS out of scope
+8b. Tindak Lanjut: 8b. Tindak Lanjut
+
+762 PT Bank Tabungan Negara (Persero) Tbk

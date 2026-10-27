@@ -1,0 +1,23 @@
+Tabel Volume Penyaluran Kredit Konstruksi
+(dalam unit)
+Kolom: Kredit Konstruksi, 2024, 2023, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Baris 1: Kredit Konstruksi BTN, 2024: 3.282, 2023: 3.435, Kenaikan/Penurunan Nominal: (153), Kenaikan/Penurunan Persentase: (4,45%)
+Baris 2: Kredit Konstruksi Korporasi, 2024: 9, 2023: 10, Kenaikan/Penurunan Nominal: (1), Kenaikan/Penurunan Persentase: (10%)
+Baris 3: Jumlah Volume Kredit Konstruksi, 2024: 3.291, 2023: 3.445, Kenaikan/Penurunan Nominal: (154), Kenaikan/Penurunan Persentase: (4,47%)
+
+Tabel Nilai Penyaluran Kredit UMKM
+(dalam jutaan Rupiah)
+Kolom: Kredit UMKM, 2024, 2023, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Baris 1: KUR, 2024: 1.799.621, 2023: 1.807.673, Kenaikan/Penurunan Nominal: 8.052, Kenaikan/Penurunan Persentase: (0,45%)
+Baris 2: KUMK, 2024: 4.404.263, 2023: 3.431.071, Kenaikan/Penurunan Nominal: 973.192, Kenaikan/Penurunan Persentase: 28,36%
+Baris 3: KMK, 2024: 458.846, 2023: 1.225.012, Kenaikan/Penurunan Nominal: (766.166), Kenaikan/Penurunan Persentase: (62,54%)
+Baris 4: Kredit Investasi UMKM, 2024: 6.820, 2023: 13.925, Kenaikan/Penurunan Nominal: (7.105), Kenaikan/Penurunan Persentase: (51,20%)
+Baris 5: KMK Kontraktor UMKM, 2024: 23.360, 2023: 42.567, Kenaikan/Penurunan Nominal: 19.207, Kenaikan/Penurunan Persentase: (45,12%)
+Baris 6: Jumlah Nilai Penyaluran Kredit UMKM, 2024: 6.692.911, 2023: 6.520.248, Kenaikan/Penurunan Nominal: 172.662, Kenaikan/Penurunan Persentase: 2,65%
+
+Tabel Volume Penyaluran Produk Kredit UMKM
+(dalam unit)
+Kolom: Kredit UMKM, 2024, 2023, Kenaikan/Penurunan Nominal, Kenaikan/Penurunan Persentase
+Baris 1: KUR, 2024: 13.010, 2023: 8.214, Kenaikan/Penurunan Nominal: 4.796, Kenaikan/Penurunan Persentase: 58,39%
+Baris 2: KUMK, 2024: 3.817, 2023: 1.405, Kenaikan/Penurunan Nominal: 2.412, Kenaikan/Penurunan Persentase: 171,67%
+Baris 3: KMK, 2024: 181, 2023: 1.404, Kenaikan/Penurunan Nominal: 1.223, Kenaikan/Penurunan Persentase: (87,11%)

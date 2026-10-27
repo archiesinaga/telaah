@@ -1,0 +1,32 @@
+Tabel Kepemilikan Saham Dewan Komisaris dan Direksi BTN per 31 Desember 2024
+No., Nama, Jabatan, Jumlah Saham (Lembar), Persentase Kepemilikan (%)
+
+DIREKSI
+1., Nixon L.P. Napitupulu, Direktur Utama, 5.399.000, 0,0384696
+2., Oni Febriarto Rahardjo, Wakil Direktur Utama, 1.149.100, 0,0081877
+3., Andi Nirwoto, Direktur Information Technology, 2.818.561, 0,0200832
+4., Elisabeth Novie Riswanti, Direktur Assets Management, 2.729.600, 0,0194493
+5., Jasmin, Direktur Distribution and Institutional Funding, 3.844.430, 0,0273928
+6., Setiyo Wibowo, Direktur Risk Management, 2.889.100, 0,0205858
+7., Hirwandi Gafar, Direktur Consumer, 2.759.714, 0,0196639
+8., Nofry Rony Poetra, Direktur Finance, 3.527.422, 0,0251340
+9., Eko Waluyo, Direktur Human Capital, Compliance and Legal, 2.868.364, 0,0204380
+10., Hakim Putratama, Direktur Operations & Customer Experience, 794.400, 0,0056604
+11., Muhammad Iqbal, Direktur SME & Retail Funding, -, -
+
+DEWAN KOMISARIS
+1., Chandra M. Hamzah, Komisaris Utama/Independen, -, -
+2., Iqbal Latanro, Wakil Komisaris Utama/Independen, -, -
+3., Armand B. Arief, Komisaris Independen, -, -
+4., Sentot A. Sentausa, Komisaris Independen, -, -
+5., Adi Sulistyowati, Komisaris Independen, -, -
+6., Bambang Widjanarko, Komisaris Independen, -, -
+7., Andin Hadiyanto, Komisaris, -, -
+8., Herry Trisaputra Zuna, Komisaris, 879.300, 0,0062653
+9., Himawan Arief Sugoto, Komisaris, 879.300, 0,0062653
+
+Tabel Kepemilikan Saham Senior Manajemen BTN Per 31 Desember 2024
+No., Nama, Jabatan, Jumlah Saham (Lembar), Persentase Kepemilikan (%)
+1., Benny Yoslim, SEVP Wholesale Banking, 911.500, 0,0064947
+2., Alex Sofjan Noor, SEVP Operations, 1.540.026, 0,0109732
+3., Thomas Wahyudi, SEVP Digital Business, 268.500, 0,0019132

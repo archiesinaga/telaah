@@ -1,0 +1,20 @@
+Tabel Perkara Hukum
+1. Judul atau keterangan:
+Tabel Perkara Hukum
+2. Label sumbu, legenda, satuan, dan periode:
+Kolom: No., Perkara Hukum, Jumlah (Perdata, Pidana, Hubungan Industrial)
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Baris 1: No. 1, Perkara Hukum: Telah Selesai (telah mempunyai kekuatan hukum yang tetap), Perdata: 119, Pidana: 14, Hubungan Industrial: 2
+- Baris 2: No. 2, Perkara Hukum: Dalam proses penyelesaian, Perdata: 177, Pidana: 9, Hubungan Industrial: 2
+- Total: Perdata: 296, Pidana: 23, Hubungan Industrial: 4
+
+Tabel Perkara Hukum yang Dihadapi Perusahaan
+1. Judul atau keterangan:
+Tabel Perkara Hukum yang Dihadapi Perusahaan
+2. Label sumbu, legenda, satuan, dan periode:
+Kolom: No., Pokok Perkara / Gugatan, Status Penyelesaian, Pengaruhnya Terhadap Kondisi Perusahaan, Upaya Manajemen, Sanksi Yang Dikenakan, Risiko dan Nominal Potensi Kerugian
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Baris 1: No. 1, Risiko dan Nominal Potensi Kerugian: Rp108.000.000
+- Baris 2: No. 2, Risiko dan Nominal Potensi Kerugian: Rp1.317.500.000
+- Baris 3: No. 3, Risiko dan Nominal Potensi Kerugian: Rp33.600.000.000
+- Baris 4: No. 4, Risiko dan Nominal Potensi Kerugian: Rp30.777.210.669

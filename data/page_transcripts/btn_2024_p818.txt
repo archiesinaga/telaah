@@ -1,0 +1,13 @@
+1. Judul atau keterangan grafik:
+- Skor CGPI
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode (tahun): 2019, 2020, 2021, 2022, 2023
+
+3. Semua angka yang tertera beserta label/periodenya:
+- 2019: 88,62
+- 2020: 89,62
+- 2021: 89,83
+- 2022: 90,52
+- 2023: 91,52
+- Nomor halaman: 816

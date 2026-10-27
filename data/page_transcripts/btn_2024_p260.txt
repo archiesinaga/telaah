@@ -1,0 +1,164 @@
+Tabel Rincian Pengaduan Nasabah Berdasarkan Kategori
+
+Tahun 2024
+Penghimpunan Dana - Selesai Jumlah: 655
+Penghimpunan Dana - Selesai %: 61,56%
+Penghimpunan Dana - Dalam Proses Jumlah: 409
+Penghimpunan Dana - Dalam Proses %: 38,44%
+Penghimpunan Dana - Tidak Selesai Jumlah: -
+Penghimpunan Dana - Tidak Selesai %: 0,00%
+Penghimpunan Dana - Jumlah Pengaduan: 1.064
+
+Penyaluran Dana - Selesai Jumlah: 330
+Penyaluran Dana - Selesai %: 71,58%
+Penyaluran Dana - Dalam Proses Jumlah: 131
+Penyaluran Dana - Dalam Proses %: 28,42%
+Penyaluran Dana - Tidak Selesai Jumlah: -
+Penyaluran Dana - Tidak Selesai %: 0,00%
+Penyaluran Dana - Jumlah Pengaduan: 461
+
+Produk Kerjasama - Selesai Jumlah: 12
+Produk Kerjasama - Selesai %: 100,00%
+Produk Kerjasama - Dalam Proses Jumlah: 3
+Produk Kerjasama - Dalam Proses %: 25,00%
+Produk Kerjasama - Tidak Selesai Jumlah: -
+Produk Kerjasama - Tidak Selesai %: 0,00%
+Produk Kerjasama - Jumlah Pengaduan: 12
+
+Produk Lain - Selesai Jumlah: 819
+Produk Lain - Selesai %: 65,10%
+Produk Lain - Dalam Proses Jumlah: 439
+Produk Lain - Dalam Proses %: 34,90%
+Produk Lain - Tidak Selesai Jumlah: -
+Produk Lain - Tidak Selesai %: 0,00%
+Produk Lain - Jumlah Pengaduan: 1.258
+
+Sistem Pembayaran - Selesai Jumlah: 89.965
+Sistem Pembayaran - Selesai %: 99,74%
+Sistem Pembayaran - Dalam Proses Jumlah: 234
+Sistem Pembayaran - Dalam Proses %: 0,26%
+Sistem Pembayaran - Tidak Selesai Jumlah: -
+Sistem Pembayaran - Tidak Selesai %: 0,00%
+Sistem Pembayaran - Jumlah Pengaduan: 90.199
+
+Total - Selesai Jumlah: 91.781
+Total - Selesai %: 98,70%
+Total - Dalam Proses Jumlah: 1.216
+Total - Dalam Proses %: 1,31%
+Total - Tidak Selesai Jumlah: -
+Total - Tidak Selesai %: 0,00%
+Total - Jumlah Pengaduan: 92.994
+
+Tahun 2023
+Penghimpunan Dana - Selesai Jumlah: 318
+Penghimpunan Dana - Selesai %: 100,00%
+Penghimpunan Dana - Dalam Proses Jumlah: 0
+Penghimpunan Dana - Dalam Proses %: 0,00%
+Penghimpunan Dana - Tidak Selesai Jumlah: -
+Penghimpunan Dana - Tidak Selesai %: 0,00%
+Penghimpunan Dana - Jumlah Pengaduan: 318
+
+Penyaluran Dana - Selesai Jumlah: 206
+Penyaluran Dana - Selesai %: 99,04%
+Penyaluran Dana - Dalam Proses Jumlah: 2
+Penyaluran Dana - Dalam Proses %: 0,96%
+Penyaluran Dana - Tidak Selesai Jumlah: -
+Penyaluran Dana - Tidak Selesai %: 0,00%
+Penyaluran Dana - Jumlah Pengaduan: 208
+
+Produk Kerjasama - Selesai Jumlah: 8
+Produk Kerjasama - Selesai %: 100,00%
+Produk Kerjasama - Dalam Proses Jumlah: 0
+Produk Kerjasama - Dalam Proses %: 0,00%
+Produk Kerjasama - Tidak Selesai Jumlah: -
+Produk Kerjasama - Tidak Selesai %: 0,00%
+Produk Kerjasama - Jumlah Pengaduan: 8
+
+Produk Lain - Selesai Jumlah: 706
+Produk Lain - Selesai %: 86,95%
+Produk Lain - Dalam Proses Jumlah: 106
+Produk Lain - Dalam Proses %: 13,05%
+Produk Lain - Tidak Selesai Jumlah: -
+Produk Lain - Tidak Selesai %: 0,00%
+Produk Lain - Jumlah Pengaduan: 812
+
+Sistem Pembayaran - Selesai Jumlah: 61.261
+Sistem Pembayaran - Selesai %: 100,00%
+Sistem Pembayaran - Dalam Proses Jumlah: 0
+Sistem Pembayaran - Dalam Proses %: 0,00%
+Sistem Pembayaran - Tidak Selesai Jumlah: -
+Sistem Pembayaran - Tidak Selesai %: 0,00%
+Sistem Pembayaran - Jumlah Pengaduan: 61.261
+
+Total - Selesai Jumlah: 62.499
+Total - Selesai %: 99,83%
+Total - Dalam Proses Jumlah: 108
+Total - Dalam Proses %: 0,17%
+Total - Tidak Selesai Jumlah: -
+Total - Tidak Selesai %: 0,00%
+Total - Jumlah Pengaduan: 62.607
+
+Tahun 2022
+Penghimpunan Dana - Selesai Jumlah: 94
+Penghimpunan Dana - Selesai %: 100,00%
+Penghimpunan Dana - Dalam Proses Jumlah: -
+Penghimpunan Dana - Dalam Proses %: 0,00%
+Penghimpunan Dana - Tidak Selesai Jumlah: -
+Penghimpunan Dana - Tidak Selesai %: 0,00%
+Penghimpunan Dana - Jumlah Pengaduan: 94
+
+Penyaluran Dana - Selesai Jumlah: 184
+Penyaluran Dana - Selesai %: 100,00%
+Penyaluran Dana - Dalam Proses Jumlah: -
+Penyaluran Dana - Dalam Proses %: 0,00%
+Penyaluran Dana - Tidak Selesai Jumlah: -
+Penyaluran Dana - Tidak Selesai %: 0,00%
+Penyaluran Dana - Jumlah Pengaduan: 184
+
+Produk Kerjasama - Selesai Jumlah: 5
+Produk Kerjasama - Selesai %: 100,00%
+Produk Kerjasama - Dalam Proses Jumlah: -
+Produk Kerjasama - Dalam Proses %: 0,00%
+Produk Kerjasama - Tidak Selesai Jumlah: -
+Produk Kerjasama - Tidak Selesai %: 0,00%
+Produk Kerjasama - Jumlah Pengaduan: 5
+
+Produk Lain - Selesai Jumlah: 444
+Produk Lain - Selesai %: 100,00%
+Produk Lain - Dalam Proses Jumlah: -
+Produk Lain - Dalam Proses %: 0,00%
+Produk Lain - Tidak Selesai Jumlah: -
+Produk Lain - Tidak Selesai %: 0,00%
+Produk Lain - Jumlah Pengaduan: 444
+
+Sistem Pembayaran - Selesai Jumlah: 51.804
+Selesai Selesai %: 100,00%
+Sistem Pembayaran - Dalam Proses Jumlah: -
+Sistem Pembayaran - Dalam Proses %: 0,00%
+Sistem Pembayaran - Tidak Selesai Jumlah: -
+Sistem Pembayaran - Tidak Selesai %: 0,00%
+Sistem Pembayaran - Jumlah Pengaduan: 51.804
+
+Total - Selesai Jumlah: 52.531
+Total - Selesai %: 100,00%
+Total - Dalam Proses Jumlah: -
+Total - Dalam Proses %: 0,00%
+Total - Tidak Selesai Jumlah: -
+Total - Tidak Selesai %: 0,00%
+Total - Jumlah Pengaduan: 52.531
+
+Tabel Inbound Call Contact Center Tahun 2024
+
+BTN Call: Januari: 36.307, Februari: 28.315, Maret: 32.623, April: 29.249, Mei: 27.251, Juni: 24.720, Juli: 30.800, Agustus: 29.485, September: 26.011, Oktober: 30.925, November: 28.619, Desember: 28.798, Total: 353.103
+Email: Januari: 18.656, Februari: 15.465, Maret: 19.216, April: 26.544, Mei: 21.078, Juni: 17.959, Juli: 22.940, Agustus: 22.831, September: 23.509, Oktober: 23.786, November: 23.384, Desember: 29.045, Total: 264.413
+Instagram: Januari: 7.243, Februari: 13.865, Maret: 15.774, April: 10.459, Mei: 9.167, Juni: 7.254, Juli: 7.800, Agustus: 7.457, September: 23.509, Oktober: 10.722, November: 9.501, Desember: 11.288, Total: 118.137
+Whats App: Januari: 4.846, Februari: 5.221, Maret: 6.740, April: 6.930, Mei: 5.709, Juni: 4.516, Juli: 5.476, Agustus: 5.507, September: 5.000, Oktober: 5.818, November: 5.914, Desember: 6.549, Total: 68.226
+Facebook: Januari: 1.970, Februari: 7.112, Maret: 9.219, April: 1.987, Mei: 5.396, Juni: 1.881, Juli: 2.630, Agustus: 2.814, September: 7.287, Oktober: 7.337, November: 6.669, Desember: 9.738, Total: 64.040
+Twitter: Januari: 3.642, Februari: 3.475, Maret: 4.038, April: 4.632, Mei: 5.244, Juni: 3.410, Juli: 2.837, Agustus: 4.015, September: 2.693, Oktober: 3.944, November: 2.893, Desember: 3.692, Total: 44.515
+Playstore: Januari: 709, Februari: 1.228, Maret: 1.657, April: 1.361, Mei: 1.091, Juni: 945, Juli: 465, Agustus: 339, September: 1.011, Oktober: 2.339, November: 3.048, Desember: 3.838, Total: 18.031
+Live Chat: Januari: 517, Februari: 517, Maret: 571, April: 430, Mei: 548, Juni: 746, Juli: 693, Agustus: 339, September: 1.288, Oktober: 1.503, November: 1.217, Desember: 1.276, Total: 10.565
+YouTube: Januari: 69, Februari: 81, Maret: 229, April: 121, Mei: 70, Juni: 31, Juli: 66, Agustus: 34, September: 34, Oktober: 59, November: 36, Desember: 56, Total: 886
+App Store: Januari: 88, Februari: 45, Maret: 37, April: 53, Mei: 15, Juni: 33, Juli: 32, Agustus: -, September: -, Oktober: -, November: 126, Desember: 8, Total: 437
+lapor.go.id: Januari: 13, Februari: 2, Maret: 3, April: 2, Mei: 2, Juni: 4, Juli: 2, Agustus: 2, September: 5, Oktober: 9, November: 2, Desember: -, Total: 46
+Helpdesk IB dan I-CASH: Januari: 4, Februari: -, Maret: 5, April: 5, Mei: 1, Juni: -, Juli: -, Agustus: -, September: -, Oktober: -, November: -, Desember: -, Total: 15
+Total: Januari: 74.064, Februari: 75.326, Maret: 90.112, April: 81.773, Mei: 75.572, Juni: 61.499, Juli: 73.741, Agustus: 73.743, September: 74.445, Oktober: 86.442, November: 81.409, Desember: 94.288, Total: 942.414

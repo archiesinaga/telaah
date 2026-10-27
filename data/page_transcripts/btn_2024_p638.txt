@@ -1,0 +1,11 @@
+Tabel Tingkat Kehadiran Rapat Komite Pemantau Risiko
+
+Kolom: Nama | Jabatan | Rapat Komite Pemantau Risiko (Jumlah Rapat) | Rapat Komite Pemantau Risiko (Jumlah Kehadiran) | Rapat Komite Pemantau Risiko (Persentase)
+
+Baris 1: Armand B. Arief | Ketua merangkap Anggota | 61 | 61 | 100,00%
+Baris 2: Herry Trisaputra Zuna | Anggota | 61 | 58 | 95,08%
+Baris 3: Himawan Arief Sugoto | Anggota | 61 | 60 | 98,36%
+Baris 4: Adi Sulistyowati* | Anggota | 19 | 19 | 100,00%
+Baris 5: Andin Hadiyanto** | Anggota | 17 | 14 | 82,35%
+Baris 6: Ignace Widiatmoko | Anggota | 61 | 61 | 100,00%
+Baris 7: Pamuji Gesang Raharjo | Anggota | 61 | 61 | 100,00%

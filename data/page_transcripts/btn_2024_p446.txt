@@ -1,0 +1,32 @@
+1. Judul: Rincian Promosi Pegawai Tahun 2024
+   - Tabel 1 (Kiri):
+     - Kolom: Person Grade, Jumlah Pegawai
+     - 2B: 1
+     - 2C: 108
+     - 2D: 114
+     - 2E: 344
+     - 3B: 170
+     - 3C: 172
+     - 3D: 82
+     - 3E: 2
+   - Tabel 2 (Kanan):
+     - Kolom: Person Grade, Jumlah Pegawai
+     - 4A: 36
+     - 4B: 10
+     - 4C: 9
+     - 4D: 5
+     - 5A: 3
+     - 5B: 1
+     - Jumlah: 1.057
+
+2. Judul: Rincian Peserta Talent Acceleration Program (TAP) dan BTN Millennial Leader 2024
+   - Tabel:
+     - Kolom: Person Grade, TAP Batch 1 (Jumlah Peserta), TAP Batch 2 (Jumlah Peserta), BTN Millennial Leader (Jumlah Peserta), Regional Leader Development Program (RLDP) (Jumlah Peserta)
+     - 2E: TAP Batch 1: -, TAP Batch 2: -, BTN Millennial Leader: -, Regional Leader Development Program (RLDP): 17
+     - 3A: TAP Batch 1: -, TAP Batch 2: -, BTN Millennial Leader: 3, Regional Leader Development Program (RLDP): -
+     - 3B: TAP Batch 1: 1, TAP Batch 2: 3, BTN Millennial Leader: 18, Regional Leader Development Program (RLDP): -
+     - 3C: TAP Batch 1: 16, TAP Batch 2: 40, BTN Millennial Leader: -, Regional Leader Development Program (RLDP): -
+     - 3D: TAP Batch 1: 34, TAP Batch 2: 23, BTN Millennial Leader: -, Regional Leader Development Program (RLDP): -
+     - 3E/4A: TAP Batch 1: 23, TAP Batch 2: 6, BTN Millennial Leader: -, Regional Leader Development Program (RLDP): -
+     - 4B: TAP Batch 1: 3, TAP Batch 2: -, BTN Millennial Leader: -, Regional Leader Development Program (RLDP): -
+     - Jumlah: TAP Batch 1: 77, TAP Batch 2: 72, BTN Millennial Leader: 21, Regional Leader Development Program (RLDP): 17

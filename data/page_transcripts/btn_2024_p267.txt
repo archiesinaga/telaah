@@ -1,0 +1,18 @@
+Tabel Nilai Penyaluran Kredit Perumahan Lainnya (dalam jutaan Rupiah)
+Kredit Perumahan Lainnya | 2024 | 2023 | Kenaikan/Penurunan Nominal | Kenaikan/Penurunan Persentase
+Kredit Agunan Rumah: 2024: 2.348.766, 2023: 2.347.810, Kenaikan/Penurunan Nominal: 39.538, Kenaikan/Penurunan Persentase: 0,04%
+Kredit Bangun Rumah: 2024: 6310, 2023: 3.150, Kenaikan/Penurunan Nominal: 3160, Kenaikan/Penurunan Persentase: 100,32%
+PRR-KB BPJS Ketenagakerjaan: 2024: 28.502, 2023: 23.593, Kenaikan/Penurunan Nominal: 4.910, Kenaikan/Penurunan Persentase: 20,81%
+Jumlah Nilai Penyaluran Kredit Perumahan Lainnya: 2024: 2.387.348, 2023: 2.374.553, Kenaikan/Penurunan Nominal: 12.795, Kenaikan/Penurunan Persentase: 0,54%
+
+Tabel Volume Penyaluran Kredit Perumahan Lainnya (dalam unit)
+Kredit Perumahan Lainnya | 2024 | 2023 | Kenaikan/Penurunan Nominal | Kenaikan/Penurunan Persentase
+Kredit Agunan Rumah: 2024: 10.682, 2023: 8.944, Kenaikan/Penurunan Nominal: 1.738, Kenaikan/Penurunan Persentase: 19,43%
+Kredit Bangun Rumah: 2024: 12, 2023: 11, Kenaikan/Penurunan Nominal: 1, Kenaikan/Penurunan Persentase: 9,09%
+PRR-KB BPJS Ketenagakerjaan: 2024: 191, 2023: 160, Kenaikan/Penurunan Nominal: 31, Kenaikan/Penurunan Persentase: 19,37%
+Jumlah Nilai Penyaluran Kredit Perumahan Lainnya: 2024: 10.885, 2023: 9.115, Kenaikan/Penurunan Nominal: 1.770, Kenaikan/Penurunan Persentase: 19,42%
+
+Tabel Nilai Penyaluran Kredit Non Perumahan (dalam jutaan Rupiah)
+Kredit Non Perumahan | 2024 | 2023 | Kenaikan/Penurunan Nominal | Kenaikan/Penurunan Persentase
+Kring BTN: 2024: 1.957.877, 2023: 2.161.227, Kenaikan/Penurunan Nominal: 203.350, Kenaikan/Penurunan Persentase: (9,41%)
+Kring BTN Pensiunan: 2024: 126.208, 2023: 169.238, Kenaikan/Penurunan Nominal: 43.030, Kenaikan/Penurunan Persentase: (25,43%)

@@ -1,0 +1,77 @@
+Tabel Komposisi Pemegang Saham 5% atau Lebih BTN per 1 Januari 2024
+Nama Investor: Negara Republik Indonesia
+Jumlah Saham (Lembar): 8.420.666.648
+Persentase Kepemilikan (%): 60,00
+
+Tabel Komposisi Pemegang Saham 5% atau Lebih BTN per 31 Desember 2024
+Nama Investor: Negara Republik Indonesia
+Jumlah Saham (Lembar): 8.420.666.648
+Persentase Kepemilikan (%): 60,00
+
+Tabel Komposisi Kelompok Pemegang Saham Masyarakat Kurang dari 5% per 1 Januari 2024
+LOKAL
+Asuransi:
+- Jumlah Pemegang Saham: 73
+- Jumlah Saham (Lembar): 200.280.053
+- Persentase Kepemilikan (%): 1,43
+Bank:
+- Jumlah Pemegang Saham: 3
+- Jumlah Saham (Lembar): 11.412.489
+- Persentase Kepemilikan (%): 0,08
+Dana Pensiun:
+- Jumlah Pemegang Saham: 104
+- Jumlah Saham (Lembar): 1.366.263.155
+- Persentase Kepemilikan (%): 9,74
+Koperasi:
+- Jumlah Pemegang Saham: 5
+- Jumlah Saham (Lembar): 2.764.700
+- Persentase Kepemilikan (%): 0,02
+Perorangan Indonesia:
+- Jumlah Pemegang Saham: 55.885
+- Jumlah Saham (Lembar): 1.921.912.997
+- Persentase Kepemilikan (%): 13,69
+Perseroan Terbatas:
+- Jumlah Pemegang Saham: 157
+- Jumlah Saham (Lembar): 137.511.407
+- Persentase Kepemilikan (%): 0,98
+Reksadana:
+- Jumlah Pemegang Saham: 131
+- Jumlah Saham (Lembar): 583.769.031
+- Persentase Kepemilikan (%): 4,16
+Yayasan:
+- Jumlah Pemegang Saham: 11
+- Jumlah Saham (Lembar): 35.383.999
+- Persentase Kepemilikan (%): 0,25
+Sub Total:
+- Jumlah Pemegang Saham: 56.369
+- Jumlah Saham (Lembar): 4.259.297.831
+- Persentase Kepemilikan (%): 30,35%
+
+ASING
+Badan Usaha Asing:
+- Jumlah Pemegang Saham: 185
+- Jumlah Saham (Lembar): 1.351.005.210
+- Persentase Kepemilikan (%): 9,63%
+Perorangan Asing:
+- Jumlah Pemegang Saham: 74
+- Jumlah Saham (Lembar): 3.474.724
+- Persentase Kepemilikan (%): 0,02%
+Sub Total:
+- Jumlah Pemegang Saham: 259
+- Jumlah Saham (Lembar): 1.354.479.934
+- Persentase Kepemilikan (%): 9,65%
+TOTAL:
+- Jumlah Pemegang Saham: 56.628
+- Jumlah Saham (Lembar): 5.613.777.765
+- Persentase Kepemilikan (%): 40,00%
+
+Tabel Komposisi Kelompok Pemegang Saham Masyarakat Kurang dari 5% per 31 Desember 2024
+LOKAL
+Asuransi:
+- Jumlah Pemegang Saham: 93
+- Jumlah Saham (Lembar): 283.251.354
+- Persentase Kepemilikan (%): 2,02
+Bank:
+- Jumlah Pemegang Saham: 3
+- Jumlah Saham (Lembar): 9.608.789
+- Persentase Kepemilikan (%): 0,07

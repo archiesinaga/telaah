@@ -1,0 +1,67 @@
+Tabel Jumlah Dana Simpanan Komersial
+Satuan: (dalam jutaan Rupiah)
+Periode: 2024, 2023
+
+Giro Komersial:
+- 2024: 141.204.742
+- 2023: 129.369.288
+- Kenaikan/Penurunan Nominal: 11.835.452
+- Kenaikan/Penurunan Persentase: 9,15%
+
+Deposito Berjangka Lembaga:
+- 2024: 123.588.899
+- 2023: 114.313.403
+- Kenaikan/Penurunan Nominal: 9.274.451
+- Kenaikan/Penurunan Persentase: 8,11%
+
+Jumlah Dana Simpanan Komersial:
+- 2024: 264.793.641
+- 2023: 243.694.432
+- Kenaikan/Penurunan Nominal: 21.109.903
+- Kenaikan/Penurunan Persentase: 8,66%
+
+
+Tabel Jumlah Rekening Dana Simpanan Komersial
+Satuan: (dalam rekening)
+Periode: 2024, 2023
+
+Giro Komersial:
+- 2024: 177.042
+- 2023: 143.891
+- Kenaikan/Penurunan Nominal: 33.151
+- Kenaikan/Penurunan Persentase: 23,04%
+
+Deposito Berjangka Lembaga:
+- 2024: 14.103
+- 2023: 10.881
+- Kenaikan/Penurunan Nominal: 3.222
+- Kenaikan/Penurunan Persentase: 29,61%
+
+Jumlah Rekening Dana Simpanan Komersial:
+- 2024: 191.145
+- 2023: 154.772
+- Kenaikan/Penurunan Nominal: 36.373
+- Kenaikan/Penurunan Persentase: 23,50%
+
+
+Tabel Jumlah Dana Giro Komersial
+Satuan: (dalam jutaan Rupiah)
+Periode: 2024, 2023
+
+Giro Non FLPP:
+- 2024: 77.314.916
+- 2023: 75.362.849
+- Kenaikan/Penurunan Nominal: 1.952.065
+- Kenaikan/Penurunan Persentase: 2,59%
+
+Giro FLPP:
+- 2024: 63.889.826
+- 2023: 54.006.179
+- Kenaikan/Penurunan Nominal: 9.883.387
+- Kenaikan/Penurunan Persentase: 18,30%
+
+Jumlah Dana Giro Komersial:
+- 2024: 141.204.742
+- 2023: 129.369.028
+- Kenaikan/Penurunan Nominal: 11.835.452
+- Kenaikan/Penurunan Persentase: 9,15%

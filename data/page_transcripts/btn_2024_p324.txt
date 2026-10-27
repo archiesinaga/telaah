@@ -1,0 +1,39 @@
+1. Judul atau keterangan:
+- Tabel Suku Bunga Tabungan Rupiah (tabel pertama)
+- Tabel Suku Bunga Tabungan Rupiah (tabel kedua)
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 31 Desember tahun 2024
+- Tabel 1: Kolom "Jenis Produk", "Strata Saldo", "Suku Bunga Ritel", "Suku Bunga Lembaga"
+- Tabel 2: Kolom "Jenis Produk", "Strata Saldo", "Suku Bunga"
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Tabel Suku Bunga Tabungan Rupiah (1):
+  - Tabungan Investa, Sampai dengan Rp1 juta, Suku Bunga Ritel: 0,00%
+  - Tabungan Investa, Sampai dengan Rp1 juta, Suku Bunga Lembaga: 0,00%
+  - Tabungan Investa, > Rp1 juta - Rp100 juta, Suku Bunga Ritel: 1,00%
+  - Tabungan Investa, > Rp1 juta - Rp100 juta, Suku Bunga Lembaga: 1,00%
+  - Tabungan Investa, > Rp100 juta - Rp1 miliar, Suku Bunga Ritel: 2,40%
+  - Tabungan Investa, > Rp100 juta - Rp1 miliar, Suku Bunga Lembaga: 2,25%
+  - Tabungan Investa, > Rp1 miliar - Rp2 miliar, Suku Bunga Ritel: 3,15%
+  - Tabungan Investa, > Rp1 miliar - Rp2 miliar, Suku Bunga Lembaga: 3,05%
+  - Tabungan Investa, > Rp2 miliar - Rp5 miliar, Suku Bunga Ritel: 3,40%
+  - Tabungan Investa, > Rp2 miliar - Rp5 miliar, Suku Bunga Lembaga: 3,20%
+- Tabel Suku Bunga Tabungan Rupiah (2):
+  - Tabungan BTN Batara, < Rp1 juta, Suku Bunga: 0,00%
+  - Tabungan BTN Batara, ≥ Rp1 juta - ≤ Rp50 juta, Suku Bunga: 0,10%
+  - Tabungan BTN Batara, > Rp50 juta - ≤ Rp500 juta, Suku Bunga: 0,10%
+  - Tabungan BTN Batara, > Rp500 juta - ≤ Rp1 miliar, Suku Bunga: 0,50%
+  - Tabungan BTN Batara, > Rp1 miliar - ≤ Rp2 miliar, Suku Bunga: 1,00%
+  - Tabungan BTN Batara, > Rp2 miliar, Suku Bunga: 1,00%
+  - Tabungan BTN Bisnis, < Rp1 juta, Suku Bunga: 0,00%
+  - Tabungan BTN Bisnis, ≥ Rp1 juta - < Rp50 juta, Suku Bunga: 0,50%
+  - Tabungan BTN Bisnis, ≥ Rp50 juta - < Rp500 juta, Suku Bunga: 1,00%
+  - Tabungan BTN Bisnis, ≥ Rp500 juta - < Rp1 miliar, Suku Bunga: 1,25%
+  - Tabungan BTN Bisnis, ≥ Rp1 miliar, Suku Bunga: 1,75%
+  - Tabungan BTN Junior, ≤ Rp50 ribu, Suku Bunga: 0,00%
+  - Tabungan BTN Junior, > Rp50 ribu, Suku Bunga: 0,50%
+  - TabunganKu, ≤ Rp500 ribu, Suku Bunga: 0,00%
+  - TabunganKu, > Rp500 ribu - Rp1 juta, Suku Bunga: 0,10%
+  - TabunganKu, > Rp1 juta, Suku Bunga: 0,25%
+- Nomor Halaman: 322

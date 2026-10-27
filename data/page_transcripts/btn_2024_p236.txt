@@ -1,0 +1,48 @@
+1. Judul:
+Tren Pertumbuhan Industri Keuangan Syariah
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu Y: Triliun Rp
+- Sumbu X (Periode): 2018, 2019, 2020, 2021, 2022, 2023-Sep
+- Legenda: iKNB Syariah, Perbankan Syariah, Pasar Modal, Total Aset Keuangan Syariah
+- Satuan: Triliun Rp
+
+3. Angka yang tertera:
+Tahun 2018:
+- iKNB Syariah: 97,02
+- Perbankan Syariah: 489,69
+- Pasar Modal: 702,96
+- Total Aset Keuangan Syariah: 1289,67
+
+Tahun 2019:
+- iKNB Syariah: 105,61
+- Perbankan Syariah: 538,32
+- Pasar Modal: 824,19
+- Total Aset Keuangan Syariah: 1468,12
+
+Tahun 2020:
+- iKNB Syariah: 116,33
+- Perbankan Syariah: 608,90
+- Pasar Modal: 1076,22
+- Total Aset Keuangan Syariah: 1801,45
+
+Tahun 2021:
+- iKNB Syariah: 120,89
+- Perbankan Syariah: 693,80
+- Pasar Modal: 1235,83
+- Total Aset Keuangan Syariah: 2050,52
+
+Tahun 2022:
+- iKNB Syariah: 146,12
+- Perbankan Syariah: 802,26
+- Pasar Modal: 1427,46
+- Total Aset Keuangan Syariah: 2375,83
+
+Tahun 2023-Sep:
+- iKNB Syariah: 162,88
+- Perbankan Syariah: 831,95
+- Pasar Modal: 1457,73
+- Total Aset Keuangan Syariah: 2452,56
+
+Diagram Lingkaran (Infografik):
+- Judul/Keterangan: 10,81% Market Share Industri Keuangan Syariah

@@ -1,0 +1,42 @@
+1. Judul atau keterangan:
+- 3 Lines of Defense
+- BoC - Audit Committee
+- BoD
+- 1st Line of Defense:
+  - Lingkungan Pengendalian yang kondusif
+  - Konsistensi pelaksanaan kebijakan dan prosedur
+  - Pengendalian internal yang efektif
+- 2nd Line of Defense:
+  - Mengembangkan dan memantau risiko perusahaan
+  - Pengawasan agar fungsi bisnis melaksanakan kebijakan dan standar prosedur manajemen risiko dan kepatuhan
+  - Memantau dan melaporkan risiko perusahaan scara keseluruhan
+- 3rd Line of Defense:
+  - Melakukan reviu dan evaluasi
+  - rancang bangun dan implementasi manajemen risiko secara keseluruhan dan
+  - Memastikan bahwa pertahanan lapis pertama dan lapis kedua berjalan sesuai dengan yang diharapkan
+- Fungsi Bisnis
+- Manajemen Risiko dan Kepatuhan
+- Audit Internal
+- External audit
+- Regulator
+- BTN 3 Lines of Defense
+- Konsep 3 Lines of Defense, yang terdiri dari:
+- 1st Line: Fungsi Bisnis, Fungsi Operasional, dan Fungsi Risiko
+  - Melakukan aktivitas bisnis unit sesuai tujuan strategis Bank
+  - Melaksanakan aktivitas bisnis unit sesuai dengan kebijakan yang berlaku
+  - Bertanggung jawab atas risiko yang timbul dari kegiatan bisnis
+  - Melakukan kontrol dan prosedur yang efektif sesuai dengan kebijakan dan arahan Bank
+- 2nd Line: Fungsi Pemantauan Risiko, Kepatuhan, dan Pengelolaan Kebijakan
+  - Unit Kepatuhan - Pengelolaan Risiko Kepatuhan
+  - Unit Risiko - Pengelolaan Risiko Perusahaan
+  - Unit Policy - Pengelolaan Kebijakan dan Prosedur
+- 3rd Line: Fungsi Audit Internal
+  - Bertanggungjawab memastikan hal-hal sbb:
+  - Unit Compliance 2nd Line Defense secara efektif
+  - 1st Line Defense sebagai Risk Owner telah mengelola risiko kepatuhan secara memadai
+
+2. Label sumbu, legenda, satuan, dan periode:
+(Tidak ada)
+
+3. Semua angka yang tertera:
+(Tidak ada)

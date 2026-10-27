@@ -1,0 +1,32 @@
+Tabel 1:
+Judul Kolom: No., Tanggal, Opini
+Baris 1: 1., 21 Februari 2024, Mekanisme Transaksi Cessie Surat Berharga (Sukuk)
+Baris 2: 2., 21 Februari 2024, Alur dan Persetujuan Dana Kebajikan atau Dana Yang Tidak Boleh Diakui Sebagai Pendapatan (Dana TBDSP)
+Baris 3: 3., 18 Maret 2024, Cash Waqf Linked Deposit (CWLD)
+Baris 4: 4., 18 Maret 2024, Pelelangan Barang-Barang yang Disimpan Pada Save Deposit Box (SDB)
+Baris 5: 5., 19 Maret 2024, Tanggapan atas Kebijakan Khusus Prosedur Pembiayaan Konsumen Subrogasi, Alih Nasabah Novasi, dan Cessie
+Baris 6: 6., 25 April 2024, Deposito Tanpa Bilyet
+Baris 7: 7., 29 Mei 2024, Pelaksanaan Pencatatan Pendapatan dan Distribusi Bagi Hasil Sukuk
+Baris 8: 8., 29 Mei 2024, Restrukturisasi Dengan Angsuran Berjenjang
+Baris 9: 9., 29 Mei 2024, Penambahan Layanan Konversi Emas pada Tabungan Emas
+Baris 10: 10., 19 Juni 2024, Biaya Pra Realisasi Menjadi Komponen Plafon Pembiayaan Untuk Akad Murabahah, Istishna dan Musyarakah Mutanaqisah
+Baris 11: 11., 27 September 2024, Asuransi Jiwa Menggunakan Produk Ciputra Life
+Baris 12: 12., 27 September 2024, Usulan Perubahan Mekanisme Pengenaan Denda Ta'zir Pada Pembiayaan Komersial
+Baris 13: 13., 27 September 2024, Perubahan Ketentuan Biaya Administrasi Tabungan Akad Mudharabah
+Baris 14: 14., 3 Oktober 2024, Penambahan Mitra Baru Bancassurance
+Baris 15: 15., 29 Oktober 2024, Akad MMQ dan Istishna untuk Fitur Program KPR Zero pada KPR BTN Inden iB dan Pembiayaan Properti BTN iB
+Baris 16: 16., 29 Oktober 2024, Konversi Nasabah Akad Murabahah Menjadi Akad MMQ dan IMBT
+Baris 17: 17., 7 November 2024, Mobile Banking
+Baris 18: 18., 19 November 2024, Penginian Recovery Plan 2025 PT Bank Tabungan Negara (Persero) Tbk
+Baris 19: 19., 19 November 2024, Perluasan Akad KPR Sejahtera BTN iB Menggunakan Akad Musyarakah Mutanaqisah
+Baris 20: 20., 19 November 2024, Rekruitmen Sumber Daya Insani (SDI) Non Muslim
+
+Tabel 2:
+Judul Kolom: No., Tanggal, Opini
+Baris 1: 21., 9 Desember 2024, Materi Muatan Sistem Pengendalian Internal atas Laporan Keuangan di Kebijakan Umum Nomor KU.7 Tentang Sistem Pengendalian Internal
+Baris 2: 22., 20 Desember 2024, Penginian Kebijakan Umum No. KU.1 tentang Perkreditan atau Pembiayaan Bank
+Baris 3: 23., 20 Desember 2024, Penginian Kebijakan Khusus No. KK.8-J tentang Prosedur Manajemen Risiko
+Baris 4: 24., 20 Desember 2024, Pencairan KPR Indent Yang Menggunakan Akad Istishna Dicairkan 100%
+Baris 5: 25., 20 Desember 2024, Penggunaan Organ Retail Credit Risk Division (RCRD) BTN
+Baris 6: 26., 20 Desember 2024, Pembiayaan Multimanfaat BTN iB (Murabahah) Untuk Pembelian Kavling Makam
+Baris 7: 27., 20 Desember 2024, Penginian Kebijakan Umum Nomor KU.2 tentang Treasury, Funding and Product Delivery

@@ -1,0 +1,6 @@
+Individual Performance Evaluation:
+- Performance Rating 1: 5
+- Performance Rating 2: 4
+- Performance Rating 3: 3
+- Performance Rating 4: 2
+- Performance Rating 5: 1

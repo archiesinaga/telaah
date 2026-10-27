@@ -1,0 +1,46 @@
+1. Judul atau keterangan:
+- Tabel Volume Penyaluran Produk Kredit Komersial
+- Tabel Jumlah Nilai Penyaluran Kredit Konstruksi
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Satuan Tabel Volume Penyaluran Produk Kredit Komersial: (dalam unit)
+- Satuan Tabel Jumlah Nilai Penyaluran Kredit Konstruksi: (dalam jutaan Rupiah)
+- Periode: 2024 dan 2023
+- Kolom/Label: Kredit Komersial, Kredit Perumahan, Kredit Konstruksi, Kredit Non Perumahan, Kredit UMKM, Kredit Komersial Lainnya, Jumlah Volume Penyaluran Kredit Komersial, Kenaikan/Penurunan (Nominal, Persentase), Kredit Konstruksi BTN, Kredit Konstruksi Korporasi, Jumlah Nilai Penyaluran Kredit Konstruksi
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+Tabel Volume Penyaluran Produk Kredit Komersial:
+- Kredit Konstruksi, 2024: 3.291
+- Kredit Konstruksi, 2023: 3.445
+- Kenaikan/Penurunan Nominal (Kredit Konstruksi): (154)
+- Kenaikan/Penurunan Persentase (Kredit Konstruksi): (4,47%)
+- Kredit UMKM, 2024: 8.393
+- Kredit UMKM, 2023: 17.026
+- Kenaikan/Penurunan Nominal (Kredit UMKM): 8.633
+- Kenaikan/Penurunan Persentase (Kredit UMKM): 102,86%
+- Kredit Komersial Lainnya, 2024: 1.240
+- Kredit Komersial Lainnya, 2023: 673
+- Kenaikan/Penurunan Nominal (Kredit Komersial Lainnya): 567
+- Kenaikan/Penurunan Persentase (Kredit Komersial Lainnya): 84,25%
+- Jumlah Volume Penyaluran Kredit Komersial, 2024: 21.557
+- Jumlah Volume Penyaluran Kredit Komersial, 2023: 12.511
+- Kenaikan/Penurunan Nominal (Jumlah Volume Penyaluran Kredit Komersial): 9.046
+- Kenaikan/Penurunan Persentase (Jumlah Volume Penyaluran Kredit Komersial): 72,30%
+
+Tabel Jumlah Nilai Penyaluran Kredit Konstruksi:
+- Kredit Konstruksi BTN, 2024: 8.015.363
+- Kredit Konstruksi BTN, 2023: 7.755.552
+- Kenaikan/Penurunan Nominal (Kredit Konstruksi BTN): 259.810
+- Kenaikan/Penurunan Persentase (Kredit Konstruksi BTN): 3,35%
+- Kredit Konstruksi Korporasi, 2024: 42.564
+- Kredit Konstruksi Korporasi, 2023: 80.960
+- Kenaikan/Penurunan Nominal (Kredit Konstruksi Korporasi): (38.396)
+- Kenaikan/Penurunan Persentase (Kredit Konstruksi Korporasi): (47,43%)
+- Jumlah Nilai Penyaluran Kredit Konstruksi, 2024: 8.057.926
+- Jumlah Nilai Penyaluran Kredit Konstruksi, 2023: 7.836.512
+- Kenaikan/Penurunan Nominal (Jumlah Nilai Penyaluran Kredit Konstruksi): 221.414
+- Kenaikan/Penurunan Persentase (Jumlah Nilai Penyaluran Kredit Konstruksi): 2,83%
+
+Teks/Angka lain di luar tabel:
+- Laporan Tahunan 2024: 2024
+- PT Bank Tabungan Negara (Persero) Tbk: 271

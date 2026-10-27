@@ -1,0 +1,51 @@
+Uraian:
+2024:
+Keuntungan (Kerugian) neto yang belum direalisasi atas perubahan nilai dan cadangan kerugian penurunan nilai efek-efek dan obligasi pemerintah yang diukur pada nilai wajar melalui penghasilan komprehensif lain: (421.538)
+Pajak penghasilan terkait akun-akun yang akan direklasifikasi ke laba rugi: 85.311
+Total laba komprehensif tahun berjalan: 2.792.935
+LABA PER SAHAM: 
+Dasar (nilai penuh): 214
+
+2023:
+Keuntungan (Kerugian) neto yang belum direalisasi atas perubahan nilai dan cadangan kerugian penurunan nilai efek-efek dan obligasi pemerintah yang diukur pada nilai wajar melalui penghasilan komprehensif lain: 517.528
+Pajak penghasilan terkait akun-akun yang akan direklasifikasi ke laba rugi: (97.254)
+Total laba komprehensif tahun berjalan: 3.848.720
+LABA PER SAHAM: 
+Dasar (nilai penuh): 249
+
+Pertumbuhan Rp:
+Keuntungan (Kerugian) neto yang belum direalisasi atas perubahan nilai dan cadangan kerugian penurunan nilai efek-efek dan obligasi pemerintah yang diukur pada nilai wajar melalui penghasilan komprehensif lain: (939.066)
+Pajak penghasilan terkait akun-akun yang akan direklasifikasi ke laba rugi: 182.565
+Total laba komprehensif tahun berjalan: (1.055.785)
+LABA PER SAHAM: 
+Dasar (nilai penuh): (35)
+
+Pertumbuhan %:
+Keuntungan (Kerugian) neto yang belum direalisasi atas perubahan nilai dan cadangan kerugian penurunan nilai efek-efek dan obligasi pemerintah yang diukur pada nilai wajar melalui penghasilan komprehensif lain: (181,45%)
+Pajak penghasilan terkait akun-akun yang akan direklasifikasi ke laba rugi: (187,72%)
+Total laba komprehensif tahun berjalan: (27,43%)
+LABA PER SAHAM: 
+Dasar (nilai penuh): (14,06%)
+
+Grafik Laporan Laba Rugi dan Penghasilan Komprehensif Lain (dalam triliun Rupiah)
+Legenda: 2023 (biru muda), 2024 (biru tua)
+
+PENDAPATAN BUNGA DAN BAGI HASIL-NETO
+2023: 13,43
+2024: 11,49
+
+PENDAPATAN OPERASIONAL LAINNYA
+2023: 3,89
+2024: 4,58
+
+LABA OPERASIONAL
+2023: 4,54
+2024: 3,82
+
+LABA TAHUN BERJALAN
+2023: 3,50
+2024: 3,01
+
+LABA KOMPREHENSIF TAHUN BERJALAN
+2023: 3,85
+2024: 2,79

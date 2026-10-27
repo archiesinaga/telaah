@@ -1,0 +1,197 @@
+Judul: 31 Desember 2024 / Tabel Profil Maturitas Valas per 31 Desember 2024 dan 31 Desember 2023 / I. NERACA / A. ASET
+Label kolom: No, Pos-pos, Saldo, Jatuh Tempo, s.d 1 minggu, > 1 minggu s.d 2 minggu, > 2 minggu s.d 1 bulan, > 1 bulan s.d 3 bulan, > 3 bulan s.d 6 bulan, > 6 bulan s.d 12 bulan, > 12 bulan
+
+Angka-angka per baris:
+Baris c. Lainnya (Rekening Administratif atas):
+- Saldo: -
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 2. Kontijensi (Rekening Administratif atas):
+- Saldo: 29.239.182
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 29.239.182
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris Jumlah Tagihan Rekening Administratif:
+- Saldo: 29.239.182
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 29.239.182
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Bagian B. KEWAJIBAN REKENING ADMINISTRATIF:
+Baris 1 Komitmen:
+- Saldo: 14.922.462
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 14.922.282
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: 180
+- > 12 bulan: -
+
+Baris a. Fasilitas kredit yang belum ditarik:
+- Saldo: 12.854.286
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 12.854.286
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris b. Irrevocable L/C yang masih berjalan:
+- Saldo: 246.888
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 246.888
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris c. Posisi Penjualan spot dan derivatif yang masih berjalan:
+- Saldo: 1.806.505
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 1.806.325
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: 180
+- > 12 bulan: -
+
+Baris 1) Spot:
+- Saldo: -
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 2) Derivat:
+- Saldo: 1.806.505
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 1.806.325
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: 180
+- > 12 bulan: -
+
+Baris d. Lainnya:
+- Saldo: 14.782
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 14.782
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 2. Kontijensi (B. KEWAJIBAN REKENING ADMINISTRATIF):
+- Saldo: 2.886.478
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 2.886.478
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris Jumlah Kewajiban Rekening Administratif:
+- Saldo: 17.808.940
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 17.808.760
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: 180
+- > 12 bulan: -
+
+Baris Selisih Tagihan dan Kewajiban dalam Rekening Administratif:
+- Saldo: 11.430.242
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 11.430,422
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: (180)
+- > 12 bulan: -
+
+Baris Selisih [(IA-IB)+(IIA-IIB)]:
+- Saldo: 49.433.941
+- s.d 1 minggu: -93.284.871
+- > 1 minggu s.d 2 minggu: -12,231,875
+- > 2 minggu s.d 1 bulan: -31,828,970
+- > 1 bulan s.d 3 bulan: -50,367,041
+- > 3 bulan s.d 6 bulan: -23,371,429
+- > 6 bulan s.d 12 bulan: 126
+- > 12 bulan: 260,392,315
+
+Baris Selisih Kumulatif:
+- Saldo: 49,433,941
+- s.d 1 minggu: -93,284,871
+- > 1 minggu s.d 2 minggu: -105,516,746
+- > 2 minggu s.d 1 bulan: -137,345,716
+- > 1 bulan s.d 3 bulan: -187,712,757
+- > 3 bulan s.d 6 bulan: -211,084,186
+- > 6 bulan s.d 12 bulan: -210,958,375
+- > 12 bulan: 49,433,941
+
+Bagian Tabel Profil Maturitas Valas per 31 Desember 2024 dan 31 Desember 2023 - I. NERACA - A. ASET:
+Baris 1. Kas:
+- Saldo: 33.547
+- s.d 1 minggu: 33.547
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 2. Penempatan pada Bank Indonesia:
+- Saldo: 12.265.243
+- s.d 1 minggu: 3.457.270
+- > 1 minggu s.d 2 minggu: 1.607.215
+- > 2 minggu s.d 1 bulan: 4.013.449
+- > 1 bulan s.d 3 bulan: 3.187.309
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 3. Penempatan pada bank lain:
+- Saldo: 5.821.374
+- s.d 1 minggu: 5.821.374
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: -
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: -
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: -
+
+Baris 4. Surat Berharga:
+- Saldo: 4.266.599
+- s.d 1 minggu: -
+- > 1 minggu s.d 2 minggu: -
+- > 2 minggu s.d 1 bulan: 99.156
+- > 1 bulan s.d 3 bulan: -
+- > 3 bulan s.d 6 bulan: 48.149
+- > 6 bulan s.d 12 bulan: -
+- > 12 bulan: 4.119.294
+
+Nomor halaman bawah: 422

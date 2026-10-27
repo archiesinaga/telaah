@@ -1,0 +1,16 @@
+1. Judul atau keterangan:
+Tabel 1: No | Tingkat RKK | Jumlah Pelaksanaan
+Tabel 2: Struktur | Jabatan | Hak Suara | Keterangan
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Tabel 1: Kolom "No", "Tingkat RKK", "Jumlah Pelaksanaan".
+- Tabel 2: Kolom "Struktur", "Jabatan", "Hak Suara", "Keterangan".
+- Periode: 2024 (tercantum di header laporan "Laporan Tahunan 2024").
+
+3. Semua angka yang tertera, apa adanya:
+Tabel 1:
+- 1: 144
+- 2: 146
+- 3: 187
+- 4: 742
+- 5: 1.862

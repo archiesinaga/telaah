@@ -1,0 +1,49 @@
+1. Kredit Non Perumahan
+   - Kredit Swadana BTN, 2024: 812.276
+   - Kredit Swadana BTN, 2023: 1.264.244
+   - Kredit Swadana BTN, Kenaikan/Penurunan Nominal: 451.968
+   - Kredit Swadana BTN, Kenaikan/Penurunan Persentase: (35,75%)
+   - Kredit Pegawai, 2024: 134.787
+   - Kredit Pegawai, 2023: 181.249
+   - Kredit Pegawai, Kenaikan/Penurunan Nominal: 46.462
+   - Kredit Pegawai, Kenaikan/Penurunan Persentase: (25,63%)
+   - Jumlah Nilai Penyaluran Kredit Non Perumahan, 2024: 3.031.148
+   - Jumlah Nilai Penyaluran Kredit Non Perumahan, 2023: 3.775.958
+   - Jumlah Nilai Penyaluran Kredit Non Perumahan, Kenaikan/Penurunan Nominal: 744.810
+   - Jumlah Nilai Penyaluran Kredit Non Perumahan, Kenaikan/Penurunan Persentase: (19,73%)
+
+2. Tabel Volume Penyaluran Kredit Non Perumahan (dalam unit)
+   - Kring BTN, 2024: 15.330
+   - Kring BTN, 2023: 19.133
+   - Kring BTN, Kenaikan/Penurunan Nominal: 3.803
+   - Kring BTN, Kenaikan/Penurunan Persentase: (19,88%)
+   - Kring BTN Pensiunan, 2024: 1.103
+   - Kring BTN Pensiunan, 2023: 1.651
+   - Kring BTN Pensiunan, Kenaikan/Penurunan Nominal: 548
+   - Kring BTN Pensiunan, Kenaikan/Penurunan Persentase: (33,19%)
+   - Kredit Swadana BTN, 2024: 773
+   - Kredit Swadana BTN, 2023: 1.613
+   - Kredit Swadana BTN, Kenaikan/Penurunan Nominal: 840
+   - Kredit Swadana BTN, Kenaikan/Penurunan Persentase: (52,08%)
+   - Kredit Pegawai, 2024: 256
+   - Kredit Pegawai, 2023: 415
+   - Kredit Pegawai, Kenaikan/Penurunan Nominal: 159
+   - Kredit Pegawai, Kenaikan/Penurunan Persentase: (38,31%)
+   - Jumlah Volume Penyaluran Kredit Non Perumahan, 2024: 17.462
+   - Jumlah Volume Penyaluran Kredit Non Perumahan, 2023: 22.812
+   - Jumlah Volume Penyaluran Kredit Non Perumahan, Kenaikan/Penurunan Nominal: 5.350
+   - Jumlah Volume Penyaluran Kredit Non Perumahan, Kenaikan/Penurunan Persentase: (23,45)
+
+3. Tabel Jumlah Dana Simpanan Konsumen (dalam jutaan Rupiah)
+   - Tabungan Konsumen, 2024: 37.699.994
+   - Tabungan Konsumen, 2023: 37.720.836
+   - Tabungan Konsumen, Kenaikan/Penurunan Nominal: (20.842)
+   - Tabungan Konsumen, Kenaikan/Penurunan Persentase: (0,06%)
+   - Deposito Berjangka, 2024: 29.732.484
+   - Deposito Berjangka, 2023: 26.724.483
+   - Deposito Berjangka, Kenaikan/Penurunan Nominal: 3.008.001
+   - Deposito Berjangka, Kenaikan/Penurunan Persentase: 11,26%
+   - Jumlah Dana Simpanan Konsumen, 2024: 67.432.478
+   - Jumlah Dana Simpanan Konsumen, 2023: 64.445.319
+   - Jumlah Dana Simpanan Konsumen, Kenaikan/Penurunan Nominal: 2.987.159
+   - Jumlah Dana Simpanan Konsumen, Kenaikan/Penurunan Persentase: 4,64%

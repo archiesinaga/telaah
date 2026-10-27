@@ -1,0 +1,61 @@
+Tabel 1:
+1. Judul atau keterangan: Jumlah Pegawai yang Terkena Pemutusan Hubungan Kerja dan Total Nominal Pesongan yang Dibayarkan - Tabel Program Pensiun Sukarela Terbatas (PPST)
+2. Label sumbu, legenda, satuan, dan periode:
+- No.
+- Jumlah nominal Pesangon yang dibayarkan per Orang dalam 1 (satu) Tahun
+- Jumlah Pegawai PPST (2024, 2023)
+3. Angka yang tertera:
+- Baris 1: No. 1, Di atas Rp 1 miliar, 2024: 2, 2023: -
+- Baris 2: No. 2, Di atas Rp 500 juta - 1 miliar, 2024: 2, 2023: 6
+- Baris 3: No. 3, Rp 500 juta ke bawah, 2024: -, 2023: 1
+
+Tabel 2:
+1. Judul atau keterangan: Informasi Kuantitatif
+2. Label sumbu, legenda, satuan, dan periode:
+- Jenis Remunerasi yang Bersifat Variabel
+- Tidak Ditangguhkan
+- Ditangguhkan
+3. Angka yang tertera:
+- Tunai: Tidak Ditangguhkan: 115,487 juta; Ditangguhkan: 6.978 juta
+- Saham: Tidak Ditangguhkan: -; Ditangguhkan: 19.886.798 (lembar)
+
+Tabel 3:
+1. Judul atau keterangan: Jumlah Total Remunerasi yang Bersifat Variabel yang Ditangguhkan
+2. Label sumbu, legenda, satuan, dan periode:
+- Remunerasi Yang Bersifat Variabel yang Ditangguhkan Tahun 2024
+- Remunerasi Yang Bersifat Variabel yang Ditangguhkan Tahun 2023
+3. Angka yang tertera:
+- Tunai (2024): Rp 6.977 juta
+- Saham (2024): 19.886.798 (lembar)
+- Tunai (2023): Rp 4.961 juta
+- Saham (2023): 13.398.206 (lembar)
+
+Tabel 4:
+1. Judul atau keterangan: Jumlah Total Remunerasi yang Bersifat Variabel yang Ditangguhkan yang Dibayarkan Selama 1 (Satu) Tahun
+2. Label sumbu, legenda, satuan, dan periode:
+- Remunerasi Yang Bersifat Variabel yang Ditangguhkan Tahun 2024
+- Remunerasi Yang Bersifat Variabel yang Ditangguhkan Tahun 2023
+3. Angka yang tertera:
+- Tunai (2024): Rp 1.818.911.901
+- Saham (2024): 4.989.708 (lembar)
+- Tunai (2023): Rp 603.096.246
+- Saham (2023): 1.757.934 (lembar)
+
+Tabel 5:
+1. Judul atau keterangan: Jumlah Remunerasi yang Diberikan Dalam Satu Tahun - A. Remunerasi yang Bersifat Tetap
+2. Label sumbu, legenda, satuan, dan periode:
+- Jenis Remunerasi
+- Jumlah
+3. Angka yang tertera:
+- Tunai: 148,509 juta
+- Saham/instrumen yang berbasis saham yang diterbitkan BTN: -
+
+Tabel 6:
+1. Judul atau keterangan: Jumlah Remunerasi yang Diberikan Dalam Satu Tahun - B. Remunerasi yang Bersifat Variabel
+2. Label sumbu, legenda, satuan, dan periode:
+- Jenis Remunerasi
+- Tidak Ditangguhkan
+- Ditangguhkan
+3. Angka yang tertera:
+- Tunai: Tidak Ditangguhkan: 115,487 juta, Ditangguhkan: 5,193 juta
+- Saham: Tidak Ditangguhkan: -, Ditangguhkan: 11,410,700 (lembar)

@@ -1,0 +1,36 @@
+Tabel 1:
+Judul: Realisasi PUMK Skema Kerja Sama Melalui BRI Berdasarkan Sektor Usaha
+Kolom: No., Sektor Usaha, Tahun 2023 (Jumlah MB, Nominal (Rp)), Tahun 2024 (Jumlah MB, Nominal (Rp))
+Baris:
+- Sektor Perdagangan | Tahun 2023 Jumlah MB: 11 | Tahun 2023 Nominal (Rp): 405.000.000 | Tahun 2024 Jumlah MB: 205 | Tahun 2024 Nominal (Rp): 6.014.000.000
+- Sektor Pertanian | Tahun 2023 Jumlah MB: 1 | Tahun 2023 Nominal (Rp): 30.000.000 | Tahun 2024 Jumlah MB: 4 | Tahun 2024 Nominal (Rp): 45.000.000
+- Sektor Peternakan | Tahun 2023 Jumlah MB: 0 | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 11 | Tahun 2024 Nominal (Rp): 226.000.000
+- Lainnya | Tahun 2023 Jumlah MB: 2 | Tahun 2023 Nominal (Rp): 45.000.000 | Tahun 2024 Jumlah MB: 172 | Tahun 2024 Nominal (Rp): 5.426.800.000
+- Perikanan | Tahun 2023 Jumlah MB: 0 | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 5 | Tahun 2024 Nominal (Rp): 190.000.000
+- Total | Tahun 2023 Jumlah MB: 23 | Tahun 2023 Nominal (Rp): 786.000.000 | Tahun 2024 Jumlah MB: 498 | Tahun 2024 Nominal (Rp): 14.849.800.000
+
+Tabel 2:
+Judul: Komposisi Penyaluran Berdasarkan Wilayah
+Sub-judul: Realisasi PUMK Skema Kerja Sama Melalui BRI Berdasarkan Wilayah
+Kolom: No., Wilayah, Tahun 2023 (Jumlah MB, Nominal (Rp)), Tahun 2024 (Jumlah MB, Nominal (Rp))
+Baris:
+- Bali | Tahun 2023 Jumlah MB: - | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 15 | Tahun 2024 Nominal (Rp): 410.000.000
+- Jawa Barat | Tahun 2023 Jumlah MB: - | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 115 | Tahun 2024 Nominal (Rp): 2.935.300.000
+- Jawa Tengah | Tahun 2023 Jumlah MB: - | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 63 | Tahun 2024 Nominal (Rp): 1.760.500.000
+- Jawa Timur | Tahun 2023 Jumlah MB: 4 | Tahun 2023 Nominal (Rp): 100.000.000 | Tahun 2024 Jumlah MB: 52 | Tahun 2024 Nominal (Rp): 1.517.000.000
+- Kalimantan Barat | Tahun 2023 Jumlah MB: 2 | Tahun 2023 Nominal (Rp): 60.000.000 | Tahun 2024 Jumlah MB: 10 | Tahun 2024 Nominal (Rp): 480.000.000
+- Sulawesi Selatan | Tahun 2023 Jumlah MB: 14 | Tahun 2023 Nominal (Rp): 476.000.000 | Tahun 2024 Jumlah MB: 96 | Tahun 2024 Nominal (Rp): 2.170.000.000
+- Sulawesi Tengah | Tahun 2023 Jumlah MB: - | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 115 | Tahun 2024 Nominal (Rp): 4.566.000.000
+- Yogyakarta | Tahun 2023 Jumlah MB: 3 | Tahun 2023 Nominal (Rp): 150.000.000 | Tahun 2024 Jumlah MB: 25 | Tahun 2024 Nominal (Rp): 781.000.000
+- Sulawesi Utara | Tahun 2023 Jumlah MB: - | Tahun 2023 Nominal (Rp): - | Tahun 2024 Jumlah MB: 7 | Tahun 2024 Nominal (Rp): 230.000.000
+- Total | Tahun 2023 Jumlah MB: 23 | Tahun 2023 Nominal (Rp): 786.000.000 | Tahun 2024 Jumlah MB: 498 | Tahun 2024 Nominal (Rp): 14.849.800.000
+
+Tabel 3:
+Judul: Jumlah Mitra Binaan dan Rincian Piutang sampai dengan 31 Desember 2024
+Kolom: Kualitas, Tahun 2023 (Jumlah (Rp), (%)), Tahun 2024 (Jumlah (Rp), (%)), Kualitas Skema Kerja Sama dengan BRI Tahun 2023 (Jumlah (Rp), (%)), Kualitas Skema Kerja Sama dengan BRI Tahun 2024 (Jumlah (Rp), (%))
+Baris:
+- Lancar | Tahun 2023 Jumlah (Rp): 3.452.460.063 | Tahun 2023 (%): 7,00 | Tahun 2024 Jumlah (Rp): 388.990.786 | Tahun 2024 (%): 0,95 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 Jumlah (Rp): 786.000.000 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 (%): 100 | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 Jumlah (Rp): 13.520.127.798 | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 (%): 98,61
+- KL | Tahun 2023 Jumlah (Rp): 7.303.272.049 | Tahun 2023 (%): 14,81 | Tahun 2024 Jumlah (Rp): 1.633.765.518 | Tahun 2024 (%): 4,00 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 Jumlah (Rp): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 (%): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 Jumlah (Rp): 176.209.886 | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 (%): 1,29
+- Diragukan | Tahun 2023 Jumlah (Rp): 4.950.359.453 | Tahun 2023 (%): 10,04 | Tahun 2024 Jumlah (Rp): 3.483.833.821 | Tahun 2024 (%): 8,53 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 Jumlah (Rp): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 (%): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 Jumlah (Rp): 14.601.300 | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 (%): 0,11
+- Macet | Tahun 2023 Jumlah (Rp): 33.616.019.533 | Tahun 2023 (%): 68,16 | Tahun 2024 Jumlah (Rp): 35.313.732.625 | Tahun 2024 (%): 86,51 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 Jumlah (Rp): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 (%): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 Jumlah (Rp): - | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 (%): -
+- Total | Tahun 2023 Jumlah (Rp): 49.322.111.098 | Tahun 2023 (%): 100 | Tahun 2024 Jumlah (Rp): 40.820.322.750 | Tahun 2024 (%): 100 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 Jumlah (Rp): 786.000.000 | Kualitas Skema Kerja Sama dengan BRI Tahun 2023 (%): 100 | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 Jumlah (Rp): 13.710.938.984 | Kualitas Skema Kerja Sama dengan BRI Tahun 2024 (%): 100

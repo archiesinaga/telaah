@@ -1,0 +1,26 @@
+Tabel Long Term Notes (LTN) BTN
+
+Uraian | Tanggal Distribusi LTN secara Elektronik | Tenor (Bulan) | Mata Uang | Jumlah LTN (Ribuan)
+LTN BTN Tahun 2021 Tahap I | 17 Desember 2021 | 186 | Rp | 10.185.851
+LTN BTN II Tahun 2022 Seri A | 12 Juli 2022 | 171 | Rp | 47.740.325
+LTN BTN II Tahun 2022 Seri B | 12 Juli 2022 | 177 | Rp | 79.378.706
+LTN BTN III THP I TAHUN 2022 | 14 Desember 2022 | 177 | Rp | 210.866.282
+LTN BTN III THP II TAHUN 2022 | 28 Desember 2022 | 171 | Rp | 131.184.885
+LTN BTN IV Tahap I Tahun 2023 | 28 Juli 2023 | 165 | Rp | 35.898.139
+LTN BTN IV Tahap II Tahun 2023 | 15 September 2023 | 168 | Rp | 404.745.014
+LTN BTN IV Tahap III Tahun 2023 – Seri A | 27 Desember 2023 | 180 | Rp | 6.241.671.188
+LTN BTN IV Tahap III Tahun 2023 – Seri B | 27 Desember 2023 | 168 | Rp | 234.541.750.854
+LTN BTN IV Tahun 2024 Tahap IV | 07 Mei 2024 | 171 | Rp | 203.350.626.300
+LTN BTN IV Tahun 2024 Tahap V | 27 September 2024 | 171 | Rp | 312.678.083.000
+LTN BTN IV Tahun 2024 Tahap VI | 23 Desember 2024 | 168 | Rp | 147.909.042.000
+
+Peringkat Moody's per 29 November 2024
+
+Keterangan | Peringkat
+Outlook | Stable
+Counterparty Risk Rating | Baa2/P-2
+Bank Deposits | Baa2/P-2
+Baseline Credit Assessment | ba1
+Adjusted Baseline Credit Assessment | ba1
+Counterparty Risk Assessment | Baa2 (cr)/P-2 (cr)
+Subordinate | Ba3 (hyb)

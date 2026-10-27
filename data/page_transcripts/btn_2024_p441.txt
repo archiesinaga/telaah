@@ -1,0 +1,39 @@
+1. Tabel Data Pegawai dan Pelatihan Pegawai
+- Header Kolom: No., Level Jabatan, Pegawai (Laki-Laki, Perempuan), Total Pegawai, Bidang Pelatihan, Pelatihan Pegawai (Laki-Laki, Perempuan)
+- Baris 8, SENIOR STAFF:
+  - Laki-Laki (Pegawai): 2.594
+  - Perempuan (Pegawai): 3.065
+  - Total Pegawai: 5.659
+  - Bidang Pelatihan (Business & Sharia Banking): Laki-Laki (Pelatihan Pegawai) 368, Perempuan (Pelatihan Pegawai) 366
+  - Bidang Pelatihan (Credit & Risk): Laki-Laki (Pelatihan Pegawai) 989, Perempuan (Pelatihan Pegawai) 1.006
+  - Bidang Pelatihan (Leadership): Laki-Laki (Pelatihan Pegawai) 241, Perempuan (Pelatihan Pegawai) 170
+  - Bidang Pelatihan (Operational Banking): Laki-Laki (Pelatihan Pegawai) 2.594, Perempuan (Pelatihan Pegawai) 3.065
+  - Bidang Pelatihan (Sales & Service): Laki-Laki (Pelatihan Pegawai) 463, Perempuan (Pelatihan Pegawai) 1.024
+- Baris 9, STAFF:
+  - Laki-Laki (Pegawai): 1.013
+  - Perempuan (Pegawai): 1.571
+  - Total Pegawai: 2.584
+  - Bidang Pelatihan (Business & Sharia Banking): Laki-Laki (Pelatihan Pegawai) 118, Perempuan (Pelatihan Pegawai) 158
+  - Bidang Pelatihan (Credit & Risk): Laki-Laki (Pelatihan Pegawai) 248, Perempuan (Pelatihan Pegawai) 257
+  - Bidang Pelatihan (Leadership): Laki-Laki (Pelatihan Pegawai) -, Perempuan (Pelatihan Pegawai) 20
+  - Bidang Pelatihan (Operational Banking): Laki-Laki (Pelatihan Pegawai) 974, Perempuan (Pelatihan Pegawai) 1.476
+  - Bidang Pelatihan (Sales & Service): Laki-Laki (Pelatihan Pegawai) 248, Perempuan (Pelatihan Pegawai) 490
+- Baris Jumlah Total:
+  - Laki-Laki (Pegawai): 6.560
+  - Perempuan (Pegawai): 6.287
+  - Total Pegawai: 12.847
+
+2. Tabel Bidang Pelatihan dan Tujuan Pelatihan
+- Header Kolom: Bidang Pelatihan, Tujuan Pelatihan
+- Baris 1: Business & Sharia Banking | Meningkatkan kompetensi pegawai dalam hal sales, marketing, pengetahuan umum, dan sebagainya dalam Bidang Sharia Banking.
+- Baris 2: Credit & Risk | Meningkatkan kompetensi di bidang kredit dan risiko kredit.
+- Baris 3: Leadership | Meningkatkan kompetensi kepemimpinan pegawai dan peningkatan jenjang karir.
+- Baris 4: Operational Banking | Meningkatkan kompetensi pegawai dalam kegiatan operasional Perseroan.
+- Baris 5: Sales & Service | Meningkatkan kompetensi pegawai di bidang sales and service.
+
+3. Diagram Evaluasi Pelaksanaan Pengembangan Kompetensi (Metode Kirkpatrick)
+- Label / Keterangan Diagram:
+  - REACTION (Level 1) | Evaluasi peserta terhadap penyelenggaraan pembelajaran dan pengembangan atas relevansi dan kepuasan pada kegiatan tersebut.
+  - Level 2 | LEARNING | Evaluasi pemahaman peserta terhadap materi pembelajaran dan pengembangan yang telah diberikan.
+  - BEHAVIOURS (Level 3) | Evaluasi untuk mengukur pengaruh pembelajaran dan pengembangan terhadap perubahan perilaku peserta dan penerapannya dalam pekerjaan.
+  - Level 4 | RESULT | Evaluasi yang dilakukan untuk mengukur dampak pembelajaran dan pengembangan terhadap peningkatan aspek bisnis atau proses bisnis Perseroan.

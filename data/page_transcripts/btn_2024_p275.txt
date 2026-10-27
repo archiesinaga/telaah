@@ -1,0 +1,23 @@
+Kredit UMKM
+Kredit Investasi UMKM: 2024: 3, 2023: 10, Kenaikan/Penurunan Nominal: 7, Kenaikan/Penurunan Persentase: (70,00%)
+KMK Kontraktor UMKM: 2024: 15, 2023: 34, Kenaikan/Penurunan Nominal: 19, Kenaikan/Penurunan Persentase: (55,88%)
+Jumlah Volume Penyaluran Kredit UMKM: 2024: 17.026, 2023: 11.067, Kenaikan/Penurunan Nominal: 5.959, Kenaikan/Penurunan Persentase: 53,84%
+
+Tabel Nilai Penyaluran Kredit Komersial Lainnya
+(dalam jutaan Rupiah)
+Kredit Komersial Lainnya
+KMK: 2024: 16.151.633, 2023: 13.463.234, Kenaikan/Penurunan Nominal: 2.688.398, Kenaikan/Penurunan Persentase: 19,97%
+Kredit Investasi: 2024: 3.763.101, 2023: 6.479.667, Kenaikan/Penurunan Nominal: (2.716.566), Kenaikan/Penurunan Persentase: (41,92%)
+KMK Kontraktor: 2024: 758.574, 2023: 971.374, Kenaikan/Penurunan Nominal: (212.799), Kenaikan/Penurunan Persentase: (21,91%)
+Kredit Sindikasi: 2024: 0, 2023: 3.139.302, Kenaikan/Penurunan Nominal: (3.139.302), Kenaikan/Penurunan Persentase: (100,00%)
+TLF: 2024: 2.855.500, 2023: 1.854.000, Kenaikan/Penurunan Nominal: 1.001.500, Kenaikan/Penurunan Persentase: 54,02%
+Jumlah Nilai Penyaluran Kredit Komersial Lainnya: 2024: 23.528.808, 2023: 27.716.089, Kenaikan/Penurunan Nominal: (4.187.282), Kenaikan/Penurunan Persentase: (15,11%)
+
+Tabel Volume Penyaluran Kredit Komersial Lainnya
+(dalam unit)
+Kredit Komersial Lainnya
+KMK: 2024: 1.045, 2023: 434, Kenaikan/Penurunan Nominal: 611, Kenaikan/Penurunan Persentase: 140,78%
+Kredit Investasi: 2024: 94, 2023: 122, Kenaikan/Penurunan Nominal: (28), Kenaikan/Penurunan Persentase: (22,95%)
+KMK Kontraktor: 2024: 101, 2023: 80, Kenaikan/Penurunan Nominal: 21, Kenaikan/Penurunan Persentase: 26,25%
+TLF: 2024: 0, 2023: 7, Kenaikan/Penurunan Nominal: (7), Kenaikan/Penurunan Persentase: (100,00%)
+Jumlah Volume Penyaluran Kredit Komersial Lainnya: 2024: 1.240, 2023: 552, Kenaikan/Penurunan Nominal: 597, Kenaikan/Penurunan Persentase: 92,85%

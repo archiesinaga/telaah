@@ -1,0 +1,27 @@
+1. Judul atau keterangan: Berikut komposisi personil Internal Audit Division berdasarkan pendidikan sebagai berikut:
+2. Label sumbu, legenda, satuan, dan periode:
+- Sumbu Y: 0, 5, 10, 15, 20, 25
+- Sumbu X (Pendidikan): D3 Manajemen, D3 Teknik Informatika (TI), S1 Administrasi, S1 Akuntansi, S1 Arsitektur, S1 Ekonomi Pembangunan, S1 Hukum, S1 Keuangan, S1 Manajemen, S1 Matematika, S1 Oseanografi, S1 Perbankan Syariah, S1 Perikanan, S1 Pertanian, S1 Teknik, S1 TI & Sistem Informasi, S2 Ekonomi Syariah, S2 Magister Akuntansi, S2 Magister Hukum, S2 Magister Manajemen, S2 TI & Ilmu Komputer
+- Legenda/Periode: 2023, 2024
+3. Angka yang tertera (dipasangkan dengan label/periodenya):
+- D3 Manajemen: 2023: 1, 2024: 1
+- D3 Teknik Informatika (TI): 2023: 1, 2024: 0 (tidak ada batang 2024)
+- S1 Administrasi: 2023: 3, 2024: 4
+- S1 Akuntansi: 2023: 20, 2024: 20
+- S1 Arsitektur: 2023: 1, 2024: 0 (tidak ada batang 2024)
+- S1 Ekonomi Pembangunan: 2023: 6, 2024: 5
+- S1 Hukum: 2023: 6, 2024: 4
+- S1 Keuangan: 2023: 1, 2024: 1
+- S1 Manajemen: 2023: 8, 2024: 6
+- S1 Matematika: 2023: 1, 2024: 1
+- S1 Oseanografi: 2023: 1, 2024: 0 (tidak ada batang 2024)
+- S1 Perbankan Syariah: 2023: 0 (tidak ada batang 2023), 2024: 1
+- S1 Perikanan: 2023: 1, 2024: 1
+- S1 Pertanian: 2023: 1, 2024: 1
+- S1 Teknik: 2023: 3, 2024: 5
+- S1 TI & Sistem Informasi: 2023: 10, 2024: 11
+- S2 Ekonomi Syariah: 2023: 1, 2024: 1
+- S2 Magister Akuntansi: 2023: 5, 2024: 5
+- S2 Magister Hukum: 2023: 1, 2024: 1
+- S2 Magister Manajemen: 2023: 7, 2024: 6
+- S2 TI & Ilmu Komputer: 2023: 1, 2024: 2

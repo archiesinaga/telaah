@@ -1,0 +1,35 @@
+Tabel Posisi Dana Deposito Syariah (dalam jutaan Rupiah):
+- 2024, Deposito BTN iB (Perorangan): 1.472.223
+- 2023, Deposito BTN iB (Perorangan): 1.312.892
+- Kenaikan/Penurunan Nominal, Deposito BTN iB (Perorangan): 159.331
+- Kenaikan/Penurunan Persentase, Deposito BTN iB (Perorangan): 12,14%
+- 2024, Deposito BTN iB (Lembaga): 19.236.272
+- 2023, Deposito BTN iB (Lembaga): 18.695.037
+- Kenaikan/Penurunan Nominal, Deposito BTN iB (Lembaga): 541.235
+- Kenaikan/Penurunan Persentase, Deposito BTN iB (Lembaga): 2,90%
+- 2024, Deposito On Call iB: 1.279.309
+- 2023, Deposito On Call iB: 879.595
+- Kenaikan/Penurunan Nominal, Deposito On Call iB: 399.714
+- Kenaikan/Penurunan Persentase, Deposito On Call iB: 45,44%
+- 2024, Jumlah Posisi Dana Deposito Syariah: 21.987.804
+- 2023, Jumlah Posisi Dana Deposito Syariah: 20.887.524
+- Kenaikan/Penurunan Nominal, Jumlah Posisi Dana Deposito Syariah: 2.464.247
+- Kenaikan/Penurunan Persentase, Jumlah Posisi Dana Deposito Syariah: 12,62%
+
+Tabel Posisi Volume Rekening Deposito Syariah (dalam rekening):
+- 2024, Deposito BTN iB (Perorangan): 9.007
+- 2023, Deposito BTN iB (Perorangan): 9.240
+- Kenaikan/Penurunan Nominal, Deposito BTN iB (Perorangan): (233)
+- Kenaikan/Penurunan Persentase, Deposito BTN iB (Perorangan): (2,52%)
+- 2024, Deposito BTN iB (Lembaga): 1.689
+- 2023, Deposito BTN iB (Lembaga): 1.662
+- Kenaikan/Penurunan Nominal, Deposito BTN iB (Lembaga): 27
+- Kenaikan/Penurunan Persentase, Deposito BTN iB (Lembaga): 1,62%
+- 2024, Deposito On Call iB: 124
+- 2023, Deposito On Call iB: 55
+- Kenaikan/Penurunan Nominal, Deposito On Call iB: 69
+- Kenaikan/Penurunan Persentase, Deposito On Call iB: 125,45%
+- 2024, Jumlah Posisi Volume Rekening Deposito Syariah: 10.820
+- 2023, Jumlah Posisi Volume Rekening Deposito Syariah: 10.957
+- Kenaikan/Penurunan Nominal, Jumlah Posisi Volume Rekening Deposito Syariah: (441)
+- Kenaikan/Penurunan Persentase, Jumlah Posisi Volume Rekening Deposito Syariah: (3,92%)

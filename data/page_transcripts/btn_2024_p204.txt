@@ -1,0 +1,84 @@
+1. Tabel 1: Informasi Sekuritisasi
+- Kolom/Label: No., Transaksi Sekuritisasi, Nominal Total (Rp), Kelas, Nominal (Rp)
+- Baris 14:
+  - No.: 14.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 07
+  - Nominal Total (Rp): 500.000.001.416
+  - Kelas A: 452.500.000.000
+  - Kelas B: 47.500.001.416
+- Baris 15:
+  - No.: 15.
+  - Transaksi Sekuritisasi: EBA-SP SMF-BTN 08
+  - Nominal Total (Rp): 600.000.020.055
+  - Kelas A: 544.800.000.000
+  - Kelas B: 55.200.020.055
+- Baris Jumlah:
+  - Jumlah Nominal Total (Rp): 13.386.867.660.613
+  - Jumlah Nominal (Rp): 13.386.867.660.613
+
+2. Tabel 2: Kronologi Pencatatan Negotiable Certificate of Deposit (NCD)
+- Judul: Tabel Kronologi Pencatatan Negotiable Certificate of Deposit
+- Kolom/Label: Jenis NCD, Nominal Penerbitan (Rp), Tanggal Transaksi, Seri
+- Baris 1:
+  - Jenis NCD: NCD Tahap I
+  - Nominal Penerbitan (Rp): 625.000.000.000
+  - Tanggal Transaksi: 5 Desember 2014
+  - Seri: A, B, C
+- Baris 2:
+  - Jenis NCD: NCD Tahap II
+  - Nominal Penerbitan (Rp): 1.005.000.000.000
+  - Tanggal Transaksi: 26 Februari 2015
+  - Seri: A, B, C, D
+- Baris 3:
+  - Jenis NCD: NCD Tahap III
+  - Nominal Penerbitan (Rp): 500.000.000.000
+  - Tanggal Transaksi: 17 Februari 2015
+  - Seri: E
+- Baris 4:
+  - Jenis NCD: NCD Tahap IV
+  - Nominal Penerbitan (Rp): 1.110.000.000.000
+  - Tanggal Transaksi: 30 April 2015
+  - Seri: A, B, C
+- Baris 5:
+  - Jenis NCD: NCD Tahap I 2016
+  - Nominal Penerbitan (Rp): 740.000.000.000
+  - Tanggal Transaksi: 9 Juni 2016
+  - Seri: A
+- Baris 6:
+  - Jenis NCD: NCD Tahap II 2016
+  - Nominal Penerbitan (Rp): 1.115.000.000.000
+  - Tanggal Transaksi: 5 Agustus 2016
+  - Seri: A, B, C
+- Baris 7:
+  - Jenis NCD: NCD Tahap III 2016
+  - Nominal Penerbitan (Rp): 371.000.000.000
+  - Tanggal Transaksi: 30 November 2016
+  - Seri: A, B
+- Baris 8:
+  - Jenis NCD: NCD Tahap IV 2016
+  - Nominal Penerbitan (Rp): 500.000.000.000
+  - Tanggal Transaksi: 29 Desember 2016
+  - Seri: A, B
+- Baris 9:
+  - Jenis NCD: NCD Tahap V 2016
+  - Nominal Penerbitan (Rp): 500.000.000.000
+  - Tanggal Transaksi: 30 Desember 2016
+  - Seri: -
+- Baris 10:
+  - Jenis NCD: NCD Tahap I 2017
+  - Nominal Penerbitan (Rp): 1.735.000.000.000
+  - Tanggal Transaksi: 21 Februari 2017
+  - Seri: A, B
+- Baris 11:
+  - Jenis NCD: NCD Tahap III 2017
+  - Nominal Penerbitan (Rp): 550.000.000.000
+  - Tanggal Transaksi: 3 Oktober 2017
+  - Seri: -
+- Baris 12:
+  - Jenis NCD: NCD Tahap II 2017
+  - Nominal Penerbitan (Rp): 1.050.000.000.000
+  - Tanggal Transaksi: 5 Oktober 2017
+  - Seri: A, B
+
+3. Nomor Halaman:
+- 202

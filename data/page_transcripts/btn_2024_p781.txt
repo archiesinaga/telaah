@@ -1,0 +1,60 @@
+Jumlah Penyimpangan (Internal Fraud) dan Upaya Penyelesaian
+
+Tabel: Jumlah fraud yang dilakukan (Internal)
+Kolom: Internal Fraud dalam 1 Tahun, Anggota Dewan Komisaris dan Anggota Direksi (Tahun Sebelumnya (2023), Tahun Berjalan (2024)), Pegawai Tetap (Tahun Sebelumnya (2023), Tahun Berjalan (2024)), Pegawai Tidak Tetap (Tahun Sebelumnya (2023), Tahun Berjalan (2024))
+
+Baris 1: Total Fraud
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Sebelumnya (2023): 0
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Berjalan (2024): 0
+- Pegawai Tetap, Tahun Sebelumnya (2023): 19
+- Pegawai Tetap, Tahun Berjalan (2024): 23
+- Pegawai Tidak Tetap, Tahun Sebelumnya (2023): 0
+- Pegawai Tidak Tetap, Tahun Berjalan (2024): 1
+
+Baris 2: Telah Diselesaikan
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Sebelumnya (2023): 0
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Berjalan (2024): 0
+- Pegawai Tetap, Tahun Sebelumnya (2023): 17
+- Pegawai Tetap, Tahun Berjalan (2024): 19
+- Pegawai Tidak Tetap, Tahun Sebelumnya (2023): 0
+- Pegawai Tidak Tetap, Tahun Berjalan (2024): 1
+
+Baris 3: Dalam Proses Penyelesaian di Internal Bank
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Sebelumnya (2023): 0
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Berjalan (2024): 0
+- Pegawai Tetap, Tahun Sebelumnya (2023): 2
+- Pegawai Tetap, Tahun Berjalan (2024): 4
+- Pegawai Tidak Tetap, Tahun Sebelumnya (2023): 0
+- Pegawai Tidak Tetap, Tahun Berjalan (2024): 0
+
+Baris 4: Belum Diupayakan Penyelesaian
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Sebelumnya (2023): 0
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Berjalan (2024): 0
+- Pegawai Tetap, Tahun Sebelumnya (2023): 0
+- Pegawai Tetap, Tahun Berjalan (2024): 0
+- Pegawai Tidak Tetap, Tahun Sebelumnya (2023): 0
+- Pegawai Tidak Tetap, Tahun Berjalan (2024): 0
+
+Baris 5: Telah Ditindaklanjuti Melalui Proses Hukum
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Sebelumnya (2023): 0
+- Anggota Dewan Komisaris dan Anggota Direksi, Tahun Berjalan (2024): 0
+- Pegawai Tetap, Tahun Sebelumnya (2023): 2
+- Pegawai Tetap, Tahun Berjalan (2024): 0
+- Pegawai Tidak Tetap, Tahun Sebelumnya (2023): 0
+- Pegawai Tidak Tetap, Tahun Berjalan (2024): 0
+
+
+Tabel: Penyediaan Dana Kepada Pihak Terkait dan Penyediaan Dana Besar
+Kolom: No., Penyedia Dana, Jumlah (Debitur, Nominal (juta rupiah))
+
+Baris 1:
+- No.: 1.
+- Penyedia Dana: Kepada Pihak Terkait
+- Debitur: 21
+- Nominal (juta rupiah): 5.247
+
+Baris 2:
+- No.: 2.
+- Penyedia Dana: Kepada Debitur Inti: a. Individu, b. Group
+- Debitur: a. 34, b. 86
+- Nominal (juta rupiah): a. 11.567.988, b. 23.372.916

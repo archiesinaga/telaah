@@ -1,0 +1,97 @@
+BANK
+2023
+No: 1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5
+Transaksi: 
+A. TERKAIT DENGAN NILAI TUKAR
+1. Spot
+2. Forward
+3. Option a. Jual b. Beli
+4. Future
+5. Swap
+6. Lainnya (CCS)
+B. TERKAIT DENGAN SUKU BUNGA
+1. Forward
+2. Option a. Jual b. Beli
+3. Future
+4. Swap
+5. Lainnya
+C. LAINNYA
+Jumlah
+
+Nilai Notional:
+A.1. Spot: -
+A.2. Forward: -
+A.3. Option a. Jual b. Beli: -
+A.4. Future: -
+A.5. Swap: -
+A.6. Lainnya (CCS): 1.878.434
+B.1. Forward: -
+B.2. Option a. Jual b. Beli: -
+B.3. Future: -
+B.4. Swap: -
+B.5. Lainnya: -
+C. LAINNYA: -
+Jumlah: 1.878.434
+
+Tujuan - Trading:
+A.1. Spot: -
+A.2. Forward: -
+A.3. Option a. Jual b. Beli: -
+A.4. Future: -
+A.5. Swap: -
+A.6. Lainnya (CCS): (tidak terbaca)
+B.1. Forward: -
+B.2. Option a. Jual b. Beli: -
+B.3. Future: -
+B.4. Swap: -
+B.5. Lainnya: -
+C. LAINNYA: -
+Jumlah: -
+
+Tujuan - Hedging:
+A.1. Spot: -
+A.2. Forward: -
+A.3. Option a. Jual b. Beli: -
+A.4. Future: -
+A.5. Swap: -
+A.6. Lainnya (CCS): (tidak terbaca)
+B.1. Forward: -
+B.2. Option a. Jual b. Beli: -
+B.3. Future: -
+B.4. Swap: -
+B.5. Lainnya: -
+C. LAINNYA: -
+Jumlah: -
+
+Tagihan dan Kewajiban Derivatif - Tagihan:
+A.1. Spot: -
+A.2. Forward: -
+A.3. Option a. Jual b. Beli: -
+A.4. Future: -
+A.5. Swap: -
+A.6. Lainnya (CCS): 64.516
+B.1. Forward: -
+B.2. Option a. Jual b. Beli: -
+B.3. Future: -
+B.4. Swap: -
+B.5. Lainnya: -
+C. LAINNYA: -
+Jumlah: 64.516
+
+Tagihan dan Kewajiban Derivatif - Kewajiban:
+A.1. Spot: -
+A.2. Forward: -
+A.3. Option a. Jual b. Beli: -
+A.4. Future: -
+A.5. Swap: -
+A.6. Lainnya (CCS): (tidak terbaca)
+B.1. Forward: -
+B.2. Option a. Jual b. Beli: -
+B.3. Future: -
+B.4. Swap: -
+B.5. Lainnya: -
+C. LAINNYA: -
+Jumlah: -
+
+Laporan Tahunan 2024: 2024
+PT Bank Tabungan Negara (Persero) Tbk: 371

@@ -1,0 +1,6 @@
+PILAR TJSL
+
+01: Lingkungan
+02: Ekonomi
+03: Hukum & Tata Kelola
+04: Sosial

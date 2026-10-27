@@ -1,0 +1,10 @@
+1. Struktur, Jabatan, Hak Suara, Keterangan
+Direksi/SEVP:
+- Direktur yang membawahi Kredit Konsumen/Pembiayaan: ✓, Anggota Tidak Tetap
+- SEVP yang membawahi Wholesale Banking: ✓, Anggota Tidak Tetap
+
+2. No, Tanggal, Agenda
+- 1, 06 Februari 2024: Review RSTI 2021-2025 & Inisiatif Utama., IT Maturity & Organization Review., IT Security., Asesmen Enterprise Finance System., Asesmen Data Center., Digital Risk Update.
+- 2, 28 Mei 2024: Review RSTI 2021-2025 & Inisiatif Utama., Hasil Pengukuran Digital Maturity Assessment for Bank (DMAB)., IT Guiding Principle dan Aset Hak Guna., Digital Risk Monitoring.
+- 3, 29 September 2024: Review RSTI 2021-2025 & Inisiatif Utama., IT Compliance & Security Index., Benefit Realization., Digital Risk Monitoring.
+- 4, 28 November 2024: Rencana Strategi Teknologi Informasi (RSTI)., Usulan Inisiatif Utama 2025., Review Kebijakan Umum Teknologi Informasi (TI), Manajemen Data, dan Digital., Update Inisiatif 2024., Digital Risk Monitoring.

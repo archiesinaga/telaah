@@ -1,0 +1,135 @@
+Jumlah Pegawai Berdasarkan Masa Kerja
+
+Tabel Jumlah Pegawai Berdasarkan Masa Kerja
+(dalam satuan orang)
+
+Masa Kerja:
+2024:
+Pria:
+- > 30th: 124
+- Di atas 25th-30th: 584
+- Di atas 20th-25th: 0
+- Di atas 15th-20th: 213
+- Di atas 10th-15th: 1.473
+- Di atas 5th-10th: 2.733
+- Di atas 0-5th: 1.433
+- Jumlah: 6.560
+
+Wanita:
+- > 30th: 80
+- Di atas 25th-30th: 142
+- Di atas 20th-25th: 0
+- Di atas 15th-20th: 306
+- Di atas 10th-15th: 1.519
+- Di atas 5th-10th: 2.043
+- Di atas 0-5th: 2.197
+- Jumlah: 6.287
+
+Total:
+- > 30th: 204
+- Di atas 25th-30th: 726
+- Di atas 20th-25th: 0
+- Di atas 15th-20th: 519
+- Di atas 10th-15th: 2.992
+- Di atas 5th-10th: 4.776
+- Di atas 0-5th: 3.630
+- Jumlah: 12.847
+
+2023:
+Pria:
+- > 30th: 50
+- Di atas 25th-30th: 642
+- Di atas 20th-25th: 129
+- Di atas 15th-20th: 112
+- Di atas 10th-15th: 1.046
+- Di atas 5th-10th: 2.672
+- Di atas 0-5th: 1.637
+- Jumlah: 6.288
+
+Wanita:
+- > 30th: 58
+- Di atas 25th-30th: 179
+- Di atas 20th-25th: 21
+- Di atas 15th-20th: 231
+- Di atas 10th-15th: 1.345
+- Di atas 5th-10th: 1.758
+- Di atas 0-5th: 2.165
+- Jumlah: 5.757
+
+Total:
+- > 30th: 108
+- Di atas 25th-30th: 821
+- Di atas 20th-25th: 150
+- Di atas 15th-20th: 343
+- Di atas 10th-15th: 2.391
+- Di atas 5th-10th: 4.430
+- Di atas 0-5th: 3.802
+- Jumlah: 12.045
+
+Komposisi Pemegang Saham
+
+Tabel Komposisi Pemegang Saham BTN Per 1 Januari 2024
+
+LOKAL
+Negara Republik Indonesia:
+- Jumlah Pemegang Saham: 1
+- Jumlah Saham (Lembar): 8.420.666.648
+- Persentase Kepemilikan (%): 60,00
+
+Asuransi:
+- Jumlah Pemegang Saham: 73
+- Jumlah Saham (Lembar): 200.280.053
+- Persentase Kepemilikan (%): 1,43
+
+Bank:
+- Jumlah Pemegang Saham: 3
+- Jumlah Saham (Lembar): 11.412.489
+- Persentase Kepemilikan (%): 0,08
+
+Dana Pensiun:
+- Jumlah Pemegang Saham: 104
+- Jumlah Saham (Lembar): 1.366.263.155
+- Persentase Kepemilikan (%): 9,74
+
+Koperasi:
+- Jumlah Pemegang Saham: 5
+- Jumlah Saham (Lembar): 2.764.700
+- Persentase Kepemilikan (%): 0,02
+
+Perorangan Indonesia:
+- Jumlah Pemegang Saham: 55.885
+- Jumlah Saham (Lembar): 1.921.912.997
+- Persentase Kepemilikan (%): 13,69
+
+Perseroan Terbatas:
+- Jumlah Pemegang Saham: 157
+- Jumlah Saham (Lembar): 137.511.407
+- Persentase Kepemilikan (%): 0,98
+
+Reksadana:
+- Jumlah Pemegang Saham: 131
+- Jumlah Saham (Lembar): 583.769.031
+- Persentase Kepemilikan (%): 4,16
+
+Yayasan:
+- Jumlah Pemegang Saham: 11
+- Jumlah Saham (Lembar): 35.383.999
+- Persentase Kepemilikan (%): 0,25
+
+Sub Total:
+- Jumlah Pemegang Saham: 56.370
+- Jumlah Saham (Lembar): 12.679.964.479
+- Persentase Kepemilikan (%): 90,35
+
+ASING
+Badan Usaha Asing:
+- Jumlah Pemegang Saham: 185
+- Jumlah Saham (Lembar): 1.351.005.210
+- Persentase Kepemilikan (%): 9,63
+
+Perorangan Asing:
+- Jumlah Pemegang Saham: 74
+- Jumlah Saham (Lembar): 3.474.724
+- Persentase Kepemilikan (%): 0,02
+
+184 PT Bank Tabungan Negara (Persero) Tbk

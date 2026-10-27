@@ -1,0 +1,52 @@
+Jenis Pelatihan dan Pendidikan: Internalisasi Pengelolaan APU, PPT, dan PPPSPM, Jumlah Peserta: 10
+Jenis Pelatihan dan Pendidikan: Officer Development Program (ODP) Angkatan 63, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pelatihan APU, PPT & PPPSPM, Jumlah Peserta: 12
+Jenis Pelatihan dan Pendidikan: Pendidikan dan Pelatihan APU, PPT dan PPPSPM terkait Individual Risk Assessment (IRA) Tahun 2024, Jumlah Peserta: 8
+Jenis Pelatihan dan Pendidikan: Pelatihan Pemahaman dan Pendokumentasian Data Beneficiary Owner (BO), Jumlah Peserta: 8
+Jenis Pelatihan dan Pendidikan: Pelatihan Operation Series: New HCIS Cloud kepada Key User, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pelatihan Organization Design, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pelatihan Penyusunan SOP dengan AI, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pelatihan Presentation Skill, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pembekalan Sertifikasi Credit Officer, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pembekalan Sertifikasi Manajemen Risiko Jenjang KKNI 4, Jumlah Peserta: 14
+Jenis Pelatihan dan Pendidikan: Pelatihan Pembiayaan Berkelanjutan Kredit Sindikasi, Jumlah Peserta: 5
+Jenis Pelatihan dan Pendidikan: Pendidikan Dasar Perbankan Syariah (PDPS), Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Peserta Pelatihan Penilai Risk Maturity Index (RMI), Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Pelatihan Preparing For Merger, Acquisition, and Integration: Journey Towards a Seamless Transition, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Proses Kredit Konsumer New Process Decision Engine dan Personal Loan, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Refreshment Pemahaman dan Pelaksanaan Program APU, PPT, dan PPPSPM terhadap Nasabah Berisiko Tinggi, Jumlah Peserta: 6
+Jenis Pelatihan dan Pendidikan: Refreshment Manajemen Risiko Jenjang KKNI 4 Metode E - Learning, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Refreshment Manajemen Risiko Jenjang KKNI 5 Metode E - Learning, Jumlah Peserta: 20
+Jenis Pelatihan dan Pendidikan: Seminar “Financial Strategy for The Youth and Gen Z in Embracing Indonesia Emas 2045, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Sertifikasi Internal Credit Consumer Level Staff, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Uji Kompetensi SMR Jenjang KKNI 4, Jumlah Peserta: 8
+Jenis Pelatihan dan Pendidikan: Supervisor Development Program (SDP), Jumlah Peserta: 5
+Jenis Pelatihan dan Pendidikan: Talent Acceleration Program II - Kickoff, Jumlah Peserta: 2
+Jenis Pelatihan dan Pendidikan: Talent Acceleration Program 2 “Leadership Session”, Jumlah Peserta: 2
+Jenis Pelatihan dan Pendidikan: Webinar Perencanaan Pensiun “Edukasi Program Jaminan Hari Tua (JHT) dan Kesejahteraan Pegawai serta Hidup Sehat dan Bahagia di Masa Pensiun”, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar Perencanaan Pensiun: “Edukasi Program Pensiun Manfaat Pasti dan Perencanaan Keuangan”, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar Building a Privacy-First Culture in Workplace: The Role of Human Capital in Data Protection, Jumlah Peserta: 1
+
+Jenis Pelatihan dan Pendidikan: Webinar FKDKP “Menjaga Kepatuhan Pelaku Usaha Jasa Keuangan dalam Mendukung Ekonomi Inklusif melalui Pengawasan, Edukasi Keuangan dan Pelindungan Konsumen dalam Kompleksitas Produk Keuangan”, Jumlah Peserta: 2
+Jenis Pelatihan dan Pendidikan: Webinar FKDKP “Penanganan Kejahatan Perbankan Dengan Berlakunya UU P2SK & POJK 16 Tahun 2023”, Jumlah Peserta: 15
+Jenis Pelatihan dan Pendidikan: Webinar FKDKP “Peran Serta Aktif Dalam Pencegahan Green Financial Crime di Industri Keuangan”, Jumlah Peserta: 6
+Jenis Pelatihan dan Pendidikan: Webinar OJK “Connecting The Dots”, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar OJK - How to Mitigate Transition and Physical Risks in the Financial Sector, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar OJK “Membangun Kepemimpinan Berbasis Spiritual: Pendekatan Holistik untuk Pertumbuhan dan Keberlanjutan Bisnis”, Jumlah Peserta: 3
+Jenis Pelatihan dan Pendidikan: Webinar OJK - Meningkatkan Kinerja Perusahaan melalui Kecerdasan Buatan, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar OJK - Penanganan Kejahatan Siber termasuk Perjudian Daring sebagai Tindak Pidana Asal Tindak Pidana Pencucian Uang, Jumlah Peserta: 6
+Jenis Pelatihan dan Pendidikan: Webinar OJK - Peran Innovative Credit Scoring (ICS) dalam Meningkatkan Akses Pendanaan, Jumlah Peserta: 2
+Jenis Pelatihan dan Pendidikan: Webinar OJK “Peran UU P2SK dalam Memberikan Efek Jera bagi Pelaku Jasa Keuangan Ilegal”, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar OJK “Peluang dan Tantangan Pelindungan Data Pribadi dalam Transaksi di Era Digital”, Jumlah Peserta: 2
+Jenis Pelatihan dan Pendidikan: Webinar OJK - Forum Penguatan Fungsi GRC: “Sinergi dan Kolaborasi dengan Kementerian/ Lembaga dan Stakeholders dalam Rangka Diseminasi Standar Audit Internal Terkini”, Jumlah Peserta: 1
+Jenis Pelatihan dan Pendidikan: Webinar OJK "Strategi Mencegah Serangan Siber", Jumlah Peserta: 4
+Jenis Pelatihan dan Pendidikan: Webinar OJK - Navigating The Half: “Year Roadmap To Success”, Jumlah Peserta: 9
+Jenis Pelatihan dan Pendidikan: Workshop Indonesia Privacy Leader Summit Dua Tahun UU PDP: Tantangan dan Masa Depan Pelindungan Data Pribadi, Jumlah Peserta: 3
+Jenis Pelatihan dan Pendidikan: Workshop ASEAN Corporate Governance Scorecard (ACGS) Tahun 2024, Jumlah Peserta: 4
+Jenis Pelatihan dan Pendidikan: Workshop Perekaman Pemrosesan Data Pribadi_Record of Processing Activities (ROPA) dan Penilaian Dampak Pemrosesan Data Pribadi_Data Privacy Impact Assessment (DPIA), Jumlah Peserta: 2
+Jenis Pelatihan dan Pendidikan: Young Leaders Talk “Leading with Impact, Crafting Your Success Story”, Jumlah Peserta: 5
+
+Online / Self Learning:
+Jenis Pelatihan dan Pendidikan: Compliance Excellence Edisi Agustus 2024 - Prosedur Penerapan Program Anti Pencucian Uang, Pencegahan Pendanaan Terorisme Dan Pencegahan Pendanaan Proliferasi Senjata Pemusnah Massal (APU PPT DAN PPPSPM), Jumlah Peserta: 52
+Jenis Pelatihan dan Pendidikan: Compliance Excellence Edisi April 2024 - Layanan Government VA, Jumlah Peserta: 50
+Jenis Pelatihan dan Pendidikan: Compliance Excellence Edisi Februari 2024 - Security & Digital Risk Awareness, Jumlah Peserta: 51

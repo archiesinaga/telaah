@@ -1,0 +1,38 @@
+1. Judul atau keterangan:
+- IT Maturity Level sebesar 3.50 (angka tercetak pada paragraf teks, namun juga disebut sebagai nilai numerik).
+- Visi dan Misi BTN
+- Enabled by..
+- RSTI 2021 – 2025
+- KEY SOLUTION COMPONENTS
+- Technology Trends
+- Industry Trends & Best Practices
+- 1. BUSINESS ALIGNED IT STRATEGY
+- 2. ENTERPRISE ARCHITECTURE
+- 3. IT OPERATING MODEL
+- 4. IT TRANSFORMATION ROADMAP
+- I. Business Aligned IT Strategy
+- II. Enterprise Architecture
+- III. IT Operating Model
+- IV. IT Transformation Roadmap
+- Penyusunan RSTI 2021-2025 didukung oleh 4 pilar utama
+- PT Bank Tabungan Negara (Persero) Tbk | 457
+- Laporan Tahunan 2024
+
+2. Label sumbu, legenda, satuan, dan periode:
+- Periode: 2021-2025 (untuk RSTI)
+- Periode: Tahun 2024 (pada teks)
+- Angka dalam lingkaran merah: 1, 2, 3, 4
+- Angka romawi dalam lingkaran merah: I, II, III, IV
+
+3. Semua angka yang tertera, dipasangkan dengan label/periodenya:
+- Tahun 2024: 3.50 (IT Maturity Level)
+- 2021-2025: 4 pilar utama (RSTI)
+- 1: BUSINESS ALIGNED IT STRATEGY
+- 2: ENTERPRISE ARCHITECTURE
+- 3: IT OPERATING MODEL
+- 4: IT TRANSFORMATION ROADMAP
+- I: Business Aligned IT Strategy
+- II: Enterprise Architecture
+- III: IT Operating Model
+- IV: IT Transformation Roadmap
+- 2024: 457 (Nomor halaman)

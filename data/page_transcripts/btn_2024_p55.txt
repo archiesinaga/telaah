@@ -1,0 +1,24 @@
+Tabel Suku Bunga Tabungan Valas
+Jenis Produk: Tabungan BTN Felas USD via Mobile Banking
+USD - Strata Saldo: < USD 1.000, Suku Bunga: 0,00%
+USD - Strata Saldo: USD 1.000 - < USD 10.000, Suku Bunga: 0,15%
+USD - Strata Saldo: USD 10.000 - < USD 100.000, Suku Bunga: 0,35%
+USD - Strata Saldo: ≥ USD 100.000, Suku Bunga: 0,50%
+
+Tabel Suku Bunga Deposito Valas
+Jenis Produk: Deposito USD, Strata Saldo: Seluruh strata, Jangka Waktu (bulan) 4: 0,20%
+Jenis Produk: Deposito SGD, Strata Saldo: Seluruh strata, Jangka Waktu (bulan) 4: 0,10%
+Jenis Produk: Deposito AUD/CNY, Strata Saldo: Seluruh strata, Jangka Waktu (bulan) 4: 0,10%
+Jenis Produk: Deposito JPY, Strata Saldo: Seluruh strata, Jangka Waktu (bulan) 4: 0,00%
+
+Tabel Suku Bunga e-Deposito Valas
+Jenis Produk: e-Deposito USD Ritel
+Strata Saldo: < USD100.000, Jangka Waktu (bulan) 1: 1,00%, 3: 1,00%, 6: 1,00%, 12: 1,00%, 24: 1,00%
+Strata Saldo: USD100.000 - < USD500.000, Jangka Waktu (bulan) 1: 2,50%, 3: 2,50%, 6: 1,50%, 12: 1,50%, 24: 1,50%
+Strata Saldo: USD500.000 - < USD1.000.000, Jangka Waktu (bulan) 1: 2,50%, 3: 2,50%, 6: 2,00%, 12: 2,00%, 24: 2,00%
+Strata Saldo: ≥ USD1.000.000, Jangka Waktu (bulan) 1: 2,50%, 3: 2,50%, 6: 2,25%, 12: 2,25%, 24: 2,25%
+
+Tabel Suku Bunga Giro Valas
+Jenis Produk: Giro Valas (USD)
+Strata Saldo: Sampai dengan USD100.000, Suku Bunga: 0,00%
+Strata Salno: > USD100.000, Suku Bunga: 0,10%
