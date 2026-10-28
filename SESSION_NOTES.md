@@ -1100,6 +1100,12 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 - Spot check of 50 examples (`sft/spot_check.md`, verdicts filled) checked against the PDF pages: 48 OK, 2 WRONG. s0622-2: BTN "ROE 2019 20%" is footnoted as a 2025 aspiration (not filterable). s0784-2: question names a file id.
 - `sft/build_sft.py` PAGE_REF_RE now also drops `ojk_…` / `bi_…` ids in questions (33 examples). Rebuilt: **1,324 examples** in `sft/sft.jsonl` (answer_top5 582, answer_pushed 472, refusal_removed 167, refusal_scope 103, lookalike 130). 42 others differ only in the pushed rank (shared rng), labels unchanged.
 - Docling header misreads seen in the check (s0492-2 columns are 2024/2023/2022, not Stage 1-3): the values were right.
+- Committed as 1e556eb (`sft/build_sft.py`, this note). `sft/sft.jsonl` and `sft/spot_check.md` are git-ignored; backup of the 1,357 set in this session's scratchpad only (may be gone).
+## Decisions
+- Data ready for training (2/50 wrong, gate was < ~3). Minor wording issues kept as OK: s0391-3 no unit, s0527-2 "saldo awal per 31 Desember 2024", s0597-3 national IKK called "BTN's".
+## Lessons
+- The user's first verdict pass never reached the file (unchanged 01:13 timestamp; likely Markdown preview or unsaved tab). Check the file's LastWriteTime before reading verdicts.
+- Checking against PDFs: `p.N` = PDF page index (1-based, Docling page_no), so pymupdf `doc[N-1]`; `data/raw/<doc_id>.pdf`. Text lines settle most rows; render ambiguous tables (`get_pixmap(dpi=110)`) and read the image for column headers and footnotes. Script kept in scratchpad `pdf_check.py` (may be gone).
 ## Next
 1. KAGGLE SFT PHASE STARTS NOW. Move to the Claude desktop app on `C:\Users\User\genai-project`; read SESSION_NOTES.md, ROADMAP.md, KAGGLE_SETUP.md, `sft/DESIGN.md`. Build the Qwen2.5-7B LoRA training notebook for `sft/sft.jsonl` (upload it as a Kaggle dataset; lessons from the ColPali run: uninstall torchao in cell 1, output zip is under the version page > Output). Model: Sonnet 5.5.
 2. Step 7: base vs SFT on the full 439 dev with the new defaults, `JUDGE_MODEL` pinned to the base model; re-check YEAR_UNION. Opus 5.5 reads.
