@@ -1071,3 +1071,26 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 2. Then `eval --workers 3` on q001-q006 vs workers=1 (no other eval running); commit run_eval/cli if equal. Model: Sonnet 5.5.
 3. When the draft finishes: `.venv/Scripts/python sft/build_sft.py` for real (no eval running), read mix counts (answer_pushed share, lookalike), then step 5 review sample (200, Opus 5.5) + user spot-check of 50, table/calculation first (column label check proves the label exists, not that it is the value's column).
 4. User: review `candidates_test.jsonl`, write 8 test unanswerables, record demo video; refresh README from the 439 run.
+
+# Update — 2026-10-29 (01:15): defaults ON, --workers, SFT draft done, data review + filters
+## Done (commits 26b5cd9, 25d2876, 54a1da6, e37d04d)
+- Defaults ON: `TELAAH_SECOND_LOOK`, `TELAAH_CITE_REPAIR` (`src/telaah/answer.py`), `TELAAH_YEAR_UNION` (`src/telaah/agent.py`); `=0` turns each off; README switches updated. pytest 109.
+- `telaah eval --workers N` committed after test on q001-q006 (seed file, `--agent --router`, vision off): identical scores and answer texts to workers=1, 35 s vs 1m55s. Stray partial `bench-dev-20261028-095425` deleted.
+- SFT draft finished (resumed 23:08, no quota hit): 799/800 pages (1 errored page, s0181, not retried), `sft/drafts.jsonl` 1,983 drafts, 1,539 pass checks. ok/flagged: text_fact 413/61, table_lookup 478/66, calculation 291/285, chart 81/8 (only ~21% of chart pages had a labelled chart; empty answers are by design), regulation 276/24.
+- `sft/build_sft.py` run for real (retrieval cached in `sft/retrieved.jsonl`, ~10 min; rebuilds take seconds). New filters from the Opus review: value cut out of the `build_context` excerpt (54), figure on a dev gold page of the same bank (49), English-format figure + Indonesian unit e.g. "35,415,779 miliar" (23, BNI), question names doc id/page (13), layout question "baris pertama" (8), table/calc Q/A year mismatch (3). 1,507 -> **1,357 examples** in `sft/sft.jsonl`: answer_top5 600 (44%), answer_pushed 485 (36%), refusal_removed 169, refusal_scope 103 (20%), lookalike 130 (10%). Re-audit: 0 unsupported targets.
+- `sft/spot_check.py` -> `sft/spot_check.md` (git-ignored): 50 examples (13 calc, 13 table, 6 text, 5 chart, 5 regulation, 8 refusals) with the source row + header, "Verdict:" lines for the user.
+## Results
+- Stacked run `bench-dev-20261028-133614` (174 ids) vs base / second look alone: numeric 0.408 / 0.474 / 0.480, citation 0.494 / 0.557 / 0.580, refusal 0.770 / 0.851 / 0.879, recall 0.741 unchanged; 22 unanswerables refused. Stacked vs SL alone numeric +5 (bd0236, 0246, 0254, 0261, 0270) -4 (bd0128, 0214, 0230, 0257); calc numeric 0.221 -> 0.250; latency +7%.
+- Hand review (39 answers + 8 refusals): calc 14/14 right row and year column; chart 6/6, text 5/5, refusals 8/8 valid; wrong: s0200-2 (year mismatch, now filtered), s0716-3 (regulation answer does not match question, not filterable).
+## Decisions
+- All three switches ON (user). YEAR_UNION is a close call on 174 ids (+1 net numeric); recheck on the next full 439 run.
+- Pushed share 36% (design 15%) kept: every pushed example has the value in context; the gate (refusal not lower, 22 unanswerables refused) decides. Train on ~1,357 first; draft more pages only if the gate shows a data-size problem.
+## Lessons
+- `build_context` excerpts long pages: a draft value on the page is not always in the context; always check the rendered block (`block_of`).
+- Background "command completed" notices for `nohup ... &` are the shell wrapper; check the process (`Get-CimInstance Win32_Process ... CommandLine -like '*draft_sft*'`) or the output file.
+- Draft log is written only per page; speed 1-4 pages/min (chart pages slowest).
+## Next
+1. User: fill the verdicts in `sft/spot_check.md`; Opus 5.5 reads them. If < ~3/50 wrong, data is ready.
+2. SFT step 6: Kaggle training notebook (Qwen2.5-7B LoRA, `sft/sft.jsonl`) — do it in the Claude desktop app (memory note). Model: Sonnet 5.5 for the notebook.
+3. Step 7: base vs SFT on the full 439 dev with the new defaults, `JUDGE_MODEL` pinned to the base model; also re-check YEAR_UNION there. Opus 5.5 reads.
+4. User: review `candidates_test.jsonl`, write 8 test unanswerables, record demo video; decide commit vs .gitignore for `test.jsonl` / `candidates_test.jsonl`; refresh README from the 439 run. Untracked scratch: `eval/bench/_rank615.py`, `_second_look.py`, `eval_ab_*.err`.
