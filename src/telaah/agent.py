@@ -29,10 +29,10 @@ USE_FACTS = os.environ.get("TELAAH_FACTS", "1") == "1"
 # 10-26: in 16 of 24 agent retrieval misses the page holding both periods is in the original question's top 5; on
 # every first try it made working steps worse, 9 -> 8 right, so it only applies to the retry)
 STEP_POOL = os.environ.get("TELAAH_STEP_POOL", "0") == "1"
-# opt-in: when one bank is split into its report years, the earlier year's step also reads the newer reports' top
+# on by default (=0 turns off): when one bank is split into its report years, the earlier year's step also reads the newer reports' top
 # pages (dev diagnosis 10-26: 16 of 24 agent calc retrieval misses were an earlier-year step locked out of the
 # newer report whose table holds both years; reading both reports put the gold page in every step for 10 of them)
-YEAR_UNION = os.environ.get("TELAAH_YEAR_UNION", "0") == "1"
+YEAR_UNION = os.environ.get("TELAAH_YEAR_UNION", "1") == "1"
 RETRY_K = 8
 RETRY_ENTITY_PAGES = 8
 CALC_RE = re.compile(r"selisih|perbedaan|beda\b|berapa kali|rata-rata|total gabungan|jumlah", re.I)

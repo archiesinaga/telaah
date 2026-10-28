@@ -306,13 +306,13 @@ def ask_entities(question: str, groups: list[list[str]]) -> dict:
         "sub_answers": parts,
     }
 
-# Second look (opt-in): a refusal from the top k pages is asked again on ranks k+1..2k, then 2k+1..3k (text only,
+# Second look (on by default, =0 turns off): a refusal from the top k pages is asked again on ranks k+1..2k, then 2k+1..3k (text only,
 # no vision). Dev experiment, 10-25 (27 wrongly refused, 22 unanswerable): 17 rescued, 1 unanswerable answered
 # with a figure from another regulation. A later answer is kept only if `later_look_ok` accepts it.
-SECOND_LOOK = os.getenv("TELAAH_SECOND_LOOK", "0") == "1"
-# Opt-in: a cited page that lacks the answer's figures is replaced by the retrieved page that holds them (the agent
+SECOND_LOOK = os.getenv("TELAAH_SECOND_LOOK", "1") == "1"
+# On by default (=0 turns off): a cited page that lacks the answer's figures is replaced by the retrieved page that holds them (the agent
 # already does this per step). Seen in the demo: RIM thresholds cited PADG p.4, the figures are on p.7.
-CITE_REPAIR = os.getenv("TELAAH_CITE_REPAIR", "0") == "1"
+CITE_REPAIR = os.getenv("TELAAH_CITE_REPAIR", "1") == "1"
 LOOKS = 3
 
 
