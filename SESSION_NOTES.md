@@ -1094,3 +1094,13 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 2. SFT step 6: Kaggle training notebook (Qwen2.5-7B LoRA, `sft/sft.jsonl`) — do it in the Claude desktop app (memory note). Model: Sonnet 5.5 for the notebook.
 3. Step 7: base vs SFT on the full 439 dev with the new defaults, `JUDGE_MODEL` pinned to the base model; also re-check YEAR_UNION there. Opus 5.5 reads.
 4. User: review `candidates_test.jsonl`, write 8 test unanswerables, record demo video; decide commit vs .gitignore for `test.jsonl` / `candidates_test.jsonl`; refresh README from the 439 run. Untracked scratch: `eval/bench/_rank615.py`, `_second_look.py`, `eval_ab_*.err`.
+
+# Update — 2026-10-29: spot check passed, doc-id filter, SFT data ready
+## Done
+- Spot check of 50 examples (`sft/spot_check.md`, verdicts filled) checked against the PDF pages: 48 OK, 2 WRONG. s0622-2: BTN "ROE 2019 20%" is footnoted as a 2025 aspiration (not filterable). s0784-2: question names a file id.
+- `sft/build_sft.py` PAGE_REF_RE now also drops `ojk_…` / `bi_…` ids in questions (33 examples). Rebuilt: **1,324 examples** in `sft/sft.jsonl` (answer_top5 582, answer_pushed 472, refusal_removed 167, refusal_scope 103, lookalike 130). 42 others differ only in the pushed rank (shared rng), labels unchanged.
+- Docling header misreads seen in the check (s0492-2 columns are 2024/2023/2022, not Stage 1-3): the values were right.
+## Next
+1. KAGGLE SFT PHASE STARTS NOW. Move to the Claude desktop app on `C:\Users\User\genai-project`; read SESSION_NOTES.md, ROADMAP.md, KAGGLE_SETUP.md, `sft/DESIGN.md`. Build the Qwen2.5-7B LoRA training notebook for `sft/sft.jsonl` (upload it as a Kaggle dataset; lessons from the ColPali run: uninstall torchao in cell 1, output zip is under the version page > Output). Model: Sonnet 5.5.
+2. Step 7: base vs SFT on the full 439 dev with the new defaults, `JUDGE_MODEL` pinned to the base model; re-check YEAR_UNION. Opus 5.5 reads.
+3. User: review `candidates_test.jsonl`, write 8 test unanswerables, record demo video; decide on the untracked files.

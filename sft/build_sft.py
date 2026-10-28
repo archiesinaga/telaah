@@ -121,7 +121,7 @@ def block_of(context: str, doc: str, page: int) -> str:
 
 # review 10-29 (Opus 5.5): questions that leak the page or point at table layout, English-format figures with an
 # Indonesian unit ("35,415,779 miliar" reads 1,000x off in Indonesian)
-PAGE_REF_RE = re.compile(r"\b(?:bri|bni|btn|bca|mandiri)_20\d\d\b|\bp\.\s?\d", re.I)
+PAGE_REF_RE = re.compile(r"\b(?:bri|bni|btn|bca|mandiri)_20\d\d\b|\b(?:ojk|bi)_\w+|\bp\.\s?\d", re.I)
 LAYOUT_RE = re.compile(r"baris (?:pertama|kedua|ketiga|keempat|terakhir|tersebut|ini)|kolom (?:pertama|kedua|ini)"
                        r"|tabel (?:ini|tersebut|di atas)|halaman (?:ini|tersebut)|grafik (?:ini|tersebut)", re.I)
 EN_FIGURE_RE = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d+)?\s*(?:miliar|triliun|juta)")
