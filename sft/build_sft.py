@@ -100,6 +100,35 @@ def dev_figures() -> dict[tuple[str, str], list[str]]:
     return out
 
 
+def dev_pages() -> dict[str, list[str]]:
+    """bank -> text of every dev gold page, for the same-table filter (a training cell next to a dev answer)."""
+    out: dict = {}
+    for q in read_jsonl(DEV):
+        for doc, page in q.get("gold_pages") or []:
+            out.setdefault(doc.split("_")[0], {})[(doc, page)] = None
+    return {b: [c["text"] + c.get("transcript", "") for c in chunks(list(map(list, ps)))] for b, ps in out.items()}
+
+
+def block_of(context: str, doc: str, page: int) -> str:
+    """The text the model actually sees for one page (build_context keeps only an excerpt of long pages)."""
+    head = f"[{doc} p.{page}]\n"
+    if head not in context:
+        return ""
+    rest = context.split(head, 1)[1]
+    m = re.search(r"\n\n\[\w+ p\.\d+\]\n", rest)
+    return rest[:m.start()] if m else rest
+
+
+# review 10-29 (Opus 5.5): questions that leak the page or point at table layout, English-format figures with an
+# Indonesian unit ("35,415,779 miliar" reads 1,000x off in Indonesian)
+PAGE_REF_RE = re.compile(r"\b(?:bri|bni|btn|bca|mandiri)_20\d\d\b|\bp\.\s?\d", re.I)
+LAYOUT_RE = re.compile(r"baris (?:pertama|kedua|ketiga|keempat|terakhir|tersebut|ini)|kolom (?:pertama|kedua|ini)"
+                       r"|tabel (?:ini|tersebut|di atas)|halaman (?:ini|tersebut)|grafik (?:ini|tersebut)", re.I)
+EN_FIGURE_RE = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d+)?\s*(?:miliar|triliun|juta)")
+DATE_RE = re.compile(r"januari|februari|maret|april|mei|juni|juli|agustus|september|oktober|november|desember"
+                     r"|tahun|\b(?:19|20)\d\d\b", re.I)
+
+
 def label_of(evidence: str) -> str:
     """Row label: the evidence text before its first figure ("Nasabah non-bank 9.222.508" -> "nasabahnonbank")."""
     return re.sub(r"[^a-z]", "", re.split(r"\d", evidence.lower(), maxsplit=1)[0])
@@ -130,9 +159,16 @@ def main() -> None:
         if entity_groups(q):  # the pipeline reads these per entity (ask_entities), another prompt
             drop["multi-entity question"] += 1
             continue
+        if PAGE_REF_RE.search(q):
+            drop["question names a doc id or page"] += 1
+            continue
+        if LAYOUT_RE.search(q):
+            drop["question points at table layout"] += 1
+            continue
         plans.append((r, q, mix))
     pools = retrieved([q for _, q, _ in plans])
     dev = dev_figures()
+    dev_text = dev_pages()
     rng = random.Random(7)
     counts: Counter = Counter()
     with open(OUT, "w", encoding="utf-8") as f:
@@ -172,7 +208,23 @@ def main() -> None:
                     and any(numeric_match(g, value) for y in years for g in dev.get((bank, y), []))):
                 drop["figure equals a dev gold answer"] += 1
                 continue
-            user = f"Konteks:\n{build_context(ctx, q)}\n\nPertanyaan: {q}"
+            context = build_context(ctx, q)
+            if mix == "answer":
+                if not holds(block_of(context, doc, page), value):
+                    drop["value cut out of the page excerpt"] += 1
+                    continue
+                if EN_FIGURE_RE.search(target):
+                    drop["English-format figure with Indonesian unit"] += 1
+                    continue
+                q_years, a_years = set(YEAR_RE.findall(q)), set(YEAR_RE.findall(re.sub(r"\[\w+ p\.\d+\]", "", target)))
+                if r["kind"] in ("table_lookup", "calculation") and q_years and a_years and not q_years & a_years:
+                    drop["question and answer years differ"] += 1
+                    continue
+                if (not DATE_RE.search(value) and len(re.sub(r"\D", "", value)) >= 5
+                        and any(numeric_match(t, value) for t in dev_text.get(bank, []))):
+                    drop["figure on a dev gold page"] += 1
+                    continue
+            user = f"Konteks:\n{context}\n\nPertanyaan: {q}"
             if len(user) > MAX_PROMPT_CHARS or len(target) / 3 > MAX_ANSWER_TOKENS:
                 drop["too long"] += 1
                 continue
