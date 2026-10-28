@@ -1049,3 +1049,25 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. Tomorrow: rerun the draft until all ~800 pages are done. Model: Sonnet 5.5.
 2. Variant evals (cite repair, year union) when the GPU is free; then the defaults decision (Opus 5.5) and the `--workers 3` test.
 3. SFT steps 3-4 (context builder + filters) while drafting runs.
+
+# Update — 2026-10-28 (13:40): SFT drafting + builder, variant results, stacked eval RUNNING
+## Done (commits ce58bd2, fb5cae1; SFT code only)
+- `SFT_GEMINI_API_KEY` (new project) is in `.env` (git-ignored). `sft/draft_sft.py` final checks: evidence compared on letters+digits; long clause values by word overlap; `column` field required for table_lookup + calculation (must be on the page); calculation = READING questions on an older year column (arithmetic stays in code, DESIGN.md; an arithmetic prompt was tried and reverted); column's year must be in the question; "value not in evidence".
+- `sft/build_sft.py` (step 3-4, tested offline with fake retrieval only; NOT run for real): wraps checked drafts in the exact `answer.ask` prompt; answer top 5 / gold pushed in / refusal with value pages removed (12%) / refusal by bank swap (8%); filters duplicates, multi-entity, short or leaking refusal context, length, 3+ digit figure equal to a dev gold answer. Retrieval cached in `sft/retrieved.jsonl`. Needs Qdrant: never while an eval runs.
+## Results
+- Draft so far (page 479 of 790, quota hit 12:50): 1,008 drafts, 903 pass. text_fact 413 ok/61 flag, table_lookup 478/66, calculation 187/167 (main flag "column year not in question" 133), chart 3, regulation 6 (pilot only). Chart + regulation pages come last.
+- Variants alone vs base on the same 174 ids (runs `bench-dev-20261028-` 065918 base, 090429 second look, 100915 cite repair, 123629 year union): numeric 0.408 / 0.474 / 0.428 / 0.454; citation 0.494 / 0.557 / 0.523 / 0.506; refusal 0.770 / 0.851 / 0.764 / 0.799; all 22 unanswerables refused in every run. Second look: +10 numeric, 0 lost. Cite repair: +3 numeric 0 lost, citation +6 -1 (bd0208). Year union: numeric +10 -3 (bd0128, bd0230, bd0257), gains mostly calculation.
+## Decisions
+- Recommendation (not applied, defaults unchanged): SECOND_LOOK ON, CITE_REPAIR ON, YEAR_UNION undecided until the stacked run. The `faithful` row is NOT comparable across runs (judge-on-fail grades only failures; n differs 27-46).
+## Lessons
+- Each variant ran alone, not stacked: "second look vs cite repair" differences are just the missing second-look gains.
+- `eval --resume <partial.jsonl>` works (cite repair resumed at 119/174). Ollama had to be started (`ollama serve`) after the PC restarted.
+## Running/pending (started from this session's shell; check they survived /clear)
+- Stacked eval (SECOND_LOOK+CITE_REPAIR+YEAR_UNION, 174 ids from scratchpad `ids_var.txt`, started 13:36, ~65 min): log `eval/bench/eval_tx_STACKED.log`, END line in `eval/bench/variants_run.log`, result `eval/runs/bench-dev-<time>.json`. Check `ids_var.txt` copy at `C:/Users/User/AppData/Local/Temp/claude/C--Users-User-genai-project/861974ac-3449-4a7f-a62c-a3df746e4672/scratchpad/` (may be gone; it holds the 174 ids = ids of run 090429).
+- Draft resume scheduled to start by itself at 14:01 (waiting loop + `python sft/draft_sft.py --force`, log appended to `sft/draft_full.log`): ~311 pages left (chart, regulation, 2 errored pages). If /clear killed it, rerun `.venv/Scripts/python sft/draft_sft.py` after 14:00 (resumable).
+- Uncommitted: `eval/run_eval.py`, `src/telaah/cli.py` (`--workers`, untested), scratch `eval/bench/_rank615.py`, `_second_look.py`, `eval_ab_*.err`, stray `eval/runs/bench-dev-20261028-095425.partial.jsonl` (delete). `test.jsonl` / `candidates_test.jsonl` = blind test split, never read.
+## Next
+1. When the stacked eval ends: compare with second look alone (same 174 ids; right->wrong list, 22 unanswerables); decide defaults for SECOND_LOOK / CITE_REPAIR / YEAR_UNION; change them and commit. Model: Opus 5.5.
+2. Then `eval --workers 3` on q001-q006 vs workers=1 (no other eval running); commit run_eval/cli if equal. Model: Sonnet 5.5.
+3. When the draft finishes: `.venv/Scripts/python sft/build_sft.py` for real (no eval running), read mix counts (answer_pushed share, lookalike), then step 5 review sample (200, Opus 5.5) + user spot-check of 50, table/calculation first (column label check proves the label exists, not that it is the value's column).
+4. User: review `candidates_test.jsonl`, write 8 test unanswerables, record demo video; refresh README from the 439 run.
