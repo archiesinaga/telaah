@@ -1009,3 +1009,43 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 - Scratch from today (temp, may be gone): `C:/Users/User/AppData/Local/Temp/claude/C--Users-User-genai-project/ff3d8456-f9f2-42da-8407-99968b86d224/scratchpad/` holds `calc_diag_1026.py/.json`, `pool_check.py`, `union_check.py`, id lists `ids_calc.txt` (53), `ids_calc_fail.txt` (44), `ids_yearsplit.txt` (19). Untracked logs: `eval/bench/eval_calc_*.log`.
 - Runs: baseline `bench-dev-20261026-111017`, step pool `...202751` (53) and `...210306` (44, retry-only), year union `...214017` (53), year union + calc fix `...222633` (19).
 - Next: step 1 of the list above (transcription after 14:00 on 10-27, ask OK first). Model: Sonnet 5.5.
+
+# Update — 2026-10-28 (10:15): second look result, eval --workers, progress PDF, SFT design + steps 1-2 code
+## Done (all UNCOMMITTED)
+- `eval/run_eval.py` + `src/telaah/cli.py`: `telaah eval --workers N` (thread pool, default 1 = old behaviour; lock on results/partial file; results sorted back into question order; `client()`/`embedder()` warmed once before threads because `lru_cache` is not atomic). NOT tested: the first test (q001-q006, 3 workers) crashed because a running eval held the Qdrant lock ("Storage folder ... already accessed"), a stray `eval/runs/bench-dev-20261028-095425.partial.jsonl` was left (delete it). Rerun the test only when no other eval runs; compare scores with workers=1 on the same ids. `latency_s` under threads is wall time under contention.
+- `Telaah_Progress_2026-10-28.pdf` (project root, untracked): plan from the start to v1.0 with % per step. Overall ~65% (phase 1 90, 2 80, 3 75, 4 15). Source HTML in the session scratchpad (temp).
+- `sft/DESIGN.md`: SFT data design (decisions: Qwen2.5-7B on Kaggle, ~2,200 examples). Training example = `answer.SYSTEM` + real retrieved context (5 pages, defaults, transcripts ON) + cited answer or `TIDAK DITEMUKAN`; mix 55% gold in top 5, 15% gold pushed in, 10% look-alike tables, 20% refusals. Gate: beats base on numeric+citation on full dev, refusal not lower, 22 dev unanswerables still refused; pin `JUDGE_MODEL` to the base model (default judge = `LLM_MODEL`, the tuned model would grade itself).
+- Step 1 done: `sft/page_pool.py` -> `sft/pages.jsonl` (800 pages: text_fact 160, table_lookup 200, calculation/multi-year 200, chart 140, regulation 100; excludes test-split pages by hash without opening test files, 46 tuned + 212 dev gold + 118 extra gold + 866 benchmark-drafted pages).
+- Step 2 code written, NOT run: `sft/draft_sft.py` (Gemini drafts 3 Q&A per page, house-style answer with `[doc p.N]`, automatic checks stored in `problems`; `--pilot` = 2 pages per kind = 10 requests; resumable; own quota file `sft/.quota_hit`, git-ignored via `sft/.gitignore`). Offline smoke test passed. Outputs go to `sft/drafts.jsonl` and `sft/drafted.jsonl`.
+## Results
+- Full dev run with transcripts ON (`bench-dev-20261028-065918.json`, 439 q): recall 0.774, citation 0.560, refusal 0.818, numeric 0.470, judge 0.715, faithful 0.853. Weakest: calculation numeric 0.206, cross_doc numeric 0.283.
+- Second look ON (`bench-dev-20261028-090429.json`, 174 ids, 65 min) vs the baseline on the same 174: citation 0.494 -> 0.557, refusal 0.770 -> 0.851, numeric 0.408 -> 0.474, judge 0.359 -> 0.421, faithful 0.758 -> 0.783, recall unchanged. Numeric 10 wrong -> right (bd0089, 0091, 0094, 0099, 0108, 0110, 0118, 0126, 0140, 0214), 0 right -> wrong. All 22 dev unanswerables still refused (q050 no longer leaks). Recommendation: default ON (not changed yet, user OK needed; leaning to decide after the other two variants).
+## Decisions
+- SFT base: Qwen2.5-7B on Kaggle; size ~2,200 examples; drafting uses a SEPARATE Gemini key in a NEW Google project (same project = shared 500/day quota).
+## Lessons
+- A queue script chains the variant evals: `eval/bench/variants_run.log` showed START/END lines; I wrongly assumed cite repair / year union would not start by themselves.
+- Only one eval at a time can use the vector store (`data/qdrant`); the `--workers` test must wait for the queue.
+- Do not claim the token/key situation without checking: the only Gemini key on the machine is `GEMINI_API_KEY`; I cannot create a second one (user creates it at aistudio.google.com/apikey -> "Create API key in new project").
+## Running/pending
+- Variant queue running in the background (not by this session's own shell): cite repair `TELAAH_CITE_REPAIR=1` started 10:09:07 (partial `eval/runs/bench-dev-20261028-100915.partial.jsonl`), ~1 h; year union may follow. Watch `eval/bench/variants_run.log` (END lines). Do not start another eval or the demo app meanwhile.
+- Untracked scratch: `eval/bench/_rank615.py`, `_second_look.py`, `eval_ab_*.err`; `test.jsonl` / `candidates_test.jsonl` are the blind test split (never read them; user decides commit vs .gitignore).
+## Next
+1. User: add `SFT_GEMINI_API_KEY=...` to `.env` (new project), tell me; then run `sft/draft_sft.py --pilot` (10 requests) and read the drafts together (Opus 5.5 judges, Sonnet 5.5 runs).
+2. When the variant queue ends: read cite repair / year union results vs baseline (Opus 5.5), decide defaults for `TELAAH_SECOND_LOOK` (leaning ON), `TELAAH_CITE_REPAIR`, `TELAAH_YEAR_UNION`; then test `--workers 3` on q001-q006 and commit run_eval/cli changes.
+3. SFT steps 3-7 per `sft/DESIGN.md` (full draft ~2 days of quota, context builder + filters, review sample, Kaggle training in the Claude desktop app, base vs SFT on full dev).
+4. Refresh README results from the 439-question run; user: review `candidates_test.jsonl` in `review_app.py`, write 8 test unanswerables, record the demo video.
+
+# Update — 2026-10-28 (afternoon): SFT pilot, checker fixes, full draft started
+## Done
+- `SFT_GEMINI_API_KEY` (new Google project) in `.env`. Pilot 1 (10 pages, 30 drafts): regulation 5/6 flagged, all false alarms from list markers / line breaks.
+- `sft/draft_sft.py` checks: evidence compared on letters+digits only; long clause values (regulation) by key-word overlap; `column` field required for table_lookup and calculation (must be on the page); calculation: the column's year must be in the question; "value not in evidence". Fixed: the JSON field list in the prompt never included the extra fields.
+- Pilot 2: regulation 6/6 pass; calculation re-draft 4/6 pass, both flags correct (BNI Tier II bond "2021" column asked as 2024).
+## Decisions
+- Calculation pages stay READING questions (older year column of a multi-year table), not arithmetic: DESIGN.md "Arithmetic stays in code". An arithmetic prompt was tried in pilot 2 and reverted (I had proposed it wrongly after pilot 1).
+- Known gap: the column check proves the label exists on the page, not that it is the value's column (s0162-3). Step-5 review sample covers table/calculation first.
+## Running
+- Full draft in the background: `.venv/Scripts/python sft/draft_sft.py` -> `sft/drafts.jsonl`, log `sft/draft_full.log`; stops on the daily quota (`sft/.quota_hit`), rerun the same command after the reset. Pilot rows are kept (resumable by page id); pilot 1 in `sft/drafts_pilot1.jsonl`. Drafts are git-ignored.
+## Next
+1. Tomorrow: rerun the draft until all ~800 pages are done. Model: Sonnet 5.5.
+2. Variant evals (cite repair, year union) when the GPU is free; then the defaults decision (Opus 5.5) and the `--workers 3` test.
+3. SFT steps 3-4 (context builder + filters) while drafting runs.
