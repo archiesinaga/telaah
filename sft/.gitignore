@@ -2,3 +2,6 @@
 __pycache__/
 drafts*.jsonl
 drafted*.jsonl
+retrieved.jsonl
+sft.jsonl
+draft_full.log
