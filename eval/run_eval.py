@@ -1,6 +1,8 @@
 """Run seed questions; log per-metric scores to eval/runs/<timestamp>.json."""
 import json
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 from telaah import config
@@ -13,11 +15,14 @@ KEYS = ["recall@5", "citation_acc", "refusal_acc", "correct_numeric", "correct_j
 
 
 def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: list[str] | None = None,
-        router: bool = False, ids: list[str] | None = None, resume: str | None = None, judge_on_fail: bool = False) -> dict:
+        router: bool = False, ids: list[str] | None = None, resume: str | None = None, judge_on_fail: bool = False,
+        workers: int = 1) -> dict:
     """Each finished question is appended to a `.partial.jsonl` file, so a crash (memory, API quota) loses
     one question: rerun with `--resume <that file>` and only the missing ones are run.
     `judge_on_fail`: skip the LLM judges (correct_judge, faithful -> None) when the cheap checks already pass
-    (numeric match, gold page retrieved and cited); non-numeric questions are always judged."""
+    (numeric match, gold page retrieved and cited); non-numeric questions are always judged.
+    `workers` > 1 runs that many questions at once (API-bound, so threads help); latency_s is then wall time
+    under contention, not comparable with a workers=1 run."""
     rows = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
     if types:
         rows = [q for q in rows if q["type"] in types]
@@ -39,10 +44,11 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
     extra_gold = json.loads(extra_path.read_text(encoding="utf-8")) if extra_path.exists() else {}
     finished = {r["id"] for r in results}
     print(f"{len(finished)} questions already done, {len(rows) - len(finished)} to run; progress file {partial}", flush=True)
-    for n, q in enumerate(rows, 1):
-        if q["id"] in finished:
-            continue
-        print(f"[{n}/{len(rows)}] {q['id']} {q['type']}", flush=True)
+    lock = threading.Lock()
+
+    def one(n: int, q: dict) -> None:
+        with lock:
+            print(f"[{n}/{len(rows)}] {q['id']} {q['type']}", flush=True)
         gold = [tuple(g) for g in q["gold_pages"] + extra_gold.get(q["id"], [])]
         t0 = time.time()
         out = answer_fn(q["question"])
@@ -57,7 +63,7 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
             judge_correctness(q["question"], q["gold_answer"], out["answer"]) if judged else None
         )
         faithful = judge_faithfulness(out["answer"], out["context"]) if judged else None
-        results.append({
+        r = {
             "id": q["id"],
             "type": q["type"],
             "latency_s": round(time.time() - t0, 2),
@@ -71,11 +77,27 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
             "retrieved_top": [[list(p) for p in g[:5]] for g in groups],  # lets a later run be re-scored offline
             **({"verified": out["verified"], "steps": len(out["steps"])} if agent else {}),
             **({"route": out["route"]} if router else {}),
-        })
-        r = results[-1]
-        with partial.open("a", encoding="utf-8") as f:
-            f.write(json.dumps(r, ensure_ascii=False) + "\n")
-        print(f"    {r['latency_s']}s recall={r['recall@5']} refused={out['refused']}", flush=True)
+        }
+        with lock:
+            results.append(r)
+            with partial.open("a", encoding="utf-8") as f:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+            print(f"    {q['id']} {r['latency_s']}s recall={r['recall@5']} refused={out['refused']}", flush=True)
+
+    todo = [(n, q) for n, q in enumerate(rows, 1) if q["id"] not in finished]
+    if workers > 1:
+        from telaah.index import client, embedder
+
+        client(), embedder()  # lru_cache is not atomic: warm once so threads don't each open the local Qdrant store
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            for fut in [pool.submit(one, n, q) for n, q in todo]:
+                fut.result()  # re-raise a worker's error; finished questions are already in the partial file
+    else:
+        for n, q in todo:
+            one(n, q)
+
+    order = {q["id"]: i for i, q in enumerate(rows)}
+    results.sort(key=lambda r: order.get(r["id"], len(order)))  # threads finish out of order
 
     def mean(k: str):
         v = [r[k] for r in results if r[k] is not None]
