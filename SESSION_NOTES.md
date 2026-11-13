@@ -1110,3 +1110,195 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 1. KAGGLE SFT PHASE STARTS NOW. Move to the Claude desktop app on `C:\Users\User\genai-project`; read SESSION_NOTES.md, ROADMAP.md, KAGGLE_SETUP.md, `sft/DESIGN.md`. Build the Qwen2.5-7B LoRA training notebook for `sft/sft.jsonl` (upload it as a Kaggle dataset; lessons from the ColPali run: uninstall torchao in cell 1, output zip is under the version page > Output). Model: Sonnet 5.5.
 2. Step 7: base vs SFT on the full 439 dev with the new defaults, `JUDGE_MODEL` pinned to the base model; re-check YEAR_UNION. Opus 5.5 reads.
 3. User: review `candidates_test.jsonl`, write 8 test unanswerables, record demo video; decide on the untracked files.
+
+# Update — 2026-11-09 (21:50): Kaggle SFT notebook written (step 6 prep), not run yet
+## Done (UNCOMMITTED)
+- `sft/split_sft.py` -> `sft/kaggle_upload/train.jsonl` 1,213 / `val.jsonl` 111, by page hash (482 / 45 pages, no overlap). Val: calc 15, chart 4, regulation 16, table 36, text 40; refusal_scope only 6. `kaggle_upload/` added to `sft/.gitignore`.
+- `kaggle/sft_qwen7b_qlora.ipynb`: smoke mode in an interactive session (20 steps + time estimate), full mode under Save & Run All; loss-mask assert; resume from checkpoint input; sanity answers on val; adapter zip + GGUF Q4_K_M built in /tmp. Steps in KAGGLE_SETUP.md (SFT section). Not tested against the real Qwen tokenizer (HF blocked from the session sandbox); the smoke test is the first real run.
+- Decisions (user): 1 epoch first, second only if val loss still falls; GGUF export on Kaggle.
+## Next
+1. User: upload `telaah-sft` dataset, import notebook, smoke test, report cells 5-7 output.
+2. Full run; download GGUF; `ollama create qwen2.5:7b-sft` with the `qwen2.5:7b-gpu` Modelfile settings (copy TEMPLATE/PARAMETER from `ollama show --modelfile qwen2.5:7b-gpu`).
+3. Step 7: base vs SFT on full 439 dev, `JUDGE_MODEL` pinned to base; re-check YEAR_UNION.
+
+# Update — 2026-11-10 (13:40): Kaggle SFT smoke tests, MAX_LEN raised, smoke 2 RUNNING (handoff)
+## How we work in this phase (user's choice)
+- The USER does every Kaggle step by hand; Claude only explains step by step and reads the outputs the user pastes. Do NOT automate Kaggle or the browser.
+- User does not need to edit code unless Claude gives an exact line to change; when pasting a line into a cell, it must start at the left margin (an indent gave IndentationError once).
+## Done
+- Kaggle dataset `telaah-sft` (private) uploaded: `train.jsonl` + `val.jsonl` from `sft/kaggle_upload/`. Notebook imported from `kaggle/sft_qwen7b_qlora.ipynb` (Kaggle name still `notebookc479198ca7`; rename suggested). GPU T4 x2, Internet On.
+- Kaggle queue lesson: "Draft Session Error" / "failed to authorize" on 11-09 evening = no free T4; the interactive session sat "Queued" all night (21:56 -> 08:23). Stopped and restarted on 11-10 morning: it started at once. Active sessions = stacked-squares icon bottom-left (badge count). If queued > ~15 min: stop and retry later, or Save & Run All (background starts by itself).
+- Env on Kaggle (11-10): Unsloth 2026.11.3, transformers 5.17.0, torch 2.11.0+cu130, Tesla T4 14.56 GB, bf16 False (fp16). Warning: preinstalled xformers built for torch 2.10 -> Unsloth falls back to PyTorch attention (harmless; maybe slower / more memory). HF downloads unauthenticated (slow but fine).
+- Smoke test 1 (MAX_LEN 6144, interactive, 20 steps) ran end to end, no error. Cell 6 loss mask OK (74 of 4,710 tokens trained = answer + `<|im_end|>`). Cell 9 sample answers well formed with citations after 20 steps (s0527-2 cited bri_2024 p.1194 instead of bri_2025 p.1339, same figure: prior-year closing balance). Cell 7 timing/memory lines were NOT reported.
+- PROBLEM found in smoke 1, cell 5: real token lengths train min 1505 / median 5323 / p99 8228 / max 10327; val max 8413. At MAX_LEN 6144, 315 train (26%) and 37 val were DROPPED (kept 898 / 74). My earlier ~5k-token estimate was wrong (Indonesian + numbers tokenize longer).
+- Fix applied (on Kaggle by the user AND in the local notebook file): cell 2 `MAX_LEN = 8448` (keeps ~99%); cell 6 in SMOKE mode trains on the 160 LONGEST examples (worst-case memory/speed): `train_ds = Dataset.from_list([{"text": r["text"]} for r in (sorted(train_rows, key=lambda r: -r["n_tok"])[:160] if SMOKE else train_rows)])`. KAGGLE_SETUP.md updated to 8,448.
+- Smoke 2: cells 2, 4, 5, 6 re-run; cell 6 OK (72 of 8,410 tokens trained). Cell 7 (20 steps on the longest examples, est. 15-30 min) was RUNNING at 13:35.
+## Running/pending
+- Smoke 2 cell 7 on Kaggle (interactive session). The user must stop the session after cells 7-9 to save GPU quota.
+## Next
+1. Read smoke 2 output: cell 5 "kept" line (expect ~1,200 train / ~110 val, over MAX_LEN ~1-3) and cell 7 last lines (`train time`, `peak GPU memory`, `s/step`, `about X h`).
+   - Peak < ~14 GB and estimate well under 12 h (incl. ~14 evals of the full val set + ~30-45 min GGUF export) -> full run at 8448.
+   - CUDA OOM -> MAX_LEN 7168 (keeps ~90%), or drop examples > 8448 only.
+   - If the estimate is near 12 h: raise EVAL_STEPS (e.g. 100) or eval on a val subset.
+2. Full run: cell 6 smoke line can stay (it only applies in SMOKE). Save Version > Save & Run All (Commit) -> mode FULL automatically (KAGGLE_KERNEL_RUN_TYPE=Batch). If the user had set `SMOKE = True` in cell 2, change it back to `SMOKE = (RUN_TYPE != "Batch") and not FORCE_FULL` first.
+3. Download from the version page > Output: GGUF Q4_K_M (~4.7 GB), lora_adapter.zip, train_log.json, val_samples.jsonl. Then `ollama create qwen2.5:7b-sft` (copy TEMPLATE/PARAMETER from `ollama show --modelfile qwen2.5:7b-gpu`), sanity questions.
+4. Step 7: base vs SFT on the full 439 dev, `JUDGE_MODEL` pinned to base; re-check YEAR_UNION. Opus 5.5 reads.
+5. Then: PAPER for the user (requested 11-10): concise English paper (~8-10 pages) for his own interview prep. Sections: Introduction; Background theory in depth (RAG + hallucination, page chunking + bge-m3 embeddings, hybrid BM25 + dense in Qdrant, ColPali/ColQwen vision retrieval, QLoRA: 4-bit + LoRA adapters + answer-only loss, metrics: numeric match / citation / refusal / recall); System design (ingest, retrieval, router, planner/executor/verifier agent, facts table); Development procedure (phases, dev vs blind test discipline); Experiments incl. rejected ones (reranker, calc levers, two-year read); Fine-tuning (data mix, page split, base vs SFT); Limitations; Interview Q&A. Build it from SESSION_NOTES.md, ROADMAP.md, sft/DESIGN.md, README.md and eval runs — numbers from the files, not from memory.
+## Uncommitted (local)
+- `sft/split_sft.py`, `kaggle/sft_qwen7b_qlora.ipynb`, `KAGGLE_SETUP.md`, `sft/.gitignore`, this note. Commit when the user says so.
+
+# Update — 2026-11-11 (22:20): smoke 2 passed, full run is next
+## Results (smoke 2, MAX_LEN 8448, 20 steps on the 160 LONGEST train examples)
+- Cell 5: train 1,213 -> kept 1,205 (8 over MAX_LEN), val 111 -> kept 111. Tokens train median 5,323, p99 8,228; val max 8,413.
+- Cell 7: 66.7 min for 20 steps = 200 s/step, peak GPU 7.5 GB of 14.6 GB (no OOM risk). Train loss 0.54 -> 0.25, val loss 0.361 at step 20 (val subset of 8).
+- Estimate printed: 151 steps + evals of 111 -> ~9.0 h training, + ~30-45 min GGUF export, + install/download -> ~10 h worst case, under the 12 h limit. Real run should be faster (smoke used the longest examples; full-set median is ~5.3k tokens).
+- Harmless warnings: tokenizer bos_token_id None (Qwen has no BOS); `num_items_in_batch` could not be counted (eval only).
+## Next
+1. User: stop the interactive session; check cell 2 still has `SMOKE = (RUN_TYPE != "Batch") and not FORCE_FULL` and FORCE_FULL False; check GPU quota left (~10 h needed); Save Version > Save & Run All (Commit). Accelerator GPU T4 x2, Internet On, dataset telaah-sft attached.
+2. Watch the version log: eval_loss at steps 50/100/150. Second epoch only if val loss still falls at 150.
+3. Download GGUF + lora_adapter.zip + train_log.json + val_samples.jsonl; `ollama create qwen2.5:7b-sft`; then step 7 (base vs SFT on 439 dev, JUDGE_MODEL pinned to base).
+
+## Full run committed (2026-11-12 00:08)
+- Kaggle notebook renamed `telaah-sft-qwen7b`. A second interactive smoke ran by accident (185 s/step, est. 8.4 h + export, same losses); then Version #3 committed (Save & Run All), status Queued at 00:08; interactive session cancelled. Expected done ~09:00-10:00 if it starts soon.
+- Check: version Logs should show `run type Batch -> FULL RUN`, `kept 1205 train, 111 val`, `Num examples = 1205 | Total steps = 151`. Outputs on the version page > Output tab.
+- Version #3 started Running at ~00:16 on 2026-11-12 (queued ~8 min). Expected finish ~09:30-10:30 local.
+- 00:34 check of Version #3 Logs: `trained tokens 74 of 4710` (first example of the FULL train order; smoke shows 72 of 8410), then "offload gradients" / "Double buffering" lines = trainer.train() started (~203 s into the run). The Logs tab may stay quiet for long stretches during training: normal, not a stall.
+- Kaggle lessons from tonight: editor "Run All" = interactive session = SMOKE (cell 2 reads KAGGLE_KERNEL_RUN_TYPE; only a commit gives "Batch" -> FULL). Editor output panel shows the interactive session, not the commit; the commit log is on the version page (Save Version "3" counter > Version #3 > Logs). Do not click Run All / Save Version while a commit runs.
+## Next (when Version #3 is Complete, ~09:30-10:30 on 2026-11-12)
+1. Version #3 > Output: download `qwen2.5-7b-telaah-sft-Q4_K_M.gguf`, `lora_adapter.zip`, `train_log.json`, `val_samples.jsonl` into `sft/` (or a new `sft/out/`). Paste the end of the Logs (eval_loss at steps 50/100/150, cell 9 samples, cell 11 GGUF line, cell 12 file list).
+2. Decide second epoch: only if val loss still falls at step 150.
+3. `ollama create qwen2.5:7b-sft` from the GGUF with TEMPLATE/PARAMETER copied from `ollama show --modelfile qwen2.5:7b-gpu` (num_gpu 99, num_ctx 8192); sanity questions.
+4. Step 7: base vs SFT on full 439 dev, JUDGE_MODEL pinned to the base model; re-check YEAR_UNION. Opus 5.5 reads. Then the interview paper.
+5. If Error: paste the last log lines; adapter zip may still be in Output if only GGUF export failed (cell 11 catches it).
+
+# Update — 2026-11-12 (07:30): Version #3 finished, outputs downloaded (2 files missing)
+## Done
+- Version #3 (full run) finished earlier than expected: output files are dated ~07:23-07:26 WIB (about 7 h after the ~00:16 start, not ~09:30-10:30).
+- Downloaded into `telaah-sft-qwen7b_notebook/` (NOT yet moved to `sft/out/`):
+  - `qwen2.5-7b-telaah-sft-Q4_K_M.gguf` (4,683,073,664 bytes). Checked: valid GGUF v3, file_type 15 = Q4_K_M, 339 tensors, 28 blocks (= full Qwen2.5-7B), context_length 32768. general.name is just "Gguf" (cosmetic).
+  - LoRA adapter, already unzipped: `adapter_model.safetensors` (161,533,192 bytes; 392 F32 tensors = 28 layers x 7 modules x A/B; size matches its header, not truncated), `adapter_config.json` (r 16, alpha 16, dropout 0, q/k/v/o/gate/up/down, base `unsloth/Qwen2.5-7B-Instruct-bnb-4bit`), `chat_template.jinja` (Qwen ChatML), `tokenizer.json`, `tokenizer_config.json` (eos `<|im_end|>`, pad `<|vision_pad|>`). `README.md` is the empty auto-generated PEFT model card.
+## Problem: train_log.json and val_samples.jsonl could NOT be downloaded
+- User could not download `train_log.json` and `val_samples.jsonl` from Version #3 > Output: every time he clicks download, the browser goes to a Google Cloud Storage signed link instead of saving the file, e.g. `https://storage.googleapis.com/kaggle-script-versions/368514710/output/train_log.json?X-Goog-Algorithm=GOOG4-RSA-SHA256&...&X-Goog-Date=20261112T002738Z&X-Goog-Expires=3600&...` (full signature not copied here; it is a temporary credential).
+- Likely cause (not confirmed): small text files (.json/.jsonl) are served from GCS and the browser opens them inline as a page instead of saving them; the big GGUF/zip downloaded normally. The signed link expires 1 h after it is made (X-Goog-Expires=3600), so an old link stops working; clicking download on Kaggle again makes a fresh one.
+- To try (user, by hand): (1) on the storage.googleapis.com page that opens, press Ctrl+S and save as `train_log.json` / `val_samples.jsonl` (Save as type: "All files", keep the exact name); (2) or on Kaggle Output, right-click the file > "Save link as..."; (3) or select-all the text on that page and paste into a new file with that name.
+- Fallback if none works: the eval_loss values (steps 50/100/150) and the cell 9 sample answers are also printed in Version #3 > Logs; copy them from there. These are needed to decide the second epoch.
+## Next
+1. Get `train_log.json` + `val_samples.jsonl` (above) or paste the end of Version #3 Logs (eval_loss 50/100/150, cell 9 samples, cell 11 GGUF line, cell 12 file list).
+2. Move the downloaded outputs into `sft/out/` (gitignored? check `sft/.gitignore`, the GGUF is 4.7 GB and must not be committed).
+3. Decide second epoch (only if val loss still falls at 150), then `ollama create qwen2.5:7b-sft` and step 7 as in the 11-12 00:08 list.
+
+## Addendum (07:35): the 2 files obtained, results read
+- Download issue SOLVED: user got both files (the browser saved them as `.txt`); renamed to `train_log.json` (valid JSON array) and `val_samples.jsonl` (4 lines, valid JSONL) in `telaah-sft-qwen7b_notebook/`. All Version #3 outputs are now local.
+- Run: 151 steps, 1 epoch, train_runtime 22,790 s = 6.3 h (incl. 4 evals x ~550 s on the 111 val); smoke estimate was ~9 h. Final mean train_loss 0.223.
+- eval_loss: step 50 0.1949 -> step 100 0.1807 -> step 150 0.1733 (step 151 0.1734). Still falling, but by less each time (-0.014, then -0.007), while the LR decayed to ~0 (linear). Train loss at the end ~0.17-0.20, close to val -> no sign of overfitting.
+- Train loss: 0.527 (step 5) -> ~0.24 by step 25 -> 0.15-0.24 for the rest (noisy, by batch).
+- Cell 9 val samples (4 only, too few to judge): 2 of 4 right.
+  - s0225-1 table_lookup: right value (58,905,232) and right citation [bni_2024 p.1228]. OK.
+  - s0343-1 table_lookup: right page [bni_2025 p.616] but WRONG number (9,595,520 vs gold 4.191.996) -> read the wrong cell/row of the table.
+  - s0132-1 refusal_removed (evidence page removed, gold TIDAK DITEMUKAN): model HALLUCINATED an SK number with a citation [bri_2024 p.518]. Watch the refusal rate in step 7.
+  - s0128-1 refusal_scope: correctly answered TIDAK DITEMUKAN. OK.
+- Second epoch: by the rule ("only if val loss still falls at 150") it qualifies, but the gain is shrinking and it would cost another ~6-7 h of GPU quota. Suggested: run step 7 (base vs SFT on 439 dev) with this epoch-1 model first, then decide. Not decided yet (user).
+## Next (replaces the list above)
+1. User decides: step 7 first (suggested) or a second epoch now.
+2. Move outputs to `sft/out/` (check the GGUF is gitignored), `ollama create qwen2.5:7b-sft` (TEMPLATE/PARAMETER from `ollama show --modelfile qwen2.5:7b-gpu`, num_gpu 99, num_ctx 8192), sanity questions incl. s0343-1 and s0132-1.
+3. Step 7: base vs SFT on full 439 dev, JUDGE_MODEL pinned to base; compare numeric match, citation and refusal (refusal_removed especially); re-check YEAR_UNION.
+
+# Update — 2026-11-12 (07:50): Step 7 started (user runs every command by hand, Claude checks each part)
+## Done
+- Outputs moved to `sft/out/` (9 files); `out/` added to `sft/.gitignore` (git does not list the GGUF). `telaah-sft-qwen7b_notebook/` is empty (user may delete).
+- `sft/out/Modelfile.sft` = `ollama show --modelfile qwen2.5:7b-gpu` with FROM -> `./qwen2.5-7b-telaah-sft-Q4_K_M.gguf` (same ChatML TEMPLATE, num_gpu 99, num_ctx 8192; written UTF-8 without BOM via [IO.File]::WriteAllLines). `ollama create qwen2.5:7b-sft -f Modelfile.sft` OK (id 3587555c35f7, 4.7 GB).
+- Sanity via `telaah ask` with `$env:LLM_MODEL="qwen2.5:7b-sft"`, `$env:TELAAH_TRANSCRIPTS="1"`: q008 137,40% [mandiri_2025 p.782] (value right; gold page is p.40, base also cited 782); q016 "paling sedikit 3 (tiga) orang" [ojk_pojk_17_2023 p.15] = gold page (base run 065918 cited p.56); q043 bare "TIDAK DITEMUKAN". Stops cleanly. The QdrantClient.__del__ "sys.meta_path is None" traceback at exit is shutdown noise.
+## Step 7 run settings (both runs identical except LLM_MODEL)
+- `$env:JUDGE_MODEL="qwen2.5:7b-gpu"`, `$env:TELAAH_TRANSCRIPTS="1"`, defaults ON (SECOND_LOOK, CITE_REPAIR, YEAR_UNION), vision as in .env (Gemini key set, VISION_PAGES 5), `telaah eval --file eval/bench/dev.jsonl --agent --router --judge-on-fail` with workers 1 (SFT run swaps the SFT and judge models in the 6 GB VRAM; threads would thrash). Base first, then SFT. The run JSON does not record JUDGE_MODEL or env switches: they are listed here.
+- After both: grep the logs for "vision step skipped" (Gemini quota) and compare counts between the runs.
+
+# Update — 2026-11-12 (10:05): Step 7 part 5 DONE (base run on 439), SFT run NOT started yet (handoff)
+## Results: base `qwen2.5:7b-gpu`, new defaults, run `eval/runs/bench-dev-20261112-075716.json` (439 q, 07:57-~10:00)
+- Settings: `$env:LLM_MODEL="qwen2.5:7b-gpu"`, `$env:JUDGE_MODEL="qwen2.5:7b-gpu"`, `$env:TELAAH_TRANSCRIPTS="1"`, `telaah eval --file eval\bench\dev.jsonl --agent --router --judge-on-fail`, workers 1, vision as in .env. Log `eval/bench/eval_step7_base.log` (UTF-16, Tee-Object): 0 error / traceback / quota / "vision step skipped" lines.
+- Overall (vs old base 065918, defaults OFF): recall 0.777 (0.774), citation 0.629 (0.560), refusal 0.918 (0.818), numeric 0.566 (0.470), judge 0.717 (0.715), faithful 0.837 (0.853, not comparable: judge-on-fail), 16.8 s/q.
+- By type, numeric old -> new: calculation 0.206 -> 0.309, chart 0.516 -> 0.742, cross_doc 0.283 -> 0.283, regulation 0.889 -> 1.000, table_lookup 0.571 -> 0.667, text_fact 0.755 -> 0.796. Citation: table 0.524 -> 0.714, text 0.500 -> 0.589, chart 0.468 -> 0.532. 22/22 unanswerables refused.
+- THIS run is the baseline the SFT run must beat (gate: numeric + citation up, refusal not lower than 0.918, 22/22 unanswerables refused).
+## Next (part 6, user runs by hand; Claude checks)
+1. SFT run on 439, same settings except LLM_MODEL. New PowerShell window in C:\Users\User\genai-project:
+   `$env:LLM_MODEL="qwen2.5:7b-sft"`; `$env:JUDGE_MODEL="qwen2.5:7b-gpu"`; `$env:TELAAH_TRANSCRIPTS="1"`; `powercfg /change standby-timeout-ac 0`; `ollama list` (Ollama running?); then
+   `.venv\Scripts\telaah.exe eval --file eval\bench\dev.jsonl --agent --router --judge-on-fail | Tee-Object -FilePath eval\bench\eval_step7_sft.log`
+   Expect `0 questions already done, 439 to run`. Slower than base (SFT and judge models swap in the 6 GB VRAM): est. 2.5-3.5 h. Laptop plugged in, lid open, internet on (Gemini vision for chart questions). If interrupted: Ctrl+C, then same env lines + `--resume eval\runs\<that run's>.partial.jsonl`.
+2. Claude (Opus 5.5) compares SFT vs base 075716: overall + by type, right->wrong / wrong->right lists, refusal_removed-style hallucinations, 22 unanswerables, vision-skipped counts in both logs; re-check YEAR_UNION if needed. Then decide: keep SFT / second epoch / drop.
+3. Afterwards: restore sleep (`powercfg /change standby-timeout-ac <minutes>`, user's old value unknown); commit `sft/.gitignore`, `sft/split_sft.py`, KAGGLE_SETUP.md, notebook, this note when the user says so; then the interview paper.
+
+# Update — 2026-11-13 (00:20): Step 7 DONE, SFT does NOT pass the gate, base model stays
+## Results: SFT `qwen2.5:7b-sft` (epoch 1) on 439 dev, run `eval/runs/bench-dev-20261112-215223.json` (21:52-~00:15), log `eval/bench/eval_step7_sft.log`
+- Same settings as base run 075716 except LLM_MODEL (JUDGE_MODEL=qwen2.5:7b-gpu, TELAAH_TRANSCRIPTS=1, defaults ON, workers 1). Both logs: 0 error/traceback/quota/"vision step skipped" lines -> fair comparison.
+- Overall base -> SFT: recall 0.777 -> 0.772, citation 0.629 -> 0.683, refusal 0.918 -> 0.902, numeric 0.566 -> 0.557, judge 0.717 -> 0.712, faithful 0.837 -> 0.759 (judge-on-fail, not comparable), 16.8 -> 19.6 s/q. Unanswerables 22/22 refused in both.
+- By type numeric: calculation 0.31 -> 0.34, chart 0.74 -> 0.66, cross_doc 0.28 -> 0.25, regulation 1.00 -> 1.00, table 0.67 -> 0.69, text 0.80 -> 0.80. Citation: regulation 0.53 -> 0.71, text 0.59 -> 0.71, calc 0.34 -> 0.38, table 0.71 -> 0.69, chart 0.53 -> 0.53.
+- Numeric flips: 19 wrong->right, 22 right->wrong. Refusal flips: 18 worse (over-refusal on answerable questions, e.g. chart bd0156/bd0160 with a Gemini transcript in context; bd0034, bd0091, bd0211, bd0242), 11 better.
+- Failure kinds in the 22 losses: over-refusal 7, wrong row/cell on the right page 15 (bd0118 HQLA, bd0127/bd0129 Stage-1, bd0146 31 vs 2 meetings, bd0183 credit). Some chart losses may be scorer artifacts (bd0204 "82%" vs base "82,00%", bd0193 39,90% vs 40%), unchecked against gold; does not change the verdict.
+## Decision (user, 00:19)
+- Gate FAILED (numeric not up, refusal lower). KEEP base `qwen2.5:7b-gpu` as the default LLM. No second epoch (val loss gains small; failures are behaviour: over-refusal + misread cells).
+- Report SFT as a mixed/negative result in README and the interview paper: citations up (+0.05 overall, regulation/text +0.12-0.18), accuracy and refusal not; the eval gate stopped a regression.
+- Optional later (not planned): SFT data v2 with a smaller refusal share (now 20%) and more look-alike table examples; costs ~7 h Kaggle GPU.
+## Next
+1. Restore sleep: `powercfg /change standby-timeout-ac 10` (old value per earlier notes).
+2. Interview paper (spec in the 2026-11-10 13:40 entry, Next item 5); numbers from the run files, incl. this SFT result. Model: Opus 5.5.
+3. README: add Step 7 / SFT section; commit uncommitted SFT/Kaggle files when the user says so (`sft/.gitignore`, `sft/split_sft.py`, KAGGLE_SETUP.md, `kaggle/sft_qwen7b_qlora.ipynb`, this note). `sft/out/` (GGUF 4.7 GB) stays git-ignored; `ollama rm qwen2.5:7b-sft` only if disk space is needed.
+4. Still open from before: user reviews `candidates_test.jsonl`, writes 8 test unanswerables, demo video; stray `eval/runs/bench-dev-20261112-074815.partial.jsonl` can be deleted.
+
+# Update — 2026-11-13 (morning): interview paper started (Claude Doc), no-RAG baseline switch, manual check of 30
+## Done (UNCOMMITTED)
+- Paper format decided by the user's guide (`rag-perbankan-paper-guide.md`): arXiv-style technical report, 6-10 pages, applied-deep theory (what / why / alternative, no maths), recruiters as readers; interview Q&A per role is a SEPARATE deliverable, made AFTER the paper. Personas: financial/credit analyst + compliance.
+- Paper is a Claude Doc: https://claude.ai/artifact/8LcJgmQJA7g4EMXp8aW3x7 . All sections written except the Abstract and 6.1's closed-book row (waiting for the no-RAG run). Architecture diagram (sec 4) and retrieval-ablation chart (sec 6.2) drawn.
+- `telaah eval --no-rag` added: `answer.ask_no_rag` (NO_RAG_SYSTEM: same 7B, no documents, `TIDAK DITEMUKAN` if unknown); `run_eval.run(no_rag=True)` sets recall and faithfulness to None, file prefix `bench-dev-norag-`, config records `no_rag`. Files: `src/telaah/answer.py`, `eval/run_eval.py`, `src/telaah/cli.py`. Syntax-checked only; the user's smoke run (7 ids) is the first real test.
+- Manual check of 30 answers from base run 075716 (5 per answerable type, seed 20261113): `eval/manual_check_20261113.md`. 25 right, 1 defensible (bd0217: report p.333 prints 5,3%), 4 wrong (scope/row). Numeric scorer: 0 false positives, 2 false negatives (bd0320 "23,5%" vs "23,50%", bd0329 gives difference only). Citation auto 22 vs manual 23 supported. Judge agrees on 17/17 judged clear cases.
+## Running/pending
+- User runs the no-RAG smoke (`--no-rag --ids q016 q001 q028 bd0205 q033 bd0333 q041`), then the full 439 with `Tee-Object eval\bench\eval_norag.log`. Sleep is set to 0 for it; restore with `powercfg /change standby-timeout-ac 10` afterwards.
+## Next
+1. Read the no-RAG results; fill 6.1 closed-book row + the Abstract; final read-through of the doc.
+2. Then the interview Q&A document (AI engineer / data analyst / banking).
+3. Commit when the user says so (no-RAG switch, manual check file, SFT/Kaggle files listed in the 11-13 00:20 entry).
+
+## No-RAG baseline DONE (2026-11-13 ~09:00, `eval/runs/bench-dev-norag-20261113-083031.json`, 439 q, 4.1 s/q)
+- Smoke run first: `bench-dev-norag-20261113-082808` (7 ids; can be deleted). The `--no-rag` switch works.
+- Closed book, same qwen2.5:7b-gpu: numeric 0.012, refusal 0.109, citation 0.050 (only the 22 unanswerables), judge 0.308 (over the 26 answered only). Refused 391/417 answerable (94%) and 22/22 unanswerable; 0 invented page citations. The 4 numeric hits are all POJK 17/2023 board rules (q016, q017, bd0353, bd0364); 0 bank figures right.
+- Paper: 6.1 row + paragraph, Intro sentence and Abstract written. All sections of the doc are now filled.
+- Restore sleep: `powercfg /change standby-timeout-ac 10`.
+
+## Interview Q&A doc written (2026-11-13 ~09:30)
+- https://claude.ai/artifact/VFAnMHyJs14bsnfx2MvTwM : pitch (30 s / 2 min + numbers), common questions, AI engineer, data analyst, banking/risk/compliance (incl. IT audit angle), tricky follow-ups. Numbers from the paper. McNemar on base vs SFT flips (19 vs 22): p = 0.76.
+
+# Update — 2026-11-13 (09:15): handoff — paper and interview Q&A drafted (this block replaces the morning "Running/pending" and "Next")
+## Done
+- PAPER (Claude Doc, complete draft): https://claude.ai/artifact/8LcJgmQJA7g4EMXp8aW3x7 — Abstract; 1 Intro; 2 Related work (12 refs); 3 Background (design-choice table); 4 System design + architecture diagram; 5 Eval setup; 6 Results (6.1 main table incl. closed-book row, 6.2 retrieval-ablation chart, 6.3 defaults, 6.4 agent tasks, 6.5 manual check); 7 Error analysis; 8 Fine-tuning; 9 Limitations; References. All numbers from run files.
+- INTERVIEW Q&A (Claude Doc): https://claude.ai/artifact/VFAnMHyJs14bsnfx2MvTwM — pitch, common, AI engineer, data analyst, banking/risk/compliance, tricky follow-ups.
+- Format decisions (user's guide): arXiv-style report, 6-10 pages, applied-deep theory, recruiters as readers; personas analyst + compliance; Q&A separate from the paper.
+- No-RAG baseline (`bench-dev-norag-20261113-083031`): numeric 0.012, refused 391/417 answerable, 22/22 unanswerable, 0 invented citations.
+- Manual check of 30: `eval/manual_check_20261113.md` (25 R, 1 D, 4 W; scorer conservative).
+## Uncommitted (commit when the user says so)
+- `--no-rag`: `src/telaah/answer.py`, `eval/run_eval.py`, `src/telaah/cli.py`; `eval/manual_check_20261113.md`; this note; plus the SFT/Kaggle files from the 11-13 00:20 entry (`sft/.gitignore`, `sft/split_sft.py`, KAGGLE_SETUP.md, `kaggle/sft_qwen7b_qlora.ipynb`).
+- Deletable: `eval/runs/bench-dev-norag-20261113-082808.*` (7-question smoke), `eval/runs/bench-dev-20261112-074815.partial.jsonl`.
+## Next
+1. User reads the paper and the Q&A; comments in the docs -> Claude revises. Export to PDF when final.
+2. Restore sleep if not done: `powercfg /change standby-timeout-ac 10`.
+3. README: add Step 7 / SFT section and the closed-book row; commit.
+4. Companion pieces (guide): README results section, 2-3 min demo video/GIF, LinkedIn post.
+5. Strengthen the numbers: user reviews `candidates_test.jsonl` + writes 8 test unanswerables -> run the blind test split once (base model), report beside dev; held-out set #3 written by someone else.
+
+# Update — 2026-11-13 (11:30): two rule fixes from the 36 wrongly refused answerable questions (UNCOMMITTED, not yet evaluated)
+## Diagnosis (base run 075716, 417 answerable dev q, 36 answered TIDAK DITEMUKAN)
+- 6 refused by the router's unknown-bank guard before any search (bd0033 "Bank Raya", bd0045 "Keuangan Bank", bd0079/bd0100 "Bank Secara Individu", bd0101 "Bank Syariah Indonesia", bd0103 "Dana Bank").
+- 16 retrieval misses (recall@5 0), 14 reading misses (gold page in top 5). Of the misses: `filters.REG_RE` did not read "PADG No. 27", spelled-out names ("Peraturan Bank Indonesia Nomor 6", "Surat Edaran Otoritas Jasa Keuangan Nomor 34/SEOJK.03/2016", "Peraturan Anggota Dewan Gubernur (PADG) Nomor 26") or "PADG Bank Indonesia No. 20" -> no document filter on 21 dev questions (8 with recall 0).
+- Not fixed (noted for later): neighbour-page misses (bd0137, bd0148, bd0180); agent placeholder leak "[doc_id p.N]" (bd0271) and non-existent `mandiri_2023` cite (bd0228); growth questions on the rag route with the gold page (bd0227, bd0267); line-chart month/year reads (q031, bd0154, bd0169); bd0167 gold may be wrong (model read Rp14.820 miliar as 2023, gold says 2022): check bni_2024 p.340.
+## Done (UNCOMMITTED)
+- `facts.unknown_banks`: "secara" in NOT_A_BANK; X_NOT_A_BANK (keuangan, dana, kredit, aset, modal, likuiditas, kesehatan) for "<Word> Bank"; no unknown bank when the question names a corpus bank AND "laporan tahunan" (a bank named inside that report). Known trade-off: "NPL Bank X vs BRI menurut Laporan Tahunan BRI" is no longer refused by the router.
+- `filters.REG_RE` + `reg_kind()`: "No."/"No", spelled-out names, "(PADG)", "PADG Bank Indonesia". 
+- Regex replay over dev + agent_tasks + heldout + heldout2 + seed (629 q; test files NOT read): only the 6 guard releases and 20 new regulation groups changed; all unknown-bank unanswerables still flagged (q041, q042, bd0381, bd0388, h035, k035). New asserts in tests/test_facts.py and tests/test_second_look.py (pass with a stub loader; full pytest needs the Windows venv).
+## Next
+1. User: `.venv\Scripts\python.exe -m pytest -q`.
+2. User: re-run the 26 changed dev ids with the base-run settings (LLM_MODEL and JUDGE_MODEL qwen2.5:7b-gpu, TELAAH_TRANSCRIPTS=1, `--agent --router --judge-on-fail --ids ...`); Claude compares with 075716 on those ids. Keep only if no regression; dev is tuned on, so a gain counts only after the blind test.
+
+## Result of the two rule fixes (2026-11-13 14:30, run `eval/runs/bench-dev-20261113-141653.json`, 26 ids, base-run settings)
+- 26 changed ids, base 075716 -> new: recall@5 0.46 -> 0.85, citation 0.35 -> 0.65, refusal 0.65 -> 0.88, numeric 0.43 -> 0.57 (7 numeric q), judge 0.94 -> 0.95.
+- Bank guard (6): bd0033 and bd0079 now right (bd0079 found by second look on p.456); bd0101 right figure but written Rp7,442,650,000 (unit x1000) and cited p.33 instead of p.492; bd0100 now a WRONG figure (518.873.804 from p.457, gold 445.431.375 on p.456) instead of a refusal; bd0045 (gold page retrieved) and bd0103 still refuse.
+- Regulation (20): recall 0 -> 1 on 7 (bd0341, bd0344, bd0357, bd0359, bd0367, bd0368, bd0370); bd0368, bd0370, bd0373 refused -> right. One loss: bd0361 now refuses; its base answer ("PBI 6/2026") was actually wrong vs gold "Peraturan Anggota Dewan Gubernur" but the judge scored it 1.0 (lenient judge).
+- The other 413 dev questions route and filter exactly as before (regex replay), so they are unaffected apart from run-to-run noise.
+- Verdict (Claude): keep both fixes. Pending: user's pytest result; commit when the user says so.
+- 14:35 pytest (user): 1 failed / 108 passed. `test_step_year_must_be_asked_by_the_question` failed because my new `REPORT_RE` in facts.py shadowed the existing `REPORT_RE` (line 22, report-id pattern used by `extract_doc` and by `answer_step` when an agent step passes `docs`). Renamed mine to `ANNUAL_REPORT_WORDS_RE`; the test case now gives bri_2025 again (stub check); regex replay unchanged. The 26-id run is still valid: all 26 went through route rag/refuse, and `answer_step` hits the shadowed line only with `docs` (agent entity steps); `extract_doc` runs only at ingest. Lesson: grep a module for a name before adding a module-level constant.

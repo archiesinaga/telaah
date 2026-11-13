@@ -310,7 +310,11 @@ BANK_NAME = {"bri": "BRI", "mandiri": "Bank Mandiri", "btn": "BTN", "bca": "BCA"
 
 BANK_X_RE = re.compile(r"\bBank\s+([A-Z][\w-]*(?:\s+[A-Z][\w-]*)*)")  # "Bank Danamon Indonesia Tbk"
 X_BANK_RE = re.compile(r"\b([A-Z][a-z][\w-]*)\s+Bank\b(?!\s+[A-Z])")  # "Allo Bank" (not "ROE Bank Mandiri")
-NOT_A_BANK = {"indonesia", "umum", "only", "lain", "sentral"}  # Bank Indonesia is the regulator
+NOT_A_BANK = {"indonesia", "umum", "only", "lain", "sentral", "secara"}  # Bank Indonesia is the regulator; "Bank Secara Individu"
+X_NOT_A_BANK = {"keuangan", "dana", "kredit", "aset", "modal", "likuiditas", "kesehatan"}  # "Keuangan Bank", "Dana Bank"
+# a bank named inside a corpus bank's own report ("Bank Raya dalam Laporan Tahunan 2025 ... BRI", "Bank Syariah Indonesia
+# ... Laporan Tahunan Bank Mandiri") is a subsidiary or counterparty the report covers, not a bank outside the corpus
+ANNUAL_REPORT_WORDS_RE = re.compile(r"laporan tahunan", re.I)
 
 
 def unknown_banks(q: str) -> list[str]:
@@ -318,12 +322,14 @@ def unknown_banks(q: str) -> list[str]:
     BRI" with BRI's NPL alone is a confident answer to an unanswerable question."""
     from telaah.filters import BANKS
 
+    if ANNUAL_REPORT_WORDS_RE.search(q) and any(re.search(p, q.lower()) for p in BANKS.values()):
+        return []
     out = []
     for m in BANK_X_RE.finditer(q):
         if m.group(1).split()[0].lower() in NOT_A_BANK or any(re.search(p, m.group(0).lower()) for p in BANKS.values()):
             continue
         out.append(m.group(0))
-    return out + [m.group(0) for m in X_BANK_RE.finditer(q)]
+    return out + [m.group(0) for m in X_BANK_RE.finditer(q) if m.group(1).lower() not in X_NOT_A_BANK]
 
 
 RANGE_RE = re.compile(r"\b(20\d\d)\s*(?:-|–|sampai|hingga|s\.d\.?)\s*(20\d\d)\b")

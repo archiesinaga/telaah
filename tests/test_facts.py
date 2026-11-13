@@ -101,6 +101,12 @@ def test_unknown_banks():
     assert facts.unknown_banks("Berapa KPMM Bank Mandiri dan ROE Bank Mandiri 2025?") == []
     assert facts.unknown_banks("Menurut Peraturan Bank Indonesia, bank mana yang wajib ...") == []
     assert facts.parse_question("NPL Allo Bank dan BRI 2025") is None
+    # generic phrases (bd0079, bd0045, bd0103) and a bank named inside a corpus bank's report (bd0033, bd0101)
+    assert facts.unknown_banks("Berapakah total aset untuk Bank Secara Individu berdasarkan Laporan Tahunan 2025 BTN?") == []
+    assert facts.unknown_banks("Berapa SK Direksi mengenai Integritas Pelaporan Keuangan Bank?") == []
+    assert facts.unknown_banks("Berapa persentase Non-Operational Deposits terhadap DPK dan Dana Bank BCA 2025?") == []
+    assert facts.unknown_banks("Apa produk yang disediakan oleh Bank Raya dalam Laporan Tahunan 2025 PT Bank Rakyat Indonesia?") == []
+    assert facts.unknown_banks("Berapa nilai Penyertaan Dana untuk Bank Syariah Indonesia dalam Laporan Tahunan Bank Mandiri 2024?") == []
 
 
 def test_derive_mean_over_years():

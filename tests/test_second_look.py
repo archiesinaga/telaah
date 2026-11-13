@@ -23,6 +23,13 @@ def test_named_prefixes():
     assert named_prefixes("Menurut POJK Nomor 12 Tahun 2024, berapa denda?") == ["ojk_pojk_12_2024"]
     assert named_prefixes("Berapa total aset BRI 2025?") == ["bri_"]
     assert named_prefixes("Apa yang dimaksud isi laporan nihil?") == []
+    # "No.", spelled-out names, a bracketed short name and "PADG Bank Indonesia" (bd0368, bd0346, bd0370, bd0344, bd0341)
+    assert named_prefixes("Berdasarkan PADG No. 27 Tahun 2025, apa itu suku bunga kebijakan?") == ["bi_padg_27_2025"]
+    assert named_prefixes("Berdasarkan Peraturan Bank Indonesia Nomor 6 Tahun 2026 Pasal 110?") == ["bi_pbi_6_2026"]
+    assert named_prefixes("Berdasarkan Surat Edaran Otoritas Jasa Keuangan Nomor 34/SEOJK.03/2016?") == ["ojk_seojk_34_2016"]
+    assert named_prefixes("Berdasarkan Peraturan Anggota Dewan Gubernur (PADG) Nomor 26 Tahun 2026?") == ["bi_padg_26_2026"]
+    assert named_prefixes("Berdasarkan PADG Bank Indonesia No. 20 Tahun 2023?") == ["bi_padg_20_2023"]
+    assert named_prefixes("Berdasarkan Peraturan Anggota Dewan Gubernur PADG No. 27/2025?") == ["bi_padg_27_2025"]
 
 
 def test_later_look_ok(monkeypatch):

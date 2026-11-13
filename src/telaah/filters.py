@@ -11,11 +11,23 @@ BANKS = {
     "bca": r"\bbca\b|central asia",
     "btn": r"\bbtn\b|tabungan negara",
 }
-REG_PREFIX = {"pojk": "ojk_pojk", "padg": "bi_padg", "pbi": "bi_pbi", "seojk": "ojk_seojk"}
+REG_PREFIX = {"pojk": "ojk_pojk", "padg": "bi_padg", "pbi": "bi_pbi", "seojk": "ojk_seojk",
+              # spelled-out names (bd0346 "Peraturan Bank Indonesia Nomor 6", bd0370 "Surat Edaran Otoritas ...")
+              "peraturan otoritas jasa keuangan": "ojk_pojk", "peraturan anggota dewan gubernur": "bi_padg",
+              "peraturan bank indonesia": "bi_pbi", "surat edaran otoritas jasa keuangan": "ojk_seojk"}
+# "PADG No. 27 Tahun 2025", "PADG Bank Indonesia No. 20", "Peraturan Anggota Dewan Gubernur (PADG) Nomor 26" also name
+# one document: before these forms were read, 21 dev questions searched the whole corpus (8 with recall 0)
 REG_RE = re.compile(
-    r"\b(pojk|padg|pbi|seojk)\s*(?:nomor\s*)?(\d+)(?:/[a-z]+\.\d+)?(?:/(\d{4}))?(?:\s*tahun\s*(\d{4}))?",
+    r"\b(pojk|padg|pbi|seojk|peraturan\s+otoritas\s+jasa\s+keuangan|peraturan\s+anggota\s+dewan\s+gubernur"
+    r"|peraturan\s+bank\s+indonesia|surat\s+edaran\s+otoritas\s+jasa\s+keuangan)"
+    r"(?:\s*\([a-z]+\))?(?:\s+bank\s+indonesia)?\s*(?:(?:nomor|no\.?)\s*)?(\d+)(?:/[a-z]+\.\d+)?(?:/(\d{4}))?"
+    r"(?:\s*tahun\s*(\d{4}))?",
     re.I,
 )
+
+
+def reg_kind(m: re.Match) -> str:
+    return REG_PREFIX[" ".join(m.group(1).lower().split())]
 YEAR_RE = re.compile(r"\b(20\d\d)\b")
 # "menurut/gunakan Laporan Tahunan 2025" names the source report: it beats the other years in the question
 # (a 2021-2025 trend question must read 2021-2024 from the 2025 report, whose prior-year columns are restated)
@@ -32,8 +44,8 @@ def named_prefixes(question: str) -> list[str]:
     'POJK Nomor 12 Tahun 2024' -> 'ojk_pojk_12_2024', 'BRI' -> 'bri_'."""
     out = []
     for m in REG_RE.finditer(question):
-        kind, num, year = m.group(1).lower(), m.group(2), m.group(3) or m.group(4)
-        out.append(f"{REG_PREFIX[kind]}_{num}_" + (year or ""))
+        num, year = m.group(2), m.group(3) or m.group(4)
+        out.append(f"{reg_kind(m)}_{num}_" + (year or ""))
     q = question.lower()
     out += [bank + "_" for bank, pat in BANKS.items() if re.search(pat, q)]
     return out
@@ -46,9 +58,9 @@ def detect_groups(question: str) -> list[list[str]]:
     groups: list[list[str]] = []
 
     for m in REG_RE.finditer(question):
-        kind, num = m.group(1).lower(), m.group(2)
+        num = m.group(2)
         year = m.group(3) or m.group(4)
-        pre = f"{REG_PREFIX[kind]}_{num}_" + (year or "")
+        pre = f"{reg_kind(m)}_{num}_" + (year or "")
         ids = [d for d in docs if d.startswith(pre)]
         if ids and ids not in groups:
             groups.append(ids)
