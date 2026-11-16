@@ -48,6 +48,20 @@ seperti di konteks, dan taruh sitasi di akhir kalimat yang memuat klaim. Jika ko
 Jawab dalam bahasa pertanyaan."""
 
 
+NO_RAG_SYSTEM = f"""Kamu adalah asisten riset dokumen keuangan Indonesia.
+Tidak ada dokumen yang diberikan: jawab dari pengetahuanmu sendiri. Untuk pertanyaan angka, sebut angkanya
+beserta satuannya. Jika kamu tidak tahu jawabannya, jawab persis: {REFUSAL}.
+Jawab dalam bahasa pertanyaan."""
+
+
+def ask_no_rag(question: str) -> dict:
+    """Baseline for the paper: the same LLM with no retrieval and no documents (closed-book)."""
+    llm = OpenAI(base_url=LLM_BASE_URL, api_key=LLM_API_KEY, max_retries=LLM_MAX_RETRIES)
+    text = _chat(llm, NO_RAG_SYSTEM, f"Pertanyaan: {question}")
+    return {"answer": text, "citations": parse_citations(text), "retrieved": [], "context": "",
+            "refused": REFUSAL in text}
+
+
 def parse_citations(text: str) -> list[tuple[str, int]]:
     return [(d.strip(), int(p)) for d, p in CITE_RE.findall(text)]
 

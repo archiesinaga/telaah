@@ -16,7 +16,7 @@ KEYS = ["recall@5", "citation_acc", "refusal_acc", "correct_numeric", "correct_j
 
 def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: list[str] | None = None,
         router: bool = False, ids: list[str] | None = None, resume: str | None = None, judge_on_fail: bool = False,
-        workers: int = 1) -> dict:
+        workers: int = 1, no_rag: bool = False) -> dict:
     """Each finished question is appended to a `.partial.jsonl` file, so a crash (memory, API quota) loses
     one question: rerun with `--resume <that file>` and only the missing ones are run.
     `judge_on_fail`: skip the LLM judges (correct_judge, faithful -> None) when the cheap checks already pass
@@ -28,8 +28,11 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         rows = [q for q in rows if q["type"] in types]
     if ids:
         rows = [q for q in rows if q["id"] in ids]
-    agent = agent or router
-    if router:
+    agent = (agent or router) and not no_rag
+    router = router and not no_rag
+    if no_rag:  # closed-book baseline: no retrieval, so recall and faithfulness are not scored
+        from telaah.answer import ask_no_rag as answer_fn
+    elif router:
         from telaah.router import run_routed as answer_fn
     elif agent:
         from telaah.agent import run_agent as answer_fn
@@ -37,7 +40,9 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         answer_fn = ask
     out_dir = HERE / "runs"
     out_dir.mkdir(exist_ok=True)
-    prefix = "" if path.name == "seed_questions.jsonl" else f"bench-{path.stem}-"  # bench-test-*: never read per question
+    prefix = "" if path.name == "seed_questions.jsonl" else f"bench-{path.stem}-"
+    if no_rag:
+        prefix += "norag-"  # bench-test-*: never read per question
     partial = Path(resume) if resume else out_dir / f"{prefix}{time.strftime('%Y%m%d-%H%M%S')}.partial.jsonl"
     results = [json.loads(l) for l in partial.read_text(encoding="utf-8").splitlines() if l.strip()] if resume else []
     extra_path = path.with_name(f"extra_gold_{path.stem}.json")  # duplicated-fact pages, see bench/extra_gold.py
@@ -56,13 +61,14 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         if q["answerable"] and q.get("numeric"):
             correct = float(numeric_match(out["answer"], q["gold_answer"]))
         groups = out.get("retrieved_groups") or [out["retrieved"]]
-        recall, cite = recall_at_k_groups(groups, gold), citation_accuracy(out["citations"], gold)
+        recall = None if no_rag else recall_at_k_groups(groups, gold)
+        cite = citation_accuracy(out["citations"], gold)
         passed = correct == 1.0 and recall == 1 and cite == 1
         judged = q["answerable"] and not out["refused"] and not (judge_on_fail and passed)
         correct_judge = (
             judge_correctness(q["question"], q["gold_answer"], out["answer"]) if judged else None
         )
-        faithful = judge_faithfulness(out["answer"], out["context"]) if judged else None
+        faithful = judge_faithfulness(out["answer"], out["context"]) if judged and not no_rag else None
         r = {
             "id": q["id"],
             "type": q["type"],
@@ -112,7 +118,7 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
             v = [r[k] for r in of_type if r[k] is not None]
             by_type[t][k] = round(sum(v) / len(v), 3) if v else None
     log = {
-        "config": {"agent": agent, "router": router, "llm": config.LLM_MODEL, "embed": config.EMBED_MODEL, "k": config.TOP_K,
+        "config": {"agent": agent, "router": router, "no_rag": no_rag, "llm": config.LLM_MODEL, "embed": config.EMBED_MODEL, "k": config.TOP_K,
                    "questions": path.name},
         "summary": summary,
         "by_type": by_type,

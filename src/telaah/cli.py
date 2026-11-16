@@ -29,6 +29,7 @@ def main() -> None:
     e.add_argument("--resume", help="a eval/runs/*.partial.jsonl file: run only the questions missing from it")
     e.add_argument("--judge-on-fail", action="store_true", help="skip the LLM judges when numeric/recall/citation checks already pass")
     e.add_argument("--workers", type=int, default=1, help="run this many questions at once (mind the Gemini rate limit and daily quota)")
+    e.add_argument("--no-rag", action="store_true", help="closed-book baseline: the LLM answers with no retrieval")
     e.add_argument("--file", type=Path, help="question file (default eval/seed_questions.jsonl; eval/bench/dev.jsonl)")
     args = ap.parse_args()
 
@@ -79,4 +80,4 @@ def main() -> None:
         from run_eval import run
 
         kw = {"path": args.file.resolve()} if args.file else {}
-        run(agent=args.agent, types=args.types, router=args.router, ids=args.ids, resume=args.resume, judge_on_fail=args.judge_on_fail, workers=args.workers, **kw)
+        run(agent=args.agent, types=args.types, router=args.router, ids=args.ids, resume=args.resume, judge_on_fail=args.judge_on_fail, workers=args.workers, no_rag=args.no_rag, **kw)
