@@ -95,6 +95,27 @@ Retrieval-only ablation (recall@5 on the 40 answerable seed questions, `eval/ret
 
 A cross-encoder reranker (bge-reranker-v2-m3) did not help and is off by default. Rewriting tables so every value carries its year (`YEAR_ROWS=1`) lowered table accuracy from 0.87 to 0.67 with the 7B model and is off by default.
 
+### Dev benchmark (439 questions): closed book and fine-tuning
+
+`eval/bench/dev.jsonl`: 417 answerable questions (table lookups, text facts, charts, calculations, cross-document, regulations) and 22 unanswerable ones, run with `--agent --router --judge-on-fail`. This set was used to tune the system, so treat it as optimistic; a separate blind test split exists and has not been run yet.
+
+| system (same Qwen2.5-7B unless noted) | numeric | citation | refusal | judge | s/q |
+|---|---|---|---|---|---|
+| closed book (`--no-rag`, no documents) | 0.012 | 0.050 | 0.109 | 0.308* | 4.1 |
+| **Telaah, base 7B** (`bench-dev-20261112-075716`) | **0.566** | 0.629 | **0.918** | **0.717** | 16.8 |
+| Telaah, QLoRA fine-tuned 7B (`bench-dev-20261112-215223`) | 0.557 | **0.683** | 0.902 | 0.712 | 19.6 |
+
+\* judged on the 26 questions the closed-book model answered; it refused 391 of 417 answerable questions and cited no invented page. All 4 correct numbers are POJK 17/2023 board rules; none is a bank figure. This is the floor the retrieval, facts table and router have to beat.
+
+**Step 7: does fine-tuning help?** Qwen2.5-7B was fine-tuned with QLoRA (Unsloth, rank 16, all attention and MLP projections) on 1,324 training examples (20% refusals) built from the corpus, 1 epoch = 151 steps, about 6.3 h on a free Kaggle GPU, then converted to a Q4_K_M GGUF for Ollama. Validation loss fell from 0.195 to 0.173 with no sign of overfitting. The gate before adopting it: numeric and citation up, refusal not below 0.918, 22/22 unanswerables refused.
+
+- **Gate failed, base model kept.** Citation rose (+0.05 overall; regulation 0.53 -> 0.71, text 0.59 -> 0.71), but numeric did not (0.566 -> 0.557) and refusal fell (0.918 -> 0.902). Both models refused 22/22 unanswerables.
+- **Numeric flips:** 19 wrong -> right, 22 right -> wrong (McNemar p = 0.76: no detectable difference). Refusal flips: 18 worse, 11 better.
+- **Why it lost:** 7 of the 22 losses were over-refusals on answerable questions (some with a Gemini chart transcript in context); 15 read a wrong row or cell on the right page (e.g. HQLA, Stage-1 loans). Fine-tuning taught the format and the citation habit, not better table reading, and it made the model refuse more.
+- **Cost and risk of a second epoch** (another ~6-7 h of GPU, shrinking validation gain) did not justify it; a v2 would need fewer refusal examples and more look-alike table rows.
+
+Reported as a mixed result on purpose: the eval gate stopped a regression that the validation loss alone would have approved. Dev numbers above use the code at that time; a later router fix (fewer false unknown-bank refusals, spelled-out regulation names such as "Peraturan Bank Indonesia Nomor 6") raised recall@5 on the 26 questions it touches from 0.46 to 0.85 and is not included in this table.
+
 ## How it works
 
 ```mermaid
