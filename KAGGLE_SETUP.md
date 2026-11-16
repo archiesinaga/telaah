@@ -54,3 +54,25 @@ Why: text extraction cannot read values from charts. The baseline eval shows cha
 - Output format: `<doc_id>_<startpage>.pt` shards of 200 pages, each `{doc_id, pages, lengths, emb (fp16, sum(lengths) x 128)}`; `manifest.json` maps every (doc_id, page) to shard + row offset.
 - Resume after a crash: add the failed version's output as an extra input; existing shards are copied and skipped.
 - Untested on Kaggle yet: package versions, speed, and memory at BATCH=4 (lower to 2 on OOM).
+
+# Kaggle setup: SFT of Qwen2.5-7B (roadmap week 10, step 6 of `sft/DESIGN.md`)
+
+Notebook: `kaggle/sft_qwen7b_qlora.ipynb` (Unsloth QLoRA, `unsloth/Qwen2.5-7B-Instruct-bnb-4bit`, r=16, max 8,448
+tokens, 1 epoch, effective batch 8, lr 2e-4, loss on the answer only, val loss every 50 steps, checkpoints every 50).
+Data: `python sft/split_sft.py` -> `sft/kaggle_upload/train.jsonl` (1,213) + `val.jsonl` (111), split by page hash
+(482 / 45 pages, no overlap). The upload folder is git-ignored.
+
+1. Check the weekly GPU quota (profile > Settings).
+2. Datasets > New Dataset: upload `sft/kaggle_upload/train.jsonl` and `val.jsonl`, name `telaah-sft`, Private.
+3. Create > New Notebook > File > Import Notebook > `kaggle/sft_qwen7b_qlora.ipynb`.
+4. Add Input > Your Datasets > `telaah-sft`. Settings: GPU T4 x2 (Unsloth uses one; not P100), Internet On.
+5. Smoke test: Run All in the editor (interactive session = 20 steps, no export). Read cell 5 (token lengths),
+   cell 6 (trained tokens = the answer only), cell 7 (s/step, peak memory, estimated full-run hours), cell 9.
+   Then STOP the session.
+6. Full run: Save Version > Save & Run All (Commit). The mode switches to FULL by itself
+   (`KAGGLE_KERNEL_RUN_TYPE=Batch`; `FORCE_FULL=True` in cell 2 overrides in an editor session).
+7. Version page > Output: `lora_adapter.zip`, `qwen2.5-7b-telaah-sft-Q4_K_M.gguf` (~4.7 GB), `train_log.json`,
+   `val_samples.jsonl`.
+- Resume after a crash: add the failed version's output as an input; the newest checkpoint is picked up.
+- If the GGUF cell fails, the adapter zip is still saved; redo merge + conversion in a short second run.
+- Untested on Kaggle yet: package versions, memory at 6,144 tokens on a T4, speed. The smoke test checks all three.
