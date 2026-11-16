@@ -1302,3 +1302,21 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 - The other 413 dev questions route and filter exactly as before (regex replay), so they are unaffected apart from run-to-run noise.
 - Verdict (Claude): keep both fixes. Pending: user's pytest result; commit when the user says so.
 - 14:35 pytest (user): 1 failed / 108 passed. `test_step_year_must_be_asked_by_the_question` failed because my new `REPORT_RE` in facts.py shadowed the existing `REPORT_RE` (line 22, report-id pattern used by `extract_doc` and by `answer_step` when an agent step passes `docs`). Renamed mine to `ANNUAL_REPORT_WORDS_RE`; the test case now gives bri_2025 again (stub check); regex replay unchanged. The 26-id run is still valid: all 26 went through route rag/refuse, and `answer_step` hits the shadowed line only with `docs` (agent entity steps); `extract_doc` runs only at ingest. Lesson: grep a module for a name before adding a module-level constant.
+
+# Update — 2026-11-13 (14:40): handoff — rule fixes committed (this block replaces the earlier 11-13 "Next" lists)
+## Done
+- Commit eae09ff "Router: fewer false bank refusals, read spelled-out regulation names": `facts.unknown_banks` (generic phrases, banks named inside a corpus bank's report; constant `ANNUAL_REPORT_WORDS_RE`), `filters.REG_RE` + `reg_kind()` (No., spelled-out names, (PADG), PADG Bank Indonesia), tests (pytest 109 passed), notes. 26-id re-run `bench-dev-20261113-141653`: recall@5 0.46 -> 0.85, citation 0.35 -> 0.65, refusal 0.65 -> 0.88.
+- Decision (user): the paper stays as it is (numbers from base run 075716); the rule fixes are post-eval and not added to the paper.
+- PowerShell tip for the user: paste only the command, never the `PS C:\...>` prompt or git's output (`ps` = Get-Process alias; harmless errors otherwise).
+## Uncommitted (commit when the user says so)
+- `--no-rag` switch (`src/telaah/answer.py`, `eval/run_eval.py`, `src/telaah/cli.py`), `eval/manual_check_20261113.md`, SFT/Kaggle files (`sft/.gitignore`, `sft/split_sft.py`, KAGGLE_SETUP.md, `kaggle/sft_qwen7b_qlora.ipynb`). Scratch `eval/bench/_*.py`, `eval_ab_*.err`. `test.jsonl` / `candidates_test.jsonl`: blind test, never read.
+- Deletable: `eval/runs/bench-dev-norag-20261113-082808.*`, `eval/runs/bench-dev-20261112-074815.partial.jsonl`, `eval/runs/bench-dev-20261113-141428.partial.jsonl` (empty, Ollama was not running).
+## Next (suggested order; user picks)
+1. User reads the paper (https://claude.ai/artifact/8LcJgmQJA7g4EMXp8aW3x7) and the interview Q&A (https://claude.ai/artifact/VFAnMHyJs14bsnfx2MvTwM), comments in the docs -> Claude revises -> PDF export.
+2. Commit the uncommitted work above; README: add Step 7 / SFT section and the closed-book row.
+3. 2-3 min demo video from the local Gradio app (`.venv\Scripts\python.exe app.py` -> http://127.0.0.1:7860), then LinkedIn post.
+4. Blind test: user reviews `candidates_test.jsonl` in `review_app.py` (Test) + writes 8 test unanswerables -> one base-model run, report beside dev.
+5. Optional fixes from the 36-refusal diagnosis: agent placeholder leak "[doc_id p.N]" (bd0271) and `mandiri_2023` cite (bd0228); neighbour-page misses (bd0137, bd0148, bd0180); bd0167 gold check (bni_2024 p.340: Rp14.820 miliar is 2022 or 2023?); bd0045/bd0103 still refuse; bd0100 wrong row (p.457 vs p.456).
+## Reminders
+- Ollama must be running (`ollama serve` or the app) before any eval: "Connection error / WinError 10061" = Ollama not started. Start evals from `C:\Users\User\genai-project`.
+- Restore sleep if not done: `powercfg /change standby-timeout-ac 10`.
