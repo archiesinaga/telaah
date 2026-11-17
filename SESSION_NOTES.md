@@ -1383,3 +1383,17 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 - Of the "22 citation drops", 13 were the id shift. Real drops ~9: refusals with no cite (bd0064, bd0092, bd0229), wrong page same doc (bd0035 p.1006 vs 993, bd0052 p.194, bd0211 p.85/182 vs 87), one page off (bd0086 p.597 vs 598), agent adds a 2024 cite beside the right 2025 page (bd0216, bd0217). Verdict unchanged: no regression.
 - Next: guard so extra gold cannot silently drift from question ids (store question text, assert on load). Model: Opus 5.5.
 - Guard added (2026-11-17): `extra_gold_dev.json` is now `{id: {"q": question text, "pages": [...]}}`; `telaah.metrics.load_extra_gold` raises if a text does not match its id (used by run_eval, extra_gold.py --rescore, sft/page_pool.py, _calc_diag/_miss/_retr_dev). After any dev rebuild run `python eval/bench/extra_gold.py --remap`. Tests: tests/test_extra_gold.py (pytest 115 passed). A plain `extra_gold.py` rebuild overwrites hand edits (bd0224).
+
+# Update — 2026-11-17 (handoff): dev-450 baseline fixed and guarded
+## Done (all committed, last commit 2a337a5)
+- Fair 450-question rerun finished (`eval/runs/bench-dev-20261116-183616.json`, base-run settings). Per-id diff vs 075716: numeric 6 up / 6 down (noise), refusal 13 better / 5 worse; no regression.
+- Found and fixed the extra-gold id shift (95fcd26); run re-scored offline. CORRECTED numbers (use these): recall@5 0.798, citation 0.638, refusal 0.938, numeric 0.557, judge 0.725, faithful 0.854, 17.3 s/q. Base 075716: 0.777 / 0.629 / 0.918 / 0.566 / 0.717 / 0.837.
+- Guard (2a337a5): extra gold stores question text; eval raises on mismatch; `extra_gold.py --remap` after any dev rebuild. pytest 115 passed.
+- Benchmark work committed (eb2d1b3), blind test files git-ignored (fe1193c), scratch files deleted. Only `eval/bench/_decisions_r3.json` is untracked (kept on purpose).
+## Next (user picks; model per CLAUDE.md)
+1. Test-split decision: (a) fresh test split (new pages, Gemini drafts, user review; Claude's recommendation) or (b) report test v1 with a "Claude-seen" caveat. Calculation/cross_doc NOT done on the current test split (cross_doc 14 drafts of 22). Model: Opus 5.5.
+2. README: Step 7 / SFT section + closed-book row; use the corrected dev-450 numbers only if the paper/README are meant to move off 075716 (the paper stays on 075716 by user decision). Model: Sonnet 5.5.
+3. Demo video from the local Gradio app (`.venv\Scripts\python.exe app.py` -> http://127.0.0.1:7860), then LinkedIn post. Model: Sonnet 5.5.
+4. Optional: real citation drops (bd0064, bd0092, bd0229 refusals; bd0035, bd0052, bd0211 wrong page; bd0086 one page off; bd0216/bd0217 extra 2024 cite), the 36-refusal fixes listed on 11-13.
+## Reminders
+- Restore sleep: `powercfg /change standby-timeout-ac 10`. Ollama must be running before any eval.
