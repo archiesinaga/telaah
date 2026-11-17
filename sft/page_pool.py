@@ -16,6 +16,7 @@ HERE = Path(__file__).parent
 sys.path.insert(0, str(HERE.parent / "eval" / "bench"))
 from common import HERE as BENCH, SEED, page_split, read_jsonl, tuned_pages  # noqa: E402
 from sample_pages import kind_pools, round_robin  # noqa: E402
+from telaah.metrics import load_extra_gold  # noqa: E402
 
 OUT = HERE / "pages.jsonl"
 # ~800 pages x 3 drafts ~ 2,400 candidates -> ~2,200 examples after filtering (DESIGN.md)
@@ -36,7 +37,7 @@ def excluded() -> tuple[set, Counter]:
 
     add(tuned_pages(), "tuned (seed, agent, held-out)")
     add((dp for q in read_jsonl(BENCH / "dev.jsonl") for dp in q["gold_pages"]), "dev gold")
-    extra = json.loads((BENCH / "extra_gold_dev.json").read_text(encoding="utf-8"))
+    extra = load_extra_gold(BENCH / "extra_gold_dev.json", read_jsonl(BENCH / "dev.jsonl"))
     add((dp for v in extra.values() for dp in v), "extra gold")
     for name in ("pages.jsonl", "pages2.jsonl"):
         add((dp for r in read_jsonl(BENCH / name) for dp in r["pages"]), "benchmark drafted")

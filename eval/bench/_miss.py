@@ -4,7 +4,8 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent))
 from common import HERE, read_jsonl
 import telaah.retrieve as R
 
-extra = json.loads((HERE / "extra_gold_dev.json").read_text(encoding="utf-8"))
+from telaah.metrics import load_extra_gold
+extra = load_extra_gold(HERE / "extra_gold_dev.json", read_jsonl(HERE / "dev.jsonl"))
 rows = [q for q in read_jsonl(HERE / "dev.jsonl") if q["answerable"] and q["source"] != "seed"
         and q["type"] in {"text_fact", "table_lookup", "calculation", "regulation"}]
 out, by = [], collections.defaultdict(lambda: collections.Counter())

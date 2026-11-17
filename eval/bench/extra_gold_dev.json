@@ -1,676 +1,919 @@
 {
- "bd0011": [
-  [
-   "mandiri_2024",
-   94
-  ],
-  [
-   "mandiri_2024",
-   208
-  ],
-  [
-   "mandiri_2024",
-   615
-  ],
-  [
-   "mandiri_2024",
-   1299
-  ],
-  [
-   "mandiri_2024",
-   1585
-  ]
- ],
- "bd0012": [
-  [
-   "bri_2024",
-   16
-  ]
- ],
- "bd0015": [
-  [
-   "mandiri_2024",
-   216
-  ]
- ],
- "bd0017": [
-  [
-   "bri_2025",
-   1027
-  ]
- ],
- "bd0019": [
-  [
-   "bri_2025",
-   831
-  ]
- ],
- "bd0020": [
-  [
-   "mandiri_2024",
-   1143
-  ],
-  [
-   "mandiri_2024",
-   1144
-  ],
-  [
-   "mandiri_2024",
-   1657
-  ]
- ],
- "bd0022": [
-  [
-   "bca_2025",
-   275
-  ]
- ],
- "bd0026": [
-  [
-   "btn_2025",
-   254
-  ]
- ],
- "bd0029": [
-  [
-   "mandiri_2024",
-   854
-  ],
-  [
-   "mandiri_2024",
-   985
-  ]
- ],
- "bd0030": [
-  [
-   "bca_2025",
-   105
-  ]
- ],
- "bd0031": [
-  [
-   "bri_2024",
-   255
-  ]
- ],
- "bd0032": [
-  [
-   "btn_2024",
-   673
-  ],
-  [
-   "btn_2024",
-   684
-  ]
- ],
- "bd0039": [
-  [
-   "mandiri_2024",
-   215
-  ],
-  [
-   "mandiri_2024",
-   1512
-  ],
-  [
-   "mandiri_2024",
-   1522
-  ]
- ],
- "bd0042": [
-  [
-   "btn_2025",
-   627
-  ],
-  [
-   "btn_2025",
-   745
-  ],
-  [
-   "btn_2025",
-   747
-  ],
-  [
-   "btn_2025",
-   760
-  ],
-  [
-   "btn_2025",
-   984
-  ]
- ],
- "bd0043": [
-  [
-   "bri_2024",
-   877
-  ],
-  [
-   "bri_2024",
-   878
-  ],
-  [
-   "bri_2024",
-   879
-  ],
-  [
-   "bri_2024",
-   882
-  ],
-  [
-   "bri_2024",
-   884
-  ]
- ],
- "bd0044": [
-  [
-   "mandiri_2025",
-   586
-  ],
-  [
-   "mandiri_2025",
-   760
-  ]
- ],
- "bd0046": [
-  [
-   "btn_2024",
-   739
-  ],
-  [
-   "btn_2024",
-   1222
-  ]
- ],
- "bd0048": [
-  [
-   "btn_2024",
-   593
-  ],
-  [
-   "btn_2024",
-   624
-  ],
-  [
-   "btn_2024",
-   725
-  ],
-  [
-   "btn_2024",
-   786
-  ],
-  [
-   "btn_2024",
-   814
-  ]
- ],
- "bd0051": [
-  [
-   "btn_2024",
-   739
-  ]
- ],
- "bd0052": [
-  [
-   "bni_2024",
-   1227
-  ]
- ],
- "bd0056": [
-  [
-   "bca_2025",
-   235
-  ],
-  [
-   "bca_2025",
-   436
-  ]
- ],
- "bd0062": [
-  [
-   "mandiri_2024",
-   1299
-  ]
- ],
- "bd0064": [
-  [
-   "mandiri_2024",
-   183
-  ],
-  [
-   "mandiri_2024",
-   763
-  ],
-  [
-   "mandiri_2024",
-   1583
-  ]
- ],
- "bd0065": [
-  [
-   "mandiri_2024",
-   284
-  ]
- ],
- "bd0066": [
-  [
-   "bri_2024",
-   257
-  ]
- ],
- "bd0069": [
-  [
-   "bri_2024",
-   274
-  ]
- ],
- "bd0082": [
-  [
-   "bri_2025",
-   142
-  ]
- ],
- "bd0084": [
-  [
-   "bri_2025",
-   141
-  ],
-  [
-   "bri_2025",
-   637
-  ]
- ],
- "bd0085": [
-  [
-   "mandiri_2024",
-   1101
-  ]
- ],
- "bd0086": [
-  [
-   "mandiri_2025",
-   483
-  ],
-  [
-   "mandiri_2025",
-   557
-  ]
- ],
- "bd0088": [
-  [
-   "btn_2024",
-   438
-  ]
- ],
- "bd0091": [
-  [
-   "bca_2025",
-   594
-  ]
- ],
- "bd0097": [
-  [
-   "bni_2024",
-   890
-  ],
-  [
-   "bni_2024",
-   894
-  ]
- ],
- "bd0101": [
-  [
-   "btn_2025",
-   434
-  ],
-  [
-   "btn_2025",
-   458
-  ]
- ],
- "bd0105": [
-  [
-   "mandiri_2025",
-   846
-  ]
- ],
- "bd0106": [
-  [
-   "bca_2025",
-   354
-  ],
-  [
-   "bca_2025",
-   369
-  ]
- ],
- "bd0107": [
-  [
-   "bca_2025",
-   309
-  ]
- ],
- "bd0109": [
-  [
-   "btn_2024",
-   379
-  ],
-  [
-   "btn_2024",
-   381
-  ],
-  [
-   "btn_2024",
-   385
-  ],
-  [
-   "btn_2024",
-   411
-  ]
- ],
- "bd0121": [
-  [
-   "bni_2024",
-   1189
-  ],
-  [
-   "bni_2024",
-   1190
-  ]
- ],
- "bd0123": [
-  [
-   "bca_2025",
-   135
-  ]
- ],
- "bd0127": [
-  [
-   "bca_2025",
-   16
-  ],
-  [
-   "bca_2025",
-   95
-  ],
-  [
-   "bca_2025",
-   216
-  ]
- ],
- "bd0128": [
-  [
-   "bca_2025",
-   349
-  ]
- ],
- "bd0131": [
-  [
-   "bri_2024",
-   1118
-  ],
-  [
-   "bri_2024",
-   1255
-  ]
- ],
- "bd0132": [
-  [
-   "bri_2024",
-   848
-  ]
- ],
- "bd0133": [
-  [
-   "bca_2025",
-   594
-  ]
- ],
- "bd0135": [
-  [
-   "bri_2024",
-   360
-  ]
- ],
- "bd0136": [
-  [
-   "bri_2024",
-   903
-  ]
- ],
- "bd0137": [
-  [
-   "btn_2025",
-   1307
-  ]
- ],
- "bd0140": [
-  [
-   "bni_2024",
-   890
-  ]
- ],
- "bd0142": [
-  [
-   "bri_2025",
-   1173
-  ]
- ],
- "bd0145": [
-  [
-   "bri_2025",
-   352
-  ],
-  [
-   "bri_2025",
-   363
-  ]
- ],
- "bd0146": [
-  [
-   "mandiri_2025",
-   825
-  ]
- ],
- "bd0159": [
-  [
-   "mandiri_2025",
-   71
-  ],
-  [
-   "mandiri_2025",
-   74
-  ],
-  [
-   "mandiri_2025",
-   254
-  ]
- ],
- "bd0162": [
-  [
-   "bca_2025",
-   88
-  ],
-  [
-   "bca_2025",
-   204
-  ]
- ],
- "bd0170": [
-  [
-   "bni_2024",
-   339
-  ]
- ],
- "bd0171": [
-  [
-   "mandiri_2025",
-   43
-  ]
- ],
- "bd0173": [
-  [
-   "bni_2024",
-   339
-  ]
- ],
- "bd0193": [
-  [
-   "bca_2025",
-   202
-  ],
-  [
-   "bca_2025",
-   204
-  ]
- ],
- "bd0203": [
-  [
-   "mandiri_2024",
-   417
-  ]
- ],
- "bd0204": [
-  [
-   "mandiri_2024",
-   37
-  ]
- ],
- "bd0206": [
-  [
-   "bca_2025",
-   68
-  ]
- ],
- "bd0208": [
-  [
-   "mandiri_2025",
-   280
-  ],
-  [
-   "mandiri_2025",
-   302
-  ]
- ],
- "bd0212": [
-  [
-   "bca_2025",
-   34
-  ]
- ],
- "bd0217": [
-  [
-   "mandiri_2025",
-   332
-  ]
- ],
- "bd0225": [
-  [
-   "btn_2025",
-   302
-  ],
-  [
-   "btn_2025",
-   310
-  ]
- ],
- "bd0226": [
-  [
-   "bri_2025",
-   204
-  ]
- ],
- "bd0231": [
-  [
-   "mandiri_2025",
-   344
-  ]
- ],
- "bd0235": [
-  [
-   "btn_2024",
-   304
-  ]
- ],
- "bd0254": [
-  [
-   "bri_2024",
-   272
-  ]
- ],
- "bd0262": [
-  [
-   "bri_2024",
-   272
-  ]
- ],
- "bd0264": [
-  [
-   "btn_2024",
-   304
-  ]
- ],
- "bd0265": [
-  [
-   "mandiri_2025",
-   351
-  ]
- ],
- "bd0266": [
-  [
-   "btn_2024",
-   898
-  ]
- ],
- "bd0353": [
-  [
-   "bi_padg_22_2026",
-   1
-  ],
-  [
-   "bi_padg_22_2026",
-   2
-  ]
- ],
- "bd0354": [
-  [
-   "bi_pbi_3_2023__ringkasan",
-   6
-  ]
- ],
- "bd0367": [
-  [
-   "ojk_seojk_26_2016",
-   8
-  ]
- ],
- "bd0369": [
-  [
-   "bi_pbi_11_2023",
-   11
-  ]
- ],
- "bd0375": [
-  [
-   "ojk_pojk_17_2023",
-   30
-  ]
- ],
- "bd0380": [
-  [
-   "ojk_pojk_34_2016",
-   10
-  ]
- ],
- "bd0387": [
-  [
-   "ojk_pojk_11_2022",
-   28
-  ]
- ],
- "bd0388": [
-  [
-   "bi_padg_23_2025",
-   13
-  ]
- ]
+ "bd0011": {
+  "q": "Berdasarkan Laporan Tahunan 2024 PT Bank Mandiri (Persero) Tbk., tanggal berapakah akta pendirian perusahaan tersebut dibuat?",
+  "pages": [
+   [
+    "mandiri_2024",
+    94
+   ],
+   [
+    "mandiri_2024",
+    208
+   ],
+   [
+    "mandiri_2024",
+    615
+   ],
+   [
+    "mandiri_2024",
+    1299
+   ],
+   [
+    "mandiri_2024",
+    1585
+   ]
+  ]
+ },
+ "bd0012": {
+  "q": "Berapakah jumlah Desa BRILiaN PT Bank Rakyat Indonesia (Persero) Tbk pada tahun 2024?",
+  "pages": [
+   [
+    "bri_2024",
+    16
+   ]
+  ]
+ },
+ "bd0015": {
+  "q": "Berapakah tingkat bunga tetap per tahun untuk Obligasi Subordinasi Rupiah Bank Mandiri I Tahun 2009?",
+  "pages": [
+   [
+    "mandiri_2024",
+    216
+   ]
+  ]
+ },
+ "bd0017": {
+  "q": "Berdasarkan Laporan Tahunan 2025 BRI, siapa nama notaris yang membuat akta perubahan anggaran dasar PT Danareksa Investment Management bertanggal 4 Juli 2023?",
+  "pages": [
+   [
+    "bri_2025",
+    1027
+   ]
+  ]
+ },
+ "bd0019": {
+  "q": "Berdasarkan Laporan Tahunan 2025 BRI, berapa peringkat risiko pada Triwulan terakhir yang menjadi salah satu kondisi penyesuaian pembayaran remunerasi variabel yang ditangguhkan (malus)?",
+  "pages": [
+   [
+    "bri_2025",
+    831
+   ]
+  ]
+ },
+ "bd0020": {
+  "q": "Berapa besar pencapaian Net Stable Funding Ratio (NSFR) Bank Mandiri secara Bank Only pada Desember 2024?",
+  "pages": [
+   [
+    "mandiri_2024",
+    1143
+   ],
+   [
+    "mandiri_2024",
+    1144
+   ],
+   [
+    "mandiri_2024",
+    1657
+   ]
+  ]
+ },
+ "bd0022": {
+  "q": "Berdasarkan Laporan Tahunan 2025 BCA, apa nama peraturan OJK yang menjadi acuan dalam penerapan Tata Kelola Terintegrasi bagi Konglomerasi Keuangan di mana BCA bertindak sebagai Entitas Utama?",
+  "pages": [
+   [
+    "bca_2025",
+    275
+   ]
+  ]
+ },
+ "bd0026": {
+  "q": "Berdasarkan Laporan Tahunan 2025 PT Bank Tabungan Negara (Persero) Tbk, pada periode tahun berapakah aktivitas penyertaan modal difokuskan pada perusahaan modal ventura, manajemen investasi, asuransi, multifinance, dan bank umum syariah?",
+  "pages": [
+   [
+    "btn_2025",
+    254
+   ]
+  ]
+ },
+ "bd0029": {
+  "q": "Berdasarkan Laporan Tahunan 2024 Bank Mandiri, berapakah jumlah tahapan pengelolaan risiko reputasi sesuai dengan Standar Pedoman Corporate Secretary?",
+  "pages": [
+   [
+    "mandiri_2024",
+    854
+   ],
+   [
+    "mandiri_2024",
+    985
+   ]
+  ]
+ },
+ "bd0030": {
+  "q": "Berdasarkan Laporan Tahunan 2025 BCA, sarana pemantauan apa yang disusun untuk menjaga komitmen terhadap kewajiban pelaporan kepada regulator?",
+  "pages": [
+   [
+    "bca_2025",
+    105
+   ]
+  ]
+ },
+ "bd0031": {
+  "q": "Berapakah jumlah kantor cabang yang dimiliki oleh BRI Global Financial Services Co. Ltd. Hong Kong menurut Laporan Tahunan 2024 PT Bank Rakyat Indonesia (Persero) Tbk?",
+  "pages": [
+   [
+    "bri_2024",
+    255
+   ]
+  ]
+ },
+ "bd0032": {
+  "q": "Berdasarkan Laporan Tahunan 2024 BTN, pengembangan karir di BTN mengacu pada ketentuan Kebijakan Khusus Nomor berapakah tentang Siklus Human Capital?",
+  "pages": [
+   [
+    "btn_2024",
+    673
+   ],
+   [
+    "btn_2024",
+    684
+   ]
+  ]
+ },
+ "bd0039": {
+  "q": "Siapakah wali amanat dari penerbitan Obligasi Berkelanjutan I Bank Mandiri Tahap I Tahun 2016 menurut Laporan Tahunan Bank Mandiri 2024?",
+  "pages": [
+   [
+    "mandiri_2024",
+    215
+   ],
+   [
+    "mandiri_2024",
+    1512
+   ],
+   [
+    "mandiri_2024",
+    1522
+   ]
+  ]
+ },
+ "bd0042": {
+  "q": "Berdasarkan Laporan Tahunan 2025 PT Bank Tabungan Negara (Persero) Tbk, tanggal berapakah Surat Keputusan Dewan Komisaris nomor 20/KOM/BTN/2024 tentang Pedoman dan Tata Tertib Kerja Komite Remunerasi dan Nominasi ditetapkan?",
+  "pages": [
+   [
+    "btn_2025",
+    627
+   ],
+   [
+    "btn_2025",
+    745
+   ],
+   [
+    "btn_2025",
+    747
+   ],
+   [
+    "btn_2025",
+    760
+   ],
+   [
+    "btn_2025",
+    984
+   ]
+  ]
+ },
+ "bd0043": {
+  "q": "Berdasarkan Laporan Tahunan BRI 2024, berapa nilai nominal per lembar saham dalam rangka program MESOP pada Akta RUPS Luar Biasa PT Bank Rakyat Indonesia Agroniaga Tbk No. 51 tanggal 26 Juni 2018?",
+  "pages": [
+   [
+    "bri_2024",
+    877
+   ],
+   [
+    "bri_2024",
+    878
+   ],
+   [
+    "bri_2024",
+    879
+   ],
+   [
+    "bri_2024",
+    882
+   ],
+   [
+    "bri_2024",
+    884
+   ]
+  ]
+ },
+ "bd0044": {
+  "q": "Berdasarkan Laporan Tahunan 2025 Bank Mandiri, kepada siapa Dewan Pengawas Syariah bertanggung jawab memberikan nasihat dan saran?",
+  "pages": [
+   [
+    "mandiri_2025",
+    586
+   ],
+   [
+    "mandiri_2025",
+    760
+   ]
+  ]
+ },
+ "bd0046": {
+  "q": "Berapakah nomor telepon PPID Pusat yang dapat dihubungi untuk komunikasi permohonan informasi dalam Laporan Tahunan 2024 BTN?",
+  "pages": [
+   [
+    "btn_2024",
+    739
+   ],
+   [
+    "btn_2024",
+    1222
+   ]
+  ]
+ },
+ "bd0048": {
+  "q": "Berdasarkan Laporan Tahunan 2024 PT Bank Tabungan Negara (Persero) Tbk, tanggal berapakah Peraturan Otoritas Jasa Keuangan nomor 2 Tahun 2024 tentang Penerapan Tata Kelola Syariah bagi Bank Umum Syariah dan Unit Usaha Syariah ditetapkan?",
+  "pages": [
+   [
+    "btn_2024",
+    593
+   ],
+   [
+    "btn_2024",
+    624
+   ],
+   [
+    "btn_2024",
+    725
+   ],
+   [
+    "btn_2024",
+    786
+   ],
+   [
+    "btn_2024",
+    814
+   ]
+  ]
+ },
+ "bd0051": {
+  "q": "Berapakah alamat email resmi yang disediakan untuk permohonan informasi publik berdasarkan Laporan Tahunan 2024 BTN?",
+  "pages": [
+   [
+    "btn_2024",
+    739
+   ]
+  ]
+ },
+ "bd0052": {
+  "q": "Berapa nilai nominal penerbitan BNI Tier 2 Capital Bond 2021 oleh PT Bank Negara Indonesia (Persero) Tbk pada tanggal 30 Maret 2021?",
+  "pages": [
+   [
+    "bni_2024",
+    1227
+   ]
+  ]
+ },
+ "bd0056": {
+  "q": "Berdasarkan Laporan Tahunan 2025 BCA, kapan Surat Keputusan Direksi No. 009/SK/DIR/2025 tentang Penyesuaian Kebijakan Strategi Anti-Fraud diterbitkan?",
+  "pages": [
+   [
+    "bca_2025",
+    235
+   ],
+   [
+    "bca_2025",
+    436
+   ]
+  ]
+ },
+ "bd0062": {
+  "q": "Pada tanggal berapakah PT Bank Mandiri (Persero) Tbk. mulai beroperasi berdasarkan Laporan Tahunan 2024?",
+  "pages": [
+   [
+    "mandiri_2024",
+    1299
+   ]
+  ]
+ },
+ "bd0064": {
+  "q": "Berapa jumlah kepemilikan saham BMRI oleh Direktur Utama PT Bank Mandiri (Persero) Tbk Darmawan Junaidi per posisi 31 Desember 2024 dalam Laporan Tahunan 2024?",
+  "pages": [
+   [
+    "mandiri_2024",
+    183
+   ],
+   [
+    "mandiri_2024",
+    763
+   ],
+   [
+    "mandiri_2024",
+    1583
+   ]
+  ]
+ },
+ "bd0065": {
+  "q": "Berapakah total aset Bank Mandiri per Desember 2024 menurut Laporan Tahunan 2024?",
+  "pages": [
+   [
+    "mandiri_2024",
+    284
+   ]
+  ]
+ },
+ "bd0066": {
+  "q": "Berapa persentase kepemilikan saham PT Asuransi Jiwa Bringin Jiwa Sejahtera (BRI Life) yang diakuisisi oleh BRI berdasarkan Laporan Tahunan 2024 PT Bank Rakyat Indonesia (Persero) Tbk?",
+  "pages": [
+   [
+    "bri_2024",
+    257
+   ]
+  ]
+ },
+ "bd0069": {
+  "q": "Berapakah total penyaluran bansos PT Bank Rakyat Indonesia (Persero) Tbk pada tahun 2024?",
+  "pages": [
+   [
+    "bri_2024",
+    274
+   ]
+  ]
+ },
+ "bd0082": {
+  "q": "Berapakah usia Sunarso dalam Laporan Tahunan BRI 2025?",
+  "pages": [
+   [
+    "bri_2025",
+    142
+   ]
+  ]
+ },
+ "bd0084": {
+  "q": "Berapakah usia Mucharom menurut Laporan Tahunan BRI 2025?",
+  "pages": [
+   [
+    "bri_2025",
+    141
+   ],
+   [
+    "bri_2025",
+    637
+   ]
+  ]
+ },
+ "bd0085": {
+  "q": "Berapa nilai Total Tagihan Bersih Lainnya pada bobot risiko 50% dalam tabel Risiko Kredit - Eksposur CCR Berdasarkan Kategori Portfolio dan Bobot Risiko (CCR3) pada Laporan Tahunan 2024 Bank Mandiri?",
+  "pages": [
+   [
+    "mandiri_2024",
+    1101
+   ]
+  ]
+ },
+ "bd0086": {
+  "q": "Berapakah jumlah penyelenggaraan Diskusi Internal dan Diskusi dengan Unit Kerja terkait oleh Komite Tata Kelola Terintegrasi Bank Mandiri pada Laporan Tahunan 2025?",
+  "pages": [
+   [
+    "mandiri_2025",
+    483
+   ],
+   [
+    "mandiri_2025",
+    557
+   ]
+  ]
+ },
+ "bd0088": {
+  "q": "Berapakah jumlah total pelaksanaan rekrutmen pada Laporan Tahunan BTN 2024?",
+  "pages": [
+   [
+    "btn_2024",
+    438
+   ]
+  ]
+ },
+ "bd0091": {
+  "q": "Berapakah pencapaian rasio Kewajiban Penyediaan Modal Minimum (KPMM) BCA pada Laporan Tahunan 2025?",
+  "pages": [
+   [
+    "bca_2025",
+    594
+   ]
+  ]
+ },
+ "bd0097": {
+  "q": "Berapa persentase kuorum kehadiran pada rapat Sub-Komite Kebijakan Perkreditan (KKP) BNI tanggal 14 Juni 2024 dalam Laporan Tahunan BNI 2024?",
+  "pages": [
+   [
+    "bni_2024",
+    890
+   ],
+   [
+    "bni_2024",
+    894
+   ]
+  ]
+ },
+ "bd0101": {
+  "q": "Berapakah jumlah Total Eksposur dalam perhitungan Rasio Leverage untuk Bank Secara Individu menurut Laporan Tahunan 2025 BTN?",
+  "pages": [
+   [
+    "btn_2025",
+    434
+   ],
+   [
+    "btn_2025",
+    458
+   ]
+  ]
+ },
+ "bd0105": {
+  "q": "Berapakah nilai total HQLA pada Laporan Tahunan 2025 Bank Mandiri untuk posisi tanggal laporan individual?",
+  "pages": [
+   [
+    "mandiri_2025",
+    846
+   ]
+  ]
+ },
+ "bd0106": {
+  "q": "Berapa jumlah rapat yang dihadiri oleh Direktur Perencanaan dan Keuangan (Vera Eve Lim) dalam rapat RMC Laporan Tahunan BCA 2025?",
+  "pages": [
+   [
+    "bca_2025",
+    354
+   ],
+   [
+    "bca_2025",
+    369
+   ]
+  ]
+ },
+ "bd0107": {
+  "q": "Berapakah bobot komponen Keuangan untuk penilaian kinerja Subur Tan dalam Komponen Penilaian Direksi Periode 1 Januari- 31 Mei 2025 pada Laporan Tahunan 2025 PT Bank Central Asia Tbk (BCA)?",
+  "pages": [
+   [
+    "bca_2025",
+    309
+   ]
+  ]
+ },
+ "bd0109": {
+  "q": "Berapakah nilai Tagihan Bersih untuk kategori portofolio Aset Lainnya pada Laporan Tahunan 2024 BTN per 31 Desember 2024?",
+  "pages": [
+   [
+    "btn_2024",
+    379
+   ],
+   [
+    "btn_2024",
+    381
+   ],
+   [
+    "btn_2024",
+    385
+   ],
+   [
+    "btn_2024",
+    411
+   ]
+  ]
+ },
+ "bd0121": {
+  "q": "Berapa persentase pencapaian tahun 2024 untuk KPI Total Pencapaian pada Pencapaian KPI Kolegial di Laporan Tahunan BNI 2024?",
+  "pages": [
+   [
+    "bni_2024",
+    1189
+   ],
+   [
+    "bni_2024",
+    1190
+   ]
+  ]
+ },
+ "bd0123": {
+  "q": "Berapa nilai tagihan bersih untuk sektor ekonomi Pertambangan dan Penggalian pada kategori Tagihan kepada Entitas Sektor Publik dalam Laporan Tahunan BCA 2025 periode 31 Desember 2024?",
+  "pages": [
+   [
+    "bca_2025",
+    135
+   ]
+  ]
+ },
+ "bd0127": {
+  "q": "Berapakah pencapaian Liquidity Coverage Ratio (LCR) BCA pada Laporan Tahunan 2025?",
+  "pages": [
+   [
+    "bca_2025",
+    16
+   ],
+   [
+    "bca_2025",
+    95
+   ],
+   [
+    "bca_2025",
+    216
+   ]
+  ]
+ },
+ "bd0128": {
+  "q": "Berapa persentase kehadiran Wakil Presiden Direktur (Armand W. Hartono) dalam rapat RMC Laporan Tahunan BCA 2025?",
+  "pages": [
+   [
+    "bca_2025",
+    349
+   ]
+  ]
+ },
+ "bd0131": {
+  "q": "Berapakah persentase kepemilikan PT Pegadaian oleh BRI dalam Laporan Tahunan BRI 2024?",
+  "pages": [
+   [
+    "bri_2024",
+    1118
+   ],
+   [
+    "bri_2024",
+    1255
+   ]
+  ]
+ },
+ "bd0132": {
+  "q": "Berapakah nilai cadangan atas kerugian kredit ekspektasian awal untuk Giro pada Bank Lain pada Stage 1 dalam Laporan Tahunan PT Bank Rakyat Indonesia (Persero) Tbk 2024?",
+  "pages": [
+   [
+    "bri_2024",
+    848
+   ]
+  ]
+ },
+ "bd0133": {
+  "q": "Berapakah jumlah modal pada tabel Posisi Devisa Neto (PDN) per 31 Desember 2024 di Laporan Tahunan PT Bank Central Asia Tbk 2025?",
+  "pages": [
+   [
+    "bca_2025",
+    594
+   ]
+  ]
+ },
+ "bd0135": {
+  "q": "Berapakah jumlah Tagihan Bersih Sebelum Penerapan FKK dan Teknik MRK pada Laporan Posisi Keuangan untuk kategori portofolio Tagihan kepada Pemerintah dalam Laporan Tahunan 2024 BRI secara konsolidasi?",
+  "pages": [
+   [
+    "bri_2024",
+    360
+   ]
+  ]
+ },
+ "bd0136": {
+  "q": "Berapakah jumlah aset PT Pegadaian menurut Laporan Tahunan BRI 2024?",
+  "pages": [
+   [
+    "bri_2024",
+    903
+   ]
+  ]
+ },
+ "bd0137": {
+  "q": "Berapakah nilai wajar aset dana (tidak diaudit) untuk Program Pensiun PT Bank Tabungan Negara (Persero) Tbk per 31 Desember 2025 dalam Laporan Tahunan 2025?",
+  "pages": [
+   [
+    "btn_2025",
+    1307
+   ]
+  ]
+ },
+ "bd0140": {
+  "q": "Berapa persentase kuorum kehadiran pada rapat Sub-Komite Prosedur Perkreditan (KPP) BNI tanggal 2 Januari 2024 dalam Laporan Tahunan BNI 2024?",
+  "pages": [
+   [
+    "bni_2024",
+    890
+   ]
+  ]
+ },
+ "bd0142": {
+  "q": "Berapa persentase kepemilikan PT Bank Rakyat Indonesia (Persero) Tbk. pada PT Pemeringkat Efek Indonesia (Pefindo) per Laporan Tahunan 2025?",
+  "pages": [
+   [
+    "bri_2025",
+    1173
+   ]
+  ]
+ },
+ "bd0145": {
+  "q": "Berapakah nilai total untuk pos TOTAL ASET pada Laporan posisi keuangan konsolidasi dengan cakupan konsolidasi berdasarkan ketentuan kehati-hatian - Desember 2025 di Laporan Tahunan BRI 2025?",
+  "pages": [
+   [
+    "bri_2025",
+    352
+   ],
+   [
+    "bri_2025",
+    363
+   ]
+  ]
+ },
+ "bd0146": {
+  "q": "Berapakah nilai ATMR untuk kategori Tagihan kepada Pemerintah pada posisi Bank secara Individu Laporan Tahunan 2025 Bank Mandiri?",
+  "pages": [
+   [
+    "mandiri_2025",
+    825
+   ]
+  ]
+ },
+ "bd0159": {
+  "q": "Berapakah pertumbuhan YoY Total Aset pada Ringkasan Kinerja 2025 Bank Mandiri?",
+  "pages": [
+   [
+    "mandiri_2025",
+    71
+   ],
+   [
+    "mandiri_2025",
+    74
+   ],
+   [
+    "mandiri_2025",
+    254
+   ]
+  ]
+ },
+ "bd0162": {
+  "q": "Berapa nilai Portofolio Kredit Korporasi PT Bank Central Asia Tbk pada tahun 2025 berdasarkan grafik Portofolio Kredit Korporasi (dalam triliun Rupiah)?",
+  "pages": [
+   [
+    "bca_2025",
+    88
+   ],
+   [
+    "bca_2025",
+    204
+   ]
+  ]
+ },
+ "bd0170": {
+  "q": "Berapakah nilai Fee Based Income PT Bank Negara Indonesia (Persero) Tbk pada tahun 2023 berdasarkan grafik Perkembangan Fee Based Income dalam Laporan Tahunan 2024 BNI?",
+  "pages": [
+   [
+    "bni_2024",
+    339
+   ]
+  ]
+ },
+ "bd0171": {
+  "q": "Berapakah harga tertinggi saham Bank Mandiri pada Q1 2024 berdasarkan grafik Pergerakan Harga Saham Bank Mandiri Tahun 2024 - 2025?",
+  "pages": [
+   [
+    "mandiri_2025",
+    43
+   ]
+  ]
+ },
+ "bd0173": {
+  "q": "Berapakah nilai Fee Based Income PT Bank Negara Indonesia (Persero) Tbk pada tahun 2022 berdasarkan grafik Perkembangan Fee Based Income dalam Laporan Tahunan 2024 BNI?",
+  "pages": [
+   [
+    "bni_2024",
+    339
+   ]
+  ]
+ },
+ "bd0193": {
+  "q": "Berapakah besarnya portofolio kredit PT Bank Central Asia Tbk pada tahun 2025 dalam satuan rupiah?",
+  "pages": [
+   [
+    "bca_2025",
+    202
+   ],
+   [
+    "bca_2025",
+    204
+   ]
+  ]
+ },
+ "bd0203": {
+  "q": "Berapakah persentase porsi tabungan investasi terikat dan investasi tidak terikat - mudharabah pada grafik Dana Syirkah Temporer - Simpanan Nasabah Bank Mandiri tahun 2024?",
+  "pages": [
+   [
+    "mandiri_2024",
+    417
+   ]
+  ]
+ },
+ "bd0204": {
+  "q": "Berapakah harga saham tertinggi Bank Mandiri pada Q1 2023 menurut grafik Pergerakan Harga Saham Bank Mandiri Tahun 2023 - 2024 di Laporan Tahunan 2024 Bank Mandiri?",
+  "pages": [
+   [
+    "mandiri_2024",
+    37
+   ]
+  ]
+ },
+ "bd0206": {
+  "q": "Berdasarkan grafik kepemilikan pada Laporan Tahunan 2025 PT Bank Central Asia Tbk, berapa persentase kepemilikan saham oleh masyarakat?",
+  "pages": [
+   [
+    "bca_2025",
+    68
+   ]
+  ]
+ },
+ "bd0208": {
+  "q": "Berapakah nilai transaksi Kopra Bank Mandiri hingga Desember 2025?",
+  "pages": [
+   [
+    "mandiri_2025",
+    280
+   ],
+   [
+    "mandiri_2025",
+    302
+   ]
+  ]
+ },
+ "bd0212": {
+  "q": "Berapakah total pekerja PT Bank Central Asia Tbk pada Laporan Tahunan 2025?",
+  "pages": [
+   [
+    "bca_2025",
+    34
+   ]
+  ]
+ },
+ "bd0217": {
+  "q": "Berapa selisih antara total saldo akhir cadangan kerugian penurunan nilai piutang pembiayaan konsumen pada 31 Desember 2025 dan 31 Desember 2024 di Laporan Tahunan PT Bank Mandiri (Persero) Tbk 2025?",
+  "pages": [
+   [
+    "mandiri_2025",
+    332
+   ]
+  ]
+ },
+ "bd0225": {
+  "q": "Berapa persentase pertumbuhan jumlah rekening Tabungan Konsumer PT Bank Tabungan Negara (Persero) Tbk pada tahun 2025 dibandingkan dengan tahun 2024?",
+  "pages": [
+   [
+    "btn_2025",
+    302
+   ],
+   [
+    "btn_2025",
+    310
+   ]
+  ]
+ },
+ "bd0226": {
+  "q": "Berapakah jumlah total dari Jumlah Obligasi (Juta) untuk Obligasi Subordinasi I Bank BRI Tahun 2004 dan Obligasi Subordinasi II Bank BRI Tahun 2009 dalam Laporan Tahunan BRI 2025?",
+  "pages": [
+   [
+    "bri_2025",
+    204
+   ]
+  ]
+ },
+ "bd0231": {
+  "q": "Berapa besar pertumbuhan persentase total simpanan dari bank lain dalam Rupiah pada PT Bank Mandiri (Persero) Tbk antara 31 Desember 2024 dan 31 Desember 2025?",
+  "pages": [
+   [
+    "mandiri_2025",
+    344
+   ]
+  ]
+ },
+ "bd0235": {
+  "q": "Berapakah persentase pertumbuhan akun Kas pada Laporan Tahunan 2024 PT Bank Tabungan Negara (Persero) Tbk antara tahun 2023 dan 2024?",
+  "pages": [
+   [
+    "btn_2024",
+    304
+   ]
+  ]
+ },
+ "bd0254": {
+  "q": "Berapakah selisih total pendapatan segmen geografis Singapura PT Bank Rakyat Indonesia (Persero) Tbk antara tahun yang berakhir pada 31 Desember 2024 dan 31 Desember 2023?",
+  "pages": [
+   [
+    "bri_2024",
+    272
+   ]
+  ]
+ },
+ "bd0262": {
+  "q": "Berapakah persentase pertumbuhan total pendapatan segmen geografis Amerika Serikat PT Bank Rakyat Indonesia (Persero) Tbk pada tahun yang berakhir 31 Desember 2024 dibandingkan tahun 2023?",
+  "pages": [
+   [
+    "bri_2024",
+    272
+   ]
+  ]
+ },
+ "bd0264": {
+  "q": "Berapakah selisih antara total giro pada bank lain bruto tanggal 31 Desember 2024 dan 31 Desember 2023 pada Laporan Tahunan PT Bank Tabungan Negara (Persero) Tbk 2024?",
+  "pages": [
+   [
+    "btn_2024",
+    304
+   ]
+  ]
+ },
+ "bd0265": {
+  "q": "Berapakah persentase pertumbuhan kas dan setara kas pada akhir tahun Bank Mandiri dari tahun 2024 ke tahun 2025?",
+  "pages": [
+   [
+    "mandiri_2025",
+    351
+   ]
+  ]
+ },
+ "bd0266": {
+  "q": "Berapa selisih Kas dan Setara Kas Awal Tahun PT Bank Tabungan Negara (Persero) Tbk pada Laporan Tahunan 2024 antara tahun 2024 dan 2023?",
+  "pages": [
+   [
+    "btn_2024",
+    898
+   ]
+  ]
+ },
+ "bd0353": {
+  "q": "Berdasarkan Peraturan Anggota Dewan Gubernur Nomor 22 Tahun 2026, peraturan tersebut merupakan perubahan atas Peraturan Anggota Dewan Gubernur Nomor berapa?",
+  "pages": [
+   [
+    "bi_padg_22_2026",
+    1
+   ],
+   [
+    "bi_padg_22_2026",
+    2
+   ]
+  ]
+ },
+ "bd0354": {
+  "q": "Berdasarkan PBI Nomor 3 Tahun 2023, kepada siapa konsumen dapat menyampaikan pengaduan apabila tidak menyepakati hasil penanganan dan penyelesaian yang dilakukan oleh Penyelenggara?",
+  "pages": [
+   [
+    "bi_pbi_3_2023__ringkasan",
+    6
+   ]
+  ]
+ },
+ "bd0367": {
+  "q": "Berdasarkan SEOJK Nomor 26/SEOJK.03/2016, sejak posisi bulan apakah kewajiban pemenuhan CEMA minimum paling sedikit Rp1 triliun mulai berlaku?",
+  "pages": [
+   [
+    "ojk_seojk_26_2016",
+    8
+   ]
+  ]
+ },
+ "bd0369": {
+  "q": "Berdasarkan Peraturan Bank Indonesia Nomor 11 Tahun 2023, pemeriksaan langsung kepada Bank penerima KLM dapat dilakukan oleh Bank Indonesia bersama dengan lembaga apa?",
+  "pages": [
+   [
+    "bi_pbi_11_2023",
+    11
+   ]
+  ]
+ },
+ "bd0375": {
+  "q": "Berdasarkan POJK Nomor 17 Tahun 2023, jika jumlah anggota Dewan Komisaris adalah 3 (tiga) orang, berapa jumlah minimal Komisaris Independen?",
+  "pages": [
+   [
+    "ojk_pojk_17_2023",
+    30
+   ]
+  ]
+ },
+ "bd0380": {
+  "q": "Berdasarkan POJK Nomor 34/POJK.03/2016, sejak tanggal berapa Bank wajib membentuk tambahan modal berupa Countercyclical Buffer?",
+  "pages": [
+   [
+    "ojk_pojk_34_2016",
+    10
+   ]
+  ]
+ },
+ "bd0387": {
+  "q": "Berdasarkan POJK Nomor 11/POJK.03/2022 Pasal 49, melalui apa permohonan izin penyediaan jasa TI disampaikan secara daring?",
+  "pages": [
+   [
+    "ojk_pojk_11_2022",
+    28
+   ]
+  ]
+ },
+ "bd0388": {
+  "q": "Berdasarkan PADG No. 23 Tahun 2025, berapa sisa jangka waktu paling singkat untuk pembiayaan yang diterima oleh BUS atau UUS yang digunakan sebagai dasar perhitungan RIM Syariah?",
+  "pages": [
+   [
+    "bi_padg_23_2025",
+    13
+   ]
+  ]
+ }
 }

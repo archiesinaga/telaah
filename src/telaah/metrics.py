@@ -1,5 +1,37 @@
+import json
 import re
 from decimal import ROUND_DOWN, ROUND_HALF_UP, Decimal, InvalidOperation
+from pathlib import Path
+
+
+def load_extra_gold(path: Path, questions: list[dict]) -> dict[str, list[tuple[str, int]]]:
+    """Extra gold pages (eval/bench/extra_gold.py): {id: {"q": question text, "pages": [[doc, page], ...]}}.
+    The text is stored because a rebuilt question file renumbers ids, and id-only keys then silently put pages on
+    neighbour questions (found 2026-11-17: 307 shifted dev ids). Raises if any entry's text does not match the
+    question with that id; `questions` must be the whole file, not a --types/--ids subset."""
+    if not path.exists():
+        return {}
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    text = {q["id"]: q["question"] for q in questions}
+    bad = [i for i, e in raw.items() if not isinstance(e, dict) or text.get(i) != e.get("q")]
+    if bad:
+        raise ValueError(f"{path.name}: {len(bad)} entries do not match their question id (e.g. {bad[:5]}); "
+                         f"re-key them with: python eval/bench/extra_gold.py --remap")
+    return {i: [(d, int(p)) for d, p in e["pages"]] for i, e in raw.items()}
+
+
+def remap_extra_gold(raw: dict, questions: list[dict]) -> tuple[dict, list[str]]:
+    """Re-key extra gold entries by their stored question text. Returns (new file content, dropped old ids):
+    entries whose question is no longer in the file are dropped."""
+    by_text = {q["question"]: q["id"] for q in questions}
+    out, dropped = {}, []
+    for i, e in raw.items():
+        new_id = by_text.get(e.get("q")) if isinstance(e, dict) else None
+        if new_id is None:
+            dropped.append(i)
+        else:
+            out[new_id] = e
+    return dict(sorted(out.items())), dropped
 
 
 def recall_at_k(retrieved: list[tuple[str, int]], gold: list[tuple[str, int]], k: int = 5) -> float:

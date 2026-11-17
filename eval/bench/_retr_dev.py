@@ -6,7 +6,8 @@ from retrieval_eval import VARIANTS
 from telaah.metrics import recall_at_k
 from telaah.retrieve import retrieve
 
-extra = json.loads((HERE / "extra_gold_dev.json").read_text(encoding="utf-8"))
+from telaah.metrics import load_extra_gold
+extra = load_extra_gold(HERE / "extra_gold_dev.json", read_jsonl(HERE / "dev.jsonl"))
 rows = [q for q in read_jsonl(HERE / "dev.jsonl") if q["answerable"] and q["source"] != "seed"
         and q["type"] in {"text_fact", "table_lookup", "calculation", "regulation"}]
 for name in sys.argv[1:]:

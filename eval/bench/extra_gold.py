@@ -5,6 +5,10 @@ correct answer citing another page counts as recall 0 / citation 0. This adds th
 
     .venv/Scripts/python eval/bench/extra_gold.py                    # writes extra_gold_dev.json, prints stats
     .venv/Scripts/python eval/bench/extra_gold.py --rescore <run.json>   # citation_acc with extra gold
+    .venv/Scripts/python eval/bench/extra_gold.py --remap    # after dev.jsonl is rebuilt: re-key entries by question text
+
+Format: {id: {"q": question text, "pages": [[doc, page], ...]}}. Eval refuses the file if a text no longer matches
+its id (see telaah.metrics.load_extra_gold). Note: a plain rebuild (no flag) overwrites hand edits (bd0224 added).
 
 Dev only: reads dev.jsonl, never test. Seed questions (tuned) and cross_doc/unanswerable are skipped.
 A page counts when it has the gold answer text AND enough of the question's content words (same fact, not a
@@ -16,6 +20,7 @@ import re
 
 from common import HERE, pages, read_jsonl
 from telaah.answer import parse_citations
+from telaah.metrics import load_extra_gold, remap_extra_gold
 
 OUT = HERE / "extra_gold_dev.json"
 MAX_EXTRA = 5  # more matches than this means a generic gold ("Dewan Komisaris", "2 kali"): drop, not a duplicated fact
@@ -69,18 +74,32 @@ def find(q: dict) -> list[list]:
     return found
 
 
-def build() -> dict[str, list]:
+def build() -> dict[str, dict]:
     rows = [q for q in read_jsonl(HERE / "dev.jsonl")
             if q["answerable"] and q["source"] != "seed" and q["type"] in {"text_fact", "table_lookup", "calculation", "regulation", "chart"}]
-    extra = {q["id"]: f for q in rows if 0 < len(f := find(q)) <= MAX_EXTRA}
-    OUT.write_text(json.dumps(extra, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"{len(rows)} dev questions checked, {len(extra)} gained pages (<= MAX_EXTRA each), {sum(map(len, extra.values()))} pages added")
+    extra = {q["id"]: {"q": q["question"], "pages": f} for q in rows if 0 < len(f := find(q)) <= MAX_EXTRA}
+    write(extra)
+    print(f"{len(rows)} dev questions checked, {len(extra)} gained pages (<= MAX_EXTRA each), "
+          f"{sum(len(e['pages']) for e in extra.values())} pages added")
     return extra
 
 
+def write(extra: dict) -> None:
+    OUT.write_text(json.dumps(extra, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+
+
+def remap() -> None:
+    raw = json.loads(OUT.read_text(encoding="utf-8"))
+    new, dropped = remap_extra_gold(raw, read_jsonl(HERE / "dev.jsonl"))
+    moved = sum(1 for i, e in raw.items() if i not in dropped and new.get(i) is not e)
+    write(new)
+    print(f"{len(new)} entries kept ({moved} re-keyed), {len(dropped)} dropped (question gone): {dropped}")
+
+
 def rescore(run_path: str) -> None:
-    extra = json.loads(OUT.read_text(encoding="utf-8"))
-    dev = {q["id"]: q for q in read_jsonl(HERE / "dev.jsonl")}
+    dev_rows = read_jsonl(HERE / "dev.jsonl")
+    extra = load_extra_gold(OUT, dev_rows)
+    dev = {q["id"]: q for q in dev_rows}
     res = json.load(open(run_path, encoding="utf-8"))["results"]
     by: dict[str, list] = {}
     for r in res:
@@ -96,5 +115,11 @@ def rescore(run_path: str) -> None:
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--rescore", help="eval/runs/bench-dev-*.json")
+    ap.add_argument("--remap", action="store_true", help="re-key entries by question text after a dev rebuild")
     a = ap.parse_args()
-    rescore(a.rescore) if a.rescore else build()
+    if a.remap:
+        remap()
+    elif a.rescore:
+        rescore(a.rescore)
+    else:
+        build()

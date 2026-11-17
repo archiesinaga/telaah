@@ -11,7 +11,8 @@ traces = {}
 for f in sorted((ROOT / "data/agent_traces").glob("2026102[12].jsonl")):
     for t in read_jsonl(f):
         traces[t["question"]] = t  # latest wins
-extra = json.loads((HERE / "extra_gold_dev.json").read_text(encoding="utf-8"))
+from telaah.metrics import load_extra_gold
+extra = load_extra_gold(HERE / "extra_gold_dev.json", read_jsonl(HERE / "dev.jsonl"))
 
 
 def digits(s): return {re.sub(r"\D", "", n) for n in re.findall(r"\d[\d.,]*\d|\d", s)}

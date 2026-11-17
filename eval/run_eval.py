@@ -8,7 +8,7 @@ from pathlib import Path
 from telaah import config
 from telaah.answer import ask
 from telaah.judge import judge_correctness, judge_faithfulness
-from telaah.metrics import citation_accuracy, numeric_match, recall_at_k_groups, refusal_correct
+from telaah.metrics import citation_accuracy, load_extra_gold, numeric_match, recall_at_k_groups, refusal_correct
 
 HERE = Path(__file__).parent
 KEYS = ["recall@5", "citation_acc", "refusal_acc", "correct_numeric", "correct_judge", "faithful", "latency_s"]
@@ -24,6 +24,8 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
     `workers` > 1 runs that many questions at once (API-bound, so threads help); latency_s is then wall time
     under contention, not comparable with a workers=1 run."""
     rows = [json.loads(l) for l in path.read_text(encoding="utf-8").splitlines() if l.strip()]
+    # duplicated-fact pages, see bench/extra_gold.py; checked against the whole file before any filtering
+    extra_gold = load_extra_gold(path.with_name(f"extra_gold_{path.stem}.json"), rows)
     if types:
         rows = [q for q in rows if q["type"] in types]
     if ids:
@@ -45,8 +47,6 @@ def run(path: Path = HERE / "seed_questions.jsonl", agent: bool = False, types: 
         prefix += "norag-"  # bench-test-*: never read per question
     partial = Path(resume) if resume else out_dir / f"{prefix}{time.strftime('%Y%m%d-%H%M%S')}.partial.jsonl"
     results = [json.loads(l) for l in partial.read_text(encoding="utf-8").splitlines() if l.strip()] if resume else []
-    extra_path = path.with_name(f"extra_gold_{path.stem}.json")  # duplicated-fact pages, see bench/extra_gold.py
-    extra_gold = json.loads(extra_path.read_text(encoding="utf-8")) if extra_path.exists() else {}
     finished = {r["id"] for r in results}
     print(f"{len(finished)} questions already done, {len(rows) - len(finished)} to run; progress file {partial}", flush=True)
     lock = threading.Lock()
