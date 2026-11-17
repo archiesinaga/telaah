@@ -32,9 +32,9 @@ def rev_file(split): return HERE / f"reviewed_{split}.jsonl"
 def user_file(split): return HERE / f"user_{split}.jsonl"
 
 
-def queue(split: str) -> list[dict]:
+def queue(split: str, only: str = "all") -> list[dict]:
     done = {r["cid"] for r in read_jsonl(rev_file(split))}
-    rows = [c for c in read_jsonl(cand_file(split)) if c["cid"] not in done]
+    rows = [c for c in read_jsonl(cand_file(split)) if c["cid"] not in done and only in ("all", c["type"])]
     return sorted(rows, key=lambda c: (bool(c["problems"]), c["cid"]))  # clean drafts first
 
 
@@ -66,8 +66,8 @@ def also_on(answer: str, gold: list) -> str:
     return ("Same figure also on: " + ", ".join(hits[:10])) if hits else "Figure not printed on other pages."
 
 
-def show(split: str):
-    q = queue(split)
+def show(split: str, only: str = "all"):
+    q = queue(split, only)
     if not q:
         return [None, None, "", "No drafts left in this split.", None, "", "", True, "", "[]", None, "", "", progress(split)]
     c = q[0]
@@ -124,6 +124,7 @@ with gr.Blocks(title="Telaah benchmark review") as app:
     with gr.Tab("Review drafts"):
         with gr.Row():
             split = gr.Radio(["dev", "test"], value="dev", label="Split")
+            only = gr.Dropdown(["all"] + TYPES, value="all", label="Show type")
             prog = gr.Markdown()
         with gr.Row():
             with gr.Column(scale=3):
@@ -159,24 +160,25 @@ with gr.Blocks(title="Telaah benchmark review") as app:
         u_msg = gr.Markdown()
 
     fields = [img_a, img_b, cid, info, typ, question, answer, numeric, gold_pages, figs, op, evidence, hint, prog]
-    inputs = [split, cid, typ, question, answer, numeric, gold_pages, figs, op]
-    app.load(show, split, fields)
-    split.change(show, split, fields)
+    inputs = [split, only, cid, typ, question, answer, numeric, gold_pages, figs, op]
+    app.load(show, [split, only], fields)
+    split.change(show, [split, only], fields)
+    only.change(show, [split, only], fields)
     op.change(preview, [figs, op], computed)
     figs.change(preview, [figs, op], computed)
 
-    def _accept(s, c, *rest):
+    def _accept(s, f, c, *rest):
         if c:
             decide(s, c, "accept", None, *rest)
-        return show(s)
+        return show(s, f)
 
-    def _reject(s, c, r):
+    def _reject(s, f, c, r):
         if c:
             decide(s, c, "reject", r, None, "", "", False, "", "[]", None)
-        return show(s)
+        return show(s, f)
 
     accept.click(_accept, inputs, fields)
-    reject.click(_reject, [split, cid, reason], fields)
+    reject.click(_reject, [split, only, cid, reason], fields)
 
     def _add(s, q, why):
         if not q.strip():

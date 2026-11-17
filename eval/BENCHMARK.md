@@ -74,3 +74,17 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   Gemini drafts on test pages (round 2) and/or the user.
   Dev now 329/450: text_fact 90/90, cross_doc 68/68, unanswerable 22/22; short: table_lookup 34, chart 36,
   calculation 41, regulation 10.
+- 2026-11-16: TEST split reviewed by Claude at the user's request (Claude in Chrome, review_app.py), contrary to rules 1-2.
+  All 117 decisions in `reviewed_test.jsonl` so far are Claude's (text_fact 32/30, table_lookup 30/30, chart 23/23,
+  regulation 15/15; calculation and cross_doc not started). Claude read test questions, golds and pages, so test v1 is
+  no longer unseen by Claude sessions: either re-review these 117 by the user / write fresh test questions before quoting
+  test numbers as held-out, or report test v1 with this caveat. `review_app.py` got a "Show type" filter (backup:
+  `review_app.py.bak_pre_filter`).
+- 2026-11-16: dev builds to 439/450 (`build.py`, dev.jsonl sha256 69e220ec…, unchanged): text_fact 90/90,
+  calculation 68/68, cross_doc 68/68, regulation 45/45, unanswerable 22/22; short table_lookup 84/90 and chart 62/67,
+  with no dev candidates left. `sample_pages.py --round 3` added (dev only, never reusing round 1/2 pages):
+  `pages3.jsonl` = 30 table_lookup + 58 chart dev pages, to be drafted with `draft.py --pages pages3.jsonl`.
+- 2026-11-16 (later): round 3 drafted by the user (`draft.py --pages pages3.jsonl`: 46 table_lookup, 20 chart dev
+  drafts). Claude reviewed 14 (`bulk_review.py`, decisions in `bench/_decisions_r3.json`; tables checked against the
+  parsed page, charts against page images rendered at 170 dpi), all accepted; the other 52 left undecided.
+  Dev complete: 450/450 (table_lookup 90/90, chart 67/67). dev.jsonl sha256 0250341f91e95052dde16886475cba3c8e953649fb90fa8d0211f536a43898f2

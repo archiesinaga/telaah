@@ -100,23 +100,30 @@ def pairs(n: int, used: set, rng: random.Random, test_only: bool = False) -> lis
 
 
 COUNT2 = {"text_fact": 0, "table_lookup": 60, "calculation": 100, "chart": 180, "regulation": 30, "cross_doc": 60}
+# round 3 (2026-11-16): dev only, to fill the last dev gaps (table_lookup 6, chart 5); test pages are dropped
+COUNT3 = {"text_fact": 0, "table_lookup": 40, "calculation": 0, "chart": 80, "regulation": 0, "cross_doc": 0}
 
 
 def main() -> None:
     """Round 1 (default) or `--round 2`: new pages for the types still short, never reusing a page of round 1.
     Round 2 cross_doc pairs are test-only (dev cross_doc comes from the facts table, crossdoc_from_facts.py)."""
-    rnd = 2 if "--round" in sys.argv and sys.argv[sys.argv.index("--round") + 1] == "2" else 1
+    rnd = int(sys.argv[sys.argv.index("--round") + 1]) if "--round" in sys.argv else 1
     rng = random.Random(SEED + (rnd - 1) * 2)
     used: set = set()
     out_path, prefix, count = OUT, "p", COUNT
     if rnd == 2:
         used = {tuple(dp) for r in read_jsonl(OUT) for dp in r["pages"]}
         out_path, prefix, count = HERE / "pages2.jsonl", "q", COUNT2
+    if rnd == 3:
+        used = {tuple(dp) for f in ("pages.jsonl", "pages2.jsonl") for r in read_jsonl(HERE / f) for dp in r["pages"]}
+        out_path, prefix, count = HERE / "pages3.jsonl", "r", COUNT3
     pools = kind_pools()
     rows = []
     for kind, pool in pools.items():
         rows += [{"kind": kind, "pages": [dp], "split": split_of(dp)} for dp in round_robin(pool, count[kind], used, rng)]
     rows += pairs(count["cross_doc"], used, rng, test_only=rnd == 2)
+    if rnd == 3:
+        rows = [r for r in rows if r["split"] == "dev"]
     with open(out_path, "w", encoding="utf-8") as f:
         for i, r in enumerate(rows, 1):
             f.write(json.dumps({"id": f"{prefix}{i:04d}", **r}, ensure_ascii=False) + "\n")

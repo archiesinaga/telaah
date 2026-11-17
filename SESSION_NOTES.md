@@ -1320,3 +1320,58 @@ Roadmap week 9 deliverable. Needs the user's OK before each step; step 5 (publis
 ## Reminders
 - Ollama must be running (`ollama serve` or the app) before any eval: "Connection error / WinError 10061" = Ollama not started. Start evals from `C:\Users\User\genai-project`.
 - Restore sleep if not done: `powercfg /change standby-timeout-ac 10`.
+
+# Update — 2026-11-16: benchmark review session (Claude in Chrome + linked folder)
+## Done
+- `eval/bench/review_app.py`: new "Show type" dropdown (filter the queue to one type; decisions still go to reviewed_{split}.jsonl). Backup `review_app.py.bak_pre_filter`.
+- TEST split reviewed by Claude at the user's request (against BENCHMARK.md rules 1-2; recorded in BENCHMARK.md Status). 117 decisions: text_fact 32/30 (2 chart drafts retyped as text_fact), table_lookup 30/30, chart 23/23, regulation 15/15; calculation and cross_doc NOT started (cross_doc has only 14 test drafts for a quota of 22). Questions rewritten without page numbers, answers in Indonesian format, extra gold pages added where the same figure/meaning is on other pages. 4 extra chart accepts undone (backup `_reviewed_test.backup_before_undo.jsonl`). Consequence: test v1 is "Claude-seen".
+- Dev completed: `sample_pages.py --round 3` (dev only, no reuse of rounds 1/2; backup `_sample_pages.py.bak_pre_r3`) -> `pages3.jsonl` (30 table_lookup + 58 chart). User drafted it (66 drafts). Claude accepted 14 via `bulk_review.py` (`_decisions_r3.json`; 52 left undecided). `build.py`: dev 450/450, dev.jsonl sha256 0250341f91e95052dde16886475cba3c8e953649fb90fa8d0211f536a43898f2 (11 new questions vs the 439-question file; old copy `_dev.jsonl.bak_20261116`).
+## In progress
+- User started the full dev eval: `.venv/Scripts/telaah eval --router --file eval/bench/dev.jsonl` (first attempt 14:42 failed: Ollama not running; `bench-dev-20261116-144253.partial.jsonl` is empty and deletable). Note: these are NOT the base-run settings of 075716 (no LLM_MODEL/JUDGE_MODEL/TELAAH_TRANSCRIPTS/--agent/--judge-on-fail); for comparability run the same settings, or only the 11 new ids with `--ids`.
+## Next
+1. When the eval finishes: Claude summarises per-type scores from `eval/runs/bench-dev-*.json` and compares with 075716.
+2. Test split decision (user): (a) user re-checks the 117 Claude decisions and reports test v1 with the "Claude-seen" caveat, (b) fresh test split (new test pages, Gemini drafts, user review) — Claude's recommendation, or (c) accept as is with caveat. Do not continue calculation/cross_doc on the current test split.
+3. Deletable scratch: `eval/bench/_tmp_render/` (page renders), the backups above once satisfied.
+## Reminders
+- Claude cannot run commands in the Windows terminal (computer use is click-only for terminals) and the linked VM/cloud cannot reach Gemini or local Ollama: drafting and evals are run by the user.
+
+# Update — 2026-11-16 (evening): full dev eval 450/450 finished
+## Result (`eval/runs/bench-dev-20261116-144623.json`, dev.jsonl 450 q, router + agent, `qwen2.5:7b-gpu`, 19.7 s/q)
+- This is the DEV split (not the blind test). Overall: recall@5 0.769, citation 0.582, refusal 0.918, numeric 0.534, judge 0.811, faithful 0.827.
+- vs base run 075716 (439 q): recall 0.777, citation 0.629, refusal 0.918, numeric 0.566, judge 0.717, faithful 0.837, 16.8 s/q.
+- Caveats: judge and faithful are NOT comparable (base used `--judge-on-fail`, this run did not; the judge jump 0.717 -> 0.811 is mostly that). Dev grew by 11 questions (table 84 -> 90, chart 62 -> 67). Base predates the 11-13 rule fixes (eae09ff).
+## By type (this run; base 075716 in brackets)
+- calculation n=68: recall 0.662 (0.691), citation 0.265 (0.338), refusal 0.794 (0.824), numeric 0.265 (0.309).
+- chart n=67: recall 0.672 (0.758), citation 0.418 (0.532), refusal 0.806 (0.887), numeric 0.627 (0.742).
+- cross_doc n=68: recall 0.985 (0.985), citation 0.926 (0.926), refusal 0.971 (0.985), numeric 0.267 (0.283).
+- regulation n=45: recall 0.933 (0.778), citation 0.644 (0.533), refusal 0.978 (0.911), numeric 1.0 (1.0). Gain from the 11-13 rule fixes.
+- table_lookup n=90: recall 0.667 (0.702), citation 0.611 (0.714), refusal 0.944 (0.893), numeric 0.678 (0.667).
+- text_fact n=90: recall 0.722 (0.711), citation 0.544 (0.589), refusal 0.978 (0.967), numeric 0.755 (0.796).
+- unanswerable n=22: refusal 1.0 (1.0).
+## Reading
+- Regulation clearly up; unanswerables unchanged at 22/22. Chart numeric/refusal and table citation are down; 5 of the new chart questions may explain part of the chart drop. Calculation moves within the known +-1-2 question noise.
+- Not diagnosed yet: which questions flipped right -> wrong per type (needs a per-id diff against 075716, mapping new ids via `_dev.jsonl.bak_20261116`).
+## Next
+1. Optional: re-run with base-run settings (`--judge-on-fail`) for comparable judge/faithful, or diff per id for chart/table.
+2. Test-split decision (a/b/c in the 11-16 review entry) still open. Deletable: `eval/runs/bench-dev-20261116-144253.partial.jsonl` (empty).
+
+## Per-question diff vs base 075716 (2026-11-16 18:40; matched by question text, 439/439 mapped, 14 new ids: 7 table, 7 chart)
+- Numeric flips: 14 wrong->right, 24 right->wrong. Chart 4 / 11, calculation 3 / 6, table 7 / 4, text 0 / 2, cross_doc 0 / 1.
+- Main cause: this run was NOT started with `TELAAH_TRANSCRIPTS=1` (base was). Evidence: chart recall drops on 8 questions (bd0165 bd0169 bd0191 bd0202 bd0203 bd0207 ...) and all 8 chart gold pages checked have a file in `data/page_transcripts/`; 8 chart questions now refuse with the gold page in or near the top 5. Also no `--judge-on-fail` (judge None 59 vs 195 in base), so judge/faithful are not comparable.
+- Regulation gains (recall +7, refusal +3, citation +7) = the 11-13 rule fixes (eae09ff), as expected.
+- Other losses look like 7B noise: calc agent answers "0" (bd0216, bd0252), format "1.669,55 juta" vs gold 1.669.546 (bd0249), over-refusals (bd0220, bd0229, bd0306).
+- Verdict: no code regression shown; this run is not comparable with 075716. Fair rerun = base settings (LLM_MODEL/JUDGE_MODEL qwen2.5:7b-gpu, TELAAH_TRANSCRIPTS=1, `--agent --router --judge-on-fail`), ~2.5 h.
+
+# Update — 2026-11-16 (19:50): fair 450-question rerun PAUSED at 268/450 (resume later)
+- Rerun with the base-run settings of 075716 started 18:36: progress file `eval/runs/bench-dev-20261116-183616.partial.jsonl` (268 questions done; the user stops it with Ctrl+C). Log `eval/bench/eval_dev450.log`.
+- To resume (new PowerShell window in `C:\Users\User\genai-project`, Ollama running; the env lines are REQUIRED again, otherwise the second half runs with other settings):
+  `$env:LLM_MODEL="qwen2.5:7b-gpu"; $env:JUDGE_MODEL="qwen2.5:7b-gpu"; $env:TELAAH_TRANSCRIPTS="1"`
+  `.venv\Scripts\telaah.exe eval --file eval\bench\dev.jsonl --agent --router --judge-on-fail --resume eval\runs\bench-dev-20261116-183616.partial.jsonl 2>&1 | Tee-Object -Append eval\bench\eval_dev450.log`
+  Expect ~268 done, ~182 to run (~1-1.5 h).
+- When finished: Claude compares the final `bench-dev-20261116-183616.json` with 075716 per type and per question (match by question text via `_dev.jsonl.bak_20261116`; 14 ids are new). The earlier no-transcripts run `bench-dev-20261116-144623` is not comparable (see the diff entry above).
+
+# Update — 2026-11-17: fair 450-question rerun finished + per-id diff vs base 075716
+- Run `eval/runs/bench-dev-20261116-183616.json` (dev, base-run settings, resumed at 295). Overall recall 0.782, citation 0.607, refusal 0.938, numeric 0.557, judge 0.725, faithful 0.854, 17.3 s/q. Unanswerables 22/22. Per type numeric: calc 0.309, chart 0.687, cross_doc 0.283, regulation 1.0, table 0.667, text 0.776.
+- Per-id diff on 436 matched questions (matched by text; 3 base questions no longer in dev): numeric 6 wrong->right (table 4, calc 2), 6 right->wrong (bd0052, bd0092, bd0120, bd0156, bd0217, bd0229) = noise. Refusal 13 better (regulation 3, table 4, calc 4) vs 5 worse. Recall 11 up (regulation 7) / 10 down. Citation 15 up (regulation 8) / 22 down (table 9, calc 5, chart 4): not diagnosed.
+- 14 new questions: table 2/7 numeric, chart 3/7 -> they explain the chart numeric drop 0.74 -> 0.687 (matched chart: 0 up, 1 down). No code regression; rule fixes (eae09ff) visible in regulation + refusal.
+- 450-question dev baseline for later comparisons = this run.
