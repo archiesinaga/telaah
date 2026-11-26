@@ -1,3 +1,5 @@
+import pytest
+
 from telaah import facts
 
 
@@ -84,6 +86,7 @@ def test_scope_below_the_bank_is_not_answered_from_the_table():
     assert facts.parse_question("Total aset BTN cabang Natuna 2025") is None
 
 
+@pytest.mark.requires_corpus
 def test_step_year_must_be_asked_by_the_question():
     q = "Berapa laba bersih BRI tahun 2024 menurut laporan tahunan 2024, dan berapa angka 2024 setelah penyajian kembali di laporan tahunan 2025?"
     # the slipped step is corrected to the one asked year, read from the step's own report
@@ -121,6 +124,7 @@ def test_year_headers_with_footnote_marks():
     assert facts._header_years(["x", "2025", "2024 *)", "YoY (%)", "2024", "2023"]) == {1: 2025, 2: 2024, 5: 2023}
 
 
+@pytest.mark.requires_corpus
 def test_restatement_needs_two_named_reports():
     q = "Total aset BRI akhir 2024 menurut Laporan Tahunan 2024 dan setelah disajikan kembali di Laporan Tahunan 2025?"
     rs = facts.restatement(q)
@@ -147,6 +151,7 @@ def test_requirement_and_component_rows_are_not_the_ratio():
     assert facts.indicator_of("Rasio Kewajiban Penyediaan Modal Minimum (KPMM)") == "car"
 
 
+@pytest.mark.requires_corpus
 def test_ratio_sheet_laba_over_aset():
     q = ("Di antara BRI, Bank Mandiri, dan BCA, bank mana yang memiliki laba tahun berjalan konsolidasian 2025 (total) "
          "dibagi total aset akhir 2025 tertinggi? Gunakan data dari Laporan Tahunan 2025.")

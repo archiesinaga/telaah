@@ -170,6 +170,8 @@ python eval/check_facts.py                            # facts table vs the gold 
 pytest
 ```
 
+A fresh clone runs most tests; 7 that read the locally built corpus (`data/processed`, `data/facts.sqlite`, both git-ignored) are skipped until you build it (`corpus/README.md`, then `python -m telaah.facts`).
+
 - **Facts coverage:** `python -m telaah.facts --coverage` lists, per bank report and indicator, the years of the report's five-year span that the table lacks (the build prints it too). Most remaining gaps are real (a bank does not publish CET1 for every year); others are cells the PDF parser left empty (Mandiri 2025 total assets 2022, BTN 2025 NIM 2021).
 - **Held-out tasks:** `python eval/run_agent_tasks.py --mode router --tasks heldout_tasks.jsonl`. Read `eval/HELDOUT.md` first: set #1 is spent.
 - **Resumable runs:** each agent task is appended to a `.partial.jsonl`; after a crash or an API quota error, rerun with `--resume <that file>`.

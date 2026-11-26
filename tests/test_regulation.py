@@ -1,6 +1,9 @@
+import pytest
+
 from telaah import regulation
 
 
+@pytest.mark.requires_corpus
 def test_bank_fact_ignores_years_of_the_regulation_reference():
     b = regulation.bank_fact("Berapa KPMM Insentif menurut PADG 23 Tahun 2025, dan selisih KPMM Bank Mandiri 2025?")
     assert b[:3] == ("mandiri", "car", 2025)
@@ -23,6 +26,7 @@ def test_threshold_from_a_sentence_naming_the_regulation_on_a_retrieved_page(mon
     assert regulation.find_threshold(ans, ["reg"], [("reg", 8), ("reg", 7)], 19.02) == ("14", "reg", 7)
 
 
+@pytest.mark.requires_corpus
 def test_states_pct_needs_the_percent_form():
     assert regulation.states_pct("ojk_pojk_11_2016", 7, "14")
     assert regulation.states_pct("ojk_pojk_11_2016", 14, "6")

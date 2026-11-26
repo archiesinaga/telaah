@@ -20,6 +20,7 @@ def test_number_variants():
     assert "5.8" in tools.number_variants("5,80")
 
 
+@pytest.mark.requires_corpus
 def test_check_citation_and_pages():
     doc = tools.list_documents()[0]
     page = next(iter(tools._pages(doc)))
