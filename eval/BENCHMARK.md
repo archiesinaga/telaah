@@ -163,3 +163,19 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   `*.before_numeric_fix.json` (git-ignored). Test v2 is not spent: no system change, only the scorer. Remaining
   dev cross_doc misses (about 19 of 60): ~12 answer only the difference and the winner without the two values the gold
   lists; ~4 wrong page or value for bank-only ratios (bd0306 CIR, bd0309 LCR, bd0343 unit/rounding).
+- 2026-11-26 (late): **cross_doc fix on dev: comparison answered by a template** (`facts.pair_comparison`, used in the
+  agent's `compute`/`compose`; commit after e12e094). Cause found on dev run 183616: of the dev cross_doc answers scored
+  wrong, about 12 of 19 were right but gave only the gap and the winner, while the gold lists both values too. When a
+  question compares two banks on one indicator and year and both figures come from the facts table, the answer is now
+  written in Python: both values with their pages, the gap of the printed figures and which bank is higher, with the
+  calculation shown ("Selisih 548.542 miliar Rupiah (2.135.371 - 1.586.829)"). No LLM call for those questions. Questions
+  with growth, mean, sum, ratio, regulation or threshold words, a different year per bank, or any RAG step are left to
+  the old path (guard `PAIR_NOT_RE`). Offline replay on the stored traces first: 62 triggered, all cross_doc, 17 wrong ->
+  right, none right -> wrong. Rerun of the 68 dev cross_doc questions (base-run settings, `bench-dev-20261126-154327`):
+  numeric 0.683 -> **0.967**, judge 0.96 -> 1.0, faithful 0.809 -> 1.0, 2.8 s/q (was 10.7); recall and refusal unchanged;
+  17 numeric up, 0 down; citation 1 up, 1 down (q038: a RAG step cited another BTN page, run-to-run noise). Still wrong:
+  bd0306 (CIR) and bd0309 (LCR), both RAG steps with the wrong page or value. DEV only: dev cross_doc golds were generated
+  from the same facts table, so this is optimistic by construction. Test v2 was NOT re-run and was not read: its
+  cross_doc numbers (numeric 0.50, citation 0.10) were measured before this change, and the rule stands that a change
+  motivated by a test result spends the split (this one was motivated by dev). A new test split is needed before
+  quoting test numbers for this code.

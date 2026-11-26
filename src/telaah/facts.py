@@ -524,6 +524,58 @@ def answer_restatement(q: str) -> dict | None:
             "refused": False}
 
 
+def _pair_key(step: dict) -> tuple[str, str, int] | None:
+    """(bank, indicator, year) of a one-figure plan step: the bank from the fact's report id, the indicator from
+    the step text ("BRI npl_gross 2021" or "Berapa NIM BRI tahun 2025?")."""
+    m = REPORT_RE.match(step["fact"]["doc"])
+    ind = (step["q"].split() or [""])[-2:-1]
+    if m and ind and ind[0] in INDICATORS and step["q"].split()[-1].isdigit():
+        return m.group(1), ind[0], int(step["q"].split()[-1])
+    p = parse_step(step["q"])
+    return (p[0], p[1], p[2]) if p else None
+
+
+PAIR_RE = re.compile(r"selisih|perbedaan|beda|bandingkan|perbandingan|lebih (?:tinggi|besar|rendah|kecil)|mana yang", re.I)
+PAIR_NOT_RE = re.compile(r"perubahan|pertumbuhan|kenaikan|penurunan|naik|turun|tren|rata-rata|gabungan|"
+                         r"jumlah|berapa kali|dibagi|rasio terhadap|persentase dari|apakah|PADG|POJK|PBI|SEOJK|ambang|minimum|batas", re.I)
+
+
+def pair_comparison(q: str, steps: list[dict]) -> list[str] | None:
+    """Two banks, one indicator, one year, both figures read from the table: the comparison the question asks for,
+    written in Python (7B answers kept only the gap and the winner: 12 of the 19 wrong dev cross_doc answers).
+    Lines: both values with their pages, the gap, and which bank is higher. None -> the normal path."""
+    if not PAIR_RE.search(q) or PAIR_NOT_RE.search(q) or len(steps) != 2:
+        return None
+    if not all(st.get("status") == "ok" and st.get("fact") for st in steps):
+        return None
+    parsed = [_pair_key(st) for st in steps]
+    if not all(parsed):
+        return None
+    (b0, i0, y0), (b1, i1, y1) = parsed
+    f0, f1 = steps[0]["fact"], steps[1]["fact"]
+    if b0 == b1 or i0 != i1 or f0["year"] != f1["year"] or f0["year"] != y0 or y0 != y1:
+        return None
+    pct = INDICATORS[i0][0] == "pct"
+    if (f0["unit"] == "pct") != pct or (f1["unit"] == "pct") != pct:
+        return None
+    m = ASK_UNIT_RE.search(q)
+    tgt = UNIT[m.group(1).lower()] if m else "tn"
+    dec = 2 if (pct or tgt == "tn") else 0
+    val = (lambda f: f["value"]) if pct else (lambda f: to_unit(f, tgt))
+    one = (lambda f: shown(f)) if pct else (lambda f: f"Rp{fmt(val(f), dec)} {UNIT_TXT[tgt].split()[0]}")
+    v0, v1 = round(val(f0), dec), round(val(f1), dec)  # the gap of the figures as printed, so the three numbers agree
+    label, year = f0["label"], f0["year"]
+    unit = "poin persen" if pct else UNIT_TXT[tgt]
+    head = (f"{label} tahun {year}: {BANK_NAME[b0]} {one(f0)} [{f0['doc']} p.{f0['page']}], "
+            f"{BANK_NAME[b1]} {one(f1)} [{f1['doc']} p.{f1['page']}].")
+    if abs(v0 - v1) < 10 ** -(dec + 1):
+        return [head, "Kedua bank mencatat angka yang sama."]
+    hi, lo = (b0, b1) if v0 > v1 else (b1, b0)
+    vh, vl = max(v0, v1), min(v0, v1)
+    return [head, f"Selisih {fmt(vh - vl, dec)} {unit} ({fmt(vh, dec)} - {fmt(vl, dec)}); "
+                  f"{BANK_NAME[hi]} lebih tinggi dibandingkan {BANK_NAME[lo]}."]
+
+
 def fmt(x: float, dec: int = 2) -> str:
     """Indonesian notation: 4249.99 -> '4.249,99', -0.5 -> '-0,50'."""
     s = f"{x:,.{dec}f}".replace(",", "_").replace(".", ",").replace("_", ".")

@@ -71,6 +71,7 @@ class State(TypedDict, total=False):
     calc: bool
     calc_result: dict | None
     derived: list[str]  # figures computed in Python from a facts sheet (facts.derive)
+    pair: bool  # derived holds the whole comparison answer (facts.pair_comparison)
     answer: str
     unsupported: list[dict]
     trace: list[dict]
@@ -305,6 +306,9 @@ def _facts(state: State) -> str:
 
 def compute(state: State) -> dict:
     t0 = time.time()
+    pair = facts.pair_comparison(state["question"], state["steps"]) if USE_FACTS else None
+    if pair:  # two table figures compared: the answer is written in Python, no calculator prompt
+        return {"calc_result": None, "derived": pair, "pair": True, "trace": _log(state, "compute", t0, pair=pair)}
     result = None
     if state.get("calc") and all(s["status"] == "ok" for s in state["steps"]):
         data = _json(_chat(_llm(), CALC_SYSTEM, f"Fakta:\n{plain_numbers(_facts(state))}\n\nPertanyaan: {state['question']}"))
@@ -318,6 +322,9 @@ def compute(state: State) -> dict:
 
 def compose(state: State) -> dict:
     t0 = time.time()
+    if state.get("pair"):
+        text = " ".join(state["derived"])
+        return {"answer": text, "trace": _log(state, "compose", t0, answer=text[:300])}
     calc = state.get("calc_result")
     extra = ""
     if calc and "value" in calc:

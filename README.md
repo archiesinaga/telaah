@@ -145,6 +145,8 @@ Reported as a mixed result on purpose: the eval gate stopped a regression that t
 
 **Scoring fix (2026-11-26).** Until then `numeric` counted `3,8%` as different from the gold `3,80%`. Dev cross-document golds are printed with two decimals, so about 27 correct answers were marked wrong; re-scored with the fixed metric the numeric score is 0.648 instead of 0.566 on the base run. Nothing in the system changed, only the scoring (`eval/rescore_numeric.py`; 1 of 100 test v2 questions was affected). All numeric numbers on this page use the fixed metric; recall, citation, refusal and judge are unchanged. The earlier numeric figures (0.566 base, 0.557 fine-tuned, 0.557 dev-450, 0.618 test) are in the git history.
 
+**Cross-document fix (dev only).** Two-bank comparisons whose figures are all in the facts table are now answered by a template instead of the 7B: both values with their pages, the gap and the winner. On the 68 dev cross-document questions numeric accuracy goes from 0.683 to 0.967 and faithfulness from 0.81 to 1.0, at 2.8 s instead of 10.7 s per question (dev golds come from the same table, so this is optimistic). The held-out test below was run before this change and has not been re-run.
+
 ### Held-out test (test v2, 100 questions)
 
 One run on a split the system was never tuned on: 100 questions on pages that were never used for tuning or for dev (20 text facts, 20 table lookups, 15 charts, 15 calculations, 12 regulations, 10 cross-document, 8 unanswerable). Same settings as the dev run (`--agent --router --judge-on-fail`, Qwen2.5-7B), code frozen at the git tag `test-v2-freeze` before the run. Run once, never repeated.
