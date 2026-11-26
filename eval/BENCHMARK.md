@@ -88,3 +88,12 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   drafts). Claude reviewed 14 (`bulk_review.py`, decisions in `bench/_decisions_r3.json`; tables checked against the
   parsed page, charts against page images rendered at 170 dpi), all accepted; the other 52 left undecided.
   Dev complete: 450/450 (table_lookup 90/90, chart 67/67). dev.jsonl sha256 0250341f91e95052dde16886475cba3c8e953649fb90fa8d0211f536a43898f2
+- 2026-11-26: **test v1 retired** (Claude-seen, see 2026-11-16). `candidates_test.jsonl`, `reviewed_test.jsonl`,
+  `test.jsonl` and the undo backup moved unopened to `eval/bench/archive_test_v1/` (git-ignored); never quote test v1
+  numbers. `user_test.jsonl` (written by the user, never seen by Claude) is kept for test v2.
+  **Test v2**: `sample_pages.py --round 4` -> `pages4.jsonl`, 209 rows, TEST pages only: text_fact 40, table_lookup 40,
+  calculation 35, chart 40, regulation 22, cross_doc 32 pairs (two banks, same report year). Excluded: every page of
+  rounds 1-3 (1183) and every page referenced anywhere in the archived test v1 files (151; 19 not already in rounds 1-3),
+  union 1202. The script prints counts only. Next: user drafts (`draft.py --pages pages4.jsonl`, ~209 requests),
+  reviews in `review_app.py` (Test, user only), adds the 8 unanswerables; `build.py`; dev.jsonl must stay 0250341f….
+  One test run at a frozen git tag with the dev-run-183616 settings; Claude reads aggregate scores only.

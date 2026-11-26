@@ -6,3 +6,4 @@ candidates_test.jsonl
 reviewed_test.jsonl
 user_test.jsonl
 _reviewed_test.backup_before_undo.jsonl
+archive_test_v1/
