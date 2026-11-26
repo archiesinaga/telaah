@@ -111,3 +111,4 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   about 1 draft per 10 pairs, so cross_doc test is written by the user (review_app "Cross-doc" tab or
   `import_cross_doc.py`; both check test page, not seen in test v1, figure printed on the page, same report year).
   Report test cross_doc as "n=10", not as a precise rate. Dev quotas unchanged (dev.jsonl must stay 0250341f…).
+- 2026-11-26 (night): **test v2 quotas reduced 150 -> 100** to keep the user's review workload manageable (`common.QUOTA`, test column): text_fact 20, table_lookup 20, chart 15, calculation 15, regulation 12, cross_doc 10, unanswerable 8. Dev quotas unchanged (450). Consequence: with n=15-20 per type one question moves a type's score by 5-7 points, so report test per type with n and treat the overall test number as the main result; no per-type claims below ~20 questions.
