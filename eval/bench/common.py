@@ -81,3 +81,32 @@ def split_of(*doc_pages: tuple[str, int]) -> str:
 
 def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip().lower()
+
+
+ARCHIVE_V1 = HERE / "archive_test_v1"
+
+
+def referenced_pages(obj, out: set) -> set:
+    """Every (doc, page) anywhere in a JSON value: [doc, page] pairs and {"doc", "page"} dicts. Never printed."""
+    known = set(docs())
+    if isinstance(obj, dict):
+        if isinstance(obj.get("doc"), str) and str(obj.get("page", "")).isdigit():
+            out.add((obj["doc"], int(obj["page"])))
+        for v in obj.values():
+            referenced_pages(v, out)
+    elif isinstance(obj, list):
+        if len(obj) == 2 and isinstance(obj[0], str) and obj[0] in known and str(obj[1]).isdigit():
+            out.add((obj[0], int(obj[1])))
+        else:
+            for v in obj:
+                referenced_pages(v, out)
+    return out
+
+
+def test_v1_pages() -> set:
+    """Pages a Claude session may have seen through test v1 (questions, golds, extra gold pages)."""
+    seen: set = set()
+    for path in sorted(ARCHIVE_V1.glob("*.jsonl")):
+        for row in read_jsonl(path):
+            referenced_pages(row, seen)
+    return seen

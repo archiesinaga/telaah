@@ -97,3 +97,10 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   union 1202. The script prints counts only. Next: user drafts (`draft.py --pages pages4.jsonl`, ~209 requests),
   reviews in `review_app.py` (Test, user only), adds the 8 unanswerables; `build.py`; dev.jsonl must stay 0250341f….
   One test run at a frozen git tag with the dev-run-183616 settings; Claude reads aggregate scores only.
+- 2026-11-26 (later): round 4 drafted by the user (`draft_run6.log`, counts only): text_fact 75, table_lookup 56,
+  calculation 50, regulation 37 drafts (enough); chart 8 (36 of 40 pages gave 0 drafts) and cross_doc 3 (29 of 32
+  pairs gave 0); 1 page error (s0055, bad JSON escape: retried on rerun). `sample_pages.py --round 5` ->
+  `pages5.jsonl`: every remaining unused test chart page (172) + every remaining two-bank test pair (8). Shared
+  helper `common.test_v1_pages()`. `crossdoc_from_facts.py --split test --dry-run`: the facts table has **0** test
+  pairs (all 624 possible pairs are on dev pages: the facts come from summary pages that hash to dev or are tuned),
+  so test cross_doc cannot reach 22 automatically; decision pending (user-written pairs and/or a smaller n).

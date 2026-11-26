@@ -11,7 +11,8 @@ import re
 import sys
 from collections import Counter
 
-from common import BANK, HERE, SEED, docs, read_jsonl, is_regulation, is_report, page_split, pages, split_of
+from common import (BANK, HERE, SEED, docs, read_jsonl, is_regulation, is_report, page_split, pages, split_of,
+                    test_v1_pages)
 
 OUT = HERE / "pages.jsonl"
 # pages (pairs for cross_doc) per kind: about 1.4x the new questions needed, 2 drafts per page
@@ -106,35 +107,11 @@ COUNT3 = {"text_fact": 0, "table_lookup": 40, "calculation": 0, "chart": 80, "re
 # every page used by rounds 1-3 or referenced anywhere in the archived test v1 files is excluded. Pages per kind
 # ~1.3-1.5x the test quota (text 30, table 30, chart 23, calculation 22, regulation 15, cross_doc 22).
 COUNT4 = {"text_fact": 40, "table_lookup": 40, "calculation": 35, "chart": 40, "regulation": 22, "cross_doc": 32}
-ARCHIVE_V1 = HERE / "archive_test_v1"
-
-
-def referenced_pages(obj, out: set) -> set:
-    """Every (doc, page) anywhere in a JSON value: [doc, page] pairs and {"doc", "page"} dicts. Never printed."""
-    known = set(docs())
-    if isinstance(obj, dict):
-        if isinstance(obj.get("doc"), str) and str(obj.get("page", "")).isdigit():
-            out.add((obj["doc"], int(obj["page"])))
-        for v in obj.values():
-            referenced_pages(v, out)
-    elif isinstance(obj, list):
-        if len(obj) == 2 and isinstance(obj[0], str) and obj[0] in known and str(obj[1]).isdigit():
-            out.add((obj[0], int(obj[1])))
-        else:
-            for v in obj:
-                referenced_pages(v, out)
-    return out
-
-
-def test_v1_pages() -> set:
-    """Pages a Claude session may have seen through test v1 (questions, golds, extra gold pages)."""
-    seen: set = set()
-    for path in sorted(ARCHIVE_V1.glob("*.jsonl")):
-        for row in read_jsonl(path):
-            referenced_pages(row, seen)
-    return seen
-
-
+# round 5 (2026-11-26): test v2, chart only. Round 4 chart pages gave drafts on 4 of 40 pages (most "chart-like" pages
+# have no chart with data labels), so every remaining unused test chart page is drafted (cap 250), plus every
+# remaining two-bank test pair (cap 300; only 8 exist: the facts table has no test pairs at all).
+COUNT5 = {"text_fact": 0, "table_lookup": 0, "calculation": 0, "chart": 250, "regulation": 0, "cross_doc": 300}
+TEST_ROUNDS = {4: ("pages4.jsonl", "s", COUNT4), 5: ("pages5.jsonl", "t", COUNT5)}
 def main() -> None:
     """Round 1 (default) or `--round 2`: new pages for the types still short, never reusing a page of round 1.
     Round 2 cross_doc pairs are test-only (dev cross_doc comes from the facts table, crossdoc_from_facts.py)."""
@@ -148,24 +125,25 @@ def main() -> None:
     if rnd == 3:
         used = {tuple(dp) for f in ("pages.jsonl", "pages2.jsonl") for r in read_jsonl(HERE / f) for dp in r["pages"]}
         out_path, prefix, count = HERE / "pages3.jsonl", "r", COUNT3
-    if rnd == 4:
-        prior = {tuple(dp) for f in ("pages.jsonl", "pages2.jsonl", "pages3.jsonl")
-                 for r in read_jsonl(HERE / f) for dp in r["pages"]}
+    if rnd in TEST_ROUNDS:
+        earlier = ["pages.jsonl", "pages2.jsonl", "pages3.jsonl"] + [TEST_ROUNDS[r][0] for r in TEST_ROUNDS if r < rnd]
+        prior = {tuple(dp) for f in earlier for r in read_jsonl(HERE / f) for dp in r["pages"]}
         v1 = test_v1_pages()
         used = prior | v1
-        print(f"excluded pages: rounds 1-3 {len(prior)}, test v1 references {len(v1)}, union {len(used)}")
-        out_path, prefix, count = HERE / "pages4.jsonl", "s", COUNT4
+        print(f"excluded pages: earlier rounds {len(prior)}, test v1 references {len(v1)}, union {len(used)}")
+        name, prefix, count = TEST_ROUNDS[rnd]
+        out_path = HERE / name
     pools = kind_pools()
-    if rnd == 4:  # test pages only, before sampling, so the counts are not spent on dev pages
+    if rnd in TEST_ROUNDS:  # test pages only, before sampling, so the counts are not spent on dev pages
         pools = {k: [dp for dp in v if split_of(dp) == "test"] for k, v in pools.items()}
     rows = []
     for kind, pool in pools.items():
         rows += [{"kind": kind, "pages": [dp], "split": split_of(dp)} for dp in round_robin(pool, count[kind], used, rng)]
-    rows += pairs(count["cross_doc"], used, rng, test_only=rnd in (2, 4))
+    rows += pairs(count["cross_doc"], used, rng, test_only=rnd in (2, *TEST_ROUNDS))
     if rnd == 3:
         rows = [r for r in rows if r["split"] == "dev"]
-    if rnd == 4:
-        assert all(r["split"] == "test" for r in rows), "round 4 must be test pages only"
+    if rnd in TEST_ROUNDS:
+        assert all(r["split"] == "test" for r in rows), "test rounds must be test pages only"
         print("test pages left unused after sampling:",{k: len([dp for dp in v if dp not in used]) for k, v in pools.items()})
     if "--dry-run" in sys.argv:
         print("sampled:", dict(Counter((r["kind"], r["split"]) for r in rows)))

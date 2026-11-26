@@ -7,6 +7,10 @@ Only rows the facts table is sure of are used (not inherited, one value, seen in
 cell text must occur on the cited page.
 
     .venv/Scripts/python eval/bench/crossdoc_from_facts.py        # prints counts only
+    .venv/Scripts/python eval/bench/crossdoc_from_facts.py --split test --dry-run   # test v2: count, write nothing
+
+Test v2 (2026-11-26): pairs touching a page referenced by the retired test v1 (archive_test_v1/) are dropped, and
+test candidate ids start with "y" so they never collide with test v1 ids.
 """
 import itertools
 import json
@@ -15,7 +19,7 @@ import re
 import sys
 from collections import Counter
 
-from common import HERE, ROOT, SEED, append_jsonl, norm, pages, split_of, tuned_pages
+from common import HERE, ROOT, SEED, append_jsonl, norm, pages, split_of, test_v1_pages, tuned_pages
 
 sys.path.insert(0, str(ROOT / "src"))
 from telaah import facts  # noqa: E402
@@ -81,8 +85,14 @@ def candidates() -> list[dict]:
 
 def main() -> None:
     rng = random.Random(SEED)
+    dry = "--dry-run" in sys.argv
+    only = sys.argv[sys.argv.index("--split") + 1] if "--split" in sys.argv else None
     cands = candidates()
     print("possible pairs:", dict(Counter((c["split"], c["fresh"]) for c in cands)))
+    v1 = test_v1_pages()
+    seen_v1 = [c for c in cands if c["split"] == "test" and {tuple(dp) for dp in c["pages"]} & v1]
+    cands = [c for c in cands if c not in seen_v1]
+    print("test pairs dropped (page in test v1):", len(seen_v1))
     done = {json.loads(l)["cid"] for f in ("candidates_dev.jsonl", "candidates_test.jsonl") if (HERE / f).exists()
             for l in open(HERE / f, encoding="utf-8")}
     n = 0
@@ -99,10 +109,11 @@ def main() -> None:
             picked.append(c)
             per_ind[c["ind"]] += 1
             per_pair[c["pair"]] += 1
+        written = 0
         for c in picked:
             n += 1
-            cid = f"x{n:04d}-1"
-            if cid in done:
+            cid = f"{'y' if split == 'test' else 'x'}{n:04d}-1"
+            if cid in done or dry or (only and split != only):
                 continue
             q = rng.choice(TEMPLATES).format(ind=LABEL[c["ind"]], a=NAME[c["pair"][0]], b=NAME[c["pair"][1]], y=c["year"], ry=c["ry"])
             append_jsonl(HERE / f"candidates_{split}.jsonl", {
@@ -110,7 +121,10 @@ def main() -> None:
                 "draft": {"question": q, "answer": c["answer"], "figures": c["figures"], "op": "difference",
                           "evidence": c["evidence"], "numeric": True},
                 "problems": [], "model": "facts-table"})
-        print(split, "candidates written:", len(picked), "by indicator:", dict(per_ind))
+            written += 1
+        print(split, f"pool {len(pool)} (fresh {sum(c['fresh'] for c in pool)}), picked {len(picked)},",
+              "written" if not dry else "would write (dry run)", written if not dry else len(picked),
+              "by indicator:", dict(per_ind))
 
 
 if __name__ == "__main__":

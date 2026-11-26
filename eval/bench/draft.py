@@ -90,6 +90,14 @@ def prompt(row: dict) -> str:
     return f"{COMMON}\n\n{task}\n\n{texts}"
 
 
+VALID_ESCAPE = re.compile(r'\\(["\\/bfnrt]|u[0-9a-fA-F]{4})|\\')
+
+
+def fix_escapes(text: str) -> str:
+    """Keep valid JSON escapes as whole units; double any other backslash."""
+    return VALID_ESCAPE.sub(lambda m: m.group(0) if m.group(1) else "\\\\", text)
+
+
 def call(client: OpenAI, row: dict) -> list[dict]:
     content: list[dict] = [{"type": "text", "text": prompt(row)}]
     for d, p in row["pages"]:
@@ -99,7 +107,11 @@ def call(client: OpenAI, row: dict) -> list[dict]:
                                        response_format={"type": "json_object"}, temperature=0.4)
     text = r.choices[0].message.content or "{}"
     text = re.sub(r"^```(?:json)?|```$", "", text.strip()).strip()
-    return json.loads(text).get("questions", [])
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:  # stray backslashes (e.g. "\%" from a formula) are not valid JSON escapes
+        data = json.loads(fix_escapes(text))
+    return data.get("questions", [])
 
 
 def check(row: dict, q: dict) -> list[str]:
