@@ -23,3 +23,6 @@ space_build/
 # Personal planning PDFs (kept locally)
 /GenAI Flagship Roadmap*.pdf
 /Telaah_Progress_*.pdf
+
+# Private working log (kept locally)
+/SESSION_NOTES.md
