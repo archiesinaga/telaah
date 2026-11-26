@@ -140,3 +140,14 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   The audit tab (human) is optional: 38 sample rows, 7 of them the unit fixes. Caveats: 5 of 18 chart rows are infographic
   tiles (easier); BNI 2025 is nearly absent from cross_doc (English number format); cross_doc n=10; one unit was inferred
   (no unit line on the page).
+- 2026-11-26 (night): **test v2 run, once** (`eval/runs/bench-test-20261126-124609.json`, git tag `test-v2-freeze` =
+  commit 10433aa, test.jsonl sha256 d9b03036..., dev-183616 settings: `--agent --router --judge-on-fail`, qwen2.5:7b-gpu,
+  TELAAH_TRANSCRIPTS=1; no extra-gold file for test, so recall/citation count only the main gold page). Only
+  `summary`/`by_type` were read. Overall (n=100): numeric 0.618, recall@5 0.720, citation 0.510, refusal 0.860, judge 0.638,
+  faithful 0.837, 18.3 s/q; unanswerable 8/8 refused. Dev-450 (183616): 0.557 / 0.798 / 0.638 / 0.938 / 0.725 / 0.854.
+  By type numeric (n): text_fact 0.875 (20), table_lookup 0.722 (20), chart 0.533 (15), calculation 0.467 (15),
+  regulation 0.500 (12), cross_doc 0.400 (10). Reading: numeric within noise of dev (95% CI about +-0.10); refusal
+  accuracy is the real drop (calculation 0.60, regulation 0.75 answered); cross_doc is weak on the test but dev
+  cross_doc was built from the facts table, so it was optimistic. Rule 3: any code change motivated by this result spends
+  test v2; develop fixes on dev and write a new test split before quoting test numbers again. The result JSON holds
+  per-question outputs: keep it out of the repo and out of sessions that tune the system.

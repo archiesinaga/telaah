@@ -101,7 +101,7 @@ A cross-encoder reranker (bge-reranker-v2-m3) did not help and is off by default
 
 ### Dev benchmark (439 questions): closed book and fine-tuning
 
-`eval/bench/dev.jsonl`: 417 answerable questions (table lookups, text facts, charts, calculations, cross-document, regulations) and 22 unanswerable ones, run with `--agent --router --judge-on-fail`. This set was used to tune the system, so treat it as optimistic; a separate blind test split exists and has not been run yet.
+`eval/bench/dev.jsonl`: 417 answerable questions (table lookups, text facts, charts, calculations, cross-document, regulations) and 22 unanswerable ones, run with `--agent --router --judge-on-fail`. This set was used to tune the system, so treat it as optimistic; the held-out test run is reported in the next section.
 
 | system (same Qwen2.5-7B unless noted) | numeric | citation | refusal | judge | s/q |
 |---|---|---|---|---|---|
@@ -119,6 +119,30 @@ A cross-encoder reranker (bge-reranker-v2-m3) did not help and is off by default
 - **Cost and risk of a second epoch** (another ~6-7 h of GPU, shrinking validation gain) did not justify it; a v2 would need fewer refusal examples and more look-alike table rows.
 
 Reported as a mixed result on purpose: the eval gate stopped a regression that the validation loss alone would have approved. Dev numbers above use the code at that time; a later router fix (fewer false unknown-bank refusals, spelled-out regulation names such as "Peraturan Bank Indonesia Nomor 6") raised recall@5 on the 26 questions it touches from 0.46 to 0.85 and is not included in this table.
+
+### Held-out test (test v2, 100 questions)
+
+One run on a split the system was never tuned on: 100 questions on pages that were never used for tuning or for dev (20 text facts, 20 table lookups, 15 charts, 15 calculations, 12 regulations, 10 cross-document, 8 unanswerable). Same settings as the dev run (`--agent --router --judge-on-fail`, Qwen2.5-7B), code frozen at the git tag `test-v2-freeze` before the run. Run once, never repeated.
+
+| | numeric | recall@5 | citation | refusal | judge | s/q |
+|---|---|---|---|---|---|---|
+| dev (450, tuned on) | 0.557 | 0.798 | 0.638 | 0.938 | 0.725 | 17.3 |
+| **test v2 (100, held out)** | **0.618** | 0.720 | 0.510 | 0.860 | 0.638 | 18.3 |
+
+All 8 unanswerable questions were refused. With 100 questions the 95% interval on a 0.6 score is about +-0.10, so test and dev are not different on numeric accuracy; the lower recall and citation are partly by construction (dev scores accept extra gold pages that print the same figure; the test has only the main gold page). The lower refusal accuracy (0.86 vs 0.94) is the real signal: the model refuses more answerable questions on unseen pages, mostly calculations (0.60) and regulations (0.75).
+
+| type (n) | numeric | recall@5 | citation |
+|---|---|---|---|
+| text_fact (20) | 0.875 | 0.75 | 0.75 |
+| table_lookup (20) | 0.722 | 0.80 | 0.45 |
+| calculation (15) | 0.467 | 0.667 | 0.40 |
+| chart (15) | 0.533 | 0.533 | 0.40 |
+| regulation (12) | 0.500 | 0.917 | 0.50 |
+| cross_doc (10) | 0.400 | 0.40 | 0.10 |
+
+Read per-type numbers as indicative only (n = 10-20; one question moves a score by 5-10 points). Cross-document is the weak spot: dev looks strong (recall 0.985) because dev cross-document questions were built from the same facts table the system reads; the test ones are written from detail tables the facts table does not cover.
+
+**How the test split was made, and what that means.** The first test split was retired after its questions were read during development. Test v2 was drafted by Gemini from test-only pages; accepted or rejected by Claude (Opus) reviewer agents; a seeded 25-50% sample was audited independently by another Claude agent (2 of 39 judged rows wrong, both a missing Rupiah scale; the remaining table and calculation rows were then checked for the same flaw and 7 questions were fixed by adding the unit; gold answers were never changed); the cross-document questions were written by a Claude agent and audited by a second one; the 8 unanswerable questions were written by me. So the test is **model-reviewed and model-audited, not human-reviewed**; the Claude agents that checked it never took part in tuning the system, and no test question was shown to the session that does the tuning. 5 of the 18 accepted chart items are infographic number tiles rather than plotted charts (probably easier). Details: `eval/BENCHMARK.md`.
 
 ## How it works
 
