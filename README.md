@@ -2,7 +2,11 @@
 
 Indonesian document research agent. It answers questions over IDX bank annual reports and OJK/BI regulations, cites the page behind every claim, and refuses when the documents don't contain the answer. It runs locally on a 6 GB laptop GPU (Qwen2.5-7B through Ollama); the only cloud call is an optional Gemini free-tier vision call for chart pages.
 
-**Status:** Phase 2 (hybrid + visual retrieval, chart reading, cross-document questions) and most of Phase 3 (agent, router, facts table, MCP tools, multi-step benchmark with a held-out set) are done. Plan: `ROADMAP.md`. Running log: `SESSION_NOTES.md`.
+**Status:** Phase 2 (hybrid + visual retrieval, chart reading, cross-document questions) and most of Phase 3 (agent, router, facts table, MCP tools, multi-step benchmark with a held-out set) are done. Plan: `ROADMAP.md`.
+
+![Telaah demo: a table lookup with its source page, a cross-bank calculation, and a refusal for a bank not in the corpus](docs/demo.gif)
+
+*Local Gradio app (`python app.py`): three questions from the seed set. A figure with its cited page, a computed difference between two banks, and a refusal when the bank is not in the documents.*
 
 ## Results
 
