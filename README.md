@@ -8,6 +8,29 @@ Indonesian document research agent. It answers questions over IDX bank annual re
 
 *Local Gradio app (`python app.py`): three questions from the seed set. A figure with its cited page, a computed difference between two banks, and a refusal when the bank is not in the documents.*
 
+## Quickstart (run the demo without building the corpus)
+
+You need Python 3.10+ and [Ollama](https://ollama.com) installed and running. A GPU with about 6 GB of VRAM is what the numbers below were measured on; without one the model runs on the CPU and is much slower.
+
+```powershell
+git clone https://github.com/archiesinaga/telaah.git
+cd telaah
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -e ".[demo]"
+python scripts/fetch_data.py          # prebuilt text + vector index (96 MB), sha256-verified
+.\scripts\setup_ollama.ps1            # pulls qwen2.5:7b-instruct, creates the 8k-context qwen2.5:7b-gpu
+$env:LLM_MODEL = "qwen2.5:7b-gpu"
+python app.py                         # http://127.0.0.1:7860
+```
+
+On Linux or macOS: `source .venv/bin/activate`, `bash scripts/setup_ollama.sh`, `LLM_MODEL=qwen2.5:7b-gpu python app.py`.
+
+- The first run downloads the embedding model `BAAI/bge-m3` (about 2 GB) from Hugging Face, and builds the keyword index (BM25) from the text once (about a minute).
+- `fetch_data.py` downloads `telaah-data-v1.zip` from the GitHub Release `data-v1` and refuses it if its checksum does not match `scripts/data_manifest.json`. It contains the text extracted from the annual reports and regulations in `DATA_NOTICE.md` (sources and rights), the vector index, and the facts table. The PDFs themselves are not included; rebuild everything from them with the Setup section below.
+- Chart questions need the optional ColPali index and a Gemini key (see Setup); the demo skips them.
+- To run the tests: `pip install -e ".[dev,demo]"` and `pytest` (115 tests, none skipped once the data is fetched).
+
 ## Results
 
 Two benchmarks, both scored automatically against gold answers and gold pages:
@@ -194,7 +217,7 @@ python eval/check_facts.py                            # facts table vs the gold 
 pytest
 ```
 
-A fresh clone runs most tests; 7 that read the locally built corpus (`data/processed`, `data/facts.sqlite`, both git-ignored) are skipped until you build it (`corpus/README.md`, then `python -m telaah.facts`).
+Without the corpus, 7 tests that read it (`data/processed`, `data/facts.sqlite`, both git-ignored) are skipped. Get the data with `python scripts/fetch_data.py` (Quickstart) or build it as above.
 
 - **Facts coverage:** `python -m telaah.facts --coverage` lists, per bank report and indicator, the years of the report's five-year span that the table lacks (the build prints it too). Most remaining gaps are real (a bank does not publish CET1 for every year); others are cells the PDF parser left empty (Mandiri 2025 total assets 2022, BTN 2025 NIM 2021).
 - **Held-out tasks:** `python eval/run_agent_tasks.py --mode router --tasks heldout_tasks.jsonl`. Read `eval/HELDOUT.md` first: set #1 is spent.

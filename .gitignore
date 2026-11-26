@@ -26,3 +26,6 @@ space_build/
 
 # Private working log (kept locally)
 /SESSION_NOTES.md
+
+# data bundle build output
+dist/

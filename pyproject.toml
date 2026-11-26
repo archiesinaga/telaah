@@ -15,6 +15,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest"]
 colpali = ["colpali-engine", "pymupdf"]
+demo = ["gradio"]  # python app.py (with the prebuilt data from scripts/fetch_data.py)
 bench = ["gradio", "pymupdf"]  # eval/bench review app
 
 [project.scripts]
