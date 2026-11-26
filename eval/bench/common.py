@@ -19,7 +19,7 @@ BANK = {"bri": "BRI", "mandiri": "Bank Mandiri", "bni": "BNI", "btn": "BTN", "bc
 TYPES = ["text_fact", "table_lookup", "chart", "calculation", "cross_doc", "regulation", "unanswerable"]
 # (total, dev incl. seed, test) per type, from BENCHMARK.md
 QUOTA = {"text_fact": (120, 90, 30), "table_lookup": (120, 90, 30), "chart": (90, 67, 23),
-         "calculation": (90, 68, 22), "cross_doc": (90, 68, 22), "regulation": (60, 45, 15),
+         "calculation": (90, 68, 22), "cross_doc": (78, 68, 10), "regulation": (60, 45, 15),
          "unanswerable": (30, 22, 8)}
 
 

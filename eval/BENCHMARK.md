@@ -104,3 +104,10 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   helper `common.test_v1_pages()`. `crossdoc_from_facts.py --split test --dry-run`: the facts table has **0** test
   pairs (all 624 possible pairs are on dev pages: the facts come from summary pages that hash to dev or are tuned),
   so test cross_doc cannot reach 22 automatically; decision pending (user-written pairs and/or a smaller n).
+- 2026-11-26 (evening): round 4 + round 5 drafted by the user, counts only (draft_run6/7.log, 0 errors; candidates
+  checked by type counts, no question read): text_fact 75, table_lookup 58, calculation 50, regulation 37 drafts
+  (enough); chart 35 (14 of 172 round-5 pages gave drafts; tight vs quota 23); cross_doc 5 drafts. **Test cross_doc
+  quota lowered from 22 to 10** (`common.QUOTA`, total 90 -> 78): the facts table has 0 test pairs and Gemini yields
+  about 1 draft per 10 pairs, so cross_doc test is written by the user (review_app "Cross-doc" tab or
+  `import_cross_doc.py`; both check test page, not seen in test v1, figure printed on the page, same report year).
+  Report test cross_doc as "n=10", not as a precise rate. Dev quotas unchanged (dev.jsonl must stay 0250341f…).

@@ -16,10 +16,10 @@ from collections import Counter
 import gradio as gr
 from PIL import Image
 
-from common import (HERE, QUOTA, ROOT, append_jsonl, docs, is_report, norm, page_split, pages, read_jsonl,
-                    test_v1_pages)
+from common import HERE, QUOTA, ROOT, append_jsonl, docs, is_report, pages, read_jsonl
 from draft import OPS
 from gold import compute, fmt_id
+from userq import UNITS, cross_doc_row, parse_pages
 
 sys.path.insert(0, str(ROOT / "src"))
 from telaah.vision import render_page  # noqa: E402
@@ -86,15 +86,6 @@ def show(split: str, only: str = "all"):
             also_on(d.get("answer", ""), c["pages"]), progress(split)]
 
 
-def parse_pages(s: str) -> list[list]:
-    out = []
-    for part in re.split(r"[;,\n]", s):
-        if part.strip():
-            doc, page = part.strip().rsplit(":", 1)
-            out.append([doc.strip(), int(page)])
-    return out
-
-
 def decide(split, cid, decision, reason, typ, question, answer, numeric, gold_pages, figs, op):
     row = {"cid": cid, "split": split, "decision": decision, "reviewed_at": time.strftime("%Y-%m-%d %H:%M")}
     if decision == "reject":
@@ -122,59 +113,12 @@ def preview(figs, op):
         return f"error: {e}"
 
 
-UNITS = ["%", "triliun Rupiah", "miliar Rupiah", "juta Rupiah"]
-
-
-def parse_id_number(s: str) -> float:
-    """Indonesian number as printed: '1.234,56' -> 1234.56, '3,29' -> 3.29."""
-    t = s.strip().replace("%", "").replace(" ", "")
-    if not re.fullmatch(r"-?\d{1,3}(\.\d{3})*(,\d+)?|-?\d+(,\d+)?", t):
-        raise ValueError(f"cannot read the number '{s}' (use the printed form, e.g. 1.234,56 or 3,29)")
-    return float(t.replace(".", "").replace(",", "."))
-
-
-def check_test_page(split: str, ref: str, printed: str) -> tuple[str, int]:
-    """'doc:page' must exist, belong to `split`, not be a test-v1 page, and print the figure."""
-    doc, page = parse_pages(ref)[0]
-    text = pages(doc).get(page)
-    if text is None:
-        raise ValueError(f"{doc}:{page} does not exist in the corpus")
-    if page_split(doc, page) != split:
-        raise ValueError(f"{doc}:{page} is a {page_split(doc, page)} page, not {split}: pick another page")
-    if split == "test" and (doc, page) in test_v1_pages():
-        raise ValueError(f"{doc}:{page} was seen through the retired test v1: pick another page")
-    if norm(printed) not in norm(text.replace("|", " ")):
-        raise ValueError(f"'{printed}' is not printed on {doc}:{page} (check the number and the page)")
-    return doc, page
-
-
 def add_cross_doc(split, question, ref_a, ref_b, bank_a, bank_b, label, val_a, val_b, unit):
     try:
-        if not question.strip() or not bank_a.strip() or not bank_b.strip() or not label.strip():
-            raise ValueError("Fill in the question, both bank names and the indicator label.")
-        da, pa = check_test_page(split, ref_a, val_a)
-        db, pb = check_test_page(split, ref_b, val_b)
-        if da.split("_")[0] == db.split("_")[0]:
-            raise ValueError("Use two different banks.")
-        va, vb = parse_id_number(val_a), parse_id_number(val_b)
-        if va == vb:
-            raise ValueError("The two values are equal: no higher bank, no difference.")
-        figures = [{"bank": bank_a.strip(), "label": label.strip(), "value": val_a.strip(), "value_float": va,
-                    "unit": unit, "page": "A"},
-                   {"bank": bank_b.strip(), "label": label.strip(), "value": val_b.strip(), "value_float": vb,
-                    "unit": unit, "page": "B"}]
-        x, gap = compute(figures, "difference")
-        hi = bank_a.strip() if va > vb else bank_b.strip()
-        show_v = (lambda v: fmt_id(v) + "%") if unit == "%" else (lambda v: f"{fmt_id(v)} {unit}")
-        gap_unit = "poin persentase" if unit == "%" else unit
-        answer = (f"{hi} lebih tinggi: {label.strip()} {bank_a.strip()} {show_v(va)} vs {bank_b.strip()} {show_v(vb)} "
-                  f"(selisih {gap} {gap_unit}).")
         n = len(read_jsonl(user_file(split)))
-        append_jsonl(user_file(split), {
-            "cid": f"u-{split}-{n + 1:03d}", "split": split, "type": "cross_doc", "question": question.strip(),
-            "gold_answer": answer, "gold_pages": [[da, pa], [db, pb]], "answerable": True, "numeric": True,
-            "figures": figures, "op": "difference", "computed": gap})
-        return f"Added cross_doc #{n + 1} in {split}. Gold: {answer}", "", "", "", ""
+        row = cross_doc_row(split, n + 1, question, ref_a, ref_b, bank_a, bank_b, label, val_a, val_b, unit)
+        append_jsonl(user_file(split), row)
+        return f"Added cross_doc #{n + 1} in {split}. Gold: {row['gold_answer']}", "", "", "", ""
     except ValueError as e:
         return f"⚠️ Not saved: {e}", question, ref_a, ref_b, label
 
