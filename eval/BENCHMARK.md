@@ -117,3 +117,13 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   Report test cross_doc as "n=10", not as a precise rate. Dev quotas unchanged (dev.jsonl must stay 0250341f…).
 - 2026-11-26 (night): **test v2 quotas reduced 150 -> 100** to keep the user's review workload manageable (`common.QUOTA`, test column): text_fact 20, table_lookup 20, chart 15, calculation 15, regulation 12, cross_doc 10, unanswerable 8. Dev quotas unchanged (450). Consequence: with n=15-20 per type one question moves a type's score by 5-7 points, so report test per type with n and treat the overall test number as the main result; no per-type claims below ~20 questions.
 - 2026-11-26 (night): user chose **subagent review + sample audit** for test v2 (instead of reviewing every draft by hand). Reviewer: Claude Opus subagent(s), decisions recorded with `reviewer: claude-subagent` by `bulk_review_test.py` (prints counts only). The tuning session reads counts, never questions. The user audits a random sample (seeded, ~25% of accepted, chart over-sampled) in the review app's Audit tab; the report must say test v2 was model-reviewed with a human sample check, and give the sample error rate.
+- 2026-11-26 (night, later): reviewer subagents finished (Opus, counts only). Accepted / rejected: text_fact 24 / 25,
+  regulation 16 / 13, table_lookup 24 / 24, calculation 19 / 6, chart 18 / 17, cross_doc 1 / 4 (+2 text_fact accepted
+  earlier by the user). All types are at or above the reduced quota except cross_doc (1 of 10: the user writes the rest).
+  Common rejects: duplicates (second question from the same page), no chart on the page, positional or unlabelled-row
+  tables. Caveats from the reviewers: 5 of the 18 chart items are infographic number tiles whose values also appear in
+  the parsed text (probably easier than plotted charts); `bulk_review_test.py` turns an accept into a reject when a
+  flagged draft's evidence is not verbatim on the page (hit 3 drafts the reviewers had verified, replaced by spares).
+  Audit sample (`audit.py make test`): 31 rows of the 102 reviewer-accepted (text_fact 6, table_lookup 6, calculation 5,
+  chart 9, regulation 4, cross_doc 1). Next: user audits in the review app (Audit sample tab), writes cross_doc;
+  error rate above 15% means the user reviews the rest by hand.
