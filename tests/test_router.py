@@ -1,6 +1,6 @@
 import pytest
 
-from telaah import router
+from telaah import filters, router
 from telaah.filters import detect_groups
 
 
@@ -26,8 +26,8 @@ def test_arithmetic_questions_go_to_agent(monkeypatch):
     assert router.route("Berapa total laba gabungan BRI dan Mandiri dalam triliun Rupiah?") == "agent"
 
 
-@pytest.mark.requires_corpus
-def test_named_source_report_limits_the_years():
+def test_named_source_report_limits_the_years(monkeypatch):
+    monkeypatch.setattr(filters, "doc_ids", lambda: ("bri_2024", "bri_2025"))
     # the question spans 2021-2025 but must read the 2025 report (prior years are restated there)
     q = "Sebutkan NPL gross BRI 2021 sampai 2025. Gunakan data dari Laporan Tahunan 2025 masing-masing bank."
     assert detect_groups(q) == [["bri_2025"]]

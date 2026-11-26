@@ -29,7 +29,7 @@ On Linux or macOS: `source .venv/bin/activate`, `bash scripts/setup_ollama.sh`, 
 - The first run downloads the embedding model `BAAI/bge-m3` (about 2 GB) from Hugging Face, and builds the keyword index (BM25) from the text once (about a minute).
 - `fetch_data.py` downloads `telaah-data-v1.zip` from the GitHub Release `data-v1` and refuses it if its checksum does not match `scripts/data_manifest.json`. It contains the text extracted from the annual reports and regulations in `DATA_NOTICE.md` (sources and rights), the vector index, and the facts table. The PDFs themselves are not included; rebuild everything from them with the Setup section below.
 - Chart questions need the optional ColPali index and a Gemini key (see Setup); the demo skips them.
-- To run the tests: `pip install -e ".[dev,demo]"` and `pytest` (115 tests, none skipped once the data is fetched).
+- To run the tests: `pip install -e ".[dev,demo]"` and `pytest` (115 tests; on a fresh clone 114 run on the small fixture corpus in `tests/fixtures/corpus/` and 1 is skipped until the data is fetched).
 
 ## Results
 
@@ -217,7 +217,7 @@ python eval/check_facts.py                            # facts table vs the gold 
 pytest
 ```
 
-Without the corpus, 7 tests that read it (`data/processed`, `data/facts.sqlite`, both git-ignored) are skipped. Get the data with `python scripts/fetch_data.py` (Quickstart) or build it as above.
+Without the corpus (`data/processed`, `data/facts.sqlite`, both git-ignored), the tests that read it run on `tests/fixtures/corpus/` (the facts table and POJK 11/2016) and 1 test that needs the bank-report text is skipped. Get the full data with `python scripts/fetch_data.py` (Quickstart) or build it as above.
 
 - **Facts coverage:** `python -m telaah.facts --coverage` lists, per bank report and indicator, the years of the report's five-year span that the table lacks (the build prints it too). Most remaining gaps are real (a bank does not publish CET1 for every year); others are cells the PDF parser left empty (Mandiri 2025 total assets 2022, BTN 2025 NIM 2021).
 - **Held-out tasks:** `python eval/run_agent_tasks.py --mode router --tasks heldout_tasks.jsonl`. Read `eval/HELDOUT.md` first: set #1 is spent.

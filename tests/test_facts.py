@@ -86,7 +86,7 @@ def test_scope_below_the_bank_is_not_answered_from_the_table():
     assert facts.parse_question("Total aset BTN cabang Natuna 2025") is None
 
 
-@pytest.mark.requires_corpus
+@pytest.mark.requires_full_corpus
 def test_step_year_must_be_asked_by_the_question():
     q = "Berapa laba bersih BRI tahun 2024 menurut laporan tahunan 2024, dan berapa angka 2024 setelah penyajian kembali di laporan tahunan 2025?"
     # the slipped step is corrected to the one asked year, read from the step's own report

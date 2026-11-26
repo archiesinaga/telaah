@@ -9,6 +9,7 @@ the vector index built from it, and the facts table. It exists so the demo can r
   copyright (UU 28/2014 art. 42), the annual reports are.
 - If you are a rights holder and want a document removed, open an issue in this repository and it will be removed from
   the bundle and from the Release.
+- `tests/fixtures/corpus/` in the repository holds a copy of the facts table (figures read from the bank reports above: ratios and totals with their page numbers, no running text) and the text of POJK 11/POJK.03/2016, so the tests run without the download. The same removal request applies.
 - The original files can be fetched again from the URLs below with `python corpus/download_corpus.py`.
 
 | doc_id | issuer | title | year | source |
