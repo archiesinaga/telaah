@@ -105,11 +105,16 @@ def _converted(gold: str, gold_exp: int, pred: list[tuple[str, int | None]]) -> 
     return False
 
 
+def _value(n: str) -> str:
+    """Trailing decimal zeros do not change the value: '3.80' -> '3.8', '8.00' -> '8' (gold '3,80%' = answer '3,8%')."""
+    return n.rstrip("0").rstrip(".") if re.fullmatch(r"-?\d+\.\d+", n) else n
+
+
 def numeric_match(pred: str, gold: str) -> bool:
     g = _tokens(gold)
     p = _tokens(pred)
-    plain = {n for n, _ in p}
-    return bool(g) and all(n in plain or (exp is not None and _converted(n, exp, p)) for n, exp in g)
+    plain = {_value(n) for n, _ in p}
+    return bool(g) and all(_value(n) in plain or (exp is not None and _converted(n, exp, p)) for n, exp in g)
 
 
 def refusal_correct(refused: bool, answerable: bool) -> float:

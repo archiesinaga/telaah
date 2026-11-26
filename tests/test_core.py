@@ -47,6 +47,14 @@ def test_numeric_match_formats_are_read_per_number():
     assert not numeric_match("pertumbuhan 14,76%", "1.476")  # decimal is not thousands
 
 
+def test_numeric_match_ignores_trailing_decimal_zeros():
+    assert numeric_match("NIM BNI 3,8% vs BTN 4,20%", "NIM BNI 3,80% vs BTN 4,2%")
+    assert numeric_match("selisih 8,00 poin persen", "selisih 8 poin")
+    assert numeric_match("BOPO 86%", "86,00%")
+    assert not numeric_match("3,08%", "3,8%")  # an inner zero is a digit
+    assert not numeric_match("Rp1.000 miliar", "1")  # thousands separator, not a decimal
+
+
 def test_numeric_match_unit_conversion():
     # another unit word: convert, then round or truncate to gold's last printed digit
     assert numeric_match("adalah Rp328.309.681 juta [mandiri_2025 p.296]", "Rp328,30 triliun")  # truncated

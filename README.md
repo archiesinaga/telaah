@@ -129,19 +129,21 @@ A cross-encoder reranker (bge-reranker-v2-m3) did not help and is off by default
 | system (same Qwen2.5-7B unless noted) | numeric | citation | refusal | judge | s/q |
 |---|---|---|---|---|---|
 | closed book (`--no-rag`, no documents) | 0.012 | 0.050 | 0.109 | 0.308* | 4.1 |
-| **Telaah, base 7B** (`bench-dev-20261112-075716`) | **0.566** | 0.629 | **0.918** | **0.717** | 16.8 |
-| Telaah, QLoRA fine-tuned 7B (`bench-dev-20261112-215223`) | 0.557 | **0.683** | 0.902 | 0.712 | 19.6 |
+| **Telaah, base 7B** (`bench-dev-20261112-075716`) | **0.648** | 0.629 | **0.918** | **0.717** | 16.8 |
+| Telaah, QLoRA fine-tuned 7B (`bench-dev-20261112-215223`) | 0.636 | **0.683** | 0.902 | 0.712 | 19.6 |
 
 \* judged on the 26 questions the closed-book model answered; it refused 391 of 417 answerable questions and cited no invented page. All 4 correct numbers are POJK 17/2023 board rules; none is a bank figure. This is the floor the retrieval, facts table and router have to beat.
 
 **Step 7: does fine-tuning help?** Qwen2.5-7B was fine-tuned with QLoRA (Unsloth, rank 16, all attention and MLP projections) on 1,324 training examples (20% refusals) built from the corpus, 1 epoch = 151 steps, about 6.3 h on a free Kaggle GPU, then converted to a Q4_K_M GGUF for Ollama. Validation loss fell from 0.195 to 0.173 with no sign of overfitting. The gate before adopting it: numeric and citation up, refusal not below 0.918, 22/22 unanswerables refused.
 
-- **Gate failed, base model kept.** Citation rose (+0.05 overall; regulation 0.53 -> 0.71, text 0.59 -> 0.71), but numeric did not (0.566 -> 0.557) and refusal fell (0.918 -> 0.902). Both models refused 22/22 unanswerables.
-- **Numeric flips:** 19 wrong -> right, 22 right -> wrong (McNemar p = 0.76: no detectable difference). Refusal flips: 18 worse, 11 better.
+- **Gate failed, base model kept.** Citation rose (+0.05 overall; regulation 0.53 -> 0.71, text 0.59 -> 0.71), but numeric did not (0.648 -> 0.636) and refusal fell (0.918 -> 0.902). Both models refused 22/22 unanswerables.
+- **Numeric flips:** 19 wrong -> right, 23 right -> wrong (McNemar p = 0.64: no detectable difference). Refusal flips: 18 worse, 11 better.
 - **Why it lost:** 7 of the 22 losses were over-refusals on answerable questions (some with a Gemini chart transcript in context); 15 read a wrong row or cell on the right page (e.g. HQLA, Stage-1 loans). Fine-tuning taught the format and the citation habit, not better table reading, and it made the model refuse more.
 - **Cost and risk of a second epoch** (another ~6-7 h of GPU, shrinking validation gain) did not justify it; a v2 would need fewer refusal examples and more look-alike table rows.
 
 Reported as a mixed result on purpose: the eval gate stopped a regression that the validation loss alone would have approved. Dev numbers above use the code at that time; a later router fix (fewer false unknown-bank refusals, spelled-out regulation names such as "Peraturan Bank Indonesia Nomor 6") raised recall@5 on the 26 questions it touches from 0.46 to 0.85 and is not included in this table.
+
+**Scoring fix (2026-11-26).** Until then `numeric` counted `3,8%` as different from the gold `3,80%`. Dev cross-document golds are printed with two decimals, so about 27 correct answers were marked wrong; re-scored with the fixed metric the numeric score is 0.648 instead of 0.566 on the base run. Nothing in the system changed, only the scoring (`eval/rescore_numeric.py`; 1 of 100 test v2 questions was affected). All numeric numbers on this page use the fixed metric; recall, citation, refusal and judge are unchanged. The earlier numeric figures (0.566 base, 0.557 fine-tuned, 0.557 dev-450, 0.618 test) are in the git history.
 
 ### Held-out test (test v2, 100 questions)
 
@@ -149,8 +151,8 @@ One run on a split the system was never tuned on: 100 questions on pages that we
 
 | | numeric | recall@5 | citation | refusal | judge | s/q |
 |---|---|---|---|---|---|---|
-| dev (450, tuned on) | 0.557 | 0.798 | 0.638 | 0.938 | 0.725 | 17.3 |
-| **test v2 (100, held out)** | **0.618** | 0.720 | 0.510 | 0.860 | 0.638 | 18.3 |
+| dev (450, tuned on) | 0.638 | 0.798 | 0.638 | 0.938 | 0.725 | 17.3 |
+| **test v2 (100, held out)** | **0.632** | 0.720 | 0.510 | 0.860 | 0.638 | 18.3 |
 
 All 8 unanswerable questions were refused. With 100 questions the 95% interval on a 0.6 score is about +-0.10, so test and dev are not different on numeric accuracy; the lower recall and citation are partly by construction (dev scores accept extra gold pages that print the same figure; the test has only the main gold page). The lower refusal accuracy (0.86 vs 0.94) is the real signal: the model refuses more answerable questions on unseen pages, mostly calculations (0.60) and regulations (0.75).
 
@@ -161,7 +163,7 @@ All 8 unanswerable questions were refused. With 100 questions the 95% interval o
 | calculation (15) | 0.467 | 0.667 | 0.40 |
 | chart (15) | 0.533 | 0.533 | 0.40 |
 | regulation (12) | 0.500 | 0.917 | 0.50 |
-| cross_doc (10) | 0.400 | 0.40 | 0.10 |
+| cross_doc (10) | 0.500 | 0.40 | 0.10 |
 
 Read per-type numbers as indicative only (n = 10-20; one question moves a score by 5-10 points). Cross-document is the weak spot: dev looks strong (recall 0.985) because dev cross-document questions were built from the same facts table the system reads; the test ones are written from detail tables the facts table does not cover.
 
@@ -232,7 +234,7 @@ Without the corpus (`data/processed`, `data/facts.sqlite`, both git-ignored), th
 
 - **recall@5:** a gold page is among the 5 retrieved pages (any gold page, not all).
 - **citation accuracy:** the answer cites at least one page and every cited page is a gold page. It is strict: an answer that cites another page showing the same figure counts as wrong.
-- **numeric:** all gold numbers appear in the answer (Indonesian number format handled).
+- **numeric:** all gold numbers appear in the answer (Indonesian and English number formats handled; trailing decimal zeros do not matter, `3,8%` = `3,80%`).
 - **correctness and faithfulness:** LLM judge (same local model).
 - **refusal accuracy:** refuses exactly when the question is unanswerable.
 - **agent task success:** every gold number appears in the answer; unanswerable tasks must be refused. `partial` is the share of gold numbers found.

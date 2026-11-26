@@ -151,3 +151,15 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   cross_doc was built from the facts table, so it was optimistic. Rule 3: any code change motivated by this result spends
   test v2; develop fixes on dev and write a new test split before quoting test numbers again. The result JSON holds
   per-question outputs: keep it out of the repo and out of sessions that tune the system.
+- 2026-11-26 (late): **scoring fix, `numeric` only.** `metrics.numeric_match` compared `3.8` and `3.80` as different
+  numbers, so dev cross_doc answers like "NIM 3,8%" failed against the gold "3,80%" (dev golds are generated from the
+  facts table with two decimals). Fixed (`metrics._value`: trailing decimal zeros ignored; test in `tests/test_core.py`)
+  and all finished runs re-scored offline with `eval/rescore_numeric.py` (aggregates only, safe on the blind test; with
+  the old metric the script reproduces the stored scores exactly: 0 changed). Result: dev 075716 numeric 0.566 -> 0.648
+  (cross_doc 0.283 -> 0.683, calculation 0.309 -> 0.338, table 0.667 -> 0.679); dev-450 183616 0.557 -> 0.638; fine-tuned
+  215223 0.557 -> 0.636; test v2 0.618 -> 0.632 (1 question, cross_doc 0.40 -> 0.50). Recall, citation, refusal, judge
+  and faithful were not touched (`--judge-on-fail` skipped judging on questions that scored wrong, so a few judge values
+  may be missing that the new score would also have skipped; judge was not re-run). Originals kept locally as
+  `*.before_numeric_fix.json` (git-ignored). Test v2 is not spent: no system change, only the scorer. Remaining
+  dev cross_doc misses (about 19 of 60): ~12 answer only the difference and the winner without the two values the gold
+  lists; ~4 wrong page or value for bank-only ratios (bd0306 CIR, bd0309 LCR, bd0343 unit/rounding).
