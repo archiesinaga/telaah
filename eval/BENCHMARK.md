@@ -50,9 +50,13 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
 1. Every gold answer and page is checked by a human or, for DEV only, by Claude when the user delegates it (decided
    2026-10-21: `reviewer: claude` in `reviewed_dev.jsonl`, via `bulk_review.py`; chart golds checked against the page
    image, text golds against the parsed page, ambiguous/positional/unit-unclear questions rejected). The TEST split
-   is reviewed by the user only.
-2. **Claude never reads the test split** (`candidates_test.jsonl`, `reviewed_test.jsonl`, `test.jsonl`): scripts
-   print counts only. Sessions see test scores, not questions or failures.
+   is reviewed by the user only, EXCEPT test v2 (decided 2026-11-26): its drafts are reviewed first by a Claude
+   reviewer subagent (`reviewer: claude-subagent`, `bulk_review_test.py`), then the user audits a random sample
+   (`audit_test.jsonl`) and, if the sample error rate is high, reviews the rest.
+2. **Claude sessions never read the test split** (`candidates_test.jsonl`, `reviewed_test.jsonl`, `test.jsonl`): scripts
+   print counts only. Sessions see test scores, not questions or failures. The only exception is the reviewer
+   subagent of test v2 (rule 1): it runs in its own context, returns counts only, and its output never enters
+   the tuning session.
 3. Test runs only at milestones, every run reported. If a test result motivates a change, the split is spent:
    record it here and write fresh test questions before quoting test numbers again.
 4. Dev may be used for tuning; report dev and test side by side.
@@ -112,3 +116,4 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   `import_cross_doc.py`; both check test page, not seen in test v1, figure printed on the page, same report year).
   Report test cross_doc as "n=10", not as a precise rate. Dev quotas unchanged (dev.jsonl must stay 0250341f…).
 - 2026-11-26 (night): **test v2 quotas reduced 150 -> 100** to keep the user's review workload manageable (`common.QUOTA`, test column): text_fact 20, table_lookup 20, chart 15, calculation 15, regulation 12, cross_doc 10, unanswerable 8. Dev quotas unchanged (450). Consequence: with n=15-20 per type one question moves a type's score by 5-7 points, so report test per type with n and treat the overall test number as the main result; no per-type claims below ~20 questions.
+- 2026-11-26 (night): user chose **subagent review + sample audit** for test v2 (instead of reviewing every draft by hand). Reviewer: Claude Opus subagent(s), decisions recorded with `reviewer: claude-subagent` by `bulk_review_test.py` (prints counts only). The tuning session reads counts, never questions. The user audits a random sample (seeded, ~25% of accepted, chart over-sampled) in the review app's Audit tab; the report must say test v2 was model-reviewed with a human sample check, and give the sample error rate.

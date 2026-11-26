@@ -21,7 +21,8 @@ def collect(split: str) -> list[dict]:
     rows = []
     if split == "dev":
         rows += [{**q, "split": "dev", "source": "seed"} for q in read_jsonl(EVAL / "seed_questions.jsonl")]
-    acc = [r for r in read_jsonl(HERE / f"reviewed_{split}.jsonl") if r["decision"] == "accept"]
+    wrong = {r["cid"] for r in read_jsonl(HERE / f"audit_{split}.jsonl") if r["verdict"] == "wrong"}  # audit.py
+    acc = [r for r in read_jsonl(HERE / f"reviewed_{split}.jsonl") if r["decision"] == "accept" and r["cid"] not in wrong]
     rows += [{**r, "source": "draft+review"} for r in acc]
     rows += [{"source": "user", **r} for r in read_jsonl(HERE / f"user_{split}.jsonl")]
     return rows

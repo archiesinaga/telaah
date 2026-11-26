@@ -7,3 +7,7 @@ reviewed_test.jsonl
 user_test.jsonl
 _reviewed_test.backup_before_undo.jsonl
 archive_test_v1/
+
+# test v2 audit (verdict notes may quote questions)
+audit_sample_*.json
+audit_*.jsonl

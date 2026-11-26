@@ -19,6 +19,7 @@ from PIL import Image
 from common import HERE, QUOTA, ROOT, append_jsonl, docs, is_report, pages, read_jsonl
 from draft import OPS
 from gold import compute, fmt_id
+from audit import audit_file, sample_file
 from userq import UNITS, cross_doc_row, parse_pages
 
 sys.path.insert(0, str(ROOT / "src"))
@@ -123,6 +124,47 @@ def add_cross_doc(split, question, ref_a, ref_b, bank_a, bank_b, label, val_a, v
         return f"⚠️ Not saved: {e}", question, ref_a, ref_b, label
 
 
+def audit_queue(split: str) -> list[dict]:
+    """Sampled rows not yet judged (the sample holds cids only; see audit.py)."""
+    if not sample_file(split).exists():
+        return []
+    sample = set(json.loads(sample_file(split).read_text(encoding="utf-8")))
+    done = {r["cid"] for r in read_jsonl(audit_file(split))}
+    rows = [r for r in read_jsonl(rev_file(split)) if r["cid"] in sample and r["decision"] == "accept"]
+    return sorted((r for r in rows if r["cid"] not in done), key=lambda r: (r["type"], r["cid"]))
+
+
+def audit_progress(split: str) -> str:
+    sample = json.loads(sample_file(split).read_text(encoding="utf-8")) if sample_file(split).exists() else []
+    verdicts = [r["verdict"] for r in read_jsonl(audit_file(split))]
+    wrong = verdicts.count("wrong")
+    return (f"**{split} audit**: sample {len(sample)}, judged {len(verdicts)} (wrong {wrong}), "
+            f"left {len(audit_queue(split))}" + (f" · error rate {wrong / len(verdicts):.0%}" if verdicts else ""))
+
+
+def audit_show(split: str):
+    q = audit_queue(split)
+    if not q:
+        return [None, None, "", "No rows left to audit (run `audit.py make " + split + "` first if the sample is empty).",
+                "", "", "", audit_progress(split)]
+    r = q[0]
+    pgs = r["gold_pages"]
+    imgs = [image(d, p) for d, p in pgs] + [None]
+    figs = ""
+    if r.get("figures"):
+        figs = "\n\n" + "; ".join(f"{f.get('bank', '')} {f.get('label', '')} = {f.get('value', f.get('value_float'))}"
+                                  for f in r["figures"])
+    return [imgs[0], imgs[1], r["cid"], f"`{r['cid']}` · {r['type']} · pages " + "; ".join(f"{d}:{p}" for d, p in pgs),
+            r["question"], r["gold_answer"] + figs, "", audit_progress(split)]
+
+
+def audit_judge(split, cid, verdict, note):
+    if cid:
+        append_jsonl(audit_file(split), {"cid": cid, "split": split, "verdict": verdict, "note": (note or "").strip(),
+                                         "audited_at": time.strftime("%Y-%m-%d %H:%M")})
+    return audit_show(split)
+
+
 with gr.Blocks(title="Telaah benchmark review") as app:
     with gr.Tab("Review drafts"):
         with gr.Row():
@@ -185,6 +227,27 @@ with gr.Blocks(title="Telaah benchmark review") as app:
         c_add = gr.Button("Add cross_doc", variant="primary")
         c_msg = gr.Markdown()
 
+    with gr.Tab("Audit sample"):
+        gr.Markdown("Check a random sample of the rows the reviewer subagent accepted. For each row: look at the page, "
+                    "decide whether the question and gold answer are **correct** (answer on the page, unambiguous, "
+                    "self-contained). Wrong rows are dropped from the benchmark. Make the sample first with "
+                    "`python eval/bench/audit.py make test`.")
+        a_split = gr.Radio(["test", "dev"], value="test", label="Split")
+        a_prog = gr.Markdown()
+        with gr.Row():
+            with gr.Column(scale=3):
+                a_img_a = gr.Image(label="Page A", type="pil", height=900)
+                a_img_b = gr.Image(label="Page B (cross_doc)", type="pil", height=900)
+            with gr.Column(scale=2):
+                a_cid = gr.Textbox(visible=False)
+                a_info = gr.Markdown()
+                a_q = gr.Textbox(label="Question", lines=4, interactive=False)
+                a_gold = gr.Textbox(label="Gold answer", lines=3, interactive=False)
+                a_note = gr.Textbox(label="Note (why wrong, optional)")
+                with gr.Row():
+                    a_ok = gr.Button("Correct", variant="primary")
+                    a_bad = gr.Button("Wrong", variant="stop")
+
     fields = [img_a, img_b, cid, info, typ, question, answer, numeric, gold_pages, figs, op, evidence, hint, prog]
     inputs = [split, only, cid, typ, question, answer, numeric, gold_pages, figs, op]
     app.load(show, [split, only], fields)
@@ -218,6 +281,12 @@ with gr.Blocks(title="Telaah benchmark review") as app:
     u_add.click(_add, [u_split, u_q, u_why], [u_msg, u_q])
     c_add.click(add_cross_doc, [c_split, c_q, c_ref_a, c_ref_b, c_bank_a, c_bank_b, c_label, c_val_a, c_val_b, c_unit],
                 [c_msg, c_q, c_ref_a, c_ref_b, c_label])
+
+    a_fields = [a_img_a, a_img_b, a_cid, a_info, a_q, a_gold, a_note, a_prog]
+    app.load(audit_show, [a_split], a_fields)
+    a_split.change(audit_show, [a_split], a_fields)
+    a_ok.click(lambda s_, c, n: audit_judge(s_, c, "correct", n), [a_split, a_cid, a_note], a_fields)
+    a_bad.click(lambda s_, c, n: audit_judge(s_, c, "wrong", n), [a_split, a_cid, a_note], a_fields)
 
 if __name__ == "__main__":
     app.launch(server_name="127.0.0.1", server_port=7861, inbrowser=True)
