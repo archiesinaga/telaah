@@ -127,3 +127,16 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   Audit sample (`audit.py make test`): 31 rows of the 102 reviewer-accepted (text_fact 6, table_lookup 6, calculation 5,
   chart 9, regulation 4, cross_doc 1). Next: user audits in the review app (Audit sample tab), writes cross_doc;
   error rate above 15% means the user reviews the rest by hand.
+- 2026-11-26 (late night): **test v2 built, 100/100** (`build.py`; test.jsonl sha256
+  d9b0303614dce4a7a7c0a400df82060ec3d0f9b90a3f38b8ec01dd927e56a730; dev.jsonl unchanged, 0250341f…). Per type used/available:
+  text_fact 20/26, table_lookup 20/23, chart 15/18, calculation 15/18, cross_doc 10/12, regulation 12/16, unanswerable 8/8.
+  How it was made: Gemini drafts (rounds 4-5) -> Claude Opus reviewer subagents (accept/reject, counts only) -> model
+  audit by an independent Opus subagent on a seeded sample (31 rows: 29 correct, 2 wrong, both missing Rupiah scale) ->
+  scale/unit check of the other 32 table_lookup/calculation rows (7 questions fixed by adding the unit; gold answers
+  never changed) -> cross_doc: 11 questions written by a Claude subagent from test pages (importer-validated), audited
+  by a second subagent (8 correct, 3 unit fixes, 0 wrong); unanswerables written by the user. Error rate on the
+  original sample 5% (2/39 judged; 10 fixes, not errors). **No human review of the model-accepted rows beyond the
+  user's own 8 unanswerables and 2 text_fact accepts**: report test v2 as "model-reviewed, independently model-audited".
+  The audit tab (human) is optional: 38 sample rows, 7 of them the unit fixes. Caveats: 5 of 18 chart rows are infographic
+  tiles (easier); BNI 2025 is nearly absent from cross_doc (English number format); cross_doc n=10; one unit was inferred
+  (no unit line on the page).

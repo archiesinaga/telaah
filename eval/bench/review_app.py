@@ -129,8 +129,9 @@ def audit_queue(split: str) -> list[dict]:
     if not sample_file(split).exists():
         return []
     sample = set(json.loads(sample_file(split).read_text(encoding="utf-8")))
-    done = {r["cid"] for r in read_jsonl(audit_file(split))}
+    done = {r["cid"] for r in read_jsonl(audit_file(split)) if r["verdict"] != "fix"}
     rows = [r for r in read_jsonl(rev_file(split)) if r["cid"] in sample and r["decision"] == "accept"]
+    rows += [r for r in read_jsonl(user_file(split)) if r["cid"] in sample and r["type"] == "cross_doc"]
     return sorted((r for r in rows if r["cid"] not in done), key=lambda r: (r["type"], r["cid"]))
 
 
@@ -148,6 +149,9 @@ def audit_show(split: str):
         return [None, None, "", "No rows left to audit (run `audit.py make " + split + "` first if the sample is empty).",
                 "", "", "", audit_progress(split)]
     r = q[0]
+    fixed = {x["cid"]: x["question"] for x in read_jsonl(audit_file(split)) if x["verdict"] == "fix"}
+    if r["cid"] in fixed:  # the question as it will be scored (unit/scale added by the checker)
+        r = {**r, "question": fixed[r["cid"]]}
     pgs = r["gold_pages"]
     imgs = [image(d, p) for d, p in pgs] + [None]
     figs = ""
