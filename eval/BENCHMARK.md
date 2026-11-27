@@ -179,3 +179,36 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   cross_doc numbers (numeric 0.50, citation 0.10) were measured before this change, and the rule stands that a change
   motivated by a test result spends the split (this one was motivated by dev). A new test split is needed before
   quoting test numbers for this code.
+- 2026-11-27: **test v3 design, written down before any v3 page is sampled or question drafted** (decisions by the user
+  the same day). Why: the post-freeze changes (cross_doc template f343e0c, stepcalc e15ec60, pairread 95061e4, the
+  subsidiary guard in `facts`) were developed on dev, and the cross_doc one was prompted by the test v2 result, so test v2
+  is spent for them (rule 3). Dev gains (calculation numeric 0.338 -> 0.441, cross_doc 0.683 -> 0.967) cannot be quoted as
+  held-out numbers.
+  - **Purpose.** (1) A held-out score for HEAD. (2) Primary: an A/B on the same v3 questions, frozen code (tag
+    `test-v2-freeze` = 10433aa) vs HEAD (the commit tagged `test-v3-freeze`), both with base-run settings and both scored
+    with HEAD's scorer. `data/` (facts.sqlite 10-21, processed/qdrant 10-13, page_transcripts 10-27) predates the freeze,
+    so the frozen run is the frozen system.
+  - **Page pool.** Test v2 left no hash-test chart pages and no hash-test cross_doc pairs. v3 uses pages of EITHER hash
+    share that were never used: not in pages.jsonl-pages5.jsonl, not a gold or extra-gold page of seed, dev, test v1 or
+    test v2, not a tuned page, and not within one page of any of those. Such pages were never a question page, so they
+    are as unseen as hash-test pages. Count on 2026-11-27 before the neighbour rule: text 2729, table 2238, calculation
+    2543, chart 584, regulation 1165 unused pages; 146 two-bank term/year pair options.
+  - **Quotas (about 140), weighted to the changed types:** calculation 50, cross_doc 30, table_lookup 15, text_fact 15,
+    regulation 10, chart 10, unanswerable 10 (written by the user). Chart may come out short (v2: few sampled pages hold a
+    real chart); a shortfall is reported, not filled with other types.
+  - **Generation.** Same drafter and prompts as test v2 (`draft.py` sha256 17084f3e3dcdf7a7...; any change to it before
+    the v3 freeze is recorded here). cross_doc from two-bank page pairs of the same term and report year
+    (`sample_pages.pairs`), NOT from the facts table (`crossdoc_from_facts.py` is not used for v3); each row records
+    whether its indicator is a facts-table indicator, and cross_doc is reported for both groups. Calculation golds from
+    `gold.py`. Every numeric gold states its scale (e.g. "2.823.847 juta Rupiah").
+  - **Review.** As test v2: Claude Opus reviewer subagent(s) (`reviewer: claude-subagent`, counts only to the tuning
+    session), an independent audit subagent on a seeded sample, then the USER audits 30 random accepted rows in the review
+    app's Audit tab (report the sample error rate). The tuning session never reads v3 candidates, reviews, questions or
+    per-question results (rule 2).
+  - **Freeze.** `build.py` -> `eval/bench/test_v3.jsonl` (git-ignored), sha256 recorded here, git tag `test-v3-freeze`
+    on HEAD, all before any v3 run.
+  - **Runs and analysis (fixed now).** One run each, frozen code (git worktree at 10433aa) and HEAD, same Ollama model
+    `qwen2.5:7b-gpu`, `TELAAH_TRANSCRIPTS=1`, `--agent --router --judge-on-fail`. Scripts print summary, by_type and
+    paired flip COUNTS only. Primary: numeric accuracy on calculation and on cross_doc, HEAD vs frozen, McNemar exact
+    test on the discordant pairs (two-sided, alpha 0.05, no other primary tests). Secondary: overall numeric, recall@5,
+    citation, refusal; HEAD v3 beside dev. Every run is reported, including a null or negative result.
