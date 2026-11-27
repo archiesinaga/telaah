@@ -3,8 +3,9 @@
 Shared by review_app.py (the "Cross-doc (write your own)" tab) and import_cross_doc.py (CSV). Never prints questions.
 """
 import re
+from functools import cache
 
-from common import norm, page_split, pages, test_v1_pages
+from common import V3, norm, page_split, pages, test_v1_pages
 from gold import compute, fmt_id
 
 UNITS = ["%", "triliun Rupiah", "miliar Rupiah", "juta Rupiah"]
@@ -27,6 +28,12 @@ def parse_id_number(s: str) -> float:
     return float(t.replace(".", "").replace(",", "."))
 
 
+@cache
+def _v3_excluded() -> frozenset:
+    from sample_pages import v3_excluded
+    return frozenset(v3_excluded())
+
+
 def check_test_page(split: str, ref: str, printed: str) -> tuple[str, int]:
     """'doc:page' must exist, belong to `split`, not be a test-v1 page, and print the figure."""
     try:
@@ -36,7 +43,10 @@ def check_test_page(split: str, ref: str, printed: str) -> tuple[str, int]:
     text = pages(doc).get(page)
     if text is None:
         raise ValueError(f"{doc}:{page} does not exist in the corpus")
-    if page_split(doc, page) != split:
+    if split == V3:  # test v3: any hash share, but never a used page or its neighbour (BENCHMARK.md 2026-11-27)
+        if (doc, page) in _v3_excluded():
+            raise ValueError(f"{doc}:{page} was used before (or is next to a used page): pick another page")
+    elif page_split(doc, page) != split:
         raise ValueError(f"{doc}:{page} is a {page_split(doc, page)} page, not {split}: pick another page")
     if split == "test" and (doc, page) in test_v1_pages():
         raise ValueError(f"{doc}:{page} was seen through the retired test v1: pick another page")
@@ -73,4 +83,11 @@ def cross_doc_row(split, num, question, ref_a, ref_b, bank_a, bank_b, label, val
     answer = f"{hi} lebih tinggi: {label} {bank_a} {show_v(va)} vs {bank_b} {show_v(vb)} (selisih {gap} {gap_unit})."
     return {"cid": f"u-{split}-{num:03d}", "split": split, "type": "cross_doc", "question": question,
             "gold_answer": answer, "gold_pages": [[da, pa], [db, pb]], "answerable": True, "numeric": True,
-            "figures": figures, "op": "difference", "computed": gap}
+            "figures": figures, "op": "difference", "computed": gap,
+            **({"extra": {"in_facts_table": _in_facts(label)}} if split == V3 else {})}
+
+
+def _in_facts(label: str) -> bool:
+    """Is the indicator one the facts table answers (cross_doc reported per group, test v3)."""
+    from telaah.facts import Q_INDICATORS
+    return any(re.search(pat, label.lower()) for pat in Q_INDICATORS.values())

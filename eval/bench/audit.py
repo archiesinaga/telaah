@@ -3,6 +3,8 @@
     .venv/Scripts/python eval/bench/audit.py make test        # writes audit_sample_test.json (cids only), prints counts
     .venv/Scripts/python eval/bench/audit.py add-user test    # add every hand-written (user_test) cross_doc row to the sample
     .venv/Scripts/python eval/bench/audit.py stats test       # verdicts so far: counts and the error rate
+    .venv/Scripts/python eval/bench/audit.py make-human test3   # test v3: the USER's own 30-row sample (split "test3-human")
+    .venv/Scripts/python eval/bench/audit.py stats test3-human  # the user's verdicts only
 
 The sample is ~25% of the rows accepted by the reviewer subagent per type (chart 50%, at least 4 per type), seeded so it
 is reproducible. The user judges each row in the review app's "Audit sample" tab (Correct / Wrong); a Wrong row is
@@ -21,7 +23,13 @@ MIN_PER_TYPE = 4
 
 
 def sample_file(split): return HERE / f"audit_sample_{split}.json"
-def audit_file(split): return HERE / f"audit_{split}.jsonl"
+def audit_file(split): return HERE / f"audit_{split.removesuffix('-human')}.jsonl"  # human verdicts share the file
+HUMAN_N = 30
+
+
+def is_human(row: dict) -> bool:
+    """A verdict typed in the review app (no model auditor)."""
+    return not row.get("auditor", "").startswith("claude")
 
 
 def accepted(split: str) -> list[dict]:
@@ -45,6 +53,16 @@ def make(split: str) -> None:
     print(f"audit sample: {len(picked)} rows (cids only) -> {sample_file(split).name}")
 
 
+def make_human(split: str) -> None:
+    """Test v3: the user's own seeded sample of every accepted row (reviewer-accepted and hand-written), judged in the
+    review app with split "<split>-human", independent of the model audit."""
+    cids = sorted({r["cid"] for r in accepted(split)} | {r["cid"] for r in read_jsonl(HERE / f"user_{split}.jsonl")
+                                                          if r["type"] == "cross_doc"})
+    picked = random.Random(SEED + 99).sample(cids, min(HUMAN_N, len(cids)))
+    sample_file(f"{split}-human").write_text(json.dumps(sorted(picked)), encoding="utf-8")
+    print(f"human audit sample: {len(picked)} of {len(cids)} accepted rows -> {sample_file(split + '-human').name}")
+
+
 def add_user(split: str) -> None:
     """Rows written through the cross-doc tab / importer are not in reviewed_{split}.jsonl: audit all of them too."""
     cids = {r["cid"] for r in read_jsonl(HERE / f"user_{split}.jsonl") if r["type"] == "cross_doc"}
@@ -56,6 +74,8 @@ def add_user(split: str) -> None:
 def stats(split: str) -> None:
     sample = json.loads(sample_file(split).read_text(encoding="utf-8")) if sample_file(split).exists() else []
     rows = read_jsonl(audit_file(split))
+    if split.endswith("-human"):
+        rows = [r for r in rows if is_human(r)]
     fixes = sum(r["verdict"] == "fix" for r in rows)
     verdicts = {r["cid"]: r["verdict"] for r in rows if r["verdict"] != "fix" and r["cid"] in set(sample)}
     extra_wrong = len({r["cid"] for r in rows if r["verdict"] == "wrong" and r["cid"] not in set(sample)})
@@ -71,4 +91,4 @@ def stats(split: str) -> None:
 
 
 if __name__ == "__main__":
-    {"make": make, "add-user": add_user, "stats": stats}[sys.argv[1]](sys.argv[2])
+    {"make": make, "make-human": make_human, "add-user": add_user, "stats": stats}[sys.argv[1]](sys.argv[2])

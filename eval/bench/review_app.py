@@ -19,7 +19,7 @@ from PIL import Image
 from common import HERE, QUOTA, ROOT, append_jsonl, docs, is_report, pages, read_jsonl
 from draft import OPS
 from gold import compute, fmt_id
-from audit import audit_file, sample_file
+from audit import audit_file, is_human, sample_file
 from userq import UNITS, cross_doc_row, parse_pages
 
 sys.path.insert(0, str(ROOT / "src"))
@@ -129,15 +129,17 @@ def audit_queue(split: str) -> list[dict]:
     if not sample_file(split).exists():
         return []
     sample = set(json.loads(sample_file(split).read_text(encoding="utf-8")))
-    done = {r["cid"] for r in read_jsonl(audit_file(split)) if r["verdict"] != "fix"}
-    rows = [r for r in read_jsonl(rev_file(split)) if r["cid"] in sample and r["decision"] == "accept"]
-    rows += [r for r in read_jsonl(user_file(split)) if r["cid"] in sample and r["type"] == "cross_doc"]
+    base, human = split.removesuffix("-human"), split.endswith("-human")  # "test3-human": the user's own sample
+    done = {r["cid"] for r in read_jsonl(audit_file(split)) if r["verdict"] != "fix" and (not human or is_human(r))}
+    rows = [r for r in read_jsonl(rev_file(base)) if r["cid"] in sample and r["decision"] == "accept"]
+    rows += [r for r in read_jsonl(user_file(base)) if r["cid"] in sample and r["type"] == "cross_doc"]
     return sorted((r for r in rows if r["cid"] not in done), key=lambda r: (r["type"], r["cid"]))
 
 
 def audit_progress(split: str) -> str:
     sample = json.loads(sample_file(split).read_text(encoding="utf-8")) if sample_file(split).exists() else []
-    verdicts = [r["verdict"] for r in read_jsonl(audit_file(split))]
+    verdicts = [r["verdict"] for r in read_jsonl(audit_file(split))
+                if r["verdict"] != "fix" and (not split.endswith("-human") or is_human(r)) and r["cid"] in set(sample)]
     wrong = verdicts.count("wrong")
     return (f"**{split} audit**: sample {len(sample)}, judged {len(verdicts)} (wrong {wrong}), "
             f"left {len(audit_queue(split))}" + (f" · error rate {wrong / len(verdicts):.0%}" if verdicts else ""))
@@ -164,7 +166,8 @@ def audit_show(split: str):
 
 def audit_judge(split, cid, verdict, note):
     if cid:
-        append_jsonl(audit_file(split), {"cid": cid, "split": split, "verdict": verdict, "note": (note or "").strip(),
+        append_jsonl(audit_file(split), {"cid": cid, "split": split.removesuffix("-human"), "verdict": verdict,
+                                         "auditor": "user", "note": (note or "").strip(),
                                          "audited_at": time.strftime("%Y-%m-%d %H:%M")})
     return audit_show(split)
 
@@ -172,7 +175,7 @@ def audit_judge(split, cid, verdict, note):
 with gr.Blocks(title="Telaah benchmark review") as app:
     with gr.Tab("Review drafts"):
         with gr.Row():
-            split = gr.Radio(["dev", "test"], value="dev", label="Split")
+            split = gr.Radio(["dev", "test", "test3"], value="dev", label="Split")
             only = gr.Dropdown(["all"] + TYPES, value="all", label="Show type")
             prog = gr.Markdown()
         with gr.Row():
@@ -202,7 +205,7 @@ with gr.Blocks(title="Telaah benchmark review") as app:
                     "later, quarterly figures, banks or regulations not in the corpus, metrics a bank does not "
                     "publish. Check with a quick search that the corpus really does not contain it. "
                     "Target: 12 dev + 8 test.")
-        u_split = gr.Radio(["dev", "test"], value="dev", label="Split")
+        u_split = gr.Radio(["dev", "test", "test3"], value="test3", label="Split")
         u_q = gr.Textbox(label="Question", lines=3)
         u_why = gr.Textbox(label="Why it is unanswerable (for the dataset card)")
         u_add = gr.Button("Add", variant="primary")
@@ -213,7 +216,7 @@ with gr.Blocks(title="Telaah benchmark review") as app:
                     "pages seen through the retired test v1 are refused). Type each value **exactly as printed** on "
                     "the page (e.g. `3,29` or `1.234.567`). The gold answer and the difference are computed here. "
                     "Pages as `doc:page`, e.g. `bri_2025:145`. Target: about 10 test questions.")
-        c_split = gr.Radio(["test", "dev"], value="test", label="Split")
+        c_split = gr.Radio(["test", "dev", "test3"], value="test3", label="Split")
         c_q = gr.Textbox(label="Question (name both banks, the year and the report year; e.g. 'Bandingkan total aset "
                                "BRI dan BNI per 31 Desember 2025 menurut Laporan Tahunan 2025 masing-masing. Bank mana "
                                "yang lebih besar, dan berapa selisihnya?')", lines=3)
@@ -236,7 +239,7 @@ with gr.Blocks(title="Telaah benchmark review") as app:
                     "decide whether the question and gold answer are **correct** (answer on the page, unambiguous, "
                     "self-contained). Wrong rows are dropped from the benchmark. Make the sample first with "
                     "`python eval/bench/audit.py make test`.")
-        a_split = gr.Radio(["test", "dev"], value="test", label="Split")
+        a_split = gr.Radio(["test3-human", "test", "dev"], value="test3-human", label="Split")
         a_prog = gr.Markdown()
         with gr.Row():
             with gr.Column(scale=3):

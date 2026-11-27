@@ -21,7 +21,7 @@ COLUMNS = ["question", "page_a", "page_b", "bank_a", "bank_b", "indicator", "val
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("csv_file")
-    ap.add_argument("--split", default="test", choices=["test", "dev"])
+    ap.add_argument("--split", default="test", choices=["test", "dev", "test3"])
     ap.add_argument("--dry-run", action="store_true", help="check only, write nothing")
     ap.add_argument("--out", help="output jsonl (default eval/bench/user_{split}.jsonl)")
     a = ap.parse_args()

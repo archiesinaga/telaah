@@ -220,3 +220,36 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   Tooling: `common.V3`/`QUOTA_V3`; `build.py --split test3` builds only `test3.jsonl` (dev.jsonl and test.jsonl rebuild
   byte-identical, checked); test3 files git-ignored. **`draft.py` changed by one line only** (output file for split
   `test3`; prompts unchanged): sha256 17084f3e3dcdf7a7... -> 175f61e662c7c38a....
+- 2026-11-27: **test v3 drafted** (`draft.py --pages pages6.jsonl`, gemini-3.5-flash-lite, 324 pages, 0 errors): drafts
+  text_fact 38, table_lookup 38, calculation 102 (22 flagged by the automatic check), chart 44, regulation 22,
+  cross_doc 6 (3 flagged); 132 of 324 pages gave drafts. **cross_doc decision (user, same day): the 45 pairs gave only
+  6 drafts, so cross_doc questions are written by a Claude Opus subagent, as in test v2**, from two pages of two banks
+  of the same report year that are not v3-excluded pages, entered through `import_cross_doc.py --split test3`
+  (figures checked on the page, gold computed in Python, `extra.in_facts_table` from the indicator label), never from
+  facts.sqlite; a second subagent audits them. The 6 Gemini cross_doc drafts are reviewed like the others.
+  Tooling for test3: `BENCH_SPLIT=test3` for bulk_review_test.py, review_helper_test.py, audit_record_test.py;
+  `userq.check_test_page` accepts a test3 page of either hash share unless v3-excluded; bulk_review_test.py may add a
+  unit/scale to a non-calculation gold (`"gold"` key), refused if the numbers change.
+- 2026-11-27: **test v3 review done** (Claude Opus reviewer subagents, `reviewer: claude-subagent`): accepted text_fact 35,
+  table_lookup 26, calculation 57, chart 13 (one question per chart page), regulation 22; Gemini cross_doc 0 of 6. The
+  script's existing evidence check (`loose_ok`, as in test v2) rejected 20 drafts the reviewers had accepted from the
+  page image (17 calculation); the check was NOT changed after seeing this (quotas are met; changing an acceptance rule
+  after review would tune the benchmark). cross_doc: 35 rows written by a Claude Opus subagent (`user_test3.jsonl`,
+  0 refused by the import checks, 9 bank pairs, 70 distinct pages: 27 from pages6.jsonl, 43 newly picked; none of the
+  45 sampled pairs had a usable common indicator). **Disclosed blindness leak:** the writer's report to the tuning
+  session named content details beyond counts (the bank pairs, the share of percentage vs juta-Rupiah indicators, that
+  some rows compare LCR/NSFR/LDR, and definition edge cases). No question, value or page reached the session. No code
+  change follows before the v3 freeze, so the system under test is unaffected; recorded here for transparency.
+- 2026-11-27: **test v3 built and frozen, 140/140** (`build.py --split test3` -> `eval/bench/test3.jsonl`, git-ignored,
+  sha256 ef26f22fe613e62a7ff46252f2e2530b777365e96f69819634a7c46def797eed): text_fact 15 (of 35 accepted),
+  table_lookup 15 (26), chart 10 (13), calculation 50 (57), cross_doc 30 (31 after the audit), regulation 10 (22),
+  unanswerable 10; no question shares a gold page with dev or test v2. Model audit (independent Claude Opus subagent,
+  `auditor: claude-subagent`): 76 rows (41 seeded from reviewer-accepted rows + all 35 written cross_doc rows),
+  72 correct, 4 wrong (all cross_doc: 2 wrong period, 2 definition mismatch; dropped), 6 question fixes, error rate 5%.
+  **Deviations from the 11-27 design, by user decision during the run ("do not ask me again"):** the 10 unanswerables
+  were written by a Claude Opus subagent (each checked against the corpus text and the retriever; 1 candidate dropped),
+  not by the user; and the user's 30-row human audit (`audit_sample_test3-human.json`, `audit.py make-human`) did not
+  happen before the freeze. It can still be done; its error rate would then be reported, but no row is dropped after
+  the freeze. So test v3 is **model-written/model-reviewed and model-audited, not human-reviewed**. Git tag
+  `test-v3-freeze` = the commit that records this entry (HEAD for the A/B). New: `eval/bench/compare_v3.py` (the
+  pre-registered A/B analysis, counts only).
