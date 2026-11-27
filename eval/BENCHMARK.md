@@ -253,3 +253,17 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   the freeze. So test v3 is **model-written/model-reviewed and model-audited, not human-reviewed**. Git tag
   `test-v3-freeze` = the commit that records this entry (HEAD for the A/B). New: `eval/bench/compare_v3.py` (the
   pre-registered A/B analysis, counts only).
+- 2026-11-28: **test v3 A/B result (frozen code vs HEAD, same 140 questions, both runs complete, code never changed after the freeze).**
+  Frozen = tag `test-v2-freeze` (git worktree), run `bench-test3-20261128-033210.json`; HEAD = `bench-test3-20261127-123738.json`;
+  both with `--agent --router --judge-on-fail`, Qwen2.5-7B, numeric rescored with the same fixed scorer. Counts-only analysis:
+  `eval/bench/compare_v3.py`. Overall numeric 0.398 (frozen) -> 0.451 (HEAD), recall@5 0.671 -> 0.679, citation 0.436 -> 0.479,
+  refusal 0.879 -> 0.900. Unanswerable 10/10 refused in both.
+  - **Primary, calculation numeric** (n 50): 0.36 -> 0.38; 3 right->wrong, 4 wrong->right, McNemar exact p = 1.00. **No detectable
+    effect** (stepcalc, pairread and the subsidiary guard do not show on unseen calculation questions).
+  - **Primary, cross_doc numeric** (n 30): 0.000 -> 0.167; 0 right->wrong, 5 wrong->right, McNemar exact p = 0.0625. Direction
+    is clearly positive but **not significant at 0.05** with 5 discordant pairs. 4 of the 5 gains are on the 10 questions with a
+    facts-table indicator (0.0 -> 0.4, p = 0.125); the other 20 gain 1 (0.0 -> 0.05). So the cross_doc template helps only where
+    the facts table covers the question; most test cross_doc questions come from detail tables it does not cover.
+  - Secondary, all types: 3 right->wrong, 9 wrong->right, p = 0.146. Chart, regulation, table_lookup, text_fact unchanged.
+  - Caveats: test v3 is model-written/reviewed/audited, not human-reviewed; the n is small; no code change is made because of
+    this result.

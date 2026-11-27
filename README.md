@@ -169,6 +169,17 @@ All 8 unanswerable questions were refused. With 100 questions the 95% interval o
 
 Read per-type numbers as indicative only (n = 10-20; one question moves a score by 5-10 points). Cross-document is the weak spot: dev looks strong (recall 0.985) because dev cross-document questions were built from the same facts table the system reads; the test ones are written from detail tables the facts table does not cover.
 
+### Test v3 (140 questions): the post-freeze changes, frozen vs current code
+
+The changes made after the test v2 freeze (cross-document template, step-wise calculation, two-year page re-read, subsidiary guard) were checked on a new split of 140 questions built before any run (`eval/BENCHMARK.md`): the frozen code (`test-v2-freeze`) and the current code were each run once on the same questions.
+
+| | numeric | recall@5 | citation | refusal |
+|---|---|---|---|---|
+| frozen code | 0.398 | 0.671 | 0.436 | 0.879 |
+| current code | 0.451 | 0.679 | 0.479 | 0.900 |
+
+Calculation numeric 0.36 -> 0.38 (3 worse, 4 better, McNemar p = 1.0): no detectable effect. Cross-document numeric 0.00 -> 0.17 (0 worse, 5 better, p = 0.0625): positive but not significant at 0.05; 4 of the 5 gains are on questions the facts table covers. Nothing else moved. Test v3 is model-written, model-reviewed and model-audited, not human-reviewed, and with 140 questions the intervals are wide.
+
 **How the test split was made, and what that means.** The first test split was retired after its questions were read during development. Test v2 was drafted by Gemini from test-only pages; accepted or rejected by Claude (Opus) reviewer agents; a seeded 25-50% sample was audited independently by another Claude agent (2 of 39 judged rows wrong, both a missing Rupiah scale; the remaining table and calculation rows were then checked for the same flaw and 7 questions were fixed by adding the unit; gold answers were never changed); the cross-document questions were written by a Claude agent and audited by a second one; the 8 unanswerable questions were written by me. So the test is **model-reviewed and model-audited, not human-reviewed**; the Claude agents that checked it never took part in tuning the system, and no test question was shown to the session that does the tuning. 5 of the 18 accepted chart items are infographic number tiles rather than plotted charts (probably easier). Details: `eval/BENCHMARK.md`.
 
 ## How it works
