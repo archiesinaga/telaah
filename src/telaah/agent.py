@@ -17,7 +17,7 @@ from typing import TypedDict
 from langgraph.graph import END, START, StateGraph
 from openai import OpenAI
 
-from telaah import facts, tools, vision
+from telaah import facts, stepcalc, tools, vision
 from telaah.answer import CITE_RE, REFUSAL, SYSTEM, _chat, answer_entity, ask, parse_citations, refine_step, split_question
 from telaah.config import LLM_API_KEY, LLM_BASE_URL, LLM_MAX_RETRIES, ROOT
 from telaah.retrieve import entity_groups
@@ -25,6 +25,8 @@ from telaah.retrieve import entity_groups
 MAX_STEPS = 5
 # one-figure steps (bank, indicator, year) are read from the facts table instead of RAG; TELAAH_FACTS=0 disables
 USE_FACTS = os.environ.get("TELAAH_FACTS", "1") == "1"
+# growth/difference over two years from the two step answers, computed in Python (`telaah.stepcalc`); 0 = calculator prompt
+USE_STEPCALC = os.environ.get("TELAAH_STEPCALC", "1") == "1"
 # opt-in: a RETRIED RAG step of a multi-step plan also sees the top 5 pages of the original question (dev diagnosis
 # 10-26: in 16 of 24 agent retrieval misses the page holding both periods is in the original question's top 5; on
 # every first try it made working steps worse, 9 -> 8 right, so it only applies to the retry)
@@ -309,6 +311,9 @@ def compute(state: State) -> dict:
     pair = facts.pair_comparison(state["question"], state["steps"]) if USE_FACTS else None
     if pair:  # two table figures compared: the answer is written in Python, no calculator prompt
         return {"calc_result": None, "derived": pair, "pair": True, "trace": _log(state, "compute", t0, pair=pair)}
+    two = stepcalc.answer(state["question"], state["steps"]) if USE_STEPCALC and state.get("calc") else None
+    if two:  # growth/difference of one item over two years: units and arithmetic in Python, no calculator prompt
+        return {"calc_result": None, "derived": two, "pair": True, "trace": _log(state, "compute", t0, stepcalc=two)}
     result = None
     if state.get("calc") and all(s["status"] == "ok" for s in state["steps"]):
         data = _json(_chat(_llm(), CALC_SYSTEM, f"Fakta:\n{plain_numbers(_facts(state))}\n\nPertanyaan: {state['question']}"))
