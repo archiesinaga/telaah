@@ -21,6 +21,11 @@ TYPES = ["text_fact", "table_lookup", "chart", "calculation", "cross_doc", "regu
 QUOTA = {"text_fact": (110, 90, 20), "table_lookup": (110, 90, 20), "chart": (82, 67, 15),
          "calculation": (83, 68, 15), "cross_doc": (78, 68, 10), "regulation": (57, 45, 12),
          "unanswerable": (30, 22, 8)}  # test column reduced 2026-11-26 (150 -> 100), see BENCHMARK.md Status
+# test v3 (BENCHMARK.md Status 2026-11-27): its own split name and files (candidates_test3.jsonl, ...), weighted to the
+# types changed after the test v2 freeze
+V3 = "test3"
+QUOTA_V3 = {"text_fact": 15, "table_lookup": 15, "chart": 10, "calculation": 50, "cross_doc": 30, "regulation": 10,
+            "unanswerable": 10}
 
 
 def read_jsonl(path: Path) -> list[dict]:

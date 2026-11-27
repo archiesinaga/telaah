@@ -11,8 +11,8 @@ import re
 import sys
 from collections import Counter
 
-from common import (BANK, HERE, SEED, docs, read_jsonl, is_regulation, is_report, page_split, pages, split_of,
-                    test_v1_pages)
+from common import (BANK, HERE, SEED, V3, docs, read_jsonl, is_regulation, is_report, page_split, pages, split_of,
+                    test_v1_pages, tuned_pages)
 
 OUT = HERE / "pages.jsonl"
 # pages (pairs for cross_doc) per kind: about 1.4x the new questions needed, 2 drafts per page
@@ -79,16 +79,17 @@ def term_pages(term: str) -> dict[str, list[int]]:
     return out
 
 
-def pairs(n: int, used: set, rng: random.Random, test_only: bool = False) -> list[dict]:
-    """Two banks, same report year, same term; the split is chosen first, then both pages come from it."""
+def pairs(n: int, used: set, rng: random.Random, test_only: bool = False, any_split: str | None = None) -> list[dict]:
+    """Two banks, same report year, same term; the split is chosen first, then both pages come from it.
+    `any_split`: pages of either hash share, every pair labelled with this split name (test v3)."""
     by_term = {t: term_pages(t) for t in TERMS}
     out, tries = [], 0
     while len(out) < n and tries < 20000:
         tries += 1
-        split = "test" if test_only or len(out) % round(1 / TEST_SHARE_PAIRS) == 0 else "dev"
+        split = any_split or ("test" if test_only or len(out) % round(1 / TEST_SHARE_PAIRS) == 0 else "dev")
         term = rng.choice(TERMS)
         year = rng.choice(["2024", "2025"])
-        cands = {d: [p for p in ps if page_split(d, p) == split and (d, p) not in used]
+        cands = {d: [p for p in ps if (any_split or page_split(d, p) == split) and (d, p) not in used]
                  for d, ps in by_term[term].items() if d.endswith(year)}
         cands = {d: ps for d, ps in cands.items() if ps}
         if len(cands) < 2:
@@ -112,10 +113,54 @@ COUNT4 = {"text_fact": 40, "table_lookup": 40, "calculation": 35, "chart": 40, "
 # remaining two-bank test pair (cap 300; only 8 exist: the facts table has no test pairs at all).
 COUNT5 = {"text_fact": 0, "table_lookup": 0, "calculation": 0, "chart": 250, "regulation": 0, "cross_doc": 300}
 TEST_ROUNDS = {4: ("pages4.jsonl", "s", COUNT4), 5: ("pages5.jsonl", "t", COUNT5)}
+# round 6 (2026-11-27): test v3 (BENCHMARK.md Status 2026-11-27). Pages of EITHER hash share that were never used:
+# not in rounds 1-5, not a gold / extra-gold page of seed, dev, test v1 or test v2, not tuned, and not within one page
+# of any of those. Pages ~1.4x the v3 quota (2 drafts per page); chart ~15x (v2: few "chart" pages hold a real chart).
+COUNT6 = {"text_fact": 22, "table_lookup": 22, "calculation": 70, "chart": 150, "regulation": 15, "cross_doc": 45}
+
+
+def v3_excluded() -> set:
+    """Every page a v3 question must not come from, plus its neighbours. Reads test files for pages only; prints counts."""
+    seen = {tuple(dp) for f in ("pages.jsonl", "pages2.jsonl", "pages3.jsonl", "pages4.jsonl", "pages5.jsonl")
+            for r in read_jsonl(HERE / f) for dp in r["pages"]}
+    seen |= test_v1_pages() | set(tuned_pages())
+    for f in ("dev.jsonl", "test.jsonl", "../seed_questions.jsonl"):
+        for r in read_jsonl(HERE / f):
+            seen |= {tuple(p) for p in r.get("gold_pages", [])}
+    for v in json.loads((HERE / "extra_gold_dev.json").read_text(encoding="utf-8")).values():
+        seen |= {tuple(p) for p in v["pages"]}
+    near = {(d, p + o) for d, p in seen for o in (-1, 0, 1)}
+    print(f"v3 excluded: {len(seen)} used pages, {len(near)} with neighbours")
+    return near
+
+
+def main_v3(dry: bool) -> None:
+    from telaah.facts import Q_INDICATORS
+    rng = random.Random(SEED + 5 * 2)
+    used = v3_excluded()
+    pools = kind_pools()
+    rows = [{"kind": kind, "pages": [dp], "split": V3} for kind, pool in pools.items()
+            for dp in round_robin(pool, COUNT6[kind], used, rng)]
+    for r in pairs(COUNT6["cross_doc"], used, rng, any_split=V3):
+        r["in_facts_table"] = any(re.search(pat, r["term"].lower()) for pat in Q_INDICATORS.values())
+        rows.append(r)
+    print("sampled:", dict(Counter(r["kind"] for r in rows)))
+    print("cross_doc pairs on a facts-table indicator:", sum(r.get("in_facts_table", False) for r in rows), "of",
+          sum(r["kind"] == "cross_doc" for r in rows))
+    print("docs:", dict(Counter(dp[0] for r in rows for dp in r["pages"])))
+    if dry:
+        print("dry run: nothing written")
+        return
+    with open(HERE / "pages6.jsonl", "w", encoding="utf-8") as f:
+        for i, r in enumerate(rows, 1):
+            f.write(json.dumps({"id": f"u{i:04d}", **r}, ensure_ascii=False) + "\n")
+    print(f"-> {HERE / 'pages6.jsonl'}")
 def main() -> None:
     """Round 1 (default) or `--round 2`: new pages for the types still short, never reusing a page of round 1.
     Round 2 cross_doc pairs are test-only (dev cross_doc comes from the facts table, crossdoc_from_facts.py)."""
     rnd = int(sys.argv[sys.argv.index("--round") + 1]) if "--round" in sys.argv else 1
+    if rnd == 6:
+        return main_v3("--dry-run" in sys.argv)
     rng = random.Random(SEED + (rnd - 1) * 2)
     used: set = set()
     out_path, prefix, count = OUT, "p", COUNT

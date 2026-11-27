@@ -1,14 +1,16 @@
-"""Assemble eval/bench/dev.jsonl and test.jsonl from the seed questions and the reviewed drafts.
+"""Assemble eval/bench/dev.jsonl and test.jsonl (or, with --split test3, only test3.jsonl = test v3) from the seed
+questions and the reviewed drafts.
 
 Quotas per type and split come from common.QUOTA; when more questions were accepted than a quota needs, a fixed
 hash order picks them (seed questions are always kept). Prints counts and sha256 only.
 
     .venv/Scripts/python eval/bench/build.py
+    .venv/Scripts/python eval/bench/build.py --split test3   # test v3 only; dev.jsonl and test.jsonl untouched
 """
 import hashlib
 from collections import Counter
 
-from common import EVAL, HERE, QUOTA, TYPES, norm, read_jsonl
+from common import EVAL, HERE, QUOTA, QUOTA_V3, TYPES, V3, norm, read_jsonl
 
 KEYS = ["id", "type", "question", "gold_answer", "gold_pages", "answerable", "numeric", "split", "source"]
 
@@ -31,8 +33,11 @@ def collect(split: str) -> list[dict]:
     return rows
 
 
+def quota(split: str, t: str) -> int:
+    return QUOTA_V3[t] if split == V3 else QUOTA[t][1 if split == "dev" else 2]
+
+
 def build(split: str) -> tuple[list[dict], Counter, Counter]:
-    col = 1 if split == "dev" else 2
     rows, have = collect(split), Counter()
     out = []
     for t in TYPES:
@@ -40,8 +45,9 @@ def build(split: str) -> tuple[list[dict], Counter, Counter]:
         seed = [r for r in of_type if r["source"] == "seed"]
         rest = sorted((r for r in of_type if r["source"] != "seed"), key=lambda r: rank(r["cid"]))
         have[t] = len(of_type)
-        out += seed + rest[: max(0, QUOTA[t][col] - len(seed))]
-    prefix = "bd" if split == "dev" else "bt"
+        out += seed + rest[: max(0, quota(split, t) - len(seed))]
+    prefix = {"dev": "bd", V3: "b3t"}.get(split, "bt")
+    in_facts = {r["id"]: r["in_facts_table"] for r in read_jsonl(HERE / "pages6.jsonl") if "in_facts_table" in r}
     n = 0
     for r in out:
         if r["source"] != "seed":
@@ -49,6 +55,8 @@ def build(split: str) -> tuple[list[dict], Counter, Counter]:
             r["id"] = f"{prefix}{n:04d}"
         if "figures" in r:
             r.setdefault("extra", {}).update({"figures": r["figures"], "op": r["op"]})
+        if split == V3 and (page_id := str(r.get("cid", "")).rsplit("-", 1)[0]) in in_facts:
+            r.setdefault("extra", {})["in_facts_table"] = in_facts[page_id]  # cross_doc reported per group
     final = [{k: r[k] for k in KEYS} | ({"extra": r["extra"]} if "extra" in r else {}) for r in out]
     dup = Counter(norm(r["question"]) for r in final)
     if any(v > 1 for v in dup.values()):
@@ -56,8 +64,26 @@ def build(split: str) -> tuple[list[dict], Counter, Counter]:
     return final, Counter(r["type"] for r in final), have
 
 
+def main_v3() -> None:
+    import json
+    final, used, have = build(V3)
+    earlier = {tuple(p) for f in ("dev.jsonl", "test.jsonl") for r in read_jsonl(HERE / f) for p in r["gold_pages"]}
+    leak = sum(any(tuple(p) in earlier for p in r["gold_pages"]) for r in final)
+    if leak:
+        print(f"  {V3}: {leak} questions share a gold page with dev or test v2")
+    path = HERE / f"{V3}.jsonl"
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        for r in final:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+    print(f"{V3}: {len(final)}/{sum(QUOTA_V3.values())}  " + "  ".join(f"{t} {used[t]}/{QUOTA_V3[t]} (have {have[t]})" for t in TYPES))
+    print(f"  sha256 {hashlib.sha256(path.read_bytes()).hexdigest()}  {path.name}")
+
+
 def main() -> None:
     import json
+    import sys
+    if "--split" in sys.argv and sys.argv[sys.argv.index("--split") + 1] == V3:
+        return main_v3()
     test_pages = set()
     for split in ("test", "dev"):
         final, used, have = build(split)

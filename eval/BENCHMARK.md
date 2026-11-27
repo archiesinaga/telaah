@@ -212,3 +212,11 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
     paired flip COUNTS only. Primary: numeric accuracy on calculation and on cross_doc, HEAD vs frozen, McNemar exact
     test on the discordant pairs (two-sided, alpha 0.05, no other primary tests). Secondary: overall numeric, recall@5,
     citation, refusal; HEAD v3 beside dev. Every run is reported, including a null or negative result.
+- 2026-11-27: **test v3 pages sampled** (`sample_pages.py --round 6` -> `pages6.jsonl`, 324 rows, sha256 34cebf8af83a23e2...;
+  seed 20261021 + 10). Excluded 1783 used pages, 4267 with their +-1 neighbours. Rows: text_fact 22, table_lookup 22,
+  calculation 70, chart 150, regulation 15, cross_doc 45 pairs, split label `test3`. Only 8 of the 45 cross_doc pairs
+  are on a facts-table indicator (`in_facts_table`), so the cross_doc template can apply to few v3 questions; this is
+  the honest test (dev cross_doc came from the facts table) and the two groups are reported separately.
+  Tooling: `common.V3`/`QUOTA_V3`; `build.py --split test3` builds only `test3.jsonl` (dev.jsonl and test.jsonl rebuild
+  byte-identical, checked); test3 files git-ignored. **`draft.py` changed by one line only** (output file for split
+  `test3`; prompts unchanged): sha256 17084f3e3dcdf7a7... -> 175f61e662c7c38a....

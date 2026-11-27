@@ -1,0 +1,324 @@
+{"id": "u0001", "kind": "text_fact", "pages": [["bca_2025", 271]], "split": "test3"}
+{"id": "u0002", "kind": "text_fact", "pages": [["bni_2024", 1246]], "split": "test3"}
+{"id": "u0003", "kind": "text_fact", "pages": [["bni_2025", 1388]], "split": "test3"}
+{"id": "u0004", "kind": "text_fact", "pages": [["bri_2024", 1135]], "split": "test3"}
+{"id": "u0005", "kind": "text_fact", "pages": [["bri_2025", 1299]], "split": "test3"}
+{"id": "u0006", "kind": "text_fact", "pages": [["btn_2024", 15]], "split": "test3"}
+{"id": "u0007", "kind": "text_fact", "pages": [["btn_2025", 903]], "split": "test3"}
+{"id": "u0008", "kind": "text_fact", "pages": [["mandiri_2025", 1105]], "split": "test3"}
+{"id": "u0009", "kind": "text_fact", "pages": [["bca_2025", 367]], "split": "test3"}
+{"id": "u0010", "kind": "text_fact", "pages": [["bni_2024", 1271]], "split": "test3"}
+{"id": "u0011", "kind": "text_fact", "pages": [["bni_2025", 1207]], "split": "test3"}
+{"id": "u0012", "kind": "text_fact", "pages": [["bri_2024", 91]], "split": "test3"}
+{"id": "u0013", "kind": "text_fact", "pages": [["bri_2025", 917]], "split": "test3"}
+{"id": "u0014", "kind": "text_fact", "pages": [["btn_2024", 709]], "split": "test3"}
+{"id": "u0015", "kind": "text_fact", "pages": [["btn_2025", 57]], "split": "test3"}
+{"id": "u0016", "kind": "text_fact", "pages": [["mandiri_2025", 1218]], "split": "test3"}
+{"id": "u0017", "kind": "text_fact", "pages": [["bca_2025", 484]], "split": "test3"}
+{"id": "u0018", "kind": "text_fact", "pages": [["bni_2024", 1245]], "split": "test3"}
+{"id": "u0019", "kind": "text_fact", "pages": [["bni_2025", 515]], "split": "test3"}
+{"id": "u0020", "kind": "text_fact", "pages": [["bri_2024", 1094]], "split": "test3"}
+{"id": "u0021", "kind": "text_fact", "pages": [["bri_2025", 274]], "split": "test3"}
+{"id": "u0022", "kind": "text_fact", "pages": [["btn_2024", 1233]], "split": "test3"}
+{"id": "u0023", "kind": "table_lookup", "pages": [["bca_2025", 343]], "split": "test3"}
+{"id": "u0024", "kind": "table_lookup", "pages": [["bni_2024", 1463]], "split": "test3"}
+{"id": "u0025", "kind": "table_lookup", "pages": [["bni_2025", 1060]], "split": "test3"}
+{"id": "u0026", "kind": "table_lookup", "pages": [["bri_2024", 773]], "split": "test3"}
+{"id": "u0027", "kind": "table_lookup", "pages": [["bri_2025", 429]], "split": "test3"}
+{"id": "u0028", "kind": "table_lookup", "pages": [["btn_2024", 448]], "split": "test3"}
+{"id": "u0029", "kind": "table_lookup", "pages": [["btn_2025", 476]], "split": "test3"}
+{"id": "u0030", "kind": "table_lookup", "pages": [["mandiri_2024", 287]], "split": "test3"}
+{"id": "u0031", "kind": "table_lookup", "pages": [["mandiri_2025", 913]], "split": "test3"}
+{"id": "u0032", "kind": "table_lookup", "pages": [["bca_2025", 143]], "split": "test3"}
+{"id": "u0033", "kind": "table_lookup", "pages": [["bni_2024", 545]], "split": "test3"}
+{"id": "u0034", "kind": "table_lookup", "pages": [["bni_2025", 797]], "split": "test3"}
+{"id": "u0035", "kind": "table_lookup", "pages": [["bri_2024", 473]], "split": "test3"}
+{"id": "u0036", "kind": "table_lookup", "pages": [["bri_2025", 241]], "split": "test3"}
+{"id": "u0037", "kind": "table_lookup", "pages": [["btn_2024", 751]], "split": "test3"}
+{"id": "u0038", "kind": "table_lookup", "pages": [["btn_2025", 572]], "split": "test3"}
+{"id": "u0039", "kind": "table_lookup", "pages": [["mandiri_2024", 837]], "split": "test3"}
+{"id": "u0040", "kind": "table_lookup", "pages": [["mandiri_2025", 286]], "split": "test3"}
+{"id": "u0041", "kind": "table_lookup", "pages": [["bca_2025", 161]], "split": "test3"}
+{"id": "u0042", "kind": "table_lookup", "pages": [["bni_2024", 1527]], "split": "test3"}
+{"id": "u0043", "kind": "table_lookup", "pages": [["bni_2025", 1054]], "split": "test3"}
+{"id": "u0044", "kind": "table_lookup", "pages": [["bri_2024", 407]], "split": "test3"}
+{"id": "u0045", "kind": "calculation", "pages": [["bca_2025", 554]], "split": "test3"}
+{"id": "u0046", "kind": "calculation", "pages": [["bni_2024", 287]], "split": "test3"}
+{"id": "u0047", "kind": "calculation", "pages": [["bni_2025", 962]], "split": "test3"}
+{"id": "u0048", "kind": "calculation", "pages": [["bri_2024", 600]], "split": "test3"}
+{"id": "u0049", "kind": "calculation", "pages": [["bri_2025", 229]], "split": "test3"}
+{"id": "u0050", "kind": "calculation", "pages": [["btn_2024", 196]], "split": "test3"}
+{"id": "u0051", "kind": "calculation", "pages": [["btn_2025", 1368]], "split": "test3"}
+{"id": "u0052", "kind": "calculation", "pages": [["mandiri_2024", 1493]], "split": "test3"}
+{"id": "u0053", "kind": "calculation", "pages": [["mandiri_2025", 982]], "split": "test3"}
+{"id": "u0054", "kind": "calculation", "pages": [["bca_2025", 553]], "split": "test3"}
+{"id": "u0055", "kind": "calculation", "pages": [["bni_2024", 1475]], "split": "test3"}
+{"id": "u0056", "kind": "calculation", "pages": [["bni_2025", 698]], "split": "test3"}
+{"id": "u0057", "kind": "calculation", "pages": [["bri_2024", 352]], "split": "test3"}
+{"id": "u0058", "kind": "calculation", "pages": [["bri_2025", 575]], "split": "test3"}
+{"id": "u0059", "kind": "calculation", "pages": [["btn_2024", 602]], "split": "test3"}
+{"id": "u0060", "kind": "calculation", "pages": [["btn_2025", 845]], "split": "test3"}
+{"id": "u0061", "kind": "calculation", "pages": [["mandiri_2024", 527]], "split": "test3"}
+{"id": "u0062", "kind": "calculation", "pages": [["mandiri_2025", 325]], "split": "test3"}
+{"id": "u0063", "kind": "calculation", "pages": [["bca_2025", 140]], "split": "test3"}
+{"id": "u0064", "kind": "calculation", "pages": [["bni_2024", 985]], "split": "test3"}
+{"id": "u0065", "kind": "calculation", "pages": [["bni_2025", 136]], "split": "test3"}
+{"id": "u0066", "kind": "calculation", "pages": [["bri_2024", 420]], "split": "test3"}
+{"id": "u0067", "kind": "calculation", "pages": [["bri_2025", 286]], "split": "test3"}
+{"id": "u0068", "kind": "calculation", "pages": [["btn_2024", 30]], "split": "test3"}
+{"id": "u0069", "kind": "calculation", "pages": [["btn_2025", 518]], "split": "test3"}
+{"id": "u0070", "kind": "calculation", "pages": [["mandiri_2024", 668]], "split": "test3"}
+{"id": "u0071", "kind": "calculation", "pages": [["mandiri_2025", 641]], "split": "test3"}
+{"id": "u0072", "kind": "calculation", "pages": [["bca_2025", 521]], "split": "test3"}
+{"id": "u0073", "kind": "calculation", "pages": [["bni_2024", 1516]], "split": "test3"}
+{"id": "u0074", "kind": "calculation", "pages": [["bni_2025", 1041]], "split": "test3"}
+{"id": "u0075", "kind": "calculation", "pages": [["bri_2024", 479]], "split": "test3"}
+{"id": "u0076", "kind": "calculation", "pages": [["bri_2025", 38]], "split": "test3"}
+{"id": "u0077", "kind": "calculation", "pages": [["btn_2024", 1095]], "split": "test3"}
+{"id": "u0078", "kind": "calculation", "pages": [["btn_2025", 38]], "split": "test3"}
+{"id": "u0079", "kind": "calculation", "pages": [["mandiri_2024", 84]], "split": "test3"}
+{"id": "u0080", "kind": "calculation", "pages": [["mandiri_2025", 1193]], "split": "test3"}
+{"id": "u0081", "kind": "calculation", "pages": [["bca_2025", 281]], "split": "test3"}
+{"id": "u0082", "kind": "calculation", "pages": [["bni_2024", 673]], "split": "test3"}
+{"id": "u0083", "kind": "calculation", "pages": [["bni_2025", 784]], "split": "test3"}
+{"id": "u0084", "kind": "calculation", "pages": [["bri_2024", 1044]], "split": "test3"}
+{"id": "u0085", "kind": "calculation", "pages": [["bri_2025", 148]], "split": "test3"}
+{"id": "u0086", "kind": "calculation", "pages": [["btn_2024", 33]], "split": "test3"}
+{"id": "u0087", "kind": "calculation", "pages": [["btn_2025", 1214]], "split": "test3"}
+{"id": "u0088", "kind": "calculation", "pages": [["mandiri_2024", 226]], "split": "test3"}
+{"id": "u0089", "kind": "calculation", "pages": [["mandiri_2025", 841]], "split": "test3"}
+{"id": "u0090", "kind": "calculation", "pages": [["bca_2025", 283]], "split": "test3"}
+{"id": "u0091", "kind": "calculation", "pages": [["bni_2024", 1467]], "split": "test3"}
+{"id": "u0092", "kind": "calculation", "pages": [["bni_2025", 366]], "split": "test3"}
+{"id": "u0093", "kind": "calculation", "pages": [["bri_2024", 475]], "split": "test3"}
+{"id": "u0094", "kind": "calculation", "pages": [["bri_2025", 118]], "split": "test3"}
+{"id": "u0095", "kind": "calculation", "pages": [["btn_2024", 1107]], "split": "test3"}
+{"id": "u0096", "kind": "calculation", "pages": [["btn_2025", 865]], "split": "test3"}
+{"id": "u0097", "kind": "calculation", "pages": [["mandiri_2024", 254]], "split": "test3"}
+{"id": "u0098", "kind": "calculation", "pages": [["mandiri_2025", 1444]], "split": "test3"}
+{"id": "u0099", "kind": "calculation", "pages": [["bca_2025", 520]], "split": "test3"}
+{"id": "u0100", "kind": "calculation", "pages": [["bni_2024", 1127]], "split": "test3"}
+{"id": "u0101", "kind": "calculation", "pages": [["bni_2025", 1238]], "split": "test3"}
+{"id": "u0102", "kind": "calculation", "pages": [["bri_2024", 1203]], "split": "test3"}
+{"id": "u0103", "kind": "calculation", "pages": [["bri_2025", 1161]], "split": "test3"}
+{"id": "u0104", "kind": "calculation", "pages": [["btn_2024", 1111]], "split": "test3"}
+{"id": "u0105", "kind": "calculation", "pages": [["btn_2025", 1217]], "split": "test3"}
+{"id": "u0106", "kind": "calculation", "pages": [["mandiri_2024", 241]], "split": "test3"}
+{"id": "u0107", "kind": "calculation", "pages": [["mandiri_2025", 1252]], "split": "test3"}
+{"id": "u0108", "kind": "calculation", "pages": [["bca_2025", 567]], "split": "test3"}
+{"id": "u0109", "kind": "calculation", "pages": [["bni_2024", 1111]], "split": "test3"}
+{"id": "u0110", "kind": "calculation", "pages": [["bni_2025", 305]], "split": "test3"}
+{"id": "u0111", "kind": "calculation", "pages": [["bri_2024", 1051]], "split": "test3"}
+{"id": "u0112", "kind": "calculation", "pages": [["bri_2025", 1331]], "split": "test3"}
+{"id": "u0113", "kind": "calculation", "pages": [["btn_2024", 1085]], "split": "test3"}
+{"id": "u0114", "kind": "calculation", "pages": [["btn_2025", 1230]], "split": "test3"}
+{"id": "u0115", "kind": "chart", "pages": [["bni_2024", 242]], "split": "test3"}
+{"id": "u0116", "kind": "chart", "pages": [["bni_2025", 1017]], "split": "test3"}
+{"id": "u0117", "kind": "chart", "pages": [["bri_2024", 498]], "split": "test3"}
+{"id": "u0118", "kind": "chart", "pages": [["bri_2025", 42]], "split": "test3"}
+{"id": "u0119", "kind": "chart", "pages": [["btn_2024", 231]], "split": "test3"}
+{"id": "u0120", "kind": "chart", "pages": [["btn_2025", 751]], "split": "test3"}
+{"id": "u0121", "kind": "chart", "pages": [["mandiri_2024", 773]], "split": "test3"}
+{"id": "u0122", "kind": "chart", "pages": [["mandiri_2025", 274]], "split": "test3"}
+{"id": "u0123", "kind": "chart", "pages": [["bni_2024", 61]], "split": "test3"}
+{"id": "u0124", "kind": "chart", "pages": [["bni_2025", 985]], "split": "test3"}
+{"id": "u0125", "kind": "chart", "pages": [["bri_2024", 755]], "split": "test3"}
+{"id": "u0126", "kind": "chart", "pages": [["bri_2025", 872]], "split": "test3"}
+{"id": "u0127", "kind": "chart", "pages": [["btn_2024", 834]], "split": "test3"}
+{"id": "u0128", "kind": "chart", "pages": [["btn_2025", 731]], "split": "test3"}
+{"id": "u0129", "kind": "chart", "pages": [["mandiri_2024", 1306]], "split": "test3"}
+{"id": "u0130", "kind": "chart", "pages": [["mandiri_2025", 415]], "split": "test3"}
+{"id": "u0131", "kind": "chart", "pages": [["bni_2024", 692]], "split": "test3"}
+{"id": "u0132", "kind": "chart", "pages": [["bni_2025", 829]], "split": "test3"}
+{"id": "u0133", "kind": "chart", "pages": [["bri_2024", 152]], "split": "test3"}
+{"id": "u0134", "kind": "chart", "pages": [["bri_2025", 481]], "split": "test3"}
+{"id": "u0135", "kind": "chart", "pages": [["btn_2024", 105]], "split": "test3"}
+{"id": "u0136", "kind": "chart", "pages": [["btn_2025", 956]], "split": "test3"}
+{"id": "u0137", "kind": "chart", "pages": [["mandiri_2024", 358]], "split": "test3"}
+{"id": "u0138", "kind": "chart", "pages": [["mandiri_2025", 56]], "split": "test3"}
+{"id": "u0139", "kind": "chart", "pages": [["bni_2024", 29]], "split": "test3"}
+{"id": "u0140", "kind": "chart", "pages": [["bni_2025", 891]], "split": "test3"}
+{"id": "u0141", "kind": "chart", "pages": [["bri_2024", 806]], "split": "test3"}
+{"id": "u0142", "kind": "chart", "pages": [["bri_2025", 128]], "split": "test3"}
+{"id": "u0143", "kind": "chart", "pages": [["btn_2024", 486]], "split": "test3"}
+{"id": "u0144", "kind": "chart", "pages": [["btn_2025", 71]], "split": "test3"}
+{"id": "u0145", "kind": "chart", "pages": [["mandiri_2024", 5]], "split": "test3"}
+{"id": "u0146", "kind": "chart", "pages": [["mandiri_2025", 10]], "split": "test3"}
+{"id": "u0147", "kind": "chart", "pages": [["bni_2024", 619]], "split": "test3"}
+{"id": "u0148", "kind": "chart", "pages": [["bni_2025", 765]], "split": "test3"}
+{"id": "u0149", "kind": "chart", "pages": [["bri_2024", 19]], "split": "test3"}
+{"id": "u0150", "kind": "chart", "pages": [["bri_2025", 295]], "split": "test3"}
+{"id": "u0151", "kind": "chart", "pages": [["btn_2024", 670]], "split": "test3"}
+{"id": "u0152", "kind": "chart", "pages": [["btn_2025", 875]], "split": "test3"}
+{"id": "u0153", "kind": "chart", "pages": [["mandiri_2024", 964]], "split": "test3"}
+{"id": "u0154", "kind": "chart", "pages": [["mandiri_2025", 896]], "split": "test3"}
+{"id": "u0155", "kind": "chart", "pages": [["bni_2024", 59]], "split": "test3"}
+{"id": "u0156", "kind": "chart", "pages": [["bni_2025", 1442]], "split": "test3"}
+{"id": "u0157", "kind": "chart", "pages": [["bri_2024", 55]], "split": "test3"}
+{"id": "u0158", "kind": "chart", "pages": [["bri_2025", 73]], "split": "test3"}
+{"id": "u0159", "kind": "chart", "pages": [["btn_2024", 545]], "split": "test3"}
+{"id": "u0160", "kind": "chart", "pages": [["btn_2025", 164]], "split": "test3"}
+{"id": "u0161", "kind": "chart", "pages": [["mandiri_2024", 1365]], "split": "test3"}
+{"id": "u0162", "kind": "chart", "pages": [["mandiri_2025", 146]], "split": "test3"}
+{"id": "u0163", "kind": "chart", "pages": [["bni_2024", 67]], "split": "test3"}
+{"id": "u0164", "kind": "chart", "pages": [["bni_2025", 893]], "split": "test3"}
+{"id": "u0165", "kind": "chart", "pages": [["bri_2024", 299]], "split": "test3"}
+{"id": "u0166", "kind": "chart", "pages": [["bri_2025", 753]], "split": "test3"}
+{"id": "u0167", "kind": "chart", "pages": [["btn_2024", 226]], "split": "test3"}
+{"id": "u0168", "kind": "chart", "pages": [["btn_2025", 750]], "split": "test3"}
+{"id": "u0169", "kind": "chart", "pages": [["mandiri_2024", 1190]], "split": "test3"}
+{"id": "u0170", "kind": "chart", "pages": [["mandiri_2025", 150]], "split": "test3"}
+{"id": "u0171", "kind": "chart", "pages": [["bni_2024", 776]], "split": "test3"}
+{"id": "u0172", "kind": "chart", "pages": [["bni_2025", 78]], "split": "test3"}
+{"id": "u0173", "kind": "chart", "pages": [["bri_2024", 746]], "split": "test3"}
+{"id": "u0174", "kind": "chart", "pages": [["bri_2025", 809]], "split": "test3"}
+{"id": "u0175", "kind": "chart", "pages": [["btn_2024", 476]], "split": "test3"}
+{"id": "u0176", "kind": "chart", "pages": [["btn_2025", 740]], "split": "test3"}
+{"id": "u0177", "kind": "chart", "pages": [["mandiri_2024", 357]], "split": "test3"}
+{"id": "u0178", "kind": "chart", "pages": [["mandiri_2025", 11]], "split": "test3"}
+{"id": "u0179", "kind": "chart", "pages": [["bni_2024", 1047]], "split": "test3"}
+{"id": "u0180", "kind": "chart", "pages": [["bni_2025", 607]], "split": "test3"}
+{"id": "u0181", "kind": "chart", "pages": [["bri_2024", 434]], "split": "test3"}
+{"id": "u0182", "kind": "chart", "pages": [["bri_2025", 75]], "split": "test3"}
+{"id": "u0183", "kind": "chart", "pages": [["btn_2024", 320]], "split": "test3"}
+{"id": "u0184", "kind": "chart", "pages": [["btn_2025", 105]], "split": "test3"}
+{"id": "u0185", "kind": "chart", "pages": [["mandiri_2024", 874]], "split": "test3"}
+{"id": "u0186", "kind": "chart", "pages": [["mandiri_2025", 552]], "split": "test3"}
+{"id": "u0187", "kind": "chart", "pages": [["bni_2024", 729]], "split": "test3"}
+{"id": "u0188", "kind": "chart", "pages": [["bni_2025", 1027]], "split": "test3"}
+{"id": "u0189", "kind": "chart", "pages": [["bri_2024", 40]], "split": "test3"}
+{"id": "u0190", "kind": "chart", "pages": [["bri_2025", 156]], "split": "test3"}
+{"id": "u0191", "kind": "chart", "pages": [["btn_2024", 598]], "split": "test3"}
+{"id": "u0192", "kind": "chart", "pages": [["btn_2025", 395]], "split": "test3"}
+{"id": "u0193", "kind": "chart", "pages": [["mandiri_2024", 87]], "split": "test3"}
+{"id": "u0194", "kind": "chart", "pages": [["mandiri_2025", 145]], "split": "test3"}
+{"id": "u0195", "kind": "chart", "pages": [["bni_2024", 325]], "split": "test3"}
+{"id": "u0196", "kind": "chart", "pages": [["bni_2025", 907]], "split": "test3"}
+{"id": "u0197", "kind": "chart", "pages": [["bri_2024", 20]], "split": "test3"}
+{"id": "u0198", "kind": "chart", "pages": [["bri_2025", 278]], "split": "test3"}
+{"id": "u0199", "kind": "chart", "pages": [["btn_2024", 262]], "split": "test3"}
+{"id": "u0200", "kind": "chart", "pages": [["btn_2025", 88]], "split": "test3"}
+{"id": "u0201", "kind": "chart", "pages": [["mandiri_2024", 448]], "split": "test3"}
+{"id": "u0202", "kind": "chart", "pages": [["mandiri_2025", 5]], "split": "test3"}
+{"id": "u0203", "kind": "chart", "pages": [["bni_2024", 887]], "split": "test3"}
+{"id": "u0204", "kind": "chart", "pages": [["bni_2025", 459]], "split": "test3"}
+{"id": "u0205", "kind": "chart", "pages": [["bri_2024", 594]], "split": "test3"}
+{"id": "u0206", "kind": "chart", "pages": [["bri_2025", 509]], "split": "test3"}
+{"id": "u0207", "kind": "chart", "pages": [["btn_2024", 469]], "split": "test3"}
+{"id": "u0208", "kind": "chart", "pages": [["mandiri_2024", 1324]], "split": "test3"}
+{"id": "u0209", "kind": "chart", "pages": [["mandiri_2025", 797]], "split": "test3"}
+{"id": "u0210", "kind": "chart", "pages": [["bni_2024", 1435]], "split": "test3"}
+{"id": "u0211", "kind": "chart", "pages": [["bni_2025", 933]], "split": "test3"}
+{"id": "u0212", "kind": "chart", "pages": [["bri_2024", 470]], "split": "test3"}
+{"id": "u0213", "kind": "chart", "pages": [["bri_2025", 126]], "split": "test3"}
+{"id": "u0214", "kind": "chart", "pages": [["btn_2024", 256]], "split": "test3"}
+{"id": "u0215", "kind": "chart", "pages": [["mandiri_2024", 544]], "split": "test3"}
+{"id": "u0216", "kind": "chart", "pages": [["mandiri_2025", 410]], "split": "test3"}
+{"id": "u0217", "kind": "chart", "pages": [["bni_2024", 448]], "split": "test3"}
+{"id": "u0218", "kind": "chart", "pages": [["bni_2025", 55]], "split": "test3"}
+{"id": "u0219", "kind": "chart", "pages": [["bri_2024", 220]], "split": "test3"}
+{"id": "u0220", "kind": "chart", "pages": [["bri_2025", 77]], "split": "test3"}
+{"id": "u0221", "kind": "chart", "pages": [["btn_2024", 302]], "split": "test3"}
+{"id": "u0222", "kind": "chart", "pages": [["mandiri_2024", 370]], "split": "test3"}
+{"id": "u0223", "kind": "chart", "pages": [["mandiri_2025", 306]], "split": "test3"}
+{"id": "u0224", "kind": "chart", "pages": [["bni_2024", 11]], "split": "test3"}
+{"id": "u0225", "kind": "chart", "pages": [["bni_2025", 1239]], "split": "test3"}
+{"id": "u0226", "kind": "chart", "pages": [["bri_2024", 812]], "split": "test3"}
+{"id": "u0227", "kind": "chart", "pages": [["bri_2025", 245]], "split": "test3"}
+{"id": "u0228", "kind": "chart", "pages": [["btn_2024", 548]], "split": "test3"}
+{"id": "u0229", "kind": "chart", "pages": [["mandiri_2024", 543]], "split": "test3"}
+{"id": "u0230", "kind": "chart", "pages": [["mandiri_2025", 205]], "split": "test3"}
+{"id": "u0231", "kind": "chart", "pages": [["bni_2024", 189]], "split": "test3"}
+{"id": "u0232", "kind": "chart", "pages": [["bni_2025", 1137]], "split": "test3"}
+{"id": "u0233", "kind": "chart", "pages": [["bri_2025", 293]], "split": "test3"}
+{"id": "u0234", "kind": "chart", "pages": [["btn_2024", 195]], "split": "test3"}
+{"id": "u0235", "kind": "chart", "pages": [["mandiri_2024", 1694]], "split": "test3"}
+{"id": "u0236", "kind": "chart", "pages": [["mandiri_2025", 273]], "split": "test3"}
+{"id": "u0237", "kind": "chart", "pages": [["bni_2024", 812]], "split": "test3"}
+{"id": "u0238", "kind": "chart", "pages": [["bni_2025", 47]], "split": "test3"}
+{"id": "u0239", "kind": "chart", "pages": [["bri_2025", 227]], "split": "test3"}
+{"id": "u0240", "kind": "chart", "pages": [["btn_2024", 51]], "split": "test3"}
+{"id": "u0241", "kind": "chart", "pages": [["mandiri_2024", 708]], "split": "test3"}
+{"id": "u0242", "kind": "chart", "pages": [["mandiri_2025", 20]], "split": "test3"}
+{"id": "u0243", "kind": "chart", "pages": [["bni_2024", 465]], "split": "test3"}
+{"id": "u0244", "kind": "chart", "pages": [["bni_2025", 125]], "split": "test3"}
+{"id": "u0245", "kind": "chart", "pages": [["bri_2025", 79]], "split": "test3"}
+{"id": "u0246", "kind": "chart", "pages": [["btn_2024", 819]], "split": "test3"}
+{"id": "u0247", "kind": "chart", "pages": [["mandiri_2024", 61]], "split": "test3"}
+{"id": "u0248", "kind": "chart", "pages": [["mandiri_2025", 25]], "split": "test3"}
+{"id": "u0249", "kind": "chart", "pages": [["bni_2024", 435]], "split": "test3"}
+{"id": "u0250", "kind": "chart", "pages": [["bni_2025", 267]], "split": "test3"}
+{"id": "u0251", "kind": "chart", "pages": [["bri_2025", 59]], "split": "test3"}
+{"id": "u0252", "kind": "chart", "pages": [["btn_2024", 734]], "split": "test3"}
+{"id": "u0253", "kind": "chart", "pages": [["mandiri_2024", 286]], "split": "test3"}
+{"id": "u0254", "kind": "chart", "pages": [["mandiri_2025", 868]], "split": "test3"}
+{"id": "u0255", "kind": "chart", "pages": [["bni_2024", 1063]], "split": "test3"}
+{"id": "u0256", "kind": "chart", "pages": [["bni_2025", 344]], "split": "test3"}
+{"id": "u0257", "kind": "chart", "pages": [["bri_2025", 769]], "split": "test3"}
+{"id": "u0258", "kind": "chart", "pages": [["btn_2024", 19]], "split": "test3"}
+{"id": "u0259", "kind": "chart", "pages": [["mandiri_2024", 10]], "split": "test3"}
+{"id": "u0260", "kind": "chart", "pages": [["mandiri_2025", 420]], "split": "test3"}
+{"id": "u0261", "kind": "chart", "pages": [["bni_2024", 253]], "split": "test3"}
+{"id": "u0262", "kind": "chart", "pages": [["bni_2025", 883]], "split": "test3"}
+{"id": "u0263", "kind": "chart", "pages": [["bri_2025", 259]], "split": "test3"}
+{"id": "u0264", "kind": "chart", "pages": [["btn_2024", 544]], "split": "test3"}
+{"id": "u0265", "kind": "regulation", "pages": [["bi_padg_20_2023", 23]], "split": "test3"}
+{"id": "u0266", "kind": "regulation", "pages": [["bi_padg_22_2026", 11]], "split": "test3"}
+{"id": "u0267", "kind": "regulation", "pages": [["bi_padg_23_2025", 36]], "split": "test3"}
+{"id": "u0268", "kind": "regulation", "pages": [["bi_padg_26_2026", 11]], "split": "test3"}
+{"id": "u0269", "kind": "regulation", "pages": [["bi_padg_27_2025", 14]], "split": "test3"}
+{"id": "u0270", "kind": "regulation", "pages": [["bi_pbi_3_2023", 31]], "split": "test3"}
+{"id": "u0271", "kind": "regulation", "pages": [["bi_pbi_6_2026", 48]], "split": "test3"}
+{"id": "u0272", "kind": "regulation", "pages": [["bi_pbi_6_2026__faq", 10]], "split": "test3"}
+{"id": "u0273", "kind": "regulation", "pages": [["ojk_pedoman_ai_perbankan_2025", 88]], "split": "test3"}
+{"id": "u0274", "kind": "regulation", "pages": [["ojk_pojk_11_2016", 33]], "split": "test3"}
+{"id": "u0275", "kind": "regulation", "pages": [["ojk_pojk_11_2022", 65]], "split": "test3"}
+{"id": "u0276", "kind": "regulation", "pages": [["ojk_pojk_17_2023", 7]], "split": "test3"}
+{"id": "u0277", "kind": "regulation", "pages": [["ojk_pojk_18_2016", 32]], "split": "test3"}
+{"id": "u0278", "kind": "regulation", "pages": [["ojk_pojk_21_2023", 29]], "split": "test3"}
+{"id": "u0279", "kind": "regulation", "pages": [["ojk_pojk_22_2023", 38]], "split": "test3"}
+{"id": "u0280", "kind": "cross_doc", "pages": [["btn_2024", 1017], ["bri_2024", 1142]], "split": "test3", "term": "Kredit yang Diberikan", "in_facts_table": false}
+{"id": "u0281", "kind": "cross_doc", "pages": [["btn_2025", 1297], ["bri_2025", 1315]], "split": "test3", "term": "Kredit yang Diberikan", "in_facts_table": false}
+{"id": "u0282", "kind": "cross_doc", "pages": [["bri_2025", 1406], ["mandiri_2025", 347]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0283", "kind": "cross_doc", "pages": [["bca_2025", 572], ["bri_2025", 500]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0284", "kind": "cross_doc", "pages": [["mandiri_2025", 960], ["bca_2025", 600]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0285", "kind": "cross_doc", "pages": [["bni_2024", 1469], ["bri_2024", 280]], "split": "test3", "term": "Total Aset", "in_facts_table": true}
+{"id": "u0286", "kind": "cross_doc", "pages": [["mandiri_2025", 317], ["btn_2025", 344]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0287", "kind": "cross_doc", "pages": [["bni_2024", 32], ["bri_2024", 1127]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0288", "kind": "cross_doc", "pages": [["bri_2025", 1276], ["btn_2025", 1345]], "split": "test3", "term": "Total Aset", "in_facts_table": true}
+{"id": "u0289", "kind": "cross_doc", "pages": [["bri_2025", 338], ["bca_2025", 560]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0290", "kind": "cross_doc", "pages": [["mandiri_2025", 346], ["btn_2025", 477]], "split": "test3", "term": "Ekuitas", "in_facts_table": false}
+{"id": "u0291", "kind": "cross_doc", "pages": [["bca_2025", 571], ["mandiri_2025", 1394]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0292", "kind": "cross_doc", "pages": [["bni_2024", 535], ["mandiri_2024", 401]], "split": "test3", "term": "Ekuitas", "in_facts_table": false}
+{"id": "u0293", "kind": "cross_doc", "pages": [["mandiri_2025", 1228], ["btn_2025", 1320]], "split": "test3", "term": "Total Aset", "in_facts_table": true}
+{"id": "u0294", "kind": "cross_doc", "pages": [["bni_2024", 372], ["bri_2024", 1043]], "split": "test3", "term": "Dana Pihak Ketiga", "in_facts_table": false}
+{"id": "u0295", "kind": "cross_doc", "pages": [["btn_2025", 1353], ["mandiri_2025", 1349]], "split": "test3", "term": "Kredit yang Diberikan", "in_facts_table": false}
+{"id": "u0296", "kind": "cross_doc", "pages": [["bri_2025", 980], ["mandiri_2025", 1464]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0297", "kind": "cross_doc", "pages": [["bni_2024", 1350], ["mandiri_2024", 1537]], "split": "test3", "term": "ATM", "in_facts_table": false}
+{"id": "u0298", "kind": "cross_doc", "pages": [["bni_2024", 248], ["bri_2024", 228]], "split": "test3", "term": "Dana Pihak Ketiga", "in_facts_table": false}
+{"id": "u0299", "kind": "cross_doc", "pages": [["btn_2025", 332], ["bni_2025", 298]], "split": "test3", "term": "CASA", "in_facts_table": true}
+{"id": "u0300", "kind": "cross_doc", "pages": [["bri_2025", 979], ["mandiri_2025", 318]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0301", "kind": "cross_doc", "pages": [["bri_2024", 538], ["btn_2024", 629]], "split": "test3", "term": "ATM", "in_facts_table": false}
+{"id": "u0302", "kind": "cross_doc", "pages": [["bri_2024", 1074], ["mandiri_2024", 1674]], "split": "test3", "term": "Tabungan", "in_facts_table": false}
+{"id": "u0303", "kind": "cross_doc", "pages": [["bri_2024", 1247], ["mandiri_2024", 1281]], "split": "test3", "term": "Ekuitas", "in_facts_table": false}
+{"id": "u0304", "kind": "cross_doc", "pages": [["bri_2024", 1132], ["mandiri_2024", 1623]], "split": "test3", "term": "Total Aset", "in_facts_table": true}
+{"id": "u0305", "kind": "cross_doc", "pages": [["bri_2024", 706], ["bni_2024", 1196]], "split": "test3", "term": "Agen", "in_facts_table": false}
+{"id": "u0306", "kind": "cross_doc", "pages": [["btn_2024", 1039], ["mandiri_2024", 1666]], "split": "test3", "term": "Tabungan", "in_facts_table": false}
+{"id": "u0307", "kind": "cross_doc", "pages": [["bni_2024", 1308], ["btn_2024", 55]], "split": "test3", "term": "Deposito", "in_facts_table": false}
+{"id": "u0308", "kind": "cross_doc", "pages": [["mandiri_2024", 1282], ["btn_2024", 642]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0309", "kind": "cross_doc", "pages": [["bca_2025", 212], ["mandiri_2025", 366]], "split": "test3", "term": "Laba Bersih", "in_facts_table": true}
+{"id": "u0310", "kind": "cross_doc", "pages": [["mandiri_2024", 1092], ["bni_2024", 1531]], "split": "test3", "term": "Ekuitas", "in_facts_table": false}
+{"id": "u0311", "kind": "cross_doc", "pages": [["mandiri_2024", 1718], ["bri_2024", 297]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0312", "kind": "cross_doc", "pages": [["btn_2024", 323], ["mandiri_2024", 420]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}
+{"id": "u0313", "kind": "cross_doc", "pages": [["btn_2025", 349], ["bri_2025", 1390]], "split": "test3", "term": "Total Aset", "in_facts_table": true}
+{"id": "u0314", "kind": "cross_doc", "pages": [["bca_2025", 551], ["mandiri_2025", 1380]], "split": "test3", "term": "Kredit yang Diberikan", "in_facts_table": false}
+{"id": "u0315", "kind": "cross_doc", "pages": [["bca_2025", 18], ["mandiri_2025", 922]], "split": "test3", "term": "Laba Bersih", "in_facts_table": true}
+{"id": "u0316", "kind": "cross_doc", "pages": [["mandiri_2025", 6], ["btn_2025", 33]], "split": "test3", "term": "Dividen", "in_facts_table": false}
+{"id": "u0317", "kind": "cross_doc", "pages": [["bni_2025", 403], ["btn_2025", 361]], "split": "test3", "term": "Dividen", "in_facts_table": false}
+{"id": "u0318", "kind": "cross_doc", "pages": [["mandiri_2025", 1395], ["btn_2025", 1439]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0319", "kind": "cross_doc", "pages": [["mandiri_2024", 395], ["bni_2024", 537]], "split": "test3", "term": "Ekuitas", "in_facts_table": false}
+{"id": "u0320", "kind": "cross_doc", "pages": [["bri_2025", 1322], ["btn_2025", 1237]], "split": "test3", "term": "Tabungan", "in_facts_table": false}
+{"id": "u0321", "kind": "cross_doc", "pages": [["bni_2024", 1528], ["mandiri_2024", 1039]], "split": "test3", "term": "Ekuitas", "in_facts_table": false}
+{"id": "u0322", "kind": "cross_doc", "pages": [["bni_2024", 1464], ["bri_2024", 298]], "split": "test3", "term": "Giro", "in_facts_table": false}
+{"id": "u0323", "kind": "cross_doc", "pages": [["bri_2024", 149], ["btn_2024", 1033]], "split": "test3", "term": "ATM", "in_facts_table": false}
+{"id": "u0324", "kind": "cross_doc", "pages": [["bri_2025", 1328], ["btn_2025", 1078]], "split": "test3", "term": "Beban Operasional", "in_facts_table": false}

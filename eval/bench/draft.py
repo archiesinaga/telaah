@@ -34,7 +34,7 @@ MODEL = os.getenv("DRAFT_MODEL", "gemini-3.5-flash-lite")
 INTERVAL = float(os.getenv("DRAFT_MIN_INTERVAL", "4.5"))
 BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 PAGES = HERE / "pages.jsonl"
-OUT = {s: HERE / f"candidates_{s}.jsonl" for s in ("dev", "test")}
+OUT = {s: HERE / f"candidates_{s}.jsonl" for s in ("dev", "test", "test3")}  # test3 = test v3 (BENCHMARK.md 2026-11-27)
 DONE = HERE / "drafted_pages.jsonl"  # page ids drafted (also those with zero questions), split-free log
 OPS = ["growth_pct", "difference", "sum", "ratio_pct", "ratio", "mean"]
 

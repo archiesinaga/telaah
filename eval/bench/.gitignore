@@ -11,3 +11,9 @@ archive_test_v1/
 # test v2 audit (verdict notes may quote questions)
 audit_sample_*.json
 audit_*.jsonl
+
+# blind test v3 split (BENCHMARK.md Status 2026-11-27)
+test3.jsonl
+candidates_test3.jsonl
+reviewed_test3.jsonl
+user_test3.jsonl
