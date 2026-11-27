@@ -86,6 +86,16 @@ def test_scope_below_the_bank_is_not_answered_from_the_table():
     assert facts.parse_question("Total aset BTN cabang Natuna 2025") is None
 
 
+def test_subsidiary_is_not_answered_from_the_bank_table():
+    # dev bd0277 / bd0136: a subsidiary's figure must not get the parent bank's row
+    q = "Berapakah persentase pertumbuhan laba bersih PT BRI Manajemen Investasi pada Laporan Tahunan 2024 BRI dari tahun 2023 ke tahun 2024?"
+    assert facts.parse_question(q) is None and facts.sheet(q, partial=True) is None
+    assert facts.parse_question("Berapakah jumlah aset PT Pegadaian menurut Laporan Tahunan BRI 2024?") is None
+    assert facts.answer_step("Berapa laba bersih BRI tahun 2023?", q) is None  # the step dropped the subsidiary name
+    # the bank itself, written with PT, is still the bank
+    assert facts.parse_question("Berapa laba bersih PT Bank Rakyat Indonesia (Persero) Tbk tahun 2024?") is not None
+
+
 @pytest.mark.requires_full_corpus
 def test_step_year_must_be_asked_by_the_question():
     q = "Berapa laba bersih BRI tahun 2024 menurut laporan tahunan 2024, dan berapa angka 2024 setelah penyajian kembali di laporan tahunan 2025?"

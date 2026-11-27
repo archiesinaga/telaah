@@ -304,6 +304,9 @@ Q_SHADOWS = {"npl_net": "npl_gross", "cet1": "tier1", "tier1": "car"}
 # turn an unanswerable question into a confident wrong answer (t060: NPL of BRI "di Kecamatan Pulau Tiga").
 Q_SKIP = re.compile(r"grafik|kuartal|triwulan|semester|atribusi|diatribusikan|segmen|anak perusahaan|industri"
                     r"|kecamatan|kabupaten|\bkota\b|provinsi|wilayah|regional|kanwil|cabang|kantor|\bdi\s+(?:pulau|daerah)", re.I)
+# a company named "PT X" where X is not "Bank ...": a subsidiary or another firm (PT BRI Manajemen Investasi, PT Pegadaian);
+# the table holds the bank's own figures, so it must not answer (dev bd0277 got BRI's consolidated profit, bd0136)
+OTHER_PT_RE = re.compile(r"\bPT\.?\s+(?!Bank\b)[A-Z]")
 UNIT_TXT = {"jt": "juta Rupiah", "mi": "miliar Rupiah", "tn": "triliun Rupiah"}
 BANK_NAME = {"bri": "BRI", "mandiri": "Bank Mandiri", "btn": "BTN", "bca": "BCA", "bni": "BNI"}
 
@@ -340,7 +343,7 @@ def parse_question(q: str) -> tuple[list[str], set[str], list[int], int | None] 
     cannot answer. '2021 sampai 2025' expands to every year in between."""
     from telaah.filters import BANKS, SOURCE_RE
 
-    if Q_SKIP.search(q) or unknown_banks(q):
+    if Q_SKIP.search(q) or OTHER_PT_RE.search(q) or unknown_banks(q):
         return None
     ql = q.lower()
     banks = sorted((m.start(), b) for b, pat in BANKS.items() if (m := re.search(pat, ql)))
@@ -387,8 +390,8 @@ def answer_step(q: str, question: str | None = None, docs: list[str] | None = No
     with exactly one asked year it is corrected to that year, otherwise the step is left to RAG.
     `docs`: the one report an entity step must read (its year becomes the report year)."""
     parsed = parse_step(q)
-    if not parsed:
-        return None
+    if not parsed or (question is not None and OTHER_PT_RE.search(question)):
+        return None  # a step may drop the "PT" of a subsidiary the question names ("BRI Manajemen Investasi laba 2023")
     bank, ind, year, report_year = parsed
     if docs and len(docs) == 1 and (m := REPORT_RE.match(docs[0])) and m.group(1) == bank:
         report_year = int(m.group(2))
@@ -487,7 +490,7 @@ def restatement(q: str) -> dict | None:
     disajikan kembali di Laporan Tahunan 2025"): both lookups, each strictly from its own report."""
     from telaah.filters import SOURCE_RE
 
-    if Q_SKIP.search(q) or unknown_banks(q):
+    if Q_SKIP.search(q) or OTHER_PT_RE.search(q) or unknown_banks(q):
         return None
     reports = sorted({int(y) for y in SOURCE_RE.findall(q.lower())})
     p = parse_question(q)
