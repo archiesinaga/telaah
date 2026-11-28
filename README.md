@@ -169,6 +169,8 @@ All 8 unanswerable questions were refused. With 100 questions the 95% interval o
 
 Read per-type numbers as indicative only (n = 10-20; one question moves a score by 5-10 points). Cross-document is the weak spot: dev looks strong (recall 0.985) because dev cross-document questions were built from the same facts table the system reads; the test ones are written from detail tables the facts table does not cover.
 
+**Detail-table cross-document diagnosis (dev only).** To see why cross-document questions outside the facts table fail, I built a separate dev set of 30 two-bank questions from detail tables (written and re-verified by a Claude agent; model-written, not human-reviewed; none in the facts table; pages disjoint from dev and both test splits). Baseline: numeric 0.067 (2 of 30). Of 60 per-bank figure reads, 23 are right, 22 read the wrong cell of a retrieved page, 15 never retrieve the page. Part of the wrong-cell group is a bug of mine: a question asking for the bank-only figure is rewritten to ask for the consolidated one. This is a diagnostic set that the system was inspected on, not a held-out score; the fix is not done yet. A small composition fix (gap and winner computed in Python) is in; its effect is about +1 question, from a replay of stored traces.
+
 ### Test v3 (140 questions): the post-freeze changes, frozen vs current code
 
 The changes made after the test v2 freeze (cross-document template, step-wise calculation, two-year page re-read, subsidiary guard) were checked on a new split of 140 questions built before any run (`eval/BENCHMARK.md`): the frozen code (`test-v2-freeze`) and the current code were each run once on the same questions.
