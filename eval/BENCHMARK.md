@@ -267,3 +267,24 @@ and cross_doc rows `extra: {figures, op}` (the checked figures the gold was comp
   - Secondary, all types: 3 right->wrong, 9 wrong->right, p = 0.146. Chart, regulation, table_lookup, text_fact unchanged.
   - Caveats: test v3 is model-written/reviewed/audited, not human-reviewed; the n is small; no code change is made because of
     this result.
+- 2026-11-28: **cross_doc detail diagnostic set (DEV only, not a held-out set):** `eval/bench/crossdoc_detail_dev.jsonl`,
+  30 two-bank cross_doc rows (ids `xd0001`-`xd0030`, `source: crossdoc-detail-dev`, sha256 656954d7...). Purpose: find
+  why the system fails cross_doc questions on detail-table indicators the facts table does not cover (the test v3 A/B
+  gain came almost only from facts-table questions). Built from page text only, never from facts.sqlite; **model-written
+  and model-checked** (Claude subagent; every value re-found on its cited page, period/scope checked, gold recomputed),
+  not human-reviewed. Kept separate from `dev.jsonl` (unchanged, sha256 0250341f...).
+  - **Pool rule:** dev-hash pages only (unused test-hash pages stay free for a later held-out set), excluding
+    `sample_pages.v3_excluded()` plus every page of pages6.jsonl and every gold page of test v3 / user_test*.jsonl /
+    user_dev.jsonl, each with +-1 neighbours (split files read for page numbers only). `crossdoc_detail_pool.py`
+    (seed SEED+99) sampled 71 pairs (`crossdoc_detail_pairs.jsonl`; 68 on non-facts terms, 3 on facts terms; the facts
+    terms ran out of dev-hash pairs). As in test v3, no sampled pair had a comparable common figure, so pages were
+    recombined or picked by search under the same rule: 5 rows use two pool pages, 3 one, 22 none; 43 distinct pages.
+  - **Counts:** 2025 reports 18, 2024 reports 12; all five banks; pairs BRI-Mandiri 9, BRI-BNI 4, BRI-BTN 4, BCA-BTN 4,
+    BNI-Mandiri 3, BCA-BRI 2, BTN-Mandiri 2, BCA-Mandiri 2. `in_facts_table` false for 30 of 30. Indicators are mostly
+    Pillar 3 templates (CR1, CR2, CRB, LI2, MR1, operational-risk ATMR, CC1) and financial-statement notes (giro pada BI,
+    penempatan, liabilitas segera, tagihan akseptasi, deposits, prepaid). Units: 28 juta Rupiah, 2 %.
+  - **Checks:** 30 of 30 passed the `import_cross_doc.py` checks (`--split dev`). Re-verification dropped 2 candidates
+    before import and replaced them: a placement-yield pair (column alignment of one table ambiguous) and an NSFR pair
+    (column says September 2025, report month says December 2025).
+  - **Tooling:** `import_cross_doc.py` gained `--source` (sets `source` and `extra.figures/op/in_facts_table`) and
+    `--id-prefix` (run_eval `id`); defaults unchanged. CSV: `crossdoc_detail_dev.csv`. Not run yet.

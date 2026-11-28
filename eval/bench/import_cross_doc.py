@@ -13,7 +13,7 @@ import csv
 from pathlib import Path
 
 from common import HERE, append_jsonl, norm, read_jsonl
-from userq import cross_doc_row
+from userq import _in_facts, cross_doc_row
 
 COLUMNS = ["question", "page_a", "page_b", "bank_a", "bank_b", "indicator", "value_a", "value_b", "unit"]
 
@@ -24,6 +24,9 @@ def main() -> None:
     ap.add_argument("--split", default="test", choices=["test", "dev", "test3"])
     ap.add_argument("--dry-run", action="store_true", help="check only, write nothing")
     ap.add_argument("--out", help="output jsonl (default eval/bench/user_{split}.jsonl)")
+    ap.add_argument("--source", help="tag each row with this source and add extra.figures/op/in_facts_table "
+                                     "(stand-alone sets that do not go through build.py, e.g. crossdoc-detail-dev)")
+    ap.add_argument("--id-prefix", help="give each row a run_eval id (and cid) <prefix>NNNN, e.g. xd -> xd0001")
     a = ap.parse_args()
     out = Path(a.out) if a.out else HERE / f"user_{a.split}.jsonl"
     with open(a.csv_file, encoding="utf-8-sig", newline="") as f:
@@ -51,6 +54,12 @@ def main() -> None:
         except ValueError as e:
             bad.append((i, str(e)))
             continue
+        if a.source:
+            row["source"] = a.source
+            row.setdefault("extra", {}).update({"figures": row["figures"], "op": row["op"],
+                                                "in_facts_table": _in_facts(r["indicator"] or "")})
+        if a.id_prefix:
+            row["id"] = row["cid"] = f"{a.id_prefix}{n + 1:04d}"
         seen.add(norm(q))
         n += 1
         ok += 1
