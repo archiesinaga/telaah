@@ -314,6 +314,9 @@ def compute(state: State) -> dict:
     pair = facts.pair_comparison(state["question"], state["steps"]) if USE_FACTS else None
     if pair:  # two table figures compared: the answer is written in Python, no calculator prompt
         return {"calc_result": None, "derived": pair, "pair": True, "trace": _log(state, "compute", t0, pair=pair)}
+    pg = stepcalc.pair_answer(state["question"], state["steps"]) if USE_STEPCALC else None
+    if pg:  # two banks, one detail-table figure each: gap and winner in Python
+        return {"calc_result": None, "derived": pg, "pair": True, "trace": _log(state, "compute", t0, pairgen=pg)}
     if USE_PAIRREAD and USE_STEPCALC and state.get("calc"):
         fixed = pairread.fix(_llm(), state["question"], state["steps"])
         two = stepcalc.answer(state["question"], fixed) if fixed else None

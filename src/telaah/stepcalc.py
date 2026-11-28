@@ -5,6 +5,7 @@ The calculator prompt asks the 7B to write the expression itself, unit conversio
 Rupiah" and "40,480,205 juta Rupiah" became `40480205000 - 40669669`). Here each step's figure and its unit word are
 read by code, brought to one unit, and the answer sentence is written in Python. Any failed check returns None and
 the calculator prompt answers as before."""
+import os
 import re
 
 from telaah.answer import CITE_RE
@@ -102,4 +103,51 @@ def answer(question: str, steps: list[dict]) -> list[str] | None:
     return [f"Selisih antara {years[0]} dan {years[1]} adalah {result}{unit} ({way}; {vals}) {cite}".rstrip() + "."]
 
 
-__all__ = ["answer", "figure", "periods", "fmt"]
+def pair_answer(question: str, steps: list[dict]) -> list[str] | None:
+    """Two banks, one detail-table item (outside the facts table), one period: gap and winner computed from the two
+    step figures in Python. On non-facts items the 7B composed the wrong winner or gap from two correct figures
+    (crossdoc detail dev, 3 of 5 questions with both figures right). None -> the normal compose path."""
+    from telaah import facts
+
+    if os.environ.get("TELAAH_PAIRGEN", "1") != "1":
+        return None
+    if not facts.PAIR_RE.search(question) or facts.PAIR_NOT_RE.search(question) or len(steps) != 2:
+        return None
+    if not all(s.get("status") == "ok" for s in steps) or len(periods(question)) > 1:
+        return None
+    banks = []
+    for s in steps:
+        docs = s.get("docs") or []
+        m = facts.REPORT_RE.match(docs[0]) if len(docs) == 1 else None
+        if not m:
+            return None
+        banks.append(m.group(1))
+    figs = [figure(s.get("answer", "")) for s in steps]
+    if banks[0] == banks[1] or None in figs or figs[0]["pct"] != figs[1]["pct"]:
+        return None
+    a, b = figs
+    exps = {f["exp"] for f in figs} - {None}
+    if len(exps) == 2:
+        base = min(exps)
+        va, vb = (f["value"] * 10 ** ((f["exp"] or base) - base) for f in figs)
+    else:
+        base = exps.pop() if exps else None
+        va, vb = a["value"], b["value"]
+    if base is None and not a["pct"]:
+        return None  # no unit word: the scale is unknown, keep the normal path
+    cites = []
+    for s in steps:
+        for c in s.get("citations") or []:
+            if tuple(c) not in cites:
+                cites.append(tuple(c))
+    cite = " ".join(f"[{d} p.{p}]" for d, p in cites)
+    unit = "poin persen" if a["pct"] else WORD[base] + (" Rupiah" if a["cur"] or b["cur"] else "")
+    head = f"{facts.BANK_NAME[banks[0]]} {a['text']}, {facts.BANK_NAME[banks[1]]} {b['text']} {cite}".rstrip() + "."
+    if va == vb:
+        return [head, "Kedua bank mencatat angka yang sama."]
+    hi, lo = (0, 1) if va > vb else (1, 0)
+    return [head, f"Selisih {fmt(abs(va - vb))} {unit}; {facts.BANK_NAME[banks[hi]]} lebih tinggi dibandingkan "
+                  f"{facts.BANK_NAME[banks[lo]]}."]
+
+
+__all__ = ["answer", "pair_answer", "figure", "periods", "fmt"]

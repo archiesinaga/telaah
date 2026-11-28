@@ -60,3 +60,26 @@ def test_falls_back_on_implausible_ratio():
     big_but_real = [step("Berapa laba Mandiri tahun 2024?", "adalah Rp1.705 juta [mandiri_2024 p.433]", ("mandiri_2024", 433)),
                     step("Berapa laba Mandiri tahun 2025?", "adalah Rp6.115 juta [mandiri_2025 p.358]", ("mandiri_2025", 358))]
     assert "258,65%" in stepcalc.answer("Berapa pertumbuhan laba Mandiri dari 2024 ke 2025?", big_but_real)[0]  # dev bd0221 stays
+
+
+def bank_step(doc, a, page):
+    return {"q": "x", "answer": a, "citations": [(doc, page)], "status": "ok", "docs": [doc]}
+
+
+def test_pair_answer_writes_gap_and_winner_for_two_banks():
+    q = "Mana yang lebih tinggi, total tabungan BRI atau Bank Mandiri per 31 Desember 2025? Sebutkan selisihnya."
+    steps = [bank_step("bri_2025", "Total tabungan adalah 587.585.862 juta Rupiah [bri_2025 p.322].", 322),
+             bank_step("mandiri_2025", "Total tabungan adalah Rp616.814.451 juta [mandiri_2025 p.5].", 5)]
+    lines = stepcalc.pair_answer(q, steps)
+    assert "Selisih 29.228.589 juta Rupiah; Bank Mandiri lebih tinggi dibandingkan BRI." in lines[1]
+    assert "[bri_2025 p.322] [mandiri_2025 p.5]" in lines[0]
+
+
+def test_pair_answer_declines_when_unsure():
+    q = "Berapa selisih CKPN antara BRI dan Bank Mandiri per 31 Desember 2025?"
+    ok = [bank_step("bri_2025", "CKPN adalah 10 juta [bri_2025 p.1].", 1), bank_step("mandiri_2025", "CKPN adalah 12 juta [mandiri_2025 p.2].", 2)]
+    assert stepcalc.pair_answer(q, ok) is not None
+    assert stepcalc.pair_answer(q, [ok[0], {**ok[1], "status": "failed"}]) is None  # a failed step
+    assert stepcalc.pair_answer(q, [ok[0], bank_step("bri_2025", "CKPN adalah 12 juta [bri_2025 p.2].", 2)]) is None  # same bank
+    assert stepcalc.pair_answer(q, [bank_step("bri_2025", "CKPN adalah 10.", 1), bank_step("mandiri_2025", "CKPN adalah 12.", 2)]) is None  # no unit word: scale unknown
+    assert stepcalc.pair_answer("Berapa pertumbuhan CKPN BRI dan Bank Mandiri?", ok) is None  # not a comparison
